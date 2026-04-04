@@ -16,6 +16,7 @@ interface Company {
   region?: string;
   short_description?: string;
   logo?: string;
+  logo_bg?: string | null;
   employee_count?: number | null;
 }
 
@@ -235,7 +236,7 @@ export default function CompanyListView({ companies, gameCountMap = {} }: Props)
               className="group flex flex-col rounded-xl border border-border bg-card p-4 shadow-sm transition-all hover:border-primary/40 hover:shadow-md"
             >
               <div className="mb-3 flex items-start justify-between gap-2">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-muted">
+                <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${company.logo_bg === "light" ? "bg-white" : company.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
                   {company.logo ? (
                     <img src={company.logo} alt="" className="h-7 w-7 object-contain" />
                   ) : (

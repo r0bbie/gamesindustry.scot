@@ -10,7 +10,8 @@
     "lat": 56.462,
     "lng": -2.975
   },
-  "logo": "/images/schools/abertay-university.svg",
+  "logo": "/images/schools/abertay-university.png",
+  "icon": "/images/schools/abertay-university-icon.svg",
   "website": "https://www.abertay.ac.uk",
   "about": "The University of Abertay Dundee is a pioneer in games education, having launched Europe's first dedicated computer games degree in 1997. Located in the heart of Dundee — a UNESCO City of Design — Abertay has built a world-class reputation for producing industry-ready graduates in game design, programming, art, and production. Ranked the top international school for video games design by the Princeton Review (2025), the university maintains close ties with the local and national games industry, and its graduates can be found at studios across Scotland and around the world.",
   "highlighted": true,

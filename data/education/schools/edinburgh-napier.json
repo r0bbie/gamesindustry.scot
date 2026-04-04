@@ -15,7 +15,8 @@
     "lat": 55.935,
     "lng": -3.214
   },
-  "logo": "",
+  "logo": "/images/schools/edinburgh-napier-university.png",
+  "icon": "/images/schools/edinburgh-napier-university-icon.jpg",
   "website": "https://www.napier.ac.uk",
   "about": "Edinburgh Napier University offers a range of computing and creative programmes with strong links to Scotland's games industry. The School of Computing, Engineering and the Built Environment runs dedicated games-focused degrees covering programming, animation, sound design, and interactive media. The university is known for its practical, industry-connected approach to teaching and its growing research output in areas including game audio and procedural content generation.",
   "highlighted": true,

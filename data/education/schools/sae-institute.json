@@ -13,7 +13,8 @@
     "lat": 55.861,
     "lng": -4.263
   },
-  "logo": "",
+  "logo": "/images/schools/sae-institute.svg",
+  "logo_bg": "light",
   "website": "https://www.sae.edu/gbr/",
   "about": "SAE Institute is one of the world's largest creative media educators, with over 50 campuses globally. The Glasgow campus delivers industry-focused degrees in game design, game art, games programming, audio, and visual effects — taught by experienced practitioners with active industry connections. SAE's hands-on, studio-based approach is designed to fast-track graduates into professional careers, with small class sizes and access to professional-grade facilities from day one. Degrees are available as a 2-year accelerated option or a standard 3-year programme.",
   "highlighted": false,

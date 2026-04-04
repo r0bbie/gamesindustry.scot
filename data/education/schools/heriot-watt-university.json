@@ -10,7 +10,8 @@
     "lat": 55.909,
     "lng": -3.322
   },
-  "logo": "",
+  "logo": "/images/schools/heriot-watt-university.svg",
+  "logo_bg": "light",
   "website": "https://www.hw.ac.uk",
   "about": "Heriot-Watt University is a leading research-intensive university based in Edinburgh, with campuses in Dubai, Malaysia, and online. Through the School of Mathematical and Computer Sciences, Heriot-Watt offers a dedicated Games Development and Production degree designed around the requirements of industry — delivered in Edinburgh, a city that has firmly established itself as a global gaming hub, home to Rockstar North, Epic Games, and Unity Technologies.",
   "highlighted": false,

@@ -76,6 +76,7 @@ const distinctLevelGroups = [feCourses, undergradCourses, postgradCourses].filte
   (g) => g.length > 0
 );
 const hasMultipleGroups = distinctLevelGroups.length > 1;
+const iconBg = school.logo_bg === "light" ? "bg-white" : school.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted";
 ---
 
 <BaseLayout title={school.name}>
@@ -84,10 +85,10 @@ const hasMultipleGroups = distinctLevelGroups.length > 1;
     <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
         <div class="flex items-start gap-4">
-          <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-muted">
-            {school.logo ? (
+          <div class={`flex h-16 w-16 shrink-0 items-center justify-center rounded-xl ${iconBg}`}>
+            {(school.icon ?? school.logo) ? (
               <img
-                src={school.logo}
+                src={school.icon ?? school.logo}
                 alt={`${school.name} logo`}
                 class="h-12 w-12 object-contain"
               />

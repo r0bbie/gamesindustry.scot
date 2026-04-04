@@ -17,6 +17,8 @@ const schoolsData = schools.map((s) => ({
   region: s.region ?? undefined,
   about: s.about ?? undefined,
   logo: s.logo ?? undefined,
+  icon: s.icon ?? undefined,
+  logo_bg: s.logo_bg ?? undefined,
   disciplines: s.disciplines,
   levels: [...new Set(s.courses.map((c) => c.level).filter(Boolean))] as string[],
 }));

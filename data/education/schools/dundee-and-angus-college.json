@@ -10,7 +10,8 @@
     "lat": 56.457,
     "lng": -2.977
   },
-  "logo": "",
+  "logo": "/images/schools/dundee-and-angus-college.jpg",
+  "icon": "/images/schools/dundee-and-angus-college-icon.jpg",
   "website": "https://dundeeandangus.ac.uk",
   "about": "Dundee and Angus College (D&A) operates across campuses in Dundee and Angus and is a major provider of creative media and computing education in Tayside. Its Computing & Creative Media department offers an industry-focused progression pathway from HNC through to degree level, with the unique addition of a BA (Hons) in Esports and Creative Industries — one of the few degree programmes of its kind in Scotland — accredited by the University of West London.",
   "highlighted": false,

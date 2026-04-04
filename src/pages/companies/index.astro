@@ -70,7 +70,7 @@ const categorySections = COMPANY_CATEGORIES.map((cat) => ({
                 href={`/companies/${company.slug}`}
                 class="group rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30 hover:bg-accent/50"
               >
-                <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg bg-muted">
+                <div class={`mb-3 flex h-12 w-12 items-center justify-center rounded-lg ${company.logo_bg === "light" ? "bg-white" : company.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
                   {company.logo ? (
                     <img
                       src={company.logo}

@@ -15,7 +15,8 @@
     "lat": 55.872,
     "lng": -4.305
   },
-  "logo": "",
+  "logo": "/images/schools/glasgow-clyde-college.svg",
+  "logo_bg": "light",
   "website": "https://www.glasgowclyde.ac.uk",
   "about": "Glasgow Clyde College operates across three campuses — Anniesland, Cardonald and Langside — and is one of the largest colleges in Scotland. It offers gaming and esports-related courses at both school-partnership and full-time college level, with strong links to British Esports and the local gaming community.",
   "highlighted": false,

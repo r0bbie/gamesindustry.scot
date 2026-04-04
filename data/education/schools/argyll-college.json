@@ -18,7 +18,8 @@
     "lat": 56.415,
     "lng": -5.472
   },
-  "logo": "",
+  "logo": "/images/schools/argyll-college.png",
+  "logo_bg": "dark",
   "website": "https://www.argyll.uhi.ac.uk",
   "about": "Argyll College UHI is part of the University of the Highlands and Islands network, delivering higher and further education across Argyll through a network of local learning centres in Oban, Campbeltown, Dunoon, Helensburgh, Islay, Lochgilphead and Rothesay. The college offers games development courses delivered via on-campus virtual classrooms, making specialist study accessible across the region.",
   "highlighted": false,

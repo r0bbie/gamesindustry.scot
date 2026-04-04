@@ -6,6 +6,7 @@ interface Props {
 }
 
 const { school } = Astro.props;
+const iconBg = school.logo_bg === "light" ? "bg-white" : school.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted";
 ---
 
 <a
@@ -13,9 +14,9 @@ const { school } = Astro.props;
   class="group rounded-xl border border-border bg-card text-card-foreground shadow transition-colors hover:border-primary/30 hover:shadow-md"
 >
   <div class="flex flex-col p-5">
-    <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg bg-muted">
-      {school.logo ? (
-        <img src={school.logo} alt={school.name} class="h-10 w-10 rounded-md object-contain" />
+    <div class={`mb-3 flex h-12 w-12 items-center justify-center rounded-lg ${iconBg}`}>
+      {(school.icon ?? school.logo) ? (
+        <img src={school.icon ?? school.logo} alt={school.name} class="h-10 w-10 rounded-md object-contain" />
       ) : (
         <svg class="h-6 w-6 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M22 10v6M2 10l10-5 10 5-10 5z" />

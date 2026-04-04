@@ -14,6 +14,8 @@ interface School {
   region?: string;
   about?: string;
   logo?: string;
+  icon?: string;
+  logo_bg?: string | null;
   disciplines: string[];
   levels: string[];
 }
@@ -194,9 +196,9 @@ export default function SchoolListView({ schools }: Props) {
             >
               <div className="flex flex-col p-5">
                 <div className="mb-3 flex items-start justify-between gap-2">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-muted">
-                    {school.logo ? (
-                      <img src={school.logo} alt={school.name} className="h-10 w-10 rounded-md object-contain" />
+                  <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-lg ${school.logo_bg === "light" ? "bg-white" : school.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
+                    {(school.icon ?? school.logo) ? (
+                      <img src={school.icon ?? school.logo} alt={school.name} className="h-10 w-10 rounded-md object-contain" />
                     ) : (
                       <svg className="h-6 w-6 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M22 10v6M2 10l10-5 10 5-10 5z" />

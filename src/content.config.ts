@@ -64,6 +64,7 @@ const companies = defineCollection({
     about: z.string().optional().nullable(),
     website: z.string().optional().nullable(),
     logo: z.string().optional().nullable(),
+    logo_bg: z.enum(["light", "dark"]).optional().nullable(),
     hero_image: z.string().optional().nullable(),
     highlighted: z.boolean().default(false),
     parent_entity: z
@@ -221,7 +222,9 @@ const schools = defineCollection({
     campuses: z.array(z.string()).optional().default([]),
     region: z.string().optional(),
     coordinates: coordinatesSchema,
-    logo: z.string().optional(),
+    logo: z.string().optional().nullable(),
+    icon: z.string().optional().nullable(),
+    logo_bg: z.enum(["light", "dark"]).optional().nullable(),
     website: z.string().optional(),
     about: z.string().optional(),
     highlighted: z.boolean().default(false),

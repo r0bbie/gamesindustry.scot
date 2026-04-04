@@ -15,7 +15,9 @@
     "lat": 55.977,
     "lng": -3.208
   },
-  "logo": "",
+  "logo": "/images/schools/edinburgh-college.png",
+  "logo_bg": "light",
+  "icon": "/images/schools/edinburgh-college-icon.png",
   "website": "https://www.edinburghcollege.ac.uk",
   "about": "Edinburgh College is one of Scotland's largest colleges, offering a wide range of courses across multiple campuses in Edinburgh and the Lothians. Its Computing department at Granton Campus offers a clear progression pathway in games development, from NC through to HND level, with strong links to university degree programmes at Edinburgh Napier, Glasgow Caledonian and Abertay universities.",
   "highlighted": false,

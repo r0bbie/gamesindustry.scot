@@ -15,7 +15,8 @@
     "lat": 56.112,
     "lng": -3.165
   },
-  "logo": "",
+  "logo": "/images/schools/fife-college.png",
+  "icon": "/images/schools/fife-college-icon.jpg",
   "website": "https://www.fife.ac.uk",
   "about": "Fife College is one of Scotland's largest regional colleges, with campuses across Fife. It offers a broad range of creative and computing courses including a clear progression pathway in games development and digital design — from introductory certificates through to HNC level — as well as sound production and digital media qualifications relevant to the games and creative industries.",
   "highlighted": false,

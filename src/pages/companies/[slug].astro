@@ -171,7 +171,7 @@ const recentNews = companyNews.slice(0, 5);
       >
         <div class="flex items-start gap-4">
           <div
-            class="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-muted"
+            class={`flex h-16 w-16 shrink-0 items-center justify-center rounded-xl ${company.logo_bg === "light" ? "bg-white" : company.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}
           >
             {company.logo ? (
               <img
@@ -804,7 +804,7 @@ const recentNews = companyNews.slice(0, 5);
                   href={`/companies/${c.slug}`}
                   class="group flex items-center gap-3 rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
                 >
-                  <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-muted">
+                  <div class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${c.logo_bg === "light" ? "bg-white" : c.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
                     {c.logo ? (
                       <img
                         src={c.logo}

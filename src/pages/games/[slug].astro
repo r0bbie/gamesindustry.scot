@@ -432,7 +432,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
               Developer
             </h3>
             <div class="mb-3 flex items-center gap-3">
-              <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-muted">
+              <div class={`flex h-10 w-10 items-center justify-center rounded-lg ${primaryDev.logo_bg === "light" ? "bg-white" : primaryDev.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
                 {primaryDev.logo ? (
                   <img
                     src={primaryDev.logo}

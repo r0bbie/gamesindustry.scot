@@ -15,7 +15,8 @@
     "lat": 55.878,
     "lng": -4.222
   },
-  "logo": "",
+  "logo": "/images/schools/glasgow-kelvin-college.svg",
+  "logo_bg": "dark",
   "website": "https://www.glasgowkelvin.ac.uk",
   "about": "Glasgow Kelvin College is a community-focused college operating across campuses in Springburn, East End and Easterhouse in Glasgow's north and east. Its Art & Design department at the East End campus offers creative courses for students at the beginning of their journey in digital media and design, with a clear pathway to HNC, HND and beyond.",
   "highlighted": false,

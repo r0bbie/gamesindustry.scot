@@ -15,7 +15,8 @@
     "lat": 55.841,
     "lng": -4.423
   },
-  "logo": "",
+  "logo": "/images/schools/west-college-scotland.svg",
+  "logo_bg": "light",
   "website": "https://www.westcollegescotland.ac.uk",
   "about": "West College Scotland serves communities across the west of Scotland from campuses in Paisley, Greenock and Clydebank. Its Computing & Games department offers a comprehensive pathway from NQ entry level through to HND, using industry-standard tools including Unity, Unreal Engine and the Adobe Creative Suite. The Sound Production department is a recognised Steinberg campus and offers opportunities to record at live venues including St Luke's Glasgow and the Beacon Arts Centre.",
   "highlighted": false,

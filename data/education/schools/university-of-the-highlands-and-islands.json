@@ -17,7 +17,9 @@
     "lat": 57.477,
     "lng": -4.224
   },
-  "logo": "",
+  "logo": "/images/schools/university-of-the-highlands-and-islands.png",
+  "icon": "/images/schools/university-of-the-highlands-and-islands-icon.png",
+  "logo_bg": "light",
   "website": "https://www.uhi.ac.uk",
   "about": "The University of the Highlands and Islands is Scotland's newest university, formed from a unique partnership of colleges and research institutions spread across the Highlands and Islands. UHI offers flexible, distributed learning that allows students to study from locations across the region — including Argyll, Moray, Fort William and Shetland. Through its computing and creative programmes, UHI provides pathways into the games and digital media industries for students across some of Scotland's most rural and remote communities.",
   "highlighted": false,

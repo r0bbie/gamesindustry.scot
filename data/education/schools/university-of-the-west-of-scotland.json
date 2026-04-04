@@ -16,7 +16,9 @@
     "lat": 55.845,
     "lng": -4.424
   },
-  "logo": "",
+  "logo": "/images/schools/university-of-the-west-of-scotland.png",
+  "icon": "/images/schools/university-of-the-west-of-scotland-icon.svg",
+  "logo_bg": "light",
   "website": "https://www.uws.ac.uk",
   "about": "The University of the West of Scotland is a multi-campus university with campuses across the west of Scotland including Paisley, Hamilton, Ayr, and Dumfries. UWS offers games and animation degrees through its School of Computing, Engineering and Physical Sciences, combining technical training with creative development. The university has connections with major studios including Rockstar North, and encourages students to build strong portfolios and showreels through its end-of-year Digital Futures event.",
   "highlighted": false,

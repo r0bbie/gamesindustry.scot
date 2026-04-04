@@ -10,7 +10,8 @@
     "lat": 57.132,
     "lng": -2.107
   },
-  "logo": "",
+  "logo": "/images/schools/robert-gordon-university.png",
+  "icon": "/images/schools/robert-gordon-university-icon.jpg",
   "website": "https://www.rgu.ac.uk",
   "about": "Robert Gordon University (RGU) is a modern university in Aberdeen, ranked 1st in the UK for Student Satisfaction in Computer Science (CUG 2026). Through its School of Computing, Engineering and Technology and Gray's School of Art, RGU offers an interdisciplinary BSc (Hons) Games Design programme that combines creative design expertise with strong programming fundamentals, producing versatile graduates ready to shape the games industry.",
   "highlighted": false,
