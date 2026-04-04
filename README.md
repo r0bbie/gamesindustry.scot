@@ -1,4 +1,4 @@
-# Scottish Games Industry
+# Scottish Games Industry - Directory
 
 The comprehensive open-source directory of the Scottish games industry. Discover game development studios, publishers, games, freelancers, jobs, events, and education.
 
@@ -24,8 +24,8 @@ All directory data is stored as JSON files in the `/data` directory:
 
 We welcome contributions! You can:
 
-- **Add a new entry**: Use the [issue templates](https://github.com/r0bbie/gamesindustry.scot/issues/new/choose) to submit new companies, games, jobs, etc.
-- **Edit existing data**: Browse the [data files](https://github.com/r0bbie/gamesindustry.scot/tree/main/data) and submit a pull request.
+- **Add a new entry**: Submit a PR if you're comfortable doing so. Otherwise - use the [issue templates](https://github.com/r0bbie/gamesindustry.scot/issues/new/choose) to submit new companies, games, jobs, etc.
+- **Edit existing data**: Browse the [data files](https://github.com/r0bbie/gamesindustry.scot/tree/main/data) and submit a pull request. Or open an issue.
 - **Report issues**: [Open an issue](https://github.com/r0bbie/gamesindustry.scot/issues) for bugs or suggestions.
 
 ## Development
@@ -54,6 +54,6 @@ This builds the static site to `dist/` and runs Pagefind to generate the search 
 - **Code**: Licensed under the [GNU Affero General Public License v3.0](LICENSE) (AGPLv3)
 - **Data**: Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](LICENSE-DATA) (CC BY-NC-SA 4.0)
 
-## Supported by
+## Built and supported by
 
 [Buildstash](https://buildstash.com) — Store, share, and manage all your playable builds.
