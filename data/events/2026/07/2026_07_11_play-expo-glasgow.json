@@ -1,0 +1,21 @@
+{
+  "id": "play-expo-glasgow-2026",
+  "name": "Play Expo Glasgow 2026",
+  "slug": "play-expo-glasgow-2026",
+  "date_start": "2026-07-11",
+  "date_end": "2026-07-12",
+  "location": "Braehead Arena, Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Replay Events",
+  "description": "Scotland's favourite gaming expo is returning to Glasgow in July 2026 for the sixth year! Organised by experienced video game event specialists Replay Events, the show will be full with features, exhibitors and more gaming mayhem than Scotland has ever seen.\n\nJam packed with everything you love about gaming and popular culture, the show has something for everyone.",
+  "short_description": "Scotland's favourite gaming expo returns to Glasgow for the sixth year \u2014 features, exhibitors, and more gaming mayhem than ever.",
+  "website": "https://www.playexpoglasgow.com/",
+  "icon": "",
+  "image": "https://www.eventbrite.co.uk/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1172591671%252F129675439147%252F1%252Foriginal.20251209-094744%3Fw%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D56cc7ce20467b59bbb0353c8b1fd14aa&w=1880&q=75",
+  "tags": [
+    "expo"
+  ],
+  "highlighted": true
+}

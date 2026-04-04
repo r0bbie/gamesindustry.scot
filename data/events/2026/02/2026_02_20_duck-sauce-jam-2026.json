@@ -1,0 +1,21 @@
+{
+  "id": "duck-sauce-jam-2026",
+  "name": "Duck Sauce Jam 2026",
+  "slug": "duck-sauce-jam-2026",
+  "date_start": "2026-02-20",
+  "date_end": "2026-02-22",
+  "location": "Skyscanner, 1 West Regent Street, Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Duck Sauce Games",
+  "description": "Duck Sauce Jam is our annual game jam held in Glasgow, Scotland. You'll have 48 hours to come up with an idea and build a video or board game around a specific theme that will be announced in the opening ceremony. We aim to make this event accessible to all so don't worry if you've never attended a jam before.",
+  "short_description": "A 48-hour game jam in Glasgow open to all \u2014 build a video or board game around a surprise theme.",
+  "website": "https://www.ducksauce.games/duck-sauce-jam-2026",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "game_jam"
+  ],
+  "highlighted": false
+}

@@ -17,6 +17,15 @@
       ]
     },
     {
+      "title": "Social Groups",
+      "links": [
+        { "name": "Edinburgh Video-Gamers", "url": "https://www.meetup.com/edinburgh-local-video-gamers/", "description": "Group for video gamers primarily in Scotland and Edinburgh." },
+        { "name": "Scottish Gaymers", "url": "https://www.facebook.com/groups/scottishgaymers/", "description": "Scottish Gaymers is an inclusive group for LGBT gamers and allies in Scotland." },
+        { "name": "Game Dev Edinburgh", "url": "https://bsky.app/profile/gamedeved.bsky.social", "description": "Social meet-up for Edinburgh game devs of any age, stage and discipline." },
+        { "name": "Videogames Glasgow", "url": "https://www.meetup.com/videogames-glasgow/", "description": "Monthly meetup for Game Developers, Game Critics and Journalists." }
+      ]
+    },
+    {
       "title": "Global Games Industry",
       "links": [
         { "name": "NI Game Dev Network", "url": "https://nigame.dev", "description": "The community for everyone making games in Northern Ireland" },

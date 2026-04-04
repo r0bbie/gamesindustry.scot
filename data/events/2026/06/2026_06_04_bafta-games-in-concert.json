@@ -1,0 +1,21 @@
+{
+  "id": "bafta-games-in-concert-2026",
+  "name": "BAFTA Games in Concert",
+  "slug": "bafta-games-in-concert-2026",
+  "date_start": "2026-06-04",
+  "date_end": "2026-06-05",
+  "location": "Edinburgh & Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "BAFTA",
+  "description": "A landmark live concert celebrating two decades of BAFTA-nominated and award-winning games music.",
+  "short_description": "A landmark live concert celebrating two decades of BAFTA-nominated and award-winning games music.",
+  "website": "https://www.liveconcert.games/",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "concert"
+  ],
+  "highlighted": false
+}

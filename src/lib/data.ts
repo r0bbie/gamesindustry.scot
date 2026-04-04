@@ -59,9 +59,103 @@ export async function getAllJobs(): Promise<Job[]> {
   return entries.map((e) => e.data);
 }
 
+// --- Recurrence helpers ---
+
+const DAY_NAMES = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+
+function nthWeekdayOfMonth(year: number, month: number, dayName: string, n: number): Date {
+  const dow = DAY_NAMES.indexOf(dayName.toLowerCase());
+  const firstDow = new Date(year, month, 1).getDay();
+  const diff = (dow - firstDow + 7) % 7;
+  const date = 1 + diff + (n - 1) * 7;
+  return new Date(year, month, date);
+}
+
+function parseDate(str: string): Date {
+  const [y, m, d] = str.split("-").map(Number);
+  return new Date(y, m - 1, d);
+}
+
+function biweeklyOccurrencesForMonth(
+  startDate: string,
+  dayName: string,
+  year: number,
+  month: number
+): Date[] {
+  const dow = DAY_NAMES.indexOf(dayName.toLowerCase());
+  if (dow === -1) return [];
+  const ref = parseDate(startDate);
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const results: Date[] = [];
+  for (let d = 1; d <= daysInMonth; d++) {
+    const date = new Date(year, month, d);
+    if (date.getDay() === dow) {
+      const diffDays = Math.round((date.getTime() - ref.getTime()) / 86_400_000);
+      if (diffDays >= 0 && diffDays % 14 === 0) results.push(date);
+    }
+  }
+  return results;
+}
+
+export function computeNextOccurrence(
+  recurrence: NonNullable<Event["recurrence"]>,
+  from: Date = new Date()
+): Date {
+  const today = new Date(from.getFullYear(), from.getMonth(), from.getDate());
+
+  if (recurrence.frequency === "biweekly" && recurrence.start_date && recurrence.day) {
+    const ref = parseDate(recurrence.start_date);
+    if (ref >= today) return ref;
+    // Walk forward in 14-day steps from ref until we find a date >= today
+    const diffDays = Math.ceil((today.getTime() - ref.getTime()) / 86_400_000);
+    const steps = Math.ceil(diffDays / 14);
+    const next = new Date(ref.getTime() + steps * 14 * 86_400_000);
+    return next;
+  }
+
+  if (recurrence.frequency === "monthly" && recurrence.week != null && recurrence.day) {
+    let candidate = nthWeekdayOfMonth(today.getFullYear(), today.getMonth(), recurrence.day, recurrence.week);
+    if (candidate >= today) return candidate;
+    let m = today.getMonth() + 1;
+    let y = today.getFullYear();
+    if (m > 11) { m = 0; y++; }
+    return nthWeekdayOfMonth(y, m, recurrence.day, recurrence.week);
+  }
+
+  return today;
+}
+
+export { biweeklyOccurrencesForMonth };
+
+export function computeOccurrenceForMonth(
+  recurrence: NonNullable<Event["recurrence"]>,
+  year: number,
+  month: number
+): Date | null {
+  if (recurrence.frequency === "biweekly" && recurrence.start_date && recurrence.day) {
+    const occurrences = biweeklyOccurrencesForMonth(recurrence.start_date, recurrence.day, year, month);
+    return occurrences[0] ?? null;
+  }
+  if (recurrence.frequency === "monthly" && recurrence.week != null && recurrence.day) {
+    return nthWeekdayOfMonth(year, month, recurrence.day, recurrence.week);
+  }
+  return null;
+}
+
+function dateToString(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 export async function getAllEvents(): Promise<Event[]> {
   const entries = await getCollection("events");
-  return entries.map((e) => e.data);
+  return entries.map((e) => {
+    const data = e.data;
+    if (data.recurring && data.recurrence && !data.date_start) {
+      const next = computeNextOccurrence(data.recurrence);
+      return { ...data, date_start: dateToString(next) };
+    }
+    return data;
+  });
 }
 
 export async function getAllSchools(): Promise<School[]> {
@@ -142,6 +236,24 @@ export async function getActiveJobs(): Promise<Job[]> {
  * Safely resolve a company ID to a Company, returning null if not found.
  * Logs a warning at build time for broken references.
  */
+export async function getSchoolById(id: string): Promise<School | null> {
+  const schools = await getAllSchools();
+  return schools.find((s) => s.id === id) ?? null;
+}
+
+export async function safeGetSchool(
+  id: string,
+  context?: string
+): Promise<School | null> {
+  const school = await getSchoolById(id);
+  if (!school) {
+    console.warn(
+      `[DATA WARNING] School "${id}" not found${context ? ` (referenced from ${context})` : ""}`
+    );
+  }
+  return school;
+}
+
 export async function safeGetCompany(
   id: string,
   context?: string

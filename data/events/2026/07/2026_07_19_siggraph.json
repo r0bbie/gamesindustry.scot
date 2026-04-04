@@ -1,0 +1,19 @@
+{
+  "id": "siggraph-2026",
+  "name": "SIGGRAPH 2026",
+  "slug": "siggraph-2026",
+  "date_start": "2026-07-19",
+  "date_end": "2026-07-23",
+  "location": "Los Angeles, United States",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "ACM SIGGRAPH",
+  "description": "The Premier Conference & Exhibition on Computer Graphics & Interactive Techniques.",
+  "short_description": "The world's leading conference and exhibition on computer graphics and interactive techniques.",
+  "website": "https://s2026.siggraph.org/",
+  "icon": "",
+  "image": "",
+  "tags": ["conference", "international"],
+  "highlighted": false
+}

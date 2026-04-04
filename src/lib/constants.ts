@@ -50,6 +50,8 @@ export const EVENT_TAGS = [
   { id: "competition", name: "Competition" },
   { id: "awards", name: "Awards" },
   { id: "expo", name: "Expo" },
+  { id: "concert", name: "Concert" },
+  { id: "live", name: "Live Event" },
 ] as const;
 
 export type RegionId = (typeof REGIONS)[number]["id"];

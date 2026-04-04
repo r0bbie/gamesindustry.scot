@@ -1,0 +1,19 @@
+{
+  "id": "a-maze-berlin-2026",
+  "name": "A Maze Berlin 2026",
+  "slug": "a-maze-berlin-2026",
+  "date_start": "2026-05-13",
+  "date_end": "2026-05-16",
+  "location": "Berlin, Germany",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "A Maze",
+  "description": "15th International Games and Playful Media Festival.",
+  "short_description": "15th International Games and Playful Media Festival.",
+  "website": "https://a-maze.net/events/a-maze-berlin-2026/",
+  "icon": "",
+  "image": "https://www.berlin.de/imgscale2/STOl_PW_hZFagjHldNlpOJBsSBwAt1onjbw4dbVZ_js/rbig2zu1/aHR0cDovL2ltcGVyaWFmcm9udGVuZC1wcm9kLXd3dy1odHRwOjgwODAvZ2FtZXNjYXBpdGFsL19hc3NldHMvZXZlbnRzL2FtYXplX2EtbWF6ZS1nbWJoLnBuZw.png",
+  "tags": ["expo", "international"],
+  "highlighted": false
+}

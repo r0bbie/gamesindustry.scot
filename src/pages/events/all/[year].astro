@@ -1,0 +1,152 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllEvents, getAllGames } from "@/lib/data";
+import { GITHUB_REPO } from "@/lib/constants";
+import EventListView from "@/components/events/EventListView";
+import type { EventData, GameRelease } from "@/components/events/EventCalendar";
+
+export async function getStaticPaths() {
+  const events = await getAllEvents();
+  const games = await getAllGames();
+  const currentYear = new Date().getFullYear();
+
+  const eventYears = new Set(events.map((e) => new Date(e.date_start).getFullYear()));
+  const gameYears = new Set(
+    games.filter((g) => g.release_date).map((g) => new Date(g.release_date!).getFullYear())
+  );
+  const allYears = new Set([...eventYears, ...gameYears, currentYear]);
+
+  return [...allYears].map((year) => ({ params: { year: String(year) } }));
+}
+
+const { year: yearParam } = Astro.params;
+const year = Number(yearParam);
+
+const allEvents = await getAllEvents();
+const allGames = await getAllGames();
+
+// All years that have events or game releases (for nav)
+const eventYears = new Set(allEvents.map((e) => new Date(e.date_start).getFullYear()));
+const gameYears = new Set(
+  allGames.filter((g) => g.release_date).map((g) => new Date(g.release_date!).getFullYear())
+);
+const availableYears = [...new Set([...eventYears, ...gameYears, new Date().getFullYear()])].sort();
+
+const prevYear = availableYears.filter((y) => y < year).at(-1) ?? null;
+const nextYear = availableYears.find((y) => y > year) ?? null;
+
+// Filter to selected year
+const yearEvents: EventData[] = allEvents
+  .filter((e) => e.date_start && new Date(e.date_start).getFullYear() === year)
+  .map((e) => ({
+    id: e.id,
+    name: e.name,
+    slug: e.slug,
+    date_start: e.date_start ?? "",
+    date_end: e.date_end,
+    location: e.location,
+    is_online: e.is_online,
+    is_scottish: e.is_scottish,
+    tags: e.tags,
+    highlighted: e.highlighted,
+    recurring: e.recurring,
+    recurrence: e.recurrence,
+  }));
+
+const yearGames: GameRelease[] = allGames
+  .filter((g) => g.release_date && new Date(g.release_date).getFullYear() === year)
+  .map((g) => ({
+    id: g.id,
+    title: g.title,
+    slug: g.slug,
+    release_date: g.release_date,
+    status: g.status,
+  }));
+
+const addEventUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-event.yml&title=%5BEvent%5D+`;
+---
+
+<BaseLayout
+  title={`Events ${year}`}
+  description={`Browse events for the Scottish games industry in ${year}.`}
+>
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="mb-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <nav class="mb-2 text-sm text-muted-foreground">
+          <a href="/events" class="hover:text-foreground transition-colors">Events</a>
+          <span class="mx-1.5">/</span>
+          <span class="text-foreground">All Events</span>
+        </nav>
+        <h1 class="text-4xl font-bold tracking-tight">All Events</h1>
+        <p class="mt-2 text-lg text-muted-foreground">
+          Browse, search, and filter every event in the directory.
+        </p>
+      </div>
+      <a
+        href={addEventUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex h-9 items-center gap-2 rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+      >
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+        Add an event
+      </a>
+    </div>
+
+    <!-- Year navigation -->
+    <div class="mb-8 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-1">
+        {prevYear ? (
+          <a
+            href={`/events/all/${prevYear}`}
+            class="inline-flex h-9 items-center gap-1.5 rounded-md border border-input bg-background px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            {prevYear}
+          </a>
+        ) : (
+          <span class="inline-flex h-9 cursor-not-allowed items-center gap-1.5 rounded-md border border-input bg-background px-3 text-sm font-medium opacity-40">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            &lsaquo;
+          </span>
+        )}
+      </div>
+
+      <div class="flex items-center gap-2">
+        {availableYears.map((y) => (
+          <a
+            href={`/events/all/${y}`}
+            class={`inline-flex h-9 min-w-[4rem] items-center justify-center rounded-md px-3 text-sm font-semibold transition-colors ${
+              y === year
+                ? "bg-primary text-primary-foreground shadow"
+                : "border border-input bg-background hover:bg-accent hover:text-accent-foreground"
+            }`}
+          >
+            {y}
+          </a>
+        ))}
+      </div>
+
+      <div class="flex items-center gap-1">
+        {nextYear ? (
+          <a
+            href={`/events/all/${nextYear}`}
+            class="inline-flex h-9 items-center gap-1.5 rounded-md border border-input bg-background px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            {nextYear}
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          </a>
+        ) : (
+          <span class="inline-flex h-9 cursor-not-allowed items-center gap-1.5 rounded-md border border-input bg-background px-3 text-sm font-medium opacity-40">
+            &rsaquo;
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          </span>
+        )}
+      </div>
+    </div>
+
+    <EventListView client:load events={yearEvents} gameReleases={yearGames} />
+  </div>
+</BaseLayout>

@@ -1,0 +1,19 @@
+{
+  "id": "gamescom-devcom-2026",
+  "name": "Gamescom & devcom 2026",
+  "slug": "gamescom-devcom-2026",
+  "date_start": "2026-08-23",
+  "date_end": "2026-08-30",
+  "location": "Koelnmesse, Cologne, Germany",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "Koelnmesse",
+  "description": "Europe's leading trade fair for digital games culture.",
+  "short_description": "Europe's leading trade fair for digital games culture, bringing together the global games industry in Cologne.",
+  "website": "https://www.gamescom.global/en",
+  "icon": "",
+  "image": "",
+  "tags": ["expo", "conference", "international"],
+  "highlighted": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "games-talks-live-oct-2026",
+  "name": "Games Talks Live",
+  "slug": "games-talks-live-oct-2026",
+  "date_start": "2026-10-27",
+  "date_end": "2026-10-29",
+  "location": "Edinburgh, Dundee & Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Colin Macdonald",
+  "description": "Short talks and networking for the Scottish games industry.",
+  "short_description": "Short talks and networking for the Scottish games industry.",
+  "website": "https://www.gamestalks.live/",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "talk",
+    "social"
+  ],
+  "highlighted": true
+}

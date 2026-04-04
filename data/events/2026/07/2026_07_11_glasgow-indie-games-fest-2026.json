@@ -1,0 +1,22 @@
+{
+  "id": "glasgow-indie-games-fest-2026",
+  "name": "Glasgow Indie Games Festival 2026",
+  "slug": "glasgow-indie-games-fest-2026",
+  "date_start": "2026-07-11",
+  "date_end": "2026-07-12",
+  "location": "BAaD - Barras Art & Design, 54 Calton Entry, Glasgow, G40 2SB",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Glasgow Indie Games Festival",
+  "description": "The Glasgow Independent Games Festival is an all day event. We'll have a bumper set of indie games for you to play, from some of the most talented developers around.\n\nDuring the day we have a series of developer talks, workshops and discussions, allowing you to peek inside the sausage machine and even argue with the gristle. In the evening there will be live entertainment, music, poetry and an award ceremony for our audience-voted Best in Show.",
+  "short_description": "An all-day celebration of indie games from Scotland and around the world, with developer talks, workshops, live entertainment and a Best in Show award.",
+  "website": "https://glasgowindiegamesfest.org",
+  "icon": "",
+  "image": "https://api.glasgowindiegamesfest.org/wp-content/uploads/2026/02/GIGF-POSTER-2026-compressed.png",
+  "tags": [
+    "expo",
+    "showcase"
+  ],
+  "highlighted": true
+}

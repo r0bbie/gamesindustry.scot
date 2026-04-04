@@ -1,0 +1,20 @@
+{
+  "id": "rapture-gaming-festival-2026",
+  "name": "Rapture Gaming Festival",
+  "slug": "rapture-gaming-festival-2026",
+  "date_start": "2026-07-18",
+  "date_end": "2026-07-19",
+  "time": "10:00–17:00",
+  "location": "Auchmuty High School, Glenrothes",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Rapture Gaming Festival",
+  "description": "Rapture Gaming Festival returns to Fife on Saturday 18th and Sunday 19th July for an epic weekend of VR, pro wrestling and retro gaming at Auchmuty High School!",
+  "short_description": "An epic weekend of VR, pro wrestling and retro gaming in Glenrothes, Fife.",
+  "website": "https://fixr.co/event/rapture-gaming-festival-fife-tickets-789501817",
+  "icon": "",
+  "image": "https://fixr-cdn.fixr.co/images/event/2026-03/5cb8fc642834449a9a6c8e87f097dce1.jpeg",
+  "tags": ["expo"],
+  "highlighted": false
+}

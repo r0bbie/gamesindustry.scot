@@ -1,0 +1,19 @@
+{
+  "id": "vgc-live-oct-2026",
+  "name": "VGC Live",
+  "slug": "vgc-live-oct-2026",
+  "date_start": "2026-10-16",
+  "time": "18:00",
+  "location": "Oran Mor, Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "VGC Live",
+  "description": "Jordan Middler, Chris Scullion, and Andy Robinson bring VGC: The Video Game Podcast to Glasgow's historic Oran Mor for a night of gaming nonsense, energy drinks, and special guests!",
+  "short_description": "Jordan Middler, Chris Scullion, and Andy Robinson bring VGC: The Video Game Podcast to Glasgow's historic Oran Mor for a night of gaming nonsense, energy drinks, and special guests!",
+  "website": "https://oran-mor.co.uk/events/vgc-live/",
+  "icon": "",
+  "image": "https://i.ticketweb.com/i/00/12/85/68/14_Edp.jpg",
+  "tags": ["live"],
+  "highlighted": false
+}

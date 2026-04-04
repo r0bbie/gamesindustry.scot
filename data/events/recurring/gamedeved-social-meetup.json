@@ -1,0 +1,25 @@
+{
+  "id": "gamedeved-social-meetup",
+  "name": "GameDevEd Social Meetup",
+  "slug": "gamedeved-social-meetup",
+  "time": "18:00–21:00",
+  "location": "OX184 Bar, Edinburgh",
+  "is_online": false,
+  "is_scottish": true,
+  "recurring": true,
+  "recurrence": {
+    "frequency": "biweekly",
+    "start_date": "2026-04-14",
+    "day": "tuesday",
+    "description": "Every other Tuesday"
+  },
+  "company_id": "",
+  "organiser_name": "Game Dev Edinburgh",
+  "description": "A casual social gathering for local game developers to meet and chat! All ages, stages and disciplines are welcome -- whether you're a student generalist or a triple-A veteran, a community manager or a musician, artist or hobbyist, anyone who works in/on/around games and wants to talk to like-minded people is welcome!\n\nYou don't need to bring anything, but if you are working on something and have videos or even a demo to play you will find an eager audience. And although it's set in a pub, don't feel obliged to drink either; you'll find many of us having dinner and soft drinks.",
+  "short_description": "Casual fortnightly social for Edinburgh game developers of all ages, stages and disciplines.",
+  "website": "https://www.meetup.com/edinburgh-game-development-meetup-group/",
+  "icon": "",
+  "image": "https://secure.meetupstatic.com/photos/event/8/5/c/8/highres_522514248.webp",
+  "tags": ["social"],
+  "highlighted": false
+}

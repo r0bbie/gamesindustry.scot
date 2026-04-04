@@ -1,0 +1,18 @@
+{
+  "id": "bafta-games-awards-2026",
+  "name": "BAFTA Games Awards 2026",
+  "slug": "bafta-games-awards-2026",
+  "date_start": "2026-04-17",
+  "location": "Queen Elizabeth Hall, London",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "BAFTA",
+  "description": "Annual British awards ceremony honouring outstanding creative achievement in the video game industry.",
+  "short_description": "Annual British awards ceremony honouring outstanding creative achievement in the video game industry.",
+  "website": "https://www.bafta.org/awards/awards-information/games/",
+  "icon": "",
+  "image": "",
+  "tags": ["awards", "international"],
+  "highlighted": false
+}

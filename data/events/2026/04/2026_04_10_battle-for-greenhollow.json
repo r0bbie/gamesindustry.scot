@@ -1,0 +1,22 @@
+{
+  "id": "battle-for-greenhollow-2026",
+  "name": "Battle For GreenHollow",
+  "slug": "battle-for-greenhollow-2026",
+  "date_start": "2026-04-10",
+  "date_end": "2026-04-12",
+  "location": "SEC Hall 2, Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Battle For GreenHollow",
+  "description": "Glasgow's Ultimate Wargaming & TCG Weekend! Building the wargaming community in the heart of Glasgow.",
+  "short_description": "Glasgow's Ultimate Wargaming & TCG Weekend! Building the wargaming community in the heart of Glasgow.",
+  "website": "https://www.battleforgreenhollow.co.uk/",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "expo",
+    "social"
+  ],
+  "highlighted": false
+}

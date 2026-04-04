@@ -1,0 +1,24 @@
+{
+  "id": "videogames-glasgow-pub-night",
+  "name": "Videogames Glasgow Pub Night",
+  "slug": "videogames-glasgow-pub-night",
+  "location": "Game Over, Drury Street, Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "recurring": true,
+  "recurrence": {
+    "frequency": "monthly",
+    "week": 2,
+    "day": "thursday",
+    "description": "Every 2nd Thursday of the month"
+  },
+  "company_id": "",
+  "organiser_name": "Videogames Glasgow",
+  "description": "Monthly meetup for game developers, streamers, journalists, marketeers, and anyone else interested in or working in the games industry.\n\nCome along if you want to talk videogames and game development, if you need to test out a game you're working on or want to give and receive advice on all things related to the making and appreciation of videogames. This is a friendly and inclusive space with the aim of creating a productive community of videogame people in Glasgow.",
+  "short_description": "Monthly meetup for game developers, streamers, journalists, and anyone interested in the games industry — at Game Over, Glasgow.",
+  "website": "https://www.meetup.com/videogames-glasgow/",
+  "icon": "",
+  "image": "",
+  "tags": ["social"],
+  "highlighted": false
+}

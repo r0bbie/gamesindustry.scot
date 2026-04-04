@@ -1,6 +1,14 @@
 import { useState, useMemo } from "react";
 import { cn } from "@/lib/utils";
 
+export interface RecurrenceRule {
+  frequency: "weekly" | "biweekly" | "monthly";
+  start_date?: string;
+  week?: number;
+  day?: string;
+  description: string;
+}
+
 export interface EventData {
   id: string;
   name: string;
@@ -12,6 +20,8 @@ export interface EventData {
   is_scottish: boolean;
   tags: string[];
   highlighted: boolean;
+  recurring?: boolean;
+  recurrence?: RecurrenceRule;
 }
 
 export interface GameRelease {
@@ -49,11 +59,54 @@ function parseDate(str: string): Date {
   return new Date(y, m - 1, d);
 }
 
+const DAY_NAMES = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+
+function nthWeekdayOfMonth(year: number, month: number, dayName: string, n: number): Date | null {
+  const dow = DAY_NAMES.indexOf(dayName.toLowerCase());
+  if (dow === -1) return null;
+  const firstDow = new Date(year, month, 1).getDay();
+  const diff = (dow - firstDow + 7) % 7;
+  const date = 1 + diff + (n - 1) * 7;
+  // Ensure it doesn't spill into next month
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  if (date > daysInMonth) return null;
+  return new Date(year, month, date);
+}
+
+function getRecurringDaysForMonth(rule: RecurrenceRule, year: number, month: number): number[] {
+  if (rule.frequency === "biweekly" && rule.start_date && rule.day) {
+    const dow = DAY_NAMES.indexOf(rule.day.toLowerCase());
+    if (dow === -1) return [];
+    const ref = new Date(rule.start_date + "T00:00:00");
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const results: number[] = [];
+    for (let d = 1; d <= daysInMonth; d++) {
+      const date = new Date(year, month, d);
+      if (date.getDay() === dow) {
+        const diffDays = Math.round((date.getTime() - ref.getTime()) / 86_400_000);
+        if (diffDays >= 0 && diffDays % 14 === 0) results.push(d);
+      }
+    }
+    return results;
+  }
+  if (rule.frequency === "monthly" && rule.week != null && rule.day) {
+    const d = nthWeekdayOfMonth(year, month, rule.day, rule.week);
+    return d ? [d.getDate()] : [];
+  }
+  return [];
+}
+
 export default function EventCalendar({ events, gameReleases }: Props) {
   const today = new Date();
   const [year, setYear] = useState(today.getFullYear());
   const [month, setMonth] = useState(today.getMonth());
   const [showGames, setShowGames] = useState(false);
+  const [scottishOnly, setScottishOnly] = useState(false);
+
+  const filteredEvents = useMemo(
+    () => scottishOnly ? events.filter((e) => e.is_scottish) : events,
+    [events, scottishOnly],
+  );
 
   const daysInMonth = new Date(year, month + 1, 0).getDate();
   const firstDayOfWeek = (new Date(year, month, 1).getDay() + 6) % 7; // Monday = 0
@@ -67,18 +120,27 @@ export default function EventCalendar({ events, gameReleases }: Props) {
 
   const eventsByDay = useMemo(() => {
     const map = new Map<number, EventData[]>();
-    for (const ev of events) {
-      for (let d = 1; d <= daysInMonth; d++) {
-        const cellDate = new Date(year, month, d);
-        if (dateInRange(cellDate, ev.date_start, ev.date_end)) {
-          const list = map.get(d) || [];
+    for (const ev of filteredEvents) {
+      if (ev.recurring && ev.recurrence) {
+        const days = getRecurringDaysForMonth(ev.recurrence, year, month);
+        for (const day of days) {
+          const list = map.get(day) || [];
           list.push(ev);
-          map.set(d, list);
+          map.set(day, list);
+        }
+      } else {
+        for (let d = 1; d <= daysInMonth; d++) {
+          const cellDate = new Date(year, month, d);
+          if (dateInRange(cellDate, ev.date_start, ev.date_end)) {
+            const list = map.get(d) || [];
+            list.push(ev);
+            map.set(d, list);
+          }
         }
       }
     }
     return map;
-  }, [events, year, month, daysInMonth]);
+  }, [filteredEvents, year, month, daysInMonth]);
 
   const gamesByDay = useMemo(() => {
     if (!showGames) return new Map<number, GameRelease[]>();
@@ -139,15 +201,26 @@ export default function EventCalendar({ events, gameReleases }: Props) {
             Today
           </button>
         </div>
-        <label className="flex items-center gap-2 text-sm">
-          <input
-            type="checkbox"
-            checked={showGames}
-            onChange={(e) => setShowGames(e.target.checked)}
-            className="h-4 w-4 rounded border-border accent-primary"
-          />
-          <span className="text-muted-foreground">Show game releases</span>
-        </label>
+        <div className="flex items-center gap-4">
+          <label className="flex items-center gap-2 text-sm">
+            <input
+              type="checkbox"
+              checked={scottishOnly}
+              onChange={(e) => setScottishOnly(e.target.checked)}
+              className="h-4 w-4 rounded border-border accent-primary"
+            />
+            <span className="text-muted-foreground">Scottish only</span>
+          </label>
+          <label className="flex items-center gap-2 text-sm">
+            <input
+              type="checkbox"
+              checked={showGames}
+              onChange={(e) => setShowGames(e.target.checked)}
+              className="h-4 w-4 rounded border-border accent-primary"
+            />
+            <span className="text-muted-foreground">Show game releases</span>
+          </label>
+        </div>
       </div>
 
       {/* Grid */}

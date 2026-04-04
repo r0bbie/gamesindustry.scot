@@ -1,0 +1,19 @@
+{
+  "id": "nordic-game-2026",
+  "name": "Nordic Game 2026",
+  "slug": "nordic-game-2026",
+  "date_start": "2026-05-25",
+  "date_end": "2026-05-29",
+  "location": "Slaghuset, Malmö, Sweden",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "Nordic Game",
+  "description": "Each spring Nordic Game brings together thousands of developers, publishers, investors, students, and creatives for four days of networking, inspiration, learning, and business opportunities.",
+  "short_description": "Thousands of developers, publishers, investors, and creatives gather for networking, learning, and business opportunities.",
+  "website": "https://nordicgame.com/",
+  "icon": "",
+  "image": "",
+  "tags": ["conference", "international"],
+  "highlighted": false
+}

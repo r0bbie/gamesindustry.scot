@@ -1,0 +1,19 @@
+{
+  "id": "digital-dragons-2026",
+  "name": "Digital Dragons 2026",
+  "slug": "digital-dragons-2026",
+  "date_start": "2026-05-17",
+  "date_end": "2026-05-19",
+  "location": "Krakow Technology Park, Krakow, Poland",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "Krakow Technology Park",
+  "description": "Digital Dragons is a comprehensive ecosystem for the games industry run by Krakow Technology Park on a local, national and international level.",
+  "short_description": "A comprehensive ecosystem for the games industry, bringing together developers and creatives on a local, national and international level.",
+  "website": "https://digitaldragons.pl/en/",
+  "icon": "",
+  "image": "",
+  "tags": ["conference", "international"],
+  "highlighted": false
+}

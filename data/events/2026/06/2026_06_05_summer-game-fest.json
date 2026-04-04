@@ -1,0 +1,18 @@
+{
+  "id": "summer-game-fest-2026",
+  "name": "Summer Game Fest 2026",
+  "slug": "summer-game-fest-2026",
+  "date_start": "2026-06-05",
+  "location": "Dolby Theatre, Los Angeles, United States (Online)",
+  "is_online": true,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "Summer Game Fest",
+  "description": "Summer Game Fest is an annual showcase of upcoming games, announcements, and reveals from studios around the world, streaming live from the Dolby Theatre in Los Angeles.",
+  "short_description": "Annual showcase of upcoming games, announcements, and reveals streamed live from Los Angeles.",
+  "website": "https://www.summergamefest.com/",
+  "icon": "",
+  "image": "",
+  "tags": ["showcase", "international"],
+  "highlighted": false
+}

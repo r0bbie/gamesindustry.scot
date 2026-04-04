@@ -1,0 +1,19 @@
+{
+  "id": "pax-west-2026",
+  "name": "PAX West 2026",
+  "slug": "pax-west-2026",
+  "date_start": "2026-09-04",
+  "date_end": "2026-09-07",
+  "location": "Seattle Convention Center, Seattle, United States",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "PAX",
+  "description": "PAX West is a celebration of gaming and gaming culture featuring thought-provoking panels, a massive expo hall filled with the best publishers and studios, new game demos, musical performances, tournaments, and a community experience unlike any other.",
+  "short_description": "A celebration of gaming and gaming culture — panels, a massive expo hall, new game demos, musical performances, and tournaments.",
+  "website": "https://west.paxsite.com/",
+  "icon": "",
+  "image": "",
+  "tags": ["expo", "international"],
+  "highlighted": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "bitsummit-2026",
+  "name": "BitSummit 2026",
+  "slug": "bitsummit-2026",
+  "date_start": "2026-05-22",
+  "date_end": "2026-05-24",
+  "location": "Miyako Messe, Kyoto, Japan",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "BitSummit",
+  "description": "Established in late-2012, BitSummit was founded with the goal of giving Japanese independent game makers a chance to show their games to the world, and we succeeded, growing from a small, industry-only event for around 200 people in 2013, to a groundbreaking festival that held court to over 11,000 people in 2018.",
+  "short_description": "Japan's premier independent games festival, showcasing indie games from across the world.",
+  "website": "https://bitsummit.org/en/",
+  "icon": "",
+  "image": "https://media.licdn.com/dms/image/v2/D4D22AQEFq5y7ZeQFTQ/feedshare-shrink_800/B4DZwuYvUMIgAg-/0/1770304763441?e=2147483647&v=beta&t=DmQYUkKUPYTt6rMQWuWeT2TJ-G-u0aBdXCA8JHs1Z-A",
+  "tags": ["expo", "showcase", "international"],
+  "highlighted": false
+}

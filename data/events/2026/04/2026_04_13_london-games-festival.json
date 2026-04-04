@@ -1,0 +1,19 @@
+{
+  "id": "london-games-festival-2026",
+  "name": "London Games Festival 2026",
+  "slug": "london-games-festival-2026",
+  "date_start": "2026-04-13",
+  "date_end": "2026-04-19",
+  "location": "New Game Plus, Exhibition White City, London",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "Games London",
+  "description": "Annual video gaming festival for both consumers and trade specialists.",
+  "short_description": "Annual video gaming festival for both consumers and trade specialists.",
+  "website": "https://festival.games.london/about",
+  "icon": "",
+  "image": "",
+  "tags": ["expo", "international"],
+  "highlighted": false
+}

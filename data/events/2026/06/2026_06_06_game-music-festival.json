@@ -1,0 +1,19 @@
+{
+  "id": "game-music-festival-2026",
+  "name": "Game Music Festival 2026",
+  "slug": "game-music-festival-2026",
+  "date_start": "2026-06-06",
+  "date_end": "2026-06-27",
+  "location": "Royal Festival Hall, London, England",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "Game Music Festival",
+  "description": "Taking place at the most prestigious venues in Europe and hosting world-class performers on stage, GMF is an immersive event that showcases the impact of video game music as a form of art.",
+  "short_description": "World-class performers at Europe's most prestigious venues, showcasing video game music as a form of art.",
+  "website": "https://gamemusic.net/events/",
+  "icon": "",
+  "image": "",
+  "tags": ["concert", "international"],
+  "highlighted": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "game-devs-of-color-expo-2026",
+  "name": "Game Devs of Color Expo 2026",
+  "slug": "game-devs-of-color-expo-2026",
+  "date_start": "2026-09-22",
+  "date_end": "2026-09-25",
+  "location": "Online",
+  "is_online": true,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "Game Devs of Color",
+  "description": "The GDoCExpo conference highlights powerful talks and panels that are entertaining, thought-provoking, and empower our audience in games and beyond. Our online platform includes live chat, 1:1 meetings, job board, and game showcases with global reach for both released and upcoming games.",
+  "short_description": "Powerful talks, panels, and game showcases celebrating and empowering game devs of color, with global reach.",
+  "website": "https://www.gamedevsofcolor.org/",
+  "icon": "",
+  "image": "",
+  "tags": ["conference", "showcase", "international"],
+  "highlighted": false
+}

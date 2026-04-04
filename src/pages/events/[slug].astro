@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { getAllEvents, safeGetCompany } from "@/lib/data";
+import { getAllEvents, safeGetCompany, safeGetSchool } from "@/lib/data";
 import { EVENT_TAGS, GITHUB_REPO } from "@/lib/constants";
 import { BrokenLink } from "@/components/ui/broken-link";
 
@@ -20,6 +20,10 @@ if (!event) {
 const company = event.company_id
   ? await safeGetCompany(event.company_id, `event:${event.slug}`)
   : null;
+const school = event.school_id
+  ? await safeGetSchool(event.school_id, `event:${event.slug}`)
+  : null;
+const hasOrganiser = !!(event.company_id || event.school_id || event.organiser_name);
 
 function getTagName(tagId: string): string {
   return EVENT_TAGS.find((t) => t.id === tagId)?.name ?? tagId;
@@ -50,7 +54,7 @@ function formatDateRange(start: string, end?: string): string {
 }
 
 function googleCalendarUrl(ev: typeof event): string {
-  const start = ev.date_start.replace(/-/g, "");
+  const start = (ev.date_start ?? "").replace(/-/g, "");
   const end = ev.date_end ? ev.date_end.replace(/-/g, "") : start;
   const params = new URLSearchParams({
     action: "TEMPLATE",
@@ -62,7 +66,9 @@ function googleCalendarUrl(ev: typeof event): string {
   return `https://calendar.google.com/calendar/render?${params}`;
 }
 
-const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/events/${event.slug}.json`;
+const editUrl = event.recurring
+  ? `https://github.com/${GITHUB_REPO}/edit/main/data/events/recurring/${event.slug}.json`
+  : `https://github.com/${GITHUB_REPO}/edit/main/data/events/${event.slug}.json`;
 const gcalUrl = googleCalendarUrl(event);
 const displayLocation = event.is_online ? "Online" : (event.location ?? "TBC");
 ---
@@ -100,16 +106,38 @@ const displayLocation = event.is_online ? "Online" : (event.location ?? "TBC");
       )}
     </div>
 
+    {/* Event image */}
+    {event.image && (
+      <div class="mb-8 overflow-hidden rounded-xl border border-border bg-muted" id="event-image-wrap">
+        <img
+          src={event.image}
+          alt={event.name}
+          class="w-full object-cover"
+          style="max-height: 360px;"
+          onerror="document.getElementById('event-image-wrap').hidden=true"
+        />
+      </div>
+    )}
+
     <!-- Details card -->
     <div class="mb-8 rounded-xl border border-border bg-card p-6 shadow">
       <dl class="grid gap-4 sm:grid-cols-2">
-        {/* Date */}
+        {/* Date / Recurrence */}
         <div>
-          <dt class="text-xs font-medium uppercase tracking-wider text-muted-foreground">Date</dt>
+          <dt class="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+            {event.recurring ? "Schedule" : "Date"}
+          </dt>
           <dd class="mt-1 flex items-center gap-2 text-sm font-medium">
             <svg class="h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
-            {formatDateRange(event.date_start, event.date_end)}
+            {event.recurring && event.recurrence
+              ? event.recurrence.description
+              : formatDateRange(event.date_start ?? "", event.date_end)}
           </dd>
+          {event.recurring && event.date_start && (
+            <p class="mt-1 text-xs text-muted-foreground">
+              Next: {formatDateRange(event.date_start, undefined)}
+            </p>
+          )}
         </div>
 
         {/* Time */}
@@ -172,15 +200,17 @@ const displayLocation = event.is_online ? "Online" : (event.location ?? "TBC");
     )}
 
     {/* Organiser */}
-    {event.company_id && (
+    {hasOrganiser && (
       <section class="mb-8">
         <h2 class="mb-3 text-xl font-semibold">Organiser</h2>
-        {company ? (
+
+        {/* Linked company */}
+        {event.company_id && (company ? (
           <a
             href={`/companies/${company.slug}`}
             class="flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30 hover:bg-accent/50"
           >
-            <div class={`flex h-10 w-10 items-center justify-center rounded-lg ${company.logo_bg === "light" ? "bg-white" : company.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
+            <div class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${company.logo_bg === "light" ? "bg-white" : company.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
               {company.logo ? (
                 <img src={company.logo} alt="" class="h-8 w-8 rounded-md object-contain" />
               ) : (
@@ -196,6 +226,40 @@ const displayLocation = event.is_online ? "Online" : (event.location ?? "TBC");
           </a>
         ) : (
           <BrokenLink id={event.company_id} type="company" />
+        ))}
+
+        {/* Linked school */}
+        {event.school_id && (school ? (
+          <a
+            href={`/education/schools/${school.slug}`}
+            class="flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30 hover:bg-accent/50"
+          >
+            <div class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${school.logo_bg === "light" ? "bg-white" : school.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
+              {(school.icon ?? school.logo) ? (
+                <img src={school.icon ?? school.logo} alt="" class="h-8 w-8 rounded-md object-contain" />
+              ) : (
+                <svg class="h-5 w-5 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2v-5"/></svg>
+              )}
+            </div>
+            <div>
+              <p class="font-semibold">{school.name}</p>
+              {school.about && (
+                <p class="text-sm text-muted-foreground line-clamp-1">{school.about}</p>
+              )}
+            </div>
+          </a>
+        ) : (
+          <BrokenLink id={event.school_id} type="school" />
+        ))}
+
+        {/* Free-text fallback */}
+        {!event.company_id && !event.school_id && event.organiser_name && (
+          <div class="flex items-center gap-3 rounded-xl border border-border bg-card p-4">
+            <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-muted">
+              <svg class="h-5 w-5 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/></svg>
+            </div>
+            <p class="font-semibold">{event.organiser_name}</p>
+          </div>
         )}
       </section>
     )}

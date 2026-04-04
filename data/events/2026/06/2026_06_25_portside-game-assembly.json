@@ -1,0 +1,19 @@
+{
+  "id": "portside-game-assembly-2026",
+  "name": "Portside Game Assembly 2026",
+  "slug": "portside-game-assembly-2026",
+  "date_start": "2026-06-25",
+  "date_end": "2026-06-26",
+  "location": "Überseebrücke, Hamburg, Germany",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "Portside Game Assembly",
+  "description": "Portside Game Assembly is a new kind of B2B event where visionaries from the indie game scene meet in an unconventional setting on a ship to exchange on strategies, get inspiration and make contacts that really matter.",
+  "short_description": "A B2B indie games event on a ship in Hamburg — strategies, inspiration, and meaningful connections.",
+  "website": "https://portsideassembly.com/",
+  "icon": "",
+  "image": "",
+  "tags": ["conference", "international"],
+  "highlighted": false
+}

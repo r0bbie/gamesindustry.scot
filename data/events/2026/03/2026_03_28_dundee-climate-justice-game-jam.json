@@ -1,0 +1,21 @@
+{
+  "id": "dundee-climate-justice-game-jam",
+  "name": "Dundee Climate Justice Game Jam",
+  "slug": "dundee-climate-justice-game-jam",
+  "date_start": "2026-03-28",
+  "date_end": "",
+  "time": "12:30\u201316:30",
+  "location": "Creative Central, Central Library, The Wellgate, Dundee, DD1 1DB",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "biome-collective",
+  "description": "Game makers! Join members of Biome Collective to explore climate justice in a playful, positive way.",
+  "short_description": "Game makers! Join members of Biome Collective to explore climate justice in a playful, positive way.",
+  "website": "https://creativedundee.com/2026/03/climate-justice-game-jam/",
+  "icon": "",
+  "image": "https://creativedundee.com/wp-content/uploads/2026/03/game-jam.webp",
+  "tags": [
+    "game_jam"
+  ],
+  "highlighted": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "aberdeen-game-jam-2026",
+  "name": "Aberdeen GameJam 2026",
+  "slug": "aberdeen-game-jam-2026",
+  "date_start": "2026-01-28",
+  "location": "Meston Building, University of Aberdeen",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "University of Aberdeen",
+  "description": "After the success of last year, University of Aberdeen's School of Natural and Computing Sciences will be running Aberdeen GameJam 2026, this time in partnership with the History department!\n\nThe event is open to students at University of Aberdeen and any other Scottish University. Each participant will receive an Aberdeen GameJam 2026 t-shirt and Amazon vouchers will be awarded to winners in each prize category.\n\nAdditionally, ABVentures and Common Profyt Games have sponsored prizes, one for the Best Pitch, and one for a category yet to be announced!\n\nThis year's general theme is Games & History (so it might be a good idea to grab somebody who knows their history!)",
+  "short_description": "A student game jam at the University of Aberdeen themed around Games & History, open to students from any Scottish university.",
+  "website": "https://sicsa.ac.uk/events/aberdeen-game-jam-2026/",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "game_jam"
+  ],
+  "highlighted": false
+}

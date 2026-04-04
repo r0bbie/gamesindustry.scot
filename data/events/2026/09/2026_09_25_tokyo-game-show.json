@@ -1,0 +1,19 @@
+{
+  "id": "tokyo-game-show-2026",
+  "name": "Tokyo Game Show 2026",
+  "slug": "tokyo-game-show-2026",
+  "date_start": "2026-09-25",
+  "date_end": "2026-09-28",
+  "location": "Makuhari Messe, Chiba, Japan",
+  "is_online": false,
+  "is_scottish": false,
+  "company_id": "",
+  "organiser_name": "CESA",
+  "description": "TGS is a place where games, creators and players from all over the world gather, and a playground where we can create the future of games together.",
+  "short_description": "A place where games, creators, and players from all over the world gather to create the future of games together.",
+  "website": "https://tgs.cesa.or.jp/en",
+  "icon": "",
+  "image": "",
+  "tags": ["expo", "international"],
+  "highlighted": false
+}

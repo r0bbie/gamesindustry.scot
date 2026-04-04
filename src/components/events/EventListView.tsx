@@ -14,6 +14,8 @@ const EVENT_TAGS = [
   { id: "competition", name: "Competition" },
   { id: "awards", name: "Awards" },
   { id: "expo", name: "Expo" },
+  { id: "concert", name: "Concert" },
+  { id: "live", name: "Live Event" },
 ] as const;
 
 type LocationFilter = "all" | "online" | "in_person";
