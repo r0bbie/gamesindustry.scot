@@ -15,7 +15,7 @@
   "icon": "/images/schools/glasgow-school-of-art-icon.png",
   "website": "https://www.gsa.ac.uk",
   "about": "Glasgow School of Art is one of Europe's leading independent art schools, internationally recognised for the quality of its teaching and research. GSA offers games and immersive media programmes through its School of Simulation and Visualisation, combining artistic rigour with cutting-edge technology. The school has years of experience working on serious games and VR projects for industrial, medical, heritage and education clients, and all GSA degrees are validated by the University of Glasgow.",
-  "highlighted": false,
+  "highlighted": true,
   "links": {
     "twitter": "GSofA",
     "linkedin": "glasgow-school-of-art"

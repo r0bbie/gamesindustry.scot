@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { getAllSchools, getAllTeams, getAllStudentGames } from "@/lib/data";
+import { getAllSchools, getAllTeams, getAllStudentGames, shuffleArray } from "@/lib/data";
 import { GITHUB_REPO } from "@/lib/constants";
 import SchoolCard from "@/components/education/SchoolCard.astro";
 import TeamCard from "@/components/education/TeamCard.astro";
@@ -13,7 +13,7 @@ const studentGames = await getAllStudentGames();
 
 const uniqueCities = new Set(schools.map((s) => s.hq).filter(Boolean));
 const totalCourses = schools.reduce((sum, s) => sum + (s.courses?.length ?? 0), 0);
-const highlightedSchools = schools.filter((s) => s.highlighted);
+const highlightedSchools = shuffleArray(schools.filter((s) => s.highlighted));
 
 const FEATURED_COUNT = 3;
 const featuredSchools = (() => {
