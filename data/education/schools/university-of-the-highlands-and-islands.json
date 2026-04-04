@@ -24,8 +24,7 @@
   "about": "The University of the Highlands and Islands is Scotland's newest university, formed from a unique partnership of colleges and research institutions spread across the Highlands and Islands. UHI offers flexible, distributed learning that allows students to study from locations across the region — including Argyll, Moray, Fort William and Shetland. Through its computing and creative programmes, UHI provides pathways into the games and digital media industries for students across some of Scotland's most rural and remote communities.",
   "highlighted": false,
   "links": {
-    "twitter": "UHINews",
-    "linkedin": "university-of-the-highlands-and-islands"
+    "linkedin": "https://www.linkedin.com/school/university-of-the-highlands-and-islands/"
   },
   "disciplines": [
     "designer",

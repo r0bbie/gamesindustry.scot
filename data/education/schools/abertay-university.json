@@ -17,10 +17,9 @@
   "highlighted": true,
   "links": {
     "twitter": "AbertayUni",
-    "linkedin": "abertay-university",
-    "bluesky": "abertay.ac.uk",
-    "mastodon": "abertay@mastodon.scot",
-    "youtube": "AbertayUniversity"
+    "linkedin": "https://www.linkedin.com/school/abertay-university/",
+    "bluesky": "abertayuni.bsky.social",
+    "youtube": "abertayTV"
   },
   "disciplines": [
     "programmer",

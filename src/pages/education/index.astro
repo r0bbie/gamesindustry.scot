@@ -42,7 +42,7 @@ const teamsWithSchool = teams.map((t) => ({
   schoolName: schoolMap.get(t.school_id)?.name ?? "Unknown School",
 }));
 
-const addSchoolUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=add-school.yml&title=Add+School:+`;
+const addSchoolUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-school.yml&title=Add+School:+`;
 ---
 
 <BaseLayout title="Education">
@@ -84,7 +84,7 @@ const addSchoolUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=add-
           <p class="mt-1 text-sm text-muted-foreground">Towns & Cities</p>
         </a>
         <a href="/education/schools" class="rounded-xl border border-border bg-card px-4 py-5 text-center transition-colors hover:border-primary/30 hover:bg-accent">
-          <p class="text-3xl font-bold">500+</p>
+          <p class="text-3xl font-bold">1,000+</p>
           <p class="mt-1 text-sm text-muted-foreground">Est. Students</p>
         </a>
         <a href="/education/student-games" class="rounded-xl border border-border bg-card px-4 py-5 text-center transition-colors hover:border-primary/30 hover:bg-accent">

@@ -10,6 +10,20 @@ const teams = await getAllTeams();
 const schoolMap = new Map(allSchools.map((s) => [s.id, s]));
 const teamMap = new Map(teams.map((t) => [t.id, t]));
 
+const PLATFORM_NAMES: Record<string, string> = {
+  pc: "PC",
+  mac: "Mac",
+  linux: "Linux",
+  web: "Web",
+  ios: "iOS",
+  android: "Android",
+  playstation: "PlayStation",
+  xbox: "Xbox",
+  switch: "Switch",
+  vr: "VR",
+};
+const formatPlatform = (p: string) => PLATFORM_NAMES[p.toLowerCase()] ?? p.charAt(0).toUpperCase() + p.slice(1);
+
 const games = studentGames.map((g) => ({
   ...g,
   school: schoolMap.get(g.school_id),
@@ -43,8 +57,8 @@ const games = studentGames.map((g) => ({
                 {platforms.length > 0 && (
                   <div class="flex shrink-0 flex-wrap gap-1">
                     {platforms.map((p) => (
-                      <span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground capitalize">
-                        {p}
+                      <span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground">
+                        {formatPlatform(p)}
                       </span>
                     ))}
                   </div>

@@ -138,7 +138,7 @@ export function buildSocialUrl(platform: string, handle: string): string {
     bluesky: (h) => `https://bsky.app/profile/${h}`,
     twitter: (h) => `https://x.com/${h}`,
     mastodon: (h) => h.startsWith("http") ? h : `https://${h}`,
-    linkedin: (h) => `https://www.linkedin.com/company/${h}`,
+    linkedin: (h) => h.startsWith("http") ? h : `https://www.linkedin.com/company/${h}`,
     steam: (h) => `https://store.steampowered.com/publisher/${h}`,
     twitch: (h) => `https://www.twitch.tv/${h}`,
     crunchbase: (h) => `https://www.crunchbase.com/organization/${h}`,

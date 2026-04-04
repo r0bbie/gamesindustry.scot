@@ -16,8 +16,8 @@
   "about": "Glasgow Caledonian University is one of Scotland's largest universities, with a strong focus on industry-relevant education. Based in the heart of Glasgow, GCU offers a range of programmes in games development, 3D animation, and audio technology through its School of Computing, Engineering and Built Environment. Ranked number one in Scotland for Computer Games and Animation (Daily Mail University Guide, 2025).",
   "highlighted": true,
   "links": {
-    "twitter": "GCU_tweets",
-    "linkedin": "glasgow-caledonian-university"
+    "twitter": "CaledonianNews",
+    "linkedin": "https://www.linkedin.com/school/glasgow-caledonian-university/"
   },
   "disciplines": [
     "programmer",

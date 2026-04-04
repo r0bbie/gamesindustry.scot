@@ -23,7 +23,7 @@ const schoolsData = schools.map((s) => ({
   levels: [...new Set(s.courses.map((c) => c.level).filter(Boolean))] as string[],
 }));
 
-const addSchoolUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=add-school.yml&title=Add+School:+`;
+const addSchoolUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-school.yml&title=Add+School:+`;
 ---
 
 <BaseLayout title="All Schools — Education">
