@@ -1,0 +1,34 @@
+{
+  "id": "galactic-postal-servitude",
+  "title": "Galactic Postal Servitude",
+  "slug": "galactic-postal-servitude",
+  "school_id": "abertay-university",
+  "team_id": "riverboat-games",
+  "description": "Galactic Postal Servitude is a single-player, point-and-click deduction game set in a chaotic alien post office.\n\nAs the newest employee, you're tasked with inspecting and approving or denying packages bound for strange worlds with stranger rules.\n\nScan for clues, consult your trusty database, and try to keep up as regulations shift with each passing day. Accuracy matters. Time is tight. Mistakes are... noted.\n\nWinner of DARE Academy 2025 and DARE Academy 2025 Audience Choice Award.",
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "56XEQf_lNwM"
+  },
+  "stores": {},
+  "play_now": {
+    "itch": "riverboatgames.itch.io/galactic-postal-servitude"
+  },
+  "news": [
+    {
+      "title": "Abertay University announces student finalists for DARE Academy 2025",
+      "publication": "Abertay University",
+      "date": "2025-07-04",
+      "url": "https://www.abertay.ac.uk/news/2025/abertay-university-announces-student-finalists-for-dare-academy-2025/"
+    }
+  ],
+  "competitions": [
+    {
+      "name": "DARE Academy 2025",
+      "result": "winner"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "still-forgotten",
+  "title": "Still Forgotten",
+  "slug": "still-forgotten",
+  "school_id": "abertay-university",
+  "team_id": "final-prism-interactive",
+  "description": "Still Forgotten is a non-Euclidean narrative stealth game where memories and spaces don't quite align. Sneak through the corridors of your thoughts and find out who you really were.\n\nMemory Guards with reactive AI, Security Cameras, tense stealth gameplay loop, Non-Euclidean spaces to traverse, branching dialogue storytelling, and in-game cinematics.",
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "CF4PMJBzl7s"
+  },
+  "stores": {},
+  "play_now": {
+    "itch": "final-prism-interactive.itch.io/still-forgotten"
+  },
+  "news": [
+    {
+      "title": "Abertay University announces student finalists for DARE Academy 2025",
+      "publication": "Abertay University",
+      "date": "2025-07-04",
+      "url": "https://www.abertay.ac.uk/news/2025/abertay-university-announces-student-finalists-for-dare-academy-2025/"
+    }
+  ],
+  "competitions": [
+    {
+      "name": "DARE Academy 2025",
+      "result": "participated"
+    }
+  ]
+}

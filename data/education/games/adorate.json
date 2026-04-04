@@ -1,0 +1,34 @@
+{
+  "id": "adorate",
+  "title": "ADORATE",
+  "slug": "adorate",
+  "school_id": "abertay-university",
+  "team_id": "fishbowl-studio",
+  "description": "ADORATE is a casual town-builder RTS where you take the role of an evil god amassing a cult of followers!\n\nSummon your idol and defend it. Establish a home for your culties. Drain their life force to cast spells and fend off incoming holy forces. Unlock new powers by specialising your followers.",
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "RFMcg7I9_B8"
+  },
+  "stores": {
+    "steam": "3892430"
+  },
+  "play_now": {},
+  "news": [
+    {
+      "title": "Abertay University announces student finalists for DARE Academy 2025",
+      "publication": "Abertay University",
+      "date": "2025-07-04",
+      "url": "https://www.abertay.ac.uk/news/2025/abertay-university-announces-student-finalists-for-dare-academy-2025/"
+    }
+  ],
+  "competitions": [
+    {
+      "name": "DARE Academy 2025",
+      "result": "runner-up"
+    }
+  ]
+}

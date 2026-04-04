@@ -1,0 +1,45 @@
+{
+  "id": "riverboat-games",
+  "name": "Riverboat Games",
+  "slug": "riverboat-games",
+  "school_id": "abertay-university",
+  "logo": "",
+  "short_description": "An eight-person student game development team formed at Abertay University. DARE Academy 2025 Winners and Audience Choice Award winners with Galactic Postal Servitude \u2014 a point-and-click deduction game set in a chaotic alien post office.",
+  "links": {
+    "bluesky": "riverboatgames.bsky.social"
+  },
+  "members": [
+    {
+      "name": "Lucinda Shale",
+      "role": "Production & QA"
+    },
+    {
+      "name": "Ari Thomson",
+      "role": "Programmer"
+    },
+    {
+      "name": "Ciaran Turnbull",
+      "role": "Programmer"
+    },
+    {
+      "name": "Steph Richard",
+      "role": "Artist"
+    },
+    {
+      "name": "Jenna Black",
+      "role": "Artist"
+    },
+    {
+      "name": "Abbie Lochrin",
+      "role": "Artist"
+    },
+    {
+      "name": "Michael Eaton",
+      "role": "Designer"
+    },
+    {
+      "name": "Josie Law",
+      "role": "Audio"
+    }
+  ]
+}

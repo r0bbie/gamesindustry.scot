@@ -1,0 +1,34 @@
+{
+  "id": "gobblin",
+  "title": "Gobblin'",
+  "slug": "gobblin",
+  "school_id": "abertay-university",
+  "team_id": "hyperfix",
+  "description": "You're a goblin. Cause Chaos. Profit.\n\nGobblin' is a first-person arena-style action game with time-trial elements, gaining trophies based on how quickly you complete the level. Eat food to craft magical dishes that can be used to knock out the enemies and move through the level.",
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ynjswhZvM6M"
+  },
+  "stores": {},
+  "play_now": {
+    "itch": "hyperfixdev.itch.io/gobblin"
+  },
+  "news": [
+    {
+      "title": "Abertay University announces student finalists for DARE Academy 2025",
+      "publication": "Abertay University",
+      "date": "2025-07-04",
+      "url": "https://www.abertay.ac.uk/news/2025/abertay-university-announces-student-finalists-for-dare-academy-2025/"
+    }
+  ],
+  "competitions": [
+    {
+      "name": "DARE Academy 2025",
+      "result": "participated"
+    }
+  ]
+}

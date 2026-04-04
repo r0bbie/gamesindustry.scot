@@ -1,0 +1,45 @@
+{
+  "id": "hyperfix",
+  "name": "Hyperfix",
+  "slug": "hyperfix",
+  "school_id": "abertay-university",
+  "logo": "",
+  "short_description": "A student game development team from Abertay University and DARE Academy 2025 finalists. Creators of Gobblin' \u2014 a first-person fantasy action game where you play a mischievous goblin causing chaos at a royal banquet.",
+  "links": {
+    "twitter": "HyperfixDev"
+  },
+  "members": [
+    {
+      "name": "Leah McDermott",
+      "role": "Producer"
+    },
+    {
+      "name": "Elin Rafferty",
+      "role": "Designer"
+    },
+    {
+      "name": "Zion Aitken",
+      "role": "Programmer"
+    },
+    {
+      "name": "Marilyn Briggs",
+      "role": "Programmer"
+    },
+    {
+      "name": "Samantha Holt",
+      "role": "3D Creature Artist"
+    },
+    {
+      "name": "Cara MacDonald",
+      "role": "Animator & Rigger"
+    },
+    {
+      "name": "Connor Smart",
+      "role": "3D Environmental Artist"
+    },
+    {
+      "name": "Krystie Meyes",
+      "role": "2D Concept Artist"
+    }
+  ]
+}

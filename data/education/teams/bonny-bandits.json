@@ -1,0 +1,46 @@
+{
+  "id": "bonny-bandits",
+  "name": "Bonny Bandits",
+  "slug": "bonny-bandits",
+  "school_id": "abertay-university",
+  "logo": "",
+  "short_description": "A small student team of 8 assembled at Abertay University, focusing on narrative-led artistic games. Creators of Synaptic \u2014 a 3D first-person shooter inspired by the works of David Lynch.",
+  "links": {
+    "youtube": "@BonnyBandits",
+    "bluesky": "bonnybanditsgames.bsky.social"
+  },
+  "members": [
+    {
+      "name": "Mia Philp",
+      "role": "Producer"
+    },
+    {
+      "name": "Glitch Mackay",
+      "role": "Designer"
+    },
+    {
+      "name": "Stasi Kosenoka",
+      "role": "Audio Designer"
+    },
+    {
+      "name": "Emma Smith",
+      "role": "3D Artist"
+    },
+    {
+      "name": "Frances Acton",
+      "role": "Animator & Technical Artist"
+    },
+    {
+      "name": "Katelyn Scully",
+      "role": "2D Artist"
+    },
+    {
+      "name": "Alex O'Nions",
+      "role": "Programmer"
+    },
+    {
+      "name": "Alistair Clark",
+      "role": "Programmer"
+    }
+  ]
+}

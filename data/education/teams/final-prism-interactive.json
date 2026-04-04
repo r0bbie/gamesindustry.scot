@@ -1,0 +1,46 @@
+{
+  "id": "final-prism-interactive",
+  "name": "Final Prism Interactive",
+  "slug": "final-prism-interactive",
+  "school_id": "abertay-university",
+  "logo": "",
+  "short_description": "An 8-person indie game team at Abertay University. Creators of Still Forgotten \u2014 a non-Euclidean narrative stealth game where memories and spaces don't quite align.",
+  "links": {
+    "instagram": "final_prism_interactive",
+    "bluesky": "final-prism.bsky.social"
+  },
+  "members": [
+    {
+      "name": "Cal Fitzpatrick",
+      "role": "Concept Artist, Animator & 3D Artist"
+    },
+    {
+      "name": "Fergal Harkin",
+      "role": "Audio, Level & Narrative Designer"
+    },
+    {
+      "name": "Caleb James",
+      "role": "Programmer"
+    },
+    {
+      "name": "Thomas McGregor",
+      "role": "Artist"
+    },
+    {
+      "name": "Murray Provan",
+      "role": "Producer & Designer"
+    },
+    {
+      "name": "Cormac Somerville",
+      "role": "Programmer"
+    },
+    {
+      "name": "Thomas Stebbings",
+      "role": "Programmer"
+    },
+    {
+      "name": "Jason Taylor",
+      "role": "Designer & Programmer"
+    }
+  ]
+}

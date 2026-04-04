@@ -48,6 +48,14 @@ const storeLabels: Record<string, string> = {
 
 const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/education/games/${game.id}.json`;
 
+const PLATFORM_NAMES: Record<string, string> = {
+  pc: "PC", mac: "Mac", linux: "Linux", web: "Web",
+  ios: "iOS", android: "Android", playstation: "PlayStation",
+  xbox: "Xbox", switch: "Switch", vr: "VR",
+};
+const formatPlatform = (p: string) =>
+  PLATFORM_NAMES[p.toLowerCase()] ?? p.charAt(0).toUpperCase() + p.slice(1);
+
 function getVideoEmbedUrl(video: { type: string; id: string }): string {
   if (video.type === "youtube") return `https://www.youtube-nocookie.com/embed/${video.id}`;
   if (video.type === "peertube") return video.id;
@@ -86,7 +94,7 @@ function getVideoEmbedUrl(video: { type: string; id: string }): string {
           {game.platforms.length > 0 && (
             <div class="mt-3 flex flex-wrap gap-1.5">
               {game.platforms.map((p) => (
-                <Badge variant="secondary">{p}</Badge>
+                <Badge variant="secondary">{formatPlatform(p)}</Badge>
               ))}
             </div>
           )}
@@ -112,6 +120,42 @@ function getVideoEmbedUrl(video: { type: string; id: string }): string {
   <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
     <div class="grid gap-8 lg:grid-cols-3">
       <div class="space-y-8 lg:col-span-2">
+        <!-- Store / Play Links (top) -->
+        {(storeEntries.length > 0 || playEntries.length > 0) && (
+          <section>
+            <div class="flex flex-wrap gap-2">
+              {playEntries.map(([platform, id]) => (
+                <a
+                  href={buildPlayUrl(platform, id)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-1.5 rounded-lg border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-medium text-primary shadow-sm transition-colors hover:bg-primary/10"
+                >
+                  <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="5 3 19 12 5 21 5 3" />
+                  </svg>
+                  Play on {storeLabels[platform] ?? platform}
+                </a>
+              ))}
+              {storeEntries.map(([store, id]) => (
+                <a
+                  href={buildStoreUrl(store, id)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-1.5 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                >
+                  <svg class="h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  {storeLabels[store] ?? store}
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
         <!-- Video -->
         {game.video && (
           <section>
@@ -156,42 +200,33 @@ function getVideoEmbedUrl(video: { type: string; id: string }): string {
           </section>
         )}
 
-        <!-- Store / Play Links -->
-        {(storeEntries.length > 0 || playEntries.length > 0) && (
+        <!-- Game Jams & Competitions -->
+        {game.competitions.length > 0 && (
           <section>
-            <h2 class="mb-3 text-xl font-semibold">Get the Game</h2>
-            <div class="flex flex-wrap gap-2">
-              {storeEntries.map(([store, id]) => (
-                <a
-                  href={buildStoreUrl(store, id)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center gap-1.5 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
-                >
-                  <svg class="h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                    <polyline points="15 3 21 3 21 9" />
-                    <line x1="10" y1="14" x2="21" y2="3" />
-                  </svg>
-                  {storeLabels[store] ?? store}
-                </a>
-              ))}
-              {playEntries.map(([platform, id]) => (
-                <a
-                  href={buildPlayUrl(platform, id)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center gap-1.5 rounded-lg border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-medium text-primary shadow-sm transition-colors hover:bg-primary/10"
-                >
-                  <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polygon points="5 3 19 12 5 21 5 3" />
-                  </svg>
-                  Play on {storeLabels[platform] ?? platform}
-                </a>
-              ))}
-            </div>
+            <h2 class="mb-3 text-xl font-semibold">Game Jams &amp; Competitions</h2>
+            <ul class="space-y-2">
+              {game.competitions.map((comp) => {
+                const badge =
+                  comp.result === "winner"
+                    ? { label: "Winner", class: "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300" }
+                    : comp.result === "runner-up"
+                    ? { label: "Runner-up", class: "bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300" }
+                    : comp.result === "finalist"
+                    ? { label: "Finalist", class: "bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300" }
+                    : { label: "Participated", class: "bg-muted text-muted-foreground" };
+                return (
+                  <li class="flex items-center justify-between rounded-lg border border-border bg-card px-4 py-3">
+                    <span class="font-medium">{comp.name}</span>
+                    <span class={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${badge.class}`}>
+                      {badge.label}
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
           </section>
         )}
+
       </div>
 
       <!-- Sidebar -->
@@ -235,7 +270,7 @@ function getVideoEmbedUrl(video: { type: string; id: string }): string {
                 <dd class="mt-1 flex flex-wrap gap-1">
                   {game.platforms.map((p) => (
                     <span class="rounded bg-muted px-1.5 py-0.5 text-xs font-medium text-muted-foreground">
-                      {p}
+                      {formatPlatform(p)}
                     </span>
                   ))}
                 </dd>

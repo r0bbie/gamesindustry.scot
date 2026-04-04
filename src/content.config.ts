@@ -261,7 +261,11 @@ const teams = defineCollection({
     logo: z.string().optional(),
     short_description: z.string().optional(),
     website: z.string().optional(),
-    members: z.array(z.string()).optional().default([]),
+    links: linksSchema,
+    members: z
+      .array(z.object({ name: z.string(), role: z.string().optional() }))
+      .optional()
+      .default([]),
   }),
 });
 
@@ -284,6 +288,16 @@ const studentGames = defineCollection({
       .optional(),
     stores: z.record(z.string(), z.string()).optional().default({}),
     play_now: z.record(z.string(), z.string()).optional().default({}),
+    competitions: z
+      .array(
+        z.object({
+          name: z.string(),
+          result: z.enum(["winner", "runner-up", "finalist", "participated"]),
+        })
+      )
+      .optional()
+      .default([]),
+    news: z.array(newsSchema).optional().default([]),
   }),
 });
 

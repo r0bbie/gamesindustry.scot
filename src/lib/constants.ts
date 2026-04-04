@@ -158,6 +158,7 @@ export function buildSocialUrl(platform: string, handle: string): string {
     soundcloud: (h) => `https://soundcloud.com/${h}`,
     bandcamp: (h) => `https://${h}.bandcamp.com`,
     instagram: (h) => `https://www.instagram.com/${h}`,
+    itch: (h) => h.startsWith("http") ? h : `https://${h}.itch.io`,
   };
   return urls[platform]?.(handle) ?? `#unknown-${platform}`;
 }

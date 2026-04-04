@@ -36,6 +36,14 @@ const schoolGames = allStudentGames.filter((g) => g.school_id === school.id);
 
 const teamMap = new Map(allTeams.map((t) => [t.id, t]));
 
+const GAME_PLATFORM_NAMES: Record<string, string> = {
+  pc: "PC", mac: "Mac", linux: "Linux", web: "Web",
+  ios: "iOS", android: "Android", playstation: "PlayStation",
+  xbox: "Xbox", switch: "Switch", vr: "VR",
+};
+const formatPlatform = (p: string) =>
+  GAME_PLATFORM_NAMES[p.toLowerCase()] ?? p.charAt(0).toUpperCase() + p.slice(1);
+
 function formatPlatformName(platform: string): string {
   const names: Record<string, string> = {
     twitter: "Twitter / X",
@@ -347,7 +355,7 @@ const iconBg = school.logo_bg === "light" ? "bg-white" : school.logo_bg === "dar
                       <div class="mt-2 flex flex-wrap gap-1">
                         {game.platforms.map((p: string) => (
                           <span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground">
-                            {p}
+                            {formatPlatform(p)}
                           </span>
                         ))}
                       </div>

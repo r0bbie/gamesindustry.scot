@@ -1,0 +1,45 @@
+{
+  "id": "cosmic-coda",
+  "name": "Cosmic Coda",
+  "slug": "cosmic-coda",
+  "school_id": "abertay-university",
+  "logo": "",
+  "short_description": "A student game development team at Abertay University. Creators of Elusive Core: Zero Trace \u2014 a pixel art stealth platformer set in a dystopian future featuring a rogue android navigating a crumbling world.",
+  "links": {
+    "bluesky": "cosmiccoda.bsky.social"
+  },
+  "members": [
+    {
+      "name": "Connor Adamson",
+      "role": "Designer & Level Designer"
+    },
+    {
+      "name": "Adele Bauer",
+      "role": "Designer & Programmer"
+    },
+    {
+      "name": "Rebecca Taylor",
+      "role": "Designer, Audio Designer & Composer"
+    },
+    {
+      "name": "Eden Dunbar",
+      "role": "Artist"
+    },
+    {
+      "name": "Botond Szilagyi",
+      "role": "Artist"
+    },
+    {
+      "name": "Emily Wilkins",
+      "role": "Artist"
+    },
+    {
+      "name": "Cassie Parsons",
+      "role": "Programmer"
+    },
+    {
+      "name": "Mark Beveridge",
+      "role": "Creative Producer"
+    }
+  ]
+}

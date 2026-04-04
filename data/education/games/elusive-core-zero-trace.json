@@ -1,0 +1,34 @@
+{
+  "id": "elusive-core-zero-trace",
+  "title": "Elusive Core: Zero Trace",
+  "slug": "elusive-core-zero-trace",
+  "school_id": "abertay-university",
+  "team_id": "cosmic-coda",
+  "description": "Enter a lost, dystopian future with beautifully drawn pixel art, a mesmerizing soundtrack, and polished movement designed with both casual and challenge focused players in mind.\n\nYou are Emira, an agile android gone rogue from a machine-ran corporation intent on wiping out humanity. In this immersive 2D stealth-platformer hybrid, utilise classic platformer mechanics like momentum-based movement, dashing and wall jumping in tandem with robotic abilities like cloaking and hacking to outrun your past and escape the system that once controlled you.",
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ajKfjv8jmp0"
+  },
+  "stores": {},
+  "play_now": {
+    "itch": "cosmic-coda.itch.io/eczt"
+  },
+  "news": [
+    {
+      "title": "Abertay University announces student finalists for DARE Academy 2025",
+      "publication": "Abertay University",
+      "date": "2025-07-04",
+      "url": "https://www.abertay.ac.uk/news/2025/abertay-university-announces-student-finalists-for-dare-academy-2025/"
+    }
+  ],
+  "competitions": [
+    {
+      "name": "DARE Academy 2025",
+      "result": "participated"
+    }
+  ]
+}

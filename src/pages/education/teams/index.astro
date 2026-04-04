@@ -1,0 +1,43 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllTeams, getAllSchools } from "@/lib/data";
+import TeamCard from "@/components/education/TeamCard.astro";
+
+const teams = await getAllTeams();
+const schools = await getAllSchools();
+const schoolMap = new Map(schools.map((s) => [s.id, s]));
+
+const teamsWithSchool = teams.map((t) => ({
+  team: t,
+  schoolName: schoolMap.get(t.school_id)?.name ?? "Unknown School",
+}));
+---
+
+<BaseLayout title="Student Teams — Education">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="mb-8">
+      <div class="flex items-center gap-2 text-sm text-muted-foreground">
+        <a href="/education" class="hover:text-foreground hover:underline">Education</a>
+        <span>/</span>
+        <span>Student Teams</span>
+      </div>
+      <h1 class="mt-1 text-3xl font-bold tracking-tight">Student Teams</h1>
+      <p class="mt-2 max-w-2xl text-muted-foreground">
+        Game development teams formed by students at Scottish universities and colleges.
+      </p>
+    </div>
+
+    {teamsWithSchool.length > 0 ? (
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {teamsWithSchool.map(({ team, schoolName }) => (
+          <TeamCard team={team} schoolName={schoolName} />
+        ))}
+      </div>
+    ) : (
+      <div class="rounded-xl border border-border bg-card px-6 py-16 text-center">
+        <p class="text-muted-foreground">No student teams listed yet.</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

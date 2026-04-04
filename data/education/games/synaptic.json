@@ -1,0 +1,34 @@
+{
+  "id": "synaptic",
+  "title": "Synaptic",
+  "slug": "synaptic",
+  "school_id": "abertay-university",
+  "team_id": "bonny-bandits",
+  "description": "Synaptic is a 3D first-person shooter game inspired by the works of David Lynch in which the main character must explore an unsettlingly organic environment, following the trail of a glowing spark to uncover the secrets hidden within. Play through 4 different levels, shooting down targets with nostalgic bullets as you fill up your childhood journal.\n\nFeatures voice acted dialogue, 3 unique hand weapons, and an unsettling organic environment.",
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "GeDYPSRBskA"
+  },
+  "stores": {},
+  "play_now": {
+    "itch": "bonny-bandits.itch.io/synaptic"
+  },
+  "news": [
+    {
+      "title": "Abertay University announces student finalists for DARE Academy 2025",
+      "publication": "Abertay University",
+      "date": "2025-07-04",
+      "url": "https://www.abertay.ac.uk/news/2025/abertay-university-announces-student-finalists-for-dare-academy-2025/"
+    }
+  ],
+  "competitions": [
+    {
+      "name": "DARE Academy 2025",
+      "result": "participated"
+    }
+  ]
+}
