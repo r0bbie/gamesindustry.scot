@@ -1,0 +1,28 @@
+{
+  "sections": [
+    {
+      "title": "Industry Organisations",
+      "links": [
+        { "name": "Scottish Games Network", "url": "https://scottishgames.net", "description": "Community network for Scottish game developers" },
+        { "name": "Scottish Game Developers Association", "url": "https://sgda.co.uk", "description": "Trade body representing Scottish game development studios" },
+        { "name": "TIGA", "url": "https://tiga.org", "description": "The trade association representing the UK games industry" },
+        { "name": "UKIE", "url": "https://ukie.org.uk", "description": "The trade association for the UK interactive entertainment industry" }
+      ]
+    },
+    {
+      "title": "Funding & Support",
+      "links": [
+        { "name": "Scottish Enterprise", "url": "https://www.scottish-enterprise.com", "description": "Scotland's national economic development agency" },
+        { "name": "UK Games Fund", "url": "https://ukgamesfund.com", "description": "Funding for UK games studios" }
+      ]
+    },
+    {
+      "title": "Global Games Industry",
+      "links": [
+        { "name": "NI Game Dev Network", "url": "https://nigame.dev", "description": "The community for everyone making games in Northern Ireland" },
+        { "name": "Belgian Game Industry", "url": "https://gameindustry.be", "description": "Directory of the Belgian games industry" },
+        { "name": "Dutch Games Industry", "url": "https://www.dutchgamesindustry.nl", "description": "Directory of the Dutch games industry" }
+      ]
+    }
+  ]
+}

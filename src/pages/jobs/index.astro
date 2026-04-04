@@ -1,0 +1,199 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getActiveJobs, getAllCompanies } from "@/lib/data";
+import { GITHUB_REPO } from "@/lib/constants";
+import JobBoardView from "@/components/jobs/JobBoardView";
+
+const jobs = await getActiveJobs();
+const companies = await getAllCompanies();
+
+const companyIds = new Set(jobs.map((j) => j.company_id));
+const relevantCompanies = companies
+  .filter((c) => companyIds.has(c.id))
+  .map((c) => ({
+    id: c.id,
+    name: c.name,
+    slug: c.slug,
+    logo: c.logo ?? undefined,
+    short_description: c.short_description ?? undefined,
+  }));
+
+const serializedJobs = jobs
+  .filter((j) => j.type !== "internship")
+  .map((j) => ({
+    id: j.id,
+    title: j.title,
+    slug: j.slug,
+    company_id: j.company_id,
+    discipline: j.discipline,
+    type: j.type,
+    work_mode: j.work_mode ?? undefined,
+    location: j.location ?? undefined,
+    date_posted: j.date_posted,
+    closing_date: j.closing_date ?? undefined,
+    url: j.url,
+    description: j.description ?? undefined,
+    active: j.active,
+  }));
+
+const newJobUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-job.yml`;
+const removeJobUrl = `https://github.com/${GITHUB_REPO}/issues/new?title=Remove+a+job&body=Please+describe+which+job+should+be+removed+and+why.`;
+---
+
+<BaseLayout title="Jobs">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <div class="mb-10">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <h1 class="text-4xl font-bold tracking-tight">Jobs</h1>
+          <p class="mt-3 max-w-2xl text-lg text-muted-foreground">
+            Browse open positions at Scottish games industry companies. Full-time,
+            part-time, contract, and remote roles available.
+          </p>
+        </div>
+        <div class="flex shrink-0 flex-wrap gap-2">
+          <a
+            href={newJobUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex h-9 items-center gap-2 rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Post a job
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <JobBoardView client:load jobs={serializedJobs} companies={relevantCompanies} />
+
+    <!-- Post a job CTA -->
+    <section class="mt-16 rounded-xl border border-border bg-card p-6 sm:p-8">
+      <h2 class="text-2xl font-semibold">Post a job to the board for free</h2>
+      <p class="mt-2 max-w-xl text-muted-foreground">
+        Want to add a job you're hiring for? Just submit it, and we'll share it.
+        Or, mark a job as no longer available.
+      </p>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a
+          href={newJobUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+        >
+          Post a new job
+        </a>
+        <a
+          href={removeJobUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex h-9 items-center justify-center rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+        >
+          Remove a job listing
+        </a>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mt-12">
+      <h2 class="mb-6 text-2xl font-semibold">Frequently Asked Questions</h2>
+      <div class="space-y-3">
+        <details class="group rounded-lg border border-border bg-card">
+          <summary class="flex cursor-pointer items-center justify-between p-4 font-medium">
+            Can I share a job here?
+            <svg
+              class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm text-muted-foreground">
+            Yes! It's completely free, we want to help Scottish studios share
+            available jobs out to as wide a relevant audience as possible. Just
+            select 'Post a job' on this page.
+          </div>
+        </details>
+
+        <details class="group rounded-lg border border-border bg-card">
+          <summary class="flex cursor-pointer items-center justify-between p-4 font-medium">
+            I want to remove a job
+            <svg
+              class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm text-muted-foreground">
+            If a job is invalid or no longer available, you can submit an issue
+            or PR on the
+            <a
+              href={`https://github.com/${GITHUB_REPO}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-primary hover:underline"
+            >
+              GitHub
+            </a>
+            to remove it.
+          </div>
+        </details>
+
+        <details class="group rounded-lg border border-border bg-card">
+          <summary class="flex cursor-pointer items-center justify-between p-4 font-medium">
+            Is it free to post here?
+            <svg
+              class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm text-muted-foreground">
+            Yes, completely.
+          </div>
+        </details>
+
+        <details class="group rounded-lg border border-border bg-card">
+          <summary class="flex cursor-pointer items-center justify-between p-4 font-medium">
+            What jobs can I share?
+            <svg
+              class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </summary>
+          <div class="px-4 pb-4 text-sm text-muted-foreground">
+            Any game industry positions across disciplines &mdash; programming,
+            art, design, writing, production, audio, QA, marketing, etc &mdash;
+            for companies which are based in Scotland. Full-time, part-time,
+            contract, or internship roles may be shared &mdash; providing the
+            position is paid at at least the 'Real Living Wage'.
+          </div>
+        </details>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

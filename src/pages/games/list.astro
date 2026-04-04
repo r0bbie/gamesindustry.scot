@@ -1,0 +1,39 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllGames, safeGetCompany } from "@/lib/data";
+import type { Game } from "@/lib/data";
+import GameListView from "@/components/games/GameListView";
+import type { GameWithDeveloper } from "@/components/games/GameListView";
+
+const games = await getAllGames();
+
+async function resolveDeveloperName(game: Game): Promise<string> {
+  const devId = game.companies.developer[0];
+  if (!devId) return "Unknown Developer";
+  const company = await safeGetCompany(devId, `game:${game.slug}`);
+  return company?.name ?? "Unknown Developer";
+}
+
+const gamesWithDevs: GameWithDeveloper[] = await Promise.all(
+  games.map(async (g) => ({
+    id: g.id,
+    title: g.title,
+    slug: g.slug,
+    short_description: g.short_description,
+    release_date: g.release_date,
+    status: g.status,
+    genres: g.genres,
+    platforms: g.platforms,
+    cover_image: g.cover_image || undefined,
+    developerName: await resolveDeveloperName(g),
+    critic_ratings: g.critic_ratings,
+    awards: g.awards,
+  })),
+);
+---
+
+<BaseLayout title="All Games" description="Browse all games made in Scotland.">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <GameListView client:load games={gamesWithDevs} />
+  </div>
+</BaseLayout>

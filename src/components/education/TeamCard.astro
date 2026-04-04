@@ -1,0 +1,50 @@
+---
+import type { Team } from "@/lib/data";
+
+interface Props {
+  team: Team;
+  schoolName?: string;
+}
+
+const { team, schoolName } = Astro.props;
+---
+
+<a
+  href={`/education/teams/${team.slug}`}
+  class="group rounded-xl border border-border bg-card text-card-foreground shadow transition-colors hover:border-primary/30 hover:shadow-md"
+>
+  <div class="flex flex-col p-5">
+    <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg bg-muted">
+      {team.logo ? (
+        <img src={team.logo} alt={team.name} class="h-10 w-10 rounded-md object-contain" />
+      ) : (
+        <svg class="h-6 w-6 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+          <circle cx="9" cy="7" r="4" />
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+        </svg>
+      )}
+    </div>
+    <h3 class="font-semibold leading-none tracking-tight group-hover:text-primary transition-colors">
+      {team.name}
+    </h3>
+    {schoolName && (
+      <p class="mt-1.5 text-xs text-muted-foreground">{schoolName}</p>
+    )}
+    {team.short_description && (
+      <p class="mt-2 line-clamp-2 text-sm text-muted-foreground">
+        {team.short_description}
+      </p>
+    )}
+    {team.members.length > 0 && (
+      <p class="mt-2 flex items-center gap-1 text-xs text-muted-foreground">
+        <svg class="h-3 w-3 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+          <circle cx="9" cy="7" r="4" />
+        </svg>
+        {team.members.length} {team.members.length === 1 ? "member" : "members"}
+      </p>
+    )}
+  </div>
+</a>

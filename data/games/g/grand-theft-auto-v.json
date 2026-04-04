@@ -1,0 +1,33 @@
+{
+  "id": "grand-theft-auto-v",
+  "title": "Grand Theft Auto V",
+  "slug": "grand-theft-auto-v",
+  "short_description": "The sprawling open-world crime epic set in the fictional city of Los Santos.",
+  "description": "Grand Theft Auto V is an open-world action-adventure game set in the sprawling city of Los Santos and its surrounding areas. Players follow the intertwined stories of three protagonists — Michael, Trevor, and Franklin — as they navigate a world of crime, heists, and personal drama. The game also features Grand Theft Auto Online, a continuously evolving online multiplayer mode. GTA V became one of the best-selling entertainment products of all time, surpassing 200 million copies sold worldwide.",
+  "release_date": "2013-09-17",
+  "status": "released",
+  "companies": {
+    "developer": ["rockstar-north"],
+    "publishers": ["rockstar-games"],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "open-world", "adventure"],
+  "platforms": ["pc", "ps3", "ps4", "ps5", "xbox-360", "xbox-one", "xbox-series-xs"],
+  "cover_image": "",
+  "screenshots": [],
+  "video": { "type": "youtube", "id": "QkkoHAzjnUs" },
+  "stores": { "steam": "271590", "epic": "grand-theft-auto-v" },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 97, "opencritic": 97 },
+  "database_links": { "igdb": "grand-theft-auto-v", "mobygames": "63620" },
+  "awards": [
+    { "name": "BAFTA Best Game", "year": 2014, "status": "won" },
+    { "name": "Game Developers Choice Game of the Year", "year": 2014, "status": "won" },
+    { "name": "VGX Game of the Year", "year": 2013, "status": "won" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

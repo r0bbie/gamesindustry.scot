@@ -1,0 +1,6 @@
+{
+  "id": "pc",
+  "name": "PC",
+  "icon": "/images/platforms/pc.svg",
+  "description": "Windows PC"
+}

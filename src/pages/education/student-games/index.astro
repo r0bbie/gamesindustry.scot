@@ -1,0 +1,105 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllStudentGames, getAllSchools, getAllTeams } from "@/lib/data";
+import { buildPlayUrl, buildStoreUrl } from "@/lib/constants";
+
+const studentGames = await getAllStudentGames();
+const allSchools = await getAllSchools();
+const teams = await getAllTeams();
+
+const schoolMap = new Map(allSchools.map((s) => [s.id, s]));
+const teamMap = new Map(teams.map((t) => [t.id, t]));
+
+const games = studentGames.map((g) => ({
+  ...g,
+  school: schoolMap.get(g.school_id),
+  team: g.team_id ? teamMap.get(g.team_id) : undefined,
+}));
+---
+
+<BaseLayout title="Student Games — Education">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="mb-8">
+      <div class="flex items-center gap-2 text-sm text-muted-foreground">
+        <a href="/education" class="hover:text-foreground hover:underline">Education</a>
+        <span>/</span>
+        <span>Student Games</span>
+      </div>
+      <h1 class="mt-1 text-3xl font-bold tracking-tight">Student Games</h1>
+      <p class="mt-2 max-w-2xl text-muted-foreground">
+        Games created by student teams at Scottish universities and colleges.
+      </p>
+    </div>
+
+    {games.length > 0 ? (
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {games.map(({ id, title, slug, description, platforms, stores, play_now, school, team }) => (
+          <div class="flex flex-col rounded-xl border border-border bg-card shadow-sm">
+            <!-- Card body -->
+            <div class="flex flex-1 flex-col p-5">
+              <div class="mb-1 flex items-start justify-between gap-2">
+                <h2 class="font-semibold leading-snug tracking-tight">{title}</h2>
+                {platforms.length > 0 && (
+                  <div class="flex shrink-0 flex-wrap gap-1">
+                    {platforms.map((p) => (
+                      <span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground capitalize">
+                        {p}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {(school || team) && (
+                <p class="mb-3 text-xs text-muted-foreground">
+                  {team?.name ?? ""}
+                  {team && school && " · "}
+                  {school ? (
+                    <a href={`/education/schools/${school.slug}`} class="hover:text-foreground hover:underline">
+                      {school.name}
+                    </a>
+                  ) : null}
+                </p>
+              )}
+
+              {description && (
+                <p class="line-clamp-3 text-sm text-muted-foreground">{description}</p>
+              )}
+
+              <!-- Play / Store links -->
+              {(Object.keys(play_now).length > 0 || Object.keys(stores).length > 0) && (
+                <div class="mt-4 flex flex-wrap gap-2">
+                  {Object.entries(play_now).map(([platform, id]) => (
+                    <a
+                      href={buildPlayUrl(platform, id)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex h-8 items-center gap-1.5 rounded-md bg-primary px-3 text-xs font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+                    >
+                      Play on {platform.charAt(0).toUpperCase() + platform.slice(1)}
+                    </a>
+                  ))}
+                  {Object.entries(stores).map(([store, id]) => (
+                    <a
+                      href={buildStoreUrl(store, id)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex h-8 items-center gap-1.5 rounded-md border border-input bg-background px-3 text-xs font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+                    >
+                      {store.charAt(0).toUpperCase() + store.slice(1)}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <div class="rounded-xl border border-border bg-card px-6 py-16 text-center">
+        <p class="text-muted-foreground">No student games listed yet.</p>
+      </div>
+    )}
+  </div>
+</BaseLayout>

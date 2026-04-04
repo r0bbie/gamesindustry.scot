@@ -1,0 +1,58 @@
+name: Add a Game
+description: Submit a new game to the Scottish Games Industry directory
+title: "[Game] "
+labels: ["new-game"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Game Title
+    validations:
+      required: true
+  - type: input
+    id: developer
+    attributes:
+      label: Developer
+      description: Name of the development studio
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - In Development
+        - Released
+        - Cancelled
+    validations:
+      required: true
+  - type: input
+    id: release_date
+    attributes:
+      label: Release Date
+      description: "Format: YYYY-MM-DD (or approximate)"
+  - type: textarea
+    id: platforms
+    attributes:
+      label: Platforms
+      description: "List platforms (e.g. PC, PS5, Xbox Series X|S, Nintendo Switch)"
+  - type: textarea
+    id: genres
+    attributes:
+      label: Genres
+      description: "List genres (e.g. Action, RPG, Puzzle)"
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A short description of the game
+  - type: textarea
+    id: store_links
+    attributes:
+      label: Store Links
+      description: "List store pages (e.g. Steam: 271590, itch.io: dev-name/game-name)"
+  - type: input
+    id: video
+    attributes:
+      label: Trailer URL
+      description: YouTube or other video URL

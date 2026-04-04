@@ -1,0 +1,37 @@
+{
+  "id": "heriot-watt-university",
+  "name": "Heriot-Watt University",
+  "slug": "heriot-watt-university",
+  "status": "active",
+  "founded": 1821,
+  "hq": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.909,
+    "lng": -3.322
+  },
+  "logo": "",
+  "website": "https://www.hw.ac.uk",
+  "about": "Heriot-Watt University is a leading research-intensive university based in Edinburgh, with campuses in Dubai, Malaysia, and online. Through the School of Mathematical and Computer Sciences, Heriot-Watt offers a dedicated Games Development and Production degree designed around the requirements of industry — delivered in Edinburgh, a city that has firmly established itself as a global gaming hub, home to Rockstar North, Epic Games, and Unity Technologies.",
+  "highlighted": false,
+  "links": {
+    "twitter": "HeriotWattUni",
+    "linkedin": "heriot-watt-university"
+  },
+  "disciplines": [
+    "programmer",
+    "designer",
+    "production"
+  ],
+  "courses": [
+    {
+      "name": "Games Development and Production",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "programmer",
+      "url": "https://www.hw.ac.uk/study/undergraduate/games-development-and-production",
+      "short_description": "A ground-breaking programme led by acclaimed industry expert Dr. Thomas Methven, a Scottish BAFTA-winning indie developer. Acquire sought-after skills in game design, 3D graphics, UI/UX and more, with exclusive use of a purpose-built Games Studio in the £19m GRID innovation building — equipped with the latest development hardware for console and VR experiences. Designed around industry requirements with a distinctive design-led and entrepreneurship approach to games production."
+    }
+  ],
+  "institution_type": "university"
+}

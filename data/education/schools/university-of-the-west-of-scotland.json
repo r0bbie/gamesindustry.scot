@@ -1,0 +1,50 @@
+{
+  "id": "university-of-the-west-of-scotland",
+  "name": "University of the West of Scotland",
+  "slug": "university-of-the-west-of-scotland",
+  "status": "active",
+  "founded": 1897,
+  "hq": "Paisley",
+  "campuses": [
+    "Paisley Campus",
+    "Hamilton Campus",
+    "Ayr Campus",
+    "Dumfries Campus"
+  ],
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.845,
+    "lng": -4.424
+  },
+  "logo": "",
+  "website": "https://www.uws.ac.uk",
+  "about": "The University of the West of Scotland is a multi-campus university with campuses across the west of Scotland including Paisley, Hamilton, Ayr, and Dumfries. UWS offers games and animation degrees through its School of Computing, Engineering and Physical Sciences, combining technical training with creative development. The university has connections with major studios including Rockstar North, and encourages students to build strong portfolios and showreels through its end-of-year Digital Futures event.",
+  "highlighted": false,
+  "links": {
+    "twitter": "UniWestScotland",
+    "linkedin": "university-of-the-west-of-scotland"
+  },
+  "disciplines": [
+    "programmer",
+    "artist"
+  ],
+  "courses": [
+    {
+      "name": "Computer Animation Arts",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "artist",
+      "url": "https://www.uws.ac.uk/study/undergraduate/undergraduate-course-search/computer-animation-arts/",
+      "short_description": "The BSc Computer Animation Arts combines traditional and digital animation techniques across all elements of the animation production pipeline. Fusing traditional skills with cutting-edge technology, this dynamic course provides the skills to work in animation, 3D modelling, visual effects, visualisation, and computer games. A practical, project-based course where, from Year 3, you can specialise in film, TV and games — culminating in a Year 4 Honours project focused on a specific area of interest."
+    },
+    {
+      "name": "Computer Games Development",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "programmer",
+      "url": "https://www.uws.ac.uk/study/undergraduate/undergraduate-course-search/computer-games-development/",
+      "short_description": "The BSc (Hons) Computer Games Development combines practical development skills with aesthetical design. Develop skills in games programming and scripting for multiple platforms, with multiple pathways to enhance your design skills in 2D and 3D modelling. A practical, career-focused degree with connections to major studios including Rockstar North, encouraging you to build a strong portfolio and showcase your work to employers at the end-of-year Digital Futures event."
+    }
+  ],
+  "institution_type": "university"
+}

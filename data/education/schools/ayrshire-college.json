@@ -1,0 +1,87 @@
+{
+  "id": "ayrshire-college",
+  "name": "Ayrshire College",
+  "slug": "ayrshire-college",
+  "status": "active",
+  "founded": 2013,
+  "hq": "Ayr",
+  "campuses": [
+    "Ayr Campus",
+    "Kilmarnock Campus",
+    "Kilwinning Campus"
+  ],
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.458,
+    "lng": -4.629
+  },
+  "logo": "",
+  "website": "https://www1.ayrshire.ac.uk",
+  "about": "Ayrshire College is one of Scotland's largest colleges, serving the communities of Ayrshire from campuses in Ayr, Kilmarnock and Kilwinning. The college offers a range of computing and creative courses relevant to the games and music production industries, including a clear progression pathway from NC level through to HND in games development and sound production.",
+  "highlighted": false,
+  "links": {
+    "twitter": "AyrshireCollege",
+    "linkedin": "ayrshire-college"
+  },
+  "disciplines": [
+    "programmer",
+    "designer",
+    "audio"
+  ],
+  "courses": [
+    {
+      "name": "Computer Games and Software Development",
+      "level": "further_education",
+      "degree_type": "NC",
+      "study_mode": "Full time",
+      "discipline": "programmer",
+      "url": "https://www1.ayrshire.ac.uk/courses/browse/computing/nc-computer-games-and-software-development",
+      "short_description": "A National Certificate covering the core skills required for games development and software development, providing a foundation for progression to HNC level study in computing and games development."
+    },
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "HNC",
+      "scqf_level": 7,
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www1.ayrshire.ac.uk/courses/browse/computing/hnc-computer-games-development",
+      "short_description": "HNC Computer Games Development at SCQF Level 7, developing practical skills in games programming, design and digital media production. Covers the key technical disciplines needed for games development and provides a pathway to HND study and university-level programmes."
+    },
+    {
+      "name": "Computer Games",
+      "level": "further_education",
+      "degree_type": "HND",
+      "scqf_level": 8,
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www1.ayrshire.ac.uk/courses/browse/computing/hnd-computer-games",
+      "short_description": "HND Computer Games at SCQF Level 8, building on HNC-level skills with advanced game development, 3D content creation and interactive media production. Graduates are prepared for entry-level roles in the games industry and have articulation routes to several Scottish university degree programmes."
+    },
+    {
+      "name": "Sound Production",
+      "level": "further_education",
+      "degree_type": "HNC",
+      "scqf_level": 7,
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "audio",
+      "url": "https://www1.ayrshire.ac.uk/courses/browse/music-and-sound-production/hnc-sound-production",
+      "short_description": "HNC Sound Production at SCQF Level 7, developing skills in multi-tracking, recording, mixing, digital audio workstations and live sound. Provides a strong foundation in professional audio production relevant to games, music, film and broadcast industries."
+    },
+    {
+      "name": "Sound Production",
+      "level": "further_education",
+      "degree_type": "HND",
+      "scqf_level": 8,
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "audio",
+      "url": "https://www1.ayrshire.ac.uk/courses/browse/music-and-sound-production/hnd-sound-production",
+      "short_description": "HND Sound Production at SCQF Level 8, advancing skills in professional audio production, post-production and live sound engineering. Graduates are well-positioned for careers in studio recording, live events, film and television sound, and games audio, with articulation routes to degree-level study."
+    }
+  ],
+  "institution_type": "college"
+}

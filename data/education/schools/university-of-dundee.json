@@ -1,0 +1,56 @@
+{
+  "id": "university-of-dundee",
+  "name": "University of Dundee",
+  "slug": "university-of-dundee",
+  "status": "active",
+  "institution_type": "university",
+  "founded": 1881,
+  "hq": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": { "lat": 56.457, "lng": -2.978 },
+  "logo": "",
+  "website": "https://www.dundee.ac.uk",
+  "about": "The University of Dundee is a research-intensive university in the heart of Dundee. Its Duncan of Jordanstone College of Art & Design (DJCAD) is one of the UK's leading art schools, ranked 2nd in the UK for Animation (Guardian University Guide 2026). The School of Humanities, Social Sciences and Law offers creative writing programmes with a strong focus on writing for the creative industries, comics, games and digital media.",
+  "highlighted": false,
+  "links": { "twitter": "dundeeuni", "linkedin": "university-of-dundee" },
+  "disciplines": ["artist", "writer"],
+  "courses": [
+    {
+      "name": "Animation",
+      "level": "undergraduate",
+      "degree_type": "BDes (Hons)",
+      "scqf_level": 10,
+      "campus": "Dundee City Campus",
+      "study_mode": "Full time",
+      "duration": "3 or 4 years",
+      "ucas_code": "W280",
+      "discipline": "artist",
+      "url": "https://www.dundee.ac.uk/undergraduate/animation",
+      "short_description": "A narrative-driven course at Duncan of Jordanstone College of Art & Design focusing on characters and storytelling. You will learn 2D and 3D animation techniques including principles of character animation, storyboarding, character development and design, concept and production design, life drawing, acting and production scheduling. As you progress you specialise in areas such as 3D modelling and texturing, rigging, lighting and compositing, or 2D and 3D effects animation. Graduates have credits in Game of Thrones, Spider-Man: Far From Home, and the Disney Channel. Ranked 2nd in the UK for Animation (Guardian University Guide 2026)."
+    },
+    {
+      "name": "English and Creative Writing",
+      "level": "undergraduate",
+      "degree_type": "MA (Hons)",
+      "scqf_level": 10,
+      "campus": "Dundee City Campus",
+      "study_mode": "Full time",
+      "duration": "4 or 3 years",
+      "ucas_code": "QW38",
+      "discipline": "writer",
+      "url": "https://www.dundee.ac.uk/undergraduate/english-creative-writing",
+      "short_description": "Develop the tools to take your ideas from the first concept to the final draft, learning from professional writers and publishers working today. Study writing techniques including fiction, poetry, creative non-fiction, screenwriting, writing for performance, comics and video games. The course focuses on writing in creative industries, with masterclasses from best-selling authors, editors at major publishing houses, and independent artists. Students have been writers-in-residence at Arbroath Abbey and have led workshops at V&A Dundee."
+    },
+    {
+      "name": "Writing for the Creative Economies",
+      "level": "postgraduate",
+      "degree_type": "MLitt",
+      "campus": "Online",
+      "study_mode": "Part time",
+      "duration": "24 months",
+      "discipline": "writer",
+      "url": "https://www.dundee.ac.uk/postgraduate/writing-creative-economies-part-time",
+      "short_description": "Develop your writing for fiction, non-fiction, poetry, drama, film, comics and video games, gaining practical experience and industry insights across different media. The course focuses on professional creative writing and storytelling across the creative economies — publishing, digital content, film, comics, theatre, games and immersive storytelling. You will learn from authors, publishers, filmmakers and game developers, with opportunities to work on industry challenges and build professional networks. Delivered entirely online through workshops, masterclasses and seminars."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+name: Add a Freelancer
+description: Add your freelancer profile to the directory
+title: "[Freelancer] "
+labels: ["new-freelancer"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: dropdown
+    id: discipline
+    attributes:
+      label: Discipline
+      options:
+        - Programmer
+        - Designer
+        - Artist
+        - Audio
+        - Voice Actor
+        - Writer
+        - QA
+        - Production
+        - Marketing & Community
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: City or town in Scotland
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      options:
+        - Glasgow & Strathclyde
+        - Edinburgh & Lothian
+        - Dundee & Tayside
+        - Stirling & Central
+        - Fife
+        - Highlands & Islands
+        - Aberdeen & Grampian
+        - Dumfries & Galloway
+        - Borders
+  - type: textarea
+    id: bio
+    attributes:
+      label: Bio
+      description: Tell us about yourself and your work
+  - type: input
+    id: website
+    attributes:
+      label: Website URL
+  - type: textarea
+    id: links
+    attributes:
+      label: Social / Portfolio Links
+      description: "List your links (e.g. LinkedIn: handle, ArtStation: handle, GitHub: handle)"

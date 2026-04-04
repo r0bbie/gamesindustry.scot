@@ -1,0 +1,38 @@
+{
+  "id": "kythera-ai",
+  "name": "Kythera AI",
+  "slug": "kythera-ai",
+  "category": "tooling",
+  "status": "active",
+  "founded": null,
+  "previously_known_as": [],
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "coordinates": { "lat": 55.9533, "lng": -3.1883 },
+  "short_description": "AI middleware for games — advanced NPC behaviour, navigation, and decision-making.",
+  "about": "Kythera AI is an Edinburgh-based middleware studio developing advanced artificial intelligence solutions for game developers. Their technology enables sophisticated NPC behaviour, navigation, and decision-making systems that bring game worlds to life.",
+  "website": "https://www.kythera.ai",
+  "logo": null,
+  "highlighted": false,
+  "parent_entity": null,
+  "company_size": null,
+  "employee_count": null,
+  "contact_email": "contact@kythera.ai",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Moon Collider Ltd.",
+      "companies_house_number": "07146900"
+    }
+  ],
+  "links": {
+    "twitter": "KytheraAI",
+    "linkedin": "kythera-ai",
+    "bluesky": "kythera.ai",
+    "youtube": "@kytheraai"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

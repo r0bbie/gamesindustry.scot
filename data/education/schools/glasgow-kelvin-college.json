@@ -1,0 +1,45 @@
+{
+  "id": "glasgow-kelvin-college",
+  "name": "Glasgow Kelvin College",
+  "slug": "glasgow-kelvin-college",
+  "status": "active",
+  "founded": 2013,
+  "hq": "Glasgow",
+  "campuses": [
+    "Springburn Campus",
+    "East End Campus",
+    "Easterhouse Campus"
+  ],
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.878,
+    "lng": -4.222
+  },
+  "logo": "",
+  "website": "https://www.glasgowkelvin.ac.uk",
+  "about": "Glasgow Kelvin College is a community-focused college operating across campuses in Springburn, East End and Easterhouse in Glasgow's north and east. Its Art & Design department at the East End campus offers creative courses for students at the beginning of their journey in digital media and design, with a clear pathway to HNC, HND and beyond.",
+  "highlighted": false,
+  "links": {
+    "twitter": "GlasgowKelvin",
+    "linkedin": "glasgow-kelvin-college"
+  },
+  "disciplines": [
+    "artist",
+    "designer"
+  ],
+  "courses": [
+    {
+      "name": "Art, Design & Digital Media — Foundation",
+      "level": "further_education",
+      "degree_type": "NQ",
+      "scqf_level": 5,
+      "campus": "East End Campus",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "artist",
+      "url": "https://www.glasgowkelvin.ac.uk/courses/art-design-digital-media-foundation-nq-level-5/",
+      "short_description": "Designed for students with a keen interest in art and design who are eager to build their skills and confidence. Whether just beginning or looking to expand existing skills, this course develops both traditional and digital skills to prepare for higher-level study or entry-level work in the creative sector. You'll explore drawing, painting, design, illustration, printmaking, mixed media and digital software skills, alongside portfolio development and self-promotion — with optional National Progression Awards in Drawing Skills, Painting, Visual Communications and Art & Design."
+    }
+  ],
+  "institution_type": "college"
+}

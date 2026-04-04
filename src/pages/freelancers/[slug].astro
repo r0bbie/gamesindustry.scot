@@ -1,0 +1,177 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllFreelancers } from "@/lib/data";
+import { getDisciplineName, buildSocialUrl, GITHUB_REPO } from "@/lib/constants";
+import { Badge } from "@/components/ui/badge";
+
+export async function getStaticPaths() {
+  const freelancers = await getAllFreelancers();
+  return freelancers.map((f) => ({ params: { slug: f.slug }, props: { freelancer: f } }));
+}
+
+const { freelancer } = Astro.props;
+
+function getInitials(name: string): string {
+  return name
+    .split(/\s+/)
+    .slice(0, 2)
+    .map((w) => w.charAt(0).toUpperCase())
+    .join("");
+}
+
+function formatPlatformName(platform: string): string {
+  const names: Record<string, string> = {
+    twitter: "Twitter / X",
+    bluesky: "Bluesky",
+    linkedin: "LinkedIn",
+    github: "GitHub",
+    behance: "Behance",
+    dribbble: "Dribbble",
+    artstation: "ArtStation",
+    gumroad: "Gumroad",
+    fiverr: "Fiverr",
+    contra: "Contra",
+    deviantart: "DeviantArt",
+    sketchfab: "Sketchfab",
+    soundcloud: "SoundCloud",
+    bandcamp: "Bandcamp",
+    youtube: "YouTube",
+    instagram: "Instagram",
+    mastodon: "Mastodon",
+  };
+  return (
+    names[platform] ??
+    platform.charAt(0).toUpperCase() + platform.slice(1).replace(/_/g, " ")
+  );
+}
+
+const SOCIAL_ORDER = [
+  "bluesky",
+  "twitter",
+  "linkedin",
+  "github",
+  "behance",
+  "dribbble",
+  "artstation",
+  "gumroad",
+  "fiverr",
+  "contra",
+  "deviantart",
+  "sketchfab",
+  "soundcloud",
+  "bandcamp",
+  "youtube",
+  "instagram",
+];
+
+const socialLinks = SOCIAL_ORDER.filter(
+  (platform) => freelancer.links?.[platform]
+).map((platform) => ({
+  platform,
+  label: formatPlatformName(platform),
+  url: buildSocialUrl(platform, freelancer.links![platform]),
+}));
+
+const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/freelancers/${freelancer.id}.json`;
+---
+
+<BaseLayout title={freelancer.name}>
+  <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+    <div class="mb-8 flex flex-col items-center text-center sm:flex-row sm:items-start sm:text-left">
+      <div class="mb-4 flex h-24 w-24 shrink-0 items-center justify-center rounded-full bg-muted sm:mb-0 sm:mr-6">
+        {
+          freelancer.photo ? (
+            <img
+              src={freelancer.photo}
+              alt={`${freelancer.name} photo`}
+              class="h-24 w-24 rounded-full object-cover"
+            />
+          ) : (
+            <span class="text-3xl font-bold text-muted-foreground">
+              {getInitials(freelancer.name)}
+            </span>
+          )
+        }
+      </div>
+      <div>
+        <h1 class="text-3xl font-bold tracking-tight">{freelancer.name}</h1>
+        <div class="mt-2 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
+          <Badge variant="secondary">{getDisciplineName(freelancer.discipline)}</Badge>
+          {
+            freelancer.location && (
+              <span class="text-sm text-muted-foreground">
+                {freelancer.location}
+              </span>
+            )
+          }
+        </div>
+      </div>
+    </div>
+
+    {
+      freelancer.website && (
+        <div class="mb-6">
+          <a
+            href={freelancer.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex h-10 w-full items-center justify-center rounded-md bg-primary text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 sm:w-auto sm:px-8"
+          >
+            Visit Website
+          </a>
+        </div>
+      )
+    }
+
+    {
+      socialLinks.length > 0 && (
+        <div class="mb-8 flex flex-wrap gap-2">
+          {socialLinks.map(({ label, url }) => (
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center rounded-md border border-border px-2.5 py-1 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+            >
+              {label}
+            </a>
+          ))}
+        </div>
+      )
+    }
+
+    {
+      freelancer.bio && (
+        <div class="mb-8">
+          <h2 class="mb-3 text-xl font-semibold">About</h2>
+          <p class="whitespace-pre-line leading-relaxed text-muted-foreground">
+            {freelancer.bio}
+          </p>
+        </div>
+      )
+    }
+
+    <div class="border-t border-border pt-6">
+      <a
+        href={editUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex h-9 items-center gap-2 rounded-md border border-input bg-background px-3 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+      >
+        <svg
+          class="h-4 w-4"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+          <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+        </svg>
+        Suggest a change
+      </a>
+    </div>
+  </div>
+</BaseLayout>

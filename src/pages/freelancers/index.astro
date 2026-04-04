@@ -1,0 +1,48 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllFreelancers } from "@/lib/data";
+import { DISCIPLINES, GITHUB_REPO } from "@/lib/constants";
+import FreelancerListView from "@/components/freelancers/FreelancerListView";
+
+const addFreelancerUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-freelancer.yml&title=%5BFreelancer%5D+`;
+const freelancers = await getAllFreelancers();
+
+const serialized = freelancers.map((f) => ({
+  id: f.id,
+  name: f.name,
+  slug: f.slug,
+  discipline: f.discipline,
+  short_bio: f.short_bio ?? null,
+  photo: f.photo ?? null,
+  location: f.location ?? null,
+}));
+---
+
+<BaseLayout title="Freelancers">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <div class="mb-10">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <h1 class="text-4xl font-bold tracking-tight">Freelancers</h1>
+          <p class="mt-3 max-w-2xl text-lg text-muted-foreground">
+            Find talented freelancers working across the Scottish games industry
+            &mdash; from programmers and artists to audio designers and writers.
+          </p>
+        </div>
+        <div class="flex shrink-0 flex-wrap gap-2">
+          <a
+            href={addFreelancerUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex h-9 items-center gap-2 rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Add your profile
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <FreelancerListView client:load freelancers={serialized} />
+  </div>
+</BaseLayout>

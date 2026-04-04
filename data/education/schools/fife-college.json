@@ -1,0 +1,90 @@
+{
+  "id": "fife-college",
+  "name": "Fife College",
+  "slug": "fife-college",
+  "status": "active",
+  "founded": 2013,
+  "hq": "Kirkcaldy",
+  "campuses": [
+    "Kirkcaldy Campus",
+    "Dunfermline Campus",
+    "Glenrothes Campus"
+  ],
+  "region": "fife",
+  "coordinates": {
+    "lat": 56.112,
+    "lng": -3.165
+  },
+  "logo": "",
+  "website": "https://www.fife.ac.uk",
+  "about": "Fife College is one of Scotland's largest regional colleges, with campuses across Fife. It offers a broad range of creative and computing courses including a clear progression pathway in games development and digital design — from introductory certificates through to HNC level — as well as sound production and digital media qualifications relevant to the games and creative industries.",
+  "highlighted": false,
+  "links": {
+    "twitter": "FifeCollege",
+    "linkedin": "fife-college"
+  },
+  "disciplines": [
+    "programmer",
+    "designer",
+    "artist",
+    "audio"
+  ],
+  "courses": [
+    {
+      "name": "Computer Games Design and Animation",
+      "level": "further_education",
+      "degree_type": "Intermediate Certificate",
+      "scqf_level": 5,
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "designer",
+      "url": "https://www.fife.ac.uk/courses/browse-courses/computer-games-design-and-animation-scqf-level-5-intermediate-certificate/?keyword=games",
+      "short_description": "An introductory certificate course covering the core principles of computer games design and animation at SCQF Level 5. Provides a foundation in creative and technical skills for those interested in games, digital design and animation, and offers a pathway to more advanced study."
+    },
+    {
+      "name": "Computer Games Design and Animation",
+      "level": "further_education",
+      "degree_type": "Advanced Certificate",
+      "scqf_level": 6,
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "designer",
+      "url": "https://www.fife.ac.uk/courses/browse-courses/computer-games-design-and-animation-advanced-certificate/?keyword=games",
+      "short_description": "An advanced certificate in computer games design and animation at SCQF Level 6, building on foundational skills with more complex design and animation techniques. Provides a pathway to HNC study in games or digital design."
+    },
+    {
+      "name": "Sound Production",
+      "level": "further_education",
+      "degree_type": "Advanced Certificate",
+      "scqf_level": 6,
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "audio",
+      "url": "https://www.fife.ac.uk/courses/browse-courses/sound-production-advanced-certificate/?keyword=games",
+      "short_description": "An advanced certificate in sound production developing skills in audio recording, editing and production relevant to the games, music and creative industries at SCQF Level 6. Provides progression to HNC Sound Production or related further study."
+    },
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "HNC",
+      "scqf_level": 7,
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www.fife.ac.uk/courses/browse-courses/hnc-computer-games-development/",
+      "short_description": "HNC Computer Games Development at SCQF Level 7, covering the core technical and creative skills needed for games development. Students learn programming, game design, and digital media production using industry-standard tools, with progression routes to HND level and university degree programmes."
+    },
+    {
+      "name": "Digital Design and Development (Games)",
+      "level": "further_education",
+      "degree_type": "HNC",
+      "scqf_level": 7,
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "designer",
+      "url": "https://www.fife.ac.uk/courses/browse-courses/digital-design-and-development-games-hnc/?keyword=games",
+      "short_description": "HNC in Digital Design and Development with a Games specialism at SCQF Level 7. Develops skills in digital design, interactive media and games-focused development, combining creative and technical disciplines with progression routes to higher-level study."
+    }
+  ],
+  "institution_type": "college"
+}

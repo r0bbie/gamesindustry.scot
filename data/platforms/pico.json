@@ -1,0 +1,6 @@
+{
+  "id": "pico",
+  "name": "Pico",
+  "icon": "/images/platforms/pico.svg",
+  "description": "Pico standalone VR headset"
+}

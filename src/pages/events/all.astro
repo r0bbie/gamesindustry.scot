@@ -1,0 +1,59 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllEvents, getAllGames } from "@/lib/data";
+import { GITHUB_REPO } from "@/lib/constants";
+import EventListView from "@/components/events/EventListView";
+import type { EventData, GameRelease } from "@/components/events/EventCalendar";
+
+const events = await getAllEvents();
+const games = await getAllGames();
+
+const allEvents: EventData[] = events.map((e) => ({
+  id: e.id,
+  name: e.name,
+  slug: e.slug,
+  date_start: e.date_start,
+  date_end: e.date_end,
+  location: e.location,
+  is_online: e.is_online,
+  is_scottish: e.is_scottish,
+  tags: e.tags,
+  highlighted: e.highlighted,
+}));
+
+const allGames: GameRelease[] = games
+  .filter((g) => g.release_date)
+  .map((g) => ({
+    id: g.id,
+    title: g.title,
+    slug: g.slug,
+    release_date: g.release_date,
+    status: g.status,
+  }));
+
+const addEventUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=add-event.yml&title=%5BEvent%5D+`;
+---
+
+<BaseLayout title="All Events" description="Browse all events for the Scottish games industry — past and future.">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <div class="mb-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <h1 class="text-4xl font-bold tracking-tight">All Events</h1>
+        <p class="mt-2 text-lg text-muted-foreground">
+          Browse, search, and filter every event in the directory.
+        </p>
+      </div>
+      <a
+        href={addEventUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex h-9 items-center gap-2 rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+      >
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+        Add an event
+      </a>
+    </div>
+
+    <EventListView client:load events={allEvents} gameReleases={allGames} />
+  </div>
+</BaseLayout>

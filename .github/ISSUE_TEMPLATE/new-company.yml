@@ -1,0 +1,73 @@
+name: Add a Company
+description: Submit a new company to the Scottish Games Industry directory
+title: "[Company] "
+labels: ["new-company"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Company Name
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Developer
+        - Tooling
+        - Service Provider
+        - Publisher
+        - Supporting Organisation
+        - Games Media
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: City / Town
+    validations:
+      required: true
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      options:
+        - Glasgow & Strathclyde
+        - Edinburgh & Lothian
+        - Dundee & Tayside
+        - Stirling & Central
+        - Fife
+        - Highlands & Islands
+        - Aberdeen & Grampian
+        - Dumfries & Galloway
+        - Borders
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website URL
+  - type: textarea
+    id: description
+    attributes:
+      label: Short Description
+      description: A one-liner describing the company
+  - type: textarea
+    id: about
+    attributes:
+      label: About
+      description: A paragraph or two about the company
+  - type: input
+    id: founded
+    attributes:
+      label: Year Founded
+  - type: input
+    id: employee_count
+    attributes:
+      label: Approximate Employee Count
+  - type: textarea
+    id: links
+    attributes:
+      label: Social Links
+      description: "List any social links (e.g. Twitter: @handle, LinkedIn: company-slug)"

@@ -1,0 +1,12 @@
+{
+  "id": "dungeon-dash",
+  "title": "Dungeon Dash",
+  "slug": "dungeon-dash",
+  "school_id": "abertay-university",
+  "team_id": "pixel-pioneers",
+  "description": "A fast-paced roguelike dungeon crawler created as a final year project at Abertay University. Players descend through procedurally generated floors, battling monsters and collecting loot in a race against the clock. Built in Unity over the course of one academic year, the game showcases the team's skills in programming, 2D art, and game design.",
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {},
+  "play_now": { "itch": "pixel-pioneers/dungeon-dash" }
+}

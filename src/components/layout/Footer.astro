@@ -1,0 +1,87 @@
+---
+import { SITE_TITLE, GITHUB_URL } from "@/lib/constants";
+const isHomepage = Astro.url.pathname === "/";
+---
+
+<footer class="border-t border-border bg-card">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+      <!-- Brand -->
+      <div class="col-span-2 md:col-span-1">
+        <a href="/" class="flex items-center gap-2 font-semibold">
+          <img src="/logo.svg" alt="" width="20" height="20" class="rounded" aria-hidden="true" />
+          {SITE_TITLE}
+        </a>
+        <p class="mt-3 text-sm text-muted-foreground">
+          The open directory of Scotland's games industry — studios,
+          games, freelancers, jobs, events, and education.
+        </p>
+      </div>
+
+      <!-- Sections (2-col list, columns sized to content) -->
+      <div class="col-span-1 md:col-span-2">
+        <h3 class="mb-3 text-sm font-semibold">Sections</h3>
+        <div class="flex gap-15 text-sm">
+          <ul class="space-y-2">
+            <li><a href="/companies" class="text-muted-foreground transition-colors hover:text-foreground">Companies</a></li>
+            <li><a href="/games" class="text-muted-foreground transition-colors hover:text-foreground">Games</a></li>
+            <li><a href="/freelancers" class="text-muted-foreground transition-colors hover:text-foreground">Freelancers</a></li>
+            <li><a href="/jobs" class="text-muted-foreground transition-colors hover:text-foreground">Jobs</a></li>
+            <li><a href="/events" class="text-muted-foreground transition-colors hover:text-foreground">Events</a></li>
+          </ul>
+          <ul class="space-y-2">
+            <li><a href="/education" class="text-muted-foreground transition-colors hover:text-foreground">Education</a></li>
+            <li><a href="/links" class="text-muted-foreground transition-colors hover:text-foreground">Links</a></li>
+            <li><a href="/search" class="text-muted-foreground transition-colors hover:text-foreground">Search</a></li>
+            <li><a href="/about" class="text-muted-foreground transition-colors hover:text-foreground">About</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Community -->
+      <div>
+        <h3 class="mb-3 text-sm font-semibold">Community</h3>
+        <ul class="space-y-2 text-sm">
+          <li>
+            <a
+              href={GITHUB_URL}
+              class="text-muted-foreground transition-colors hover:text-foreground"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              href={`${GITHUB_URL}/issues/new`}
+              class="text-muted-foreground transition-colors hover:text-foreground"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Suggest a Change
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div
+      class="mt-10 flex flex-col items-center gap-2 border-t border-border pt-6 text-center text-xs text-muted-foreground sm:flex-row sm:justify-between sm:text-left"
+    >
+      <p>
+        Code licensed under
+        <a href={`${GITHUB_URL}/blob/main/LICENSE`} class="underline underline-offset-2 hover:text-foreground" target="_blank" rel="noopener noreferrer">AGPLv3</a>.
+        Data licensed under
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="underline underline-offset-2 hover:text-foreground" target="_blank" rel="noopener noreferrer">CC BY-NC-SA</a>.
+      </p>
+      {!isHomepage && (
+        <p>
+          Supported by
+          <a href="https://buildstash.com" class="underline underline-offset-2 hover:text-foreground" target="_blank" rel="noopener noreferrer">Buildstash</a>
+        </p>
+      )}
+    </div>
+  </div>
+</footer>

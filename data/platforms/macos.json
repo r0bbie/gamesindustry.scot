@@ -1,0 +1,6 @@
+{
+  "id": "macos",
+  "name": "macOS",
+  "icon": "/images/platforms/macos.svg",
+  "description": "Apple macOS"
+}

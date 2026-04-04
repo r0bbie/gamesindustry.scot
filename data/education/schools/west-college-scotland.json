@@ -1,0 +1,107 @@
+{
+  "id": "west-college-scotland",
+  "name": "West College Scotland",
+  "slug": "west-college-scotland",
+  "status": "active",
+  "founded": 2013,
+  "hq": "Paisley",
+  "campuses": [
+    "Paisley Campus",
+    "Greenock Campus",
+    "Clydebank Campus"
+  ],
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.841,
+    "lng": -4.423
+  },
+  "logo": "",
+  "website": "https://www.westcollegescotland.ac.uk",
+  "about": "West College Scotland serves communities across the west of Scotland from campuses in Paisley, Greenock and Clydebank. Its Computing & Games department offers a comprehensive pathway from NQ entry level through to HND, using industry-standard tools including Unity, Unreal Engine and the Adobe Creative Suite. The Sound Production department is a recognised Steinberg campus and offers opportunities to record at live venues including St Luke's Glasgow and the Beacon Arts Centre.",
+  "highlighted": false,
+  "links": {
+    "twitter": "WestCollegeScot",
+    "linkedin": "west-college-scotland"
+  },
+  "disciplines": [
+    "programmer",
+    "designer",
+    "artist",
+    "audio"
+  ],
+  "courses": [
+    {
+      "name": "Computing with Games Development",
+      "level": "further_education",
+      "degree_type": "NQ",
+      "scqf_level": 5,
+      "campus": "Clydebank",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www.westcollegescotland.ac.uk/courses/computing-games/nq-computing-with-games-development-1/",
+      "short_description": "This qualification allows you to plan, design and create your own computer games. Aimed at learners who want to progress to employment in the games or Esports industries, or move into higher education, you will learn about animation, AI in gaming, gameplay, game development, games programming, digital game design, software development and Esports broadcasting. Successful students can progress to HNC Computer Games Development."
+    },
+    {
+      "name": "Computer Games Development with Esports",
+      "level": "further_education",
+      "degree_type": "NQ",
+      "scqf_level": 5,
+      "campus": "Paisley",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www.westcollegescotland.ac.uk/courses/computing-games/nq-computer-games-development-with-esports-1/",
+      "short_description": "This qualification gives you the skills to plan, design and build your own computer games, while also introducing you to the fast-growing world of Esports. You will learn how games are created from concept to final product and gain hands-on experience using industry-relevant tools. The course covers animation, AI in games, gameplay, media assets, games programming, digital game design, Esports broadcasting and hosting Esports events."
+    },
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "HNC",
+      "scqf_level": 7,
+      "campus": "Clydebank, Paisley",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www.westcollegescotland.ac.uk/courses/computing-games/hnc-computer-games-development/",
+      "short_description": "Turn your passion for gaming into real-world skills. This course gives you hands-on learning in games development, using industry-standard tools including Adobe Creative Suite, Unity and Unreal Engine. At the Paisley campus, you'll collaborate on a live game project with local primary schools, gaining real client experience and a standout portfolio piece. Covers games programming, graphics for games, game interface design, 2D animation, game technology and 3D level editing."
+    },
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "HND",
+      "scqf_level": 8,
+      "campus": "Paisley, Clydebank",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www.westcollegescotland.ac.uk/courses/computing-games/hnd-computer-games-development/",
+      "short_description": "Build on your HNC and take your skills to the next level in this advanced, industry-focused games development qualification. Deepens your abilities in programming, animation, game design, storytelling and technical art, helping you create a professional portfolio. Covers 3D animation and modelling, Object-Oriented Programming with C#, games customisation and scripting, game design theory, character creation and storytelling, and showreel and portfolio development. Graduates can progress to second or third year of degree programmes at UWS, GCU and Abertay."
+    },
+    {
+      "name": "Sound Production",
+      "level": "further_education",
+      "degree_type": "NQ",
+      "scqf_level": 6,
+      "campus": "Greenock",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "audio",
+      "url": "https://www.westcollegescotland.ac.uk/courses/sound-production-djing/nq-sound-production/",
+      "short_description": "This course develops a variety of skills within the creative audio industry, covering the signal path, sound engineering and production, audio editing, MIDI sequencing, sound synthesis and sampling, sound for live events, music industry basics, sound design, music remixing and music promotion. Students can also take part in a flexible NC provision, choosing a mix of modules from the range of Creative Industries NC courses to create a unique timetable."
+    },
+    {
+      "name": "Sound Production",
+      "level": "further_education",
+      "degree_type": "HNC",
+      "scqf_level": 7,
+      "campus": "Greenock, Paisley",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "audio",
+      "url": "https://www.westcollegescotland.ac.uk/courses/sound-production-djing/hnc-sound-production/",
+      "short_description": "Develop a variety of skills within the Creative Audio Industry at West College Scotland's new studio facility, progressing towards being the only recognised Steinberg campus in Scotland. You will produce, record, edit and create sound for live music events at venues including St Luke's Glasgow and the Beacon Arts Centre, and gain experience in audio post production applicable to film, television and games. Covers multi-tracking, recording and mixing, digital audio workstations, live events, ProTools 101 and audio post production."
+    }
+  ],
+  "institution_type": "college"
+}

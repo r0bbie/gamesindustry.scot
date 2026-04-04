@@ -1,0 +1,32 @@
+{
+  "id": "no-code",
+  "name": "Screen Burn",
+  "slug": "no-code",
+  "category": "developer",
+  "status": "active",
+  "founded": 2017,
+  "previously_known_as": ["No Code"],
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "coordinates": { "lat": 55.858, "lng": -4.259 },
+  "short_description": "Independent studio known for narrative-driven games like Observation and Stories Untold.",
+  "about": "Screen Burn (formerly No Code) is an independent game development studio based in Glasgow, Scotland, founded by Jon McKellan. The studio is acclaimed for its innovative approach to narrative game design, blending atmospheric storytelling with unique gameplay mechanics. Their debut title Stories Untold earned a BAFTA nomination, while their follow-up Observation received widespread critical praise for its inventive take on the sci-fi thriller genre, casting players as a space station's AI rather than a human character.",
+  "website": "https://nocodestudio.com",
+  "logo": "/images/companies/no-code.svg",
+  "hero_image": "",
+  "highlighted": true,
+  "parent_entity": null,
+  "company_size": "Small (11-50)",
+  "employee_count": 15,
+  "links": { "twitter": "NoCodeStudio", "linkedin": "no-code-studio" },
+  "use_tooling": [],
+  "employee_stats": { "full_time": 15 },
+  "key_people": [
+    { "name": "Jon McKellan", "title": "Founder & Creative Director", "twitter": "JonMcKellan", "linkedin": "jonmckellan" }
+  ],
+  "awards": [
+    { "name": "BAFTA Best Debut Game", "year": 2018, "status": "nominated" },
+    { "name": "The Game Awards Best Indie", "year": 2019, "status": "nominated" }
+  ],
+  "news": []
+}

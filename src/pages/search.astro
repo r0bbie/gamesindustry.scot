@@ -1,0 +1,101 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllCompanies, getAllGames, getAllFreelancers, getAllEvents, getAllSchools } from "@/lib/data";
+
+const companies = await getAllCompanies();
+const games = await getAllGames();
+const freelancers = await getAllFreelancers();
+const events = await getAllEvents();
+const schools = await getAllSchools();
+
+const searchIndex = [
+  ...companies.map(c => ({ title: c.name, description: c.short_description ?? "", url: `/companies/${c.slug}`, type: "Company" })),
+  ...games.map(g => ({ title: g.title, description: g.short_description ?? "", url: `/games/${g.slug}`, type: "Game" })),
+  ...freelancers.map(f => ({ title: f.name, description: f.short_bio ?? f.discipline, url: `/freelancers/${f.slug}`, type: "Freelancer" })),
+  ...events.map(e => ({ title: e.name, description: e.short_description ?? "", url: `/events/${e.slug}`, type: "Event" })),
+  ...schools.map(s => ({ title: s.name, description: s.about?.slice(0, 120) ?? "", url: `/education/schools/${s.slug}`, type: "School" })),
+];
+---
+
+<BaseLayout title="Search">
+  <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+    <h1 class="mb-8 text-3xl font-bold tracking-tight">Search</h1>
+    <div id="search">
+      <p id="search-loading" class="text-muted-foreground">Loading search...</p>
+    </div>
+    <div id="fallback-search" class="hidden">
+      <input
+        id="fallback-input"
+        type="text"
+        placeholder="Search companies, games, people, events..."
+        class="w-full rounded-lg border border-input bg-background px-4 py-3 text-base outline-none ring-ring focus:ring-2"
+        autofocus
+      />
+      <div id="fallback-results" class="mt-4 space-y-2"></div>
+    </div>
+  </div>
+
+  <script is:inline define:vars={{ searchIndex }}>
+    (function () {
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = "/pagefind/pagefind-ui.css";
+      link.onerror = function () {};
+      document.head.appendChild(link);
+
+      import("/pagefind/pagefind-ui.js")
+        .then(function (module) {
+          var el = document.getElementById("search-loading");
+          if (el) el.remove();
+          new module.PagefindUI({
+            element: "#search",
+            showSubResults: true,
+            autofocus: true,
+          });
+        })
+        .catch(function () {
+          document.getElementById("search-loading").remove();
+          var fallback = document.getElementById("fallback-search");
+          fallback.classList.remove("hidden");
+
+          var input = document.getElementById("fallback-input");
+          var results = document.getElementById("fallback-results");
+
+          input.addEventListener("input", function () {
+            var q = input.value.toLowerCase().trim();
+            results.innerHTML = "";
+            if (!q) return;
+            var matches = searchIndex.filter(function (item) {
+              return (
+                item.title.toLowerCase().includes(q) ||
+                item.description.toLowerCase().includes(q) ||
+                item.type.toLowerCase().includes(q)
+              );
+            }).slice(0, 20);
+
+            if (matches.length === 0) {
+              results.innerHTML =
+                '<p class="text-muted-foreground text-sm">No results found.</p>';
+              return;
+            }
+
+            matches.forEach(function (item) {
+              var a = document.createElement("a");
+              a.href = item.url;
+              a.className =
+                "block rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30";
+              a.innerHTML =
+                '<div class="flex items-center justify-between">' +
+                '<span class="font-medium">' + item.title + "</span>" +
+                '<span class="text-xs text-muted-foreground rounded bg-secondary px-2 py-0.5">' + item.type + "</span>" +
+                "</div>" +
+                (item.description
+                  ? '<p class="mt-1 text-sm text-muted-foreground line-clamp-1">' + item.description + "</p>"
+                  : "");
+              results.appendChild(a);
+            });
+          });
+        });
+    })();
+  </script>
+</BaseLayout>

@@ -1,0 +1,32 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllCompanies, getAllGames } from "@/lib/data";
+import CompanyListView from "@/components/companies/CompanyListView";
+
+const companies = await getAllCompanies();
+const games = await getAllGames();
+
+const gameCountMap: Record<string, number> = {};
+for (const game of games) {
+  const ids = [
+    ...game.companies.developer,
+    ...game.companies.publishers,
+    ...game.companies.service_companies,
+    ...game.companies.used_tooling,
+    ...game.companies.supported_by,
+  ];
+  for (const id of ids) {
+    gameCountMap[id] = (gameCountMap[id] ?? 0) + 1;
+  }
+}
+---
+
+<BaseLayout title="All Companies">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <CompanyListView
+      client:load
+      companies={companies}
+      gameCountMap={gameCountMap}
+    />
+  </div>
+</BaseLayout>

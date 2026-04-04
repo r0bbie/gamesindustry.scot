@@ -1,0 +1,6 @@
+{
+  "id": "meta-quest",
+  "name": "Meta Quest",
+  "icon": "/images/platforms/meta-quest.svg",
+  "description": "Meta Quest standalone VR headset"
+}

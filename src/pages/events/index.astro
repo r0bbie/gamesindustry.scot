@@ -1,0 +1,348 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllEvents, getAllGames } from "@/lib/data";
+import { EVENT_TAGS, GITHUB_REPO } from "@/lib/constants";
+import EventCalendar from "@/components/events/EventCalendar";
+import type { EventData, GameRelease } from "@/components/events/EventCalendar";
+
+const events = await getAllEvents();
+const games = await getAllGames();
+
+const today = new Date().toISOString().split("T")[0];
+
+const upcomingEvents = events
+  .filter((e) => e.date_start >= today)
+  .sort((a, b) => a.date_start.localeCompare(b.date_start));
+
+const highlightedUpcoming = upcomingEvents
+  .filter((e) => e.highlighted)
+  .slice(0, 4);
+
+const nextUpcoming = upcomingEvents.slice(0, 10);
+
+function getTagName(tagId: string): string {
+  return EVENT_TAGS.find((t) => t.id === tagId)?.name ?? tagId;
+}
+
+function formatDate(dateStr: string): string {
+  try {
+    return new Date(dateStr).toLocaleDateString("en-GB", {
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+    });
+  } catch {
+    return dateStr;
+  }
+}
+
+function formatDateRange(start: string, end?: string): string {
+  const s = formatDate(start);
+  if (!end || end === start) return s;
+  const startD = new Date(start);
+  const endD = new Date(end);
+  if (startD.getMonth() === endD.getMonth() && startD.getFullYear() === endD.getFullYear()) {
+    return `${startD.getDate()}–${formatDate(end)}`;
+  }
+  return `${s} – ${formatDate(end)}`;
+}
+
+const calendarEvents: EventData[] = events.map((e) => ({
+  id: e.id,
+  name: e.name,
+  slug: e.slug,
+  date_start: e.date_start,
+  date_end: e.date_end,
+  location: e.location,
+  is_online: e.is_online,
+  is_scottish: e.is_scottish,
+  tags: e.tags,
+  highlighted: e.highlighted,
+}));
+
+const calendarGames: GameRelease[] = games
+  .filter((g) => g.release_date)
+  .map((g) => ({
+    id: g.id,
+    title: g.title,
+    slug: g.slug,
+    release_date: g.release_date,
+    status: g.status,
+  }));
+
+const addEventUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=add-event.yml&title=%5BEvent%5D+`;
+---
+
+<BaseLayout title="Events" description="Upcoming events, conferences, game jams, and meetups for the Scottish games industry.">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="mb-10">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <h1 class="text-4xl font-bold tracking-tight">Events</h1>
+          <p class="mt-2 text-lg text-muted-foreground">
+            Conferences, game jams, socials, and meetups across Scotland and beyond.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <a
+            href={addEventUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex h-9 items-center gap-2 rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Add an event
+          </a>
+          <!-- Calendar subscribe dropdown -->
+          <div class="relative" id="cal-menu-wrapper">
+            <button
+              id="cal-menu-btn"
+              class="inline-flex h-9 items-center gap-2 rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+              Subscribe to calendar
+              <svg class="h-3.5 w-3.5 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+
+            <div
+              id="cal-menu"
+              class="absolute right-0 top-full z-50 mt-2 hidden w-72 rounded-xl border border-border bg-popover p-1 shadow-lg"
+              role="menu"
+            >
+              <!-- Subscribe section -->
+              <p class="px-3 pb-1 pt-2 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">Subscribe (auto-updates)</p>
+              <a
+                href="webcal://gamesindustry.scot/events/calendar.ics"
+                class="flex items-start gap-3 rounded-lg px-3 py-2.5 text-sm hover:bg-accent"
+                role="menuitem"
+              >
+                <svg class="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+                <span>
+                  <span class="font-medium">Apple Calendar / Outlook</span>
+                  <span class="block text-xs text-muted-foreground">Opens your calendar app directly</span>
+                </span>
+              </a>
+              <a
+                href={`https://calendar.google.com/calendar/r?cid=${encodeURIComponent("https://gamesindustry.scot/events/calendar.ics")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-start gap-3 rounded-lg px-3 py-2.5 text-sm hover:bg-accent"
+                role="menuitem"
+              >
+                <svg class="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="currentColor"><path d="M19.5 3h-3V1.5h-1.5V3h-9V1.5H4.5V3h-3A1.5 1.5 0 0 0 0 4.5v15A1.5 1.5 0 0 0 1.5 21h18a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3Zm0 16.5h-18V9h18v10.5ZM1.5 7.5V4.5h3V6H6V4.5h9V6h1.5V4.5h3V7.5h-18Z"/></svg>
+                <span>
+                  <span class="font-medium">Google Calendar</span>
+                  <span class="block text-xs text-muted-foreground">Subscribe via Google Calendar</span>
+                </span>
+              </a>
+
+              <div class="my-1 border-t border-border"></div>
+
+              <!-- Download/copy section -->
+              <p class="px-3 pb-1 pt-2 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">One-time download</p>
+              <a
+                href="/events/calendar.ics"
+                download
+                class="flex items-start gap-3 rounded-lg px-3 py-2.5 text-sm hover:bg-accent"
+                role="menuitem"
+              >
+                <svg class="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>
+                  <span class="font-medium">Download .ics file</span>
+                  <span class="block text-xs text-muted-foreground">Import once into any calendar</span>
+                </span>
+              </a>
+              <button
+                id="cal-copy-btn"
+                class="flex w-full items-start gap-3 rounded-lg px-3 py-2.5 text-left text-sm hover:bg-accent"
+                role="menuitem"
+              >
+                <svg class="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                <span>
+                  <span class="font-medium" id="cal-copy-label">Copy calendar URL</span>
+                  <span class="block text-xs text-muted-foreground">Paste into any calendar app</span>
+                </span>
+              </button>
+
+              <div class="my-1 border-t border-border"></div>
+
+              <!-- RSS feeds -->
+              <p class="px-3 pb-1 pt-2 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">RSS feeds</p>
+              <a href="/rss/events.xml" class="flex items-center gap-3 rounded-lg px-3 py-2 text-sm hover:bg-accent" role="menuitem">
+                <svg class="h-4 w-4 shrink-0 text-orange-500" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg>
+                Events
+              </a>
+              <a href="/rss/new-games.xml" class="flex items-center gap-3 rounded-lg px-3 py-2 text-sm hover:bg-accent" role="menuitem">
+                <svg class="h-4 w-4 shrink-0 text-orange-500" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg>
+                New game releases
+              </a>
+              <a href="/rss/upcoming-games.xml" class="flex items-center gap-3 rounded-lg px-3 py-2 text-sm hover:bg-accent" role="menuitem">
+                <svg class="h-4 w-4 shrink-0 text-orange-500" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg>
+                Upcoming games
+              </a>
+            </div>
+          </div>
+
+          <script is:inline>
+            (function () {
+              const wrapper = document.getElementById("cal-menu-wrapper");
+              const btn = document.getElementById("cal-menu-btn");
+              const menu = document.getElementById("cal-menu");
+              const copyBtn = document.getElementById("cal-copy-btn");
+              const copyLabel = document.getElementById("cal-copy-label");
+
+              if (!btn || !menu) return;
+
+              btn.addEventListener("click", (e) => {
+                e.stopPropagation();
+                const open = menu.classList.toggle("hidden");
+                btn.setAttribute("aria-expanded", String(!open));
+              });
+
+              document.addEventListener("click", () => {
+                menu.classList.add("hidden");
+                btn.setAttribute("aria-expanded", "false");
+              });
+
+              menu.addEventListener("click", (e) => e.stopPropagation());
+
+              if (copyBtn && copyLabel) {
+                copyBtn.addEventListener("click", () => {
+                  navigator.clipboard.writeText("https://gamesindustry.scot/events/calendar.ics").then(() => {
+                    copyLabel.textContent = "Copied!";
+                    setTimeout(() => { copyLabel.textContent = "Copy calendar URL"; }, 2000);
+                  });
+                });
+              }
+            })();
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <!-- Highlighted events -->
+    {highlightedUpcoming.length > 0 && (
+      <section class="mb-14">
+        <h2 class="mb-5 text-2xl font-semibold tracking-tight">Highlighted Events</h2>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {highlightedUpcoming.map((event) => {
+            const location = event.is_online ? "Online" : (event.location ?? "TBC");
+            return (
+              <a
+                href={`/events/${event.slug}`}
+                class="group flex flex-col rounded-xl border border-border bg-card p-5 shadow transition-colors hover:border-primary/30 hover:shadow-md"
+              >
+                <div class="flex items-start justify-between gap-2">
+                  <h3 class="text-lg font-semibold leading-tight group-hover:text-primary transition-colors line-clamp-2">
+                    {event.name}
+                  </h3>
+                  {event.is_scottish && (
+                    <span class="shrink-0 text-base" title="Scottish event">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span>
+                  )}
+                </div>
+
+                <div class="mt-3 flex items-center gap-1.5 text-sm text-muted-foreground">
+                  <svg class="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+                  {formatDateRange(event.date_start, event.date_end)}
+                </div>
+
+                <div class="mt-1 flex items-center gap-1.5 text-sm text-muted-foreground">
+                  {event.is_online ? (
+                    <svg class="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                  ) : (
+                    <svg class="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                  )}
+                  {location}
+                </div>
+
+                {event.short_description && (
+                  <p class="mt-3 line-clamp-2 text-sm text-muted-foreground">{event.short_description}</p>
+                )}
+
+                {event.tags.length > 0 && (
+                  <div class="mt-auto pt-3 flex flex-wrap gap-1.5">
+                    {event.tags.map((tag) => (
+                      <span class="inline-flex items-center rounded-md border border-transparent bg-secondary px-2 py-0.5 text-xs font-medium text-secondary-foreground">
+                        {getTagName(tag)}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    <!-- Calendar -->
+    <section class="mb-14">
+      <h2 class="mb-5 text-2xl font-semibold tracking-tight">Calendar</h2>
+      <EventCalendar client:load events={calendarEvents} gameReleases={calendarGames} />
+    </section>
+
+    <!-- Upcoming Events list -->
+    {nextUpcoming.length > 0 && (
+      <section class="mb-14">
+        <div class="mb-5 flex items-center justify-between">
+          <h2 class="text-2xl font-semibold tracking-tight">Upcoming Events</h2>
+          <a
+            href="/events/all"
+            class="text-sm font-medium text-primary hover:underline"
+          >
+            View all events &rarr;
+          </a>
+        </div>
+        <div class="space-y-2">
+          {nextUpcoming.map((event) => {
+            const location = event.is_online ? "Online" : (event.location ?? "TBC");
+            return (
+              <a
+                href={`/events/${event.slug}`}
+                class="flex items-start gap-4 rounded-lg border border-border bg-card px-4 py-3 transition-colors hover:border-primary/30 hover:bg-accent/50"
+              >
+                <div class="hidden w-20 shrink-0 pt-0.5 text-right sm:block">
+                  <span class="text-sm font-medium tabular-nums text-muted-foreground">
+                    {new Date(event.date_start).toLocaleDateString("en-GB", { day: "numeric", month: "short" })}
+                  </span>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <div class="flex items-start gap-2">
+                    <h3 class="font-medium leading-tight">{event.name}</h3>
+                    {event.is_scottish && (
+                      <span class="shrink-0 text-sm" title="Scottish event">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span>
+                    )}
+                  </div>
+                  <div class="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
+                    <span>{formatDateRange(event.date_start, event.date_end)}</span>
+                    <span class="flex items-center gap-1">
+                      {event.is_online ? (
+                        <svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                      ) : (
+                        <svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                      )}
+                      {location}
+                    </span>
+                  </div>
+                  {event.tags.length > 0 && (
+                    <div class="mt-1.5 flex flex-wrap gap-1">
+                      {event.tags.map((tag) => (
+                        <span class="inline-flex items-center rounded-md border border-transparent bg-secondary px-1.5 py-0.5 text-[10px] font-medium text-secondary-foreground">
+                          {getTagName(tag)}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+  </div>
+</BaseLayout>

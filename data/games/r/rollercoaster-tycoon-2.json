@@ -1,0 +1,28 @@
+{
+  "id": "rollercoaster-tycoon-2",
+  "title": "RollerCoaster Tycoon 2",
+  "slug": "rollercoaster-tycoon-2",
+  "short_description": "The acclaimed sequel — build bigger, wilder theme parks with new scenarios and tools.",
+  "description": "RollerCoaster Tycoon 2 is the sequel to the landmark theme park management game by Chris Sawyer. Building on the original's success, RCT2 added new scenarios, ride types, a scenario editor, and expanded the scope of the parks players could create. Like its predecessor, it was written almost entirely in x86 assembly language and became a bestseller, further cementing the franchise as a classic of the management simulation genre.",
+  "release_date": "2002-10-15",
+  "status": "released",
+  "companies": {
+    "developer": ["chris-sawyer"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["simulation", "strategy", "management"],
+  "platforms": ["pc"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": { "steam": "285310" },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 89 },
+  "database_links": { "igdb": "rollercoaster-tycoon-2", "mobygames": "8407" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

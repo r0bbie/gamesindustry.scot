@@ -1,0 +1,68 @@
+{
+  "id": "city-of-glasgow-college",
+  "name": "City of Glasgow College",
+  "slug": "city-of-glasgow-college",
+  "status": "active",
+  "founded": 2010,
+  "hq": "Glasgow",
+  "campuses": [
+    "City Campus",
+    "Riverside Campus"
+  ],
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.861,
+    "lng": -4.238
+  },
+  "logo": "",
+  "website": "https://www.cityofglasgowcollege.ac.uk",
+  "about": "City of Glasgow College is Scotland's largest college, operating across two campuses in Glasgow city centre. Its Games Development and Esports department offers a full progression pathway from introductory NPA and NQ level through to HNC and HND, covering games programming, 3D modelling, animation and virtual reality using industry-standard software including Unity and Unreal Engine.",
+  "highlighted": false,
+  "links": {
+    "twitter": "cityofglasgowcol",
+    "linkedin": "city-of-glasgow-college"
+  },
+  "disciplines": [
+    "programmer",
+    "designer",
+    "artist"
+  ],
+  "courses": [
+    {
+      "name": "Computer Games Development (School Partnership)",
+      "level": "further_education",
+      "degree_type": "NPA",
+      "scqf_level": 6,
+      "campus": "City Campus",
+      "study_mode": "Part time",
+      "discipline": "programmer",
+      "url": "https://www.cityofglasgowcollege.ac.uk/courses/npa-computer-games-development-scqf-level-6-sp-2026-08-18",
+      "short_description": "A school-college partnership course for S4–S6 students. Introduces the genres, trends and emerging technologies at the cutting edge of the computer games industry. You will explore core concepts such as design, media assets and development, working with the latest software programs including Adobe CC, GameMaker Studio and Unity — developing digital planning, media asset creation and testing skills alongside computational thinking and employability skills."
+    },
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "HNC",
+      "scqf_level": 7,
+      "campus": "City Campus",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www.cityofglasgowcollege.ac.uk/courses/hnc-computer-games-development-scqf-level-7-2026-08-24",
+      "short_description": "Develop skills in industry-standard software including GameMaker2 Studio, Unity and Unreal Engine, as well as hardware including PC, VR and mobile devices. This practical course covers the full game development pipeline from design through to programming and testing, preparing students for progression to HND level or direct employment in the games industry."
+    },
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "HND",
+      "scqf_level": 8,
+      "campus": "City Campus",
+      "study_mode": "Full time",
+      "duration": "2 years",
+      "discipline": "programmer",
+      "url": "https://www.cityofglasgowcollege.ac.uk/courses/hnd-computer-games-development-2nd-year-applicants-scqf-level-8-2026-08-24",
+      "short_description": "The second year of HND Computer Games Development further develops skills in 3D games design and development. Using Unity and Unreal Engine you will create 3D games content including characters and environments and incorporate them in level and game creation across platforms such as mobile and Virtual Reality. Modules include Object Oriented Programming, 3D Level Editing, Character Creation and Storytelling, AI for Computer Games, and showreel and portfolio development."
+    }
+  ],
+  "institution_type": "college"
+}

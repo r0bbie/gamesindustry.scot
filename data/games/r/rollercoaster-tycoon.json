@@ -1,0 +1,28 @@
+{
+  "id": "rollercoaster-tycoon",
+  "title": "RollerCoaster Tycoon",
+  "slug": "rollercoaster-tycoon",
+  "short_description": "Design and manage your own theme park in this landmark management simulation.",
+  "description": "RollerCoaster Tycoon is a construction and management simulation game in which players build and run an amusement park. Written almost entirely in x86 assembly by Chris Sawyer, the game was a critical and commercial phenomenon on release, selling over 4 million copies. Players design roller coasters, manage staff, set prices, and keep guests happy — all while watching their parks grow from small fairgrounds to sprawling theme park empires. It is widely regarded as one of the greatest management simulation games ever made.",
+  "release_date": "1999-03-31",
+  "status": "released",
+  "companies": {
+    "developer": ["chris-sawyer"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["simulation", "strategy", "management"],
+  "platforms": ["pc"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 95 },
+  "database_links": { "igdb": "rollercoaster-tycoon", "mobygames": "3481" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

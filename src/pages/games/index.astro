@@ -1,0 +1,215 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllGames, safeGetCompany } from "@/lib/data";
+import type { Game } from "@/lib/data";
+import type { GameWithDeveloper } from "@/components/games/GameListView";
+import { GITHUB_REPO } from "@/lib/constants";
+
+const games = await getAllGames();
+
+async function resolveDeveloperName(game: Game): Promise<string> {
+  const devId = game.companies.developer[0];
+  if (!devId) return "Unknown Developer";
+  const company = await safeGetCompany(devId, `game:${game.slug}`);
+  return company?.name ?? "Unknown Developer";
+}
+
+// Prepare enriched games with developer names for section cards
+const gamesWithDevs: GameWithDeveloper[] = await Promise.all(
+  games.map(async (g) => ({
+    id: g.id,
+    title: g.title,
+    slug: g.slug,
+    short_description: g.short_description,
+    release_date: g.release_date,
+    status: g.status,
+    genres: g.genres,
+    platforms: g.platforms,
+    cover_image: g.cover_image || undefined,
+    developerName: await resolveDeveloperName(g),
+    critic_ratings: g.critic_ratings,
+    awards: g.awards,
+  })),
+);
+
+// Sections
+const releasedGames = gamesWithDevs.filter((g) => g.status === "released");
+const upcomingGames = gamesWithDevs.filter((g) => g.status === "in_development");
+
+const newReleases = [...releasedGames]
+  .sort((a, b) => (b.release_date ?? "").localeCompare(a.release_date ?? ""))
+  .slice(0, 6);
+
+const upcoming = [...upcomingGames]
+  .sort((a, b) => (a.release_date ?? "9999").localeCompare(b.release_date ?? "9999"))
+  .slice(0, 6);
+
+const highestRated = [...releasedGames]
+  .filter((g) => Object.keys(g.critic_ratings).length > 0)
+  .sort((a, b) => {
+    const maxA = Math.max(...Object.values(a.critic_ratings).filter((v): v is number => typeof v === "number"), 0);
+    const maxB = Math.max(...Object.values(b.critic_ratings).filter((v): v is number => typeof v === "number"), 0);
+    return maxB - maxA;
+  })
+  .slice(0, 6);
+
+const awardWinners = [...gamesWithDevs]
+  .filter((g) => g.awards.length > 0)
+  .sort((a, b) => {
+    const latestA = Math.max(...a.awards.map((aw) => aw.year));
+    const latestB = Math.max(...b.awards.map((aw) => aw.year));
+    return latestB - latestA;
+  })
+  .slice(0, 6);
+
+// Genre tag cloud
+const genreCounts = new Map<string, number>();
+games.forEach((g) => g.genres.forEach((genre) => {
+  genreCounts.set(genre, (genreCounts.get(genre) ?? 0) + 1);
+}));
+const genres = [...genreCounts.entries()].sort((a, b) => b[1] - a[1]);
+
+function formatDate(dateStr?: string): string {
+  if (!dateStr) return "TBA";
+  try {
+    return new Date(dateStr).toLocaleDateString("en-GB", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    });
+  } catch {
+    return dateStr;
+  }
+}
+
+function getCoverGradient(title: string): string {
+  const hue = [...title].reduce((sum, ch) => sum + ch.charCodeAt(0), 0) % 360;
+  return `linear-gradient(135deg, hsl(${hue}, 60%, 40%), hsl(${(hue + 40) % 360}, 50%, 30%))`;
+}
+
+type GameCard = GameWithDeveloper;
+
+interface Section {
+  title: string;
+  games: GameCard[];
+  filterParam: string;
+}
+
+const sections: Section[] = [
+  { title: "New Releases", games: newReleases, filterParam: "sort=release_date&status=released" },
+  { title: "Upcoming", games: upcoming, filterParam: "sort=release_date&status=in_development" },
+  { title: "Highest Rated", games: highestRated, filterParam: "sort=rating" },
+  { title: "Award Winners", games: awardWinners, filterParam: "awards=true" },
+];
+
+const addGameUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-game.yml&title=%5BGame%5D+`;
+---
+
+<BaseLayout title="Games" description="Explore games made in Scotland — from AAA blockbusters to inventive indie titles.">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="mb-12">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <h1 class="text-4xl font-bold tracking-tight">Games</h1>
+          <p class="mt-3 max-w-2xl text-lg text-muted-foreground">
+            Discover the games being made in Scotland — from globally acclaimed blockbusters to innovative indie experiences.
+          </p>
+        </div>
+        <div class="flex shrink-0 flex-wrap gap-2">
+          <a
+            href={addGameUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex h-9 items-center gap-2 rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Add a game
+          </a>
+          <a
+            href="/games/list"
+            class="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+          >
+            View all
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Curated sections -->
+    {sections.map((section) => section.games.length > 0 && (
+      <section class="mb-14">
+        <div class="mb-5 flex items-center justify-between">
+          <h2 class="text-2xl font-semibold tracking-tight">{section.title}</h2>
+          <a
+            href={`/games/list?${section.filterParam}`}
+            class="text-sm font-medium text-primary hover:underline"
+          >
+            View all &rarr;
+          </a>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {section.games.map((game) => (
+            <a
+              href={`/games/${game.slug}`}
+              class="group rounded-xl border border-border bg-card text-card-foreground shadow transition-colors hover:border-primary/30 hover:shadow-md"
+            >
+              <div
+                class="flex h-40 items-center justify-center rounded-t-xl"
+                style={
+                  game.cover_image
+                    ? `background-image: url(${game.cover_image}); background-size: cover; background-position: center;`
+                    : `background: ${getCoverGradient(game.title)};`
+                }
+              >
+                {!game.cover_image && (
+                  <span class="text-4xl font-bold text-white/80">
+                    {game.title.charAt(0)}
+                  </span>
+                )}
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold leading-tight group-hover:text-primary transition-colors">
+                  {game.title}
+                </h3>
+                <p class="mt-1 text-sm text-muted-foreground">{game.developerName}</p>
+                <p class="mt-1 text-xs text-muted-foreground">{formatDate(game.release_date)}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <!-- Genre Tag Cloud -->
+    {genres.length > 0 && (
+      <section class="mb-14">
+        <h2 class="mb-5 text-2xl font-semibold tracking-tight">Browse by Genre</h2>
+        <div class="flex flex-wrap gap-2">
+          {genres.map(([genre, count]) => (
+            <a
+              href={`/games/list?genre=${encodeURIComponent(genre)}`}
+              class="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-3 py-1.5 text-sm font-medium text-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+            >
+              {genre}
+              <span class="text-xs text-muted-foreground">({count})</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- View all CTA -->
+    <div class="mt-4 flex justify-center pb-4">
+      <a
+        href="/games/list"
+        class="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-6 py-3 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+      >
+        Browse all games
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</BaseLayout>

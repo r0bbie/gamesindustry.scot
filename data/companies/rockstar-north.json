@@ -1,0 +1,34 @@
+{
+  "id": "rockstar-north",
+  "name": "Rockstar North",
+  "slug": "rockstar-north",
+  "category": "developer",
+  "status": "active",
+  "founded": 1988,
+  "previously_known_as": ["DMA Design"],
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "coordinates": { "lat": 55.953, "lng": -3.189 },
+  "short_description": "One of the world's most renowned game studios, creators of the Grand Theft Auto series.",
+  "about": "Rockstar North is a British video game development studio based in Edinburgh, Scotland. Originally founded as DMA Design in 1988 by David Jones, the studio created Lemmings before pioneering the open-world action genre with Grand Theft Auto. Acquired by Take-Two Interactive in 1998 and rebranded as Rockstar North in 2002, the studio has since produced some of the best-selling and most critically acclaimed video games of all time, including Grand Theft Auto III, Grand Theft Auto V, and contributed to the Red Dead Redemption series.",
+  "website": "https://www.rockstarnorth.com",
+  "logo": "/images/companies/rockstar-north.svg",
+  "hero_image": "",
+  "highlighted": true,
+  "parent_entity": { "name": "Take-Two Interactive", "url": "https://www.take2games.com" },
+  "company_size": "Large (200+)",
+  "employee_count": 650,
+  "links": { "twitter": "RockstarGames", "linkedin": "rockstar-games" },
+  "use_tooling": [],
+  "employee_stats": { "full_time": 600 },
+  "key_people": [
+    { "name": "Andrew Semple", "title": "Studio Head" },
+    { "name": "Sam Houser", "title": "President of Rockstar Games" }
+  ],
+  "awards": [
+    { "name": "BAFTA Best Game", "year": 2014, "status": "won" },
+    { "name": "Game Developers Choice Game of the Year", "year": 2014, "status": "won" },
+    { "name": "The Game Award for Game of the Year", "year": 2013, "status": "nominated" }
+  ],
+  "news": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "transport-tycoon",
+  "title": "Transport Tycoon",
+  "slug": "transport-tycoon",
+  "short_description": "Build and manage a transport empire across road, rail, air, and sea.",
+  "description": "Transport Tycoon is a business simulation game in which the player acts as an entrepreneur in the transport business. Written almost entirely in x86 assembly by Chris Sawyer, the game tasks players with building and managing a profitable transport company using road vehicles, trains, aircraft and ships. It was one of the defining management simulation games of the 1990s and spawned a beloved open-source remake, OpenTTD.",
+  "release_date": "1994-09-23",
+  "status": "released",
+  "companies": {
+    "developer": ["chris-sawyer"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["simulation", "strategy", "management"],
+  "platforms": ["pc"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": { "igdb": "transport-tycoon", "mobygames": "1396" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

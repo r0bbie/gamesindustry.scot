@@ -1,0 +1,52 @@
+name: Add an Educational Institution
+description: Submit a school or university to the education section
+title: "[Education] "
+labels: ["new-education"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Institution Name
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+    validations:
+      required: true
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      options:
+        - Glasgow & Strathclyde
+        - Edinburgh & Lothian
+        - Dundee & Tayside
+        - Stirling & Central
+        - Fife
+        - Highlands & Islands
+        - Aberdeen & Grampian
+        - Dumfries & Galloway
+        - Borders
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website URL
+  - type: textarea
+    id: about
+    attributes:
+      label: About
+      description: A paragraph or two about the institution's games programme
+  - type: textarea
+    id: courses
+    attributes:
+      label: Courses Offered
+      description: "List relevant courses (one per line, include course URL if available)"
+  - type: textarea
+    id: links
+    attributes:
+      label: Social Links
+      description: "List any social links"

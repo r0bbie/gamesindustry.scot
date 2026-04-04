@@ -1,0 +1,181 @@
+---
+import { NAV_ITEMS, SITE_TITLE } from "@/lib/constants";
+import { ThemeToggle } from "@/components/layout/ThemeToggle";
+
+const currentPath = Astro.url.pathname;
+
+function isActive(href: string): boolean {
+  if (href === "/") return currentPath === "/";
+  return currentPath.startsWith(href);
+}
+---
+
+<header
+  class="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+>
+  <div class="mx-auto flex h-14 max-w-7xl items-center px-4 sm:px-6 lg:px-8">
+    <!-- Logo -->
+    <a href="/" class="mr-6 flex shrink-0 items-center gap-2 font-semibold">
+      <img src="/logo.svg" alt="" width="28" height="28" class="rounded" />
+      <span class="hidden sm:inline">{SITE_TITLE}</span>
+    </a>
+
+    <!-- Desktop nav (priority nav — items overflow into More when needed) -->
+    <nav id="priority-nav" class="hidden flex-1 items-center md:flex" style="min-width:0">
+      <!-- All nav items; JS hides overflowing ones -->
+      {
+        NAV_ITEMS.map((item) => (
+          <a
+            href={item.href}
+            data-nav-item
+            class:list={[
+              "shrink-0 rounded-md px-3 py-2 text-sm font-medium transition-colors",
+              isActive(item.href)
+                ? "text-primary"
+                : "text-muted-foreground hover:text-foreground",
+            ]}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+
+      <!-- More dropdown (hidden until overflow detected) -->
+      <details id="more-menu" class="relative hidden shrink-0">
+        <summary
+          class="flex cursor-pointer list-none items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+        >
+          More
+          <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 5l3 3 3-3" />
+          </svg>
+        </summary>
+        <div
+          id="more-menu-list"
+          class="absolute left-0 top-full z-50 mt-1 min-w-[160px] rounded-md border border-border bg-popover p-1 shadow-md"
+        >
+          <!-- populated by JS -->
+        </div>
+      </details>
+    </nav>
+
+    <!-- Right actions -->
+    <div class="ml-auto flex shrink-0 items-center gap-1">
+      <a
+        href="/search"
+        class="inline-flex h-9 w-9 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+        aria-label="Search"
+      >
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8" />
+          <path d="M21 21l-4.35-4.35" />
+        </svg>
+      </a>
+
+      <ThemeToggle client:load />
+
+      <!-- Mobile hamburger -->
+      <button
+        id="mobile-menu-btn"
+        class="inline-flex h-9 w-9 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground md:hidden"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" y1="6" x2="20" y2="6" />
+          <line x1="4" y1="12" x2="20" y2="12" />
+          <line x1="4" y1="18" x2="20" y2="18" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu panel (all items, no More needed) -->
+  <div id="mobile-menu" class="hidden border-t border-border bg-background px-4 pb-4 md:hidden">
+    <nav class="flex flex-col gap-1 pt-2">
+      {
+        NAV_ITEMS.map((item) => (
+          <a
+            href={item.href}
+            class:list={[
+              "rounded-md px-3 py-2 text-sm font-medium transition-colors",
+              isActive(item.href)
+                ? "text-primary"
+                : "text-muted-foreground hover:text-foreground",
+            ]}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+</header>
+
+<script>
+  // ── Mobile toggle ─────────────────────────────────────────────────────────
+  const mobileBtn = document.getElementById("mobile-menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+  if (mobileBtn && mobileMenu) {
+    mobileBtn.addEventListener("click", () => {
+      const open = !mobileMenu.classList.contains("hidden");
+      mobileMenu.classList.toggle("hidden", open);
+      mobileBtn.setAttribute("aria-expanded", String(!open));
+    });
+  }
+
+  // ── Close More dropdown on outside click ──────────────────────────────────
+  document.addEventListener("click", (e) => {
+    document.querySelectorAll("header details[open]").forEach((el) => {
+      if (!el.contains(e.target as Node)) el.removeAttribute("open");
+    });
+  });
+
+  // ── Priority navigation ───────────────────────────────────────────────────
+  const nav       = document.getElementById("priority-nav");
+  const moreMenu  = document.getElementById("more-menu");
+  const moreList  = document.getElementById("more-menu-list");
+
+  if (nav && moreMenu && moreList) {
+    const allItems = [...nav.querySelectorAll<HTMLElement>("[data-nav-item]")];
+
+    function update() {
+      // Reset: show everything, clear overflow list, hide More button
+      allItems.forEach((el) => el.classList.remove("!hidden"));
+      moreMenu.classList.add("hidden");
+      moreList.innerHTML = "";
+
+      // Available width = nav width minus More button width (reserved)
+      const moreBtnWidth = 80; // px reserved for "More" button
+      const available = nav.offsetWidth - moreBtnWidth;
+
+      let used = 0;
+      let overflowFrom = -1;
+
+      for (let i = 0; i < allItems.length; i++) {
+        used += allItems[i].offsetWidth;
+        if (used > available) {
+          overflowFrom = i;
+          break;
+        }
+      }
+
+      if (overflowFrom === -1) return; // everything fits
+
+      // Show More button and hide overflowing items
+      moreMenu.classList.remove("hidden");
+      for (let i = overflowFrom; i < allItems.length; i++) {
+        allItems[i].classList.add("!hidden");
+
+        const clone = allItems[i].cloneNode(true) as HTMLElement;
+        clone.classList.remove("!hidden", "shrink-0");
+        clone.classList.add("block");
+        moreList.appendChild(clone);
+      }
+    }
+
+    // Run on load and whenever the header resizes
+    update();
+    new ResizeObserver(update).observe(nav);
+  }
+</script>

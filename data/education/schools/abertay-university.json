@@ -1,0 +1,112 @@
+{
+  "id": "abertay-university",
+  "name": "University of Abertay Dundee",
+  "slug": "abertay-university",
+  "status": "active",
+  "founded": 1888,
+  "hq": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.975
+  },
+  "logo": "/images/schools/abertay-university.svg",
+  "website": "https://www.abertay.ac.uk",
+  "about": "The University of Abertay Dundee is a pioneer in games education, having launched Europe's first dedicated computer games degree in 1997. Located in the heart of Dundee — a UNESCO City of Design — Abertay has built a world-class reputation for producing industry-ready graduates in game design, programming, art, and production. Ranked the top international school for video games design by the Princeton Review (2025), the university maintains close ties with the local and national games industry, and its graduates can be found at studios across Scotland and around the world.",
+  "highlighted": true,
+  "links": {
+    "twitter": "AbertayUni",
+    "linkedin": "abertay-university",
+    "bluesky": "abertay.ac.uk",
+    "mastodon": "abertay@mastodon.scot",
+    "youtube": "AbertayUniversity"
+  },
+  "disciplines": [
+    "programmer",
+    "designer",
+    "artist",
+    "audio",
+    "production"
+  ],
+  "courses": [
+    {
+      "name": "Computer Game Applications Development",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "programmer",
+      "url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-game-applications-development/",
+      "short_description": "Develop games and interactive experiences at the widely recognised top International Games School (Princeton Review 2025). Using the latest technology and tools, you'll cover game development topics such as gameplay mechanics, AI for games and audio programming, as well as general games programming in industry-standard game engines such as Unreal Engine 5. Facilities include a PS5 lab, Virtual Production studios and XR lab, with internship and mentoring opportunities with local and global games companies."
+    },
+    {
+      "name": "Computer Games Technology",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "programmer",
+      "url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-games-technology/",
+      "short_description": "Become a sought-after games programmer at one of the top Computer Games Universities in Europe (Princeton Review 2025). Join this world-leading, professionally accredited degree and study the engines and hardware that make computer games work — from graphics, network and AI programming on console and PC to building your own game engine. Taught by industry experts who worked on award-winning games, and based in Dundee, home to over a third of Scotland's games companies."
+    },
+    {
+      "name": "Game Design and Production",
+      "level": "undergraduate",
+      "degree_type": "BA (Hons)",
+      "discipline": "designer",
+      "url": "https://www.abertay.ac.uk/course-search/undergraduate/game-design-and-production/",
+      "short_description": "Study at one of the most prestigious game design schools in the world — TOP University in Europe for Games Design (Princeton Review, 2025). Gain a complete understanding of what it means to work in the modern games business, taught by people who've worked there. You'll create concepts and prototypes, design levels, audio and systems to craft powerful and emotive experiences, and develop confidence in production, quality assurance and user experience working in multidisciplinary teams."
+    },
+    {
+      "name": "Computer Arts",
+      "level": "undergraduate",
+      "degree_type": "BA (Hons)",
+      "discipline": "artist",
+      "url": "https://www.abertay.ac.uk/course-search/undergraduate/computer-arts/",
+      "short_description": "Immerse yourself in a world of digital design on one of the most acclaimed Computer Arts degrees in Europe. Develop 2D and 3D art techniques, creating characters, environments, and animation using industry-standard software and hardware. Access networking, collaboration, and mentorship opportunities with leading game studios, developing industry-ready work through individual and team projects. Ranked TOP Scottish Modern University for Computer Arts and Game Design (Complete University Guide 2025)."
+    },
+    {
+      "name": "Visual Effects for Games and Real-Time Media",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "artist",
+      "url": "https://www.abertay.ac.uk/course-search/undergraduate/visual-effects-for-games-and-real-time-media/",
+      "short_description": "Develop visual effects that react in real time — for games, film, TV and immersive experiences. Scotland's only undergraduate degree combining VFX, game programming and creative design for real-time media. Work with professional software like Houdini and Unreal Engine on a programme delivered at Scotland's first Houdini Certified School Partner and Adobe Creative Campus."
+    },
+    {
+      "name": "Professional Masters in Games Development",
+      "level": "postgraduate",
+      "degree_type": "MProf",
+      "discipline": "production",
+      "url": "https://www.abertay.ac.uk/course-search/postgraduate-taught/professional-masters-in-games-development/",
+      "short_description": "A unique, world-renowned programme from the Centre for Excellence in Computer Games Education at Abertay — ranked in the global top 10 for postgraduate video games education by the Princeton Review. Develop a skillset spanning coding, digital art, game design and audio through applied project work, supported by experienced games industry practitioners. Enhance interdisciplinary communication and collaboration through teamwork with students and staff from all areas of games development."
+    },
+    {
+      "name": "Game Design",
+      "level": "postgraduate",
+      "degree_type": "MSc by Research / MPhil / PhD",
+      "discipline": "designer",
+      "url": "https://www.abertay.ac.uk/course-search/postgraduate-research/game-design/",
+      "short_description": "Game Design at Abertay covers a wide range of applied and theoretical research, spanning novel game mechanics, multiplayer game balancing, narrative design and interaction design. Supported by world-leading expertise, connections with key industry partners such as Microsoft and Sony, and specialist facilities. Abertay leads the InGAME project — one of nine AHRC-funded Creative Industry Cluster Partnerships — preparing researchers for careers in academia and beyond."
+    },
+    {
+      "name": "Game Art and Animation",
+      "level": "postgraduate",
+      "degree_type": "MSc by Research / MPhil / PhD",
+      "discipline": "artist",
+      "url": "https://www.abertay.ac.uk/course-search/postgraduate-research/game-art-and-animation/",
+      "short_description": "Practice-based research in Game Art and Animation including 2D digital art production, 3D modelling and sculpting, photogrammetry, illustration, user interface design, keyframe animation, motion capture, and technical arts. Expert supervision drawing on academic and industry experience, with access to R&D opportunities through InGAME — Abertay's AHRC-funded centre for Dundee's games cluster — and connections with local and international game studios."
+    },
+    {
+      "name": "Game Studies (Applied Games)",
+      "level": "postgraduate",
+      "degree_type": "MSc",
+      "discipline": "designer",
+      "url": "https://www.abertay.ac.uk/study/postgraduate/"
+    },
+    {
+      "name": "Interactive Sound and Music",
+      "level": "postgraduate",
+      "degree_type": "MSc by Research / MPhil / PhD",
+      "discipline": "audio",
+      "url": "https://www.abertay.ac.uk/study/postgraduate/"
+    }
+  ],
+  "institution_type": "university"
+}

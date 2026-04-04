@@ -1,0 +1,56 @@
+{
+  "id": "glasgow-clyde-college",
+  "name": "Glasgow Clyde College",
+  "slug": "glasgow-clyde-college",
+  "status": "active",
+  "founded": 2013,
+  "hq": "Glasgow",
+  "campuses": [
+    "Anniesland Campus",
+    "Cardonald Campus",
+    "Langside Campus"
+  ],
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.872,
+    "lng": -4.305
+  },
+  "logo": "",
+  "website": "https://www.glasgowclyde.ac.uk",
+  "about": "Glasgow Clyde College operates across three campuses — Anniesland, Cardonald and Langside — and is one of the largest colleges in Scotland. It offers gaming and esports-related courses at both school-partnership and full-time college level, with strong links to British Esports and the local gaming community.",
+  "highlighted": false,
+  "links": {
+    "twitter": "GlasgowClydeColl",
+    "linkedin": "glasgow-clyde-college"
+  },
+  "disciplines": [
+    "programmer",
+    "designer"
+  ],
+  "courses": [
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "NPA",
+      "scqf_level": 6,
+      "campus": "Anniesland Campus",
+      "study_mode": "Part time",
+      "discipline": "programmer",
+      "url": "https://www.glasgowclyde.ac.uk/study/schools/courses-for-pupils/266-computer-games-development",
+      "short_description": "An introductory qualification for S4–S6 school pupils, designed to teach how to write computer games. The course covers three topics: media assets (finding and customising digital assets like sounds, images and videos), design (creating a plan for a computer game), and development (writing code to produce a playable game). Students attend college on Tuesday and Thursday afternoons and develop programming, computational thinking and problem-solving skills."
+    },
+    {
+      "name": "Computing and Esports",
+      "level": "further_education",
+      "degree_type": "NQ",
+      "scqf_level": 6,
+      "campus": "Cardonald Campus",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www.glasgowclyde.ac.uk/courses/689574-nq-computing-and-esports-level-6/4168",
+      "short_description": "Esports is one of the most exciting areas in the entertainment and computing world — but this course isn't just about playing games. You'll combine your gaming enthusiasm with professional skill development, learning fundamental programming concepts, exploring how games are developed and collaborating on a project as a team. While you develop your skills, you'll participate in the British Esports Student Champs, competing in popular titles like League of Legends, Rocket League, Valorant and Overwatch 2."
+    }
+  ],
+  "institution_type": "college"
+}

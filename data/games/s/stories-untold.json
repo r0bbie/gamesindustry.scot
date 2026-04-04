@@ -1,0 +1,32 @@
+{
+  "id": "stories-untold",
+  "title": "Stories Untold",
+  "slug": "stories-untold",
+  "short_description": "An experimental anthology of four short horror stories, each with unique gameplay mechanics.",
+  "description": "Stories Untold is an experimental narrative adventure game from No Code, structured as an anthology of four distinct episodes. Each chapter presents a different style of gameplay — from text-adventure horror to scientific equipment puzzles — all woven together by a dark, interconnected mystery. Drawing inspiration from 1980s aesthetics and classic television series like The Twilight Zone, the game earned widespread praise for its inventive design and was nominated for a BAFTA for Best Debut Game.",
+  "release_date": "2017-02-27",
+  "status": "released",
+  "companies": {
+    "developer": ["no-code"],
+    "publishers": ["devolver-digital"],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["adventure", "horror", "puzzle"],
+  "platforms": ["pc", "switch"],
+  "cover_image": "",
+  "screenshots": [],
+  "video": { "type": "youtube", "id": "TjSqMBsR4oo" },
+  "stores": { "steam": "558420" },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 77, "opencritic": 76 },
+  "database_links": { "igdb": "stories-untold", "mobygames": "99898" },
+  "awards": [
+    { "name": "BAFTA Best Debut Game", "year": 2018, "status": "nominated" },
+    { "name": "The Game Awards Best Debut Indie Game", "year": 2017, "status": "nominated" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

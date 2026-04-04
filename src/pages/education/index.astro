@@ -1,0 +1,141 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllSchools, getAllTeams, getAllStudentGames } from "@/lib/data";
+import { GITHUB_REPO } from "@/lib/constants";
+import SchoolCard from "@/components/education/SchoolCard.astro";
+import TeamCard from "@/components/education/TeamCard.astro";
+import EducationMap from "@/components/education/EducationMap";
+
+const allSchools = await getAllSchools();
+const schools = allSchools.filter((s) => s.status === "active");
+const teams = await getAllTeams();
+const studentGames = await getAllStudentGames();
+
+const uniqueCities = new Set(schools.map((s) => s.hq).filter(Boolean));
+const totalCourses = schools.reduce((sum, s) => sum + (s.courses?.length ?? 0), 0);
+const highlightedSchools = schools.filter((s) => s.highlighted);
+
+const FEATURED_COUNT = 3;
+const featuredSchools = (() => {
+  const featured = [...highlightedSchools].slice(0, FEATURED_COUNT);
+  if (featured.length < FEATURED_COUNT) {
+    const featuredIds = new Set(featured.map((s) => s.id));
+    const others = schools
+      .filter((s) => !featuredIds.has(s.id))
+      .sort((a, b) => a.id.localeCompare(b.id));
+    featured.push(...others.slice(0, FEATURED_COUNT - featured.length));
+  }
+  return featured;
+})();
+const schoolsWithCoords = schools
+  .filter((s) => s.coordinates)
+  .map((s) => ({
+    name: s.name,
+    slug: s.slug,
+    hq: s.hq,
+    coordinates: s.coordinates!,
+  }));
+
+const schoolMap = new Map(schools.map((s) => [s.id, s]));
+const teamsWithSchool = teams.map((t) => ({
+  team: t,
+  schoolName: schoolMap.get(t.school_id)?.name ?? "Unknown School",
+}));
+
+const addSchoolUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=add-school.yml&title=Add+School:+`;
+---
+
+<BaseLayout title="Education">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Hero -->
+    <div class="mb-12">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <h1 class="text-4xl font-bold tracking-tight">Education</h1>
+          <p class="mt-3 max-w-2xl text-lg text-muted-foreground">
+            Universities, colleges, and institutions teaching game development
+            across Scotland &mdash; plus the student teams and games they produce.
+          </p>
+        </div>
+        <div class="flex shrink-0 flex-wrap gap-2">
+          <a
+            href={addSchoolUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex h-9 items-center gap-2 rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Add a school
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+        <a href="/education/schools" class="rounded-xl border border-border bg-card px-4 py-5 text-center transition-colors hover:border-primary/30 hover:bg-accent">
+          <p class="text-3xl font-bold">{schools.length}</p>
+          <p class="mt-1 text-sm text-muted-foreground">Schools</p>
+        </a>
+        <a href="/education/courses" class="rounded-xl border border-border bg-card px-4 py-5 text-center transition-colors hover:border-primary/30 hover:bg-accent">
+          <p class="text-3xl font-bold">{totalCourses}</p>
+          <p class="mt-1 text-sm text-muted-foreground">Courses</p>
+        </a>
+        <a href="#map" class="rounded-xl border border-border bg-card px-4 py-5 text-center transition-colors hover:border-primary/30 hover:bg-accent">
+          <p class="text-3xl font-bold">{uniqueCities.size}</p>
+          <p class="mt-1 text-sm text-muted-foreground">Towns & Cities</p>
+        </a>
+        <a href="/education/schools" class="rounded-xl border border-border bg-card px-4 py-5 text-center transition-colors hover:border-primary/30 hover:bg-accent">
+          <p class="text-3xl font-bold">500+</p>
+          <p class="mt-1 text-sm text-muted-foreground">Est. Students</p>
+        </a>
+        <a href="/education/student-games" class="rounded-xl border border-border bg-card px-4 py-5 text-center transition-colors hover:border-primary/30 hover:bg-accent">
+          <p class="text-3xl font-bold">{studentGames.length}</p>
+          <p class="mt-1 text-sm text-muted-foreground">Student Games</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Map -->
+    {schoolsWithCoords.length > 0 && (
+      <section id="map" class="mb-12">
+        <h2 class="mb-4 text-2xl font-semibold">Map</h2>
+        <div class="isolate overflow-hidden rounded-xl border border-border">
+          <EducationMap schools={schoolsWithCoords} client:only="react" />
+        </div>
+      </section>
+    )}
+
+    <!-- Featured Schools -->
+    {featuredSchools.length > 0 && (
+      <section class="mb-12">
+        <div class="mb-4 flex items-center justify-between">
+          <h2 class="text-2xl font-semibold">Featured Schools</h2>
+          <a
+            href="/education/schools"
+            class="text-sm font-medium text-primary hover:underline"
+          >
+            View all schools &rarr;
+          </a>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {featuredSchools.map((school) => (
+            <SchoolCard school={school} />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Student Teams -->
+    {teams.length > 0 && (
+      <section id="teams" class="mb-12">
+        <div class="mb-4 flex items-center justify-between">
+          <h2 class="text-2xl font-semibold">Student Teams</h2>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {teamsWithSchool.map(({ team, schoolName }) => (
+            <TeamCard team={team} schoolName={schoolName} />
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</BaseLayout>

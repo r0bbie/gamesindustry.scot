@@ -1,0 +1,52 @@
+{
+  "id": "glasgow-school-of-art",
+  "name": "Glasgow School of Art",
+  "slug": "glasgow-school-of-art",
+  "status": "active",
+  "founded": 1845,
+  "hq": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.867,
+    "lng": -4.269
+  },
+  "logo": "",
+  "website": "https://www.gsa.ac.uk",
+  "about": "Glasgow School of Art is one of Europe's leading independent art schools, internationally recognised for the quality of its teaching and research. GSA offers games and immersive media programmes through its School of Simulation and Visualisation, combining artistic rigour with cutting-edge technology. The school has years of experience working on serious games and VR projects for industrial, medical, heritage and education clients, and all GSA degrees are validated by the University of Glasgow.",
+  "highlighted": false,
+  "links": {
+    "twitter": "GSofA",
+    "linkedin": "glasgow-school-of-art"
+  },
+  "disciplines": [
+    "artist",
+    "designer"
+  ],
+  "courses": [
+    {
+      "name": "Games and Virtual Reality",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "designer",
+      "url": "https://www.gsa.ac.uk/undergraduate-degrees/games-and-virtual-reality",
+      "short_description": "Games and VR is a specialist pathway of the BSc in Immersive Systems Design. The programme provides graduates with a highly relevant skill set in practical software and immersive systems (AR and VR) development, an understanding of how people and technology interact, combined with the creative insight essential to create the future in immersive systems. A technology-focused degree with a strong art-school foundation, combining rigorous taught components with studio-based learning and critical thinking."
+    },
+    {
+      "name": "3D Modelling",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "artist",
+      "url": "https://www.gsa.ac.uk/undergraduate-degrees/3d-modelling",
+      "short_description": "3D Modelling is a specialist pathway of the BSc in Immersive Systems Design — a technology-focused degree with a strong art-school foundation. 3D modelling is a core discipline for the development of content for immersive systems and an essential skill in digital games, animation, VFX and related domains. Students specialise in 3D modelling while gaining a broader range of technical skills in practical software and immersive systems development."
+    },
+    {
+      "name": "Serious Games and Virtual Reality",
+      "level": "postgraduate",
+      "degree_type": "MSc",
+      "discipline": "designer",
+      "url": "https://www.gsa.ac.uk/postgraduate-degrees/serious-games-and-virtual-reality",
+      "short_description": "Provides students with the skills to become key innovators in this exciting and rapidly developing area — offering transferable skills to design, develop and analyse games and simulations for a range of application areas, particularly in healthcare, education and training. Built on the School of Innovation and Technology's years of experience working on serious games projects for industrial, medical, heritage and education clients, with expertise in 3D modelling, motion capture and software development."
+    }
+  ],
+  "institution_type": "university"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dundee-and-angus-college",
+  "name": "Dundee and Angus College",
+  "slug": "dundee-and-angus-college",
+  "status": "active",
+  "founded": 2013,
+  "hq": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.457,
+    "lng": -2.977
+  },
+  "logo": "",
+  "website": "https://dundeeandangus.ac.uk",
+  "about": "Dundee and Angus College (D&A) operates across campuses in Dundee and Angus and is a major provider of creative media and computing education in Tayside. Its Computing & Creative Media department offers an industry-focused progression pathway from HNC through to degree level, with the unique addition of a BA (Hons) in Esports and Creative Industries — one of the few degree programmes of its kind in Scotland — accredited by the University of West London.",
+  "highlighted": false,
+  "links": {
+    "twitter": "DundeeAngusCol",
+    "linkedin": "dundee-and-angus-college"
+  },
+  "disciplines": [
+    "programmer",
+    "designer",
+    "artist",
+    "production"
+  ],
+  "courses": [
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "HNC",
+      "scqf_level": 7,
+      "campus": "Gardyne Campus",
+      "study_mode": "Full time",
+      "duration": "32 weeks",
+      "discipline": "programmer",
+      "url": "https://dundeeandangus.ac.uk/courses/hccogd26-g-1fa/",
+      "short_description": "An innovative and practical course covering the entire game development process — from designing game mechanics and user interfaces to creating graphics and the finished game. Subjects include Game Programming Fundamentals, Game Design Theory, Game Interface Design, 2D Animation, project management and Calculus and Matrices for Computer Games. Students who pass can progress to HND Computer Games Development."
+    },
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "HND",
+      "scqf_level": 8,
+      "campus": "Gardyne Campus",
+      "study_mode": "Full time",
+      "duration": "32 weeks",
+      "discipline": "programmer",
+      "url": "https://dundeeandangus.ac.uk/courses/hdcog126-g-2fa/",
+      "short_description": "This industry-focused course extends knowledge and skills from HNC Computer Games Development. With more emphasis on research and self-directed learning, subjects include Object-Oriented Programming, AI for Computer Games, Games Customisation and Scripting, Character Creation and Storytelling, 3D Level Editing, 3D Animation and showreel and portfolio development. Graduates can articulate to degree programmes at Abertay University, Robert Gordon University and Edinburgh Napier University."
+    },
+    {
+      "name": "Computer Arts and Design",
+      "level": "further_education",
+      "degree_type": "HND",
+      "scqf_level": 8,
+      "campus": "Gardyne Campus",
+      "study_mode": "Full time",
+      "duration": "32 weeks",
+      "discipline": "artist",
+      "url": "https://dundeeandangus.ac.uk/courses/hdcaad26-g-2fa/",
+      "short_description": "The HND in Computer Arts and Design allows students to select either the Digital Art (graphic design & illustration) or Animation route. The Animation route focuses on 2D/3D animation, games and VR art. Both routes develop creativity, independent thinking and design skills through real projects, with progression routes to art school and university degree programmes including Abertay University and UHI."
+    },
+    {
+      "name": "Esports and Creative Industries",
+      "level": "undergraduate",
+      "degree_type": "BA (Hons)",
+      "scqf_level": 10,
+      "campus": "Gardyne Campus",
+      "study_mode": "Full time",
+      "duration": "32 weeks",
+      "discipline": "production",
+      "url": "https://dundeeandangus.ac.uk/courses/baespo26-g-1fa/",
+      "short_description": "A top-up degree accredited by the University of West London, providing key skills for the esports industry with a focus on strategic management, creative design and online audience engagement. Develop industry-ready skills in broadcasting, live production, content creation and sound engineering while working in a professional-grade production environment. The course culminates in a research dissertation on an innovative esports project."
+    }
+  ],
+  "institution_type": "college"
+}

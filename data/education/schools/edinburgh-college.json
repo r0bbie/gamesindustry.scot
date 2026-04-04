@@ -1,0 +1,58 @@
+{
+  "id": "edinburgh-college",
+  "name": "Edinburgh College",
+  "slug": "edinburgh-college",
+  "status": "active",
+  "founded": 2012,
+  "hq": "Edinburgh",
+  "campuses": [
+    "Granton Campus",
+    "Milton Road Campus",
+    "Sighthill Campus"
+  ],
+  "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.977,
+    "lng": -3.208
+  },
+  "logo": "",
+  "website": "https://www.edinburghcollege.ac.uk",
+  "about": "Edinburgh College is one of Scotland's largest colleges, offering a wide range of courses across multiple campuses in Edinburgh and the Lothians. Its Computing department at Granton Campus offers a clear progression pathway in games development, from NC through to HND level, with strong links to university degree programmes at Edinburgh Napier, Glasgow Caledonian and Abertay universities.",
+  "highlighted": false,
+  "links": {
+    "twitter": "edinburghcollege",
+    "linkedin": "edinburgh-college"
+  },
+  "disciplines": [
+    "programmer",
+    "designer",
+    "artist"
+  ],
+  "courses": [
+    {
+      "name": "Games Development",
+      "level": "further_education",
+      "degree_type": "NC",
+      "scqf_level": 6,
+      "campus": "Granton Campus",
+      "study_mode": "Full time",
+      "duration": "2 years",
+      "discipline": "programmer",
+      "url": "https://www.edinburghcollege.ac.uk/courses/browse/games-development-nc-cr1codec26",
+      "short_description": "Computer Games Software Development NC is designed to teach you all aspects of computer game development. You will learn fundamental skills in subjects such as Software Development, Animation, Graphic Design, Coding, and the technology behind computer games. This course covers everything you will need to progress to HND or university level study, and incorporates Higher Mathematics which is required for that progression."
+    },
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "HND",
+      "scqf_level": 8,
+      "campus": "Granton Campus",
+      "study_mode": "Full time",
+      "duration": "2 years",
+      "discipline": "programmer",
+      "url": "https://www.edinburghcollege.ac.uk/courses/browse/computer-games-development-hnd-cr1cgd1b26",
+      "short_description": "An innovative course designed to provide you with an insight into the various technologies and techniques used in the video games industry. Explore the whole process of video game development, from planning and design through to project management. You will cover 2D and 3D Animation, Programming and Games Design Theory, and work on real-world gaming projects with the creative freedom to develop your own computer games and build a portfolio for employment or further study."
+    }
+  ],
+  "institution_type": "college"
+}

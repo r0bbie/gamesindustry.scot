@@ -1,0 +1,79 @@
+name: Add an Event
+description: Submit an industry event to the directory
+title: "[Event] "
+labels: ["new-event"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Event Name
+    validations:
+      required: true
+  - type: input
+    id: date_start
+    attributes:
+      label: Start Date
+      description: "Format: YYYY-MM-DD"
+    validations:
+      required: true
+  - type: input
+    id: date_end
+    attributes:
+      label: End Date
+      description: "Format: YYYY-MM-DD (leave blank for single-day events)"
+  - type: input
+    id: time
+    attributes:
+      label: Time
+      description: "e.g. 18:00"
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: City or venue (leave blank if online-only)
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      options:
+        - In-person
+        - Online
+        - Hybrid
+    validations:
+      required: true
+  - type: checkboxes
+    id: is_scottish
+    attributes:
+      label: Scottish Event
+      options:
+        - label: This event takes place in Scotland
+  - type: dropdown
+    id: tags
+    attributes:
+      label: Tags
+      multiple: true
+      options:
+        - Game Jam
+        - Social
+        - Showcase
+        - International
+        - Workshop
+        - Talk
+        - Conference
+        - Deadline
+        - Competition
+        - Awards
+        - Expo
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+  - type: input
+    id: website
+    attributes:
+      label: Website URL
+  - type: input
+    id: company
+    attributes:
+      label: Organising Company
+      description: Name of the organising company (if applicable)

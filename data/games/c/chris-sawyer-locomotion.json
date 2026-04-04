@@ -1,0 +1,28 @@
+{
+  "id": "chris-sawyer-locomotion",
+  "title": "Chris Sawyer's Locomotion",
+  "slug": "chris-sawyer-locomotion",
+  "short_description": "A spiritual successor to Transport Tycoon — build transport networks across land, sea, and air.",
+  "description": "Chris Sawyer's Locomotion is a transport management simulation and the spiritual successor to Transport Tycoon. Players build and manage transport networks using trains, trams, buses, trucks, aircraft, and ships across a variety of scenarios. It was the last game Chris Sawyer developed solo, again written in x86 assembly language.",
+  "release_date": "2004-09-10",
+  "status": "released",
+  "companies": {
+    "developer": ["chris-sawyer"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["simulation", "strategy", "management"],
+  "platforms": ["pc"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": { "steam": "356430" },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 73 },
+  "database_links": { "igdb": "chris-sawyers-locomotion", "mobygames": "16178" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

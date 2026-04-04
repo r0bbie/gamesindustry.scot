@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Suggest an edit
+    url: https://github.com/r0bbie/gamesindustry.scot/tree/main/data
+    about: Browse the data files and submit a PR to suggest changes to existing entries

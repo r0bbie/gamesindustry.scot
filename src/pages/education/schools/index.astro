@@ -1,0 +1,57 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllSchools } from "@/lib/data";
+import { GITHUB_REPO } from "@/lib/constants";
+import SchoolListView from "@/components/education/SchoolListView";
+
+const allSchools = await getAllSchools();
+const schools = allSchools.filter((s) => s.status === "active");
+
+// Derive the unique study levels each school offers from its courses
+const schoolsData = schools.map((s) => ({
+  id: s.id,
+  name: s.name,
+  slug: s.slug,
+  institution_type: s.institution_type,
+  hq: s.hq ?? null,
+  region: s.region ?? undefined,
+  about: s.about ?? undefined,
+  logo: s.logo ?? undefined,
+  disciplines: s.disciplines,
+  levels: [...new Set(s.courses.map((c) => c.level).filter(Boolean))] as string[],
+}));
+
+const addSchoolUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=add-school.yml&title=Add+School:+`;
+---
+
+<BaseLayout title="All Schools — Education">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="mb-8">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <div class="flex items-center gap-2 text-sm text-muted-foreground">
+            <a href="/education" class="hover:text-foreground hover:underline">Education</a>
+            <span>/</span>
+            <span>All Schools</span>
+          </div>
+          <h1 class="mt-1 text-3xl font-bold tracking-tight">All Schools</h1>
+          <p class="mt-2 max-w-2xl text-muted-foreground">
+            Every university and college in Scotland offering courses in games development, design, audio and related disciplines.
+          </p>
+        </div>
+        <a
+          href={addSchoolUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex h-9 shrink-0 items-center gap-2 rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+          Add a school
+        </a>
+      </div>
+    </div>
+
+    <SchoolListView schools={schoolsData} client:load />
+  </div>
+</BaseLayout>

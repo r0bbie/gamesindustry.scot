@@ -1,0 +1,44 @@
+{
+  "id": "argyll-college",
+  "name": "Argyll College UHI",
+  "slug": "argyll-college",
+  "status": "active",
+  "hq": "Oban",
+  "campuses": [
+    "Oban",
+    "Campbeltown",
+    "Dunoon",
+    "Helensburgh",
+    "Islay",
+    "Lochgilphead",
+    "Rothesay"
+  ],
+  "region": "highlands-islands",
+  "coordinates": {
+    "lat": 56.415,
+    "lng": -5.472
+  },
+  "logo": "",
+  "website": "https://www.argyll.uhi.ac.uk",
+  "about": "Argyll College UHI is part of the University of the Highlands and Islands network, delivering higher and further education across Argyll through a network of local learning centres in Oban, Campbeltown, Dunoon, Helensburgh, Islay, Lochgilphead and Rothesay. The college offers games development courses delivered via on-campus virtual classrooms, making specialist study accessible across the region.",
+  "highlighted": false,
+  "links": {},
+  "disciplines": [
+    "programmer",
+    "designer"
+  ],
+  "courses": [
+    {
+      "name": "Computer Games Development",
+      "level": "further_education",
+      "degree_type": "NPA",
+      "scqf_level": 5,
+      "campus": "Multiple learning centres across Argyll",
+      "study_mode": "Part time",
+      "discipline": "programmer",
+      "url": "https://www.argyll.uhi.ac.uk/courses/scqf-level-5-npa-computer-games-development/",
+      "short_description": "If you love playing computer games and want to learn how to make your own, this NPA course teaches the basics of game design, media assets and development. You will learn how to use different tools and techniques to create your own games for various platforms and genres, develop coding skills and computational thinking, and by the end of the course you will have an example game designed by you that you can showcase to potential employers or further education providers."
+    }
+  ],
+  "institution_type": "college"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "glitchers",
+  "name": "GLITCHERS",
+  "slug": "glitchers",
+  "category": "developer",
+  "status": "active",
+  "founded": 2014,
+  "previously_known_as": [],
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "coordinates": { "lat": 55.9533, "lng": -3.1883 },
+  "short_description": "Edinburgh-based studio crafting original games across mobile, console, and PC.",
+  "about": "GLITCHERS is an independent game development studio based in Edinburgh, Scotland. Founded in 2014, the studio creates original games across mobile, console, and PC platforms, blending strong design sensibilities with a passion for innovative gameplay experiences.",
+  "website": "https://glitchers.com",
+  "logo": null,
+  "highlighted": false,
+  "parent_entity": null,
+  "company_size": "Small (1–10)",
+  "employee_count": null,
+  "links": {
+    "twitter": "glitchers"
+  },
+  "use_tooling": ["buildstash"],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

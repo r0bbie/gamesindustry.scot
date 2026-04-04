@@ -1,0 +1,107 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllCompanies, shuffleArray } from "@/lib/data";
+import { COMPANY_CATEGORIES, GITHUB_REPO } from "@/lib/constants";
+
+const addCompanyUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-company.yml&title=%5BCompany%5D+`;
+const companies = await getAllCompanies();
+const activeCompanies = companies.filter((c) => c.status === "active");
+
+const categorySections = COMPANY_CATEGORIES.map((cat) => ({
+  ...cat,
+  companies: shuffleArray(
+    activeCompanies.filter((c) => c.category === cat.id)
+  ).slice(0, 4),
+})).filter((cat) => cat.companies.length > 0);
+---
+
+<BaseLayout title="Companies">
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <div class="mb-12">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <h1 class="text-4xl font-bold tracking-tight">Companies</h1>
+          <p class="mt-3 max-w-2xl text-lg text-muted-foreground">
+            Discover the studios, publishers, service providers, and organisations
+            that make up Scotland's games industry.
+          </p>
+        </div>
+        <div class="flex shrink-0 flex-wrap gap-2">
+          <a
+            href={addCompanyUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex h-9 items-center gap-2 rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Add a company
+          </a>
+          <a
+            href="/companies/list"
+            class="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+          >
+            View all
+          </a>
+          <a
+            href="/companies/map"
+            class="inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+          >
+            Map view
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {
+      categorySections.map((cat) => (
+        <section class="mb-12">
+          <div class="mb-4 flex items-center justify-between">
+            <h2 class="text-2xl font-semibold">{cat.name}</h2>
+            <a
+              href={`/companies/list?category=${cat.id}`}
+              class="text-sm font-medium text-primary hover:underline"
+            >
+              View all {cat.name} &rarr;
+            </a>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {cat.companies.map((company) => (
+              <a
+                href={`/companies/${company.slug}`}
+                class="group rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30 hover:bg-accent/50"
+              >
+                <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg bg-muted">
+                  {company.logo ? (
+                    <img
+                      src={company.logo}
+                      alt=""
+                      class="h-8 w-8 object-contain"
+                    />
+                  ) : (
+                    <span class="text-lg font-bold text-muted-foreground">
+                      {company.name.charAt(0)}
+                    </span>
+                  )}
+                </div>
+                <h3 class="font-semibold group-hover:text-primary">
+                  {company.name}
+                </h3>
+                {company.location && (
+                  <p class="mt-0.5 text-xs text-muted-foreground">
+                    {company.location}
+                  </p>
+                )}
+                {company.short_description && (
+                  <p class="mt-2 line-clamp-2 text-sm text-muted-foreground">
+                    {company.short_description}
+                  </p>
+                )}
+              </a>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+
+  </div>
+</BaseLayout>

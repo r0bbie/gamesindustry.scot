@@ -1,0 +1,62 @@
+---
+import "@/styles/globals.css";
+import Navbar from "@/components/layout/Navbar.astro";
+import Footer from "@/components/layout/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "@/lib/constants";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+const fullTitle = title === SITE_TITLE ? title : `${title} | ${SITE_TITLE}`;
+const desc = description ?? SITE_DESCRIPTION;
+const canonicalURL = new URL(Astro.url.pathname, SITE_URL);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href={canonicalURL} />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:site_name" content={SITE_TITLE} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={desc} />
+
+    <!-- RSS autodiscovery -->
+    <link rel="alternate" type="application/rss+xml" title="Scottish Games Industry — Events" href="/rss/events.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Scottish Games Industry — New Releases" href="/rss/new-games.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Scottish Games Industry — Upcoming Games" href="/rss/upcoming-games.xml" />
+
+    <script is:inline>
+      (function () {
+        var theme = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (theme === "dark" || (!theme && prefersDark) || (theme === "auto" && prefersDark)) {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      })();
+    </script>
+  </head>
+  <body style="font-family: 'Inter', system-ui, sans-serif;">
+    <Navbar />
+    <main class="min-h-screen">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

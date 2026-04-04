@@ -1,0 +1,13 @@
+{
+  "id": "alex-macleod",
+  "name": "Alex MacLeod",
+  "slug": "alex-macleod",
+  "discipline": "audio",
+  "bio": "Alex is a freelance audio designer and composer based in Edinburgh, working across games, film, and interactive media. With a background in music technology from Edinburgh Napier University, Alex has created soundscapes and original scores for indie titles and game jam projects throughout Scotland. His work blends electronic and orchestral elements with field recordings of the Scottish landscape.",
+  "short_bio": "Freelance audio designer and composer based in Edinburgh, specialising in game soundscapes.",
+  "photo": "",
+  "website": "https://example.com",
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "links": { "linkedin": "alexmacleod", "soundcloud": "alexmacleod" }
+}

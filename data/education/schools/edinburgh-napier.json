@@ -1,0 +1,75 @@
+{
+  "id": "edinburgh-napier",
+  "name": "Edinburgh Napier University",
+  "slug": "edinburgh-napier",
+  "status": "active",
+  "founded": 1964,
+  "hq": "Edinburgh",
+  "campuses": [
+    "Craiglockhart Campus",
+    "Merchiston Campus",
+    "Sighthill Campus"
+  ],
+  "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.935,
+    "lng": -3.214
+  },
+  "logo": "",
+  "website": "https://www.napier.ac.uk",
+  "about": "Edinburgh Napier University offers a range of computing and creative programmes with strong links to Scotland's games industry. The School of Computing, Engineering and the Built Environment runs dedicated games-focused degrees covering programming, animation, sound design, and interactive media. The university is known for its practical, industry-connected approach to teaching and its growing research output in areas including game audio and procedural content generation.",
+  "highlighted": true,
+  "links": {
+    "twitter": "EdinburghNapier",
+    "linkedin": "edinburgh-napier-university"
+  },
+  "disciplines": [
+    "programmer",
+    "artist",
+    "audio",
+    "designer"
+  ],
+  "courses": [
+    {
+      "name": "Games Development",
+      "level": "undergraduate",
+      "degree_type": "BSc / BSc (Hons)",
+      "discipline": "programmer",
+      "url": "https://www.napier.ac.uk/courses/bsc-hons-games-development-undergraduate-fulltime",
+      "short_description": "A degree in Games Development prepares you for the technical end of the games industry. Based on sound software engineering principles, the course provides entry into the core software engineering layer of digital entertainment — covering game AI, graphics, physics simulation, and multiplayer systems — while also equipping you for a software engineering career in the wider computing industry. Accredited by ScreenSkills."
+    },
+    {
+      "name": "Animation for Games",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "artist",
+      "url": "https://www.napier.ac.uk/courses/bsc-hons-animation-for-games-undergraduate-fulltime",
+      "short_description": "Develop a portfolio of work as a specialist in a team-based studio or as an independent freelancer. Gain an understanding of the theory and application of visual and audio assets for games — bringing narrative ideas to life through 2D and 3D assets, interactive elements in game engines, and audio middleware. Covers 3D modelling, animation, scripting for interactive media, interactive audio, visual effects storytelling and motion graphics."
+    },
+    {
+      "name": "Sound Design",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "audio",
+      "url": "https://www.napier.ac.uk/courses/bsc-hons-sound-design-undergraduate-fulltime",
+      "short_description": "If you have a passion for sound and want to learn to design it so that it is seamlessly integrated into media, products or environments, this degree develops the practical skills needed to design and evaluate effective sound for listeners. Covering techniques for a wide variety of media — from interactive audio and game sound design to film, TV, and podcast production — with opportunities to specialise, build a portfolio, and gain valuable industry contacts."
+    },
+    {
+      "name": "Digital Media & Interaction Design",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "designer",
+      "url": "https://www.napier.ac.uk/courses/bsc-hons-digital-media-and-interaction-design-undergraduate-fulltime",
+      "short_description": "Gain a comprehensive understanding of the role digital media and interaction design plays in our lives, exploring how people use and respond to emerging technology. Equipped with adaptable practical and theoretical skills to design for current and future trends — for screen-based media, interactive experiences or physical computing. Includes optional work placement and study abroad opportunities, using industry standard packages in specialist Mac and PC labs."
+    },
+    {
+      "name": "Sound Design",
+      "level": "postgraduate",
+      "degree_type": "MSc",
+      "discipline": "audio",
+      "url": "https://www.napier.ac.uk/courses/msc-sound-design-postgraduate-full-time",
+      "short_description": "Composed of taught classes and a research project, the MSc Sound Design applies theory and advanced practice to enhance approaches to sound design for linear and interactive media. Develop a deep understanding of how to assess and influence audience perceptions through sound design, and gain skills in audio programming and the application of AI within audio and sound design. Available full-time, part-time, and online for distance learners."
+    }
+  ],
+  "institution_type": "university"
+}

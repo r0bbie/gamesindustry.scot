@@ -1,0 +1,93 @@
+{
+  "id": "north-east-scotland-college",
+  "name": "North East Scotland College",
+  "slug": "north-east-scotland-college",
+  "status": "active",
+  "founded": 2013,
+  "hq": "Aberdeen",
+  "campuses": [
+    "Aberdeen City Campus",
+    "Fraserburgh Campus"
+  ],
+  "region": "aberdeen-grampian",
+  "coordinates": {
+    "lat": 57.148,
+    "lng": -2.095
+  },
+  "logo": "",
+  "website": "https://www.nescol.ac.uk",
+  "about": "North East Scotland College (NESCol) is the main further education provider for the north east of Scotland, with campuses in Aberdeen and Fraserburgh. Its Computing department offers one of the most comprehensive games development and esports course pathways in the region — from introductory level through to HND — and houses a state-of-the-art Esports Hub. NESCol has strong articulation agreements with Robert Gordon University and other Scottish universities.",
+  "highlighted": false,
+  "links": {
+    "twitter": "NESCol",
+    "linkedin": "north-east-scotland-college"
+  },
+  "disciplines": [
+    "programmer",
+    "designer",
+    "artist"
+  ],
+  "courses": [
+    {
+      "name": "Computing Technologies & Esports",
+      "level": "further_education",
+      "degree_type": "Introduction",
+      "scqf_level": 4,
+      "campus": "Fraserburgh Campus",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www.nescol.ac.uk/courses/introduction-to-computing-technologies-and-esports/",
+      "short_description": "A dynamic introductory course perfect for anyone curious about how technology works and eager to unlock pathways to exciting digital careers. Whether you dream of becoming a programmer, games designer, systems engineer or pursuing a career in Esports, you'll feel confident about your next steps. You'll design and build your own game, use NESCol's state-of-the-art Esports Hub, and explore core computing areas including coding, hardware and AI."
+    },
+    {
+      "name": "Computing Technologies & Esports",
+      "level": "further_education",
+      "degree_type": "NPA bundle",
+      "scqf_level": 5,
+      "campus": "Fraserburgh Campus",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "programmer",
+      "url": "https://www.nescol.ac.uk/courses/computing-technologies-and-esports/",
+      "short_description": "Step into the fast-paced world of tech with a computing course that's all about exploring, creating and innovating. Whether you aspire to develop the next big game, enhance your technical Esports skills, become a cyber security hero, or drive breakthroughs in AI, this course will give you the knowledge and practical skills to make it happen. Includes hands-on experience in NESCol's state-of-the-art Esports Hub, and covers AI systems, cyber challenges, game design, Esports and software development."
+    },
+    {
+      "name": "Computer Games Design (including introduction to Esports)",
+      "level": "further_education",
+      "degree_type": "Introduction",
+      "scqf_level": 5,
+      "campus": "Aberdeen City Campus",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "designer",
+      "url": "https://www.nescol.ac.uk/courses/computer-games-design-including-introduction-to-esports/",
+      "short_description": "A great opportunity to start learning about computer games design, development and esports whilst enhancing your creative, teamwork and storytelling skills. This course introduces learners to the genres, trends and emerging technologies of the computer games industry, providing a foundation in digital planning and design, creation of media assets, and development and testing. Level 4/5 students will also explore Esports, video game characters, narrative design, creating an Esports brand, organising an Esports tournament and live-stream broadcasting."
+    },
+    {
+      "name": "Computer Games Design",
+      "level": "further_education",
+      "degree_type": "College Certificate",
+      "scqf_level": 6,
+      "campus": "Aberdeen City Campus, Fraserburgh Campus",
+      "study_mode": "Full time",
+      "duration": "1 year",
+      "discipline": "designer",
+      "url": "https://www.nescol.ac.uk/courses/computer-games-design/",
+      "short_description": "Focus on the technical and creative skills desired by employers in the computer games industry and in the wider creative digital media, Esports and software development sectors. Students work together to contribute to an Esports organisation, create content and organise an Esports tournament. You will develop media assets, investigate gameplay, explore games design and development, and build the communication, teamwork and enterprise skills that employers value."
+    },
+    {
+      "name": "Games Design (including Digital Design & Development)",
+      "level": "further_education",
+      "degree_type": "HND",
+      "scqf_level": 8,
+      "campus": "Aberdeen City Campus",
+      "study_mode": "Full time",
+      "duration": "2 years",
+      "discipline": "designer",
+      "url": "https://www.nescol.ac.uk/courses/hnd-games-design-including-digital-design-and-development/",
+      "short_description": "A practical course that builds on design and technical abilities to ensure you have the skills and knowledge to implement your ideas in game design and development. Year 1 covers fundamental game development, mobile web applications, digital graphics and 2D animation. Year 2 focuses on the design and development of video games, with at least two live video game projects. Graduates can articulate to BSc programmes at Robert Gordon University and Glasgow Caledonian University."
+    }
+  ],
+  "institution_type": "college"
+}

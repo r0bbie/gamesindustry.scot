@@ -1,0 +1,73 @@
+name: Post a Job
+description: Add a job listing to the Scottish Games Industry directory
+title: "[Job] "
+labels: ["new-job"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Job Title
+    validations:
+      required: true
+  - type: input
+    id: company
+    attributes:
+      label: Company Name
+    validations:
+      required: true
+  - type: dropdown
+    id: discipline
+    attributes:
+      label: Discipline
+      options:
+        - Programmer
+        - Designer
+        - Artist
+        - Audio
+        - Voice Actor
+        - Writer
+        - QA
+        - Production
+        - Marketing & Community
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Employment Type
+      options:
+        - Full-time
+        - Part-time
+        - Contract
+        - Internship
+    validations:
+      required: true
+  - type: dropdown
+    id: work_mode
+    attributes:
+      label: Work Mode
+      options:
+        - On-site
+        - Hybrid
+        - Remote
+  - type: input
+    id: location
+    attributes:
+      label: Location
+  - type: input
+    id: url
+    attributes:
+      label: Application URL
+      description: Link to the job posting or application page
+    validations:
+      required: true
+  - type: input
+    id: closing_date
+    attributes:
+      label: Closing Date
+      description: "Format: YYYY-MM-DD (leave blank if open-ended)"
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the role

@@ -1,0 +1,31 @@
+{
+  "id": "observation",
+  "title": "Observation",
+  "slug": "observation",
+  "short_description": "A sci-fi thriller where you play as the space station's AI, not the crew.",
+  "description": "Observation is a sci-fi thriller from No Code, the Glasgow-based studio behind Stories Untold. In a bold twist on conventional game design, players take on the role of SAM, the AI system aboard a space station, rather than controlling a human character. When Dr. Emma Fisher awakens to find the station damaged and the crew missing, SAM must assist her in uncovering what happened — while grappling with its own mysterious directives. The game was published by Devolver Digital and received critical acclaim for its atmosphere and inventive perspective.",
+  "release_date": "2019-05-21",
+  "status": "released",
+  "companies": {
+    "developer": ["no-code"],
+    "publishers": ["devolver-digital"],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["adventure", "thriller", "sci-fi"],
+  "platforms": ["pc", "ps4"],
+  "cover_image": "",
+  "screenshots": [],
+  "video": { "type": "youtube", "id": "kFBDVEIOTQA" },
+  "stores": { "steam": "906100", "epic": "observation" },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 80, "opencritic": 78 },
+  "database_links": { "igdb": "observation", "mobygames": "130710" },
+  "awards": [
+    { "name": "BAFTA Best Debut Game", "year": 2020, "status": "nominated" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

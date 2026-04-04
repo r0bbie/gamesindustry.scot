@@ -1,0 +1,43 @@
+{
+  "id": "university-of-the-highlands-and-islands",
+  "name": "University of the Highlands and Islands",
+  "slug": "university-of-the-highlands-and-islands",
+  "status": "active",
+  "founded": 2011,
+  "hq": "Inverness",
+  "campuses": [
+    "Inverness Campus",
+    "Perth Campus",
+    "Elgin Campus",
+    "Thurso Campus",
+    "Stornoway Campus"
+  ],
+  "region": "highlands-islands",
+  "coordinates": {
+    "lat": 57.477,
+    "lng": -4.224
+  },
+  "logo": "",
+  "website": "https://www.uhi.ac.uk",
+  "about": "The University of the Highlands and Islands is Scotland's newest university, formed from a unique partnership of colleges and research institutions spread across the Highlands and Islands. UHI offers flexible, distributed learning that allows students to study from locations across the region — including Argyll, Moray, Fort William and Shetland. Through its computing and creative programmes, UHI provides pathways into the games and digital media industries for students across some of Scotland's most rural and remote communities.",
+  "highlighted": false,
+  "links": {
+    "twitter": "UHINews",
+    "linkedin": "university-of-the-highlands-and-islands"
+  },
+  "disciplines": [
+    "designer",
+    "programmer"
+  ],
+  "courses": [
+    {
+      "name": "Interactive Media",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "designer",
+      "url": "https://www.uhi.ac.uk/en/courses/bsc-hons-interactive-media/",
+      "short_description": "Explore digital content creation, graphic design, 2D/3D animation, video and audio production in this BSc (Hons) Interactive Media. Gain real experience in the development of interactive and digital media products, experiment with key specialities including web, mobile apps, and computer games, and work with external clients on live industry projects. Let loose with your creativity while developing the solid theoretical and technical understanding you need to succeed in this thriving field."
+    }
+  ],
+  "institution_type": "university"
+}

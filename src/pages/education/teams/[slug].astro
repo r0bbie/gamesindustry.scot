@@ -1,0 +1,196 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllTeams, getAllSchools, getAllStudentGames } from "@/lib/data";
+import { GITHUB_REPO } from "@/lib/constants";
+
+export async function getStaticPaths() {
+  const teams = await getAllTeams();
+  return teams.map((t) => ({ params: { slug: t.slug } }));
+}
+
+const { slug } = Astro.params;
+const teams = await getAllTeams();
+const team = teams.find((t) => t.slug === slug);
+if (!team) return Astro.redirect("/404");
+
+const schools = await getAllSchools();
+const school = schools.find((s) => s.id === team.school_id);
+if (!school) console.warn(`School "${team.school_id}" not found for team "${team.id}"`);
+
+const allStudentGames = await getAllStudentGames();
+const teamGames = allStudentGames.filter((g) => g.team_id === team.id);
+
+const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/education/teams/${team.id}.json`;
+---
+
+<BaseLayout title={team.name}>
+  <!-- Header -->
+  <section class="border-b border-border bg-card">
+    <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+        <div class="flex items-start gap-4">
+          <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-muted">
+            {team.logo ? (
+              <img
+                src={team.logo}
+                alt={`${team.name} logo`}
+                class="h-12 w-12 object-contain"
+              />
+            ) : (
+              <svg class="h-8 w-8 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            )}
+          </div>
+          <div>
+            <h1 class="text-3xl font-bold tracking-tight">{team.name}</h1>
+            <p class="mt-1 text-muted-foreground">
+              {school ? (
+                <a
+                  href={`/education/schools/${school.slug}`}
+                  class="text-primary hover:underline"
+                >
+                  {school.name}
+                </a>
+              ) : (
+                <span>Unknown School</span>
+              )}
+            </p>
+          </div>
+        </div>
+
+        <a
+          href={editUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex h-9 shrink-0 items-center gap-2 rounded-md border border-input bg-background px-3 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+          </svg>
+          Suggest a change
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <div class="grid gap-8 lg:grid-cols-3">
+      <div class="space-y-10 lg:col-span-2">
+        <!-- Description -->
+        {team.short_description && (
+          <section>
+            <h2 class="mb-3 text-xl font-semibold">About</h2>
+            <p class="leading-relaxed text-muted-foreground">
+              {team.short_description}
+            </p>
+          </section>
+        )}
+
+        <!-- Members -->
+        {team.members.length > 0 && (
+          <section>
+            <h2 class="mb-3 text-xl font-semibold">
+              Members
+              <span class="ml-2 text-base font-normal text-muted-foreground">
+                ({team.members.length})
+              </span>
+            </h2>
+            <ul class="grid gap-2 sm:grid-cols-2">
+              {team.members.map((member) => (
+                <li class="flex items-center gap-3 rounded-lg border border-border bg-card p-3">
+                  <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-muted">
+                    <span class="text-xs font-bold text-muted-foreground">
+                      {member.charAt(0)}
+                    </span>
+                  </div>
+                  <span class="text-sm font-medium">{member}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <!-- Games -->
+        {teamGames.length > 0 && (
+          <section>
+            <h2 class="mb-3 text-xl font-semibold">Games</h2>
+            <div class="grid gap-4 sm:grid-cols-2">
+              {teamGames.map((game) => (
+                <a
+                  href={`/education/games/${game.slug}`}
+                  class="group rounded-lg border border-border bg-card p-4 transition-colors hover:border-primary/30"
+                >
+                  <h3 class="font-medium group-hover:text-primary">
+                    {game.title}
+                  </h3>
+                  {game.description && (
+                    <p class="mt-1 line-clamp-2 text-sm text-muted-foreground">
+                      {game.description}
+                    </p>
+                  )}
+                  {game.platforms.length > 0 && (
+                    <div class="mt-2 flex flex-wrap gap-1">
+                      {game.platforms.map((p) => (
+                        <span class="rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground">
+                          {p}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+
+      <!-- Sidebar -->
+      <aside>
+        <div class="rounded-xl border border-border bg-card p-5">
+          <h3 class="mb-4 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+            Details
+          </h3>
+          <dl class="space-y-3">
+            <div>
+              <dt class="text-xs text-muted-foreground">School</dt>
+              <dd class="text-sm font-medium">
+                {school ? (
+                  <a
+                    href={`/education/schools/${school.slug}`}
+                    class="text-primary hover:underline"
+                  >
+                    {school.name}
+                  </a>
+                ) : (
+                  "Unknown School"
+                )}
+              </dd>
+            </div>
+            {team.members.length > 0 && (
+              <div>
+                <dt class="text-xs text-muted-foreground">Members</dt>
+                <dd class="text-sm font-medium">{team.members.length}</dd>
+              </div>
+            )}
+          </dl>
+          {team.website && (
+            <a
+              href={team.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-5 flex h-9 w-full items-center justify-center rounded-md bg-primary text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+            >
+              Visit Website
+            </a>
+          )}
+        </div>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

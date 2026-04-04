@@ -1,0 +1,73 @@
+{
+  "id": "sae-institute",
+  "name": "SAE Institute (Glasgow Campus)",
+  "slug": "sae-institute",
+  "status": "active",
+  "founded": 1976,
+  "hq": "Glasgow",
+  "campuses": [
+    "Glasgow Campus"
+  ],
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.861,
+    "lng": -4.263
+  },
+  "logo": "",
+  "website": "https://www.sae.edu/gbr/",
+  "about": "SAE Institute is one of the world's largest creative media educators, with over 50 campuses globally. The Glasgow campus delivers industry-focused degrees in game design, game art, games programming, audio, and visual effects — taught by experienced practitioners with active industry connections. SAE's hands-on, studio-based approach is designed to fast-track graduates into professional careers, with small class sizes and access to professional-grade facilities from day one. Degrees are available as a 2-year accelerated option or a standard 3-year programme.",
+  "highlighted": false,
+  "links": {
+    "twitter": "SAEInstitute",
+    "linkedin": "sae-institute"
+  },
+  "disciplines": [
+    "designer",
+    "artist",
+    "programmer",
+    "audio"
+  ],
+  "courses": [
+    {
+      "name": "Game Design",
+      "level": "undergraduate",
+      "degree_type": "BA / BSc (Hons)",
+      "discipline": "designer",
+      "url": "https://www.sae.edu/gbr/courses/ba-bsc-hons-game-design/",
+      "short_description": "Learn how to design and develop video games through real-world project briefs in a simulated games studio environment. Explore level design and narrative construction, gaining advanced skills in industry-standard software including Unreal Engine 5, Unity 3D, Adobe Creative Suite and Maya, plus expert proficiency in C# and C++. Covers player psychology, mechanics, UX/UI design, playtesting and professional portfolio development."
+    },
+    {
+      "name": "VFX & Animation",
+      "level": "undergraduate",
+      "degree_type": "BA (Hons)",
+      "discipline": "artist",
+      "url": "https://www.sae.edu/gbr/courses/ba-bsc-hons-visual-effects-and-animation/",
+      "short_description": "Learn motion design, 2D and 3D animation and advanced compositing in a unique blend of vocational and academic education. Master shot development, rendering pipelines and sophisticated simulation workflows using a diverse toolkit including Autodesk Maya, Substance Painter, Unreal Engine, SideFX Houdini, Foundry NukeX, ZBrush, DaVinci Resolve and Adobe Creative Cloud. The interdisciplinary course encourages collaboration across film, gaming and audio projects."
+    },
+    {
+      "name": "Game Art & Animation",
+      "level": "undergraduate",
+      "degree_type": "BA / BSc (Hons)",
+      "discipline": "artist",
+      "url": "https://www.sae.edu/gbr/courses/ba-bsc-hons-game-art-and-animation/",
+      "short_description": "Combine fundamental game theory with practical projects — mastering industry-standard software including Autodesk Maya, Substance Painter, Unreal Engine, SideFX Houdini, Foundry NukeX and ZBrush. Collaborate with peers across SAE disciplines to build a strong understanding of industry dynamics, and graduate career-ready whether your goal is to work as an artist, designer, animator, technical director, or something else entirely."
+    },
+    {
+      "name": "Game & Interactive Audio",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "audio",
+      "url": "https://www.sae.edu/gbr/courses/bsc-hons-game-and-interactive-audio/",
+      "short_description": "Dive into every aspect of interactive audio — from sound design and game engines to audio middleware, adaptive music systems and real-time implementation. Explore industry-standard tools including Unreal Engine, FMOD and Wwise, while working with DAWs such as Reaper and Ableton Live. Collaborate with students across Games Programming, Film, Animation and Music Production, and complete a Major Project to build a compelling portfolio for a career in game audio."
+    },
+    {
+      "name": "Games Programming",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "programmer",
+      "url": "https://www.sae.edu/gbr/courses/bsc-hons-games-programming/",
+      "short_description": "An immersive learning experience integrating fundamental theory with hands-on practice. Gain technical expertise using industry-standard software in state-of-the-art labs — including Unreal Engine 5, Unity3D, Visual Studio and Maya — with programming languages C++ and C#. Refine project management, problem-solving and teamwork through collaborative projects across multiple creative disciplines, and graduate with knowledge across game engines, mechanics, AI, design principles and more."
+    }
+  ],
+  "institution_type": "university"
+}

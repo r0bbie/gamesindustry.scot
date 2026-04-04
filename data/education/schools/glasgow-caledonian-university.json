@@ -1,0 +1,61 @@
+{
+  "id": "glasgow-caledonian-university",
+  "name": "Glasgow Caledonian University",
+  "slug": "glasgow-caledonian-university",
+  "status": "active",
+  "founded": 1993,
+  "hq": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.866,
+    "lng": -4.249
+  },
+  "logo": "",
+  "website": "https://www.gcu.ac.uk",
+  "about": "Glasgow Caledonian University is one of Scotland's largest universities, with a strong focus on industry-relevant education. Based in the heart of Glasgow, GCU offers a range of programmes in games development, 3D animation, and audio technology through its School of Computing, Engineering and Built Environment. Ranked number one in Scotland for Computer Games and Animation (Daily Mail University Guide, 2025).",
+  "highlighted": false,
+  "links": {
+    "twitter": "GCU_tweets",
+    "linkedin": "glasgow-caledonian-university"
+  },
+  "disciplines": [
+    "programmer",
+    "artist",
+    "audio"
+  ],
+  "courses": [
+    {
+      "name": "Games Development",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "programmer",
+      "url": "https://www.gcu.ac.uk/study/courses/bsc-hons-games-development-glasgow",
+      "short_description": "Gain the programming skills to develop games for PC, console, and mobile platforms. This degree covers game engine development, AI, physics, graphics, and tools development — with project-based learning designed to reflect real-world studio workflows and team structures. Strong emphasis on industry relevance and employability throughout."
+    },
+    {
+      "name": "3D Animation and Visualisation",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "artist",
+      "url": "https://www.gcu.ac.uk/study/courses/bsc-hons-3d-animation-and-visualisation-with-pathways-for-games-and-vfx-glasgow",
+      "short_description": "Designed for those who want to pursue an exciting career in the creative industries, this course develops traditional art skills with the latest creative technologies to produce graduates fit for the games and film/VFX industries. Develop skills in 3D modelling, digital sculpting, surfacing and texturing, rigging, animation, lighting, rendering and VFX compositing — working on industry briefs and projects with opportunities for internships and placements. Ranked #1 in Scotland for Computer Games and Animation (Daily Mail University Guide, 2025)."
+    },
+    {
+      "name": "Audio Technology",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "discipline": "audio",
+      "url": "https://www.gcu.ac.uk/study/courses/undergraduate-audio-technology-glasgow",
+      "short_description": "Study the science and practice of sound across music production, live events, broadcast, and interactive media. Covering acoustics, signal processing, studio engineering, and spatial audio, Audio Technology graduates are equipped for careers in games audio, music technology, and sound production."
+    },
+    {
+      "name": "3D Design for Virtual Environments",
+      "level": "postgraduate",
+      "degree_type": "MSc",
+      "discipline": "artist",
+      "url": "https://www.gcu.ac.uk/study/courses/msc-3d-design-for-virtual-environments-glasgow",
+      "short_description": "A practical, career-focused programme oriented towards current industry needs — no prior 3D knowledge required. Build creative vision and technical skills covering pre-production (planning, storyboarding, conceptualising), production (3D modelling, animation, lighting, rendering) and post-production (video editing, integrating 2D and 3D visuals) using cutting-edge computer applications and digital environments. Accredited by ScreenSkills."
+    }
+  ],
+  "institution_type": "university"
+}

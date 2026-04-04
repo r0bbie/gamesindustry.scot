@@ -1,0 +1,18 @@
+{
+  "id": "sgn-spring-social",
+  "name": "SGN Spring Social",
+  "slug": "sgn-spring-social",
+  "date_start": "2026-03-28",
+  "date_end": "",
+  "time": "18:00",
+  "location": "Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "scottish-games-network",
+  "description": "The Scottish Games Network's Spring Social is a relaxed evening event for anyone working in or interested in the Scottish games industry. Join us for drinks, conversation, and networking in central Glasgow. Whether you are a seasoned developer, a student, or just curious about the local games scene, everyone is welcome. No talks or formal agenda — just a chance to meet fellow game makers in a friendly, informal setting.",
+  "short_description": "A relaxed networking evening for the Scottish games community in central Glasgow.",
+  "website": "https://scottishgames.net",
+  "icon": "",
+  "tags": ["social"],
+  "highlighted": true
+}

@@ -1,0 +1,210 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { GITHUB_URL, GITHUB_REPO } from "@/lib/constants";
+import { getAllCompanies, getAllGames } from "@/lib/data";
+
+const companies = await getAllCompanies();
+const games = await getAllGames();
+const activeCompanies = companies.filter((c) => c.status === "active");
+---
+
+<BaseLayout title="About" description="About the Scottish Games Industry directory — an open, community-maintained resource for Scotland's games sector.">
+  <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+
+    <!-- Header -->
+    <div class="mb-12">
+      <h1 class="text-4xl font-bold tracking-tight">About Scottish Games Industry</h1>
+      <p class="mt-4 text-lg text-muted-foreground leading-relaxed">
+        A comprehensive, open directory dedicated to showcasing and connecting Scotland's vibrant game development community.
+      </p>
+    </div>
+
+    <!-- Stats strip -->
+    <div class="mb-12 grid grid-cols-2 gap-4 sm:grid-cols-3">
+      <div class="rounded-xl border border-border bg-card p-4 text-center">
+        <p class="text-3xl font-bold">{activeCompanies.length}</p>
+        <p class="mt-1 text-sm text-muted-foreground">Studios & Organisations</p>
+      </div>
+      <div class="rounded-xl border border-border bg-card p-4 text-center">
+        <p class="text-3xl font-bold">{games.length}</p>
+        <p class="mt-1 text-sm text-muted-foreground">Games</p>
+      </div>
+      <div class="col-span-2 sm:col-span-1 rounded-xl border border-border bg-card p-4 text-center">
+        <p class="text-3xl font-bold">Open</p>
+        <p class="mt-1 text-sm text-muted-foreground">Source & Data</p>
+      </div>
+    </div>
+
+    <!-- Mission -->
+    <section class="mb-10 prose prose-neutral dark:prose-invert max-w-none">
+      <h2 class="text-2xl font-semibold mb-4">Our Mission</h2>
+      <p class="text-muted-foreground leading-relaxed">
+        Scottish Games Industry exists to make it easy to discover Scottish game studios, their games, and the talented people behind them. Whether you're looking for a development partner, seeking a job in the industry, or simply want to explore what Scotland has to offer in the world of games — this is your starting point.
+      </p>
+      <p class="mt-3 text-muted-foreground leading-relaxed">
+        Scotland has a proud heritage in game development, from the early days of DMA Design and Rockstar North in Edinburgh to a thriving ecosystem of independent studios, publishers, tooling companies, and educational institutions spread across Glasgow, Dundee, Edinburgh, and beyond. We want to make that story visible.
+      </p>
+    </section>
+
+    <!-- What we offer -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-6">What We Offer</h2>
+      <div class="grid gap-4 sm:grid-cols-2">
+        {[
+          {
+            icon: "building",
+            title: "Company Directory",
+            desc: "Browse game studios, publishers, tooling companies, and service providers across Scotland.",
+            href: "/companies",
+          },
+          {
+            icon: "gamepad",
+            title: "Games Catalogue",
+            desc: "Discover games made in Scotland, from indie gems to internationally recognised titles.",
+            href: "/games",
+          },
+          {
+            icon: "briefcase",
+            title: "Job Board",
+            desc: "Find career opportunities across the Scottish game industry, listed free of charge.",
+            href: "/jobs",
+          },
+          {
+            icon: "usercheck",
+            title: "Freelancer Directory",
+            desc: "Connect with skilled freelancers available for hire across all disciplines.",
+            href: "/freelancers",
+          },
+          {
+            icon: "calendar",
+            title: "Events",
+            desc: "Stay up to date with game jams, conferences, socials, and meetups in Scotland.",
+            href: "/events",
+          },
+          {
+            icon: "graduation",
+            title: "Education",
+            desc: "Explore universities, colleges, and student teams nurturing the next generation of developers.",
+            href: "/education",
+          },
+        ].map((item) => (
+          <a
+            href={item.href}
+            class="group flex gap-4 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30 hover:bg-accent/30"
+          >
+            <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-muted text-muted-foreground transition-colors group-hover:bg-primary/10 group-hover:text-primary">
+              {item.icon === "building" && <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/></svg>}
+              {item.icon === "gamepad" && <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1.11 0 2.08-.402 2.592-1.382l.375-.646a1 1 0 0 1 .866-.498h6.334a1 1 0 0 1 .866.498l.375.646C16.92 18.598 17.89 19 19 19a3 3 0 0 0 3-3c0-1.544-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.152A4 4 0 0 0 17.32 5z"/></svg>}
+              {item.icon === "briefcase" && <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>}
+              {item.icon === "usercheck" && <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="16 11 18 13 22 9"/></svg>}
+              {item.icon === "calendar" && <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>}
+              {item.icon === "graduation" && <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>}
+            </div>
+            <div>
+              <p class="font-medium">{item.title}</p>
+              <p class="mt-0.5 text-sm text-muted-foreground">{item.desc}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Get Involved -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Get Involved</h2>
+      <p class="text-muted-foreground leading-relaxed mb-6">
+        This directory is built for the community, by the community. All data is open and stored in a public GitHub repository. If you're part of the Scottish games industry, we encourage you to add your company, submit your games, or contribute in any way you can.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a
+          href={`${GITHUB_URL}/issues/new?template=new-company.yml`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
+          Add Your Company
+        </a>
+        <a
+          href={`${GITHUB_URL}/issues/new?template=new-game.yml`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
+          Submit a Game
+        </a>
+        <a
+          href={GITHUB_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        {[
+          {
+            q: "What is the Scottish Games Industry directory?",
+            a: "A comprehensive, community-maintained database of game development studios, publishers, service companies, freelancers, games, events, and educational institutions based in Scotland.",
+          },
+          {
+            q: "How are companies listed?",
+            a: "Listings are sourced from community submissions and public information. Each listing is stored as an open data file on GitHub. Anyone can submit a new entry or suggest a correction via a pull request or GitHub issue.",
+          },
+          {
+            q: "How can I add my company or game?",
+            a: "Use the 'Add Your Company' or 'Submit a Game' buttons above. This will open a GitHub issue template — fill in the details and we'll get it added.",
+          },
+          {
+            q: "Is this affiliated with any organisation?",
+            a: "No. This is an independent, volunteer-run community project. It is not officially affiliated with Scottish Games Network, SGDA, Creative Scotland, or any other body — though we're happy to work alongside all of them.",
+          },
+          {
+            q: "I want to update or remove a listing.",
+            a: "All data lives in the public GitHub repository. You can submit a pull request directly, or open an issue requesting a change and we'll handle it.",
+          },
+          {
+            q: "Can I use the data?",
+            a: "Yes. All data is published under a CC BY-NC-SA licence. Code is AGPLv3. See the repository for full details.",
+          },
+        ].map((item) => (
+          <details class="group rounded-xl border border-border bg-card">
+            <summary class="flex cursor-pointer select-none items-center justify-between px-5 py-4 text-sm font-medium">
+              {item.q}
+              <svg class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </summary>
+            <div class="border-t border-border px-5 py-4 text-sm text-muted-foreground leading-relaxed">
+              {item.a}
+            </div>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <!-- Contact / Supported by -->
+    <section class="rounded-xl border border-border bg-muted/40 p-6 text-sm text-muted-foreground">
+      <p>
+        Have a question not covered above? Open an issue on{" "}
+        <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" class="text-foreground underline underline-offset-2 hover:text-primary">
+          GitHub
+        </a>{" "}
+        or reach out via the community channels listed there.
+      </p>
+      <p class="mt-2">
+        This directory is proudly supported by{" "}
+        <a href="https://buildstash.com" target="_blank" rel="noopener noreferrer" class="text-foreground underline underline-offset-2 hover:text-primary">
+          Buildstash
+        </a>.
+      </p>
+    </section>
+
+  </div>
+</BaseLayout>

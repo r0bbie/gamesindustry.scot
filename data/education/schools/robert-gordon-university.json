@@ -1,0 +1,41 @@
+{
+  "id": "robert-gordon-university",
+  "name": "Robert Gordon University",
+  "slug": "robert-gordon-university",
+  "status": "active",
+  "founded": 1992,
+  "hq": "Aberdeen",
+  "region": "aberdeen-grampian",
+  "coordinates": {
+    "lat": 57.132,
+    "lng": -2.107
+  },
+  "logo": "",
+  "website": "https://www.rgu.ac.uk",
+  "about": "Robert Gordon University (RGU) is a modern university in Aberdeen, ranked 1st in the UK for Student Satisfaction in Computer Science (CUG 2026). Through its School of Computing, Engineering and Technology and Gray's School of Art, RGU offers an interdisciplinary BSc (Hons) Games Design programme that combines creative design expertise with strong programming fundamentals, producing versatile graduates ready to shape the games industry.",
+  "highlighted": false,
+  "links": {
+    "twitter": "RGU",
+    "linkedin": "robert-gordon-university"
+  },
+  "disciplines": [
+    "designer",
+    "programmer",
+    "artist"
+  ],
+  "courses": [
+    {
+      "name": "Games Design",
+      "level": "undergraduate",
+      "degree_type": "BSc (Hons)",
+      "scqf_level": 10,
+      "study_mode": "Full time",
+      "duration": "4 years",
+      "ucas_code": "GW12",
+      "discipline": "designer",
+      "url": "https://www.rgu.ac.uk/study/courses/6677-bsc-hons-games-design",
+      "short_description": "An interdisciplinary programme combining expertise from the School of Computing, Engineering and Technology and Gray's School of Art. Master essential design techniques, game theory, programming and interactive development skills. The course explores core design theory, gamification practices, prototyping and interactive development, ensuring graduates possess versatile, practical and adaptable expertise — alongside a solid foundation in programming and a distinctive interdisciplinary approach."
+    }
+  ],
+  "institution_type": "university"
+}

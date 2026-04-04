@@ -1,0 +1,576 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import {
+  getAllGames,
+  getGameBySlug,
+  getNewsForGame,
+  safeGetCompany,
+  resolveCompanyIds,
+} from "@/lib/data";
+import {
+  buildStoreUrl,
+  buildPlayUrl,
+  buildPhysicalStoreUrl,
+  buildCriticUrl,
+  buildDatabaseUrl,
+  GITHUB_REPO,
+} from "@/lib/constants";
+import PlatformIcons from "@/components/games/PlatformIcons.astro";
+import StoreLinks from "@/components/games/StoreLinks.astro";
+import { BrokenLink } from "@/components/ui/broken-link";
+
+export async function getStaticPaths() {
+  const games = await getAllGames();
+  return games.map((g) => ({ params: { slug: g.slug } }));
+}
+
+const { slug } = Astro.params;
+const game = await getGameBySlug(slug!);
+
+if (!game) {
+  return Astro.redirect("/404");
+}
+
+// Resolve developer companies
+const developers = await resolveCompanyIds(
+  game.companies.developer,
+  `game:${game.slug}`,
+);
+const publishers = await resolveCompanyIds(
+  game.companies.publishers,
+  `game:${game.slug}`,
+);
+const serviceCompanies = await resolveCompanyIds(
+  game.companies.service_companies,
+  `game:${game.slug}`,
+);
+const tooling = await resolveCompanyIds(
+  game.companies.used_tooling,
+  `game:${game.slug}`,
+);
+const supportedBy = await resolveCompanyIds(
+  game.companies.supported_by,
+  `game:${game.slug}`,
+);
+
+const primaryDev = developers[0]?.company;
+
+const statusLabels: Record<string, string> = {
+  released: "Released",
+  in_development: "In Development",
+  cancelled: "Cancelled",
+};
+const statusColors: Record<string, string> = {
+  released: "border-green-500/40 bg-green-500/10 text-green-700 dark:text-green-400",
+  in_development: "border-blue-500/40 bg-blue-500/10 text-blue-700 dark:text-blue-400",
+  cancelled: "border-red-500/40 bg-red-500/10 text-red-700 dark:text-red-400",
+};
+
+function formatDate(dateStr?: string): string {
+  if (!dateStr) return "TBA";
+  try {
+    return new Date(dateStr).toLocaleDateString("en-GB", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  } catch {
+    return dateStr;
+  }
+}
+
+function getCoverGradient(title: string): string {
+  const hue = [...title].reduce((sum, ch) => sum + ch.charCodeAt(0), 0) % 360;
+  return `linear-gradient(135deg, hsl(${hue}, 60%, 35%), hsl(${(hue + 50) % 360}, 50%, 25%))`;
+}
+
+const criticLabels: Record<string, string> = {
+  metacritic: "Metacritic",
+  opencritic: "OpenCritic",
+  criticdb: "CriticDB",
+};
+
+const databaseLabels: Record<string, string> = {
+  igdb: "IGDB",
+  mobygames: "MobyGames",
+  backloggd: "Backloggd",
+  rawg: "RAWG",
+  glitchwave: "Glitchwave",
+  gamefaqs: "GameFAQs",
+};
+
+const storeEntries = Object.entries(game.stores);
+const playNowEntries = Object.entries(game.play_now);
+const physicalEntries = Object.entries(game.physical_stores);
+const criticEntries = Object.entries(game.critic_ratings);
+const databaseEntries = Object.entries(game.database_links);
+const hasAwards = game.awards.length > 0;
+const gameNews = await getNewsForGame(game.id);
+const hasNews = gameNews.length > 0;
+const hasScreenshots = game.screenshots.length > 0;
+
+const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.slug.charAt(0)}/${game.slug}.json`;
+---
+
+<BaseLayout
+  title={game.title}
+  description={game.short_description ?? `${game.title} — a game made in Scotland.`}
+>
+  <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Hero -->
+    <div class="mb-10 grid gap-8 lg:grid-cols-[320px_1fr]">
+      <!-- Cover -->
+      <div
+        class="flex aspect-[3/4] items-center justify-center overflow-hidden rounded-xl border border-border shadow-lg lg:aspect-auto lg:h-[400px]"
+        style={
+          game.cover_image
+            ? `background-image: url(${game.cover_image}); background-size: cover; background-position: center;`
+            : `background: ${getCoverGradient(game.title)};`
+        }
+      >
+        {!game.cover_image && (
+          <span class="text-7xl font-bold text-white/60">{game.title.charAt(0)}</span>
+        )}
+      </div>
+
+      <!-- Info -->
+      <div class="flex flex-col justify-center">
+        <div class="mb-3 flex flex-wrap items-center gap-2">
+          <span
+            class:list={[
+              "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold",
+              statusColors[game.status] ?? "border-border bg-muted text-muted-foreground",
+            ]}
+          >
+            {statusLabels[game.status] ?? game.status}
+          </span>
+          {game.genres.map((genre) => (
+            <span class="inline-flex items-center rounded-md border border-border bg-secondary px-2 py-0.5 text-xs text-secondary-foreground">
+              {genre}
+            </span>
+          ))}
+        </div>
+
+        <h1 class="text-4xl font-bold tracking-tight lg:text-5xl">{game.title}</h1>
+
+        <!-- Developer byline -->
+        <div class="mt-3 flex flex-wrap items-center gap-1 text-lg text-muted-foreground">
+          <span>By</span>
+          {developers.map(({ id, company }, i) => (
+            <>
+              {i > 0 && <span>,</span>}
+              {company ? (
+                <a
+                  href={`/companies/${company.slug}`}
+                  class="font-medium text-foreground hover:text-primary transition-colors"
+                >
+                  {company.name}
+                </a>
+              ) : (
+                <BrokenLink id={id} type="company" />
+              )}
+            </>
+          ))}
+          {developers.length === 0 && (
+            <span class="text-muted-foreground">Unknown Developer</span>
+          )}
+        </div>
+
+        <div class="mt-3 flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+          <span class="flex items-center gap-1.5">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+              <line x1="16" x2="16" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="2" y2="6" />
+              <line x1="3" x2="21" y1="10" y2="10" />
+            </svg>
+            {formatDate(game.release_date)}
+          </span>
+        </div>
+
+        {game.short_description && (
+          <p class="mt-4 text-lg leading-relaxed text-muted-foreground">
+            {game.short_description}
+          </p>
+        )}
+
+        {game.platforms.length > 0 && (
+          <div class="mt-4">
+            <PlatformIcons platforms={game.platforms} size="md" />
+          </div>
+        )}
+      </div>
+    </div>
+
+    {/* Buy / Play / Physical links */}
+    {(storeEntries.length > 0 || playNowEntries.length > 0 || physicalEntries.length > 0) && (
+      <div class="mb-10 flex flex-wrap gap-6">
+        {storeEntries.length > 0 && (
+          <div>
+            <p class="mb-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">Buy</p>
+            <StoreLinks stores={game.stores} type="buy" />
+          </div>
+        )}
+        {playNowEntries.length > 0 && (
+          <div>
+            <p class="mb-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">Play Now</p>
+            <StoreLinks stores={game.play_now} type="play" />
+          </div>
+        )}
+        {physicalEntries.length > 0 && (
+          <div>
+            <p class="mb-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">Physical</p>
+            <StoreLinks stores={game.physical_stores} type="physical" />
+          </div>
+        )}
+      </div>
+    )}
+
+    {/* Full description */}
+    {game.description && (
+      <section class="mb-10">
+        <div class="prose prose-neutral dark:prose-invert max-w-none rounded-xl border border-border bg-card p-6">
+          <p>{game.description}</p>
+        </div>
+      </section>
+    )}
+
+    <div class="grid gap-10 lg:grid-cols-[1fr_320px]">
+      <div class="space-y-10">
+        {/* Video */}
+        {game.video && (
+          <section>
+            <h2 class="mb-4 text-xl font-semibold">Video</h2>
+            <div class="aspect-video overflow-hidden rounded-xl border border-border shadow">
+              {game.video.type === "youtube" ? (
+                <iframe
+                  src={`https://www.youtube.com/embed/${game.video.id}`}
+                  title={`${game.title} video`}
+                  class="h-full w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                />
+              ) : (
+                <iframe
+                  src={`https://${game.video.id}`}
+                  title={`${game.title} video`}
+                  class="h-full w-full"
+                  allowfullscreen
+                />
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* Screenshots */}
+        {hasScreenshots && (
+          <section>
+            <h2 class="mb-4 text-xl font-semibold">Screenshots</h2>
+            <div class="grid gap-3 sm:grid-cols-2">
+              {game.screenshots.map((src, i) => (
+                <img
+                  src={src}
+                  alt={`${game.title} screenshot ${i + 1}`}
+                  class="rounded-lg border border-border object-cover shadow"
+                  loading="lazy"
+                />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Company Connections */}
+        {publishers.length > 0 && (
+          <section>
+            <h2 class="mb-3 text-xl font-semibold">Publishers</h2>
+            <div class="flex flex-wrap gap-2">
+              {publishers.map(({ id, company }) =>
+                company ? (
+                  <a
+                    href={`/companies/${company.slug}`}
+                    class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                  >
+                    {company.name}
+                  </a>
+                ) : (
+                  <BrokenLink id={id} type="company" />
+                ),
+              )}
+            </div>
+          </section>
+        )}
+
+        {serviceCompanies.length > 0 && (
+          <section>
+            <h2 class="mb-3 text-xl font-semibold">Service Companies</h2>
+            <div class="flex flex-wrap gap-2">
+              {serviceCompanies.map(({ id, company }) =>
+                company ? (
+                  <a
+                    href={`/companies/${company.slug}`}
+                    class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                  >
+                    {company.name}
+                  </a>
+                ) : (
+                  <BrokenLink id={id} type="company" />
+                ),
+              )}
+            </div>
+          </section>
+        )}
+
+        {tooling.length > 0 && (
+          <section>
+            <h2 class="mb-3 text-xl font-semibold">Tooling Used</h2>
+            <div class="flex flex-wrap gap-2">
+              {tooling.map(({ id, company }) =>
+                company ? (
+                  <a
+                    href={`/companies/${company.slug}`}
+                    class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                  >
+                    {company.name}
+                  </a>
+                ) : (
+                  <BrokenLink id={id} type="company" />
+                ),
+              )}
+            </div>
+          </section>
+        )}
+
+        {supportedBy.length > 0 && (
+          <section>
+            <h2 class="mb-3 text-xl font-semibold">Supported By</h2>
+            <div class="flex flex-wrap gap-2">
+              {supportedBy.map(({ id, company }) =>
+                company ? (
+                  <a
+                    href={`/companies/${company.slug}`}
+                    class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                  >
+                    {company.name}
+                  </a>
+                ) : (
+                  <BrokenLink id={id} type="company" />
+                ),
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* Awards */}
+        {hasAwards && (
+          <section>
+            <h2 class="mb-4 text-xl font-semibold">Awards</h2>
+            <div class="space-y-2">
+              {game.awards.map((award) => (
+                <div class="flex items-center justify-between rounded-lg border border-border bg-card px-4 py-3">
+                  <div class="flex items-center gap-3">
+                    <svg class="h-5 w-5 shrink-0 text-highlight" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="8" r="6" />
+                      <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
+                    </svg>
+                    <div>
+                      <p class="text-sm font-medium">{award.name}</p>
+                      <p class="text-xs text-muted-foreground">{award.year}</p>
+                    </div>
+                  </div>
+                  <span
+                    class:list={[
+                      "inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold",
+                      award.status === "won"
+                        ? "border-highlight/40 bg-highlight/10 text-highlight"
+                        : "border-border bg-muted text-muted-foreground",
+                    ]}
+                  >
+                    {award.status === "won" ? "Won" : "Nominated"}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* News */}
+        {hasNews && (
+          <section>
+            <h2 class="mb-4 text-xl font-semibold">News</h2>
+            <div class="space-y-2">
+              {gameNews.map((article) => (
+                <a
+                  href={article.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex items-start justify-between gap-4 rounded-lg border border-border bg-card px-4 py-3 transition-colors hover:bg-accent"
+                >
+                  <div>
+                    <p class="text-sm font-medium">{article.title}</p>
+                    <p class="mt-0.5 text-xs text-muted-foreground">
+                      {article.publication} &middot; {formatDate(article.date)}
+                    </p>
+                  </div>
+                  <svg class="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+
+      {/* Sidebar */}
+      <div class="space-y-8">
+        {/* Developer card */}
+        {primaryDev && (
+          <div class="rounded-xl border border-border bg-card p-5 shadow">
+            <h3 class="mb-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+              Developer
+            </h3>
+            <div class="mb-3 flex items-center gap-3">
+              <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-muted">
+                {primaryDev.logo ? (
+                  <img
+                    src={primaryDev.logo}
+                    alt={primaryDev.name}
+                    class="h-8 w-8 rounded-md object-contain"
+                  />
+                ) : (
+                  <svg class="h-5 w-5 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+                    <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+                    <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+                  </svg>
+                )}
+              </div>
+              <div>
+                <p class="font-semibold">{primaryDev.name}</p>
+                {primaryDev.location && (
+                  <p class="text-xs text-muted-foreground">{primaryDev.location}</p>
+                )}
+              </div>
+            </div>
+            {primaryDev.short_description && (
+              <p class="mb-3 text-sm text-muted-foreground">
+                {primaryDev.short_description}
+              </p>
+            )}
+            <a
+              href={`/companies/${primaryDev.slug}`}
+              class="inline-flex h-8 items-center rounded-md bg-primary px-3 text-xs font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+            >
+              View company
+            </a>
+          </div>
+        )}
+
+        {/* Additional developers */}
+        {developers.length > 1 && developers.slice(1).map(({ id, company }) => (
+          <div class="rounded-xl border border-border bg-card p-5 shadow">
+            <h3 class="mb-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+              Co-Developer
+            </h3>
+            {company ? (
+              <div>
+                <p class="font-semibold">{company.name}</p>
+                {company.short_description && (
+                  <p class="mt-1 text-sm text-muted-foreground">{company.short_description}</p>
+                )}
+                <a
+                  href={`/companies/${company.slug}`}
+                  class="mt-2 inline-flex h-8 items-center rounded-md bg-secondary px-3 text-xs font-medium text-secondary-foreground shadow-sm transition-colors hover:bg-secondary/80"
+                >
+                  View company
+                </a>
+              </div>
+            ) : (
+              <BrokenLink id={id} type="company" />
+            )}
+          </div>
+        ))}
+
+        {/* Critic Ratings */}
+        {criticEntries.length > 0 && (
+          <div>
+            <h3 class="mb-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+              Critic Ratings
+            </h3>
+            <div class="space-y-2">
+              {criticEntries.map(([source, value]) => {
+                const score = typeof value === "number" ? value : parseFloat(String(value));
+                const url = buildCriticUrl(source, game.slug);
+                return (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex items-center justify-between rounded-lg border border-border bg-card px-4 py-3 transition-colors hover:bg-accent"
+                  >
+                    <span class="text-sm font-medium">{criticLabels[source] ?? source}</span>
+                    <span
+                      class:list={[
+                        "text-xl font-bold",
+                        !isNaN(score) && score >= 75
+                          ? "text-green-600 dark:text-green-400"
+                          : !isNaN(score) && score >= 50
+                            ? "text-yellow-600 dark:text-yellow-400"
+                            : "text-red-600 dark:text-red-400",
+                      ]}
+                    >
+                      {!isNaN(score) ? score : value}
+                    </span>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Database Links */}
+        {databaseEntries.length > 0 && (
+          <div>
+            <h3 class="mb-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+              Databases
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {databaseEntries.map(([db, id]) => (
+                <a
+                  href={buildDatabaseUrl(db, id)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-1.5 rounded-md border border-border bg-card px-2.5 py-1.5 text-xs font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                >
+                  {databaseLabels[db] ?? db}
+                  <svg class="h-3 w-3 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+
+    {/* Footer: suggest a change */}
+    <div class="mt-16 border-t border-border pt-6 text-center">
+      <p class="text-sm text-muted-foreground">
+        See something wrong?{" "}
+        <a
+          href={editUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="font-medium text-primary hover:underline"
+        >
+          Suggest a change on GitHub
+        </a>
+      </p>
+    </div>
+  </div>
+</BaseLayout>
