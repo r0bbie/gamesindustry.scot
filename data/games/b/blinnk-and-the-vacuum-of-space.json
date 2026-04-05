@@ -1,0 +1,51 @@
+{
+  "id": "blinnk-and-the-vacuum-of-space",
+  "title": "BLINNK and the Vacuum of Space",
+  "slug": "blinnk-and-the-vacuum-of-space",
+  "short_description": "A slapstick VR adventure aboard a space station: fix goopy aliens, oddball robots, and the vacuum of space itself — designed as an autism-friendly experience.",
+  "description": "Developed by Changingday, BLINNK and the Vacuum of Space is a narrative adventure set on a failing space station. Players work with a robotic companion to restore order, with design attention to sensory load and accessibility. Released across PC (Steam), Meta Quest, and PlayStation VR2.",
+  "release_date": "2023-01-17",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "changingday"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "adventure",
+    "narrative"
+  ],
+  "platforms": [
+    "ps5",
+    "vr",
+    "meta-quest"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "P2vdZSUI1jA"
+  },
+  "stores": {
+    "steam": "1815540",
+    "psn": "https://store.playstation.com/en-us/concept/10007172/",
+    "meta_quest": "https://www.meta.com/en-gb/experiences/blinnk-and-the-vacuum-of-space/4533297996760421/",
+    "viveport": "https://www.viveport.com/apps/b5ef113f-16e2-446e-bcea-1388a105bb4e",
+    "picoxr": "https://store-global.picoxr.com/global/detail/1/7218209357496991749"
+  },
+  "press_kit_url": "https://press.changingday.com/vacuumofspace/",
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "blinnk-and-the-vacuum-of-space"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/blinnk-and-the-vacuum-of-space/cover.webp"
+}

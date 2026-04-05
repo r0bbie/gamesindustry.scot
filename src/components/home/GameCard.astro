@@ -9,7 +9,8 @@ interface Props {
 
 const { game, developerName } = Astro.props;
 
-const showReleaseLine = Boolean(game.release_date || game.release_period);
+// Always show for upcoming games (will display "TBA" if no date set)
+const showReleaseLine = Boolean(game.release_date || game.release_period) || game.status === "in_development";
 
 const releaseLine = showReleaseLine ? formatGameReleaseLineDisplay(game) : null;
 ---

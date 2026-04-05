@@ -1,0 +1,41 @@
+{
+  "id": "quarrel",
+  "title": "Quarrel",
+  "slug": "quarrel",
+  "short_description": "Word-strategy hybrid: capture territory by forming the highest-scoring word from a shared pool of letters.",
+  "description": "Denki’s blend of Risk-style territory control and Scrabble-like wordplay, released on iOS and Xbox Live Arcade.",
+  "release_date": "2011-08-25",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "denki"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "strategy",
+    "puzzle"
+  ],
+  "platforms": [
+    "xbox-360",
+    "ios"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://denki.co.uk/games/archive/quarrel/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Quarrel_(video_game)"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/quarrel/cover.webp"
+}

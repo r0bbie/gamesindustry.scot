@@ -14,6 +14,7 @@ import {
   getCategoryName,
   getRegionName,
   buildSocialUrl,
+  getCompanySizeLabel,
   GITHUB_REPO,
 } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
@@ -23,7 +24,13 @@ import { buildObfuscatedMailtoAnchorHtml } from "@/lib/obfuscateEmail";
 import {
   formatGameReleaseLineDisplay,
   getLatestReleaseSortTimestamp,
+  getFirstReleaseSortTimestamp,
 } from "@/lib/gameRelease";
+
+function getCoverGradient(title: string): string {
+  const hue = [...title].reduce((sum, ch) => sum + ch.charCodeAt(0), 0) % 360;
+  return `linear-gradient(135deg, hsl(${hue}, 55%, 38%), hsl(${(hue + 45) % 360}, 45%, 28%))`;
+}
 
 export async function getStaticPaths() {
   const companies = await getAllCompanies();
@@ -74,11 +81,15 @@ const supportedGames = games.filter((g) =>
   matchesCompanyRef(g.companies.supported_by, company.id)
 );
 
+const contributedGames = games.filter((g) =>
+  matchesCompanyRef(g.companies.contributed_by, company.id)
+);
+
 const inDevGames = devGames.filter((g) => g.status === "in_development");
 const releasedGames = devGames
   .filter((g) => g.status === "released")
   .sort(
-    (a, b) => getLatestReleaseSortTimestamp(b) - getLatestReleaseSortTimestamp(a),
+    (a, b) => getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
   );
 const cancelledGames = devGames.filter((g) => g.status === "cancelled");
 
@@ -192,7 +203,7 @@ const recentGames = [...devGames]
   .filter((g) => g.status === "released")
   .sort(
     (a, b) =>
-      getLatestReleaseSortTimestamp(b) - getLatestReleaseSortTimestamp(a),
+      getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
   )
   .slice(0, 3);
 const recentNews = companyNews.slice(0, 5);
@@ -211,9 +222,9 @@ const recentNews = companyNews.slice(0, 5);
           <div
             class={`flex h-16 w-16 shrink-0 items-center justify-center rounded-xl ${company.logo_bg === "light" ? "bg-white" : company.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}
           >
-            {company.logo ? (
+            {(company.icon ?? company.logo) ? (
               <img
-                src={company.logo}
+                src={company.icon ?? company.logo!}
                 alt={`${company.name} logo`}
                 class={company.logo_bg ? "h-full w-full rounded-xl object-contain" : "h-12 w-12 object-contain"}
               />
@@ -371,15 +382,16 @@ const recentNews = companyNews.slice(0, 5);
                                 class="h-full w-full rounded-md object-cover"
                               />
                             ) : (
-                              <span class="text-xs text-muted-foreground">No cover</span>
+                              <span
+                                class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                                style={`background: ${getCoverGradient(game.title)}`}
+                              >{game.title.charAt(0)}</span>
                             )}
                           </div>
                           <h4 class="text-sm font-medium group-hover:text-primary">
                             {game.title}
                           </h4>
-                          {game.release_date && (
-                            <p class="mt-0.5 text-xs text-muted-foreground">{formatGameDate(game.release_date)}</p>
-                          )}
+                          <p class="mt-0.5 text-xs text-muted-foreground">{formatGameReleaseLineDisplay(game)}</p>
                         </a>
                       ))}
                     </div>
@@ -402,9 +414,10 @@ const recentNews = companyNews.slice(0, 5);
                                 class="h-full w-full rounded-md object-cover"
                               />
                             ) : (
-                              <span class="text-xs text-muted-foreground">
-                                No cover
-                              </span>
+                              <span
+                                class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                                style={`background: ${getCoverGradient(game.title)}`}
+                              >{game.title.charAt(0)}</span>
                             )}
                           </div>
                           <h4 class="text-sm font-medium group-hover:text-primary">
@@ -560,7 +573,10 @@ const recentNews = companyNews.slice(0, 5);
                 company.company_size && (
                   <div>
                     <dt class="text-xs text-muted-foreground">Company Size</dt>
-                    <dd class="text-sm font-medium">{company.company_size}</dd>
+                    <dd class="text-sm font-medium">
+                      {company.company_size}{" "}
+                      <span class="font-normal text-muted-foreground">· {getCompanySizeLabel(company.company_size)}</span>
+                    </dd>
                   </div>
                 )
               }
@@ -677,9 +693,10 @@ const recentNews = companyNews.slice(0, 5);
                               class="h-full w-full rounded-md object-cover"
                             />
                           ) : (
-                            <span class="text-xs text-muted-foreground">
-                              No cover
-                            </span>
+                            <span
+                              class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                              style={`background: ${getCoverGradient(game.title)}`}
+                            >{game.title.charAt(0)}</span>
                           )}
                         </div>
                         <h4 class="text-sm font-medium group-hover:text-primary">
@@ -709,9 +726,10 @@ const recentNews = companyNews.slice(0, 5);
                               class="h-full w-full rounded-md object-cover"
                             />
                           ) : (
-                            <span class="text-xs text-muted-foreground">
-                              No cover
-                            </span>
+                            <span
+                              class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                              style={`background: ${getCoverGradient(game.title)}`}
+                            >{game.title.charAt(0)}</span>
                           )}
                         </div>
                         <div class="flex items-start justify-between gap-2">
@@ -753,9 +771,10 @@ const recentNews = companyNews.slice(0, 5);
                               class="h-full w-full rounded-md object-cover"
                             />
                           ) : (
-                            <span class="text-xs text-muted-foreground">
-                              No cover
-                            </span>
+                            <span
+                              class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                              style={`background: ${getCoverGradient(game.title)}`}
+                            >{game.title.charAt(0)}</span>
                           )}
                         </div>
                         <h4 class="text-sm font-medium group-hover:text-primary">
@@ -766,6 +785,40 @@ const recentNews = companyNews.slice(0, 5);
                   </div>
                 </div>
               )}
+            </div>
+          )}
+
+          {contributedGames.length > 0 && (
+            <div>
+              <h3 class="mb-1 text-lg font-semibold">Contributed to</h3>
+              <p class="mb-3 text-sm text-muted-foreground">Games where {company.name} provided work-for-hire or co-development contributions.</p>
+              <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+                {contributedGames.map((game) => (
+                  <a
+                    href={`/games/${game.slug}`}
+                    class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30 opacity-80 hover:opacity-100"
+                  >
+                    <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                      {game.cover_image ? (
+                        <img
+                          src={game.cover_image}
+                          alt=""
+                          class="h-full w-full rounded-md object-cover"
+                        />
+                      ) : (
+                        <span
+                          class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                          style={`background: ${getCoverGradient(game.title)}`}
+                        >{game.title.charAt(0)}</span>
+                      )}
+                    </div>
+                    <h4 class="text-sm font-medium group-hover:text-primary">
+                      {game.title}
+                    </h4>
+                    <p class="mt-0.5 text-xs text-muted-foreground">{formatGameReleaseLineDisplay(game)}</p>
+                  </a>
+                ))}
+              </div>
             </div>
           )}
 
@@ -784,9 +837,10 @@ const recentNews = companyNews.slice(0, 5);
                         class="h-full w-full rounded-md object-cover"
                       />
                     ) : (
-                      <span class="text-xs text-muted-foreground">
-                        No cover
-                      </span>
+                      <span
+                        class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                        style={`background: ${getCoverGradient(game.title)}`}
+                      >{game.title.charAt(0)}</span>
                     )}
                   </div>
                   <div class="flex items-center gap-2">
@@ -819,9 +873,10 @@ const recentNews = companyNews.slice(0, 5);
                         class="h-full w-full rounded-md object-cover"
                       />
                     ) : (
-                      <span class="text-xs text-muted-foreground">
-                        No cover
-                      </span>
+                      <span
+                        class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                        style={`background: ${getCoverGradient(game.title)}`}
+                      >{game.title.charAt(0)}</span>
                     )}
                   </div>
                   <div class="flex items-center gap-2">
@@ -854,9 +909,10 @@ const recentNews = companyNews.slice(0, 5);
                         class="h-full w-full rounded-md object-cover"
                       />
                     ) : (
-                      <span class="text-xs text-muted-foreground">
-                        No cover
-                      </span>
+                      <span
+                        class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                        style={`background: ${getCoverGradient(game.title)}`}
+                      >{game.title.charAt(0)}</span>
                     )}
                   </div>
                   <h4 class="text-sm font-medium group-hover:text-primary">
@@ -883,9 +939,9 @@ const recentNews = companyNews.slice(0, 5);
                   class="group flex items-center gap-3 rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
                 >
                   <div class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${c.logo_bg === "light" ? "bg-white" : c.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
-                    {c.logo ? (
+                    {(c.icon ?? c.logo) ? (
                       <img
-                        src={c.logo}
+                        src={c.icon ?? c.logo!}
                         alt=""
                         class={c.logo_bg ? "h-full w-full rounded-lg object-contain" : "h-7 w-7 object-contain"}
                       />

@@ -77,6 +77,8 @@ const companies = defineCollection({
     about: z.string().optional().nullable(),
     website: z.string().optional().nullable(),
     logo: z.string().optional().nullable(),
+    /** Square / avatar mark for lists and cards; when set with `logo`, `logo` is typically the wide wordmark. */
+    icon: z.string().optional().nullable(),
     logo_bg: z.enum(["light", "dark"]).optional().nullable(),
     hero_image: z.string().optional().nullable(),
     highlighted: z.boolean().default(false),
@@ -148,11 +150,15 @@ const games = defineCollection({
         service_companies: z.array(companyRefSchema).default([]),
         used_tooling: z.array(companyRefSchema).default([]),
         supported_by: z.array(companyRefSchema).default([]),
+        /** Work-for-hire contributors who aren't a primary developer (e.g. co-dev, porting studio). */
+        contributed_by: z.array(companyRefSchema).default([]),
       })
       .default({}),
     genres: z.array(z.string()).optional().default([]),
     platforms: z.array(z.string()).optional().default([]),
     cover_image: z.string().optional(),
+    /** External press kit / asset page (shown on game page when set). */
+    press_kit_url: z.string().url().optional(),
     screenshots: z.array(z.string()).optional().default([]),
     video: z
       .object({

@@ -4,7 +4,7 @@
   "slug": "uniracers",
   "short_description": "A fast-paced SNES racing game featuring animated unicycles, from DMA Design (later Rockstar North).",
   "description": "Uniracers (known as Unirally in Europe) is a racing game developed by DMA Design (later known as Rockstar North) and published by Nintendo, released in 1994 for the Super Nintendo Entertainment System. The game features animated unicycle racers performing tricks on stylised tracks. Despite selling 300,000 copies, Nintendo was forced to cease production after the animation studio Pixar successfully sued over perceived similarities between the game's characters and the unicycle from Pixar's 1987 short film Red's Dream.",
-  "release_date": "1994-12-01",
+  "release_date": "1994-12-05",
   "status": "released",
   "companies": {
     "developer": [
@@ -25,7 +25,7 @@
   "platforms": [
     "snes"
   ],
-  "cover_image": "",
+  "cover_image": "https://media.gamesindustry.scot/games/uniracers/cover.webp",
   "screenshots": [],
   "stores": {},
   "play_now": {},

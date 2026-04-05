@@ -3,7 +3,7 @@ import Pagination from "@/components/ui/Pagination";
 import { FilterDropdown, FilterChip, FilterToggle, SortDropdown, ResultCount } from "@/components/ui/FilterToolbar";
 import {
   formatGameReleaseLineDisplay,
-  getLatestReleaseSortTimestamp,
+  getFirstReleaseSortTimestamp,
 } from "@/lib/gameRelease";
 
 const PAGE_SIZE = 30;
@@ -24,11 +24,12 @@ export interface GameWithDeveloper {
   awards: Array<{ name: string; year: number; status: string }>;
 }
 
-type SortOption = "release_date" | "name" | "rating";
+type SortOption = "release_date_newest" | "release_date_oldest" | "name" | "rating";
 type StatusFilter = "all" | "released" | "in_development" | "cancelled";
 
 const SORT_OPTIONS: { value: SortOption; label: string }[] = [
-  { value: "release_date", label: "Release Date" },
+  { value: "release_date_newest", label: "Newest" },
+  { value: "release_date_oldest", label: "Oldest" },
   { value: "name", label: "Name A–Z" },
   { value: "rating", label: "Critic Rating" },
 ];
@@ -74,6 +75,16 @@ function getMaxRating(ratings: Record<string, number | string>): number {
   return getTopRatingEntry(ratings)?.score ?? 0;
 }
 
+function compareReleaseTimestamps(
+  a: GameWithDeveloper,
+  b: GameWithDeveloper,
+): number {
+  const ta = getFirstReleaseSortTimestamp(a);
+  const tb = getFirstReleaseSortTimestamp(b);
+  if (ta !== tb) return ta - tb;
+  return a.title.localeCompare(b.title);
+}
+
 function RatingBadge({ ratings }: { ratings: Record<string, number | string> }) {
   const top = getTopRatingEntry(ratings);
   if (!top) return null;
@@ -106,32 +117,45 @@ function RatingBadge({ ratings }: { ratings: Record<string, number | string> }) 
   );
 }
 
+function readUrlParams() {
+  if (typeof window === "undefined") return new URLSearchParams();
+  return new URLSearchParams(window.location.search);
+}
+
+function initSort(): SortOption {
+  const v = readUrlParams().get("sort");
+  if (v === "release_date") return "release_date_newest";
+  if (v && SORT_OPTIONS.some((o) => o.value === v)) return v as SortOption;
+  return "release_date_newest";
+}
+
+function initStatus(): StatusFilter {
+  const v = readUrlParams().get("status");
+  if (v && STATUS_OPTIONS.some((o) => o.value === v)) return v as StatusFilter;
+  return "all";
+}
+
+function initPage(): number {
+  const v = parseInt(readUrlParams().get("page") ?? "1", 10);
+  return isNaN(v) || v < 1 ? 1 : v;
+}
+
 export default function GameListView({ games }: { games: GameWithDeveloper[] }) {
-  const [search, setSearch] = useState("");
-  const [selectedGenres, setSelectedGenres] = useState<Set<string>>(new Set());
-  const [selectedPlatforms, setSelectedPlatforms] = useState<Set<string>>(new Set());
-  const [hasAwards, setHasAwards] = useState(false);
-  const [sort, setSort] = useState<SortOption>("release_date");
-  const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
-  const [currentPage, setCurrentPage] = useState(1);
+  const [search, setSearch] = useState(() => readUrlParams().get("q") ?? "");
+  const [selectedGenres, setSelectedGenres] = useState<Set<string>>(() => {
+    const v = readUrlParams().get("genre");
+    return v ? new Set(v.split(",")) : new Set();
+  });
+  const [selectedPlatforms, setSelectedPlatforms] = useState<Set<string>>(() => {
+    const v = readUrlParams().get("platform");
+    return v ? new Set(v.split(",")) : new Set();
+  });
+  const [hasAwards, setHasAwards] = useState(() => readUrlParams().get("awards") === "true");
+  const [sort, setSort] = useState<SortOption>(initSort);
+  const [statusFilter, setStatusFilter] = useState<StatusFilter>(initStatus);
+  const [currentPage, setCurrentPage] = useState(initPage);
   const searchRef = useRef<HTMLInputElement>(null);
-
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const genre = params.get("genre");
-    const platform = params.get("platform");
-    const awards = params.get("awards");
-    const sortParam = params.get("sort") as SortOption | null;
-    const q = params.get("q");
-    const status = params.get("status") as StatusFilter | null;
-
-    if (genre) setSelectedGenres(new Set(genre.split(",")));
-    if (platform) setSelectedPlatforms(new Set(platform.split(",")));
-    if (awards === "true") setHasAwards(true);
-    if (sortParam && SORT_OPTIONS.some((o) => o.value === sortParam)) setSort(sortParam);
-    if (q) setSearch(q);
-    if (status && STATUS_OPTIONS.some((o) => o.value === status)) setStatusFilter(status);
-  }, []);
+  const isFirstRender = useRef(true);
 
   const allGenres = useMemo(() => {
     const counts = new Map<string, number>();
@@ -177,16 +201,34 @@ export default function GameListView({ games }: { games: GameWithDeveloper[] }) 
     result = [...result].sort((a, b) => {
       if (sort === "name") return a.title.localeCompare(b.title);
       if (sort === "rating") return getMaxRating(b.critic_ratings) - getMaxRating(a.critic_ratings);
-      const da = a.release_date ?? "";
-      const db = b.release_date ?? "";
-      return db.localeCompare(da);
+      if (sort === "release_date_newest") return -compareReleaseTimestamps(a, b);
+      if (sort === "release_date_oldest") return compareReleaseTimestamps(a, b);
+      return 0;
     });
 
     return result;
   }, [games, search, selectedGenres, selectedPlatforms, hasAwards, sort, statusFilter]);
 
-  // Reset to page 1 whenever filters change
-  useEffect(() => { setCurrentPage(1); }, [search, selectedGenres, selectedPlatforms, hasAwards, sort, statusFilter]);
+  // Reset to page 1 when filters change, but not on the initial render
+  // (state is already initialised from URL, so no reset needed on mount)
+  useEffect(() => {
+    if (isFirstRender.current) { isFirstRender.current = false; return; }
+    setCurrentPage(1);
+  }, [search, selectedGenres, selectedPlatforms, hasAwards, sort, statusFilter]);
+
+  // Keep URL in sync so back-navigation restores the exact page + filters
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (search) params.set("q", search);
+    if (statusFilter !== "all") params.set("status", statusFilter);
+    if (selectedGenres.size > 0) params.set("genre", [...selectedGenres].join(","));
+    if (selectedPlatforms.size > 0) params.set("platform", [...selectedPlatforms].join(","));
+    if (hasAwards) params.set("awards", "true");
+    if (sort !== "release_date_newest") params.set("sort", sort);
+    if (currentPage > 1) params.set("page", String(currentPage));
+    const qs = params.toString();
+    history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+  }, [search, statusFilter, selectedGenres, selectedPlatforms, hasAwards, sort, currentPage]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const paginated = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
@@ -208,7 +250,7 @@ export default function GameListView({ games }: { games: GameWithDeveloper[] }) 
     setSelectedPlatforms(new Set());
     setHasAwards(false);
     setStatusFilter("all");
-    setSort("release_date");
+    setSort("release_date_newest");
     setCurrentPage(1);
     searchRef.current?.focus();
   }
@@ -369,9 +411,26 @@ export default function GameListView({ games }: { games: GameWithDeveloper[] }) 
                 <div className="mt-auto flex items-center justify-between pt-3 text-xs text-muted-foreground">
                   <span>{formatGameReleaseLineDisplay(game)}</span>
                   {game.awards.length > 0 && (
-                    <span className="flex items-center gap-1 text-amber-600 dark:text-amber-400">
-                      <svg className="h-3 w-3" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    <span
+                      className="flex items-center gap-px text-amber-600 dark:text-amber-400"
+                      title={
+                        game.awards.length === 1
+                          ? "1 industry award"
+                          : `${game.awards.length} industry awards`
+                      }
+                    >
+                      <svg
+                        className="h-3 w-3 shrink-0"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                      >
+                        <circle cx="12" cy="8" r="6" />
+                        <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
                       </svg>
                       {game.awards.length}
                     </span>

@@ -1,0 +1,51 @@
+{
+  "id": "autonauts",
+  "title": "Autonauts",
+  "slug": "autonauts",
+  "short_description": "Colony sim where you programme workerbots to automate a world — BAFTA Scotland Game winner.",
+  "description": "Build and teach workerbots to automate a world of farming, crafting, and production in this colony sim from Denki. No time limits or combat — a chill resource-management game with a visual programming twist.",
+  "release_date": "2019-10-17",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "denki"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "simulation",
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ps5",
+    "switch",
+    "xbox-series-xs"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "979120",
+    "website": "https://denki.co.uk/games/autonauts/",
+    "psn": "https://store.playstation.com/en-gb/product/EP4395-PPSA03447_00-AUTONAUTSPS5EU00",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Autonauts-2220185.html",
+    "xbox": "https://www.xbox.com/en-GB/games/store/autonauts/9PML6GRKCQ00"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "BAFTA Scotland — Game",
+      "year": 2020,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/autonauts/cover.webp"
+}

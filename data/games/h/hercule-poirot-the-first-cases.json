@@ -1,0 +1,75 @@
+{
+  "id": "hercule-poirot-the-first-cases",
+  "title": "Agatha Christie — Hercule Poirot: The First Cases",
+  "slug": "hercule-poirot-the-first-cases",
+  "short_description": "Detective adventure starring a young Hercule Poirot in pre-war Belgium — BAFTA Scotland Game winner.",
+  "description": "A detective adventure from Blazing Griffin and Microids featuring a young Hercule Poirot investigating his first cases in pre-war Belgium.",
+  "release_date": "2021-09-28",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "blazing-griffin"
+    ],
+    "publishers": [
+      {
+        "name": "Microids",
+        "url": "https://www.microids.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "adventure",
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "ps4",
+    "switch",
+    "xbox-one"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "rfrhk050gKE"
+  },
+  "stores": {
+    "website": "https://www.games.blazinggriffin.com/hercule-poirot-the-first-cases",
+    "steam": "1573720",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Agatha-Christie-Hercule-Poirot-The-First-Cases-2028976.html",
+    "psn": "https://store.playstation.com/en-gb/concept/10001109/",
+    "xbox": "https://www.xbox.com/en-GB/games/store/agatha-christie-hercule-poirot-the-first-cases/9MZ30WZ4HM0G",
+    "app_store": "id1580765631",
+    "epic": "hercule-poirot-the-first-cases-584238",
+    "gog": "agatha_christie_hercule_poirot_the_first_cases"
+  },
+  "press_kit_url": "https://www.dropbox.com/sh/5qo8x3hbnhlrq17/AADXE9m6suXJ-f5h405NsElIa?dl=0",
+  "play_now": {},
+  "physical_stores": {
+    "amazon_uk": {
+      "Nintendo Switch": "B09B3ZTGZ5",
+      "Xbox One": "B09B4136L1",
+      "PS4": "B09B4216WZ"
+    },
+    "amazon_us": {
+      "Xbox One": "B09CLVDFPP",
+      "Nintendo Switch": "B09B3ZTGZ5",
+      "PS4": "B09CLVSF98"
+    }
+  },
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "BAFTA Scotland — Game",
+      "year": 2022,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/hercule-poirot-the-first-cases/cover.webp"
+}

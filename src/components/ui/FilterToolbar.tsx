@@ -285,6 +285,13 @@ export function FilterChip({ label, onRemove }: FilterChipProps) {
 
 // ─── ResultCount ──────────────────────────────────────────────────────────────
 
+/** Plural form for count !== 1; default is noun + "s" (works for game, job, result, …). */
+function pluralNoun(noun: string, count: number): string {
+  if (count === 1) return noun;
+  if (noun === "company") return "companies";
+  return `${noun}s`;
+}
+
 interface ResultCountProps {
   count: number;
   total: number;
@@ -292,10 +299,10 @@ interface ResultCountProps {
 }
 
 export function ResultCount({ count, total, noun = "result" }: ResultCountProps) {
-  const plural = (n: number) => `${n} ${n === 1 ? noun : `${noun}s`}`;
+  const line = (n: number) => `${n} ${pluralNoun(noun, n)}`;
   return (
     <p className="text-right text-xs text-muted-foreground">
-      {count === total ? plural(total) : `Filtering ${count} of ${total} ${noun}s`}
+      {count === total ? line(total) : `Filtering ${count} of ${total} ${pluralNoun(noun, total)}`}
     </p>
   );
 }

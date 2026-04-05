@@ -6,7 +6,8 @@ import type { GameWithDeveloper } from "@/components/games/GameListView";
 import { GITHUB_REPO } from "@/lib/constants";
 import {
   formatGameReleaseLineDisplay,
-  getLatestReleaseSortTimestamp,
+  getFirstReleaseSortTimestamp,
+  compareUpcoming,
 } from "@/lib/gameRelease";
 
 const games = await getAllGames();
@@ -43,12 +44,12 @@ const upcomingGames = gamesWithDevs.filter((g) => g.status === "in_development")
 
 const newReleases = [...releasedGames]
   .sort(
-    (a, b) => getLatestReleaseSortTimestamp(b) - getLatestReleaseSortTimestamp(a),
+    (a, b) => getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
   )
   .slice(0, 6);
 
 const upcoming = [...upcomingGames]
-  .sort((a, b) => (a.release_date ?? "9999").localeCompare(b.release_date ?? "9999"))
+  .sort(compareUpcoming)
   .slice(0, 6);
 
 const highestRated = [...releasedGames]
@@ -110,8 +111,8 @@ interface Section {
 }
 
 const sections: Section[] = [
-  { title: "New Releases", games: newReleases, filterParam: "sort=release_date&status=released" },
-  { title: "Upcoming", games: upcoming, filterParam: "sort=release_date&status=in_development" },
+  { title: "New Releases", games: newReleases, filterParam: "sort=release_date_newest&status=released" },
+  { title: "Upcoming", games: upcoming, filterParam: "sort=release_date_oldest&status=in_development" },
   { title: "Highest Rated", games: highestRated, filterParam: "sort=rating" },
   { title: "Award Winners", games: awardWinners, filterParam: "awards=true" },
 ];

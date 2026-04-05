@@ -1,6 +1,6 @@
 import type { APIRoute } from "astro";
 import { getAllGames, safeGetCompany } from "@/lib/data";
-import { getLatestReleaseSortTimestamp } from "@/lib/gameRelease";
+import { getFirstReleaseSortTimestamp } from "@/lib/gameRelease";
 import { SITE_URL, SITE_TITLE, buildRssFeed } from "@/lib/feeds";
 
 export const GET: APIRoute = async () => {
@@ -10,7 +10,7 @@ export const GET: APIRoute = async () => {
     .filter((g) => g.status === "released" && g.release_date)
     .sort(
       (a, b) =>
-        getLatestReleaseSortTimestamp(b) - getLatestReleaseSortTimestamp(a),
+        getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
     )
     .slice(0, 50);
 

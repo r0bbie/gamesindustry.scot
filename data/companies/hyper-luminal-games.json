@@ -4,15 +4,38 @@
   "slug": "hyper-luminal-games",
   "category": "developer",
   "status": "active",
+  "founded": 2014,
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "https://hyperluminalgames.com/",
-  "logo": null,
+  "company_size": "51-100",
+  "short_description": "Dundee studio behind Pine Hearts and Big Crown: Showdown, combining work-for-hire expertise with an expanding catalogue of original IP.",
+  "about": "Founded in Dundee in 2014 by Stuart Martin and Rob Madden — both Abertay University alumni — Hyper Luminal Games has grown from a bootstrapped start-up into one of Scotland's largest independent game development studios, with a team of around 80 developers. The studio built its foundation on work-for-hire projects, using the revenue and skills gained to invest in original intellectual property. That strategy produced titles including the party game Big Crown: Showdown (2018) and the cosy narrative adventure Pine Hearts (2024), with further original IP in development.",
+  "website": "https://www.hyperluminalgames.com/",
+  "logo": "/images/companies/hyper-luminal-games-wordmark.svg",
+  "icon": "/images/companies/hyper-luminal-games-icon.png",
+  "logo_bg": "light",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "hyperluminaluk",
+    "bluesky": "hyperluminalgames.com",
+    "linkedin": "hyperluminalgames",
+    "instagram": "hyperluminaluk",
+    "crunchbase": "hyper-luminal-games"
+  },
   "use_tooling": [],
   "employee_stats": {},
-  "key_people": [],
+  "key_people": [
+    { "name": "Stuart Martin", "title": "Chief Executive Officer & Co-Founder" },
+    { "name": "Rob Madden", "title": "Creative Director & Co-founder" },
+    { "name": "Sean Tracey", "title": "Chairman" }
+  ],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Case Study: Hyper Luminal Games — From work-for-hire to original Intellectual Property",
+      "publication": "Scottish Games Network",
+      "date": "2021-03-17",
+      "url": "https://scottishgames.net/2021/03/17/case-study-hyper-luminal-games/"
+    }
+  ]
 }

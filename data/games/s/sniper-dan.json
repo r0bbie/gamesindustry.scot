@@ -1,0 +1,41 @@
+{
+  "id": "sniper-dan",
+  "title": "Sniper Dan",
+  "slug": "sniper-dan",
+  "short_description": "Upcoming from Denki — outrageously funny, family-friendly 3D Hidden Object game",
+  "description": "Sniper Dan is an outrageously funny, family-friendly 3D Hidden Object game with a big twist. Use a high-powered sniper rifle to solve low-stakes problems. Scope the scene, spot the problem, and shoot the solution. No violence. Just wholesome chaos and good intentions!\n\nUpcoming release from Denki, with Steam page listing a 2026 release window.",
+  "release_date": "2026",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "denki"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "2841650"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/sniper-dan/cover.webp",
+  "video": {
+    "type": "youtube",
+    "id": "MwvbhOH8Mfg"
+  }
+}

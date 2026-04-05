@@ -40,6 +40,45 @@ export function getLatestReleaseSortTimestamp(game: GameReleaseSortFields): numb
   return game.release_date ? parseGameDateToEndTimestamp(game.release_date) : 0;
 }
 
+/**
+ * Sort timestamp for "New Releases" ordering.
+ * Uses the START of a release_period (not the end) so that ongoing live titles
+ * don't float to the top — we care about when a game first launched.
+ */
+export function getFirstReleaseSortTimestamp(game: GameReleaseSortFields): number {
+  const period = game.release_period;
+  if (period) {
+    return parseGameDateToEndTimestamp(period.start);
+  }
+  return game.release_date ? parseGameDateToEndTimestamp(game.release_date) : 0;
+}
+
+/**
+ * Sort key for upcoming games, encoding both precision and chronological value
+ * so that games are ordered: exact date → year+month → year only → TBA.
+ * Returns a [precision, value] tuple where lower precision = shows first.
+ */
+export function upcomingSortKey(dateStr?: string | null): [number, number] {
+  if (!dateStr) return [3, 0]; // TBA — last
+  if (/^\d{4}$/.test(dateStr)) return [2, Number(dateStr)]; // year only
+  if (/^\d{4}-\d{2}$/.test(dateStr)) {
+    const [y, m] = dateStr.split("-").map(Number);
+    return [1, y * 100 + m]; // year+month
+  }
+  return [0, new Date(dateStr).getTime()]; // exact date
+}
+
+/** Compare two upcoming games by the precision-aware sort key. */
+export function compareUpcoming(
+  a: { release_date?: string },
+  b: { release_date?: string },
+): number {
+  const [ap, av] = upcomingSortKey(a.release_date);
+  const [bp, bv] = upcomingSortKey(b.release_date);
+  if (ap !== bp) return ap - bp;
+  return av - bv;
+}
+
 /** Same rules as the game detail page for formatting a single date. */
 export function formatReleaseDatePart(
   dateStr?: string,

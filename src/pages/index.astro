@@ -15,7 +15,7 @@ import {
   safeGetCompany,
   shuffleArray,
 } from "@/lib/data";
-import { getLatestReleaseSortTimestamp } from "@/lib/gameRelease";
+import { getFirstReleaseSortTimestamp, compareUpcoming } from "@/lib/gameRelease";
 
 const stats = await getStats();
 const allCompanies = await getAllCompanies();
@@ -27,19 +27,20 @@ const highlightedCompanies = shuffleArray(
   allCompanies.filter((c) => c.highlighted)
 ).slice(0, 4);
 
-// New Releases: released games, newest first, max 4
+// New Releases: released games, most recently launched first, max 4
+// Uses start of release_period (not end) so ongoing titles don't float up
 const newReleases = allGames
   .filter((g) => g.status === "released" && g.release_date)
   .sort(
     (a, b) =>
-      getLatestReleaseSortTimestamp(b) - getLatestReleaseSortTimestamp(a),
+      getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
   )
   .slice(0, 4);
 
-// Upcoming Games: in development, earliest release date first, max 4
+// Upcoming Games: exact date → year+month → year only → TBA
 const upcomingGames = allGames
-  .filter((g) => g.status === "in_development" && g.release_date)
-  .sort((a, b) => new Date(a.release_date!).getTime() - new Date(b.release_date!).getTime())
+  .filter((g) => g.status === "in_development")
+  .sort(compareUpcoming)
   .slice(0, 4);
 
 // Resolve developer names for game cards
@@ -215,7 +216,7 @@ const sections = [
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex items-baseline justify-between mb-8">
           <h2 class="text-2xl font-bold tracking-tight">New Releases</h2>
-          <a href="/games" class="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/games/list?sort=release_date_newest&status=released" class="text-sm text-muted-foreground hover:text-foreground transition-colors">
             View all &rarr;
           </a>
         </div>
@@ -382,7 +383,7 @@ const sections = [
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex items-baseline justify-between mb-8">
           <h2 class="text-2xl font-bold tracking-tight">Upcoming Games</h2>
-          <a href="/games" class="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="/games/list?sort=release_date_oldest&status=in_development" class="text-sm text-muted-foreground hover:text-foreground transition-colors">
             View all &rarr;
           </a>
         </div>

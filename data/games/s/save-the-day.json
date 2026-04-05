@@ -1,0 +1,32 @@
+{
+  "id": "save-the-day",
+  "title": "Save the Day!",
+  "slug": "save-the-day",
+  "short_description": "Browser-based superhero rescue game produced by Denki for Cartoon Network.",
+  "description": "Web game in which players pilot a helicopter to rescue characters from disasters — made for Cartoon Network.",
+  "release_date": "2010",
+  "status": "released",
+  "companies": {
+    "developer": ["denki"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "casual"],
+  "platforms": ["browser"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://denki.co.uk/games/archive/save-the-day/"
+  },
+  "play_now": {
+    "web": "https://denki.co.uk/games/archive/save-the-day/"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

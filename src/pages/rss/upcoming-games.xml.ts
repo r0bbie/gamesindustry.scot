@@ -1,6 +1,7 @@
 import type { APIRoute } from "astro";
 import { getAllGames, safeGetCompany } from "@/lib/data";
 import { SITE_URL, SITE_TITLE, buildRssFeed } from "@/lib/feeds";
+import { compareUpcoming, formatReleaseDatePart } from "@/lib/gameRelease";
 
 export const GET: APIRoute = async () => {
   const games = await getAllGames();
@@ -8,14 +9,7 @@ export const GET: APIRoute = async () => {
 
   const upcoming = games
     .filter((g) => g.status === "in_development")
-    .sort((a, b) => {
-      // Known dates first (soonest), then TBA at the end
-      if (a.release_date && b.release_date)
-        return a.release_date.localeCompare(b.release_date);
-      if (a.release_date) return -1;
-      if (b.release_date) return 1;
-      return 0;
-    })
+    .sort(compareUpcoming)
     .slice(0, 50);
 
   const items = await Promise.all(
@@ -24,13 +18,7 @@ export const GET: APIRoute = async () => {
       const dev = devId ? await safeGetCompany(devId, `rss:${g.slug}`) : null;
       const devName = dev?.name ?? "Unknown Developer";
 
-      const releaseDateStr = g.release_date
-        ? new Date(g.release_date).toLocaleDateString("en-GB", {
-            day: "numeric",
-            month: "long",
-            year: "numeric",
-          })
-        : "TBA";
+      const releaseDateStr = formatReleaseDatePart(g.release_date, g.status);
 
       const desc = [
         g.short_description ?? g.description ?? "",

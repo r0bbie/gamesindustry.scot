@@ -1,0 +1,30 @@
+{
+  "id": "monster-force-5",
+  "title": "Monster Force 5",
+  "slug": "monster-force-5",
+  "short_description": "Browser game starring a squad of classic movie monsters on a mission to save their kidnapped manager.",
+  "description": "Cartoon Network–styled web adventure from Denki’s archive: play as five iconic monsters, each with unique abilities.",
+  "release_date": "2012",
+  "status": "released",
+  "companies": {
+    "developer": ["denki"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "adventure"],
+  "platforms": ["browser"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://denki.co.uk/games/archive/monster-force-5/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

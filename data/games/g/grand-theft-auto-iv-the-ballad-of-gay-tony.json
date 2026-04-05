@@ -1,0 +1,54 @@
+{
+  "id": "grand-theft-auto-iv-the-ballad-of-gay-tony",
+  "title": "Grand Theft Auto: The Ballad of Gay Tony",
+  "slug": "grand-theft-auto-iv-the-ballad-of-gay-tony",
+  "short_description": "The second GTA IV expansion follows nightclub bodyguard Luis Lopez through Liberty City's glittering high life and criminal underworld.",
+  "description": "Grand Theft Auto: The Ballad of Gay Tony is the second episodic expansion for Grand Theft Auto IV, developed by Rockstar North and published by Rockstar Games. First released for Xbox 360 in October 2009, it follows Luis Fernando Lopez, bodyguard and business partner to flamboyant nightclub impresario Anthony 'Gay Tony' Prince. The story runs concurrently with GTA IV and The Lost and Damned, concluding the shared diamond subplot. The expansion won Best DLC at the 2009 Spike Video Game Awards and received generally favourable reviews.",
+  "release_date": "2009-10-29",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "rockstar-north"
+    ],
+    "publishers": [
+      {
+        "name": "Rockstar Games",
+        "url": "https://www.rockstargames.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "open-world",
+    "adventure"
+  ],
+  "platforms": [
+    "xbox-360",
+    "ps3",
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 96
+  },
+  "database_links": {
+    "igdb": "grand-theft-auto-iv-the-ballad-of-gay-tony"
+  },
+  "awards": [
+    {
+      "name": "Spike Video Game Awards Best DLC",
+      "year": 2009,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/grand-theft-auto-iv-the-ballad-of-gay-tony/cover.webp"
+}

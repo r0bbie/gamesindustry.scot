@@ -1,0 +1,41 @@
+{
+  "id": "denki-word-quest",
+  "title": "Denki Word Quest",
+  "slug": "denki-word-quest",
+  "short_description": "Browser word game: find words on a grid of letter tiles against the clock.",
+  "description": "Denki’s vocabulary puzzler built for the web — slide rows and columns to spell words before time runs out.",
+  "release_date": "2011",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "denki"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "browser"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "T_oCfbOwKds"
+  },
+  "stores": {
+    "website": "https://denki.co.uk/games/archive/word-quest/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/denki-word-quest/cover.webp"
+}

@@ -7,24 +7,50 @@
   "release_date": "2002-10-27",
   "status": "released",
   "companies": {
-    "developer": ["rockstar-north"],
+    "developer": [
+      "rockstar-north"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["action", "open-world", "adventure"],
-  "platforms": ["ps2", "pc", "xbox", "macos", "ios", "android"],
-  "cover_image": "",
+  "genres": [
+    "action",
+    "open-world",
+    "adventure"
+  ],
+  "platforms": [
+    "ps2",
+    "pc",
+    "xbox",
+    "macos",
+    "ios",
+    "android"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/grand-theft-auto-vice-city/cover.webp",
   "screenshots": [],
   "stores": {},
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": { "metacritic": 94 },
-  "database_links": { "mobygames": "grand-theft-auto-vice-city", "igdb": "grand-theft-auto-vice-city" },
+  "critic_ratings": {
+    "metacritic": 94
+  },
+  "database_links": {
+    "mobygames": "grand-theft-auto-vice-city",
+    "igdb": "grand-theft-auto-vice-city"
+  },
   "awards": [
-    { "name": "Develop Industry Excellence Award Best In-House Studio", "year": 2003, "status": "won" },
-    { "name": "Develop Industry Excellence Award Creativity", "year": 2003, "status": "won" }
+    {
+      "name": "Develop Industry Excellence Award Best In-House Studio",
+      "year": 2003,
+      "status": "won"
+    },
+    {
+      "name": "Develop Industry Excellence Award Creativity",
+      "year": 2003,
+      "status": "won"
+    }
   ],
   "news": [],
   "is_student_game": false

@@ -1,0 +1,58 @@
+{
+  "id": "the-39-steps",
+  "title": "The 39 Steps",
+  "slug": "the-39-steps",
+  "short_description": "Interactive adaptation of John Buchan's man-on-the-run thriller as a narrative-led digital novel.",
+  "description": "Prepare to experience the original man-on-the-run thriller in a completely new way! There are secrets to be discovered, locations to be explored and — above all — an incredible tale to be told in this ground-breaking interactive novel. Developed by The Story Mechanics, this adaptation of John Buchan's classic casts players as Richard Hannay in a blend of prose, illustration, and gameplay across PC, Mac, Linux, and mobile.",
+  "release_date": "2013-04-25",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "story-mechanics"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "adventure",
+    "visual-novel"
+  ],
+  "platforms": [
+    "pc",
+    "macos",
+    "linux",
+    "android",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Z1svkgQDEqU"
+  },
+  "stores": {
+    "steam": "234940",
+    "website": "https://storymechanics.wordpress.com/digital-adaptations/the-thirty-nine-steps/"
+  },
+  "play_now": {},
+  "physical_stores": {
+    "amazon_uk": "B00BNPJVS8"
+  },
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "the-39-steps-2013"
+  },
+  "database_links": {
+    "igdb": "the-39-steps",
+    "mobygames": "63987",
+    "backloggd": "the-39-steps",
+    "rawg": "the-39-steps",
+    "glitchwave": "the-39-steps",
+    "gamefaqs": "pc/706534-the-39-steps"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-39-steps/cover.webp"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "the-day-i-became-a-bird",
+  "title": "The Day I Became A Bird",
+  "slug": "the-day-i-became-a-bird",
+  "short_description": "A storybook narrative adventure about childhood, imagination, and finding your place in the world.",
+  "description": "The Day I Became A Bird is a storybook-inspired narrative adventure from Hyper Luminal Games, coming to PC, Nintendo Switch, and PlayStation 5.",
+  "release_date": "2026-04-16",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "hyper-luminal-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "adventure",
+    "narrative"
+  ],
+  "platforms": [
+    "pc",
+    "switch",
+    "ps5"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ewWkNtcoii4"
+  },
+  "stores": {
+    "steam": "3120030",
+    "psn": "https://store.playstation.com/en-gb/concept/10017714"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "Storybook narrative adventure The Day I Became a Bird launches April 16 for PS5, Switch, and PC",
+      "publication": "Gematsu",
+      "date": "2026-03-18",
+      "url": "https://www.gematsu.com/2026/03/storybook-based-narrative-adventure-game-the-day-i-became-a-bird-launches-april-16-for-ps5-switch-and-pc"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-day-i-became-a-bird/cover.webp"
+}

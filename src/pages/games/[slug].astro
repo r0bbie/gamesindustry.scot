@@ -45,6 +45,10 @@ const publishers = await resolveCompanyRefs(
   game.companies.publishers,
   `game:${game.slug}`,
 );
+const contributors = await resolveCompanyRefs(
+  game.companies.contributed_by,
+  `game:${game.slug}`,
+);
 const serviceCompanies = await resolveCompanyRefs(
   game.companies.service_companies,
   `game:${game.slug}`,
@@ -91,16 +95,25 @@ const databaseLabels: Record<string, string> = {
   rawg: "RAWG",
   glitchwave: "Glitchwave",
   gamefaqs: "GameFAQs",
+  wikipedia: "Wikipedia",
 };
 
 const officialSiteUrl = game.stores.website ?? null;
+const pressKitUrl = game.press_kit_url ?? null;
 const storeEntries = Object.entries(game.stores).filter(([k]) => k !== "website");
 const buyStores = Object.fromEntries(storeEntries) as Record<string, string>;
 const playNowEntries = Object.entries(game.play_now);
 const physicalEntries = Object.entries(game.physical_stores);
 // Merge live cached scores (from prebuild fetch) over static JSON values
 const liveCriticScores = (criticScoreCache as Record<string, Record<string, number>>)[game.id] ?? {};
-const criticEntries = Object.entries({ ...game.critic_ratings, ...liveCriticScores });
+const ratingMap = { ...game.critic_ratings, ...liveCriticScores };
+const criticIdKeys = Object.keys(game.critic_ids ?? {}).filter(
+  (k) => k in criticLabels && ratingMap[k as keyof typeof ratingMap] === undefined,
+);
+const criticEntries: [string, string | number][] = [
+  ...(Object.entries(ratingMap) as [string, string | number][]),
+  ...criticIdKeys.map((k) => [k, "—"] as [string, string | number]),
+];
 const databaseEntries = Object.entries(game.database_links);
 const sortedAwards = [...game.awards].sort((a, b) => b.year - a.year);
 const hasAwards = sortedAwards.length > 0;
@@ -185,6 +198,38 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
             <span class="text-muted-foreground">Unknown Developer</span>
           )}
         </div>
+
+        {contributors.length > 0 && (
+          <div class="mt-1 flex flex-wrap items-center gap-1 text-sm text-muted-foreground">
+            <span>with contributions from</span>
+            {contributors.map(({ id, name, url, company }, i) => (
+              <>
+                {i > 0 && <span>,</span>}
+                {company ? (
+                  <a
+                    href={`/companies/${company.slug}`}
+                    class="hover:text-foreground transition-colors"
+                  >
+                    {name}
+                  </a>
+                ) : url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:text-foreground transition-colors"
+                  >
+                    {name}
+                  </a>
+                ) : id !== null ? (
+                  <BrokenLink id={id} type="company" />
+                ) : (
+                  <span>{name}</span>
+                )}
+              </>
+            ))}
+          </div>
+        )}
 
         <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
           <span class="flex items-center gap-1.5">
@@ -570,14 +615,14 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
         {/* Developer card */}
         {primaryDev && (
           <div class="rounded-xl border border-border bg-card p-5 shadow">
-            <h3 class="mb-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+            <h3 class="mb-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
               Developer
             </h3>
             <div class="mb-3 flex items-center gap-3">
               <div class={`flex h-10 w-10 items-center justify-center rounded-lg ${primaryDev.logo_bg === "light" ? "bg-white" : primaryDev.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
-                {primaryDev.logo ? (
+                {(primaryDev.icon ?? primaryDev.logo) ? (
                   <img
-                    src={primaryDev.logo}
+                    src={primaryDev.icon ?? primaryDev.logo!}
                     alt={primaryDev.name}
                     class="h-8 w-8 rounded-md object-contain"
                   />
@@ -610,10 +655,39 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
           </div>
         )}
 
+        {pressKitUrl && (
+          <div>
+            <a
+              href={pressKitUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+            >
+              <svg
+                class="h-4 w-4 shrink-0 text-muted-foreground"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" x2="8" y1="13" y2="13" />
+                <line x1="16" x2="8" y1="17" y2="17" />
+                <line x1="10" x2="8" y1="9" y2="9" />
+              </svg>
+              Press kit
+            </a>
+          </div>
+        )}
+
         {/* Additional developers */}
         {developers.length > 1 && developers.slice(1).map(({ id, name, url, company }) => (
           <div class="rounded-xl border border-border bg-card p-5 shadow">
-            <h3 class="mb-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+            <h3 class="mb-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
               Co-Developer
             </h3>
             {company ? (
@@ -660,11 +734,13 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                     <span
                       class:list={[
                         "text-xl font-bold",
-                        !isNaN(score) && score >= 75
-                          ? "text-green-600 dark:text-green-400"
-                          : !isNaN(score) && score >= 50
-                            ? "text-yellow-600 dark:text-yellow-400"
-                            : "text-red-600 dark:text-red-400",
+                        isNaN(score)
+                          ? "text-muted-foreground"
+                          : score >= 75
+                            ? "text-green-600 dark:text-green-400"
+                            : score >= 50
+                              ? "text-yellow-600 dark:text-yellow-400"
+                              : "text-red-600 dark:text-red-400",
                       ]}
                     >
                       {!isNaN(score) ? score : value}

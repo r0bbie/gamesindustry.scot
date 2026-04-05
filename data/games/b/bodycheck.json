@@ -1,0 +1,44 @@
+{
+  "id": "bodycheck",
+  "title": "Bodycheck",
+  "slug": "bodycheck",
+  "short_description": "Ludometrics sports title for PlayStation Vita.",
+  "description": "From Ludometrics — a Vita release documented on the studio’s site.",
+  "release_date": "2017-09-12",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "ludometrics"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "sports",
+    "action"
+  ],
+  "platforms": [
+    "ps-vita"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "gRKen-kDkBY"
+  },
+  "stores": {
+    "website": "http://ludometrics.com/game/bodycheck/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "vita/763258-bodycheck"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bodycheck/cover.webp"
+}

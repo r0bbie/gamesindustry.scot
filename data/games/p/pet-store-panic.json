@@ -1,0 +1,42 @@
+{
+  "id": "pet-store-panic",
+  "title": "Pet Store Panic",
+  "slug": "pet-store-panic",
+  "short_description": "Ludometrics shop-management game on Steam.",
+  "description": "Help customers and keep the store running in this Ludometrics release.",
+  "release_date": "2016-05-17",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "ludometrics"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "simulation",
+    "casual"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "8BUxJhzdUtU"
+  },
+  "stores": {
+    "steam": "466040"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/pet-store-panic/cover.webp"
+}

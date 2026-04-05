@@ -7,21 +7,36 @@
   "release_date": "2002-10-15",
   "status": "released",
   "companies": {
-    "developer": ["chris-sawyer"],
+    "developer": [
+      "chris-sawyer"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["simulation", "strategy", "management"],
-  "platforms": ["pc"],
-  "cover_image": "",
+  "genres": [
+    "simulation",
+    "strategy",
+    "management"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/rollercoaster-tycoon-2/cover.webp",
   "screenshots": [],
-  "stores": { "steam": "285310" },
+  "stores": {
+    "steam": "285310"
+  },
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": { "metacritic": 89 },
-  "database_links": { "igdb": "rollercoaster-tycoon-2", "mobygames": "8407" },
+  "critic_ratings": {
+    "metacritic": 89
+  },
+  "database_links": {
+    "igdb": "rollercoaster-tycoon-2",
+    "mobygames": "8407"
+  },
   "awards": [],
   "news": [],
   "is_student_game": false

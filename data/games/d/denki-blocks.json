@@ -1,0 +1,45 @@
+{
+  "id": "denki-blocks",
+  "title": "Denki Blocks!",
+  "slug": "denki-blocks",
+  "short_description": "Sliding block puzzle game that appeared on handhelds, mobile, and browser — one of Denki’s early hits.",
+  "description": "Puzzle title developed by Denki, released across Game Boy Color, Game Boy Advance, PSP, mobile platforms, and browser. Deluxe editions later reached Android and iOS.",
+  "release_date": "2001-10-18",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "denki"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "game-boy",
+    "game-boy-advance",
+    "psp",
+    "android",
+    "ios",
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://denki.co.uk/games/archive/denki-blocks/",
+    "play_store": "com.jakyl.denkiblocksdeluxe"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Denki_Blocks!"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/denki-blocks/cover.webp"
+}

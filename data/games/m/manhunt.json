@@ -7,21 +7,36 @@
   "release_date": "2003-11-18",
   "status": "released",
   "companies": {
-    "developer": ["rockstar-north"],
+    "developer": [
+      "rockstar-north"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["stealth", "action", "horror"],
-  "platforms": ["ps2", "pc", "xbox"],
-  "cover_image": "",
+  "genres": [
+    "stealth",
+    "action",
+    "horror"
+  ],
+  "platforms": [
+    "ps2",
+    "pc",
+    "xbox"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/manhunt/cover.webp",
   "screenshots": [],
   "stores": {},
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": { "metacritic": 76 },
-  "database_links": { "mobygames": "manhunt", "igdb": "manhunt" },
+  "critic_ratings": {
+    "metacritic": 76
+  },
+  "database_links": {
+    "mobygames": "manhunt",
+    "igdb": "manhunt"
+  },
   "awards": [],
   "news": [],
   "is_student_game": false

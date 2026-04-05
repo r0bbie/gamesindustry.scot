@@ -1,0 +1,46 @@
+{
+  "id": "distant-star-revenant-fleet",
+  "title": "Distant Star: Revenant Fleet",
+  "slug": "distant-star-revenant-fleet",
+  "short_description": "Fleet-based RTS roguelite in space — BAFTA Scotland Game winner.",
+  "description": "A fleet-based RTS meets roguelite from Blazing Griffin, originally released on PC, Mac, and Linux.",
+  "release_date": "2015-04-07",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "blazing-griffin"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "strategy",
+    "roguelite"
+  ],
+  "platforms": [
+    "pc",
+    "macos",
+    "linux"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "335830"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "BAFTA Scotland — Game",
+      "year": 2015,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/distant-star-revenant-fleet/cover.webp"
+}

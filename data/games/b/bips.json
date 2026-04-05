@@ -1,0 +1,44 @@
+{
+  "id": "bips",
+  "title": "Bips!",
+  "slug": "bips",
+  "short_description": "Browser arcade game — guide a ball through colourful 3D courses.",
+  "description": "Web-based action title from Denki’s archive: tilt and bounce through vibrant levels. Co-developed with Ludometrics.",
+  "release_date": "2012",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "denki",
+      "ludometrics"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "arcade"
+  ],
+  "platforms": [
+    "browser",
+    "sky-tv"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "LtkgQamcBVs"
+  },
+  "stores": {
+    "website": "https://denki.co.uk/games/archive/bips/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bips/cover.webp"
+}

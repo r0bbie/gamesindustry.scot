@@ -188,9 +188,9 @@ export default function JobBoardView({ jobs, companies }: Props) {
             <div key={companyId}>
               <div className="mb-3 flex items-center gap-3">
                 <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${company?.logo_bg === "light" ? "bg-white" : company?.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
-                  {company?.logo ? (
+                  {(company?.icon ?? company?.logo) ? (
                     <img
-                      src={company.logo}
+                      src={company?.icon ?? company!.logo!}
                       alt=""
                       className={company?.logo_bg ? "h-full w-full rounded-lg object-contain" : "h-7 w-7 object-contain"}
                     />

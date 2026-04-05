@@ -7,21 +7,32 @@
   "release_date": "1994-09-23",
   "status": "released",
   "companies": {
-    "developer": ["chris-sawyer"],
+    "developer": [
+      "chris-sawyer"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["simulation", "strategy", "management"],
-  "platforms": ["pc"],
-  "cover_image": "",
+  "genres": [
+    "simulation",
+    "strategy",
+    "management"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/transport-tycoon/cover.webp",
   "screenshots": [],
   "stores": {},
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
-  "database_links": { "igdb": "transport-tycoon", "mobygames": "1396" },
+  "database_links": {
+    "igdb": "transport-tycoon",
+    "mobygames": "1396"
+  },
   "awards": [],
   "news": [],
   "is_student_game": false

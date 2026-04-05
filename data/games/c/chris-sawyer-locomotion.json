@@ -7,21 +7,36 @@
   "release_date": "2004-09-10",
   "status": "released",
   "companies": {
-    "developer": ["chris-sawyer"],
+    "developer": [
+      "chris-sawyer"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["simulation", "strategy", "management"],
-  "platforms": ["pc"],
-  "cover_image": "",
+  "genres": [
+    "simulation",
+    "strategy",
+    "management"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/chris-sawyer-locomotion/cover.webp",
   "screenshots": [],
-  "stores": { "steam": "356430" },
+  "stores": {
+    "steam": "356430"
+  },
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": { "metacritic": 73 },
-  "database_links": { "igdb": "chris-sawyers-locomotion", "mobygames": "16178" },
+  "critic_ratings": {
+    "metacritic": 73
+  },
+  "database_links": {
+    "igdb": "chris-sawyers-locomotion",
+    "mobygames": "16178"
+  },
   "awards": [],
   "news": [],
   "is_student_game": false

@@ -25,11 +25,11 @@ function publicFileExists(filePath: string | undefined | null): boolean {
   }
 }
 
-function validateLogo<T extends { logo?: string | null }>(item: T): T {
-  if (item.logo && !publicFileExists(item.logo)) {
-    return { ...item, logo: null };
-  }
-  return item;
+function validateLogo<T extends { logo?: string | null; icon?: string | null }>(item: T): T {
+  let next = { ...item };
+  if (next.logo && !publicFileExists(next.logo)) next = { ...next, logo: null };
+  if (next.icon && !publicFileExists(next.icon)) next = { ...next, icon: null };
+  return next;
 }
 
 let _companiesCache: Company[] | null = null;
@@ -218,7 +218,8 @@ export async function getGamesForCompany(companyId: string): Promise<Game[]> {
       matchesCompanyRef(g.companies.publishers, companyId) ||
       matchesCompanyRef(g.companies.service_companies, companyId) ||
       matchesCompanyRef(g.companies.used_tooling, companyId) ||
-      matchesCompanyRef(g.companies.supported_by, companyId)
+      matchesCompanyRef(g.companies.supported_by, companyId) ||
+      matchesCompanyRef(g.companies.contributed_by, companyId)
   );
 }
 

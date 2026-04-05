@@ -1,0 +1,45 @@
+{
+  "id": "glitchspace",
+  "title": "Glitchspace",
+  "slug": "glitchspace",
+  "short_description": "First-person puzzle game about reprogramming the environment in abstract cyberspace — BAFTA Scotland Game winner.",
+  "description": "A first-person puzzle game about reprogramming environment geometry to solve puzzles in abstract cyberspace.",
+  "release_date": "2016-05-05",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "space-budgie"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "linux",
+    "macos"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "290060"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "BAFTA Scotland — Game",
+      "year": 2016,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/glitchspace/cover.webp"
+}

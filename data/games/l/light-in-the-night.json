@@ -1,0 +1,28 @@
+{
+  "id": "light-in-the-night",
+  "title": "Light in the Night",
+  "slug": "light-in-the-night",
+  "short_description": "Global Game Jam first-person game about light pollution and the night sky — from Space Budgie.",
+  "description": "A first-person Global Game Jam 2014 entry about turning off town lights to reveal the stars, made for Oculus Rift on PC and Linux.",
+  "release_date": "2014-01-24",
+  "status": "released",
+  "companies": {
+    "developer": ["space-budgie"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["adventure"],
+  "platforms": ["pc", "linux"],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

@@ -1,0 +1,46 @@
+{
+  "id": "gridlock",
+  "title": "Gridlock",
+  "slug": "gridlock",
+  "short_description": "Puzzle title from Ludometrics",
+  "description": "Gridlock is an arena-based shooter that sees you take control of four gun turrets. In the middle of the grid, a variety of abstract yet lethal geometric shapes emerge which will destroy your turrets. Unless, of course, you can shoot the shapes first. Game over comes when/if all your turrets are destroyed.",
+  "release_date": "2014-08-05",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "ludometrics"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "xXwb33bxRU4"
+  },
+  "stores": {
+    "website": "http://ludometrics.com/game/gridlock/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "gridlock-2013"
+  },
+  "database_links": {
+    "gamefaqs": "pc/826419-gridlock-2013"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/gridlock/cover.webp"
+}

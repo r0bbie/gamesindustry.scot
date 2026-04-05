@@ -1,0 +1,41 @@
+{
+  "id": "go-go-beckham-adventure-on-soccer-island",
+  "title": "Go! Go! Beckham! Adventure on Soccer Island",
+  "slug": "go-go-beckham-adventure-on-soccer-island",
+  "short_description": "Isometric adventure starring David Beckham, released for Game Boy Advance and other platforms.",
+  "description": "Action-adventure game published by Rage Software and others, developed by Denki. Players guide Beckham through Soccer Island.",
+  "release_date": "2002",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "denki"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "adventure",
+    "action"
+  ],
+  "platforms": [
+    "game-boy-advance",
+    "ps2"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://denki.co.uk/games/archive/go-go-beckham/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Go!_Go!_Beckham!_Adventure_on_Soccer_Island"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/go-go-beckham-adventure-on-soccer-island/cover.webp"
+}

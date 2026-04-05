@@ -1,0 +1,49 @@
+{
+  "id": "pine-hearts",
+  "title": "Pine Hearts",
+  "slug": "pine-hearts",
+  "short_description": "A cosy narrative adventure about love, loss, and memories, set in a campground full of stories.",
+  "description": "Pine Hearts is a narrative adventure from Hyper Luminal Games about revisiting a childhood campground, uncovering stories, and piecing together memories in a warm, puzzle-filled world.",
+  "release_date": "2024-05-23",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "hyper-luminal-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "adventure",
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "switch",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "IFPwFa4d8r0"
+  },
+  "stores": {
+    "website": "https://www.hyperluminalgames.com/ip-games/pine-hearts",
+    "steam": "1781010",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Pine-Hearts-2563864.html",
+    "play_store": "com.SecretMode.PineHearts",
+    "app_store": "id6745611937"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/pine-hearts/cover.webp"
+}

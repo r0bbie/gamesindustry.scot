@@ -1,0 +1,28 @@
+{
+  "id": "konformity",
+  "title": "Konformity",
+  "slug": "konformity",
+  "short_description": "Jump Jam experiment about conformity and crowd movement — from Space Budgie.",
+  "description": "A game jam title developed at Abertay's Jump Jam, built around jumping near NPCs until they follow you — a playful take on social conformity.",
+  "release_date": "2013-01-01",
+  "status": "released",
+  "companies": {
+    "developer": ["space-budgie"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["puzzle"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

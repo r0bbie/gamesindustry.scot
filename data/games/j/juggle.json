@@ -1,0 +1,35 @@
+{
+  "id": "juggle",
+  "title": "Juggle!",
+  "slug": "juggle",
+  "short_description": "Colour-matching arcade puzzle — Denki’s Xbox Live Arcade title, also on mobile.",
+  "description": "Fast-paced puzzle game from Denki for Xbox and mobile stores.",
+  "release_date": "2011",
+  "status": "released",
+  "companies": {
+    "developer": ["denki"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["puzzle", "casual"],
+  "platforms": ["xbox-360", "ios", "android"],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "7wRw4AQEQCA"
+  },
+  "stores": {
+    "website": "https://denki.co.uk/games/archive/juggle/",
+    "play_store": "com.jakyl.juggle"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

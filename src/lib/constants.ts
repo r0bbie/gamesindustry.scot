@@ -26,6 +26,22 @@ export const COMPANY_CATEGORIES = [
   { id: "games_media", name: "Games Media" },
 ] as const;
 
+export const COMPANY_SIZES = [
+  { id: "1",       label: "Solo",     range: "1" },
+  { id: "2-10",    label: "Micro",    range: "2–10" },
+  { id: "11-50",   label: "Small",    range: "11–50" },
+  { id: "51-100",  label: "Mid-size", range: "51–100" },
+  { id: "101-250", label: "Mid-size", range: "101–250" },
+  { id: "251-500", label: "Large",    range: "251–500" },
+  { id: "500+",    label: "Major",    range: "500+" },
+] as const;
+
+export type CompanySizeId = (typeof COMPANY_SIZES)[number]["id"];
+
+export function getCompanySizeLabel(id: string): string {
+  return COMPANY_SIZES.find((s) => s.id === id)?.label ?? id;
+}
+
 export const DISCIPLINES = [
   { id: "programmer", name: "Programming" },
   { id: "designer", name: "Design" },
@@ -77,10 +93,36 @@ export function buildStoreUrl(store: string, id: string): string {
     epic: (id) => `https://store.epicgames.com/p/${id}`,
     gog: (id) => `https://www.gog.com/game/${id}`,
     humble: (id) => `https://www.humblebundle.com/store/${id}`,
-    psn: (id) => `https://store.playstation.com/en-gb/product/${id}`,
-    xbox: (id) => `https://www.xbox.com/en-GB/games/store/${id}`,
-    nintendo_eshop: (id) => `https://www.nintendo.com/store/products/${id}`,
-    itch: (id) => `https://${id}.itch.io`,
+    psn: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://store.playstation.com/en-gb/product/${id}`,
+    meta_quest: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://www.meta.com/experiences/${id}`,
+    viveport: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://www.viveport.com/apps/${id}`,
+    picoxr: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://store-global.picoxr.com/global/detail/1/${id}`,
+    xbox: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://www.xbox.com/en-GB/games/store/${id}`,
+    nintendo_eshop: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://www.nintendo.com/store/products/${id}`,
+    itch: (id) =>
+      id.startsWith("http")
+        ? id
+        : id.includes(".itch.io")
+          ? `https://${id}`
+          : `https://${id}.itch.io`,
     green_man_gaming: (id) => `https://www.greenmangaming.com/games/${id}`,
     app_store: (id) => `https://apps.apple.com/app/${id}`,
     play_store: (id) => `https://play.google.com/store/apps/details?id=${id}`,
@@ -122,7 +164,8 @@ export function buildPhysicalStoreUrl(store: string, id: string): string {
 
 export function buildCriticUrl(source: string, id: string): string {
   const urls: Record<string, (id: string) => string> = {
-    metacritic: (id) => `https://www.metacritic.com/game/${id}`,
+    metacritic: (id) =>
+      id.startsWith("http") ? id : `https://www.metacritic.com/game/${id}`,
     opencritic: (id) => `https://opencritic.com/game/${id}`,
     criticdb: (id) => `https://criticdb.com/games/${id}`,
   };
@@ -139,6 +182,10 @@ export function buildDatabaseUrl(db: string, id: string): string {
     gamefaqs: (id) => `https://gamefaqs.gamespot.com/${id}`,
     opencritic: (id) => `https://opencritic.com/game/${id}`,
     criticdb: (id) => `https://criticdb.com/games/${id}`,
+    wikipedia: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://en.wikipedia.org/wiki/${id}`,
   };
   return urls[db]?.(id) ?? `#unknown-db-${db}`;
 }
@@ -153,7 +200,8 @@ export function buildSocialUrl(platform: string, handle: string): string {
     twitch: (h) => `https://www.twitch.tv/${h}`,
     crunchbase: (h) => `https://www.crunchbase.com/organization/${h}`,
     discord: (h) => h.startsWith("http") ? h : `https://discord.gg/${h}`,
-    youtube: (h) => `https://www.youtube.com/${h}`,
+    youtube: (h) =>
+      h.startsWith("http") ? h : `https://www.youtube.com/${h}`,
     app_store: (h) => h.startsWith("http") ? h : `https://apps.apple.com/developer/${h}`,
     google_play: (h) => h.startsWith("http") ? h : `https://play.google.com/store/apps/developer?id=${h}`,
     github: (h) => `https://github.com/${h}`,

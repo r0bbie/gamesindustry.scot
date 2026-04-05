@@ -1,0 +1,44 @@
+{
+  "id": "solas-128",
+  "title": "SOLAS 128",
+  "slug": "solas-128",
+  "short_description": "Synthwave rhythm puzzle game of redirecting pulses of light — BAFTA Scotland Game winner.",
+  "description": "A synthwave rhythm puzzle game where you redirect and reconfigure rhythmic pulses of light to repair an ancient machine.",
+  "release_date": "2021-01-25",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "amicable-animal"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "switch"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1257850"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "BAFTA Scotland — Game",
+      "year": 2021,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/solas-128/cover.webp"
+}

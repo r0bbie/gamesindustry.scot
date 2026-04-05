@@ -16,7 +16,7 @@
   "logo_bg": "dark",
   "highlighted": false,
   "parent_entity": null,
-  "company_size": "Small (1–10)",
+  "company_size": "2-10",
   "employee_count": null,
   "contact_email": "hello@glitchers.com",
   "links": {
@@ -25,7 +25,8 @@
     "instagram": "glitchersgames",
     "youtube": "@GLITCHers",
     "steam": "glitchers",
-    "linkedin": "https://www.linkedin.com/company/glitchers"
+    "linkedin": "https://www.linkedin.com/company/glitchers",
+    "crunchbase": "glitche-rs"
   },
   "use_tooling": ["buildstash"],
   "employee_stats": {},

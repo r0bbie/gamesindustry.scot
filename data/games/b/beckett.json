@@ -1,0 +1,53 @@
+{
+  "id": "beckett",
+  "title": "Beckett",
+  "slug": "beckett",
+  "short_description": "A dark narrative adventure — BAFTA Scotland Game winner — following a reluctant investigator in a despondent world.",
+  "description": "A dark and unsettling narrative adventure that will shake you to your core. Take control of a reluctant investigator, trapped in a depraved and despondent world. BAFTA-winning and selected by the V&A for its pioneering narrative design, this disturbingly powerful story is unlike anything you've played.",
+  "release_date": "2018-02-27",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "the-secret-experiment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "adventure",
+    "narrative"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "SOxCCyvuBVE"
+  },
+  "stores": {
+    "steam": "588230",
+    "itch": "the-secret-experiment.itch.io/beckett"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "beckett"
+  },
+  "database_links": {
+    "backloggd": "beckett"
+  },
+  "awards": [
+    {
+      "name": "BAFTA Scotland — Game",
+      "year": 2018,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/beckett/cover.webp"
+}

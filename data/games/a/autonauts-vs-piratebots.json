@@ -1,0 +1,39 @@
+{
+  "id": "autonauts-vs-piratebots",
+  "title": "Autonauts vs Piratebots",
+  "slug": "autonauts-vs-piratebots",
+  "short_description": "Automate a bot army to drive the Dread Pirate Robot from the land — the more action-oriented sibling to Autonauts.",
+  "description": "From Denki: if you prefer thrills over chill, build and programme bots to take on pirate invaders in this follow-up to Autonauts.",
+  "release_date": "2022-07-28",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "denki"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "simulation",
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1907720",
+    "website": "https://denki.co.uk/games/autonauts-vs-piratebots/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/autonauts-vs-piratebots/cover.webp"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "cloud-jumper",
+  "title": "Cloud Jumper",
+  "slug": "cloud-jumper",
+  "short_description": "An upcoming adventure about exploring the skies — release date to be announced.",
+  "description": "Cloud Jumper is in development at Hyper Luminal Games. Wishlist on Steam for updates.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "hyper-luminal-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "adventure",
+    "platformer"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "T11w9B-YcfI"
+  },
+  "stores": {
+    "website": "https://www.hyperluminalgames.com/ip-games/cloud-jumper",
+    "steam": "1504820"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cloud-jumper/cover.webp"
+}

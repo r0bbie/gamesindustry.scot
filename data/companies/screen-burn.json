@@ -16,7 +16,7 @@
   "hero_image": "",
   "highlighted": true,
   "parent_entity": null,
-  "company_size": "Small (11-50)",
+  "company_size": "11-50",
   "employee_count": 15,
   "links": { "twitter": "NoCodeStudio", "linkedin": "no-code-studio" },
   "use_tooling": [],

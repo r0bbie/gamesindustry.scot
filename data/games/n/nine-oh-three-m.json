@@ -1,0 +1,38 @@
+{
+  "id": "nine-oh-three-m",
+  "title": "9.03m",
+  "slug": "nine-oh-three-m",
+  "short_description": "Short, poetic experience on Baker Beach, San Francisco — from Space Budgie.",
+  "description": "A contemplative walking experience exploring themes connected to the 2011 Tōhoku tsunami, set on Baker Beach in San Francisco.",
+  "release_date": "2013-09-12",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "space-budgie"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "adventure",
+    "narrative"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "263100"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/nine-oh-three-m/cover.webp"
+}

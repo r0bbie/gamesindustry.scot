@@ -1,0 +1,32 @@
+{
+  "id": "dsmvwld",
+  "title": "Dsmvwld",
+  "slug": "dsmvwld",
+  "short_description": "Ludometrics title for iOS.",
+  "description": "Mobile game from Ludometrics — details on the studio’s site.",
+  "release_date": "2014-04-24",
+  "status": "released",
+  "companies": {
+    "developer": ["ludometrics"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["puzzle", "casual"],
+  "platforms": ["ios"],
+  "screenshots": [],
+  "stores": {
+    "website": "http://ludometrics.com/game/dsmvwld/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/790815-dsmvwld"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

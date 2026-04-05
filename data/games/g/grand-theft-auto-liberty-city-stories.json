@@ -7,21 +7,37 @@
   "release_date": "2005-10-24",
   "status": "released",
   "companies": {
-    "developer": ["rockstar-north"],
+    "developer": [
+      "rockstar-north"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["action", "open-world", "adventure"],
-  "platforms": ["psp", "ps2", "ios", "android"],
-  "cover_image": "",
+  "genres": [
+    "action",
+    "open-world",
+    "adventure"
+  ],
+  "platforms": [
+    "psp",
+    "ps2",
+    "ios",
+    "android"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/grand-theft-auto-liberty-city-stories/cover.webp",
   "screenshots": [],
   "stores": {},
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": { "metacritic": 88 },
-  "database_links": { "mobygames": "grand-theft-auto-liberty-city-stories", "igdb": "grand-theft-auto-liberty-city-stories" },
+  "critic_ratings": {
+    "metacritic": 88
+  },
+  "database_links": {
+    "mobygames": "grand-theft-auto-liberty-city-stories",
+    "igdb": "grand-theft-auto-liberty-city-stories"
+  },
   "awards": [],
   "news": [],
   "is_student_game": false
