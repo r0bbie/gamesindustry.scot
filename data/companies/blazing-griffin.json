@@ -8,6 +8,7 @@
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://www.blazinggriffin.com/",
+  "icon": "/images/companies/blazing-griffin/icon.png",
   "logo": null,
   "highlighted": false,
   "short_description": "A BAFTA-award winning studio with a creative team that embraces new experiences at the intersection of gameplay and narrative.",
@@ -18,8 +19,9 @@
     "youtube": "BlazingGriffinGames",
     "linkedin": "blazing-griffin",
     "itch": "blazing-griffin",
-    "steam": "publisher/BlazingGriffin",
-    "app_store": "https://apps.apple.com/us/developer/blazing-griffin-ltd/id359683270"
+    "steam": "BlazingGriffin",
+    "app_store": "https://apps.apple.com/us/developer/blazing-griffin-ltd/id359683270",
+    "crunchbase": "blazing-griffin"
   },
   "legal_entities": [
     {
