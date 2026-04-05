@@ -1,0 +1,28 @@
+{
+  "id": "crt7",
+  "title": "CRT7",
+  "slug": "crt7",
+  "short_description": "A challenging point-and-click escape room set in a mysterious basement, where even time and space are against you.",
+  "description": "Decypher strange computers, unravel modified tape players, and unlock impossible doors. Point and click your way around a mysterious basement in this challenging escape room game! Can you uncover what secrets are hiding in the dark when even time and space are against you?",
+  "status": "in_development",
+  "companies": {
+    "developer": ["amicable-animal"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["puzzle", "point-and-click", "escape-room"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.amicableanimal.com/CRT7.html",
+    "steam": "2096780"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "13wSru0sJkI"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}

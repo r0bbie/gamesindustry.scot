@@ -1,0 +1,29 @@
+{
+  "id": "viewfinder",
+  "title": "Viewfinder",
+  "slug": "viewfinder",
+  "status": "released",
+  "release_date": "2023-07-18",
+  "companies": {
+    "developer": ["sad-owl-studios"],
+    "publishers": [{ "name": "Thunderful", "url": "https://thunderfulgames.com/" }],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["puzzle"],
+  "platforms": ["pc", "ps5"],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "Scottish Games Awards - Technical Achievement", "year": 2023, "status": "won" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

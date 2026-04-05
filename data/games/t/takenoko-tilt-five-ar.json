@@ -41,7 +41,9 @@
   "critic_ratings": {},
   "critic_ids": {},
   "database_links": {},
-  "awards": [],
+  "awards": [
+    { "name": "Scottish Games Awards - Technical Achievement", "year": 2023, "status": "nominated" }
+  ],
   "news": [],
   "is_student_game": false,
   "cover_image": "https://media.gamesindustry.scot/games/takenoko-tilt-five-ar/cover.webp"

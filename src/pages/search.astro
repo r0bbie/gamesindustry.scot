@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { getAllCompanies, getAllGames, getAllFreelancers, getAllEvents, getAllSchools } from "@/lib/data";
+import { getAllCompanies, getPublicGames, getAllFreelancers, getAllEvents, getAllSchools } from "@/lib/data";
 
 const companies = await getAllCompanies();
-const games = await getAllGames();
+const games = await getPublicGames();
 const freelancers = await getAllFreelancers();
 const events = await getAllEvents();
 const schools = await getAllSchools();

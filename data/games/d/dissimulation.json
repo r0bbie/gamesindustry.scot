@@ -1,0 +1,31 @@
+{
+  "id": "dissimulation",
+  "title": "Dissimulation",
+  "slug": "dissimulation",
+  "short_description": "A first-person dungeon-crawling rule discovery puzzle game, fully playable with a Launchpad Pro MK3.",
+  "description": "Dissimulation is a first person, dungeon crawling, rule discovery puzzle game, fully playable with a Launchpad Pro MK3. Explore a small dungeon, learn how to open the gates blocking your way, and find your way out. It came out of EdJam26 and it 'masks' information with darkness.",
+  "status": "prototype",
+  "release_date": "2026",
+  "companies": {
+    "developer": ["amicable-animal"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["puzzle", "dungeon-crawler"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "itch": "amicableanimal.itch.io/dissimulation"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "baP7SJvYJ-0"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "EdJam26 — Edinburgh Game Jam", "year": 2026, "status": "participated" }
+  ],
+  "news": [], "is_student_game": false
+}

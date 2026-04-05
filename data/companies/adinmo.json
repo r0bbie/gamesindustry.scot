@@ -2,14 +2,23 @@
   "id": "adinmo",
   "name": "Adinmo",
   "slug": "adinmo",
-  "category": "service_provider",
+  "category": "tooling",
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "website": "https://www.adinmo.com/",
+  "website": "https://www.adinmo.com",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "AdInMo's InGamePlay monetization platform is built on a deep understanding of player behaviours and creates value from every immersive in-game ad experience.",
+  "legal_entities": [
+    { "uk_registered_name": "Adinmo Ltd", "companies_house_number": "SC648449" }
+  ],
+  "links": {
+    "linkedin": "company/adinmo",
+    "crunchbase": "organization/adinmo",
+    "github": "AdInMo-Ltd",
+    "youtube": "channel/UCiIoKNAEABgkJAzihQHEQpw"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

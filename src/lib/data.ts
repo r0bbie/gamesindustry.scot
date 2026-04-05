@@ -49,6 +49,12 @@ export async function getAllGames(): Promise<Game[]> {
   return _gamesCache;
 }
 
+/** Returns all games excluding prototypes — for use in public-facing listings. */
+export async function getPublicGames(): Promise<Game[]> {
+  const games = await getAllGames();
+  return games.filter((g) => g.status !== "prototype");
+}
+
 export async function getAllFreelancers(): Promise<Freelancer[]> {
   const entries = await getCollection("freelancers");
   return entries.map((e) => e.data);

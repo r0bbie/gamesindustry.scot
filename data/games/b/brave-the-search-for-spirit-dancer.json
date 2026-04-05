@@ -1,0 +1,20 @@
+{
+  "id": "brave-the-search-for-spirit-dancer",
+  "title": "Brave: The Search for Spirit Dancer",
+  "slug": "brave-the-search-for-spirit-dancer",
+  "short_description": "A young Native American boy embarks on a spirit quest to find a legendary shaman and save his tribe from the evil Wendigo.",
+  "description": "Brave: The Search for Spirit Dancer is a 2005 action-adventure platform game developed by VIS Entertainment for PlayStation 2. Set in a world of Native American mythology, players control a boy named Brave who must find the vanished shaman Spirit Dancer to save his tribe from the Wendigo. Brave learns new combat abilities and skills as he progresses through diverse environments. The game was first released in Europe in September 2005, published by Sony Computer Entertainment, and later in North America in 2007 via Evolved Games. An enhanced Xbox 360 and Wii port titled Brave: A Warrior's Tale was released in 2009.",
+  "status": "released",
+  "release_date": "2005-09-02",
+  "companies": {
+    "developer": ["vis-entertainment"],
+    "publishers": [{ "name": "Sony Computer Entertainment", "url": "https://en.wikipedia.org/wiki/Sony_Interactive_Entertainment" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["action-adventure", "platformer"],
+  "platforms": ["ps2"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "Brave:_The_Search_for_Spirit_Dancer", "mobygames": "brave-the-search-for-spirit-dancer" },
+  "awards": [], "news": [], "is_student_game": false
+}

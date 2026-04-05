@@ -1,0 +1,32 @@
+{
+  "id": "germies",
+  "title": "Germies!",
+  "slug": "germies",
+  "short_description": "An arcade-puzzle game with classic 16-bit styled graphics and sound.",
+  "description": "Help Dr. Pus to contain an infection, by gathering Germies into squares or rectangles of similar types. Score more points with diseased Germies, but be warned that fully diseased Germies can only be removed by being surrounded within a frame of healthy Germies! Each wave of infection brings three more Germies to the grid, so make sure your incubation areas are kept clear! How long can you last?",
+  "status": "released",
+  "release_date": "2013-07-13",
+  "companies": {
+    "developer": ["arcade-badgers"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["arcade", "puzzle"],
+  "platforms": ["browser"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.arcadebadgers.co.uk/releases/germies/index.html",
+    "itch": "arcadebadgers.itch.io/germies"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

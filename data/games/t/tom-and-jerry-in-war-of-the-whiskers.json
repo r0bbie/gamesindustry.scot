@@ -1,0 +1,20 @@
+{
+  "id": "tom-and-jerry-in-war-of-the-whiskers",
+  "title": "Tom and Jerry in War of the Whiskers",
+  "slug": "tom-and-jerry-in-war-of-the-whiskers",
+  "short_description": "Tom, Jerry, and their cartoon rivals clash in destructible arenas in this sequel to Fists of Furry.",
+  "description": "Tom and Jerry in War of the Whiskers is a 2002 3D fighting game developed by VIS Entertainment and published by NewKidCo. The sequel to Tom and Jerry in Fists of Furry, the game expands to 11 playable characters across 13 destructible arenas, each stocked with over 75 unique weapons. Three gameplay modes — Challenge, Versus, and Tag Battle — are supported, with two-player co-op on PS2 and up to four players on GameCube and Xbox. It was notably the only NewKidCo title and the only Tom and Jerry game to earn an ESRB Teen rating.",
+  "status": "released",
+  "release_date": "2002-10-22",
+  "companies": {
+    "developer": ["vis-entertainment"],
+    "publishers": [{ "name": "NewKidCo", "url": "https://en.wikipedia.org/wiki/NewKidCo" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["fighting"],
+  "platforms": ["ps2", "gamecube", "xbox"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "Tom_and_Jerry_in_War_of_the_Whiskers", "mobygames": "tom-and-jerry-in-war-of-the-whiskers" },
+  "awards": [], "news": [], "is_student_game": false
+}

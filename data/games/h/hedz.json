@@ -1,0 +1,20 @@
+{
+  "id": "hedz",
+  "title": "H.E.D.Z.",
+  "slug": "hedz",
+  "short_description": "An alien arena brawler where players collect hundreds of swappable heads, each granting unique weapons and abilities.",
+  "description": "Head Extreme Destruction Zone is a 1998 action game developed by VIS Interactive and published by Hasbro Interactive. Players take the role of an alien competitor who must battle through a series of asteroid arenas to collect the heads of defeated opponents. Each of the hundreds of collectible heads provides different combat abilities — from gatling guns and guided missiles to invisibility, flamethrowers, and vehicular bodies. Players fight across themed asteroid zones including cities, haunted castles, and warzones, aiming to become the ultimate arena champion.",
+  "status": "released",
+  "release_date": "1998-10-15",
+  "companies": {
+    "developer": ["vis-entertainment"],
+    "publishers": [{ "name": "Hasbro Interactive", "url": "https://en.wikipedia.org/wiki/Hasbro_Interactive" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["action", "arcade"],
+  "platforms": ["pc"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "H.E.D.Z.", "mobygames": "hedz-head-extreme-destruction-zone" },
+  "awards": [], "news": [], "is_student_game": false
+}

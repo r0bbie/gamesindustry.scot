@@ -1,10 +1,10 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { getAllCompanies, getAllGames } from "@/lib/data";
+import { getAllCompanies, getPublicGames } from "@/lib/data";
 import CompanyListView from "@/components/companies/CompanyListView";
 
 const companies = await getAllCompanies();
-const games = await getAllGames();
+const games = await getPublicGames();
 
 const gameCountMap: Record<string, number> = {};
 for (const game of games) {

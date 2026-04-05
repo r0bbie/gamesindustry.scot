@@ -42,6 +42,10 @@ export function getCompanySizeLabel(id: string): string {
   return COMPANY_SIZES.find((s) => s.id === id)?.label ?? id;
 }
 
+export function getCompanySizeEntry(id: string) {
+  return COMPANY_SIZES.find((s) => s.id === id) ?? null;
+}
+
 export const DISCIPLINES = [
   { id: "programmer", name: "Programming" },
   { id: "designer", name: "Design" },
@@ -219,6 +223,7 @@ export function buildSocialUrl(platform: string, handle: string): string {
     bandcamp: (h) => `https://${h}.bandcamp.com`,
     instagram: (h) => `https://www.instagram.com/${h}`,
     itch: (h) => h.startsWith("http") ? h : `https://${h}.itch.io`,
+    wikipedia: (h) => h.startsWith("http") ? h : `https://en.wikipedia.org/wiki/${h}`,
   };
   return urls[platform]?.(handle) ?? `#unknown-${platform}`;
 }

@@ -2,10 +2,10 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import ObfuscatedEmail from "@/components/ObfuscatedEmail.astro";
 import { GITHUB_URL, GITHUB_REPO } from "@/lib/constants";
-import { getAllCompanies, getAllGames } from "@/lib/data";
+import { getAllCompanies, getPublicGames } from "@/lib/data";
 
 const companies = await getAllCompanies();
-const games = await getAllGames();
+const games = await getPublicGames();
 const activeCompanies = companies.filter((c) => c.status === "active");
 ---
 

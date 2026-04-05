@@ -1,0 +1,23 @@
+{
+  "id": "manic-mechanics",
+  "title": "Manic Mechanics",
+  "slug": "manic-mechanics",
+  "short_description": "A frantic co-op party game where players work together to repair vehicles in increasingly chaotic workshops.",
+  "status": "released",
+  "release_date": "2023",
+  "companies": {
+    "developer": ["4j-studios"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["party", "co-op", "action"],
+  "platforms": ["switch", "ps4", "ps5", "pc", "xbox-one", "xbox-series-xs"],
+  "screenshots": [],
+  "stores": {
+    "steam": "2569820"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "igdb": "manic-mechanics" },
+  "awards": [], "news": [], "is_student_game": false
+}

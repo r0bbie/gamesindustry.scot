@@ -1,5 +1,5 @@
 import type { APIRoute } from "astro";
-import { getAllEvents, getAllGames, safeGetCompany } from "@/lib/data";
+import { getAllEvents, getPublicGames, safeGetCompany } from "@/lib/data";
 import { SITE_URL, icsEscape, icsFold, icsDate, icsUid } from "@/lib/feeds";
 
 /** Format YYYY-MM-DD + optional HH:MM to iCal DTSTART/DTEND */
@@ -29,7 +29,7 @@ function nextDay(dateStr: string): string {
 }
 
 export const GET: APIRoute = async () => {
-  const [events, games] = await Promise.all([getAllEvents(), getAllGames()]);
+  const [events, games] = await Promise.all([getAllEvents(), getPublicGames()]);
 
   const lines: string[] = [
     "BEGIN:VCALENDAR",

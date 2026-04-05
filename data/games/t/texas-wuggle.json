@@ -1,0 +1,18 @@
+{
+  "id": "texas-wuggle",
+  "title": "Texas Wuggle",
+  "slug": "texas-wuggle",
+  "status": "released",
+  "release_date": "2009",
+  "companies": {
+    "developer": ["4j-studios"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["puzzle", "card"],
+  "platforms": ["ios"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}

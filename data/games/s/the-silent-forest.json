@@ -1,0 +1,25 @@
+{
+  "id": "the-silent-forest",
+  "title": "The Silent Forest",
+  "slug": "the-silent-forest",
+  "status": "prototype",
+  "release_date": "2016-03",
+  "companies": {
+    "developer": ["aetheric-games"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "itch": "aethericgames.itch.io/the-silent-forest"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "Magical Realism Jam 2016", "year": 2016, "status": "participated" }
+  ],
+  "news": [], "is_student_game": false
+}

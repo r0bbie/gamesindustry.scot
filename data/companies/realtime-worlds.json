@@ -1,0 +1,25 @@
+{
+  "id": "realtime-worlds",
+  "name": "Realtime Worlds",
+  "slug": "realtime-worlds",
+  "category": "developer",
+  "status": "defunct",
+  "founded": 2000,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": null,
+  "logo": null,
+  "highlighted": false,
+  "short_description": "Dundee studio behind Crackdown and APB: All Points Bulletin, founded by Dave Jones after leaving Rockstar North.",
+  "company_size": "251-500",
+  "links": {
+    "wikipedia": "Realtime_Worlds"
+  },
+  "key_people": [
+    { "name": "Dave Jones", "title": "Founder and CEO" }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": []
+}

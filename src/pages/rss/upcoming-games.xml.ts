@@ -1,10 +1,10 @@
 import type { APIRoute } from "astro";
-import { getAllGames, safeGetCompany } from "@/lib/data";
+import { getPublicGames, safeGetCompany } from "@/lib/data";
 import { SITE_URL, SITE_TITLE, buildRssFeed } from "@/lib/feeds";
 import { compareUpcoming, formatReleaseDatePart } from "@/lib/gameRelease";
 
 export const GET: APIRoute = async () => {
-  const games = await getAllGames();
+  const games = await getPublicGames();
   const today = new Date().toISOString().split("T")[0];
 
   const upcoming = games

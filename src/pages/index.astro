@@ -8,7 +8,7 @@ import { BrokenLink } from "@/components/ui/broken-link";
 import { SITE_TITLE } from "@/lib/constants";
 import {
   getAllCompanies,
-  getAllGames,
+  getPublicGames,
   getAllEvents,
   getAllNewsArticles,
   getStats,
@@ -19,7 +19,7 @@ import { getFirstReleaseSortTimestamp, compareUpcoming } from "@/lib/gameRelease
 
 const stats = await getStats();
 const allCompanies = await getAllCompanies();
-const allGames = await getAllGames();
+const allGames = await getPublicGames();
 const allEvents = await getAllEvents();
 
 // Studio Highlight: highlighted companies, shuffled, max 4
@@ -30,7 +30,7 @@ const highlightedCompanies = shuffleArray(
 // New Releases: released games, most recently launched first, max 5
 // Uses start of release_period (not end) so ongoing titles don't float up
 const newReleases = allGames
-  .filter((g) => g.status === "released" && g.release_date)
+  .filter((g) => g.status === "released" && g.release_date && g.cover_image)
   .sort(
     (a, b) =>
       getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),

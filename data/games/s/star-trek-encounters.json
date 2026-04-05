@@ -1,0 +1,20 @@
+{
+  "id": "star-trek-encounters",
+  "title": "Star Trek: Encounters",
+  "slug": "star-trek-encounters",
+  "short_description": "An arcade shoot 'em up featuring ships and characters from all five Star Trek TV series across self-contained storylines.",
+  "description": "Star Trek: Encounters is a 2006 arcade shoot 'em up developed by 4J Studios and published by Bethesda Softworks. The game spans all five Star Trek television series — The Original Series, The Next Generation, Deep Space Nine, Voyager, and Enterprise — each with its own self-contained campaign mission set. Players pilot iconic starships in top-down space combat, with Skirmish modes including Head-to-Head, Battlefest, and the endless Onslaught wave mode. It received mixed reviews, with critics noting the gameplay felt more like radio-controlled cars than a true Star Trek experience.",
+  "status": "released",
+  "release_date": "2006-10-03",
+  "companies": {
+    "developer": ["4j-studios"],
+    "publishers": [{ "name": "Bethesda Softworks", "url": "https://bethesda.net/" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["shooter", "shoot-em-up"],
+  "platforms": ["ps2"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "Star_Trek:_Encounters", "mobygames": "star-trek-encounters" },
+  "awards": [], "news": [], "is_student_game": false
+}

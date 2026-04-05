@@ -1,0 +1,37 @@
+{
+  "id": "crackdown-2",
+  "title": "Crackdown 2",
+  "slug": "crackdown-2",
+  "short_description": "The open-world superhero sequel returns to Pacific City, now overrun by a mutant plague and a rogue militia.",
+  "description": "Crackdown 2 is an open-world action game developed by Ruffian Games (now Rockstar Dundee) and published by Microsoft Studios. Set ten years after the original Crackdown, Pacific City has descended into chaos as a mutant plague called the Freaks emerges at night and a militant insurgency called the Cell wages war on the Agency. Players once again control a genetically enhanced Agent, now tasked with activating beacons across the city to eradicate the Freaks. The game supports four-player co-op and received mixed reviews on release.",
+  "release_date": "2010-07-06",
+  "status": "released",
+  "companies": {
+    "developer": [{ "name": "Ruffian Games", "company_id": "rockstar-dundee" }],
+    "publishers": [{ "name": "Microsoft Studios", "url": "https://www.xbox.com/" }],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["action", "open-world"],
+  "platforms": ["xbox-360"],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 70
+  },
+  "critic_ids": {
+    "metacritic": "crackdown-2"
+  },
+  "database_links": {
+    "wikipedia": "Crackdown_2",
+    "mobygames": "crackdown-2",
+    "igdb": "crackdown-2"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "aonar",
+  "title": "Aonar",
+  "slug": "aonar",
+  "school_id": "glasgow-school-of-art",
+  "team_id": "austin-wolfe",
+  "description": "A solo experience by Austin Wolfe. Aonar (Scottish Gaelic for 'alone') is an atmospheric exploration game.",
+  "platforms": ["pc", "vr"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://sit.gsa.ac.uk/project/aonar",
+    "itch": "wolfear87.itch.io/aonar",
+    "steam": "2499150"
+  },
+  "play_now": {},
+  "competitions": [
+    {
+      "name": "BAFTA Student Award for Immersive",
+      "result": "winner"
+    },
+    {
+      "name": "Scottish Games Awards 2023 - Spirit of Scotland",
+      "result": "runner-up"
+    }
+  ],
+  "news": [
+    {
+      "title": "Bafta winning Scots VR game to receive Gaelic translation",
+      "publication": "The National",
+      "date": "2023-01-16",
+      "url": "https://www.thenational.scot/news/23252042.bafta-winning-scots-vr-game-receive-gaelic-translation/"
+    }
+  ]
+}

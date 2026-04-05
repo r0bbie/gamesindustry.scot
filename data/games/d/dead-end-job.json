@@ -1,0 +1,32 @@
+{
+  "id": "dead-end-job",
+  "title": "Dead End Job",
+  "slug": "dead-end-job",
+  "short_description": "A madcap ghost-busting roguelite with a Ren & Stimpy-esque visual style and couch co-op twin-stick action.",
+  "description": "Dead End Job sends you into a madcap, Ren & Stimpy-esque world to bust up ghosts. It's a procedurally generated, couch co-op, twin-stick shooter that straps a vacuum pack to your back and puts a plasma blaster in your hand. For you, it's just another day in the office.",
+  "status": "released",
+  "release_date": "2019-12-13",
+  "companies": {
+    "developer": ["ant-workshop"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["action", "roguelite", "twin-stick-shooter"],
+  "platforms": ["pc", "ps4", "switch", "xbox-one"],
+  "screenshots": [],
+  "press_kit_url": "https://impress.games/press-kit/ant-workshop/dead-end-job",
+  "stores": {
+    "steam": "827610",
+    "psn": "EP0822-CUSA13400_00-DEADENDJOPS4SIEE",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Dead-End-Job-1679913.html",
+    "xbox": "dead-end-job/9nq2cb7z7j0w"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "hQwb1RNShu0"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}

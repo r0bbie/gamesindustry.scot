@@ -1,0 +1,35 @@
+{
+  "id": "ascendant",
+  "title": "Ascendant",
+  "slug": "ascendant",
+  "short_description": "Explore a procedurally generated constellation of other people's thoughts, each taking the form of a unique star.",
+  "description": "Ascendant invites you to explore a procedurally generated constellation of other people's thoughts, each taking the form of a unique star. Leave your mark on the Universe; share short words of wisdom, encouragement, dreams, memories, or moments that were special to you. Each thought you share helps make our universe feel that little bit more connected.",
+  "status": "released",
+  "release_date": "2020",
+  "companies": {
+    "developer": ["somewhat-unsettling"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Bq99wpkfGHY"
+  },
+  "stores": {
+    "itch": "somewhatunsettling.itch.io/ascendant"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

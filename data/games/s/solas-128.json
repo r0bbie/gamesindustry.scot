@@ -10,10 +10,11 @@
     "developer": [
       "amicable-animal"
     ],
-    "publishers": [],
+    "publishers": [{ "name": "Armor Games Studios", "url": "https://armorgamesstudios.com/" }],
     "service_companies": [],
     "used_tooling": [],
-    "supported_by": []
+    "supported_by": [],
+    "contributed_by": []
   },
   "genres": [
     "puzzle"
@@ -24,7 +25,14 @@
   ],
   "screenshots": [],
   "stores": {
-    "steam": "1257850"
+    "website": "https://www.amicableanimal.com/SOLAS.html",
+    "steam": "1257850",
+    "itch": "armor-games-studios.itch.io/solas-128",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/solas-128-switch/"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "qxSdSZpeE78"
   },
   "play_now": {},
   "physical_stores": {},

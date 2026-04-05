@@ -6,13 +6,22 @@
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "website": "https://aethericgames.itch.io/",
+  "website": "https://aetheric-games.com",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Aetheric Games is a tiny indie studio in Edinburgh, Scotland.",
+  "company_size": "2-10",
+  "links": {
+    "itch": "aethericgames",
+    "twitter": "AethericGames",
+    "steam": "Aetheric",
+    "discord": "https://aetheric-games.com/discord/"
+  },
+  "key_people": [
+    { "name": "Nick Bell", "title": "Developer" }
+  ],
   "use_tooling": [],
   "employee_stats": {},
-  "key_people": [],
   "awards": [],
   "news": []
 }

@@ -1,0 +1,20 @@
+{
+  "id": "the-powerpuff-girls-relish-rampage",
+  "title": "The Powerpuff Girls: Relish Rampage",
+  "slug": "the-powerpuff-girls-relish-rampage",
+  "short_description": "Blossom, Bubbles, and Buttercup defend Townsville from a pickle-obsessed alien invasion in this 3D action-adventure.",
+  "description": "The Powerpuff Girls: Relish Rampage is a 2002 action-adventure game developed by VIS Entertainment and published by BAM! Entertainment. Players control all three Powerpuff Girls flying through 3D environments to stop Mojo Jojo's election plot and a subsequent invasion by the alien Pickloids, who have conquered Townsville using the power of pickles. The GameCube version, released as the 'Pickled Edition', contained additional gameplay content over the original PS2 release.",
+  "status": "released",
+  "release_date": "2002-11-25",
+  "companies": {
+    "developer": ["vis-entertainment"],
+    "publishers": [{ "name": "BAM! Entertainment", "url": "https://en.wikipedia.org/wiki/BAM!_Entertainment" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["action-adventure"],
+  "platforms": ["ps2", "gamecube"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "The_Powerpuff_Girls:_Relish_Rampage", "mobygames": "the-powerpuff-girls-relish-rampage" },
+  "awards": [], "news": [], "is_student_game": false
+}

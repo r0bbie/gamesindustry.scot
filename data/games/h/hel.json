@@ -1,0 +1,24 @@
+{
+  "id": "hel",
+  "title": "Hel",
+  "slug": "hel",
+  "short_description": "An atmospheric walking sim set in a grim underworld, with a secret mechanic that may offer a path to a better afterlife.",
+  "description": "Hel can be played as an atmospheric walking sim set in a grim and eerie underworld, or you can try to discover the mysteries of Helheim and find a secret mechanic to escape to a better afterlife. The question is, does a better fate make you a better person?",
+  "status": "prototype",
+  "release_date": "2016",
+  "companies": {
+    "developer": ["aetheric-games"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["walking-sim", "exploration"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "itch": "aethericgames.itch.io/hel"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}

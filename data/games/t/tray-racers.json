@@ -1,0 +1,29 @@
+{
+  "id": "tray-racers",
+  "title": "Tray Racers",
+  "slug": "tray-racers",
+  "status": "released",
+  "release_date": "2023",
+  "companies": {
+    "developer": ["bit-loom"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["racing"],
+  "platforms": [],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "Scottish Games Awards - Art and Animation", "year": 2023, "status": "nominated" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

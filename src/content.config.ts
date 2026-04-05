@@ -25,7 +25,7 @@ const companyRefSchema = z.union([
 const awardSchema = z.object({
   name: z.string(),
   year: z.number(),
-  status: z.enum(["won", "nominated", "selected", "shortlisted"]),
+  status: z.enum(["won", "nominated", "selected", "shortlisted", "participated"]),
 });
 
 const newsSchema = z.object({
@@ -142,7 +142,7 @@ const games = defineCollection({
         end: z.union([z.string(), z.literal("present")]).nullable().optional(),
       })
       .optional(),
-    status: z.enum(["in_development", "released", "cancelled"]).default("in_development"),
+    status: z.enum(["in_development", "released", "cancelled", "prototype"]).default("in_development"),
     companies: z
       .object({
         developer: z.array(companyRefSchema).default([]),

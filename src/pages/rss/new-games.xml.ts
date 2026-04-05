@@ -1,10 +1,10 @@
 import type { APIRoute } from "astro";
-import { getAllGames, safeGetCompany } from "@/lib/data";
+import { getPublicGames, safeGetCompany } from "@/lib/data";
 import { getFirstReleaseSortTimestamp } from "@/lib/gameRelease";
 import { SITE_URL, SITE_TITLE, buildRssFeed } from "@/lib/feeds";
 
 export const GET: APIRoute = async () => {
-  const games = await getAllGames();
+  const games = await getPublicGames();
 
   const released = games
     .filter((g) => g.status === "released" && g.release_date)

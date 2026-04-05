@@ -1,0 +1,30 @@
+{
+  "id": "hjem",
+  "title": "HJEM",
+  "slug": "hjem",
+  "status": "released",
+  "release_date": "2019-02-01",
+  "companies": {
+    "developer": ["amicable-animal"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.amicableanimal.com/HJEM.html",
+    "itch": "amicableanimal.itch.io/hjem"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "_qxrzxAY-18"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "IDGA Scotland Community Choice Award (Edinburgh Winner)", "year": 2019, "status": "won" }
+  ],
+  "news": [], "is_student_game": false
+}

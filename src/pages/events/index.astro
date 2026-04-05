@@ -1,12 +1,12 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { getAllEvents, getAllGames } from "@/lib/data";
+import { getAllEvents, getPublicGames } from "@/lib/data";
 import { EVENT_TAGS, GITHUB_REPO } from "@/lib/constants";
 import EventCalendar from "@/components/events/EventCalendar";
 import type { EventData, GameRelease } from "@/components/events/EventCalendar";
 
 const events = await getAllEvents();
-const games = await getAllGames();
+const games = await getPublicGames();
 
 const today = new Date().toISOString().split("T")[0];
 

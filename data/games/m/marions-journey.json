@@ -1,0 +1,29 @@
+{
+  "id": "marions-journey",
+  "title": "Marion's Journey",
+  "slug": "marions-journey",
+  "status": "released",
+  "release_date": "2023",
+  "companies": {
+    "developer": ["chimera-tales"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "Scottish Games Awards - Creativity", "year": 2023, "status": "won" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

@@ -1,0 +1,20 @@
+{
+  "id": "state-of-emergency",
+  "title": "State of Emergency",
+  "slug": "state-of-emergency",
+  "short_description": "An anarchic beat 'em up set in a dystopian future where players join a revolutionary underground to topple a totalitarian corporation.",
+  "description": "State of Emergency is a 2002 beat 'em up developed by VIS Entertainment and published by Rockstar Games. Set in 2035, players join the resistance movement Freedom to battle against the American Trade Organization — a corporate regime that has taken control of the United States. Players choose from five unique characters and fight through swarming crowds in Capital City, with up to hundreds of enemies on screen simultaneously. The game is notable for its technical achievement of rendering large numbers of enemies on PS2 hardware. Despite mixed reviews, it sold over 700,000 copies on PlayStation 2 in the US by July 2006.",
+  "status": "released",
+  "release_date": "2002-02-12",
+  "companies": {
+    "developer": ["vis-entertainment"],
+    "publishers": [{ "name": "Rockstar Games", "url": "https://www.rockstargames.com/" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["beat-em-up", "action"],
+  "platforms": ["ps2", "xbox", "pc"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "State_of_Emergency_(video_game)", "mobygames": "state-of-emergency" },
+  "awards": [], "news": [], "is_student_game": false
+}

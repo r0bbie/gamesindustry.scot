@@ -44,7 +44,9 @@
     "metacritic": "blinnk-and-the-vacuum-of-space"
   },
   "database_links": {},
-  "awards": [],
+  "awards": [
+    { "name": "Scottish Games Awards - Pure Quality", "year": 2023, "status": "won" }
+  ],
   "news": [],
   "is_student_game": false,
   "cover_image": "https://media.gamesindustry.scot/games/blinnk-and-the-vacuum-of-space/cover.webp"

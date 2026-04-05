@@ -1,0 +1,32 @@
+{
+  "id": "pocket-planets",
+  "title": "Pocket Planets",
+  "slug": "pocket-planets",
+  "short_description": "An LD38 jam entry.",
+  "description": "Pocket Planets was an LD38 attempt.",
+  "status": "prototype",
+  "release_date": "2017-05-20",
+  "companies": {
+    "developer": ["arcade-badgers"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["browser"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.arcadebadgers.co.uk/releases/pocket-planets/index.html",
+    "itch": "arcadebadgers.itch.io/pocket-planets"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

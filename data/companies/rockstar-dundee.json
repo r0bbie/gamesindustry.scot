@@ -1,0 +1,31 @@
+{
+  "id": "rockstar-dundee",
+  "name": "Rockstar Dundee",
+  "slug": "rockstar-dundee",
+  "previously_known_as": ["Ruffian Games"],
+  "category": "developer",
+  "status": "active",
+  "founded": 2009,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://www.rockstargames.com/studios/rockstar-dundee",
+  "logo": null,
+  "highlighted": false,
+  "short_description": "Dundee-based studio founded as Ruffian Games in 2009 by Realtime Worlds alumni, acquired by Rockstar Games and renamed Rockstar Dundee in 2020.",
+  "parent_entity": {
+    "name": "Rockstar Games",
+    "url": "https://www.rockstargames.com/"
+  },
+  "links": {
+    "wikipedia": "Rockstar_Dundee",
+    "twitter": "RockstarDundee"
+  },
+  "key_people": [
+    { "name": "Gary Liddon", "title": "Co-founder" },
+    { "name": "Billy Thomson", "title": "Co-founder" }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": []
+}

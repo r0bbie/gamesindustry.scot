@@ -1,0 +1,29 @@
+{
+  "id": "ice-cream-wars",
+  "title": "Ice Cream Wars",
+  "slug": "ice-cream-wars",
+  "short_description": "A madcap arcade driving game in the unexpectedly cut-throat world of frozen confectionary distribution.",
+  "description": "A madcap arcade driving game in the unexpectedly cut-throat world of the frozen confectionary distribution industry.\n\nRace against the clock (and Gelatony's henchmen) to provide the residents of Rippleton with the sweet frozen treats they're craving.",
+  "status": "released",
+  "release_date": "2024-08-14",
+  "companies": {
+    "developer": ["ant-workshop"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["arcade", "driving"],
+  "platforms": ["pc", "switch"],
+  "screenshots": [],
+  "stores": {
+    "steam": "2917900",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/ice-cream-wars-switch/"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "3gXNdshUso0"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}

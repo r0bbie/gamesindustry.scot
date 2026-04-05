@@ -1,0 +1,35 @@
+{
+  "id": "a-bonnie-odyssey",
+  "title": "A Bonnie Odyssey",
+  "slug": "a-bonnie-odyssey",
+  "short_description": "A retrofuturist puzzle mystery set on an enigmatic abandoned island in the Scottish wilds.",
+  "description": "A Bonnie Odyssey is a retrofuturist puzzle mystery where you'll explore an enigmatic abandoned island. This open world sci-fi adventure in the Scottish wilds tells the tale of a father and daughter separated by time, unravel the secrets of your past, and meet odd little friends along the way.",
+  "status": "in_development",
+  "companies": {
+    "developer": ["astrodreamer-studio"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["puzzle", "adventure", "mystery"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "press_kit_url": "https://impress.games/press-kit/astrodreamer-studio/a-bonnie-odyssey",
+  "stores": {
+    "steam": "2442730"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "GlydAVClVRs"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

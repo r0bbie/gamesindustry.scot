@@ -1,0 +1,32 @@
+{
+  "id": "skye-tales",
+  "title": "Skye Tales",
+  "slug": "skye-tales",
+  "status": "released",
+  "release_date": "2022",
+  "companies": {
+    "developer": ["puny-astronaut"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["adventure"],
+  "platforms": ["pc", "ps4", "ps5", "switch"],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "Scottish Games Awards - Art and Animation", "year": 2023, "status": "won" },
+    { "name": "Scottish Games Awards - Audio", "year": 2023, "status": "nominated" },
+    { "name": "Scottish Games Awards - Best Large-Budget Game", "year": 2023, "status": "nominated" },
+    { "name": "Scottish Games Awards - Spirit of Scotland", "year": 2023, "status": "won" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

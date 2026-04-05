@@ -1,0 +1,69 @@
+{
+  "id": "agatha-christie-hercule-poirot-the-london-case",
+  "title": "Agatha Christie: Hercule Poirot – The London Case",
+  "slug": "agatha-christie-hercule-poirot-the-london-case",
+  "status": "released",
+  "release_date": "2023-08-29",
+  "companies": {
+    "developer": [
+      "blazing-griffin"
+    ],
+    "publishers": [
+      {
+        "name": "Microids",
+        "url": "https://www.microids.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure",
+    "mystery"
+  ],
+  "platforms": [
+    "pc",
+    "ps4",
+    "ps5",
+    "xbox-one",
+    "xbox-series-xs",
+    "switch"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "I2mJYc8aN-8"
+  },
+  "stores": {
+    "steam": "2223740",
+    "gog": "agatha_christie_hercule_poirot_the_london_case",
+    "xbox": "agatha-christie-hercule-poirot-the-london-case/9NW3ZWP70KSW"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "Scottish Games Awards - Audio",
+      "year": 2023,
+      "status": "nominated"
+    },
+    {
+      "name": "Scottish Games Awards - Best Large-Budget Game",
+      "year": 2023,
+      "status": "won"
+    },
+    {
+      "name": "Scottish Games Awards - Creativity",
+      "year": 2023,
+      "status": "nominated"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/agatha-christie-hercule-poirot-the-london-case/cover.webp"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "unto-the-aurora",
+  "title": "Unto the Aurora",
+  "slug": "unto-the-aurora",
+  "short_description": "A 16th century nautical tale from Arboreta Games.",
+  "description": "A 16th century nautical tale from Arboreta Games.",
+  "status": "released",
+  "release_date": "2025-09-12",
+  "companies": {
+    "developer": ["arboreta-games"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.arboretagames.com/games/untotheaurora",
+    "steam": "3601030",
+    "itch": "arboreta.itch.io/unto-the-aurora"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "IJnvxN4Vv48"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

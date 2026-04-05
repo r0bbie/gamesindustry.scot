@@ -1,0 +1,32 @@
+{
+  "id": "mini-dungeon-adventures",
+  "title": "Mini Dungeon Adventures",
+  "slug": "mini-dungeon-adventures",
+  "short_description": "A 1-bit clicker jam entry.",
+  "description": "Mini Dungeon Adventures is a 1-Bit Clicker Jam Entry.",
+  "status": "prototype",
+  "release_date": "2017-04-14",
+  "companies": {
+    "developer": ["arcade-badgers"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["browser"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.arcadebadgers.co.uk/releases/mini-dungeon-adventures/index.html",
+    "itch": "arcadebadgers.itch.io/mini-dungeon-adventures"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

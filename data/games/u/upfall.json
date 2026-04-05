@@ -1,0 +1,30 @@
+{
+  "id": "upfall",
+  "title": "Upfall",
+  "slug": "upfall",
+  "short_description": "A free game about bouncing, dodging, and near death experiences — burst bubbles to rise, but dodge the hazards below.",
+  "description": "Upfall is a game about bouncing, dodging, and near death experiences. Burst bubbles to progress upwards, but be careful to dodge the hazards in the depths. How far will your upfall be? A free game for the in betweens.",
+  "status": "released",
+  "release_date": "2025-05-19",
+  "companies": {
+    "developer": ["amicable-animal"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["arcade", "action"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.amicableanimal.com/Upfall.html",
+    "steam": "3570280",
+    "itch": "amicableanimal.itch.io/upfall"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "pNU2b42XLdY"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}

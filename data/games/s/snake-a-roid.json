@@ -1,0 +1,35 @@
+{
+  "id": "snake-a-roid",
+  "title": "Snake-A-Roid",
+  "slug": "snake-a-roid",
+  "short_description": "An arcade fusion of various classics producing a mix of unrelenting blasting action.",
+  "description": "Snake-A-Roid is an Arcade Fusion of various classics to produce a mix of unrelenting blasting action.",
+  "status": "released",
+  "companies": {
+    "developer": ["arcade-badgers"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["arcade", "action"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "steam": "690320",
+    "itch": "arcadebadgers.itch.io/snake-a-roid"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "s-u2YnY7zBo"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

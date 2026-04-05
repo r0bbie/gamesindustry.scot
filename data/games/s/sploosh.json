@@ -1,0 +1,33 @@
+{
+  "id": "sploosh",
+  "title": "Sploosh!",
+  "slug": "sploosh",
+  "short_description": "A Gameboy-inspired underwater search for treasure.",
+  "description": "Sploosh! is a Gameboy inspired underwater search for treasure.",
+  "status": "prototype",
+  "release_date": "2016-04-15",
+  "companies": {
+    "developer": ["arcade-badgers"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["browser"],
+  "screenshots": [],
+  "stores": {
+    "itch": "arcadebadgers.itch.io/sploosh"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "LowRezJam 2016", "year": 2016, "status": "participated" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

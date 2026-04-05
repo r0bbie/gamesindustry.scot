@@ -1,0 +1,30 @@
+{
+  "id": "minecraft-console-edition",
+  "title": "Minecraft: Console Edition",
+  "slug": "minecraft-console-edition",
+  "short_description": "4J Studios' acclaimed console port of Mojang's world-building phenomenon, spanning six console platforms from 2012 onwards.",
+  "description": "4J Studios developed and maintained the console versions of Minecraft from 2012, beginning with the Xbox 360 Edition and expanding to PlayStation 3, PlayStation 4, PlayStation Vita, Xbox One, Wii U, and Nintendo Switch. These editions introduced console-specific features, split-screen multiplayer, and regular content updates, establishing 4J Studios as the definitive console Minecraft developer.",
+  "status": "released",
+  "release_date": "2012-05-09",
+  "companies": {
+    "developer": ["4j-studios"],
+    "publishers": [{ "name": "Mojang Studios", "url": "https://www.minecraft.net/" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["sandbox", "survival", "creative"],
+  "platforms": ["xbox-360", "ps3", "ps4", "ps-vita", "xbox-one", "wii-u", "switch"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://4jstudios.com/minecraft/",
+    "psn": "https://www.playstation.com/en-gb/games/minecraft/",
+    "xbox": "https://www.xbox.com/en-GB/games/minecraft"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "di-itvdeoKI"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "Minecraft" },
+  "awards": [], "news": [], "is_student_game": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pizza-rat-collective",
+  "title": "Pizza Rat Collective",
+  "slug": "pizza-rat-collective",
+  "short_description": "Help a gang of rats work together — turning wheels, pulling cords, and chewing holes — to puzzle their way home with a giant slice of pizza.",
+  "description": "Help the rats work together to turn wheels, pull cords, chew holes in stuff… and solve puzzles that need the right rat in the right place at the right time. As the world opens up 'vania-style, eventually Pipsqueak will collect enough of her friends to drag that pizza home.",
+  "status": "in_development",
+  "companies": {
+    "developer": ["aetheric-games"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["puzzle", "platformer"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://aetheric-games.com/pizza-rat-collective/"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}

@@ -9,10 +9,29 @@
   "website": "https://www.somewhatunsettling.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Micro game development studio making games across mobile, console, PC, and VR.",
+  "company_size": "2-10",
+  "contact_email": "contact@somewhatunsettling.com",
+  "links": {
+    "twitter": "unsettlinggames",
+    "instagram": "somewhatunsettling",
+    "youtube": "somewhatunsettling",
+    "linkedin": "somewhat-unsettling",
+    "itch": "somewhatunsettling"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Somewhat Unsettling Ltd",
+      "companies_house_number": "SC642210"
+    }
+  ],
   "use_tooling": [],
   "employee_stats": {},
-  "key_people": [],
+  "key_people": [
+    { "name": "Alexander Tarvet", "title": "Developer" },
+    { "name": "Andrew Lindsay", "title": "Developer" },
+    { "name": "Arran Tarvet", "title": "Sound Designer" }
+  ],
   "awards": [],
   "news": []
 }

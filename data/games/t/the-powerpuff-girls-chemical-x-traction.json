@@ -1,0 +1,20 @@
+{
+  "id": "the-powerpuff-girls-chemical-x-traction",
+  "title": "The Powerpuff Girls: Chemical X-Traction",
+  "slug": "the-powerpuff-girls-chemical-x-traction",
+  "short_description": "Blossom, Bubbles, and Buttercup battle Townsville's empowered villains to reclaim the stolen Chemical X.",
+  "description": "The Powerpuff Girls: Chemical X-Traction is a 2001 3D fighting game developed by VIS Entertainment and Asylum Entertainment and published by BAM! Entertainment. After Mojo Jojo steals a Chemical X-laced pie and shares it with Townsville's villains — granting them all superpowers — the three Powerpuff Girls set out to track them down. Players battle through Story and Simulator modes across ten playable characters, collecting vials of Chemical X to unleash super-powered attacks. The game was released on PlayStation and Nintendo 64.",
+  "status": "released",
+  "release_date": "2001-11-14",
+  "companies": {
+    "developer": ["vis-entertainment"],
+    "publishers": [{ "name": "BAM! Entertainment", "url": "https://en.wikipedia.org/wiki/BAM!_Entertainment" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["fighting"],
+  "platforms": ["ps1", "n64"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "The_Powerpuff_Girls:_Chemical_X-Traction", "mobygames": "the-powerpuff-girls-chemical-x-traction" },
+  "awards": [], "news": [], "is_student_game": false
+}

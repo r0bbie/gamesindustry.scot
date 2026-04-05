@@ -15,6 +15,7 @@ import {
   getRegionName,
   buildSocialUrl,
   getCompanySizeLabel,
+  getCompanySizeEntry,
   GITHUB_REPO,
 } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
@@ -92,6 +93,7 @@ const releasedGames = devGames
     (a, b) => getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
   );
 const cancelledGames = devGames.filter((g) => g.status === "cancelled");
+const prototypeGames = devGames.filter((g) => g.status === "prototype");
 
 // Tab configuration
 interface Tab {
@@ -107,10 +109,11 @@ const hasTeamData = company.key_people.length > 0 || hasEmployeeStats;
 
 const tabs: Tab[] = [{ id: "overview", label: "Overview" }];
 
+const nonPrototypeGames = games.filter((g) => g.status !== "prototype");
 const showGamesTab =
   ["developer", "solo_developer", "service_provider", "publisher", "supporting_org"].includes(
     category
-  ) && games.length > 0;
+  ) && (nonPrototypeGames.length > 0 || prototypeGames.length > 0);
 if (showGamesTab) tabs.push({ id: "games", label: "Games" });
 
 if (category === "tooling") tabs.push({ id: "used-by", label: "Used By" });
@@ -400,7 +403,14 @@ const recentNews = companyNews.slice(0, 5);
                 )}
                 {recentGames.length > 0 && (
                   <div>
-                    <h3 class="mb-3 text-lg font-semibold">Recent Games</h3>
+                    <div class="mb-3 flex items-center justify-between">
+                      <h3 class="text-lg font-semibold">Recent Games</h3>
+                      {releasedGames.length > 3 && (
+                        <a href="#games" class="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                          View all {releasedGames.length} games →
+                        </a>
+                      )}
+                    </div>
                     <div class="grid gap-3 sm:grid-cols-3">
                       {recentGames.map((game) => (
                         <a
@@ -571,22 +581,27 @@ const recentNews = companyNews.slice(0, 5);
                 )
               }
               {
-                company.company_size && (
+                (company.company_size || company.employee_count) && (
                   <div>
                     <dt class="text-xs text-muted-foreground">Company Size</dt>
                     <dd class="text-sm font-medium">
-                      {company.company_size}{" "}
-                      <span class="font-normal text-muted-foreground">· {getCompanySizeLabel(company.company_size)}</span>
-                    </dd>
-                  </div>
-                )
-              }
-              {
-                company.employee_count && (
-                  <div>
-                    <dt class="text-xs text-muted-foreground">Employees</dt>
-                    <dd class="text-sm font-medium">
-                      {company.employee_count}
+                      {(() => {
+                        const entry = company.company_size ? getCompanySizeEntry(company.company_size) : null;
+                        const count = company.employee_count;
+                        if (entry) {
+                          return (
+                            <>
+                              {entry.range}{" "}
+                              <span class="font-normal text-muted-foreground">· {entry.label}</span>
+                              {count != null && entry.id !== "1" && (
+                                <span class="font-normal text-muted-foreground"> · {count} employees</span>
+                              )}
+                            </>
+                          );
+                        }
+                        if (count != null) return <>{count} employees</>;
+                        return company.company_size;
+                      })()}
                     </dd>
                   </div>
                 )
@@ -673,7 +688,7 @@ const recentNews = companyNews.slice(0, 5);
         <section id="games" data-tab-panel="games" class="hidden">
           <h2 class="mb-6 text-2xl font-semibold">Games</h2>
 
-          {category === "developer" && (
+          {(category === "developer" || category === "solo_developer") && (
             <div class="space-y-8">
               {inDevGames.length > 0 && (
                 <div>
@@ -781,6 +796,42 @@ const recentNews = companyNews.slice(0, 5);
                         <h4 class="text-sm font-medium group-hover:text-primary">
                           {game.title}
                         </h4>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {prototypeGames.length > 0 && (
+                <div>
+                  <h3 class="mb-3 text-lg font-medium text-muted-foreground">
+                    Prototypes &amp; Experiments
+                  </h3>
+                  <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+                    {prototypeGames.map((game) => (
+                      <a
+                        href={`/games/${game.slug}`}
+                        class="group rounded-lg border border-dashed border-border bg-card/50 p-3 opacity-70 transition-colors hover:border-primary/30 hover:opacity-100"
+                      >
+                        <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                          {game.cover_image ? (
+                            <img
+                              src={game.cover_image}
+                              alt=""
+                              class="h-full w-full rounded-md object-cover"
+                            />
+                          ) : (
+                            <span
+                              class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                              style={`background: ${getCoverGradient(game.title)}`}
+                            >{game.title.charAt(0)}</span>
+                          )}
+                        </div>
+                        <h4 class="text-sm font-medium group-hover:text-primary">
+                          {game.title}
+                        </h4>
+                        <p class="mt-0.5 text-xs text-muted-foreground">
+                          {formatGameReleaseLineDisplay(game)}
+                        </p>
                       </a>
                     ))}
                   </div>

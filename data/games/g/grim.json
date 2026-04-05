@@ -1,0 +1,31 @@
+{
+  "id": "grim",
+  "title": "Grim",
+  "slug": "grim",
+
+  "status": "released",
+  "release_date": "2014-05-24",
+  "companies": {
+    "developer": ["arcade-badgers"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.arcadebadgers.co.uk/releases/grim/index.html",
+    "itch": "arcadebadgers.itch.io/grim"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

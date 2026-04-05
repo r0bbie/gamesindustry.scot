@@ -1,0 +1,20 @@
+{
+  "id": "breeders-cup-world-thoroughbred-championships",
+  "title": "Breeders' Cup World Thoroughbred Championships",
+  "slug": "breeders-cup-world-thoroughbred-championships",
+  "short_description": "An officially licensed horse racing game featuring Career Mode, betting, and commentary from Breeders' Cup announcer Tom Durkin.",
+  "description": "Breeders' Cup World Thoroughbred Championships is a 2005 horse racing game developed by 4J Studios and published by Bethesda Softworks, officially licensed by the National Thoroughbred Racing Association and Breeders' Cup Limited. The game features several modes including Quick Race, A Day at the Races (a betting simulation), and a full Career Mode where players can breed, train, and race horses across multiple events. Commentary is provided by real Breeders' Cup announcer Tom Durkin.",
+  "status": "released",
+  "release_date": "2005-09-21",
+  "companies": {
+    "developer": ["4j-studios"],
+    "publishers": [{ "name": "Bethesda Softworks", "url": "https://bethesda.net/" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["sports", "racing"],
+  "platforms": ["xbox", "ps2"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "Breeders%27_Cup_World_Thoroughbred_Championships_(video_game)", "mobygames": "breeders-cup-world-thoroughbred-championships" },
+  "awards": [], "news": [], "is_student_game": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": "apb-all-points-bulletin",
+  "title": "APB: All Points Bulletin",
+  "slug": "apb-all-points-bulletin",
+  "short_description": "A massively multiplayer online action game pitting Enforcers against Criminals across an open urban world.",
+  "description": "APB: All Points Bulletin is a massively multiplayer online action game developed and published by Realtime Worlds. Set across two districts of San Paro, players choose to play as Enforcers (upholding the law) or Criminals (breaking it), engaging in open-world missions and PvP conflicts. The game launched in June 2010 to mixed reviews and was shut down in September 2010 following Realtime Worlds entering administration — just 84 days after release. The IP was subsequently acquired by GamersFirst, who relaunched it as APB: Reloaded as a free-to-play title.",
+  "release_date": "2010-06-29",
+  "status": "released",
+  "companies": {
+    "developer": ["realtime-worlds"],
+    "publishers": ["realtime-worlds"],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["action", "mmo", "shooter"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "APB:_All_Points_Bulletin",
+    "mobygames": "apb-all-points-bulletin",
+    "igdb": "apb-all-points-bulletin"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "central-limit-theorem",
+  "title": "Central Limit Theorem",
+  "slug": "central-limit-theorem",
+  "short_description": "A quick, stressful high-score survival shooter where you protect your core from attacking shapes.",
+  "description": "Central Limit Theorem is a survival shooter where you have to protect your core for as long as you can from the shapes attacking it. It's a quick, simple, stressful, high-score shooter designed to be played between other, more substantial games.",
+  "status": "released",
+  "release_date": "2018",
+  "companies": {
+    "developer": ["amicable-animal"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["shooter", "survival", "arcade"],
+  "platforms": ["browser", "pc"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.amicableanimal.com/CentralLimit.html",
+    "itch": "amicableanimal.itch.io/central-limit-theorem"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "Lw2SghgC-Co"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "IDGA Scotland Community Choice Award (Edinburgh Winner)", "year": 2018, "status": "won" }
+  ],
+  "news": [], "is_student_game": false
+}

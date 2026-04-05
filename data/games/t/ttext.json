@@ -1,0 +1,33 @@
+{
+  "id": "ttext",
+  "title": "TTEXT",
+  "slug": "ttext",
+  "short_description": "A retro television adventure game played with a TV remote.",
+  "description": "TText is a retro television adventure game played with a TV remote.",
+  "status": "released",
+  "release_date": "2021",
+  "companies": {
+    "developer": ["somewhat-unsettling"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [],
+  "screenshots": [],
+  "stores": {
+    "itch": "somewhatunsettling.itch.io/ttext"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "Abertay Alt Controller Jam", "year": 2023, "status": "participated" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

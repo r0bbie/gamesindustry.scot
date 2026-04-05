@@ -1,0 +1,34 @@
+{
+  "id": "low-rez-fishn",
+  "title": "Low Rez Fish'n",
+  "slug": "low-rez-fishn",
+  "short_description": "A LowRezJam 2019 entry.",
+  "description": "Low Rez Fish'n was a lowrezjam 2019 entry.",
+  "status": "prototype",
+  "release_date": "2019-08-17",
+  "companies": {
+    "developer": ["arcade-badgers"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["browser"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.arcadebadgers.co.uk/releases/lowrezfishn/index.html",
+    "itch": "arcadebadgers.itch.io/low-rez-fishn"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "LowRezJam 2019", "year": 2019, "status": "participated" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

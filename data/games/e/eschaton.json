@@ -1,0 +1,29 @@
+{
+  "id": "eschaton",
+  "title": "Eschaton",
+  "slug": "eschaton",
+  "status": "released",
+  "release_date": "2023",
+  "companies": {
+    "developer": ["jabuga"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "Scottish Games Awards - Audio", "year": 2023, "status": "won" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

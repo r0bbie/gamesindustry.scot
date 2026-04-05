@@ -1,0 +1,26 @@
+{
+  "id": "vis-entertainment",
+  "name": "VIS Entertainment",
+  "slug": "vis-entertainment",
+  "previously_known_as": ["VIS Interactive"],
+  "category": "developer",
+  "status": "defunct",
+  "founded": 1996,
+  "location": "Edinburgh",
+  "region": "edinburgh-lothians",
+  "website": null,
+  "logo": null,
+  "highlighted": false,
+  "short_description": "Edinburgh developer behind State of Emergency and Evil Dead: A Fistful of Boomstick, founded in 1996 and closed in 2005.",
+  "company_size": "11-50",
+  "links": {
+    "wikipedia": "VIS_Entertainment"
+  },
+  "key_people": [
+    { "name": "Chris van der Kuyl", "title": "President and CEO" }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": []
+}

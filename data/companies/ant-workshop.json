@@ -4,15 +4,33 @@
   "slug": "ant-workshop",
   "category": "developer",
   "status": "active",
+  "founded": 2015,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
   "website": "https://www.ant-workshop.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "short_description": "BAFTA, Develop and TIGA Award nominated Edinburgh studio making original IP with character and a quirky sense of humour.",
+  "about": "Ant Workshop is a BAFTA, Develop and TIGA Award nominated studio founded in January 2015 by Tony Gowland to focus on developing original IP full of character and with a quirky sense of humour. As well as their own titles, they've also helped bring over a dozen cool games (such as John Wick Hex, Yes Your Grace, and Thomas Was Alone) to current and next generation console platforms.",
+  "contact_email": "press@ant-workshop.com",
+  "legal_entities": [
+    { "uk_registered_name": "Ant Workshop Ltd", "companies_house_number": "SC499519" }
+  ],
+  "links": {
+    "discord": "P6NFbuf",
+    "twitter": "antworkshop",
+    "bluesky": "ant-workshop.com",
+    "youtube": "channel/UC3Rbt-MNHfYJt008xdlse4Q",
+    "press_kit": "https://impress.games/press-kit/ant-workshop"
+  },
+  "key_people": [
+    { "name": "Tony Gowland", "title": "Managing Director" },
+    { "name": "James Paton", "title": "Code" },
+    { "name": "Rachel Cassandro", "title": "Art" }
+  ],
   "use_tooling": [],
   "employee_stats": {},
-  "key_people": [],
   "awards": [],
   "news": []
 }

@@ -1,0 +1,20 @@
+{
+  "id": "tom-and-jerry-in-fists-of-furry",
+  "title": "Tom and Jerry in Fists of Furry",
+  "slug": "tom-and-jerry-in-fists-of-furry",
+  "short_description": "Tom, Jerry, and their cartoon adversaries throw down in slapstick 3D arena combat.",
+  "description": "Tom and Jerry in Fists of Furry is a 2000 fighting game developed by VIS Interactive for Nintendo 64 and PC. Taking inspiration from the slapstick humour of the classic cartoons, players battle in themed arenas drawn from the Tom and Jerry TV show using environmental objects like chairs, pool cues, and bombs. Seven characters are available, with Tom and Jerry playable from the start and others — including Butch, Duckling, Tuffy, Spike and Tyke — unlocked by completing the game. The controls were deliberately simplified to be accessible to all ages. It was praised by Nintendo Power as the best 3D fighting game on N64.",
+  "status": "released",
+  "release_date": "2000-11-08",
+  "companies": {
+    "developer": ["vis-entertainment"],
+    "publishers": [{ "name": "NewKidCo", "url": "https://en.wikipedia.org/wiki/NewKidCo" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["fighting"],
+  "platforms": ["n64", "pc"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "Tom_and_Jerry_in_Fists_of_Furry", "mobygames": "tom-and-jerry-in-fists-of-furry" },
+  "awards": [], "news": [], "is_student_game": false
+}

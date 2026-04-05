@@ -45,24 +45,37 @@ function toggle(set: Set<string>, id: string): Set<string> {
   return next;
 }
 
-export default function CompanyListView({ companies, gameCountMap = {} }: Props) {
-  const [search, setSearch] = useState("");
-  const [selectedCategories, setSelectedCategories] = useState<Set<string>>(new Set());
-  const [selectedRegions, setSelectedRegions] = useState<Set<string>>(new Set());
-  const [includeDefunct, setIncludeDefunct] = useState(false);
-  const [sort, setSort] = useState<SortValue>("name");
-  const [currentPage, setCurrentPage] = useState(1);
-  const searchRef = useRef<HTMLInputElement>(null);
+function readUrlParams() {
+  if (typeof window === "undefined") return new URLSearchParams();
+  return new URLSearchParams(window.location.search);
+}
 
-  // Read URL params on mount
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const cat = params.get("category");
-    if (cat) setSelectedCategories(new Set(cat.split(",")));
-    const reg = params.get("region");
-    if (reg) setSelectedRegions(new Set(reg.split(",")));
-    if (params.get("status") === "defunct") setIncludeDefunct(true);
-  }, []);
+function initSort(): SortValue {
+  const v = readUrlParams().get("sort");
+  if (v && SORT_OPTIONS.some((o) => o.value === v)) return v as SortValue;
+  return "name";
+}
+
+function initPage(): number {
+  const v = parseInt(readUrlParams().get("page") ?? "1", 10);
+  return isNaN(v) || v < 1 ? 1 : v;
+}
+
+export default function CompanyListView({ companies, gameCountMap = {} }: Props) {
+  const [search, setSearch] = useState(() => readUrlParams().get("q") ?? "");
+  const [selectedCategories, setSelectedCategories] = useState<Set<string>>(() => {
+    const v = readUrlParams().get("category");
+    return v ? new Set(v.split(",")) : new Set();
+  });
+  const [selectedRegions, setSelectedRegions] = useState<Set<string>>(() => {
+    const v = readUrlParams().get("region");
+    return v ? new Set(v.split(",")) : new Set();
+  });
+  const [includeDefunct, setIncludeDefunct] = useState(() => readUrlParams().get("status") === "defunct");
+  const [sort, setSort] = useState<SortValue>(initSort);
+  const [currentPage, setCurrentPage] = useState(initPage);
+  const searchRef = useRef<HTMLInputElement>(null);
+  const isFirstRender = useRef(true);
 
   const totalVisible = useMemo(
     () => companies.filter((c) => includeDefunct || c.status !== "defunct").length,
@@ -106,7 +119,24 @@ export default function CompanyListView({ companies, gameCountMap = {} }: Props)
     return result;
   }, [companies, search, selectedCategories, selectedRegions, includeDefunct, sort, gameCountMap]);
 
-  useEffect(() => { setCurrentPage(1); }, [search, selectedCategories, selectedRegions, includeDefunct, sort]);
+  // Reset to page 1 when filters change, but not on the initial render
+  useEffect(() => {
+    if (isFirstRender.current) { isFirstRender.current = false; return; }
+    setCurrentPage(1);
+  }, [search, selectedCategories, selectedRegions, includeDefunct, sort]);
+
+  // Keep URL in sync so back-navigation restores the exact page + filters
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (search) params.set("q", search);
+    if (includeDefunct) params.set("status", "defunct");
+    if (selectedCategories.size > 0) params.set("category", [...selectedCategories].join(","));
+    if (selectedRegions.size > 0) params.set("region", [...selectedRegions].join(","));
+    if (sort !== "name") params.set("sort", sort);
+    if (currentPage > 1) params.set("page", String(currentPage));
+    const qs = params.toString();
+    history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+  }, [search, includeDefunct, selectedCategories, selectedRegions, sort, currentPage]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const paginated = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);

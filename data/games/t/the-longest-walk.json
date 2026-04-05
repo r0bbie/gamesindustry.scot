@@ -1,0 +1,57 @@
+{
+  "id": "the-longest-walk",
+  "title": "The Longest Walk",
+  "slug": "the-longest-walk",
+  "short_description": "A BAFTA-nominated biographical documentary walking simulator about a father's experience of living with depression and suicidal thoughts.",
+  "description": "The Longest Walk is a BAFTA-Nominated, deeply personal biographical documentary walking simulator game about a father's experience of living with depression and suicidal thoughts. The game aims to help reduce feelings of isolation and encourage those who are struggling with depression or experiencing suicidal thoughts to reach out for help.",
+  "status": "released",
+  "release_date": "2022-09-10",
+  "companies": {
+    "developer": [
+      "somewhat-unsettling"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "walking-simulator",
+    "narrative"
+  ],
+  "platforms": [
+    "pc",
+    "vr",
+    "meta-quest"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "6X_7DmgXk6M"
+  },
+  "stores": {
+    "steam": "2111060",
+    "itch": "thesandymancan.itch.io/the-longest-walk"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "Scottish Games Awards - Best Small-Budget Game",
+      "year": 2023,
+      "status": "won"
+    },
+    {
+      "name": "Scottish Games Awards - Pure Quality",
+      "year": 2023,
+      "status": "nominated"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-longest-walk/cover.webp"
+}

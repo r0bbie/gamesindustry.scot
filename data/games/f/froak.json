@@ -1,0 +1,34 @@
+{
+  "id": "froak",
+  "title": "Froak",
+  "slug": "froak",
+  "short_description": "A multiplayer party battler where you must eat more flies than your opponents.",
+  "description": "Froak is a multi-player party battler where you must eat more flies than your opponents. Entry for 2017 LowRezJam.",
+  "status": "prototype",
+  "release_date": "2017-08-17",
+  "companies": {
+    "developer": ["arcade-badgers"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["browser"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.arcadebadgers.co.uk/releases/froak/index.html",
+    "itch": "arcadebadgers.itch.io/froak"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "LowRezJam 2017", "year": 2017, "status": "participated" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

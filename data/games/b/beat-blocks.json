@@ -1,0 +1,29 @@
+{
+  "id": "beat-blocks",
+  "title": "Beat Blocks",
+  "slug": "beat-blocks",
+  "status": "released",
+  "release_date": "2023",
+  "companies": {
+    "developer": ["playable-tech"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "Scottish Games Awards - Pure Quality", "year": 2023, "status": "nominated" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

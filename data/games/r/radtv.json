@@ -1,0 +1,27 @@
+{
+  "id": "radtv",
+  "title": "RADtv",
+  "slug": "radtv",
+  "status": "released",
+  "release_date": "2019",
+  "companies": {
+    "developer": [{ "name": "Ruffian Games", "company_id": "rockstar-dundee" }],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

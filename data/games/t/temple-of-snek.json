@@ -1,0 +1,23 @@
+{
+  "id": "temple-of-snek",
+  "title": "Temple Of Snek",
+  "slug": "temple-of-snek",
+  "status": "released",
+  "release_date": "2023-02-05",
+  "companies": {
+    "developer": ["aetheric-games"],
+    "publishers": [{ "name": "Pixeljam", "url": "https://www.pixeljam.com" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "steam": "1208590",
+    "itch": "pixeljam.itch.io/temple-of-snek"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}

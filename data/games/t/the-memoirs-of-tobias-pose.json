@@ -1,0 +1,31 @@
+{
+  "id": "the-memoirs-of-tobias-pose",
+  "title": "The Memoirs of Tobias Pose",
+  "slug": "the-memoirs-of-tobias-pose",
+  "short_description": "A heart-wrenching rendition of the life of everyday hero Tobias Pose, expanded and enhanced for Playdate.",
+  "description": "Somewhat Unsettling proudly presents a heart-wrenching rendition of the life of everyday hero Tobias Pose, expanded and enhanced for Playdate.",
+  "status": "released",
+  "release_date": "2026-03",
+  "companies": {
+    "developer": ["somewhat-unsettling"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["playdate"],
+  "screenshots": [],
+  "stores": {
+    "itch": "somewhatunsettling.itch.io/tobias"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

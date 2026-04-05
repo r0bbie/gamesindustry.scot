@@ -3,16 +3,36 @@
   "name": "Axis Animation",
   "slug": "axis-animation",
   "category": "service_provider",
-  "status": "active",
+  "status": "defunct",
+  "founded": 2000,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://www.axisanimation.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "101-250",
+  "short_description": "Glasgow animation studio behind cinematic trailers for Halo, Alien: Isolation, and many more — BAFTA and Emmy-winning, closed 2024.",
+  "about": "Based in Glasgow, Axis Animation spent over two decades as one of Scotland's most decorated animation studios. Bringing together producers, directors, designers, artists, and animators, the studio became a trusted partner to major games publishers, crafting high-end trailers and cinematic short films for franchises including Halo, Fable Legends, Need for Speed Rivals, and Alien: Isolation. Their work earned widespread industry recognition, including a Best Animation BAFTA and the Imagina Grand Jury Prize. Founded in 2000, Axis closed in July 2024 with the loss of around 160 jobs.",
+  "links": {
+    "twitter": "axisstudiosgrp",
+    "linkedin": "axis-animation"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Emmy-winning animation studio collapses with 160 job losses",
+      "publication": "BBC News",
+      "date": "2024-07-16",
+      "url": "https://www.bbc.co.uk/news/articles/cv2gvqlezn1o"
+    },
+    {
+      "title": "Axis Studios Closes: The Hidden VFX Ally Behind Stop Motion's Digital Edge",
+      "publication": "Stop Motion Magazine",
+      "date": "2025-10-09",
+      "url": "https://stopmotionmagazine.com/axis-studios-closure-vfx-stop-motion/"
+    }
+  ]
 }

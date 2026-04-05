@@ -1,0 +1,20 @@
+{
+  "id": "narc",
+  "title": "NARC",
+  "slug": "narc",
+  "short_description": "Two narcotics officers investigate a new street drug called Liquid Soul in this gritty reimagining of the 1988 arcade classic.",
+  "description": "NARC is a 2005 action game developed by VIS Entertainment and published by Midway Games, revisiting the property of the 1988 Williams Electronics arcade classic. Players take on the roles of narcotics officer Jack Forzenski (voiced by Michael Madsen) and DEA agent Marcus Hill (voiced by Bill Bellamy), former partners reunited to investigate a dangerous new drug called Liquid Soul. The game features a moral choice system — players can take confiscated drugs for personal use to gain combat advantages, or hand them into evidence for a cleaner playthrough. Released March 2005 for Xbox and PS2.",
+  "status": "released",
+  "release_date": "2005-03-21",
+  "companies": {
+    "developer": ["vis-entertainment"],
+    "publishers": [{ "name": "Midway Games", "url": "https://en.wikipedia.org/wiki/Midway_Games" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["action", "shooter"],
+  "platforms": ["xbox", "ps2"],
+  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "Narc_(2005_video_game)", "mobygames": "narc" },
+  "awards": [], "news": [], "is_student_game": false
+}

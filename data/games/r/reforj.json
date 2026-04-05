@@ -1,0 +1,28 @@
+{
+  "id": "reforj",
+  "title": "Reforj",
+  "slug": "reforj",
+  "short_description": "An open-world survival sandbox from the makers of Minecraft Console Edition, with a unique sculpting mechanic for freeform world-building.",
+  "description": "Reforj is an open-world survival sandbox game being developed by 4J Studios, the team behind Minecraft Console Edition. Built on 4J's proprietary Elements Engine, Reforj draws inspiration from Minecraft while introducing a distinctive sculpting mechanic that allows players to manipulate voxel terrain using a broader range of shapes and angles for greater creative flexibility. Players survive in procedurally generated worlds, combat enemy mobs, and traverse gateways to new environments. A Creative Mode allows unrestricted building without resource or damage constraints. The game is being developed with YouTuber and designer Joseph Garrett (Stampy). An early Pioneer access programme launched in April 2025.",
+  "status": "in_development",
+  "companies": {
+    "developer": ["4j-studios"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["sandbox", "survival", "open-world"],
+  "platforms": ["pc", "ps5", "xbox-series-xs"],
+  "screenshots": [],
+  "stores": {
+    "website": "https://reforj.game",
+    "steam": "3202730"
+  },
+  "play_now": {}, "physical_stores": {},
+  "video": {
+    "type": "youtube",
+    "id": "RjyUhpXEew4"
+  },
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": { "wikipedia": "Reforj" },
+  "awards": [], "news": [], "is_student_game": false
+}

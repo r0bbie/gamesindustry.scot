@@ -17,7 +17,12 @@
   "parent_entity": null,
   "company_size": null,
   "employee_count": null,
-  "links": {},
+  "contact_email": "hello@amicableanimal.com",
+  "links": {
+    "bluesky": "amicableanimal.bsky.social",
+    "itch": "amicableanimal",
+    "youtube": "channel/UCzJ0oeDku60uzlyc2dJqPmA"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

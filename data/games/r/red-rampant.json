@@ -1,0 +1,29 @@
+{
+  "id": "red-rampant",
+  "title": "Red Rampant",
+  "slug": "red-rampant",
+  "status": "released",
+  "release_date": "2023",
+  "companies": {
+    "developer": ["eclectic-synthesis"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "Scottish Games Awards - Spirit of Scotland", "year": 2023, "status": "nominated" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

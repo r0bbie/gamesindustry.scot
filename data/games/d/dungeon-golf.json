@@ -1,0 +1,29 @@
+{
+  "id": "dungeon-golf",
+  "title": "Dungeon Golf",
+  "slug": "dungeon-golf",
+  "short_description": "Pick your golfer from a roster of whacky fantasy favourites in this mini golf party game with online and local multiplayer.",
+  "description": "Pick your golfer from a roster of whacky fantasy favourites in this mini golf party game! Compete in online and local multiplayer or polish your putt in single player story mode. Whack balls, defeat monsters, and get the upper hand with unique abilities to stay one swing ahead of your opponents.",
+  "status": "released",
+  "release_date": "2023-11-17",
+  "companies": {
+    "developer": ["ant-workshop"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["sports", "party", "golf"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "press_kit_url": "https://impress.games/press-kit/ant-workshop/dungeon-golf",
+  "stores": {
+    "steam": "2144040"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "DYpPSxGylDc"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}

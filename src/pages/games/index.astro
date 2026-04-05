@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { getAllGames, safeGetCompany } from "@/lib/data";
+import { getPublicGames, safeGetCompany } from "@/lib/data";
 import type { Game } from "@/lib/data";
 import type { GameWithDeveloper } from "@/components/games/GameListView";
 import { GITHUB_REPO } from "@/lib/constants";
@@ -10,7 +10,7 @@ import {
   compareUpcoming,
 } from "@/lib/gameRelease";
 
-const games = await getAllGames();
+const games = await getPublicGames();
 
 function shortName(name: string): string {
   return name.replace(/\s*\([^)]*\)\s*$/, "").trim();
@@ -48,6 +48,7 @@ const releasedGames = gamesWithDevs.filter((g) => g.status === "released");
 const upcomingGames = gamesWithDevs.filter((g) => g.status === "in_development");
 
 const newReleases = [...releasedGames]
+  .filter((g) => g.cover_image)
   .sort(
     (a, b) => getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
   )

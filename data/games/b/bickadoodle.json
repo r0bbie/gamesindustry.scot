@@ -1,0 +1,24 @@
+{
+  "id": "bickadoodle",
+  "title": "Bickadoodle",
+  "slug": "bickadoodle",
+  "short_description": "A short comedy stick-man fairy-tale adventure made with Wintermute Engine.",
+  "description": "Bickadoodle is a short adventure made with the Wintermute Engine in 2013. It's a comedy stick-man fairy-tale with a twist. Laugh! Vanquish evil! Use magic potions! Quest for treasure! Ride your very own horse! Maybe find true love?",
+  "status": "prototype",
+  "release_date": "2013",
+  "companies": {
+    "developer": ["aetheric-games"],
+    "publishers": [],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": ["adventure", "comedy"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "itch": "aethericgames.itch.io/bickadoodle"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}

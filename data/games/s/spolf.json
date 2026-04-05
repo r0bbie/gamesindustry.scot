@@ -1,0 +1,36 @@
+{
+  "id": "spolf",
+  "title": "Spolf",
+  "slug": "spolf",
+  "short_description": "A free golf puzzle game where two tethered balls swing and customise their way around the Spolf world.",
+  "description": "Spolf is a free golf puzzle game by Astrodreamer Studio! Equipped with two balls attached with a tether, swing and customise your way around the Spolf world, where golfing takes a twist like never before! There's so much customization and new items to collect.",
+  "status": "released",
+  "release_date": "2024-06-05",
+  "companies": {
+    "developer": ["astrodreamer-studio"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["puzzle", "sports", "golf"],
+  "platforms": ["android"],
+  "screenshots": [],
+  "stores": {
+    "itch": "astrodreamer-studio.itch.io/spolf",
+    "google_play": "com.AstrodreamerStudio.Spolf"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "5QKRfWG4jOk"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

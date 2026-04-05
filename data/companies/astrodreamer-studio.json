@@ -4,15 +4,41 @@
   "slug": "astrodreamer-studio",
   "category": "developer",
   "status": "active",
+  "founded": 2021,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "https://www.astrodreamerstudio.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Dundee studio crafting narrative-rich games with fun interactivity.",
+  "about": "Astrodreamer is a creative and enthusiastic Scottish team born out of the lockdown ready to make a name for ourselves on an industry-wide scale. We craft games that are narrative rich with fun interactivity and leave the player wanting more.",
+  "legal_entities": [
+    { "uk_registered_name": "Astrodreamer Studio Ltd", "companies_house_number": "SC687802" }
+  ],
+  "links": {
+    "linkedin": "astrodreamer-studio",
+    "instagram": "astrodreamerstudio",
+    "youtube": "@astrodreamerstudio",
+    "itch": "astrodreamer-studio",
+    "twitter": "Astrodreamer_",
+    "press_kit": "https://impress.games/press-kit/astrodreamer-studio"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Dundee indie games studio Astrodreamer getting off the ground thanks to major cash injections",
+      "publication": "The Courier",
+      "date": "2023-07-30",
+      "url": "https://www.thecourier.co.uk/fp/entertainment/4570714/dundee-astrodreamer-studio/"
+    },
+    {
+      "title": "Astrodreamer Studio Rebrands: Dundee Studio Behind A Bonnie Odyssey Focusing On Early Stage Support For Partners",
+      "publication": "Scottish Games",
+      "date": "2023-12-05",
+      "url": "https://scottishgames.net/2023/12/05/astrodreamer-studio-rebrands/"
+    }
+  ]
 }

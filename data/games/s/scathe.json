@@ -1,0 +1,29 @@
+{
+  "id": "scathe",
+  "title": "Scathe",
+  "slug": "scathe",
+  "status": "released",
+  "release_date": "2022",
+  "companies": {
+    "developer": ["damage-state"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["shooter", "action"],
+  "platforms": ["pc", "ps4", "ps5", "xbox-one", "xbox-series-xs", "switch"],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    { "name": "Scottish Games Awards - Best Large-Budget Game", "year": 2023, "status": "nominated" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

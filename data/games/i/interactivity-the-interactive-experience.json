@@ -1,0 +1,23 @@
+{
+  "id": "interactivity-the-interactive-experience",
+  "title": "Interactivity: The Interactive Experience",
+  "slug": "interactivity-the-interactive-experience",
+  "status": "released",
+  "release_date": "2019-10-23",
+  "companies": {
+    "developer": ["aetheric-games"],
+    "publishers": [{ "name": "Pixeljam", "url": "https://www.pixeljam.com" }],
+    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+  },
+  "genres": [],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "steam": "1166780",
+    "itch": "aethericgames.itch.io/interactivity-the-interactive-experience"
+  },
+  "play_now": {}, "physical_stores": {},
+  "critic_ratings": {}, "critic_ids": {},
+  "database_links": {},
+  "awards": [], "news": [], "is_student_game": false
+}
