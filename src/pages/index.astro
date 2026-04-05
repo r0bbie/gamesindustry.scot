@@ -27,7 +27,7 @@ const highlightedCompanies = shuffleArray(
   allCompanies.filter((c) => c.highlighted)
 ).slice(0, 4);
 
-// New Releases: released games, most recently launched first, max 4
+// New Releases: released games, most recently launched first, max 5
 // Uses start of release_period (not end) so ongoing titles don't float up
 const newReleases = allGames
   .filter((g) => g.status === "released" && g.release_date)
@@ -35,20 +35,25 @@ const newReleases = allGames
     (a, b) =>
       getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
   )
-  .slice(0, 4);
+  .slice(0, 5);
 
 // Upcoming Games: exact date → year+month → year only → TBA
 const upcomingGames = allGames
   .filter((g) => g.status === "in_development")
   .sort(compareUpcoming)
-  .slice(0, 4);
+  .slice(0, 5);
 
 // Resolve developer names for game cards
+function shortName(name: string): string {
+  return name.replace(/\s*\([^)]*\)\s*$/, "").trim();
+}
+
 async function resolveDeveloper(game: typeof newReleases[number]): Promise<string> {
-  const devId = game.companies.developer[0];
-  if (!devId) return "Unknown developer";
-  const company = await safeGetCompany(devId, "homepage");
-  return company?.name ?? "Unknown developer";
+  const devRef = game.companies.developer[0];
+  if (!devRef) return "Unknown developer";
+  if (typeof devRef === "object") return shortName(devRef.name);
+  const company = await safeGetCompany(devRef, "homepage");
+  return company ? shortName(company.name) : "Unknown developer";
 }
 
 const newReleaseDevelopers = await Promise.all(newReleases.map(resolveDeveloper));

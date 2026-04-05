@@ -502,7 +502,10 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
               {sortedAwards.slice(0, 6).map((award) => (
                 <div class="flex items-center justify-between rounded-lg border border-border bg-card px-4 py-3">
                   <div class="flex items-center gap-3">
-                    <svg class="h-5 w-5 shrink-0 text-highlight" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg
+                      class:list={["h-5 w-5 shrink-0", award.status === "won" ? "text-highlight" : "text-muted-foreground"]}
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    >
                       <circle cx="12" cy="8" r="6" />
                       <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
                     </svg>
@@ -519,7 +522,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                         : "border-border bg-muted text-muted-foreground",
                     ]}
                   >
-                    {award.status === "won" ? "Won" : "Nominated"}
+                    {award.status === "won" ? "Won" : award.status === "nominated" ? "Nominated" : award.status === "shortlisted" ? "Shortlisted" : "Selected"}
                   </span>
                 </div>
               ))}
@@ -529,7 +532,10 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                 {sortedAwards.slice(6).map((award) => (
                   <div class="flex items-center justify-between rounded-lg border border-border bg-card px-4 py-3">
                     <div class="flex items-center gap-3">
-                      <svg class="h-5 w-5 shrink-0 text-highlight" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <svg
+                        class:list={["h-5 w-5 shrink-0", award.status === "won" ? "text-highlight" : "text-muted-foreground"]}
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      >
                         <circle cx="12" cy="8" r="6" />
                         <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
                       </svg>
@@ -546,7 +552,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                           : "border-border bg-muted text-muted-foreground",
                       ]}
                     >
-                      {award.status === "won" ? "Won" : "Nominated"}
+                      {award.status === "won" ? "Won" : award.status === "nominated" ? "Nominated" : award.status === "shortlisted" ? "Shortlisted" : "Selected"}
                     </span>
                   </div>
                 ))}

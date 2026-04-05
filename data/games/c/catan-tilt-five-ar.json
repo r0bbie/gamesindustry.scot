@@ -1,0 +1,47 @@
+{
+  "id": "catan-tilt-five-ar",
+  "title": "CATAN: Tilt Five AR",
+  "slug": "catan-tilt-five-ar",
+  "short_description": "Holographic AR edition of the classic board game CATAN, bringing the island to life on your tabletop.",
+  "description": "Experience holographic life on the island of Catan. Watch as the forests rise from the gameboard and the sheep meander across their tiles. CATAN – Tilt Five AR seamlessly blends the classic game into your living room for game night. Adapted from the best-selling board game CATAN by Klaus Teuber, the Tilt Five AR edition gives fans and newcomers a whole new way to trade, build, and settle.",
+  "release_date": "",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "blazing-griffin"
+    ],
+    "publishers": [
+      {
+        "name": "Tilt Five",
+        "url": "https://www.tiltfive.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "tilt-five"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "zjuXWZVDjYk"
+  },
+  "stores": {
+    "website": "https://www.games.blazinggriffin.com/catan-ar"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/catan-tilt-five-ar/cover.webp"
+}

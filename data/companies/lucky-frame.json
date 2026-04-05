@@ -4,15 +4,27 @@
   "slug": "lucky-frame",
   "category": "developer",
   "status": "defunct",
+  "founded": 2008,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "website": "http://www.luckyframe.co.uk/",
+  "website": "https://luckyframe.co.uk/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "short_description": "BAFTA award-winning Edinburgh studio making games, software, and performance systems that found new ways to encourage creativity through technology.",
+  "about": "Lucky Frame was a BAFTA award-winning creative studio in Edinburgh that made games, software, performance systems, and interfaces designed to find new ways to interact with audiences — encouraging creativity, innovation, and fun. Founded in 2008 by Yann Seznec, the studio received awards and support from the University of Edinburgh, NESTA, the British Council, Creative Scotland, and Channel 4. Its work spanned iPhone apps, desktop software, games, and performance systems, all united by a commitment to encouraging creativity through technology. Lucky Frame closed in 2014.",
+  "contact_email": "info@luckyframe.co.uk",
+  "links": {
+    "twitter": "lucky_frame",
+    "itch": "lucky-frame"
+  },
+  "key_people": [
+    { "name": "Yann Seznec", "title": "Founder and Director" },
+    { "name": "Jonathan Brodsky", "title": "Chief Technical Officer" },
+    { "name": "Sean McIlroy", "title": "Lead Artist & Designer" }
+  ],
   "use_tooling": [],
   "employee_stats": {},
-  "key_people": [],
   "awards": [],
   "news": []
 }

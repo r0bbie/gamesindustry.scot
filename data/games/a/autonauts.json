@@ -29,9 +29,9 @@
   "stores": {
     "steam": "979120",
     "website": "https://denki.co.uk/games/autonauts/",
-    "psn": "https://store.playstation.com/en-gb/product/EP4395-PPSA03447_00-AUTONAUTSPS5EU00",
+    "psn": "EP4395-PPSA03447_00-AUTONAUTSPS5EU00",
     "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Autonauts-2220185.html",
-    "xbox": "https://www.xbox.com/en-GB/games/store/autonauts/9PML6GRKCQ00"
+    "xbox": "autonauts/9PML6GRKCQ00"
   },
   "play_now": {},
   "physical_stores": {},

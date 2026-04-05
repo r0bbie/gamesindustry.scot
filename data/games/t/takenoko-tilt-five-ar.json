@@ -1,0 +1,48 @@
+{
+  "id": "takenoko-tilt-five-ar",
+  "title": "Takenoko: Tilt Five AR",
+  "slug": "takenoko-tilt-five-ar",
+  "short_description": "Can you satisfy the adorable oversized bamboo-eating machine that is the sacred panda?",
+  "description": "Can you satisfy the adorable oversized bamboo eating machine that is the sacred panda? Takenoko: Tilt Five AR brings the beloved board game to life as a holographic AR experience on the Tilt Five platform, developed by Blazing Griffin and published by Tilt Five.",
+  "release_date": "2023-02-28",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "blazing-griffin"
+    ],
+    "publishers": [
+      {
+        "name": "Tilt Five",
+        "url": "https://www.tiltfive.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "tilt-five"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Fhx81i6eMRs"
+  },
+  "stores": {
+    "website": "https://www.tiltfive.com/games/takenoko-tilt-five-ar",
+    "tilt_five": "takenoko-tilt-five-ar"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/takenoko-tilt-five-ar/cover.webp"
+}

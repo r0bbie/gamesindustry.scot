@@ -3,29 +3,26 @@
   "title": "Distant Star: Revenant Fleet",
   "slug": "distant-star-revenant-fleet",
   "short_description": "Fleet-based RTS roguelite in space — BAFTA Scotland Game winner.",
-  "description": "A fleet-based RTS meets roguelite from Blazing Griffin, originally released on PC, Mac, and Linux.",
+  "description": "In Distant Star: Revenant Fleet, you take control of the last remaining ships of a near-destroyed A'kari fleet, and must rebuild your forces as you battle through ancient, galactic battlefields towards a final showdown with the Orthani.",
   "release_date": "2015-04-07",
   "status": "released",
   "companies": {
-    "developer": [
-      "blazing-griffin"
-    ],
+    "developer": ["blazing-griffin"],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
-    "supported_by": []
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": [
-    "strategy",
-    "roguelite"
-  ],
-  "platforms": [
-    "pc",
-    "macos",
-    "linux"
-  ],
+  "genres": ["strategy", "roguelite"],
+  "platforms": ["pc", "macos", "linux"],
   "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "WBgBBAsM7cA"
+  },
   "stores": {
+    "website": "https://www.games.blazinggriffin.com/distant-star",
     "steam": "335830"
   },
   "play_now": {},

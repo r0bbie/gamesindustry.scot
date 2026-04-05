@@ -12,11 +12,16 @@ import {
 
 const games = await getAllGames();
 
+function shortName(name: string): string {
+  return name.replace(/\s*\([^)]*\)\s*$/, "").trim();
+}
+
 async function resolveDeveloperName(game: Game): Promise<string> {
-  const devId = game.companies.developer[0];
-  if (!devId) return "Unknown Developer";
-  const company = await safeGetCompany(devId, `game:${game.slug}`);
-  return company?.name ?? "Unknown Developer";
+  const devRef = game.companies.developer[0];
+  if (!devRef) return "Unknown Developer";
+  if (typeof devRef === "object") return shortName(devRef.name);
+  const company = await safeGetCompany(devRef, `game:${game.slug}`);
+  return company ? shortName(company.name) : "Unknown Developer";
 }
 
 // Prepare enriched games with developer names for section cards
@@ -46,11 +51,11 @@ const newReleases = [...releasedGames]
   .sort(
     (a, b) => getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
   )
-  .slice(0, 6);
+  .slice(0, 5);
 
 const upcoming = [...upcomingGames]
   .sort(compareUpcoming)
-  .slice(0, 6);
+  .slice(0, 5);
 
 const highestRated = [...releasedGames]
   .filter((g) => Object.keys(g.critic_ratings).length > 0)
@@ -59,7 +64,7 @@ const highestRated = [...releasedGames]
     const maxB = Math.max(...Object.values(b.critic_ratings).filter((v): v is number => typeof v === "number"), 0);
     return maxB - maxA;
   })
-  .slice(0, 6);
+  .slice(0, 5);
 
 const awardWinners = [...gamesWithDevs]
   .filter((g) => g.awards.length > 0)
@@ -68,7 +73,7 @@ const awardWinners = [...gamesWithDevs]
     const latestB = Math.max(...b.awards.map((aw) => aw.year));
     return latestB - latestA;
   })
-  .slice(0, 6);
+  .slice(0, 5);
 
 // Genre tag cloud
 const genreCounts = new Map<string, number>();

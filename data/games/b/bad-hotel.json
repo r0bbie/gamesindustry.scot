@@ -1,0 +1,46 @@
+{
+  "id": "bad-hotel",
+  "title": "Bad Hotel",
+  "slug": "bad-hotel",
+  "short_description": "A music-driven tower defence game where you build and defend a hotel against relentless attackers.",
+  "description": "Bad Hotel is a music-driven tower defence game developed by Lucky Frame. Build your hotel room by room, each adding its own sounds to the ever-evolving soundtrack, then defend it against waves of enemies determined to bring it down.",
+  "release_date": "2013-10-16",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "lucky-frame"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "arcade"
+  ],
+  "platforms": [
+    "pc",
+    "macos",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "LRpPHMEMs48"
+  },
+  "stores": {
+    "steam": "231720",
+    "humble": "bad-hotel"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bad-hotel/cover.webp"
+}

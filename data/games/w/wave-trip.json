@@ -1,0 +1,44 @@
+{
+  "id": "wave-trip",
+  "title": "Wave Trip",
+  "slug": "wave-trip",
+  "short_description": "An iOS music game where the world is built from sound.",
+  "description": "Wave Trip is a music-driven iOS game from Lucky Frame in which the levels are built from sound. Navigate your way through a world shaped by music, where everything you hear is part of the landscape.",
+  "release_date": "2013-01-22",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "lucky-frame"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "music"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "xQxmy9MH5dk"
+  },
+  "stores": {
+    "website": "https://www.luckyframe.co.uk/wavetrip/",
+    "app_store": "id581914455"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wave-trip/cover.webp"
+}

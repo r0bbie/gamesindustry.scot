@@ -132,6 +132,7 @@ export function buildStoreUrl(store: string, id: string): string {
     game_jolt: (id) => `https://gamejolt.com/games/${id}`,
     gameclub: (id) => `https://gameclub.io/games/${id}`,
     website: (id) => id,
+    tilt_five: (id) => id.startsWith("http") ? id : `https://www.tiltfive.com/games/${id}`,
   };
   return urls[store]?.(id) ?? `#unknown-store-${store}`;
 }

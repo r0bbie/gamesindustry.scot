@@ -7,11 +7,16 @@ import type { GameWithDeveloper } from "@/components/games/GameListView";
 
 const games = await getAllGames();
 
+function shortName(name: string): string {
+  return name.replace(/\s*\([^)]*\)\s*$/, "").trim();
+}
+
 async function resolveDeveloperName(game: Game): Promise<string> {
-  const devId = game.companies.developer[0];
-  if (!devId) return "Unknown Developer";
-  const company = await safeGetCompany(devId, `game:${game.slug}`);
-  return company?.name ?? "Unknown Developer";
+  const devRef = game.companies.developer[0];
+  if (!devRef) return "Unknown Developer";
+  if (typeof devRef === "object") return shortName(devRef.name);
+  const company = await safeGetCompany(devRef, `game:${game.slug}`);
+  return company ? shortName(company.name) : "Unknown Developer";
 }
 
 const gamesWithDevs: GameWithDeveloper[] = await Promise.all(

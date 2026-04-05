@@ -1,0 +1,48 @@
+{
+  "id": "the-nightmare-cooperative",
+  "title": "The Nightmare Cooperative",
+  "slug": "the-nightmare-cooperative",
+  "short_description": "A puzzle roguelike where every move you make affects all your heroes simultaneously.",
+  "description": "The Nightmare Cooperative is a puzzle roguelike developed by Lucky Frame and published by Blazing Griffin. Every action you take moves all your heroes at once — careful planning is essential as you navigate dungeons filled with enemies and traps.",
+  "release_date": "2014-07-06",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "lucky-frame"
+    ],
+    "publishers": [
+      "blazing-griffin"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "roguelike"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "vFEzuXfxgMk"
+  },
+  "stores": {
+    "steam": "310070",
+    "itch": "https://lucky-frame.itch.io/nightmare"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-nightmare-cooperative/cover.webp"
+}

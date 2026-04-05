@@ -1,0 +1,44 @@
+{
+  "id": "murderous-pursuits",
+  "title": "Murderous Pursuits",
+  "slug": "murderous-pursuits",
+  "short_description": "A kill-or-be-killed Victorian stealth-em-up for 1–8 players — hunt your quarry before your hunters get to you.",
+  "description": "Murderous Pursuits is a kill-or-be-killed Victorian stealth-em-up for 1–8 players in which you must hunt and kill your quarry before your hunters do the same to you, all while avoiding witnesses.",
+  "release_date": "2018-04-26",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "blazing-griffin"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "stealth"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "b3frEkRbbEc"
+  },
+  "stores": {
+    "website": "https://www.games.blazinggriffin.com/murderous-pursuits",
+    "steam": "638070"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/murderous-pursuits/cover.webp"
+}

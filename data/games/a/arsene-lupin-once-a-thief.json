@@ -1,0 +1,55 @@
+{
+  "id": "arsene-lupin-once-a-thief",
+  "title": "Arsène Lupin – Once a Thief",
+  "slug": "arsene-lupin-once-a-thief",
+  "short_description": "An immersive adventure into the world of the iconic gentleman-burglar Arsène Lupin.",
+  "description": "Arsène Lupin – Once a Thief offers an immersive journey into the world of the iconic gentleman-burglar. Delve into these iconic tales to discover how the legend was forged.",
+  "release_date": "2024-10-17",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "blazing-griffin"
+    ],
+    "publishers": [
+      {
+        "name": "Microids",
+        "url": "https://www.microids.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure"
+  ],
+  "platforms": [
+    "pc",
+    "ps5",
+    "ps4",
+    "xbox-one",
+    "xbox-series-xs"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "HAihksUnSL4"
+  },
+  "stores": {
+    "website": "https://www.games.blazinggriffin.com/arsen%C3%A9lupin-onceathief",
+    "steam": "2922980",
+    "epic": "arsene-lupin-once-a-thief-825852",
+    "gog": "arsene_lupin_once_a_thief"
+  },
+  "press_kit_url": "https://www.dropbox.com/sh/5qo8x3hbnhlrq17/AADXE9m6suXJ-f5h405NsElIa?dl=0",
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/arsene-lupin-once-a-thief/cover.webp"
+}

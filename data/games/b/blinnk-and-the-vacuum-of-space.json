@@ -32,9 +32,9 @@
   "stores": {
     "steam": "1815540",
     "psn": "https://store.playstation.com/en-us/concept/10007172/",
-    "meta_quest": "https://www.meta.com/en-gb/experiences/blinnk-and-the-vacuum-of-space/4533297996760421/",
-    "viveport": "https://www.viveport.com/apps/b5ef113f-16e2-446e-bcea-1388a105bb4e",
-    "picoxr": "https://store-global.picoxr.com/global/detail/1/7218209357496991749"
+    "meta_quest": "4533297996760421",
+    "viveport": "b5ef113f-16e2-446e-bcea-1388a105bb4e",
+    "picoxr": "7218209357496991749"
   },
   "press_kit_url": "https://press.changingday.com/vacuumofspace/",
   "play_now": {},

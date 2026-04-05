@@ -1,0 +1,44 @@
+{
+  "id": "pugs-luv-beats",
+  "title": "Pugs Luv Beats",
+  "slug": "pugs-luv-beats",
+  "short_description": "An iOS music game where you help pugs make beats.",
+  "description": "Pugs Luv Beats is a music game for iOS developed by Lucky Frame. Help a team of pug musicians create beats in this charming, award-nominated title.",
+  "release_date": "2011-12-19",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "lucky-frame"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "music"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.luckyframe.co.uk/pugsluvbeats/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "Independent Games Festival — Excellence in Audio",
+      "year": 2013,
+      "status": "nominated"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/pugs-luv-beats/cover.webp"
+}

@@ -25,7 +25,7 @@ const companyRefSchema = z.union([
 const awardSchema = z.object({
   name: z.string(),
   year: z.number(),
-  status: z.enum(["won", "nominated"]),
+  status: z.enum(["won", "nominated", "selected", "shortlisted"]),
 });
 
 const newsSchema = z.object({

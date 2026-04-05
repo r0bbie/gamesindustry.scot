@@ -1,0 +1,69 @@
+{
+  "id": "murder-mystery-machine",
+  "title": "Murder Mystery Machine",
+  "slug": "murder-mystery-machine",
+  "short_description": "An isometric modern noir deduction thriller — explore crime scenes, organise evidence, and blur the lines between right and wrong.",
+  "description": "Join the District Crime Agency in this isometric, modern noir deduction thriller. Explore crime scenes in complex dioramas, organize your evidence effectively, and blur the lines between right and wrong to present your case. Do you have what it takes to be a real detective?",
+  "release_date": "2019-09-19",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "blazing-griffin"
+    ],
+    "publishers": [
+      {
+        "name": "Microids",
+        "url": "https://www.microids.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure",
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "ps4",
+    "xbox-one",
+    "switch",
+    "tilt-five"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "iioP2dSQEgg"
+  },
+  "stores": {
+    "website": "https://www.murdermysterymachine.com/",
+    "steam": "930280",
+    "psn": "EP4295-CUSA27466_00-MMMPS400000000EU",
+    "xbox": "murder-mystery-machine/9p0fm76xdlsb",
+    "nintendo_eshop": "https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Murder-Mystery-Machine-2022556.html",
+    "tilt_five": "murder-mystery-machine"
+  },
+  "press_kit_url": "https://www.murdermysterymachine.com/press",
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "BAFTA Best Game",
+      "year": 2021,
+      "status": "nominated"
+    },
+    {
+      "name": "EGX Leftfield Collection",
+      "year": 2018,
+      "status": "selected"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/murder-mystery-machine/cover.webp"
+}

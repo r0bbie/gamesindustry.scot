@@ -1,0 +1,46 @@
+{
+  "id": "gentlemen",
+  "title": "Gentlemen!",
+  "slug": "gentlemen",
+  "short_description": "A frantic two-player duelling game for PC and iOS from Lucky Frame.",
+  "description": "Gentlemen! is a fast-paced two-player duelling game developed by Lucky Frame and published by Blazing Griffin. Players face off in quick, chaotic battles that require sharp reflexes and quick thinking.",
+  "release_date": "2013-11-05",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "lucky-frame"
+    ],
+    "publishers": [
+      "blazing-griffin"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "arcade"
+  ],
+  "platforms": [
+    "pc",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ERoxUt_DoNc"
+  },
+  "stores": {
+    "steam": "253570"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/gentlemen/cover.webp"
+}
