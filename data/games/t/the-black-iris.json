@@ -7,15 +7,22 @@
   "status": "released",
   "release_date": "2021-02",
   "companies": {
-    "developer": ["arboreta-games"],
+    "developer": [
+      "arboreta-games"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["horror", "exploration"],
-  "platforms": ["pc"],
+  "genres": [
+    "horror",
+    "exploration"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://www.arboretagames.com/games/theblackiris",
@@ -32,5 +39,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-black-iris/cover.webp"
 }

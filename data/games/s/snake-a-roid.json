@@ -6,15 +6,22 @@
   "description": "Snake-A-Roid is an Arcade Fusion of various classics to produce a mix of unrelenting blasting action.",
   "status": "released",
   "companies": {
-    "developer": ["arcade-badgers"],
+    "developer": [
+      "arcade-badgers"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["arcade", "action"],
-  "platforms": ["pc"],
+  "genres": [
+    "arcade",
+    "action"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "steam": "690320",
@@ -31,5 +38,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/snake-a-roid/cover.webp"
 }

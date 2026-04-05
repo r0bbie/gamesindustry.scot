@@ -7,15 +7,23 @@
   "status": "released",
   "release_date": "2024-06-05",
   "companies": {
-    "developer": ["astrodreamer-studio"],
+    "developer": [
+      "astrodreamer-studio"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["puzzle", "sports", "golf"],
-  "platforms": ["android"],
+  "genres": [
+    "puzzle",
+    "sports",
+    "golf"
+  ],
+  "platforms": [
+    "android"
+  ],
   "screenshots": [],
   "stores": {
     "itch": "astrodreamer-studio.itch.io/spolf",
@@ -32,5 +40,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/spolf/cover.webp"
 }

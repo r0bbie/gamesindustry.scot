@@ -2,11 +2,12 @@
   "id": "grim",
   "title": "Grim",
   "slug": "grim",
-
   "status": "released",
   "release_date": "2014-05-24",
   "companies": {
-    "developer": ["arcade-badgers"],
+    "developer": [
+      "arcade-badgers"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
@@ -14,7 +15,9 @@
     "contributed_by": []
   },
   "genres": [],
-  "platforms": ["pc"],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://www.arcadebadgers.co.uk/releases/grim/index.html",
@@ -27,5 +30,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/grim/cover.webp"
 }

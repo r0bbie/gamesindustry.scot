@@ -1,0 +1,45 @@
+{
+  "id": "out-and-about",
+  "title": "Out and About",
+  "slug": "out-and-about",
+  "short_description": "A cozy foraging adventure about the magic of real-life plants.",
+  "description": "A cozy foraging adventure about the magic of real-life plants! Identify and gather wild plants and fungi, cook tasty recipes, master herbal remedies, and rebuild your community after a devastating storm.",
+  "status": "released",
+  "release_date": "2025-08-11",
+  "companies": {
+    "developer": [
+      "yaldi-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure",
+    "cozy",
+    "simulation"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.yaldigames.com/outandabout",
+    "steam": "1671570"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "ZSbJkkM0f4U"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/out-and-about/cover.webp"
+}

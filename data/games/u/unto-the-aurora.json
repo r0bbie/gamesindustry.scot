@@ -7,7 +7,9 @@
   "status": "released",
   "release_date": "2025-09-12",
   "companies": {
-    "developer": ["arboreta-games"],
+    "developer": [
+      "arboreta-games"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
@@ -15,7 +17,9 @@
     "contributed_by": []
   },
   "genres": [],
-  "platforms": ["pc"],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://www.arboretagames.com/games/untotheaurora",
@@ -33,5 +37,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/unto-the-aurora/cover.webp"
 }

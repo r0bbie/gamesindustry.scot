@@ -5,17 +5,24 @@
   "status": "released",
   "release_date": "2023",
   "companies": {
-    "developer": ["astrodreamer-studio"],
+    "developer": [
+      "astrodreamer-studio"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [
-      { "name": "UK Games Fund", "url": "https://ukgamesfund.com/funded-project/grubslingers/" }
+      {
+        "name": "UK Games Fund",
+        "url": "https://ukgamesfund.com/funded-project/grubslingers/"
+      }
     ],
     "contributed_by": []
   },
   "genres": [],
-  "platforms": ["pc"],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "itch": "astrodreamer-studio.itch.io/grubslingers"
@@ -27,5 +34,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/grubslingers/cover.webp"
 }

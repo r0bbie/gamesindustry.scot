@@ -7,7 +7,9 @@
   "status": "prototype",
   "release_date": "2017-08-17",
   "companies": {
-    "developer": ["arcade-badgers"],
+    "developer": [
+      "arcade-badgers"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
@@ -15,7 +17,9 @@
     "contributed_by": []
   },
   "genres": [],
-  "platforms": ["browser"],
+  "platforms": [
+    "browser"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://www.arcadebadgers.co.uk/releases/froak/index.html",
@@ -27,8 +31,13 @@
   "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "LowRezJam 2017", "year": 2017, "status": "participated" }
+    {
+      "name": "LowRezJam 2017",
+      "year": 2017,
+      "status": "participated"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/froak/cover.webp"
 }
