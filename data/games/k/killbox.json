@@ -1,0 +1,65 @@
+{
+  "id": "killbox",
+  "title": "Killbox",
+  "slug": "killbox",
+  "short_description": "An online game and interactive installation that critically explores the nature of drone warfare, its complexities and consequences.",
+  "description": "Killbox is an online game and interactive installation that critically explores the nature of drone warfare, its complexities and consequences. It is an experience which explores the use of technology to transform and extend political and military power, and the abstraction of killing through virtualisation.",
+  "status": "released",
+  "release_date": "2016-04-01",
+  "companies": {
+    "developer": [
+      "biome-collective"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "experimental",
+    "simulation"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "652480",
+    "itch": "biomecollective.itch.io/killbox"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "hC-2pCs8Tmc"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "BAFTA Scotland - Game",
+      "year": 2016,
+      "status": "nominated"
+    },
+    {
+      "name": "AMAZE Berlin Festival",
+      "year": 2016,
+      "status": "selected"
+    },
+    {
+      "name": "IndieCade @ E3",
+      "year": 2016,
+      "status": "selected"
+    },
+    {
+      "name": "EGX Leftfield Collection",
+      "year": 2015,
+      "status": "selected"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/killbox/cover.webp"
+}
