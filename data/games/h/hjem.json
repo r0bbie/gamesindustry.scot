@@ -5,12 +5,19 @@
   "status": "released",
   "release_date": "2019-02-01",
   "companies": {
-    "developer": ["amicable-animal"],
+    "developer": [
+      "amicable-animal"
+    ],
     "publishers": [],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
   "genres": [],
-  "platforms": ["pc"],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://www.amicableanimal.com/HJEM.html",
@@ -20,11 +27,19 @@
     "type": "youtube",
     "id": "_qxrzxAY-18"
   },
-  "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "IDGA Scotland Community Choice Award (Edinburgh Winner)", "year": 2019, "status": "won" }
+    {
+      "name": "IDGA Scotland Community Choice Award (Edinburgh Winner)",
+      "year": 2019,
+      "status": "won"
+    }
   ],
-  "news": [], "is_student_game": false
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/hjem/cover.webp"
 }

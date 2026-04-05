@@ -1,20 +1,46 @@
 {
-  "id": "perfect-dark",
-  "title": "Perfect Dark",
-  "slug": "perfect-dark",
+  "id": "perfect-dark-remaster",
+  "title": "Perfect Dark (Remaster)",
+  "slug": "perfect-dark-remaster",
   "short_description": "A high-definition remaster of Rare's acclaimed N64 first-person shooter, rebuilt from scratch for Xbox 360 by 4J Studios.",
   "description": "Perfect Dark is a 2010 remaster of Rare's classic 2000 Nintendo 64 first-person shooter, developed by 4J Studios for Xbox Live Arcade. Rather than a direct port, 4J Studios completely rewrote the game engine from scratch to support Xbox 360 hardware and Xbox Live integration, delivering the game at 1080p and 60fps. The remaster features new higher-resolution textures and character models, online multiplayer for up to eight players, and leaderboards, while keeping the original's 17-mission campaign intact. Players follow Carrington Institute agent Joanna Dark as she uncovers a conspiracy by rival corporation dataDyne. The game received generally favourable reviews and sold nearly 410,000 units by end of 2011. In 2015 it was included in the Rare Replay compilation for Xbox One.",
   "status": "released",
   "release_date": "2010-03-17",
   "companies": {
-    "developer": ["4j-studios"],
-    "publishers": [{ "name": "Microsoft Game Studios", "url": "https://www.xbox.com/" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "4j-studios"
+    ],
+    "publishers": [
+      {
+        "name": "Microsoft Game Studios",
+        "url": "https://www.xbox.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["shooter", "fps", "stealth"],
-  "platforms": ["xbox-360"],
-  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "Perfect_Dark_(2010_video_game)", "mobygames": "perfect-dark" },
-  "awards": [], "news": [], "is_student_game": false
+  "genres": [
+    "shooter",
+    "fps",
+    "stealth"
+  ],
+  "platforms": [
+    "xbox-360"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Perfect_Dark_(2010_video_game)",
+    "mobygames": "perfect-dark"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/perfect-dark-remaster/cover.webp"
 }

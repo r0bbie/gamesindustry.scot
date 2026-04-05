@@ -7,12 +7,34 @@
   "status": "released",
   "release_date": "2012-05-09",
   "companies": {
-    "developer": ["4j-studios"],
-    "publishers": [{ "name": "Mojang Studios", "url": "https://www.minecraft.net/" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "4j-studios"
+    ],
+    "publishers": [
+      {
+        "name": "Mojang Studios",
+        "url": "https://www.minecraft.net/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["sandbox", "survival", "creative"],
-  "platforms": ["xbox-360", "ps3", "ps4", "ps-vita", "xbox-one", "wii-u", "switch"],
+  "genres": [
+    "sandbox",
+    "survival",
+    "creative"
+  ],
+  "platforms": [
+    "xbox-360",
+    "ps3",
+    "ps4",
+    "ps-vita",
+    "xbox-one",
+    "wii-u",
+    "switch"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://4jstudios.com/minecraft/",
@@ -23,8 +45,15 @@
     "type": "youtube",
     "id": "di-itvdeoKI"
   },
-  "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "Minecraft" },
-  "awards": [], "news": [], "is_student_game": false
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Minecraft"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/minecraft-console-edition/cover.webp"
 }

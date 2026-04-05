@@ -7,12 +7,25 @@
   "status": "released",
   "release_date": "2016-04-04",
   "companies": {
-    "developer": ["ant-workshop"],
+    "developer": [
+      "ant-workshop"
+    ],
     "publishers": [],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["platformer", "puzzle"],
-  "platforms": ["pc", "ps4", "switch", "xbox-one"],
+  "genres": [
+    "platformer",
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "ps4",
+    "switch",
+    "xbox-one"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://binaries.ant-workshop.com",
@@ -24,8 +37,13 @@
     "type": "youtube",
     "id": "dd6FvPpCNkY"
   },
-  "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
   "database_links": {},
-  "awards": [], "news": [], "is_student_game": false
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/binaries/cover.webp"
 }

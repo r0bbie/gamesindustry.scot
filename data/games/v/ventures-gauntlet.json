@@ -2,28 +2,51 @@
   "id": "ventures-gauntlet",
   "title": "Venture's Gauntlet",
   "slug": "ventures-gauntlet",
+  "short_description": "An exhilarating VR workout taking you to beautiful and exotic locations around the world.",
+  "description": "Venture's Gauntlet delivers an exhilarating VR workout that will take you to beautiful and exotic locations around the world.",
   "status": "released",
-  "release_date": "2023",
+  "release_date": "2024-05-23",
   "companies": {
-    "developer": ["bearhammer-games"],
+    "developer": [
+      "bearhammer-games"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": [],
-  "platforms": [],
+  "genres": [
+    "action",
+    "fitness"
+  ],
+  "platforms": [
+    "pc",
+    "meta-quest"
+  ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "steam": "1840140",
+    "meta_quest": "7853352598037923",
+    "picoxr": "7327226704584425477"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "xx4W_AHaXZ4"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
   "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "Scottish Games Awards - Technical Achievement", "year": 2023, "status": "nominated" }
+    {
+      "name": "Scottish Games Awards - Technical Achievement",
+      "year": 2023,
+      "status": "nominated"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ventures-gauntlet/cover.webp"
 }

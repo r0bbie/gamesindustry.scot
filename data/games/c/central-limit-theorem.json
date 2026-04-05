@@ -7,12 +7,24 @@
   "status": "released",
   "release_date": "2018",
   "companies": {
-    "developer": ["amicable-animal"],
+    "developer": [
+      "amicable-animal"
+    ],
     "publishers": [],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["shooter", "survival", "arcade"],
-  "platforms": ["browser", "pc"],
+  "genres": [
+    "shooter",
+    "survival",
+    "arcade"
+  ],
+  "platforms": [
+    "browser",
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://www.amicableanimal.com/CentralLimit.html",
@@ -22,11 +34,19 @@
     "type": "youtube",
     "id": "Lw2SghgC-Co"
   },
-  "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "IDGA Scotland Community Choice Award (Edinburgh Winner)", "year": 2018, "status": "won" }
+    {
+      "name": "IDGA Scotland Community Choice Award (Edinburgh Winner)",
+      "year": 2018,
+      "status": "won"
+    }
   ],
-  "news": [], "is_student_game": false
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/central-limit-theorem/cover.webp"
 }

@@ -7,12 +7,31 @@
   "status": "released",
   "release_date": "2025-05-15",
   "companies": {
-    "developer": ["ant-workshop"],
-    "publishers": [{ "name": "Wales Interactive", "url": "https://www.walesinteractive.com/" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "ant-workshop"
+    ],
+    "publishers": [
+      {
+        "name": "Wales Interactive",
+        "url": "https://www.walesinteractive.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["roguelike", "deckbuilder", "dungeon-crawler"],
-  "platforms": ["pc", "switch", "xbox-series-xs", "ps5"],
+  "genres": [
+    "roguelike",
+    "deckbuilder",
+    "dungeon-crawler"
+  ],
+  "platforms": [
+    "pc",
+    "switch",
+    "xbox-series-xs",
+    "ps5"
+  ],
   "screenshots": [],
   "press_kit_url": "https://impress.games/press-kit/ant-workshop/into-the-restless-ruins",
   "stores": {
@@ -25,8 +44,13 @@
     "type": "youtube",
     "id": "of-UwgGi6_U"
   },
-  "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
   "database_links": {},
-  "awards": [], "news": [], "is_student_game": false
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/into-the-restless-ruins/cover.webp"
 }

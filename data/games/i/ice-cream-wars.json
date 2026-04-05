@@ -7,12 +7,23 @@
   "status": "released",
   "release_date": "2024-08-14",
   "companies": {
-    "developer": ["ant-workshop"],
+    "developer": [
+      "ant-workshop"
+    ],
     "publishers": [],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["arcade", "driving"],
-  "platforms": ["pc", "switch"],
+  "genres": [
+    "arcade",
+    "driving"
+  ],
+  "platforms": [
+    "pc",
+    "switch"
+  ],
   "screenshots": [],
   "stores": {
     "steam": "2917900",
@@ -22,8 +33,13 @@
     "type": "youtube",
     "id": "3gXNdshUso0"
   },
-  "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
   "database_links": {},
-  "awards": [], "news": [], "is_student_game": false
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ice-cream-wars/cover.webp"
 }

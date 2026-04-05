@@ -7,12 +7,23 @@
   "status": "released",
   "release_date": "2023-11-17",
   "companies": {
-    "developer": ["ant-workshop"],
+    "developer": [
+      "ant-workshop"
+    ],
     "publishers": [],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["sports", "party", "golf"],
-  "platforms": ["pc"],
+  "genres": [
+    "sports",
+    "party",
+    "golf"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "press_kit_url": "https://impress.games/press-kit/ant-workshop/dungeon-golf",
   "stores": {
@@ -22,8 +33,13 @@
     "type": "youtube",
     "id": "DYpPSxGylDc"
   },
-  "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
   "database_links": {},
-  "awards": [], "news": [], "is_student_game": false
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/dungeon-golf/cover.webp"
 }

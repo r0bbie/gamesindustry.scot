@@ -4,7 +4,7 @@
   "slug": "bearhammer-games",
   "category": "developer",
   "status": "active",
-  "founded": null,
+  "founded": 2018,
   "previously_known_as": [],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
@@ -15,9 +15,18 @@
   "logo": null,
   "highlighted": false,
   "parent_entity": null,
-  "company_size": null,
+  "company_size": "2-10",
   "employee_count": null,
-  "links": {},
+  "legal_entities": [
+    { "uk_registered_name": "BearHammer Games Ltd", "companies_house_number": "SC616982" }
+  ],
+  "links": {
+    "linkedin": "bearhammer-games-ltd",
+    "discord": "3JBcAj94Tc",
+    "twitter": "BearHammerGames",
+    "instagram": "venturesgauntletvr",
+    "youtube": "channel/UCy4w4LQrsAfnVbZaQL5tkCQ"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

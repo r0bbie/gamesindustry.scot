@@ -3,16 +3,36 @@
   "title": "Ducati Moto",
   "slug": "ducati-moto",
   "status": "released",
-  "release_date": "2010",
+  "release_date": "2008-07-01",
   "companies": {
-    "developer": ["4j-studios"],
+    "developer": [
+      "4j-studios"
+    ],
     "publishers": [],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["racing", "sports"],
-  "platforms": ["ios"],
-  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "Ducati_Moto" },
-  "awards": [], "news": [], "is_student_game": false
+  "genres": [
+    "racing",
+    "sports"
+  ],
+  "platforms": [
+    "nintendo-ds",
+    "n-gage"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Ducati_Moto"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ducati-moto/cover.webp"
 }

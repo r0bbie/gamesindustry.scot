@@ -1,0 +1,49 @@
+{
+  "id": "clonk",
+  "title": "Clonk",
+  "slug": "clonk",
+  "short_description": "A social deduction murder mystery VR game — track down the Evil Clonks before they strike again.",
+  "description": "The mayor has been Clonked! Track down the Evil Clonks before they strike again in our new social deduction murder mystery game mode! Explore a giant new map, full of traps and secret passageways! And remember - Trust no one!",
+  "status": "released",
+  "release_date": "2026-04-02",
+  "companies": {
+    "developer": [
+      "bearhammer-games"
+    ],
+    "publishers": [
+      {
+        "name": "Clique Games",
+        "url": "https://www.clique.games"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "social-deduction",
+    "vr"
+  ],
+  "platforms": [
+    "meta-quest"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.playclonk.com",
+    "meta_quest": "28266525256271785"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "Hna7rRWU1-I"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/clonk/cover.webp"
+}

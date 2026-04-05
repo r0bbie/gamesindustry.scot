@@ -7,14 +7,39 @@
   "status": "released",
   "release_date": "2006-10-03",
   "companies": {
-    "developer": ["4j-studios"],
-    "publishers": [{ "name": "Bethesda Softworks", "url": "https://bethesda.net/" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "4j-studios"
+    ],
+    "publishers": [
+      {
+        "name": "Bethesda Softworks",
+        "url": "https://bethesda.net/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["shooter", "shoot-em-up"],
-  "platforms": ["ps2"],
-  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "Star_Trek:_Encounters", "mobygames": "star-trek-encounters" },
-  "awards": [], "news": [], "is_student_game": false
+  "genres": [
+    "shooter",
+    "shoot-em-up"
+  ],
+  "platforms": [
+    "ps2"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Star_Trek:_Encounters",
+    "mobygames": "star-trek-encounters"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/star-trek-encounters/cover.webp"
 }

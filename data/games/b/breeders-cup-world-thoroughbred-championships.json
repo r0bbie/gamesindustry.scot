@@ -7,14 +7,40 @@
   "status": "released",
   "release_date": "2005-09-21",
   "companies": {
-    "developer": ["4j-studios"],
-    "publishers": [{ "name": "Bethesda Softworks", "url": "https://bethesda.net/" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "4j-studios"
+    ],
+    "publishers": [
+      {
+        "name": "Bethesda Softworks",
+        "url": "https://bethesda.net/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["sports", "racing"],
-  "platforms": ["xbox", "ps2"],
-  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "Breeders%27_Cup_World_Thoroughbred_Championships_(video_game)", "mobygames": "breeders-cup-world-thoroughbred-championships" },
-  "awards": [], "news": [], "is_student_game": false
+  "genres": [
+    "sports",
+    "racing"
+  ],
+  "platforms": [
+    "xbox",
+    "ps2"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Breeders%27_Cup_World_Thoroughbred_Championships_(video_game)",
+    "mobygames": "breeders-cup-world-thoroughbred-championships"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/breeders-cup-world-thoroughbred-championships/cover.webp"
 }

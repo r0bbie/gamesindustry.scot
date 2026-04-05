@@ -1,0 +1,43 @@
+{
+  "id": "bearhammer",
+  "title": "BearHammer",
+  "slug": "bearhammer",
+  "short_description": "Explore a beautiful island and defend its animal inhabitants from the minions of the evil Toad King.",
+  "description": "Explore the beautiful island of Bearonia and defend Bears, Turtles, and Rabbits from the minions of the evil Toad King. Wield three unique weapons and fight over 12 different enemies. Feel powerful. Explore the world. Prepare Your Bear.",
+  "status": "released",
+  "release_date": "2019-12-22",
+  "companies": {
+    "developer": [
+      "bearhammer-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "vr"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "881310"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "rROvaNH8KuA"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bearhammer/cover.webp"
+}

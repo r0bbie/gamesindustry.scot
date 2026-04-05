@@ -6,12 +6,23 @@
   "description": "Decypher strange computers, unravel modified tape players, and unlock impossible doors. Point and click your way around a mysterious basement in this challenging escape room game! Can you uncover what secrets are hiding in the dark when even time and space are against you?",
   "status": "in_development",
   "companies": {
-    "developer": ["amicable-animal"],
+    "developer": [
+      "amicable-animal"
+    ],
     "publishers": [],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["puzzle", "point-and-click", "escape-room"],
-  "platforms": ["pc"],
+  "genres": [
+    "puzzle",
+    "point-and-click",
+    "escape-room"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://www.amicableanimal.com/CRT7.html",
@@ -21,8 +32,13 @@
     "type": "youtube",
     "id": "13wSru0sJkI"
   },
-  "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
   "database_links": {},
-  "awards": [], "news": [], "is_student_game": false
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/crt7/cover.webp"
 }
