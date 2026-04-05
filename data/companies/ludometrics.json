@@ -4,7 +4,7 @@
   "slug": "ludometrics",
   "category": "developer",
   "status": "defunct",
-  "founded": null,
+  "founded": 2010,
   "previously_known_as": [],
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
@@ -16,11 +16,19 @@
   "logo_bg": "light",
   "highlighted": false,
   "parent_entity": null,
-  "company_size": null,
+  "company_size": "1",
   "employee_count": null,
   "links": {
-    "linkedin": "https://www.linkedin.com/company/ludometrics-ltd/"
+    "linkedin": "https://www.linkedin.com/company/ludometrics-ltd/",
+    "youtube": "ludometrics"
   },
+  "contact_email": "hiya@ludometrics.com",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Ludometrics Ltd",
+      "companies_house_number": "SC378885"
+    }
+  ],
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

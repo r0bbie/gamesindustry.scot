@@ -7,14 +7,21 @@
   "release_date": "2010",
   "status": "released",
   "companies": {
-    "developer": ["denki"],
+    "developer": [
+      "denki"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["action", "casual"],
-  "platforms": ["browser"],
+  "genres": [
+    "action",
+    "casual"
+  ],
+  "platforms": [
+    "browser"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://denki.co.uk/games/archive/save-the-day/"
@@ -28,5 +35,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/save-the-day/cover.webp"
 }
