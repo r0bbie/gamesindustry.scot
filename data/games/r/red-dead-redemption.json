@@ -1,0 +1,45 @@
+{
+  "id": "red-dead-redemption",
+  "title": "Red Dead Redemption",
+  "slug": "red-dead-redemption",
+  "short_description": "An epic open-world Western developed primarily by Rockstar San Diego, with contributions from Rockstar North.",
+  "description": "Red Dead Redemption is an open-world Western action-adventure game developed primarily by Rockstar San Diego with supportive development contributions from Rockstar North, published by Rockstar Games. Released in 2010, it follows former outlaw John Marston tracking down members of his old gang across the American frontier. The game is widely regarded as one of the greatest games ever made and was later remastered for modern platforms.",
+  "release_date": "2010-05-18",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "rockstar-north"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "open-world",
+    "adventure"
+  ],
+  "platforms": [
+    "ps3",
+    "xbox-360",
+    "ps4",
+    "switch",
+    "pc"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/red-dead-redemption/cover.webp",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 95
+  },
+  "database_links": {
+    "mobygames": "red-dead-redemption",
+    "igdb": "red-dead-redemption"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

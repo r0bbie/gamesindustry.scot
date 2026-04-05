@@ -1,5 +1,6 @@
 ---
 import type { Game } from "@/lib/data";
+import { formatGameReleaseLineDisplay } from "@/lib/gameRelease";
 
 interface Props {
   game: Game;
@@ -8,9 +9,9 @@ interface Props {
 
 const { game, developerName } = Astro.props;
 
-const releaseDate = game.release_date
-  ? new Date(game.release_date).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })
-  : null;
+const showReleaseLine = Boolean(game.release_date || game.release_period);
+
+const releaseLine = showReleaseLine ? formatGameReleaseLineDisplay(game) : null;
 ---
 
 <a
@@ -18,7 +19,7 @@ const releaseDate = game.release_date
   class="group rounded-xl border border-border bg-card text-card-foreground shadow transition-colors hover:border-primary/30 hover:shadow-md overflow-hidden"
 >
   <!-- Cover image or placeholder -->
-  <div class="aspect-[16/9] w-full bg-gradient-to-br from-primary/20 via-primary/10 to-muted overflow-hidden">
+  <div class="aspect-[2/3] w-full bg-gradient-to-br from-primary/20 via-primary/10 to-muted overflow-hidden">
     {game.cover_image ? (
       <img src={game.cover_image} alt={game.title} class="h-full w-full object-cover transition-transform group-hover:scale-105" />
     ) : (
@@ -37,8 +38,8 @@ const releaseDate = game.release_date
       {game.title}
     </h3>
     <p class="mt-1 text-sm text-muted-foreground line-clamp-1">{developerName}</p>
-    {releaseDate && (
-      <p class="mt-1.5 text-xs text-muted-foreground">{releaseDate}</p>
+    {releaseLine && (
+      <p class="mt-1.5 text-xs text-muted-foreground">{releaseLine}</p>
     )}
   </div>
 </a>

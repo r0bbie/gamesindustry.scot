@@ -1,0 +1,37 @@
+{
+  "id": "kid-kirby",
+  "title": "Kid Kirby",
+  "slug": "kid-kirby",
+  "short_description": "A cancelled SNES Kirby spin-off developed by DMA Design (later Rockstar North) for Nintendo.",
+  "description": "Kid Kirby was a cancelled action game being developed by DMA Design (later known as Rockstar North) for Nintendo, as part of the studio's two-game contract with Nintendo for the SNES. The game would have featured a young version of Kirby controlled using the Super NES Mouse. Development was cancelled by Nintendo following poor sales of the Super NES Mouse peripheral.",
+  "status": "cancelled",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "platformer",
+    "action"
+  ],
+  "platforms": [
+    "snes"
+  ],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

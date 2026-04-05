@@ -1,0 +1,28 @@
+{
+  "id": "grand-theft-auto-liberty-city-stories",
+  "title": "Grand Theft Auto: Liberty City Stories",
+  "slug": "grand-theft-auto-liberty-city-stories",
+  "short_description": "A GTA III-era prequel for PSP and PS2, co-developed by Rockstar North and Rockstar Leeds.",
+  "description": "Grand Theft Auto: Liberty City Stories is an open-world action-adventure game co-developed by Rockstar North and Rockstar Leeds and published by Rockstar Games. Originally released for PlayStation Portable in 2005 and later on PlayStation 2, the game is set in Liberty City three years before GTA III and follows Toni Cipriani.",
+  "release_date": "2005-10-24",
+  "status": "released",
+  "companies": {
+    "developer": ["rockstar-north"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "open-world", "adventure"],
+  "platforms": ["psp", "ps2", "ios", "android"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 88 },
+  "database_links": { "mobygames": "grand-theft-auto-liberty-city-stories", "igdb": "grand-theft-auto-liberty-city-stories" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

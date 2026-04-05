@@ -1,0 +1,35 @@
+{
+  "id": "grand-theft-auto-online-crime-world",
+  "title": "Grand Theft Auto: Online Crime World",
+  "slug": "grand-theft-auto-online-crime-world",
+  "short_description": "A cancelled online Grand Theft Auto game that DMA Design (later Rockstar North) was developing alongside GTA III.",
+  "description": "Grand Theft Auto: Online Crime World was a cancelled online multiplayer Grand Theft Auto game that DMA Design (later known as Rockstar North) was developing at the same time as Grand Theft Auto III. The project was ultimately abandoned during the ownership and management changes that accompanied Take-Two Interactive's acquisition of DMA Design in 1999.",
+  "status": "cancelled",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "open-world"
+  ],
+  "platforms": [],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

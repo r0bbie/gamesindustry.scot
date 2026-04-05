@@ -1,23 +1,28 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import criticScoreCache from "../../../data/cache/critic-scores.json";
 import {
   getAllGames,
   getGameBySlug,
   getNewsForGame,
   safeGetCompany,
-  resolveCompanyIds,
+  resolveCompanyRefs,
 } from "@/lib/data";
 import {
   buildStoreUrl,
   buildPlayUrl,
-  buildPhysicalStoreUrl,
   buildCriticUrl,
   buildDatabaseUrl,
   GITHUB_REPO,
 } from "@/lib/constants";
 import PlatformIcons from "@/components/games/PlatformIcons.astro";
 import StoreLinks from "@/components/games/StoreLinks.astro";
+import PhysicalStoreLinks from "@/components/games/PhysicalStoreLinks.astro";
 import { BrokenLink } from "@/components/ui/broken-link";
+import {
+  formatReleaseDatePart,
+  formatGameReleaseLineDisplay,
+} from "@/lib/gameRelease";
 
 export async function getStaticPaths() {
   const games = await getAllGames();
@@ -32,23 +37,23 @@ if (!game) {
 }
 
 // Resolve developer companies
-const developers = await resolveCompanyIds(
+const developers = await resolveCompanyRefs(
   game.companies.developer,
   `game:${game.slug}`,
 );
-const publishers = await resolveCompanyIds(
+const publishers = await resolveCompanyRefs(
   game.companies.publishers,
   `game:${game.slug}`,
 );
-const serviceCompanies = await resolveCompanyIds(
+const serviceCompanies = await resolveCompanyRefs(
   game.companies.service_companies,
   `game:${game.slug}`,
 );
-const tooling = await resolveCompanyIds(
+const tooling = await resolveCompanyRefs(
   game.companies.used_tooling,
   `game:${game.slug}`,
 );
-const supportedBy = await resolveCompanyIds(
+const supportedBy = await resolveCompanyRefs(
   game.companies.supported_by,
   `game:${game.slug}`,
 );
@@ -66,18 +71,7 @@ const statusColors: Record<string, string> = {
   cancelled: "border-red-500/40 bg-red-500/10 text-red-700 dark:text-red-400",
 };
 
-function formatDate(dateStr?: string): string {
-  if (!dateStr) return "TBA";
-  try {
-    return new Date(dateStr).toLocaleDateString("en-GB", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
-  } catch {
-    return dateStr;
-  }
-}
+const formatDate = formatReleaseDatePart;
 
 function getCoverGradient(title: string): string {
   const hue = [...title].reduce((sum, ch) => sum + ch.charCodeAt(0), 0) % 360;
@@ -99,12 +93,17 @@ const databaseLabels: Record<string, string> = {
   gamefaqs: "GameFAQs",
 };
 
-const storeEntries = Object.entries(game.stores);
+const officialSiteUrl = game.stores.website ?? null;
+const storeEntries = Object.entries(game.stores).filter(([k]) => k !== "website");
+const buyStores = Object.fromEntries(storeEntries) as Record<string, string>;
 const playNowEntries = Object.entries(game.play_now);
 const physicalEntries = Object.entries(game.physical_stores);
-const criticEntries = Object.entries(game.critic_ratings);
+// Merge live cached scores (from prebuild fetch) over static JSON values
+const liveCriticScores = (criticScoreCache as Record<string, Record<string, number>>)[game.id] ?? {};
+const criticEntries = Object.entries({ ...game.critic_ratings, ...liveCriticScores });
 const databaseEntries = Object.entries(game.database_links);
-const hasAwards = game.awards.length > 0;
+const sortedAwards = [...game.awards].sort((a, b) => b.year - a.year);
+const hasAwards = sortedAwards.length > 0;
 const gameNews = await getNewsForGame(game.id);
 const hasNews = gameNews.length > 0;
 const hasScreenshots = game.screenshots.length > 0;
@@ -121,7 +120,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
     <div class="mb-10 grid gap-8 lg:grid-cols-[320px_1fr]">
       <!-- Cover -->
       <div
-        class="flex aspect-[3/4] items-center justify-center overflow-hidden rounded-xl border border-border shadow-lg lg:aspect-auto lg:h-[400px]"
+        class="flex aspect-[2/3] items-center justify-center overflow-hidden rounded-xl border border-border shadow-lg"
         style={
           game.cover_image
             ? `background-image: url(${game.cover_image}); background-size: cover; background-position: center;`
@@ -156,7 +155,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
         <!-- Developer byline -->
         <div class="mt-3 flex flex-wrap items-center gap-1 text-lg text-muted-foreground">
           <span>By</span>
-          {developers.map(({ id, company }, i) => (
+          {developers.map(({ id, name, url, company }, i) => (
             <>
               {i > 0 && <span>,</span>}
               {company ? (
@@ -164,10 +163,21 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                   href={`/companies/${company.slug}`}
                   class="font-medium text-foreground hover:text-primary transition-colors"
                 >
-                  {company.name}
+                  {name}
                 </a>
-              ) : (
+              ) : url ? (
+                <a
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-medium text-foreground hover:text-primary transition-colors"
+                >
+                  {name}
+                </a>
+              ) : id !== null ? (
                 <BrokenLink id={id} type="company" />
+              ) : (
+                <span class="font-medium text-foreground">{name}</span>
               )}
             </>
           ))}
@@ -176,15 +186,15 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
           )}
         </div>
 
-        <div class="mt-3 flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+        <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
           <span class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
               <line x1="16" x2="16" y1="2" y2="6" />
               <line x1="8" x2="8" y1="2" y2="6" />
               <line x1="3" x2="21" y1="10" y2="10" />
             </svg>
-            {formatDate(game.release_date)}
+            {formatGameReleaseLineDisplay(game)}
           </span>
         </div>
 
@@ -199,6 +209,33 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
             <PlatformIcons platforms={game.platforms} size="md" />
           </div>
         )}
+
+        {officialSiteUrl && (
+          <div class="mt-3">
+            <a
+              href={officialSiteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+            >
+              <svg
+                class="h-4 w-4 shrink-0 text-muted-foreground"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                <path d="M2 12h20" />
+              </svg>
+              Official Site
+            </a>
+          </div>
+        )}
       </div>
     </div>
 
@@ -208,7 +245,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
         {storeEntries.length > 0 && (
           <div>
             <p class="mb-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">Buy</p>
-            <StoreLinks stores={game.stores} type="buy" />
+            <StoreLinks stores={buyStores} type="buy" />
           </div>
         )}
         {playNowEntries.length > 0 && (
@@ -220,7 +257,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
         {physicalEntries.length > 0 && (
           <div>
             <p class="mb-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">Physical</p>
-            <StoreLinks stores={game.physical_stores} type="physical" />
+            <PhysicalStoreLinks stores={game.physical_stores} />
           </div>
         )}
       </div>
@@ -284,7 +321,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
           <section>
             <h2 class="mb-3 text-xl font-semibold">Publishers</h2>
             <div class="flex flex-wrap gap-2">
-              {publishers.map(({ id, company }) =>
+              {publishers.map(({ id, name, url, company }) =>
                 company ? (
                   <a
                     href={`/companies/${company.slug}`}
@@ -292,8 +329,21 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                   >
                     {company.name}
                   </a>
-                ) : (
+                ) : id !== null ? (
                   <BrokenLink id={id} type="company" />
+                ) : url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                  >
+                    {name}
+                  </a>
+                ) : (
+                  <span class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm">
+                    {name}
+                  </span>
                 ),
               )}
             </div>
@@ -304,7 +354,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
           <section>
             <h2 class="mb-3 text-xl font-semibold">Service Companies</h2>
             <div class="flex flex-wrap gap-2">
-              {serviceCompanies.map(({ id, company }) =>
+              {serviceCompanies.map(({ id, name, url, company }) =>
                 company ? (
                   <a
                     href={`/companies/${company.slug}`}
@@ -312,8 +362,21 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                   >
                     {company.name}
                   </a>
-                ) : (
+                ) : id !== null ? (
                   <BrokenLink id={id} type="company" />
+                ) : url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                  >
+                    {name}
+                  </a>
+                ) : (
+                  <span class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm">
+                    {name}
+                  </span>
                 ),
               )}
             </div>
@@ -324,7 +387,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
           <section>
             <h2 class="mb-3 text-xl font-semibold">Tooling Used</h2>
             <div class="flex flex-wrap gap-2">
-              {tooling.map(({ id, company }) =>
+              {tooling.map(({ id, name, url, company }) =>
                 company ? (
                   <a
                     href={`/companies/${company.slug}`}
@@ -332,8 +395,21 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                   >
                     {company.name}
                   </a>
-                ) : (
+                ) : id !== null ? (
                   <BrokenLink id={id} type="company" />
+                ) : url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                  >
+                    {name}
+                  </a>
+                ) : (
+                  <span class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm">
+                    {name}
+                  </span>
                 ),
               )}
             </div>
@@ -344,7 +420,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
           <section>
             <h2 class="mb-3 text-xl font-semibold">Supported By</h2>
             <div class="flex flex-wrap gap-2">
-              {supportedBy.map(({ id, company }) =>
+              {supportedBy.map(({ id, name, url, company }) =>
                 company ? (
                   <a
                     href={`/companies/${company.slug}`}
@@ -352,8 +428,21 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                   >
                     {company.name}
                   </a>
-                ) : (
+                ) : id !== null ? (
                   <BrokenLink id={id} type="company" />
+                ) : url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                  >
+                    {name}
+                  </a>
+                ) : (
+                  <span class="inline-flex items-center rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium shadow-sm">
+                    {name}
+                  </span>
                 ),
               )}
             </div>
@@ -365,7 +454,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
           <section>
             <h2 class="mb-4 text-xl font-semibold">Awards</h2>
             <div class="space-y-2">
-              {game.awards.map((award) => (
+              {sortedAwards.slice(0, 6).map((award) => (
                 <div class="flex items-center justify-between rounded-lg border border-border bg-card px-4 py-3">
                   <div class="flex items-center gap-3">
                     <svg class="h-5 w-5 shrink-0 text-highlight" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -390,6 +479,59 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                 </div>
               ))}
             </div>
+            {sortedAwards.length > 6 && (
+              <div id="awards-overflow" class="mt-2 hidden space-y-2">
+                {sortedAwards.slice(6).map((award) => (
+                  <div class="flex items-center justify-between rounded-lg border border-border bg-card px-4 py-3">
+                    <div class="flex items-center gap-3">
+                      <svg class="h-5 w-5 shrink-0 text-highlight" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="8" r="6" />
+                        <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
+                      </svg>
+                      <div>
+                        <p class="text-sm font-medium">{award.name}</p>
+                        <p class="text-xs text-muted-foreground">{award.year}</p>
+                      </div>
+                    </div>
+                    <span
+                      class:list={[
+                        "inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold",
+                        award.status === "won"
+                          ? "border-highlight/40 bg-highlight/10 text-highlight"
+                          : "border-border bg-muted text-muted-foreground",
+                      ]}
+                    >
+                      {award.status === "won" ? "Won" : "Nominated"}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+            {sortedAwards.length > 6 && (
+              <button
+                id="awards-toggle"
+                class="mt-3 flex w-full items-center justify-center gap-1.5 rounded-lg border border-border bg-card px-4 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+              >
+                <span id="awards-toggle-label">View all {sortedAwards.length} awards</span>
+                <svg id="awards-toggle-icon" class="h-4 w-4 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+              <script>
+                const overflow = document.getElementById("awards-overflow");
+                const toggle = document.getElementById("awards-toggle");
+                const label = document.getElementById("awards-toggle-label");
+                const icon = document.getElementById("awards-toggle-icon");
+                const total = overflow?.querySelectorAll(".flex").length ?? 0;
+
+                toggle?.addEventListener("click", () => {
+                  const expanded = !overflow?.classList.contains("hidden");
+                  overflow?.classList.toggle("hidden", expanded);
+                  icon?.classList.toggle("rotate-180", !expanded);
+                  if (label) label.textContent = expanded ? `View all ${total + 6} awards` : "Show fewer awards";
+                });
+              </script>
+            )}
           </section>
         )}
 
@@ -469,7 +611,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
         )}
 
         {/* Additional developers */}
-        {developers.length > 1 && developers.slice(1).map(({ id, company }) => (
+        {developers.length > 1 && developers.slice(1).map(({ id, name, url, company }) => (
           <div class="rounded-xl border border-border bg-card p-5 shadow">
             <h3 class="mb-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">
               Co-Developer
@@ -487,8 +629,12 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                   View company
                 </a>
               </div>
-            ) : (
+            ) : url ? (
+              <a href={url} target="_blank" rel="noopener noreferrer" class="font-semibold hover:text-primary transition-colors">{name}</a>
+            ) : id !== null ? (
               <BrokenLink id={id} type="company" />
+            ) : (
+              <p class="font-semibold">{name}</p>
             )}
           </div>
         ))}
@@ -502,7 +648,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
             <div class="space-y-2">
               {criticEntries.map(([source, value]) => {
                 const score = typeof value === "number" ? value : parseFloat(String(value));
-                const url = buildCriticUrl(source, game.slug);
+                const url = buildCriticUrl(source, game.critic_ids?.[source] ?? game.slug);
                 return (
                   <a
                     href={url}

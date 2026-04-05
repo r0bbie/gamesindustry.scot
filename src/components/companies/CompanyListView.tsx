@@ -238,7 +238,7 @@ export default function CompanyListView({ companies, gameCountMap = {} }: Props)
               <div className="mb-3 flex items-start justify-between gap-2">
                 <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${company.logo_bg === "light" ? "bg-white" : company.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
                   {company.logo ? (
-                    <img src={company.logo} alt="" className="h-7 w-7 object-contain" />
+                    <img src={company.logo} alt="" className={company.logo_bg ? "h-full w-full rounded-lg object-contain" : "h-7 w-7 object-contain"} />
                   ) : (
                     <span className="text-sm font-bold text-muted-foreground">
                       {company.name.charAt(0)}

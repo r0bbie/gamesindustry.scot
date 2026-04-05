@@ -1,0 +1,28 @@
+{
+  "id": "grand-theft-auto-iv-lost-and-damned",
+  "title": "Grand Theft Auto IV: The Lost and Damned",
+  "slug": "grand-theft-auto-iv-lost-and-damned",
+  "short_description": "The first story expansion for GTA IV, following biker gang member Johnny Klebitz.",
+  "description": "Grand Theft Auto IV: The Lost and Damned is a standalone story expansion for Grand Theft Auto IV, developed by Rockstar North and published by Rockstar Games. Released in 2009, it follows Johnny Klebitz, vice president of the Liberty City motorcycle gang The Lost MC, in a parallel storyline to the main GTA IV campaign. It was later bundled with The Ballad of Gay Tony as Grand Theft Auto: Episodes from Liberty City.",
+  "release_date": "2009-02-17",
+  "status": "released",
+  "companies": {
+    "developer": ["rockstar-north"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "open-world", "adventure"],
+  "platforms": ["ps3", "xbox-360", "pc"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 90 },
+  "database_links": { "mobygames": "grand-theft-auto-iv-the-lost-and-damned", "igdb": "grand-theft-auto-iv-the-lost-and-damned" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

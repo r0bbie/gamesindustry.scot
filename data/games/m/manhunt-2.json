@@ -1,0 +1,28 @@
+{
+  "id": "manhunt-2",
+  "title": "Manhunt 2",
+  "slug": "manhunt-2",
+  "short_description": "A sequel to Manhunt, developed primarily by Rockstar London with supportive development from Rockstar North.",
+  "description": "Manhunt 2 is a stealth horror game developed primarily by Rockstar London with supportive development contributions from Rockstar North, published by Rockstar Games. Released in 2007 for PlayStation 2, PlayStation Portable, Wii, and PC, the game follows amnesiac patient Daniel Lamb escaping from a psychiatric facility. It attracted significant controversy over its extreme violence, initially receiving an Adults Only rating from the ESRB (later revised to Mature after edits) and being refused classification in the UK and Ireland before an edited version was eventually passed.",
+  "release_date": "2007-10-29",
+  "status": "released",
+  "companies": {
+    "developer": ["rockstar-north"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["stealth", "action", "horror"],
+  "platforms": ["ps2", "psp", "wii", "pc"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 67 },
+  "database_links": { "mobygames": "manhunt-2", "igdb": "manhunt-2" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

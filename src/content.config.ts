@@ -9,6 +9,19 @@ const coordinatesSchema = z
   .nullable()
   .optional();
 
+// A company reference is either a DB slug string or an inline name object.
+// The object form supports:
+//   { name, url }        — external company, renders as a plain link
+//   { name, company_id } — display a custom name but still link to an internal DB company page
+const companyRefSchema = z.union([
+  z.string(),
+  z.object({
+    name: z.string(),
+    url: z.string().optional(),
+    company_id: z.string().optional(),
+  }),
+]);
+
 const awardSchema = z.object({
   name: z.string(),
   year: z.number(),
@@ -117,14 +130,24 @@ const games = defineCollection({
     short_description: z.string().optional(),
     description: z.string().optional(),
     release_date: z.string().optional(),
+    /**
+     * Release window (e.g. first availability through end of support, or ongoing live title).
+     * When set, takes priority over `release_date` for display and sorting.
+     */
+    release_period: z
+      .object({
+        start: z.string(),
+        end: z.union([z.string(), z.literal("present")]).nullable().optional(),
+      })
+      .optional(),
     status: z.enum(["in_development", "released", "cancelled"]).default("in_development"),
     companies: z
       .object({
-        developer: z.array(z.string()).default([]),
-        publishers: z.array(z.string()).default([]),
-        service_companies: z.array(z.string()).default([]),
-        used_tooling: z.array(z.string()).default([]),
-        supported_by: z.array(z.string()).default([]),
+        developer: z.array(companyRefSchema).default([]),
+        publishers: z.array(companyRefSchema).default([]),
+        service_companies: z.array(companyRefSchema).default([]),
+        used_tooling: z.array(companyRefSchema).default([]),
+        supported_by: z.array(companyRefSchema).default([]),
       })
       .default({}),
     genres: z.array(z.string()).optional().default([]),
@@ -139,11 +162,15 @@ const games = defineCollection({
       .optional(),
     stores: z.record(z.string(), z.string()).optional().default({}),
     play_now: z.record(z.string(), z.string()).optional().default({}),
-    physical_stores: z.record(z.string(), z.string()).optional().default({}),
+    physical_stores: z.record(
+      z.string(),
+      z.union([z.string(), z.record(z.string(), z.string())])
+    ).optional().default({}),
     critic_ratings: z
       .record(z.string(), z.union([z.number(), z.string()]))
       .optional()
       .default({}),
+    critic_ids: z.record(z.string(), z.string()).optional().default({}),
     database_links: z.record(z.string(), z.string()).optional().default({}),
     awards: z.array(awardSchema).optional().default([]),
     news: z.array(newsSchema).optional().default([]),

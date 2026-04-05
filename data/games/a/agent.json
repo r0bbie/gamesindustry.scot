@@ -1,0 +1,34 @@
+{
+  "id": "agent",
+  "title": "Agent",
+  "slug": "agent",
+  "short_description": "A cancelled Cold War spy game from Rockstar North, announced for PS3 in 2009.",
+  "description": "Agent was a cancelled Cold War-era spy game being developed by Rockstar North and published by Rockstar Games. Codenamed 'Jimmy' internally (a reference to James Bond), the game began development after Grand Theft Auto: San Andreas alongside GTA IV, with the studio split evenly between the two projects before GTA IV was prioritised. Agent was formally announced for the PlayStation 3 in 2009, but its trademark was abandoned in 2018 and the listing was later removed from Rockstar Games's website without the game ever releasing.",
+  "status": "cancelled",
+  "companies": {
+    "developer": [
+      "rockstar-north"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "stealth"
+  ],
+  "platforms": [
+    "ps3"
+  ],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

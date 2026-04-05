@@ -7,22 +7,41 @@
   "release_date": "2025-10-01",
   "status": "in_development",
   "companies": {
-    "developer": ["rockstar-north"],
-    "publishers": ["rockstar-games"],
+    "developer": [
+      "rockstar-north"
+    ],
+    "publishers": [
+      {
+        "name": "Rockstar Games",
+        "url": "https://www.rockstargames.com"
+      }
+    ],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["action", "open-world", "adventure"],
-  "platforms": ["ps5", "xbox-series-xs"],
-  "cover_image": "",
+  "genres": [
+    "action",
+    "open-world",
+    "adventure"
+  ],
+  "platforms": [
+    "ps5",
+    "xbox-series-xs"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/grand-theft-auto-vi/cover.webp",
   "screenshots": [],
-  "video": { "type": "youtube", "id": "QdBZY2fkU-0" },
+  "video": {
+    "type": "youtube",
+    "id": "QdBZY2fkU-0"
+  },
   "stores": {},
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
-  "database_links": { "igdb": "grand-theft-auto-vi" },
+  "database_links": {
+    "igdb": "grand-theft-auto-vi"
+  },
   "awards": [],
   "news": [],
   "is_student_game": false

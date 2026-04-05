@@ -1,0 +1,48 @@
+{
+  "id": "la-noire",
+  "title": "L.A. Noire",
+  "slug": "la-noire",
+  "short_description": "A 1940s detective noir game developed primarily by Team Bondi, with contributions from Rockstar North.",
+  "description": "L.A. Noire is a detective action-adventure game developed primarily by Team Bondi with supportive development contributions from Rockstar North, published by Rockstar Games. Released in 2011, it follows LAPD detective Cole Phelps investigating crimes across post-war Los Angeles. The game was pioneering in its use of MotionScan facial capture technology, allowing players to read suspects' facial expressions to determine if they were lying.",
+  "release_date": "2011-05-17",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "rockstar-north"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "adventure",
+    "detective"
+  ],
+  "platforms": [
+    "ps3",
+    "xbox-360",
+    "pc",
+    "ps4",
+    "xbox-one",
+    "switch"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/la-noire/cover.webp",
+  "screenshots": [],
+  "stores": {
+    "steam": "110800"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 89
+  },
+  "database_links": {
+    "mobygames": "la-noire",
+    "igdb": "l-a-noire"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

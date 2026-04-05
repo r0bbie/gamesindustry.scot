@@ -1,0 +1,42 @@
+{
+  "id": "grand-theft-auto",
+  "title": "Grand Theft Auto",
+  "slug": "grand-theft-auto",
+  "short_description": "The original open-world crime game that launched one of the most successful franchises in history.",
+  "description": "Grand Theft Auto is a top-down open-world action game developed by DMA Design (later known as Rockstar North) and originally published by BMG Interactive, later re-released by Take-Two Interactive. Released in November 1997 after a controversial marketing campaign that included House of Lords debate and tabloid calls for a ban, the game sold 500,000 copies and generated £25 million despite receiving mixed reviews. It laid the foundation for one of the most successful entertainment franchises of all time, with the Grand Theft Auto series going on to sell over 425 million copies.",
+  "release_date": "1997-11-28",
+  "status": "released",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "open-world"
+  ],
+  "platforms": [
+    "pc",
+    "ps1"
+  ],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {
+    "mobygames": "grand-theft-auto",
+    "igdb": "grand-theft-auto"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

@@ -1,0 +1,28 @@
+{
+  "id": "grand-theft-auto-iv-ballad-of-gay-tony",
+  "title": "Grand Theft Auto: The Ballad of Gay Tony",
+  "slug": "grand-theft-auto-iv-ballad-of-gay-tony",
+  "short_description": "The second GTA IV story expansion, following nightclub manager Luis Lopez through Liberty City's glamorous elite.",
+  "description": "Grand Theft Auto: The Ballad of Gay Tony is a standalone story expansion for Grand Theft Auto IV, developed by Rockstar North and published by Rockstar Games. Released in 2009, it follows Luis Fernando Lopez, bodyguard and business partner to nightclub entrepreneur Tony Prince ('Gay Tony'), in a storyline that intersects with both GTA IV and The Lost and Damned. It was bundled with The Lost and Damned as Grand Theft Auto: Episodes from Liberty City.",
+  "release_date": "2009-10-29",
+  "status": "released",
+  "companies": {
+    "developer": ["rockstar-north"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "open-world", "adventure"],
+  "platforms": ["ps3", "xbox-360", "pc"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 93 },
+  "database_links": { "mobygames": "grand-theft-auto-the-ballad-of-gay-tony", "igdb": "grand-theft-auto-the-ballad-of-gay-tony" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

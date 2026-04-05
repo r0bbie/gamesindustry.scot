@@ -1,0 +1,267 @@
+{
+  "id": "red-dead-redemption-2",
+  "title": "Red Dead Redemption 2",
+  "slug": "red-dead-redemption-2",
+  "short_description": "A breathtaking open-world Western prequel developed by all Rockstar studios working as one team.",
+  "description": "Red Dead Redemption 2 is an open-world Western action-adventure game developed by all Rockstar Games studios — including Rockstar North — working as one team, published by Rockstar Games. Released in October 2018, it is a prequel to the original Red Dead Redemption, following outlaw Arthur Morgan and the Van der Linde gang in the dying days of the American frontier. By the time of release, Rockstar North had grown to 650 employees. The game is widely regarded as one of the greatest games ever made, praised for its extraordinary depth, world-building, and storytelling.",
+  "release_date": "2018-10-26",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "rockstar-north"
+    ],
+    "publishers": [
+      {
+        "name": "Rockstar Games",
+        "url": "https://www.rockstargames.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "open-world",
+    "adventure"
+  ],
+  "platforms": [
+    "ps4",
+    "xbox-one",
+    "pc"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/red-dead-redemption-2/cover.webp",
+  "video": {
+    "type": "youtube",
+    "id": "F63h3v9QV7w"
+  },
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.rockstargames.com/reddeadredemption2",
+    "steam": "1174180",
+    "epic": "red-dead-redemption-2",
+    "psn": "EP1004-CUSA08519_00-REDEMPTIONFULL02",
+    "xbox": "red-dead-redemption-2/BPSWGQBW7R3G",
+    "green_man_gaming": "red-dead-redemption-2-pc"
+  },
+  "play_now": {},
+  "physical_stores": {
+    "amazon_uk": {
+      "Xbox One": "B01M275W1G",
+      "PS4": "B0776YMQN1"
+    },
+    "amazon_us": {
+      "Xbox One": "B01MAYC1CJ",
+      "PS4": "B01M9COSMD"
+    },
+    "shopto": {
+      "Xbox One": "xb1re41-red-dead-redemption-2-p1178397",
+      "PS4": "ps4re41-red-dead-redemption-2-p61888"
+    }
+  },
+  "critic_ratings": {
+    "metacritic": 97,
+    "opencritic": 93,
+    "criticdb": 94
+  },
+  "critic_ids": {
+    "opencritic": "3717/red-dead-redemption-2"
+  },
+  "database_links": {
+    "igdb": "red-dead-redemption-2",
+    "mobygames": "115902/red-dead-redemption-ii",
+    "backloggd": "red-dead-redemption-2",
+    "rawg": "red-dead-redemption-2",
+    "glitchwave": "red-dead-redemption-2",
+    "gamefaqs": "pc/274532-red-dead-redemption-2"
+  },
+  "awards": [
+    {
+      "name": "The Game Awards — Best Audio Design",
+      "year": 2018,
+      "status": "won"
+    },
+    {
+      "name": "The Game Awards — Best Narrative",
+      "year": 2018,
+      "status": "won"
+    },
+    {
+      "name": "The Game Awards — Best Score/Music",
+      "year": 2018,
+      "status": "won"
+    },
+    {
+      "name": "The Game Awards — Best Performance (Roger Clark as Arthur Morgan)",
+      "year": 2018,
+      "status": "won"
+    },
+    {
+      "name": "The Game Awards — Game of the Year",
+      "year": 2018,
+      "status": "nominated"
+    },
+    {
+      "name": "BAFTA Games Awards — Best Game",
+      "year": 2019,
+      "status": "nominated"
+    },
+    {
+      "name": "BAFTA Games Awards — Artistic Achievement",
+      "year": 2019,
+      "status": "nominated"
+    },
+    {
+      "name": "BAFTA Games Awards — Audio Achievement",
+      "year": 2019,
+      "status": "nominated"
+    },
+    {
+      "name": "BAFTA Games Awards — British Game",
+      "year": 2019,
+      "status": "nominated"
+    },
+    {
+      "name": "BAFTA Games Awards — Narrative",
+      "year": 2019,
+      "status": "nominated"
+    },
+    {
+      "name": "BAFTA Games Awards — Performer (Roger Clark as Arthur Morgan)",
+      "year": 2019,
+      "status": "nominated"
+    },
+    {
+      "name": "D.I.C.E. Awards — Outstanding Technical Achievement",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "D.I.C.E. Awards — Game of the Year",
+      "year": 2019,
+      "status": "nominated"
+    },
+    {
+      "name": "Game Developers Choice Awards — Best Technology",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "Game Developers Choice Awards — Game of the Year",
+      "year": 2019,
+      "status": "nominated"
+    },
+    {
+      "name": "Golden Joystick Awards — Critics Choice Award",
+      "year": 2018,
+      "status": "won"
+    },
+    {
+      "name": "Golden Joystick Awards — Ultimate Game of the Year",
+      "year": 2018,
+      "status": "nominated"
+    },
+    {
+      "name": "Gamers' Choice Awards — Fan Favorite Fall Release",
+      "year": 2018,
+      "status": "won"
+    },
+    {
+      "name": "New York Game Awards — Best Writing",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "New York Game Awards — Best World",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "New York Game Awards — Game of the Year",
+      "year": 2019,
+      "status": "nominated"
+    },
+    {
+      "name": "SXSW Gaming Awards — Excellence in SFX",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "SXSW Gaming Awards — Excellence in Technical Achievement",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "SXSW Gaming Awards — Trending Game of the Year",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "Italian Video Game Awards — Game of the Year",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "Italian Video Game Awards — Best Art Direction",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "Italian Video Game Awards — Best Audio",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "Dragon Awards — Best Science Fiction or Fantasy PC/Console Game",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "Japan Game Awards — Global Award (Foreign Product)",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "Guild of Music Supervisors Awards — Best Music Supervision in a Video Game",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "Hollywood Music in Media Awards — Soundtrack Album",
+      "year": 2019,
+      "status": "won"
+    },
+    {
+      "name": "The Steam Awards — Game of the Year",
+      "year": 2021,
+      "status": "won"
+    },
+    {
+      "name": "The Steam Awards — Outstanding Story-Rich Game",
+      "year": 2021,
+      "status": "won"
+    },
+    {
+      "name": "The Steam Awards — Labor of Love",
+      "year": 2024,
+      "status": "won"
+    },
+    {
+      "name": "Titanium Awards — Game of the Year",
+      "year": 2018,
+      "status": "won"
+    },
+    {
+      "name": "Titanium Awards — Best Game Design",
+      "year": 2018,
+      "status": "won"
+    },
+    {
+      "name": "Titanium Awards — Best Original Soundtrack",
+      "year": 2018,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false
+}

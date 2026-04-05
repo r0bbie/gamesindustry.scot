@@ -1,0 +1,46 @@
+{
+  "id": "drive-buy",
+  "title": "Drive Buy",
+  "slug": "drive-buy",
+  "short_description": "A fast-paced multiplayer car combat game where you race to sell the most products to hypnotised customers.",
+  "description": "Drive Buy is a fast-paced multiplayer vehicle combat game developed by Glitchers. Players race through chaotic urban environments competing to sell the most products to customers brainwashed by hypnotic screens. Outrun rivals, use power-ups to destroy them, and steal their credits to come out on top. The game supports online and local multiplayer and is available on Steam and Nintendo Switch.",
+  "release_date": "2021-03-30",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "glitchers"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "racing",
+    "multiplayer"
+  ],
+  "platforms": [
+    "pc",
+    "switch"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/drive-buy/cover.webp",
+  "video": {
+    "type": "youtube",
+    "id": "HvNYvvD0fTg"
+  },
+  "screenshots": [],
+  "stores": {
+    "steam": "774211"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "drive-buy"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

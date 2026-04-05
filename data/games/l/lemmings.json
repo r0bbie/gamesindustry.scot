@@ -1,0 +1,49 @@
+{
+  "id": "lemmings",
+  "title": "Lemmings",
+  "slug": "lemmings",
+  "short_description": "The landmark puzzle game that made DMA Design (later Rockstar North) globally famous.",
+  "description": "Lemmings is a puzzle-strategy video game developed by DMA Design (later Rockstar North) and published by Psygnosis. The concept was conceived by Mike Dailly, who during a lunch break animated a demo of tiny characters walking in a line — prompting Russell Kay to remark that a game could be built around it. Released for the Amiga on 14 February 1991, players must guide a tribe of hapless lemmings through 120 hazardous levels split into four difficulty categories — Fun, Tricky, Taxing, and Mayhem — by assigning each individual a skill: digging, building, blocking, climbing, bashing, bridging, or exploding. A quota of lemmings must be saved to complete each level. The game was a massive commercial success, selling 55,000 copies on its first day and accumulating over 20 million sales across 21 platforms. It cemented DMA Design as a world-leading studio, made David Jones a millionaire at 25, and launched a long-running franchise of sequels and spin-offs.",
+  "release_date": "1991-02-14",
+  "status": "released",
+  "companies": {
+    "developer": [{ "name": "DMA Design (later Rockstar North)", "company_id": "rockstar-north" }],
+    "publishers": [{ "name": "Psygnosis", "url": "https://en.wikipedia.org/wiki/Psygnosis" }],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["puzzle", "strategy"],
+  "platforms": [
+    "amiga",
+    "atari-st",
+    "commodore-64",
+    "pc",
+    "macos",
+    "game-boy",
+    "snes",
+    "sega-genesis",
+    "nes",
+    "game-gear",
+    "ps1"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/lemmings/cover.webp",
+  "video": { "type": "youtube", "id": "8FTOySSAPo8" },
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "lemmings",
+    "igdb": "lemmings--5",
+    "rawg": "lemmings",
+    "backloggd": "lemmings",
+    "glitchwave": "lemmings",
+    "gamefaqs": "amiga/564252-lemmings"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

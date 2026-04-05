@@ -7,24 +7,51 @@
   "release_date": "2019-05-21",
   "status": "released",
   "companies": {
-    "developer": ["no-code"],
-    "publishers": ["devolver-digital"],
+    "developer": [
+      "screen-burn"
+    ],
+    "publishers": [
+      "devolver-digital"
+    ],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["adventure", "thriller", "sci-fi"],
-  "platforms": ["pc", "ps4"],
-  "cover_image": "",
+  "genres": [
+    "adventure",
+    "thriller",
+    "sci-fi"
+  ],
+  "platforms": [
+    "pc",
+    "ps4"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/observation/cover.webp",
   "screenshots": [],
-  "video": { "type": "youtube", "id": "kFBDVEIOTQA" },
-  "stores": { "steam": "906100", "epic": "observation" },
+  "video": {
+    "type": "youtube",
+    "id": "kFBDVEIOTQA"
+  },
+  "stores": {
+    "steam": "906100",
+    "epic": "observation"
+  },
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": { "metacritic": 80, "opencritic": 78 },
-  "database_links": { "igdb": "observation", "mobygames": "130710" },
+  "critic_ratings": {
+    "metacritic": 80,
+    "opencritic": 78
+  },
+  "database_links": {
+    "igdb": "observation",
+    "mobygames": "130710"
+  },
   "awards": [
-    { "name": "BAFTA Best Debut Game", "year": 2020, "status": "nominated" }
+    {
+      "name": "BAFTA Best Debut Game",
+      "year": 2020,
+      "status": "nominated"
+    }
   ],
   "news": [],
   "is_student_game": false

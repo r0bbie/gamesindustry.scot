@@ -26,15 +26,20 @@ const storeLabels: Record<string, string> = {
   samsung_galaxy: "Galaxy Store",
   indiegala: "IndieGala",
   game_jolt: "Game Jolt",
+  gameclub: "GameClub",
   poki: "Poki",
   crazygames: "CrazyGames",
   addicting_games: "Addicting Games",
   newgrounds: "Newgrounds",
   kongregate: "Kongregate",
   armor_games: "Armor Games",
+  web: "Play Online",
   amazon: "Amazon",
+  amazon_uk: "Amazon (UK)",
+  amazon_us: "Amazon (US)",
   game_uk: "GAME",
   shopto: "ShopTo",
+  website: "Official Site",
 };
 
 // Map store key → Simple Icons slug (filename without .svg)
@@ -54,14 +59,17 @@ const simpleIconSlug: Record<string, string> = {
   kongregate: "kongregate",
 };
 
-// Xbox sphere-X (not in Simple Icons v16)
-const xboxPath = "M5.082 4.534a9.651 9.651 0 0 1 13.836 0c-1.444-1.073-3.96-1.4-5.919.35l-1 .874-1-.874c-1.96-1.75-4.474-1.423-5.918-.35zm11.83 1.01c-.8-.75-2.37-1.61-3.75-.87.12.083.215.169.288.247.072.077.119.149.16.21.064.094.096.177.1.184.38.671.596 1.367.633 2.053a6.46 6.46 0 0 1-.2 1.945 10.625 10.625 0 0 1-.5 1.553l-.004.012c-.39.975-.86 1.946-1.384 2.85a18.92 18.92 0 0 1-1.252 1.87l.997 1.055a7.2 7.2 0 0 0 5.912-11.109zm-9.624-.87c-1.38-.74-2.95.12-3.75.87a7.2 7.2 0 0 0 5.912 11.11l.997-1.056a18.882 18.882 0 0 1-1.252-1.872c-.524-.903-.994-1.874-1.384-2.849l-.004-.012a10.643 10.643 0 0 1-.5-1.553 6.464 6.464 0 0 1-.199-1.945c.037-.686.253-1.382.633-2.053.004-.007.036-.09.1-.184.041-.061.088-.133.16-.21a1.63 1.63 0 0 1 .288-.247z";
+// Xbox: proper brand sphere logo (Material Design Icons mdi:xbox)
+const xboxPath = "M6.43 3.72c.07-.06.14-.12.19-.16C8.18 2.55 10 2 12 2c1.88 0 3.64.5 5.14 1.42c.11.08.4.27.56.46C16.25 2.28 12 5.7 12 5.7c-1.5-1.13-2.83-1.9-3.84-2.2c-.85-.21-1.43 0-1.7.2m12.88 1.51c-.05-.05-.1-.1-.14-.15c-.36-.4-.82-.5-1.2-.47c-.39.12-2.1.73-4.2 2.72c0 0 2.37 2.3 3.82 4.65s2.31 4.2 1.78 6.77C21 16.95 22 14.59 22 12c0-2.62-1-5-2.66-6.79m-3.61 7.75c-.65-.72-1.6-1.75-2.87-3.01c-.27-.27-.56-.55-.86-.85c0 0-.47.46-1.07 1.07c-.77.77-1.76 1.78-2.32 2.37c-.98 1.05-3.8 4.35-3.96 6.2c0 0-.65-1.46.75-4.85c.9-2.21 3.6-5.53 4.75-6.61c0 0-1.03-1.14-2.33-1.93l-.05-.03c-.63-.37-1.31-.66-1.97-.7c-.67.05-1.09.54-1.09.54A9.95 9.95 0 0 0 2 12a10 10 0 0 0 10 10c2.93 0 5.57-1.26 7.4-3.27c0 0-.21-1.33-1.56-3.23c-.31-.43-1.47-1.81-2.11-2.54";
 
 // Nintendo N-in-rounded-rectangle
 const nintendoPath = "M14.176 0H9.824C4.4 0 0 4.4 0 9.824v4.352C0 19.6 4.4 24 9.824 24h4.352C19.6 24 24 19.6 24 14.176V9.824C24 4.4 19.6 0 14.176 0zm-4.99 5.632h1.814l4.328 7.814V5.632h1.862v12.736H15.39l-4.34-7.842v7.842H9.186V5.632z";
 
 // Amazon smile
 const amazonPath = "M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.7-3.182zm3.186 7.705a.66.66 0 0 1-.748.074c-1.051-.873-1.239-1.276-1.815-2.112-1.732 1.767-2.958 2.295-5.204 2.295-2.657 0-4.73-1.64-4.73-4.924 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.944-1.101v-.41c0-.753.059-1.642-.383-2.294-.385-.579-1.124-.819-1.775-.819-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.582l-3.076-.333c-.259-.058-.548-.266-.472-.661C5.551 2.318 8.337.603 11.266.019 12.756.019 14.695.49 15.832 1.56c1.479 1.382 1.339 3.228 1.339 5.237v4.737c0 1.425.591 2.05 1.146 2.816.194.272.238.599-.01.8-.619.517-1.724 1.48-2.333 1.979zm4.393 2.912c-3.916 2.204-8.487 3.293-12.807 3.293-5.5 0-11.1-2.036-15.524-5.408-.322-.231-.057-.578.316-.386 4.443 2.582 9.924 4.14 15.562 4.14 3.807 0 7.99-.79 11.843-2.43.582-.241 1.069.385.61.791z";
+
+// Icons that need raw SVG inner HTML rather than a single <path d="..."/>
+const customHtml: Record<string, string> = {};
 
 const customPaths: Record<string, string> = {
   xbox: xboxPath,
@@ -78,6 +86,9 @@ const customPaths: Record<string, string> = {
   armor_games: "M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z",
 };
 
+// Icons whose sub-paths require evenodd to render correctly
+const evenOddStores = new Set(["nintendo_eshop"]);
+
 // Resolve icon path: try Simple Icons SVG file first, then custom fallback
 function getIconPath(store: string): string | null {
   const slug = simpleIconSlug[store];
@@ -86,6 +97,10 @@ function getIconPath(store: string): string | null {
     if (path) return path;
   }
   return customPaths[store] ?? null;
+}
+
+function getIconHtml(store: string): string | null {
+  return customHtml[store] ?? null;
 }
 
 function getUrl(store: string, id: string): string {
@@ -98,6 +113,7 @@ function getUrl(store: string, id: string): string {
 {entries.length > 0 && (
   <div class="flex flex-wrap gap-2">
     {entries.map(([store, id]) => {
+      const iconHtml = getIconHtml(store);
       const iconPath = getIconPath(store);
       return (
         <a
@@ -106,13 +122,15 @@ function getUrl(store: string, id: string): string {
           rel="noopener noreferrer"
           class="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
         >
-          {iconPath ? (
+          {iconHtml ? (
+            <svg class="h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" set:html={iconHtml} />
+          ) : iconPath ? (
             <svg
               class="h-4 w-4 shrink-0 text-muted-foreground"
               viewBox="0 0 24 24"
               fill="currentColor"
               aria-hidden="true"
-              set:html={`<path d="${iconPath}"/>`}
+              set:html={`<path ${evenOddStores.has(store) ? 'fill-rule="evenodd" ' : ""}d="${iconPath}"/>`}
             />
           ) : (
             <svg class="h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

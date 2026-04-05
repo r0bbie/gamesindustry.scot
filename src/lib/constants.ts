@@ -77,8 +77,8 @@ export function buildStoreUrl(store: string, id: string): string {
     epic: (id) => `https://store.epicgames.com/p/${id}`,
     gog: (id) => `https://www.gog.com/game/${id}`,
     humble: (id) => `https://www.humblebundle.com/store/${id}`,
-    psn: (id) => `https://store.playstation.com/concept/${id}`,
-    xbox: (id) => `https://www.xbox.com/games/store/${id}`,
+    psn: (id) => `https://store.playstation.com/en-gb/product/${id}`,
+    xbox: (id) => `https://www.xbox.com/en-GB/games/store/${id}`,
     nintendo_eshop: (id) => `https://www.nintendo.com/store/products/${id}`,
     itch: (id) => `https://${id}.itch.io`,
     green_man_gaming: (id) => `https://www.greenmangaming.com/games/${id}`,
@@ -88,6 +88,8 @@ export function buildStoreUrl(store: string, id: string): string {
     samsung_galaxy: (id) => `https://galaxystore.samsung.com/detail/${id}`,
     indiegala: (id) => `https://www.indiegala.com/store/product/${id}`,
     game_jolt: (id) => `https://gamejolt.com/games/${id}`,
+    gameclub: (id) => `https://gameclub.io/games/${id}`,
+    website: (id) => id,
   };
   return urls[store]?.(id) ?? `#unknown-store-${store}`;
 }
@@ -101,6 +103,8 @@ export function buildPlayUrl(platform: string, id: string): string {
     newgrounds: (id) => `https://www.newgrounds.com/portal/view/${id}`,
     kongregate: (id) => `https://www.kongregate.com/games/${id}`,
     armor_games: (id) => `https://armorgames.com/play/${id}`,
+    web: (id) => id,
+    website: (id) => id,
   };
   return urls[platform]?.(id) ?? `#unknown-platform-${platform}`;
 }
@@ -108,8 +112,10 @@ export function buildPlayUrl(platform: string, id: string): string {
 export function buildPhysicalStoreUrl(store: string, id: string): string {
   const urls: Record<string, (id: string) => string> = {
     amazon: (id) => `https://www.amazon.co.uk/dp/${id}`,
+    amazon_uk: (id) => `https://www.amazon.co.uk/dp/${id}`,
+    amazon_us: (id) => `https://www.amazon.com/dp/${id}`,
     game_uk: (id) => `https://www.game.co.uk/${id}`,
-    shopto: (id) => `https://www.shopto.net/${id}`,
+    shopto: (id) => `https://www.shopto.net/en/${id}/`,
   };
   return urls[store]?.(id) ?? `#unknown-store-${store}`;
 }
@@ -118,7 +124,7 @@ export function buildCriticUrl(source: string, id: string): string {
   const urls: Record<string, (id: string) => string> = {
     metacritic: (id) => `https://www.metacritic.com/game/${id}`,
     opencritic: (id) => `https://opencritic.com/game/${id}`,
-    criticdb: (id) => `https://criticdb.com/game/${id}`,
+    criticdb: (id) => `https://criticdb.com/games/${id}`,
   };
   return urls[source]?.(id) ?? `#unknown-critic-${source}`;
 }
@@ -131,6 +137,8 @@ export function buildDatabaseUrl(db: string, id: string): string {
     rawg: (id) => `https://rawg.io/games/${id}`,
     glitchwave: (id) => `https://glitchwave.com/game/${id}`,
     gamefaqs: (id) => `https://gamefaqs.gamespot.com/${id}`,
+    opencritic: (id) => `https://opencritic.com/game/${id}`,
+    criticdb: (id) => `https://criticdb.com/games/${id}`,
   };
   return urls[db]?.(id) ?? `#unknown-db-${db}`;
 }
@@ -144,11 +152,12 @@ export function buildSocialUrl(platform: string, handle: string): string {
     steam: (h) => `https://store.steampowered.com/publisher/${h}`,
     twitch: (h) => `https://www.twitch.tv/${h}`,
     crunchbase: (h) => `https://www.crunchbase.com/organization/${h}`,
-    discord: (h) => `https://discord.gg/${h}`,
+    discord: (h) => h.startsWith("http") ? h : `https://discord.gg/${h}`,
     youtube: (h) => `https://www.youtube.com/${h}`,
-    app_store: (h) => `https://apps.apple.com/developer/${h}`,
-    google_play: (h) => `https://play.google.com/store/apps/developer?id=${h}`,
+    app_store: (h) => h.startsWith("http") ? h : `https://apps.apple.com/developer/${h}`,
+    google_play: (h) => h.startsWith("http") ? h : `https://play.google.com/store/apps/developer?id=${h}`,
     github: (h) => `https://github.com/${h}`,
+    threads: (h) => `https://www.threads.com/@${h.startsWith("@") ? h.slice(1) : h}`,
     behance: (h) => `https://www.behance.net/${h}`,
     dribbble: (h) => `https://dribbble.com/${h}`,
     artstation: (h) => `https://www.artstation.com/${h}`,

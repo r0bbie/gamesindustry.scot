@@ -4,6 +4,10 @@ import { getAllGames, safeGetCompany } from "@/lib/data";
 import type { Game } from "@/lib/data";
 import type { GameWithDeveloper } from "@/components/games/GameListView";
 import { GITHUB_REPO } from "@/lib/constants";
+import {
+  formatGameReleaseLineDisplay,
+  getLatestReleaseSortTimestamp,
+} from "@/lib/gameRelease";
 
 const games = await getAllGames();
 
@@ -22,6 +26,7 @@ const gamesWithDevs: GameWithDeveloper[] = await Promise.all(
     slug: g.slug,
     short_description: g.short_description,
     release_date: g.release_date,
+    release_period: g.release_period,
     status: g.status,
     genres: g.genres,
     platforms: g.platforms,
@@ -37,7 +42,9 @@ const releasedGames = gamesWithDevs.filter((g) => g.status === "released");
 const upcomingGames = gamesWithDevs.filter((g) => g.status === "in_development");
 
 const newReleases = [...releasedGames]
-  .sort((a, b) => (b.release_date ?? "").localeCompare(a.release_date ?? ""))
+  .sort(
+    (a, b) => getLatestReleaseSortTimestamp(b) - getLatestReleaseSortTimestamp(a),
+  )
   .slice(0, 6);
 
 const upcoming = [...upcomingGames]
@@ -69,8 +76,15 @@ games.forEach((g) => g.genres.forEach((genre) => {
 }));
 const genres = [...genreCounts.entries()].sort((a, b) => b[1] - a[1]);
 
-function formatDate(dateStr?: string): string {
-  if (!dateStr) return "TBA";
+function formatDate(dateStr?: string, status?: string): string {
+  if (!dateStr) return status === "cancelled" ? "Unreleased" : "TBA";
+  if (/^\d{4}$/.test(dateStr)) return dateStr;
+  if (/^\d{4}-\d{2}$/.test(dateStr)) {
+    const [year, month] = dateStr.split("-");
+    return new Date(Number(year), Number(month) - 1).toLocaleDateString("en-GB", {
+      year: "numeric", month: "short",
+    });
+  }
   try {
     return new Date(dateStr).toLocaleDateString("en-GB", {
       year: "numeric",
@@ -148,14 +162,14 @@ const addGameUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-ga
             View all &rarr;
           </a>
         </div>
-        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
           {section.games.map((game) => (
             <a
               href={`/games/${game.slug}`}
               class="group rounded-xl border border-border bg-card text-card-foreground shadow transition-colors hover:border-primary/30 hover:shadow-md"
             >
               <div
-                class="flex h-40 items-center justify-center rounded-t-xl"
+                class="flex aspect-[2/3] items-center justify-center rounded-t-xl"
                 style={
                   game.cover_image
                     ? `background-image: url(${game.cover_image}); background-size: cover; background-position: center;`
@@ -173,7 +187,7 @@ const addGameUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-ga
                   {game.title}
                 </h3>
                 <p class="mt-1 text-sm text-muted-foreground">{game.developerName}</p>
-                <p class="mt-1 text-xs text-muted-foreground">{formatDate(game.release_date)}</p>
+                <p class="mt-1 text-xs text-muted-foreground">{formatGameReleaseLineDisplay(game)}</p>
               </div>
             </a>
           ))}

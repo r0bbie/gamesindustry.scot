@@ -1,6 +1,10 @@
 import { useState, useMemo, useEffect, useRef } from "react";
 import Pagination from "@/components/ui/Pagination";
 import { FilterDropdown, FilterChip, FilterToggle, SortDropdown, ResultCount } from "@/components/ui/FilterToolbar";
+import {
+  formatGameReleaseLineDisplay,
+  getLatestReleaseSortTimestamp,
+} from "@/lib/gameRelease";
 
 const PAGE_SIZE = 30;
 
@@ -10,6 +14,7 @@ export interface GameWithDeveloper {
   slug: string;
   short_description?: string;
   release_date?: string;
+  release_period?: { start: string; end?: string | null };
   status: "in_development" | "released" | "cancelled";
   genres: string[];
   platforms: string[];
@@ -34,18 +39,6 @@ const STATUS_OPTIONS: { value: StatusFilter; label: string }[] = [
   { value: "in_development", label: "Upcoming" },
   { value: "cancelled", label: "Cancelled" },
 ];
-
-function formatDate(dateStr?: string): string {
-  if (!dateStr) return "TBA";
-  try {
-    return new Date(dateStr).toLocaleDateString("en-GB", {
-      year: "numeric",
-      month: "short",
-    });
-  } catch {
-    return dateStr;
-  }
-}
 
 function getCoverGradient(title: string): string {
   const hue = [...title].reduce((sum, ch) => sum + ch.charCodeAt(0), 0) % 360;
@@ -327,7 +320,7 @@ export default function GameListView({ games }: { games: GameWithDeveloper[] }) 
 
       {/* Results */}
       {filtered.length > 0 ? (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {paginated.map((game) => (
             <a
               key={game.id}
@@ -336,7 +329,7 @@ export default function GameListView({ games }: { games: GameWithDeveloper[] }) 
             >
               {/* Cover */}
               <div
-                className="relative flex h-44 items-center justify-center overflow-hidden rounded-t-xl"
+                className="relative flex aspect-[2/3] items-center justify-center overflow-hidden rounded-t-xl"
                 style={
                   game.cover_image
                     ? { backgroundImage: `url(${game.cover_image})`, backgroundSize: "cover", backgroundPosition: "center" }
@@ -374,7 +367,7 @@ export default function GameListView({ games }: { games: GameWithDeveloper[] }) 
                 </h3>
                 <p className="mt-0.5 text-sm text-muted-foreground">{game.developerName}</p>
                 <div className="mt-auto flex items-center justify-between pt-3 text-xs text-muted-foreground">
-                  <span>{formatDate(game.release_date)}</span>
+                  <span>{formatGameReleaseLineDisplay(game)}</span>
                   {game.awards.length > 0 && (
                     <span className="flex items-center gap-1 text-amber-600 dark:text-amber-400">
                       <svg className="h-3 w-3" viewBox="0 0 24 24" fill="currentColor">

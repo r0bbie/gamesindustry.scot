@@ -1,0 +1,18 @@
+---
+import { buildObfuscatedMailtoAnchorHtml } from "@/lib/obfuscateEmail";
+
+interface Props {
+  email: string;
+  class?: string;
+}
+
+const { email, class: className } = Astro.props;
+const anchorHtml = buildObfuscatedMailtoAnchorHtml({ email, class: className });
+---
+
+<span class="contents" set:html={anchorHtml} />
+<style is:global>
+  .eml-x {
+    display: none;
+  }
+</style>

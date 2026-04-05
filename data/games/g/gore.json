@@ -1,0 +1,36 @@
+{
+  "id": "gore",
+  "title": "Gore!",
+  "slug": "gore",
+  "short_description": "A cancelled Golden Axe-inspired action game from DMA Design (later Rockstar North), shelved due to Amiga hardware limitations.",
+  "description": "Gore! was a cancelled action game inspired by Golden Axe that DMA Design (later known as Rockstar North) was developing in 1990. The project was shelved due to the technical restrictions of the Amiga hardware at the time, which proved insufficient to realise the team's vision for the game.",
+  "status": "cancelled",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action"
+  ],
+  "platforms": [
+    "amiga"
+  ],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

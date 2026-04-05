@@ -1,0 +1,41 @@
+{
+  "id": "wild-metal-country",
+  "title": "Wild Metal Country",
+  "slug": "wild-metal-country",
+  "short_description": "A vehicular combat game from DMA Design (later Rockstar North), released on PC and Dreamcast.",
+  "description": "Wild Metal Country (released as Wild Metal on Dreamcast) is a vehicular combat game developed by DMA Design (later known as Rockstar North). Originally published by Gremlin Interactive for PC in 1999, it was later published by Rockstar Games for the Sega Dreamcast in February 2000 under the shortened title Wild Metal. Players control futuristic tanks across open terrain, collecting power cores and battling enemy vehicles.",
+  "release_date": "1999-05-01",
+  "status": "released",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "vehicular-combat"
+  ],
+  "platforms": [
+    "pc",
+    "sega-dreamcast"
+  ],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {
+    "mobygames": "wild-metal-country"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

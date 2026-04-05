@@ -1,0 +1,80 @@
+{
+  "id": "sea-hero-quest",
+  "title": "Sea Hero Quest",
+  "slug": "sea-hero-quest",
+  "short_description": "A mobile game that generates real data for dementia research by tracking players' spatial navigation.",
+  "description": "Sea Hero Quest is a mobile game developed by Glitchers in collaboration with Alzheimer's Research UK, University College London, and the University of East Anglia, with funding from Deutsche Telekom. The idea came from neuroscientist Michael Hornberger, who recognised that tracking how people navigate in 3D space could help identify early markers of dementia — a task previously requiring expensive lab equipment. Players navigate a boat through increasingly complex waterways, and each session feeds anonymised spatial navigation data directly into dementia research; two minutes of play generates the equivalent of five hours of traditional lab-based data. Released in May 2016, the game attracted millions of players worldwide. In 2018 it was nominated for a British Academy Games Award in the Game Beyond Entertainment category — for games that deliver a transformational experience beyond pure entertainment — and won bronze at The One Show. Glitchers also won a Webby Award for Social Impact that year for the project. In 2020 the game was nominated for the Coney Island Dreamland Award for Best AR/VR Game at the New York Game Awards. A Research Edition was launched in 2021.",
+  "release_date": "2016-05",
+  "release_period": {
+    "start": "2016-05",
+    "end": null
+  },
+  "status": "released",
+  "companies": {
+    "developer": [
+      "glitchers"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [
+      {
+        "name": "Alzheimer's Research UK",
+        "url": "https://www.alzheimersresearchuk.org"
+      },
+      {
+        "name": "Deutsche Telekom",
+        "url": "https://www.telekom.com"
+      }
+    ]
+  },
+  "genres": [
+    "casual",
+    "puzzle"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "vr"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/sea-hero-quest/cover.webp",
+  "video": {
+    "type": "youtube",
+    "id": "8teKJ2amFnY"
+  },
+  "screenshots": [],
+  "stores": {
+    "app_store": "id1034383306",
+    "play_store": "com.glitchers.catchhero",
+    "website": "https://seaheroquest.com/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "British Academy Games Awards — Game Beyond Entertainment",
+      "year": 2018,
+      "status": "nominated"
+    },
+    {
+      "name": "The One Show — Bronze (Interactive)",
+      "year": 2018,
+      "status": "won"
+    },
+    {
+      "name": "Webby Awards — Social Impact",
+      "year": 2018,
+      "status": "won"
+    },
+    {
+      "name": "New York Game Awards — Coney Island Dreamland Award for Best AR/VR Game",
+      "year": 2020,
+      "status": "nominated"
+    }
+  ],
+  "news": [],
+  "is_student_game": false
+}

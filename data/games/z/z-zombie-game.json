@@ -1,0 +1,32 @@
+{
+  "id": "z-zombie-game",
+  "title": "Z",
+  "slug": "z-zombie-game",
+  "short_description": "A cancelled zombie survival game set on a Scottish island, developed by Rockstar North using GTA: Vice City's engine.",
+  "description": "Z was a cancelled zombie survival game that Rockstar North began developing after the release of Grand Theft Auto: Vice City. Set on a Scottish island, it repurposed code from Vice City and was in production for around one month before the concept lost traction at the studio. A former developer described the project as feeling too 'depressing'.",
+  "status": "cancelled",
+  "companies": {
+    "developer": [
+      "rockstar-north"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "survival"
+  ],
+  "platforms": [],
+  "cover_image": "https://media.gamesindustry.scot/games/z-zombie-game/cover.webp",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

@@ -214,11 +214,11 @@ export async function getGamesForCompany(companyId: string): Promise<Game[]> {
   const games = await getAllGames();
   return games.filter(
     (g) =>
-      g.companies.developer.includes(companyId) ||
-      g.companies.publishers.includes(companyId) ||
-      g.companies.service_companies.includes(companyId) ||
-      g.companies.used_tooling.includes(companyId) ||
-      g.companies.supported_by.includes(companyId)
+      matchesCompanyRef(g.companies.developer, companyId) ||
+      matchesCompanyRef(g.companies.publishers, companyId) ||
+      matchesCompanyRef(g.companies.service_companies, companyId) ||
+      matchesCompanyRef(g.companies.used_tooling, companyId) ||
+      matchesCompanyRef(g.companies.supported_by, companyId)
   );
 }
 
@@ -279,6 +279,42 @@ export async function resolveCompanyIds(
       id,
       company: await safeGetCompany(id, context),
     }))
+  );
+}
+
+type CompanyRef = string | { name: string; url?: string; company_id?: string };
+
+/**
+ * Resolve a mixed array of company DB slugs and inline name objects.
+ * - String entries are looked up in the DB; if not found they show as a broken link.
+ * - Object `{ name, url? }` — external company, no DB lookup, renders as link or plain text.
+ * - Object `{ name, company_id }` — custom display name linked to an internal DB company page.
+ */
+export async function resolveCompanyRefs(
+  refs: CompanyRef[],
+  context?: string
+): Promise<Array<{ id: string | null; name: string; url: string | null; company: Company | null }>> {
+  return Promise.all(
+    refs.map(async (ref) => {
+      if (typeof ref === "object") {
+        if (ref.company_id) {
+          const company = await safeGetCompany(ref.company_id, context);
+          return { id: ref.company_id, name: ref.name, url: null, company };
+        }
+        return { id: null, name: ref.name, url: ref.url ?? null, company: null };
+      }
+      const company = await safeGetCompany(ref, context);
+      return { id: ref, name: company?.name ?? ref, url: null, company };
+    })
+  );
+}
+
+export function matchesCompanyRef(
+  refs: CompanyRef[],
+  companyId: string
+): boolean {
+  return refs.some((ref) =>
+    typeof ref === "string" ? ref === companyId : ref.company_id === companyId
   );
 }
 

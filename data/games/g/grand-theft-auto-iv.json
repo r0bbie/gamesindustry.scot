@@ -1,0 +1,30 @@
+{
+  "id": "grand-theft-auto-iv",
+  "title": "Grand Theft Auto IV",
+  "slug": "grand-theft-auto-iv",
+  "short_description": "A gritty crime drama in Liberty City, breaking records on release day with $310 million in 24 hours.",
+  "description": "Grand Theft Auto IV is an open-world action-adventure game developed by Rockstar North and published by Rockstar Games. Released in April 2008, the game follows Niko Bellic, an Eastern European immigrant pursuing the American Dream in Liberty City. With 220 people at the studio and 1,000 worldwide involved, and a budget estimated at $100 million, it broke the record for the highest revenue for a game within one day at $310 million from 3.6 million copies sold. The game won Game of the Year at the 2008 Spike Video Game Awards.",
+  "release_date": "2008-04-29",
+  "status": "released",
+  "companies": {
+    "developer": ["rockstar-north"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "open-world", "adventure"],
+  "platforms": ["ps3", "xbox-360", "pc"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": { "steam": "12210" },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 98 },
+  "database_links": { "mobygames": "grand-theft-auto-iv", "igdb": "grand-theft-auto-iv" },
+  "awards": [
+    { "name": "Spike Video Game Awards Game of the Year", "year": 2008, "status": "won" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import ObfuscatedEmail from "@/components/ObfuscatedEmail.astro";
 import { GITHUB_URL, GITHUB_REPO } from "@/lib/constants";
 import { getAllCompanies, getAllGames } from "@/lib/data";
 
@@ -210,14 +211,14 @@ const activeCompanies = companies.filter((c) => c.status === "active");
         If you have a bug to report or other issue with the website, you can open an issue on our <a href="https://github.com/r0bbie/gamesindustry.scot/issues" target="_blank" rel="noopener noreferrer" class="text-foreground underline underline-offset-2 hover:text-primary">GitHub</a>.
       </p>
       <p class="text-muted-foreground leading-relaxed mb-6">
-        If you have another question not answered by the above, you can email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%72%6f%62%62%69%65&#64;%67%61%6d%65%73%69%6e%64%75%73%74%72%79&#46;%73%63%6f%74" class="text-foreground underline underline-offset-2 hover:text-primary">&#114;&#111;&#98;&#98;&#105;&#101;<span class="eml-x">noreply</span>&#64;&#103;&#97;&#109;&#101;&#115;&#105;&#110;&#100;&#117;&#115;&#116;&#114;&#121;<span class="eml-x">.invalid</span>&#46;&#115;&#99;&#111;&#116;</a>
+        If you have another question not answered by the above, you can email{" "}
+        <ObfuscatedEmail
+          email="robbie@gamesindustry.scot"
+          class="text-foreground underline underline-offset-2 hover:text-primary"
+        />
       </p>
     </section>
     
 
   </div>
 </BaseLayout>
-
-<style>
-  .eml-x { display: none; }
-</style>

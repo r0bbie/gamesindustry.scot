@@ -1,0 +1,43 @@
+{
+  "id": "grand-theft-auto-2",
+  "title": "Grand Theft Auto 2",
+  "slug": "grand-theft-auto-2",
+  "short_description": "The top-down sequel to Grand Theft Auto, the first published under the Rockstar Games label.",
+  "description": "Grand Theft Auto 2 is a top-down open-world action game developed by DMA Design (later known as Rockstar North) and published by Rockstar Games, released in October 1999. Set in a futuristic city called Anywhere City, players could work for three rival gangs simultaneously. It was the first Take-Two game to sell more than 1 million copies, and the first GTA game to carry the Rockstar Games publishing label.",
+  "release_date": "1999-10-22",
+  "status": "released",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "open-world"
+  ],
+  "platforms": [
+    "pc",
+    "ps1",
+    "sega-dreamcast"
+  ],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {
+    "mobygames": "grand-theft-auto-2",
+    "igdb": "grand-theft-auto-2"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

@@ -1,0 +1,55 @@
+{
+  "id": "blood-money",
+  "title": "Blood Money",
+  "slug": "blood-money",
+  "short_description": "A sequel to Menace — the second shoot 'em up from DMA Design (later Rockstar North).",
+  "description": "Blood Money is a side-scrolling shoot 'em up developed by DMA Design (later Rockstar North) and published by Psygnosis. A follow-up to Menace, it spans four worlds — metal, water, ice, and fire — each played in a different vehicle: helicopter, submarine, spacesuit, and fighter jet. Enemies drop money that can be spent in mid-level shops on extra lives and power-ups. Notably, the walking animations created for the game directly inspired the look of the lemmings characters in DMA's next major project. Released on 19 April 1989 to strongly positive reviews — ST/Amiga Format called it the best shoot 'em up on the Amiga — it sold 40,000 copies, doubling Menace's sales.",
+  "release_date": "1989-04-19",
+  "status": "released",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [
+      {
+        "name": "Psygnosis",
+        "url": "https://en.wikipedia.org/wiki/Psygnosis"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "shoot-em-up",
+    "action"
+  ],
+  "platforms": [
+    "amiga",
+    "atari-st",
+    "commodore-64",
+    "pc"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/blood-money/cover.webp",
+  "video": {
+    "type": "youtube",
+    "id": "E3VAq0Aow2Y"
+  },
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "blood-money",
+    "igdb": "blood-money",
+    "backloggd": "blood-money"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

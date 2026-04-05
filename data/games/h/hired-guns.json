@@ -1,0 +1,53 @@
+{
+  "id": "hired-guns",
+  "title": "Hired Guns",
+  "slug": "hired-guns",
+  "short_description": "A first-person dungeon crawl for up to four players, from DMA Design (later Rockstar North).",
+  "description": "Hired Guns is a first-person sci-fi RPG developed by DMA Design (later Rockstar North) and published by Psygnosis. Set in 2712, players assemble a team of four mercenaries from a pool of twelve and guide them through the planet Graveyard to destroy illegally bio-engineered organisms. The game's headline feature is four simultaneous split-screen viewpoints, allowing each character to be controlled independently — or by a different player, with up to four people playing at once via mouse, keyboard, or joypads. Its release was so repeatedly delayed it became a running joke in Amiga Power magazine. On arrival in April 1993 it was praised for its multiplayer and visceral combat, and in 1996 GamesMaster ranked it 62nd in their Top 100 Games of All Time.",
+  "release_date": "1993-04",
+  "status": "released",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [
+      {
+        "name": "Psygnosis",
+        "url": "https://en.wikipedia.org/wiki/Psygnosis"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "rpg"
+  ],
+  "platforms": [
+    "amiga",
+    "pc"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/hired-guns/cover.webp",
+  "video": {
+    "type": "youtube",
+    "id": "Xmb07Kx74n4"
+  },
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "hired-guns",
+    "igdb": "hired-guns",
+    "backloggd": "hired-guns"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

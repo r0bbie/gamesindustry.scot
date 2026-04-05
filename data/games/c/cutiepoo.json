@@ -1,0 +1,36 @@
+{
+  "id": "cutiepoo",
+  "title": "Cutiepoo",
+  "slug": "cutiepoo",
+  "short_description": "A cancelled platformer from DMA Design (later Rockstar North) that failed to progress after a year of work.",
+  "description": "Cutiepoo was a cancelled platformer that DMA Design (later known as Rockstar North) was developing in 1990. After one year of work by freelance programmer Tony Colgan, the project failed to make adequate progress and was shelved.",
+  "status": "cancelled",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "platformer"
+  ],
+  "platforms": [
+    "amiga"
+  ],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

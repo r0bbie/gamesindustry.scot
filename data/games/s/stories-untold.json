@@ -7,25 +7,55 @@
   "release_date": "2017-02-27",
   "status": "released",
   "companies": {
-    "developer": ["no-code"],
-    "publishers": ["devolver-digital"],
+    "developer": [
+      "screen-burn"
+    ],
+    "publishers": [
+      "devolver-digital"
+    ],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["adventure", "horror", "puzzle"],
-  "platforms": ["pc", "switch"],
-  "cover_image": "",
+  "genres": [
+    "adventure",
+    "horror",
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "switch"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/stories-untold/cover.webp",
   "screenshots": [],
-  "video": { "type": "youtube", "id": "TjSqMBsR4oo" },
-  "stores": { "steam": "558420" },
+  "video": {
+    "type": "youtube",
+    "id": "TjSqMBsR4oo"
+  },
+  "stores": {
+    "steam": "558420"
+  },
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": { "metacritic": 77, "opencritic": 76 },
-  "database_links": { "igdb": "stories-untold", "mobygames": "99898" },
+  "critic_ratings": {
+    "metacritic": 77,
+    "opencritic": 76
+  },
+  "database_links": {
+    "igdb": "stories-untold",
+    "mobygames": "99898"
+  },
   "awards": [
-    { "name": "BAFTA Best Debut Game", "year": 2018, "status": "nominated" },
-    { "name": "The Game Awards Best Debut Indie Game", "year": 2017, "status": "nominated" }
+    {
+      "name": "BAFTA Best Debut Game",
+      "year": 2018,
+      "status": "nominated"
+    },
+    {
+      "name": "The Game Awards Best Debut Indie Game",
+      "year": 2017,
+      "status": "nominated"
+    }
   ],
   "news": [],
   "is_student_game": false

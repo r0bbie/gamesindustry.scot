@@ -7,26 +7,66 @@
   "release_date": "2013-09-17",
   "status": "released",
   "companies": {
-    "developer": ["rockstar-north"],
-    "publishers": ["rockstar-games"],
+    "developer": [
+      "rockstar-north"
+    ],
+    "publishers": [
+      "rockstar-games"
+    ],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["action", "open-world", "adventure"],
-  "platforms": ["pc", "ps3", "ps4", "ps5", "xbox-360", "xbox-one", "xbox-series-xs"],
-  "cover_image": "",
+  "genres": [
+    "action",
+    "open-world",
+    "adventure"
+  ],
+  "platforms": [
+    "pc",
+    "ps3",
+    "ps4",
+    "ps5",
+    "xbox-360",
+    "xbox-one",
+    "xbox-series-xs"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/grand-theft-auto-v/cover.webp",
   "screenshots": [],
-  "video": { "type": "youtube", "id": "QkkoHAzjnUs" },
-  "stores": { "steam": "271590", "epic": "grand-theft-auto-v" },
+  "video": {
+    "type": "youtube",
+    "id": "QkkoHAzjnUs"
+  },
+  "stores": {
+    "steam": "271590",
+    "epic": "grand-theft-auto-v"
+  },
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": { "metacritic": 97, "opencritic": 97 },
-  "database_links": { "igdb": "grand-theft-auto-v", "mobygames": "63620" },
+  "critic_ratings": {
+    "metacritic": 97,
+    "opencritic": 97
+  },
+  "database_links": {
+    "igdb": "grand-theft-auto-v",
+    "mobygames": "63620"
+  },
   "awards": [
-    { "name": "BAFTA Best Game", "year": 2014, "status": "won" },
-    { "name": "Game Developers Choice Game of the Year", "year": 2014, "status": "won" },
-    { "name": "VGX Game of the Year", "year": 2013, "status": "won" }
+    {
+      "name": "BAFTA Best Game",
+      "year": 2014,
+      "status": "won"
+    },
+    {
+      "name": "Game Developers Choice Game of the Year",
+      "year": 2014,
+      "status": "won"
+    },
+    {
+      "name": "VGX Game of the Year",
+      "year": 2013,
+      "status": "won"
+    }
   ],
   "news": [],
   "is_student_game": false

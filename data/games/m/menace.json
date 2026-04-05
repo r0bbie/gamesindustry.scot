@@ -1,0 +1,55 @@
+{
+  "id": "menace",
+  "title": "Menace",
+  "slug": "menace",
+  "short_description": "A side-scrolling shoot 'em up — the debut game from DMA Design (later Rockstar North).",
+  "description": "Menace is a horizontally scrolling shoot 'em up developed by DMA Design (later Rockstar North) and published by Psygnosis. It was the first game from DMA Design — the company David Jones founded in Dundee as Acme Software before being renamed upon signing with Psygnosis. Jones began building Menace in his bedroom at his parents' house while attending the Dundee Institute of Technology, originally under the working title CopperCon1. The game was known as Draconia until shortly before release, when it was renamed to avoid confusion with Draconus. Players pilot an alien space fighter through six stages on the planet of Draconia, battling over sixty creature types and defeating a boss guardian at the end of each level, collecting weapon upgrades — lasers, cannons, and improved ship power — from space debris scattered throughout. The Amiga version launched in October 1988 to generally positive reviews, with particular praise for its graphics, soundtrack by David Whittaker, and addictive gameplay. Ports followed for the Atari ST (December 1988), Commodore 64 (January 1989), and MS-DOS (December 1989), with the later versions receiving more mixed responses due to hardware limitations. Menace sold around 20,000 copies and generated enough revenue to fund DMA Design's subsequent projects.",
+  "release_date": "1988-10",
+  "status": "released",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [
+      {
+        "name": "Psygnosis",
+        "url": "https://en.wikipedia.org/wiki/Psygnosis"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "shoot-em-up",
+    "action"
+  ],
+  "platforms": [
+    "amiga",
+    "atari-st",
+    "commodore-64",
+    "pc"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/menace/cover.webp",
+  "video": {
+    "type": "youtube",
+    "id": "Lthhi0PWinM"
+  },
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "menace",
+    "igdb": "menace",
+    "backloggd": "menace"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

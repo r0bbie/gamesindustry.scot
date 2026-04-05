@@ -1,0 +1,31 @@
+{
+  "id": "grand-theft-auto-san-andreas",
+  "title": "Grand Theft Auto: San Andreas",
+  "slug": "grand-theft-auto-san-andreas",
+  "short_description": "The sprawling open-world epic set across three cities, the final GTA on PlayStation 2.",
+  "description": "Grand Theft Auto: San Andreas is an open-world action-adventure game developed by Rockstar North and published by Rockstar Games. Released in October 2004, it follows Carl 'CJ' Johnson returning to his home of Los Santos after five years away, drawn back into gang life. The game spans three full cities and a rural countryside, and was given an extra year of development time over Vice City to allow the team to rework core gameplay and visuals. San Andreas sold 21.5 million copies, won the Spike VGA and Golden Joystick Game of the Year awards in 2004/2005, and generated $101 million in its first four days of release.",
+  "release_date": "2004-10-26",
+  "status": "released",
+  "companies": {
+    "developer": ["rockstar-north"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "open-world", "adventure"],
+  "platforms": ["ps2", "ps3", "pc", "xbox", "xbox-360", "macos", "ios", "android"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 93 },
+  "database_links": { "mobygames": "grand-theft-auto-san-andreas", "igdb": "grand-theft-auto-san-andreas" },
+  "awards": [
+    { "name": "Spike Video Game Awards Game of the Year", "year": 2004, "status": "won" },
+    { "name": "Golden Joystick Award Game of the Year", "year": 2005, "status": "won" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

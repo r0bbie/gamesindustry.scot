@@ -1,0 +1,48 @@
+{
+  "id": "lemmings-oh-no-more",
+  "title": "Oh No! More Lemmings",
+  "slug": "lemmings-oh-no-more",
+  "short_description": "The first expansion pack to the landmark DMA Design puzzle game, adding 100 fiendishly difficult new levels.",
+  "description": "Oh No! More Lemmings is an expansion pack for the puzzle video game Lemmings, developed by DMA Design (later known as Rockstar North) and published by Psygnosis. Originally released for the Amiga in December 1991, the expansion adds 100 single-player levels across five difficulty categories — Tame, Crazy, Wild, Wicked, and Havoc — each with 20 levels, as well as six new music tracks. The Amiga version also includes 10 two-player levels. Unlike the original Lemmings, whose early Fun levels served as gentle tutorials, Oh No! More Lemmings throws players in at the deep end from the outset, with puzzles widely considered more challenging and inventive than those of its predecessor. The expansion was ported to Atari ST, MS-DOS, Macintosh, SAM Coupé, and Acorn Archimedes, and its levels were later bundled with the Game Boy Color, PlayStation, Microsoft Windows, and Sega Mega Drive versions of Lemmings. It received generally positive reviews, with critics praising the quality and ingenuity of the puzzles.",
+  "release_date": "1991-12",
+  "status": "released",
+  "companies": {
+    "developer": [{ "name": "DMA Design (later Rockstar North)", "company_id": "rockstar-north" }],
+    "publishers": [
+      {
+        "name": "Psygnosis",
+        "url": "https://en.wikipedia.org/wiki/Psygnosis"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "amiga",
+    "atari-st",
+    "pc",
+    "macos"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/lemmings-oh-no-more/cover.webp",
+  "video": {
+    "type": "youtube",
+    "id": "-ug5vxX8Vic"
+  },
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "oh-no-more-lemmings",
+    "igdb": "oh-no-more-lemmings"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

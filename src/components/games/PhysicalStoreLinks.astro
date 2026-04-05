@@ -1,0 +1,87 @@
+---
+import { buildPhysicalStoreUrl } from "@/lib/constants";
+
+interface Props {
+  stores: Record<string, string | Record<string, string>>;
+}
+
+const { stores } = Astro.props;
+const entries = Object.entries(stores);
+
+const storeLabels: Record<string, string> = {
+  amazon: "Amazon",
+  amazon_uk: "Amazon (UK)",
+  amazon_us: "Amazon (US)",
+  game_uk: "GAME",
+  shopto: "ShopTo",
+};
+
+const amazonPath = "M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.7-3.182zm3.186 7.705a.66.66 0 0 1-.748.074c-1.051-.873-1.239-1.276-1.815-2.112-1.732 1.767-2.958 2.295-5.204 2.295-2.657 0-4.73-1.64-4.73-4.924 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.944-1.101v-.41c0-.753.059-1.642-.383-2.294-.385-.579-1.124-.819-1.775-.819-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.582l-3.076-.333c-.259-.058-.548-.266-.472-.661C5.551 2.318 8.337.603 11.266.019 12.756.019 14.695.49 15.832 1.56c1.479 1.382 1.339 3.228 1.339 5.237v4.737c0 1.425.591 2.05 1.146 2.816.194.272.238.599-.01.8-.619.517-1.724 1.48-2.333 1.979zm4.393 2.912c-3.916 2.204-8.487 3.293-12.807 3.293-5.5 0-11.1-2.036-15.524-5.408-.322-.231-.057-.578.316-.386 4.443 2.582 9.924 4.14 15.562 4.14 3.807 0 7.99-.79 11.843-2.43.582-.241 1.069.385.61.791z";
+const shopPath = "M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0";
+
+const iconPaths: Record<string, string> = {
+  amazon: amazonPath,
+  amazon_uk: amazonPath,
+  amazon_us: amazonPath,
+  game_uk: shopPath,
+  shopto: shopPath,
+};
+
+type Entry = [string, string | Record<string, string>];
+
+function isMulti(value: string | Record<string, string>): value is Record<string, string> {
+  return typeof value !== "string";
+}
+---
+
+{entries.length > 0 && (
+  <div class="flex flex-wrap gap-2">
+    {entries.map((entry: Entry) => {
+      const [store, value] = entry;
+      const label = storeLabels[store] ?? store;
+      const iconPath = iconPaths[store] ?? null;
+      const useStroke = store === "game_uk" || store === "shopto";
+
+      return isMulti(value) ? (
+        <details class="relative">
+          <summary class="inline-flex cursor-pointer list-none items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground [&::-webkit-details-marker]:hidden">
+            {iconPath && (
+              <svg class="h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill={useStroke ? "none" : "currentColor"} stroke={useStroke ? "currentColor" : "none"} stroke-width={useStroke ? "2" : undefined} stroke-linecap={useStroke ? "round" : undefined} stroke-linejoin={useStroke ? "round" : undefined} aria-hidden="true" set:html={`<path d="${iconPath}"/>`} />
+            )}
+            {label}
+            <svg class="h-3 w-3 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </summary>
+          <div class="absolute z-10 mt-1 min-w-[10rem] overflow-hidden rounded-lg border border-border bg-popover shadow-lg">
+            {Object.entries(value).map(([platform, id]: [string, string]) => (
+              <a href={buildPhysicalStoreUrl(store, id)} target="_blank" rel="noopener noreferrer" class="block px-3 py-2 text-sm text-foreground transition-colors hover:bg-accent hover:text-accent-foreground">
+                {platform}
+              </a>
+            ))}
+          </div>
+        </details>
+      ) : (
+        <a
+          href={buildPhysicalStoreUrl(store, value)}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+        >
+          {iconPath && (
+            <svg class="h-4 w-4 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill={useStroke ? "none" : "currentColor"} stroke={useStroke ? "currentColor" : "none"} stroke-width={useStroke ? "2" : undefined} stroke-linecap={useStroke ? "round" : undefined} stroke-linejoin={useStroke ? "round" : undefined} aria-hidden="true" set:html={`<path d="${iconPath}"/>`} />
+          )}
+          {label}
+        </a>
+      );
+    })}
+  </div>
+)}
+
+<script>
+  document.addEventListener("click", (e) => {
+    document.querySelectorAll("details[open]").forEach((details) => {
+      if (!details.contains(e.target as Node)) {
+        (details as HTMLDetailsElement).open = false;
+      }
+    });
+  });
+</script>

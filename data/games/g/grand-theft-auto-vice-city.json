@@ -1,0 +1,31 @@
+{
+  "id": "grand-theft-auto-vice-city",
+  "title": "Grand Theft Auto: Vice City",
+  "slug": "grand-theft-auto-vice-city",
+  "short_description": "A sun-drenched 1980s crime epic set in the fictional Vice City — the first game under the Rockstar North name.",
+  "description": "Grand Theft Auto: Vice City is an open-world action-adventure game developed by Rockstar North and published by Rockstar Games. Released in October 2002, it was the first Grand Theft Auto title developed under the Rockstar North name. Set in the neon-lit, 1980s-inspired Vice City, players follow Tommy Vercetti — voiced by Ray Liotta — through a story of crime, ambition, and revenge. Conceived as an expansion to GTA III before growing into a full standalone release, it was completed in one year and sold 17.5 million copies. The game won Rockstar North the 'Best In-House Development Studio' and 'Creativity' awards at the 2003 Develop Industry Excellence Awards.",
+  "release_date": "2002-10-27",
+  "status": "released",
+  "companies": {
+    "developer": ["rockstar-north"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "open-world", "adventure"],
+  "platforms": ["ps2", "pc", "xbox", "macos", "ios", "android"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 94 },
+  "database_links": { "mobygames": "grand-theft-auto-vice-city", "igdb": "grand-theft-auto-vice-city" },
+  "awards": [
+    { "name": "Develop Industry Excellence Award Best In-House Studio", "year": 2003, "status": "won" },
+    { "name": "Develop Industry Excellence Award Creativity", "year": 2003, "status": "won" }
+  ],
+  "news": [],
+  "is_student_game": false
+}

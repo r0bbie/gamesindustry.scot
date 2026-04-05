@@ -1,0 +1,45 @@
+{
+  "id": "kano",
+  "title": "Kano",
+  "slug": "kano",
+  "short_description": "An experimental colour-matching arcade game for mobile, now available via GameClub.",
+  "description": "Kano is a colour-matching arcade game developed by Glitchers. Designed primarily as an experiment to test assumptions around player retention, payment models, and growth hacking, it challenges players to match colours in fast-paced arcade sequences. The game is now available through GameClub.",
+  "release_date": "2015-05-14",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "glitchers"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "arcade",
+    "puzzle"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/kano/cover.webp",
+  "video": {
+    "type": "youtube",
+    "id": "nFRpct-LPVw"
+  },
+  "screenshots": [],
+  "stores": {
+    "amazon_appstore": "B01EJWX2IQ",
+    "gameclub": "kano",
+    "website": "https://kanoapp.com"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

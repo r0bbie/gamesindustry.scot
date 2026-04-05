@@ -1,0 +1,42 @@
+{
+  "id": "space-station-silicon-valley",
+  "title": "Space Station Silicon Valley",
+  "slug": "space-station-silicon-valley",
+  "short_description": "A quirky 3D platformer from DMA Design (later Rockstar North), published by Take-Two Interactive.",
+  "description": "Space Station Silicon Valley is a 3D platformer developed by DMA Design (later known as Rockstar North) and published by Take-Two Interactive. Released in 1998 for the Nintendo 64, the game sees players take control of a microchip that can inhabit the bodies of robotic animals. It was later ported to PlayStation. Despite critical praise the game sold poorly, but many of the team that worked on it — including Leslie Benzies, Aaron Garbut, and Obbe Vermeij — would go on to form the core of Rockstar North's team in Edinburgh.",
+  "release_date": "1998-10-01",
+  "status": "released",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "platformer",
+    "action"
+  ],
+  "platforms": [
+    "n64",
+    "ps1"
+  ],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {
+    "mobygames": "space-station-silicon-valley",
+    "igdb": "space-station-silicon-valley"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

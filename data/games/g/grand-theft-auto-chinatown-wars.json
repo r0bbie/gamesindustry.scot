@@ -1,0 +1,28 @@
+{
+  "id": "grand-theft-auto-chinatown-wars",
+  "title": "Grand Theft Auto: Chinatown Wars",
+  "slug": "grand-theft-auto-chinatown-wars",
+  "short_description": "A top-down GTA adventure for Nintendo DS, co-developed by Rockstar North and Rockstar Leeds.",
+  "description": "Grand Theft Auto: Chinatown Wars is a top-down open-world action game co-developed by Rockstar North and Rockstar Leeds and published by Rockstar Games. Originally released for Nintendo DS in 2009, it was later ported to PlayStation Portable, iOS, and Android. Set in Liberty City, it follows Huang Lee navigating the Triad underworld. It was notable for its use of the DS touchscreen for minigames and is considered one of the best games on the platform.",
+  "release_date": "2009-03-17",
+  "status": "released",
+  "companies": {
+    "developer": ["rockstar-north"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "open-world"],
+  "platforms": ["ds", "psp", "ios", "android"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 93 },
+  "database_links": { "mobygames": "grand-theft-auto-chinatown-wars", "igdb": "grand-theft-auto-chinatown-wars" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

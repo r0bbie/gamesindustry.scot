@@ -24,6 +24,7 @@ interface CompanyInfo {
   name: string;
   slug: string;
   logo?: string;
+  logo_bg?: string;
   short_description?: string;
 }
 
@@ -186,12 +187,12 @@ export default function JobBoardView({ jobs, companies }: Props) {
           {grouped.map(({ company, companyId, jobs }) => (
             <div key={companyId}>
               <div className="mb-3 flex items-center gap-3">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-muted">
+                <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${company?.logo_bg === "light" ? "bg-white" : company?.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
                   {company?.logo ? (
                     <img
                       src={company.logo}
                       alt=""
-                      className="h-7 w-7 object-contain"
+                      className={company?.logo_bg ? "h-full w-full rounded-lg object-contain" : "h-7 w-7 object-contain"}
                     />
                   ) : (
                     <span className="text-sm font-bold text-muted-foreground">

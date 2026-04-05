@@ -5,30 +5,63 @@
   "category": "developer",
   "status": "active",
   "founded": 1988,
-  "previously_known_as": ["DMA Design"],
+  "previously_known_as": ["DMA Design", "Rockstar Studios"],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "coordinates": { "lat": 55.953, "lng": -3.189 },
-  "short_description": "One of the world's most renowned game studios, creators of the Grand Theft Auto series.",
-  "about": "Rockstar North is a British video game development studio based in Edinburgh, Scotland. Originally founded as DMA Design in 1988 by David Jones, the studio created Lemmings before pioneering the open-world action genre with Grand Theft Auto. Acquired by Take-Two Interactive in 1998 and rebranded as Rockstar North in 2002, the studio has since produced some of the best-selling and most critically acclaimed video games of all time, including Grand Theft Auto III, Grand Theft Auto V, and contributed to the Red Dead Redemption series.",
+  "coordinates": { "lat": 55.9486, "lng": -3.1761 },
+  "short_description": "Creators of Grand Theft Auto and Lemmings — one of the world's most acclaimed and commercially successful game studios.",
+  "about": "Rockstar North (legally Rockstar Games UK Limited) is a British video game development studio based in Edinburgh, Scotland, and a wholly owned studio of Rockstar Games. The studio traces its roots to DMA Design, founded in 1988 in Dundee by David Jones during his studies at the Dundee Institute of Technology. The company first gained global recognition with the release of Lemmings in 1991, which sold over 20 million copies across 21 platforms.\n\nAfter years of projects with Nintendo and BMG Interactive — during which DMA Design began developing what would become Grand Theft Auto — the studio was acquired by Gremlin Interactive in 1997, then by Take-Two Interactive in 1999. Under Take-Two's ownership the studio worked closely with the newly formed Rockstar Games publishing label, relocating its operations to Edinburgh. In March 2002 DMA Design was integrated into Rockstar Games as Rockstar Studios, and renamed Rockstar North in May of the same year.\n\nUnder the Rockstar North banner, the studio produced Grand Theft Auto III (2001), Vice City (2002), San Andreas (2004), GTA IV (2008), and GTA V (2013) — the latter becoming the second-best-selling game of all time with over 200 million copies sold and an estimated $6 billion in revenue. The studio occupies Barclay House on Holyrood Road in Edinburgh, which it purchased outright in 2021.",
   "website": "https://www.rockstarnorth.com",
   "logo": "/images/companies/rockstar-north.svg",
+  "logo_bg": "dark",
   "hero_image": "",
   "highlighted": true,
-  "parent_entity": { "name": "Take-Two Interactive", "url": "https://www.take2games.com" },
-  "company_size": "Large (200+)",
+  "parent_entity": {
+    "name": "Rockstar Games",
+    "url": "https://www.rockstargames.com"
+  },
+  "company_size": "Large (500+)",
   "employee_count": 650,
-  "links": { "twitter": "RockstarGames", "linkedin": "rockstar-games" },
+  "links": {
+    "twitter": "RockstarGames",
+    "bluesky": "rockstargames.com",
+    "youtube": "@rockstargames",
+    "steam": "rockstargames",
+    "instagram": "rockstargames",
+    "threads": "rockstargames",
+    "linkedin": "https://www.linkedin.com/company/rockstar-north-limited",
+    "twitch": "rockstargames",
+    "discord": "https://discord.com/invite/RockstarGames",
+    "github": "RockstarGames",
+    "app_store": "https://apps.apple.com/gb/developer/rockstar-games/id330049731",
+    "google_play": "https://play.google.com/store/apps/dev?id=7086639890153802127&hl=en"
+  },
+  "contact_email": "",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Rockstar Games UK Limited"
+    }
+  ],
   "use_tooling": [],
-  "employee_stats": { "full_time": 600 },
+  "employee_stats": {
+    "full_time": 650
+  },
   "key_people": [
-    { "name": "Andrew Semple", "title": "Studio Head" },
-    { "name": "Sam Houser", "title": "President of Rockstar Games" }
+    { "name": "Andrew Semple", "title": "Studio Director" },
+    { "name": "David Jones", "title": "Founder (DMA Design)" },
+    { "name": "Mike Dailly", "title": "Co-founder, Lead Programmer (DMA Design)" },
+    { "name": "Leslie Benzies", "title": "Former President" },
+    { "name": "Aaron Garbut", "title": "Former Art Director" }
   ],
   "awards": [
     { "name": "BAFTA Best Game", "year": 2014, "status": "won" },
     { "name": "Game Developers Choice Game of the Year", "year": 2014, "status": "won" },
-    { "name": "The Game Award for Game of the Year", "year": 2013, "status": "nominated" }
+    { "name": "VGX Game of the Year", "year": 2013, "status": "won" },
+    { "name": "Spike Video Game Awards Game of the Year", "year": 2008, "status": "won" },
+    { "name": "Golden Joystick Award Game of the Year", "year": 2005, "status": "won" },
+    { "name": "Spike Video Game Awards Game of the Year", "year": 2004, "status": "won" },
+    { "name": "Develop Industry Excellence Award Best In-House Studio", "year": 2003, "status": "won" },
+    { "name": "Develop Industry Excellence Award Creativity", "year": 2003, "status": "won" }
   ],
   "news": []
 }

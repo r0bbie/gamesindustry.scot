@@ -1,0 +1,29 @@
+{
+  "id": "silent-hill-townfall",
+  "title": "Silent Hill: Townfall",
+  "slug": "silent-hill-townfall",
+  "short_description": "A new entry in Konami's Silent Hill series set in a Scottish Fife town, developed by Glasgow studio Screen Burn.",
+  "description": "Silent Hill: Townfall is an upcoming psychological horror game developed by Glasgow-based studio Screen Burn (formerly No Code) in partnership with Konami. The game is set in the fictional coastal town of Kettering, inspired by real locations in Fife, Scotland. Announced in October 2022 alongside a broader revival of the Silent Hill franchise, Townfall was the first new Silent Hill title revealed and remains one of the most anticipated entries in the series.",
+  "release_date": "",
+  "status": "in_development",
+  "companies": {
+    "developer": ["screen-burn"],
+    "publishers": [{ "name": "Konami", "url": "https://www.konami.com" }],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["horror", "adventure"],
+  "platforms": ["ps5", "xbox-series-xs", "pc"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": { "igdb": "silent-hill-townfall" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

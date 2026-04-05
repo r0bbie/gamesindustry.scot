@@ -1,0 +1,32 @@
+{
+  "id": "attack",
+  "title": "Attack!",
+  "slug": "attack",
+  "short_description": "A cancelled game signed by DMA Design (later Rockstar North) with GT Interactive.",
+  "description": "Attack! was a cancelled game that DMA Design (later known as Rockstar North) signed with GT Interactive in 1996 without a proper team assigned. The rights were later negotiated back from GT Interactive before the game was officially cancelled.",
+  "status": "cancelled",
+  "companies": {
+    "developer": [
+      {
+        "name": "DMA Design (later Rockstar North)",
+        "company_id": "rockstar-north"
+      }
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [],
+  "platforms": [],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

@@ -1,0 +1,44 @@
+{
+  "id": "chippy",
+  "title": "Chippy",
+  "slug": "chippy",
+  "short_description": "Serve customers the right orders in this unique time-management game for all ages.",
+  "description": "Chippy is a time-management game developed by Glitchers, set in a fish and chip shop. Players must serve customers the right orders quickly and accurately across increasingly hectic levels. Self-funded and originally released in 2013, it was well received — Pocket Gamer called it \"addictive stuff\" — and is now available through GameClub.",
+  "release_date": "2013",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "glitchers"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "casual",
+    "time-management"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/chippy/cover.webp",
+  "video": {
+    "type": "youtube",
+    "id": "Q7kTF7hNhbs"
+  },
+  "screenshots": [],
+  "stores": {
+    "gameclub": "chippy",
+    "website": "https://chippyapp.com/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

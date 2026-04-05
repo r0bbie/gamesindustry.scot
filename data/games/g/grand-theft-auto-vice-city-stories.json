@@ -1,0 +1,28 @@
+{
+  "id": "grand-theft-auto-vice-city-stories",
+  "title": "Grand Theft Auto: Vice City Stories",
+  "slug": "grand-theft-auto-vice-city-stories",
+  "short_description": "A Vice City-era prequel for PSP and PS2, co-developed by Rockstar North and Rockstar Leeds.",
+  "description": "Grand Theft Auto: Vice City Stories is an open-world action-adventure game co-developed by Rockstar North and Rockstar Leeds and published by Rockstar Games. Released for PlayStation Portable in 2006 and later on PlayStation 2, the game is set two years before Vice City and follows Vic Vance, the brother of a character from the original game.",
+  "release_date": "2006-10-31",
+  "status": "released",
+  "companies": {
+    "developer": ["rockstar-north"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": ["action", "open-world", "adventure"],
+  "platforms": ["psp", "ps2"],
+  "cover_image": "",
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": { "metacritic": 86 },
+  "database_links": { "mobygames": "grand-theft-auto-vice-city-stories", "igdb": "grand-theft-auto-vice-city-stories" },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

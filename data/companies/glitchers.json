@@ -1,28 +1,52 @@
 {
   "id": "glitchers",
-  "name": "GLITCHERS",
+  "name": "Glitchers",
   "slug": "glitchers",
   "category": "developer",
   "status": "active",
-  "founded": 2014,
-  "previously_known_as": [],
-  "location": "Edinburgh",
+  "founded": 2013,
+  "previously_known_as": ["GLITCHE.RS"],
+  "location": "Leith, Edinburgh",
   "region": "edinburgh-lothian",
   "coordinates": { "lat": 55.9533, "lng": -3.1883 },
-  "short_description": "Edinburgh-based studio crafting original games across mobile, console, and PC.",
-  "about": "GLITCHERS is an independent game development studio based in Edinburgh, Scotland. Founded in 2014, the studio creates original games across mobile, console, and PC platforms, blending strong design sensibilities with a passion for innovative gameplay experiences.",
+  "short_description": "Edinburgh studio behind Sea Hero Quest, the mobile game that generated data for real-world dementia research.",
+  "about": "Glitchers is an independent game development studio based in Leith, Edinburgh, founded by Maxwell Scott-Slade on 10 September 2013 (originally trading as GLITCHE.RS until 2016). The studio operates under the tagline \"Games for Good\", aiming to create games that make a positive impact on the world.\n\nThe studio is best known for Sea Hero Quest (2016), a mobile game developed in collaboration with Alzheimer's Research UK, University College London, and the University of East Anglia, and funded by Deutsche Telekom. The game tracks players' 3D spatial navigation to generate data for dementia research — each two minutes of play equating to five hours of lab-based research data. In 2018, Sea Hero Quest was nominated for a British Academy Games Award (BAFTA) in the new Game Beyond Entertainment category — for games that \"deliver a transformational experience beyond pure entertainment\" — and won bronze at The One Show awards. The same year, Glitchers won a Webby Award for Social Impact. In 2020, Sea Hero Quest was nominated for the Coney Island Dreamland Award for Best AR/VR Game at the New York Game Awards.\n\nOther titles include Drive Buy (2021), a multiplayer vehicle combat game released on Steam and Nintendo Switch, and Cone Wars (2017), which received UK Games Fund support in 2022. Glitchers has also developed games for commercial and health sector clients, including Gumulon (a chewing-gum branded game for Stride) and Crush Your FOFO (developed with the Patients Association and AbbVie).",
   "website": "https://glitchers.com",
-  "logo": null,
+  "logo": "/images/companies/glitchers.svg",
+  "logo_bg": "dark",
   "highlighted": false,
   "parent_entity": null,
   "company_size": "Small (1–10)",
   "employee_count": null,
+  "contact_email": "hello@glitchers.com",
   "links": {
-    "twitter": "glitchers"
+    "twitter": "glitchers",
+    "bluesky": "glitchers.bsky.social",
+    "instagram": "glitchersgames",
+    "youtube": "@GLITCHers",
+    "steam": "glitchers",
+    "linkedin": "https://www.linkedin.com/company/glitchers"
   },
   "use_tooling": ["buildstash"],
   "employee_stats": {},
-  "key_people": [],
-  "awards": [],
+  "key_people": [
+    { "name": "Maxwell Scott-Slade", "title": "Founder" },
+    { "name": "Rebecca Warner-Perry", "title": "Chief Operating Officer" }
+  ],
+  "awards": [
+    {
+      "name": "British Academy Games Awards — Game Beyond Entertainment (Sea Hero Quest)",
+      "year": 2018,
+      "status": "nominated"
+    },
+    { "name": "The One Show — Bronze, Interactive (Sea Hero Quest)", "year": 2018, "status": "won" },
+    { "name": "Webby Awards — Social Impact", "year": 2018, "status": "won" },
+    {
+      "name": "New York Game Awards — Coney Island Dreamland Award for Best AR/VR Game (Sea Hero Quest)",
+      "year": 2020,
+      "status": "nominated"
+    },
+    { "name": "UK Games Fund — Cone Wars", "year": 2022, "status": "won" }
+  ],
   "news": []
 }

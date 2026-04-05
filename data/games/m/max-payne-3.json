@@ -1,0 +1,45 @@
+{
+  "id": "max-payne-3",
+  "title": "Max Payne 3",
+  "slug": "max-payne-3",
+  "short_description": "A cinematic third-person shooter developed across multiple Rockstar studios, including Rockstar North.",
+  "description": "Max Payne 3 is a third-person shooter developed collaboratively across multiple Rockstar Games studios — including Rockstar North — collectively credited as Rockstar Studios, and published by Rockstar Games. Released in 2012, it follows a burnt-out Max Payne working as a private security contractor in São Paulo, Brazil. The game retained the series' signature bullet-time mechanic and introduced a polished cinematic presentation.",
+  "release_date": "2012-05-15",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "rockstar-north"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": []
+  },
+  "genres": [
+    "action",
+    "shooter"
+  ],
+  "platforms": [
+    "ps3",
+    "xbox-360",
+    "pc",
+    "macos"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/max-payne-3/cover.webp",
+  "screenshots": [],
+  "stores": {
+    "steam": "204100"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 87
+  },
+  "database_links": {
+    "mobygames": "max-payne-3",
+    "igdb": "max-payne-3"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}
