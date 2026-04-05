@@ -12,6 +12,14 @@ import {
 
 const games = await getPublicGames();
 
+function getTopRating(ratings: Record<string, number | string>): number | null {
+  let top: number | null = null;
+  for (const val of Object.values(ratings)) {
+    if (typeof val === "number" && (top === null || val > top)) top = val;
+  }
+  return top;
+}
+
 function shortName(name: string): string {
   return name.replace(/\s*\([^)]*\)\s*$/, "").trim();
 }
@@ -68,12 +76,8 @@ const highestRated = [...releasedGames]
   .slice(0, 5);
 
 const awardWinners = [...gamesWithDevs]
-  .filter((g) => g.awards.length > 0)
-  .sort((a, b) => {
-    const latestA = Math.max(...a.awards.map((aw) => aw.year));
-    const latestB = Math.max(...b.awards.map((aw) => aw.year));
-    return latestB - latestA;
-  })
+  .filter((g) => g.awards.length > 0 && g.cover_image)
+  .sort(() => Math.random() - 0.5)
   .slice(0, 5);
 
 // Genre tag cloud
@@ -176,7 +180,7 @@ const addGameUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-ga
               class="group rounded-xl border border-border bg-card text-card-foreground shadow transition-colors hover:border-primary/30 hover:shadow-md"
             >
               <div
-                class="flex aspect-[2/3] items-center justify-center rounded-t-xl"
+                class="relative flex aspect-[2/3] items-center justify-center rounded-t-xl"
                 style={
                   game.cover_image
                     ? `background-image: url(${game.cover_image}); background-size: cover; background-position: center;`
@@ -186,6 +190,28 @@ const addGameUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-ga
                 {!game.cover_image && (
                   <span class="text-4xl font-bold text-white/80">
                     {game.title.charAt(0)}
+                  </span>
+                )}
+                {(() => {
+                  const score = getTopRating(game.critic_ratings);
+                  if (!score) return null;
+                  const color = score >= 80 ? "bg-emerald-500/90 text-white" : score >= 60 ? "bg-amber-500/90 text-white" : "bg-red-500/90 text-white";
+                  return (
+                    <span class={`absolute right-2 top-2 rounded px-1.5 py-0.5 text-[11px] font-bold tabular-nums backdrop-blur-sm ${color}`}>
+                      {score}
+                    </span>
+                  );
+                })()}
+                {game.awards.length > 0 && (
+                  <span
+                    class="absolute bottom-2 right-2 flex items-center gap-0.5 rounded bg-black/50 px-1.5 py-0.5 text-[11px] font-semibold text-amber-400 backdrop-blur-sm"
+                    title={game.awards.length === 1 ? "1 industry award" : `${game.awards.length} industry awards`}
+                  >
+                    <svg class="h-3 w-3 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <circle cx="12" cy="8" r="6" />
+                      <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
+                    </svg>
+                    {game.awards.length}
                   </span>
                 )}
               </div>
