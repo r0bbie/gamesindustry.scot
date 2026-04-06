@@ -1,0 +1,22 @@
+{
+  "id": "college-fun-games",
+  "name": "College Fun Games",
+  "slug": "college-fun-games",
+  "category": "developer",
+  "status": "active",
+  "location": null,
+  "region": null,
+  "website": "https://collegefun.games",
+  "logo": null,
+  "highlighted": false,
+  "links": {
+    "mastodon": "https://mastodon.gamedev.place/@collegefungames",
+    "youtube": "College-Fun-Games",
+    "itch": "collegefungames"
+  },
+  "key_people": [],
+  "use_tooling": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": []
+}

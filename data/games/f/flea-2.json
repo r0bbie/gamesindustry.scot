@@ -1,0 +1,56 @@
+{
+  "id": "flea-2",
+  "title": "FLEA!2",
+  "slug": "flea-2",
+  "short_description": "Henry the Hyperactive Flea returns in a new challenging NES platformer — navigate beasts, collect blood, and rescue all the fleas.",
+  "description": "FLEA!2 is a challenging platformer with an intriguing back story. Play once again as Henry the Hyperactive Flea who just can't stop jumping! Navigate the beasts, collect blood and rescue all the fleas.",
+  "status": "released",
+  "release_date": "2024-10-02",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer"
+  ],
+  "platforms": [
+    "pc",
+    "nes",
+    "sega-dreamcast",
+    "evercade"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "3134830",
+    "itch": "lowtekgames/flea2",
+    "kickstarter": "https://www.kickstarter.com/projects/flea-game/flea2-new-nes-game",
+    "press_kit": "https://lowtek.games/lowtekpresskit/FLEA2/FLEA2.html"
+  },
+  "physical_stores": {
+    "evercade": "https://evercade.co.uk/cartridges/indie-heroes-collection-4/"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "iZ8Dgb7_YPM"
+  },
+  "play_now": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "Debug Indie Awards — Most Anticipated",
+      "year": 2024,
+      "status": "nominated"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/flea-2/cover.webp"
+}

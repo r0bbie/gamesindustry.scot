@@ -13,7 +13,8 @@
       "title": "Funding & Support",
       "links": [
         { "name": "Scottish Enterprise", "url": "https://www.scottish-enterprise.com", "description": "Scotland's national economic development agency" },
-        { "name": "UK Games Fund", "url": "https://ukgamesfund.com", "description": "Funding for UK games studios" }
+        { "name": "UK Games Fund", "url": "https://ukgamesfund.com", "description": "Funding for UK games studios" },
+        { "name": "Tranzfuser", "url": "https://tranzfuser.com", "description": "Tranzfuser supports UK graduates to build successful video game development studios." }
       ]
     },
     {
@@ -22,7 +23,8 @@
         { "name": "Edinburgh Video-Gamers", "url": "https://www.meetup.com/edinburgh-local-video-gamers/", "description": "Group for video gamers primarily in Scotland and Edinburgh." },
         { "name": "Scottish Gaymers", "url": "https://www.facebook.com/groups/scottishgaymers/", "description": "Scottish Gaymers is an inclusive group for LGBT gamers and allies in Scotland." },
         { "name": "Game Dev Edinburgh", "url": "https://bsky.app/profile/gamedeved.bsky.social", "description": "Social meet-up for Edinburgh game devs of any age, stage and discipline." },
-        { "name": "Videogames Glasgow", "url": "https://www.meetup.com/videogames-glasgow/", "description": "Monthly meetup for Game Developers, Game Critics and Journalists." }
+        { "name": "Videogames Glasgow", "url": "https://www.meetup.com/videogames-glasgow/", "description": "Monthly meetup for Game Developers, Game Critics and Journalists." },
+        { "name": "Indie Game Squad", "url": "https://www.indiegamesquad.co.uk/", "description": "Elgin-based collective, organising meetups and game jams." }
       ]
     },
     {

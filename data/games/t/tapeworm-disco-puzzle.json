@@ -1,0 +1,45 @@
+{
+  "id": "tapeworm-disco-puzzle",
+  "title": "Tapeworm Disco Puzzle",
+  "slug": "tapeworm-disco-puzzle",
+  "short_description": "A grid-based NES puzzle game mixing Snake and Lolo, where you play as a tapeworm nightclub owner who lives inside a cassette tape.",
+  "description": "Tapeworm Disco Puzzle is being designed to run on an NES and is a grid based puzzle game mixing elements of Snake and Lolo. You play as a tapeworm, the local night club owner. You are a tapeworm who lives inside a cassette tape.",
+  "status": "released",
+  "release_date": "2021-01-09",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "nes",
+    "playdate"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1543940",
+    "itch": "lowtekgames/tapeworm-disco-puzzle",
+    "press_kit": "https://lowtek.games/lowtekpresskit/TAPEWORM/TapewormDiscoPuzzle.html"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "J8bp9_eWtlg"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tapeworm-disco-puzzle/cover.webp"
+}

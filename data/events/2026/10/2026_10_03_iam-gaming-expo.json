@@ -1,0 +1,18 @@
+{
+  "id": "iam-gaming-expo-2026",
+  "name": "IAM: Gaming Expo",
+  "slug": "iam-gaming-expo-2026",
+  "date_start": "2026-10-03",
+  "location": "UHI Moray, Elgin, Moray",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Indie Game Squad",
+  "short_description": "A gaming expo with character — playground, B2B meet-ups, industry talks, tournaments, board games, cosplay, and live music in Elgin.",
+  "description": "IAM:GE is designed to be an expo with character. Expect a full gaming playground, B2B meet-ups, industry talks, tournaments, board games and tabletop sessions, plus a splash of cosplay and live music. It's a space for creators, players, and industry folk to come together and actually do things, not just walk around. The deadline for submissions is the 1st July 2026.",
+  "website": "https://www.indiegamesquad.co.uk/iam-gaming-expo/",
+  "icon": "",
+  "image": "",
+  "tags": ["expo", "networking", "community"],
+  "highlighted": false
+}

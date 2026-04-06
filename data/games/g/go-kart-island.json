@@ -1,0 +1,46 @@
+{
+  "id": "go-kart-island",
+  "title": "Go Kart Island",
+  "slug": "go-kart-island",
+  "short_description": "An open world kart racer where you help Lachlan the highland cow fulfil his dream of becoming Go Kart Champion.",
+  "description": "An open world kart racer! Use items, driftslide and boost your way to championship glory as you help Lachlan the highland cow complete his lifelong dream of winning the BIG RACE and becoming Go Kart Champion.",
+  "status": "released",
+  "release_date": "2025-11-10",
+  "companies": {
+    "developer": [
+      "grumpy-pizza"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "open-world"
+  ],
+  "platforms": [
+    "pc",
+    "switch"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "3749790",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Go-Kart-Island-2931078.html",
+    "press_kit": "https://impress.games/press-kit/grumpy-pizza/go-kart-island"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "EAzxTDhhYb0"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/go-kart-island/cover.webp"
+}

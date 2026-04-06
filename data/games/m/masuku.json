@@ -1,0 +1,41 @@
+{
+  "id": "masuku",
+  "title": "MASUKU",
+  "slug": "masuku",
+  "short_description": "An abstract strategy card game for 1–4 players where smart positioning and shifting scoring goals decide who reaches 50 points first.",
+  "description": "An abstract strategy game for 1–4 players. Place, rotate, and flip cards to reveal colours and symbols that match shifting scoring goals. Smart positioning and a bit of luck decide who reaches 50 points first.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "4401050"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "hvt9K_rwMug"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/masuku/cover.webp"
+}

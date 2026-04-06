@@ -1,0 +1,38 @@
+{
+  "id": "going-yonder",
+  "title": "Going Yonder",
+  "slug": "going-yonder",
+  "short_description": "A relaxing island adventure puzzle game set in Briar's Glen, built as part of DARE Academy 2021.",
+  "description": "A relaxing island adventure puzzle game. The game takes place in Briar's Glen, a quaint old Isle filled with mysterious magical energy. Developed as part of DARE Academy 2021.",
+  "status": "prototype",
+  "release_date": "2021",
+  "companies": {
+    "developer": ["fish-tin-games"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["adventure", "puzzle"],
+  "platforms": ["pc"],
+  "game_jams": [
+    { "name": "Dare Academy 2021", "status": "participated" }
+  ],
+  "screenshots": [],
+  "stores": {
+    "itch": "fish-tin-games/going-yonder"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "2vEUS__mclQ"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

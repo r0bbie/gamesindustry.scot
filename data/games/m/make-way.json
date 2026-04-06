@@ -1,0 +1,38 @@
+{
+  "id": "make-way",
+  "title": "Make Way",
+  "slug": "make-way",
+  "short_description": "A modern take on classic top-down multiplayer racers — speed around wacky tracks you build yourself, with weapons.",
+  "description": "Speed around loops, dart through train crossings, drift around helter skelters, and unleash wacky weaponry in this modern take on classic top-down multiplayer racing games such as Micro Machines and Mashed. The twist? You build the track.",
+  "status": "released",
+  "release_date": "2023-12-04",
+  "companies": {
+    "developer": ["ice-beam"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["racing", "multiplayer"],
+  "platforms": ["pc", "switch", "ps4", "ps5", "xbox-one", "xbox-series-xs"],
+  "screenshots": [],
+  "stores": {
+    "steam": "1445790",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/make-way-switch/",
+    "psn": "https://store.playstation.com/en-us/concept/10003237",
+    "xbox": "make-way/9PLH1D2V949F"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "hui59VqHlxk"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

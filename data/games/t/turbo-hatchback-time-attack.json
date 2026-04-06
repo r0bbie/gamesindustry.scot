@@ -1,0 +1,41 @@
+{
+  "id": "turbo-hatchback-time-attack",
+  "title": "Turbo Hatchback Time Attack",
+  "slug": "turbo-hatchback-time-attack",
+  "short_description": "A physics-defying driving game where you jump, drift, flip and boost your way to the finish line in a turbo-powered hatchback.",
+  "description": "Step into a turbo powered hatchback and jump, drift, flip and boost your way to the finish line without any regard for the laws of the road... or the laws of physics. It's time for a Turbo Hatchback Time Attack!",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "grumpy-pizza"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "4488590"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "E9tzMutf5Gw"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/turbo-hatchback-time-attack/cover.webp"
+}

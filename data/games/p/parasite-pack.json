@@ -1,0 +1,55 @@
+{
+  "id": "parasite-pack",
+  "title": "Parasite Pack!",
+  "slug": "parasite-pack",
+  "short_description": "A console bundle of FLEA! and Tapeworm Disco Puzzle, bringing two NES originals to modern platforms.",
+  "description": "Two titles, Flea and Tapeworm Disco Puzzle on modern consoles.",
+  "status": "released",
+  "release_date": "2022-07-01",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [
+      {
+        "name": "Ratalaika Games",
+        "url": "https://www.ratalaikagames.com/games.php?id=parasitepack"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer",
+    "puzzle"
+  ],
+  "platforms": [
+    "switch",
+    "ps4",
+    "ps5",
+    "xbox-one",
+    "xbox-series-xs",
+    "n-gage"
+  ],
+  "screenshots": [],
+  "stores": {
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Parasite-Pack-2230974.html",
+    "psn": "EP0896-PPSA08325_00-RATAPARASITEPACK",
+    "xbox": "parasite-pack/9P86V9JQCW8Z"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "3eOMMlBwNjk"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/parasite-pack/cover.webp"
+}

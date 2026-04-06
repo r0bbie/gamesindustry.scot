@@ -1,0 +1,47 @@
+{
+  "id": "chew-chew-mimic",
+  "title": "Chew Chew Mimic",
+  "slug": "chew-chew-mimic",
+  "short_description": "A devious NES grid puzzle where you play as a mimic chest, laying traps to guide unsuspecting knights to their delicious demise.",
+  "description": "Chew Chew Mimic is a new game made in 2023 for the NES where you play as a crafty mimic chest who must create paths for unsuspecting knights to meet their delicious demise. The game plays on a grid, there are a number of tiles you can use to guide the knights, like arrows, boxes, and springs. These are predefined on each level to set the puzzle. You place the tiles on the level then set the knights free and watch as your devious plan comes to life.",
+  "status": "released",
+  "release_date": "2023-11-21",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "nes",
+    "sega-dreamcast",
+    "playdate",
+    "evercade"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "2722030",
+    "press_kit": "https://lowtek.games/lowtekpresskit/chewchewmimic/Chewchewmimic.html"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "3oO7ADMhfn0"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/chew-chew-mimic/cover.webp"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "everywhere",
+  "title": "Everywhere",
+  "slug": "everywhere",
+  "short_description": "A vast connected world where you can build, remix and play with others using zero-code building tools.",
+  "description": "EVERYWHERE is a place where you can unleash your creativity to build, remix, and play with others in a vast connected world. Build from scratch or remix other people's creations using our zero code building tools.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "build-a-rocket-boy"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "open-world",
+    "sandbox",
+    "multiplayer"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "video": {
+    "type": "youtube",
+    "id": "90FNVadJP6s"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Everywhere_(video_game)",
+    "backloggd": "everywhere"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/everywhere/cover.webp"
+}

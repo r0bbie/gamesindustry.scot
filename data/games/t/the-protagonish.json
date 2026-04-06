@@ -1,0 +1,36 @@
+{
+  "id": "the-protagonish",
+  "title": "The Protagonish",
+  "slug": "the-protagonish",
+  "short_description": "Play as 4 NPCs and choose to help or hinder an adventurer in this short hand-drawn, fully voice acted point-and-click adventure with multiple paths and endings.",
+  "description": "Play 4 'NPCs' and choose to help or hinder the adventurer, in this very short 20 min hand-drawn, fully voice acted point-and-click adventure with a twist. Take control of the villagers in a medieval fantasy village, and decide to help or halt the adventurer's quest, with multiple paths and endings.",
+  "status": "released",
+  "release_date": "2024-10-24",
+  "companies": {
+    "developer": ["college-fun-games"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["point-and-click", "adventure"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "steam": "2994780",
+    "itch": "collegefungames/theprotagonish"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "RErXIvtOskU"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

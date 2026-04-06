@@ -4,15 +4,25 @@
   "slug": "build-a-rocket-boy",
   "category": "developer",
   "status": "active",
+  "founded": 2018,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
   "website": "https://www.buildarocketboy.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "251-500",
+  "employee_count": 265,
+  "links": {
+    "twitter": "buildarocketboy",
+    "linkedin": "buildarocketboy"
+  },
+  "short_description": "Edinburgh studio founded by Leslie Benzies, lead producer of the Grand Theft Auto series, developing the action game MindsEye and the open-world platform Everywhere.",
+  "about": "Build A Rocket Boy was founded in 2018 by Leslie Benzies — the longtime lead producer behind the Grand Theft Auto series at Rockstar North — under the name Royal Circus Games before rebranding. The studio operates from its Edinburgh headquarters alongside additional studios in Budapest and Los Angeles, and has grown to several hundred staff. Its first major release, MindsEye, is a cinematic action game published by IO Interactive. In parallel, the studio is developing Everywhere, an ambitious open-world platform designed to let players build, remix, and share experiences alongside more traditional game content.",
+  "key_people": [
+    { "name": "Leslie Benzies", "title": "Founder" }
+  ],
   "use_tooling": [],
   "employee_stats": {},
-  "key_people": [],
   "awards": [],
   "news": []
 }

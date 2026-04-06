@@ -43,59 +43,68 @@ const searchIndex = [
       link.onerror = function () {};
       document.head.appendChild(link);
 
-      import("/pagefind/pagefind-ui.js")
-        .then(function (module) {
-          var el = document.getElementById("search-loading");
-          if (el) el.remove();
-          new module.PagefindUI({
-            element: "#search",
-            showSubResults: true,
-            autofocus: true,
-          });
-        })
-        .catch(function () {
-          document.getElementById("search-loading").remove();
-          var fallback = document.getElementById("fallback-search");
-          fallback.classList.remove("hidden");
+      function showFallback() {
+        var el = document.getElementById("search-loading");
+        if (el) el.remove();
+        var fallback = document.getElementById("fallback-search");
+        fallback.classList.remove("hidden");
 
-          var input = document.getElementById("fallback-input");
-          var results = document.getElementById("fallback-results");
+        var input = document.getElementById("fallback-input");
+        var results = document.getElementById("fallback-results");
 
-          input.addEventListener("input", function () {
-            var q = input.value.toLowerCase().trim();
-            results.innerHTML = "";
-            if (!q) return;
-            var matches = searchIndex.filter(function (item) {
-              return (
-                item.title.toLowerCase().includes(q) ||
-                item.description.toLowerCase().includes(q) ||
-                item.type.toLowerCase().includes(q)
-              );
-            }).slice(0, 20);
+        input.addEventListener("input", function () {
+          var q = input.value.toLowerCase().trim();
+          results.innerHTML = "";
+          if (!q) return;
+          var matches = searchIndex.filter(function (item) {
+            return (
+              item.title.toLowerCase().includes(q) ||
+              item.description.toLowerCase().includes(q) ||
+              item.type.toLowerCase().includes(q)
+            );
+          }).slice(0, 20);
 
-            if (matches.length === 0) {
-              results.innerHTML =
-                '<p class="text-muted-foreground text-sm">No results found.</p>';
-              return;
-            }
+          if (matches.length === 0) {
+            results.innerHTML =
+              '<p class="text-muted-foreground text-sm">No results found.</p>';
+            return;
+          }
 
-            matches.forEach(function (item) {
-              var a = document.createElement("a");
-              a.href = item.url;
-              a.className =
-                "block rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30";
-              a.innerHTML =
-                '<div class="flex items-center justify-between">' +
-                '<span class="font-medium">' + item.title + "</span>" +
-                '<span class="text-xs text-muted-foreground rounded bg-secondary px-2 py-0.5">' + item.type + "</span>" +
-                "</div>" +
-                (item.description
-                  ? '<p class="mt-1 text-sm text-muted-foreground line-clamp-1">' + item.description + "</p>"
-                  : "");
-              results.appendChild(a);
-            });
+          matches.forEach(function (item) {
+            var a = document.createElement("a");
+            a.href = item.url;
+            a.className =
+              "block rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30";
+            a.innerHTML =
+              '<div class="flex items-center justify-between">' +
+              '<span class="font-medium">' + item.title + "</span>" +
+              '<span class="text-xs text-muted-foreground rounded bg-secondary px-2 py-0.5">' + item.type + "</span>" +
+              "</div>" +
+              (item.description
+                ? '<p class="mt-1 text-sm text-muted-foreground line-clamp-1">' + item.description + "</p>"
+                : "");
+            results.appendChild(a);
           });
         });
+      }
+
+      import("/pagefind/pagefind-ui.js")
+        .then(function (module) {
+          try {
+            var el = document.getElementById("search-loading");
+            if (el) el.remove();
+            var UI = module.PagefindUI || window.PagefindUI;
+            if (!UI) throw new Error("PagefindUI not found");
+            new UI({
+              element: "#search",
+              showSubResults: true,
+              autofocus: true,
+            });
+          } catch (e) {
+            showFallback();
+          }
+        })
+        .catch(showFallback);
     })();
   </script>
 </BaseLayout>

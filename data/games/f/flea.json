@@ -1,0 +1,47 @@
+{
+  "id": "flea",
+  "title": "FLEA!",
+  "slug": "flea",
+  "short_description": "A challenging NES-style 2D platformer where you play as Henry the Hyperactive Flea, who just can't stop jumping.",
+  "description": "Flea! was designed to run on an NES and is a challenging 2D platformer with an intriguing back story. Play as Henry the Hyperactive Flea who just can't stop jumping! Navigate the beasts and collect blood to get the heart of the problems.",
+  "status": "released",
+  "release_date": "2020-10-30",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer"
+  ],
+  "platforms": [
+    "pc",
+    "nes"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1346330",
+    "itch": "lowtekgames/fleanes",
+    "press_kit": "https://lowtek.games/lowtekpresskit/FLEA/FLEA.html"
+  },
+  "physical_stores": {
+    "evercade": "https://evercade.co.uk/cartridges/indie-heroes-collection-1-cartridge/"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "FMIPWeCEQhY"
+  },
+  "play_now": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/flea/cover.webp"
+}

@@ -281,11 +281,6 @@ export default function CompanyListView({ companies, gameCountMap = {} }: Props)
                       Defunct
                     </span>
                   )}
-                  {company.employee_count != null && company.employee_count > 0 && (
-                    <span className="rounded-full bg-muted px-2 py-0.5 text-[10px] font-medium text-muted-foreground">
-                      {company.employee_count} emp.
-                    </span>
-                  )}
                 </div>
               </div>
 

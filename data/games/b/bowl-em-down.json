@@ -1,0 +1,45 @@
+{
+  "id": "bowl-em-down",
+  "title": "Bowl Em Down",
+  "slug": "bowl-em-down",
+  "short_description": "A free-to-play infinite roller where you scream your way to victory and unlock skins ranging from LGBT flags to galaxies.",
+  "description": "Scream your way to victory in this free-to-play infinite Roller. Unlock a range of skins from LGBT flags to galaxies and even a familiar looking flea.",
+  "status": "released",
+  "release_date": "2020-10",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "endless-runner"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "app_store": "https://apps.apple.com/tt/app/bowl-em-down/id1563193976",
+    "google_play": "https://play.google.com/store/apps/details?id=com.lowtekgames.bowlemdown"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "FNUsgx7tbpg"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bowl-em-down/cover.webp"
+}

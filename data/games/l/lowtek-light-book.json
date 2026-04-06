@@ -1,0 +1,44 @@
+{
+  "id": "lowtek-light-book",
+  "title": "Lowtek Light Book",
+  "slug": "lowtek-light-book",
+  "short_description": "A magical AR adventure of light on a real pop-up book, bridging the gap between books and screens.",
+  "description": "A Magical adventure of light on a real popup book. Bridging the gap between books and screens. Over 16 million instagram views.",
+  "status": "prototype",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "ar",
+    "interactive"
+  ],
+  "platforms": [
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://lowtek.games/lightbook.html"
+  },
+  "play_now": {
+    "viverse": "https://www.viverse.com/mJLmWUZ"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "IfN1C-Sv-YY"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/lowtek-light-book/cover.webp"
+}

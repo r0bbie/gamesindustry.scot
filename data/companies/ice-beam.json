@@ -1,0 +1,25 @@
+{
+  "id": "ice-beam",
+  "name": "Ice BEAM",
+  "slug": "ice-beam",
+  "category": "solo_developer",
+  "status": "active",
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://icebeam.co.uk",
+  "logo": null,
+  "highlighted": false,
+  "company_size": "1",
+  "links": {
+    "discord": "https://discord.com/invite/pSXQsPxtx7",
+    "instagram": "icebeamgames"
+  },
+  "short_description": "Independent dev in Dundee founded by industry-veteran Tom Goodchild.",
+  "key_people": [
+    { "name": "Tom Goodchild", "title": "Founder & Developer" }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": []
+}

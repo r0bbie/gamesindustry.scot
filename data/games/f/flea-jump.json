@@ -1,0 +1,52 @@
+{
+  "id": "flea-jump",
+  "title": "Flea Jump!",
+  "slug": "flea-jump",
+  "short_description": "An endless jumper featuring blood-thirsty parasites — play as Henry the hyperactive flea who just can't stop jumping.",
+  "description": "Flea jump is an endless jumper featuring blood thirsty parasites. Play as Henry the hyperactive flea who just can't stop jumping.",
+  "status": "released",
+  "release_date": "2021-01-09",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "endless-runner"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "app_store": "https://apps.apple.com/tt/app/flea-jump/id1576540922",
+    "google_play": "https://play.google.com/store/apps/details?id=com.LowtekGames.FleaJump_",
+    "press_kit": "https://lowtek.games/lowtekpresskit/fleajump/FleaJump.html"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "T-4DW-0Ihg4"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "TIGA Game Awards — Best Arcade Game",
+      "year": 2021,
+      "status": "nominated"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/flea-jump/cover.webp"
+}

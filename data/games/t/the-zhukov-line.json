@@ -1,0 +1,35 @@
+{
+  "id": "the-zhukov-line",
+  "title": "The Zhukov Line",
+  "slug": "the-zhukov-line",
+  "short_description": "A short one-room horror set aboard a livestock train in a dystopian Soviet state.",
+  "description": "A short one-room-horror which takes place on a livestock train in a dystopian Soviet state.",
+  "status": "released",
+  "release_date": "2024-02-16",
+  "companies": {
+    "developer": ["fish-tin-games"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": ["horror"],
+  "platforms": ["pc"],
+  "screenshots": [],
+  "stores": {
+    "steam": "2744260"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "5LD306XNTIo"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

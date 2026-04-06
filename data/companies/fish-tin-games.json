@@ -1,0 +1,26 @@
+{
+  "id": "fish-tin-games",
+  "name": "Fish Tin Games",
+  "slug": "fish-tin-games",
+  "category": "developer",
+  "status": "active",
+  "founded": 2020,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://www.fishtingames.com",
+  "logo": null,
+  "highlighted": false,
+  "company_size": "2-10",
+  "links": {
+    "twitter": "FishTinGames",
+    "instagram": "fishtingames",
+    "youtube": "fishtingames7814",
+    "linkedin": "fish-tin-games"
+  },
+  "short_description": "Dundee-based indie dev behind The Zhukov Line, also providing game audio and development services.",
+  "key_people": [],
+  "use_tooling": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": []
+}

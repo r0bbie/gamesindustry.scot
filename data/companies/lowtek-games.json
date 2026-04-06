@@ -1,18 +1,28 @@
 {
   "id": "lowtek-games",
-  "name": "LowTek Games",
+  "name": "Lowtek Games",
   "slug": "lowtek-games",
-  "category": "developer",
+  "category": "solo_developer",
   "status": "active",
+  "founded": 2019,
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "http://lowtek.co.uk/",
+  "website": "https://lowtek.games",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "1",
+  "links": {
+    "bluesky": "alastairlow.bsky.social",
+    "itch": "lowtekgames",
+    "press_kit": "https://lowtek.games/lowtekpresskit/LowtekGamesPressKit.html"
+  },
+  "short_description": "Dundee indie studio run by Alastair Low, creating retro homebrew games for NES, Dreamcast, and modern platforms with a focus on dyslexia-friendly design.",
+  "about": "Lowtek Games is a one-person studio run by Alastair Low, founded in Dundee in March 2020. The studio has a dual focus: crafting new retro homebrew games that actually run on original NES and Dreamcast hardware, and designing games and tools that help dyslexic players enjoy games more. From challenging platformers to grid puzzles and puzzle-platformers, Lowtek's games span NES cartridges and Evercade releases through to Steam, mobile, and Playdate.",
+  "key_people": [
+    { "name": "Alastair Low", "title": "Developer" }
+  ],
   "use_tooling": [],
   "employee_stats": {},
-  "key_people": [],
   "awards": [],
   "news": []
 }

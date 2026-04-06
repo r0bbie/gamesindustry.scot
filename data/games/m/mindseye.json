@@ -1,0 +1,57 @@
+{
+  "id": "mindseye",
+  "title": "MindsEye",
+  "slug": "mindseye",
+  "short_description": "A cinematic action game following former soldier Jacob Diaz and the mysterious neural implant haunting him with fragmented memories.",
+  "description": "Play as Jacob Diaz, a former soldier fitted with The MindsEye, a mysterious neural implant that haunts him with fragmented memories of a covert mission that changed his life forever. Fight to uncover the truth in a world where AI, high-tech experimentation, and unchecked military power shape every encounter. Jacob isn't the only one searching for answers, forces working from the shadows may be more powerful and dangerous than he ever imagined. Get ready for intense combat - on foot, behind the wheel, and in the air - where every decision can mean the difference between survival and defeat.",
+  "status": "released",
+  "release_date": "2025-06-10",
+  "companies": {
+    "developer": [
+      "build-a-rocket-boy"
+    ],
+    "publishers": [
+      {
+        "name": "IO Interactive",
+        "url": "https://ioi.dk/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "open-world"
+  ],
+  "platforms": [
+    "ps5",
+    "pc",
+    "xbox-series-xs"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://mindseye.game/",
+    "steam": "3265250",
+    "xbox": "mindseye/9PJ9WXK3V9FN",
+    "epic": "mindseye-cb0316",
+    "psn": "EB1674-PPSA28209_00-MINDSEYESTANDARD"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "fHP4LRdUlYk"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "MindsEye",
+    "backloggd": "mindseye"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/mindseye/cover.webp"
+}

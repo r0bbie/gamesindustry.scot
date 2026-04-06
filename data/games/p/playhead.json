@@ -1,0 +1,44 @@
+{
+  "id": "playhead",
+  "title": "Playhead",
+  "slug": "playhead",
+  "short_description": "A puzzle-platformer set inside a media player, using the familiar timeline UI to manipulate time and progress through levels.",
+  "description": "Playhead is a puzzle-platformer based inside a media player that uses the familiar timeline UI to manipulate time and progress through the levels.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "platformer"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1894700",
+    "itch": "lowtekgames/playhead-demo",
+    "press_kit": "https://lowtek.games/lowtekpresskit/playhead/Playhead.html"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "yl-gMM5WroA"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/playhead/cover.webp"
+}

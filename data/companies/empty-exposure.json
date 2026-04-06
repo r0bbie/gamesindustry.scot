@@ -1,0 +1,22 @@
+{
+  "id": "empty-exposure",
+  "name": "Empty Exposure",
+  "slug": "empty-exposure",
+  "category": "solo_developer",
+  "status": "active",
+  "location": null,
+  "region": null,
+  "website": null,
+  "logo": null,
+  "highlighted": false,
+  "company_size": "1",
+  "links": {
+    "youtube": "emptyexposure2235"
+  },
+  "contact_email": "emptyexposure@gmail.com",
+  "key_people": [],
+  "use_tooling": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": []
+}

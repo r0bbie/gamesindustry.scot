@@ -1,0 +1,48 @@
+{
+  "id": "a-familiar-fairytale",
+  "title": "A Familiar Fairytale",
+  "slug": "a-familiar-fairytale",
+  "short_description": "A text-based adventure designed to simulate the frustration of dyslexia, following a small fox through a fairy tale of kings, queens, and witches.",
+  "description": "This game was created to help others feel the frustration of having dyslexia. You play as a small fox in a fairy tale story with Kings, Queens and witches. We don't claim to be actually like what a dyslexic person sees, but merely a simulation of the frustration.",
+  "status": "released",
+  "release_date": "2019-11-18",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure",
+    "text-adventure"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "929570",
+    "google_play": "https://play.google.com/store/apps/details?id=com.Lowtek.AFamiliarFairytale",
+    "itch": "lowtekgames/a-familiar-fairytale-dyslexic-text-based-adventure",
+    "press_kit": "https://lowtek.games/lowtekpresskit/AFamiliarFairytale/AFamiliarFairytale.html"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "0-d_ZbqBtBE"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/a-familiar-fairytale/cover.webp"
+}
