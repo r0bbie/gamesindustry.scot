@@ -1,29 +1,54 @@
 {
   "id": "tray-racers",
-  "title": "Tray Racers",
+  "title": "Tray Racers!",
   "slug": "tray-racers",
+  "short_description": "Race your pals across the adorable post-apocalyptic world in this cute & colourful online multiplayer party racer.",
+  "description": "The world ended…But the fun didn't! Race your pals across the adorable post-apocalyptic world of Tray Racers! Grab a tray, surf the dunes, and get ready to SLIDE, DRIFT and TRICK your way to the finish line in this cute & colorful party racer, built for online multiplayer! YAHOOOOOO! Every race takes place on a unique, randomly-generated track - with weird and wonderful vistas, hazards, creatures, and surprises from a mix of bizarre & beautiful post-apocalyptic biomes.",
   "status": "released",
-  "release_date": "2023",
+  "release_date": "2023-04-13",
   "companies": {
-    "developer": ["bit-loom"],
+    "developer": [
+      "bit-loom"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["racing"],
-  "platforms": [],
+  "genres": [
+    "racing",
+    "party",
+    "multiplayer"
+  ],
+  "platforms": [
+    "pc",
+    "switch"
+  ],
   "screenshots": [],
-  "stores": {},
+  "press_kit_url": "https://www.trayracers.com/presskit/product/",
+  "stores": {
+    "website": "https://www.trayracers.com/",
+    "steam": "1913870",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Tray-Racers--2366035.html"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "P-Bzw7IwqHk"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
   "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "Scottish Games Awards - Art and Animation", "year": 2023, "status": "nominated" }
+    {
+      "name": "Scottish Games Awards - Art and Animation",
+      "year": 2023,
+      "status": "nominated"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tray-racers/cover.webp"
 }
