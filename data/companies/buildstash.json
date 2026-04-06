@@ -6,7 +6,7 @@
   "status": "active",
   "founded": 2024,
   "previously_known_as": [],
-  "location": "Scotland",
+  "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "coordinates": { "lat": 55.8642, "lng": -4.2518 },
   "short_description": "Software binary management — organise and share playable builds across your team, QA, and collaborators.",

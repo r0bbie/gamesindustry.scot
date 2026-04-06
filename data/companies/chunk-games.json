@@ -4,15 +4,32 @@
   "slug": "chunk-games",
   "category": "developer",
   "status": "active",
+  "founded": 2001,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
-  "website": "http://www.chunkgames.com/",
+  "website": "https://www.chunk.co.uk",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "contact_email": "hello@chunk.co.uk",
+  "short_description": "Glasgow digital studio and multiple BAFTA-nominated, Emmy-winning creators of digital products, experiences and software — including games.",
+  "about": "Chunk is a Glasgow-based digital studio with roots stretching back to 2001, building digital products, experiences and software for clients and partners across creativity, strategy, innovation and technology. A multiple BAFTA-nominated and Emmy-winning company, Chunk has earned a reputation for marrying strong craft with commercial and creative ambition.\n\nChunk Games was the studio's dedicated games label, launched in 2010 to channel its interactive experience background into more mainstream game development — producing both branded games for clients and original titles across platforms. The games label and website appears to no longer be active.",
+  "legal_entities": [
+    { "uk_registered_name": "Chunk Ideas Limited", "companies_house_number": "SC220894" }
+  ],
+  "links": {
+    "linkedin": "chunk-digital"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Introducing CHUNK Games",
+      "publication": "Scottish Games Network",
+      "date": "2010-12-13",
+      "url": "https://scottishgames.net/2010/12/13/introducing-chunk-games/"
+    }
+  ]
 }

@@ -1,0 +1,51 @@
+{
+  "id": "from-the-depths",
+  "title": "From the Depths",
+  "slug": "from-the-depths",
+  "short_description": "A genre-defying builder where over 1000 unique components let you construct and command voxel vehicles from ocean to outer space.",
+  "description": "Over 1000 unique components allow you to build and command voxel vehicles from the deep ocean to outer space! Forge strategies, allegiances and fleets strong enough to destroy eight deadly factions of the planet and reign supreme. A genre-defying mashup of simulation, building, RTS and RPG.",
+  "status": "released",
+  "release_date": "2020-11-06",
+  "companies": {
+    "developer": [
+      "brilliant-skies"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation",
+    "building",
+    "strategy",
+    "rpg"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "268650"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "QhTNESwAzs4"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "Scottish Games Awards - Best Technical Achievement",
+      "year": 2022,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/from-the-depths/cover.webp"
+}

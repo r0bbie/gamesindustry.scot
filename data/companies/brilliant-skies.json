@@ -4,15 +4,26 @@
   "slug": "brilliant-skies",
   "category": "developer",
   "status": "active",
+  "founded": 2013,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "https://www.brilliantskies.co.uk/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "contact_email": "business@brilliantskies.co.uk",
+  "short_description": "Glasgow indie studio behind From the Depths — one of the most complex builder games on the market, shaped by its community from day one.",
+  "about": "Founded in Glasgow by Nicholas Smart in 2013, Brilliant Skies started as a solo project with a simple ambition: a voxel ship-builder where players would cooperatively battle sea monsters. The community had other ideas. Their involvement steered the game in an entirely different direction, and From the Depths grew into one of the most complex builder games ever made — letting players construct and command voxel vehicles across ocean, land, air and space.\n\nThe studio has grown from a one-person operation to a distributed team of contributors from many backgrounds and nationalities, many of whom started as modders. Everyone works remotely with no central office. In 2022, From the Depths won Best Technical Achievement at the inaugural Scottish Games Awards.\n\nBrilliant Skies strives to take the creative risks that larger studios can't, building games that are genuinely different — shaped by the community and made with the conviction that the best games are ones the developers would want to play themselves.",
+  "legal_entities": [
+    { "uk_registered_name": "Brilliant Skies Ltd", "companies_house_number": "SC455701" }
+  ],
+  "links": {
+    "twitter": "Brillskies"
+  },
+  "key_people": [
+    { "name": "Nicholas Smart", "title": "Founder" }
+  ],
   "use_tooling": [],
   "employee_stats": {},
-  "key_people": [],
   "awards": [],
   "news": []
 }

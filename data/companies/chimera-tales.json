@@ -4,15 +4,24 @@
   "slug": "chimera-tales",
   "category": "developer",
   "status": "active",
-  "location": null,
-  "region": null,
-  "website": null,
+  "founded": 2020,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "website": "https://www.chimeratales.com",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "links": {
+    "twitter": "ChimeraTales",
+    "instagram": "chimeratalesinteractive",
+    "itch": "chimera-tales"
+  },
+  "key_people": [
+    { "name": "Máté Tóth Ridovics", "title": "Co-Founder, Creative Director & 2D Artist" },
+    { "name": "Thomas Salgarella", "title": "Co-Founder, Producer & Game Designer" }
+  ],
   "use_tooling": [],
   "employee_stats": {},
-  "key_people": [],
   "awards": [],
   "news": []
 }

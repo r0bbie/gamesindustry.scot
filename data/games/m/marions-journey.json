@@ -2,28 +2,50 @@
   "id": "marions-journey",
   "title": "Marion's Journey",
   "slug": "marions-journey",
+  "short_description": "An interview-based narrative experience and educational applied game about Marion Camrass, a Holocaust and Gulag survivor.",
+  "description": "Marion's Journey is an interview-based narrative experience, educational applied game about Marion Camrass, a Holocaust and Gulag survivor.",
   "status": "released",
   "release_date": "2023",
   "companies": {
-    "developer": ["chimera-tales"],
+    "developer": [
+      "chimera-tales"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
-    "supported_by": [],
+    "supported_by": [
+      {
+        "name": "The Gathering the Voices Association",
+        "url": "https://gatheringthevoices.com"
+      }
+    ],
     "contributed_by": []
   },
-  "genres": [],
-  "platforms": [],
+  "genres": [
+    "narrative",
+    "educational"
+  ],
+  "platforms": [
+    "browser"
+  ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "website": "https://www.chimeratales.com/portfolio/project-four-l3zw3-skfac",
+    "itch": "chimera-tales.itch.io/marions-journey"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
   "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "Scottish Games Awards - Creativity", "year": 2023, "status": "won" }
+    {
+      "name": "Scottish Games Awards - Creativity",
+      "year": 2023,
+      "status": "won"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/marions-journey/cover.webp"
 }

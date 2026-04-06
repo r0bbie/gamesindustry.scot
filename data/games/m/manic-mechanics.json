@@ -3,8 +3,9 @@
   "title": "Manic Mechanics",
   "slug": "manic-mechanics",
   "short_description": "A frantic co-op party game where players work together to repair vehicles in increasingly chaotic workshops.",
+  "description": "Grab your toolbox and get ready for a carnival of chaotic couch co-op! Make your way through five crazy neighborhoods as you repair cars, trucks, choppers, tractors, mini-subs and even UFOs!",
   "status": "released",
-  "release_date": "2023",
+  "release_date": "2024-03-07",
   "companies": {
     "developer": [
       "4j-studios"
@@ -31,6 +32,10 @@
   "screenshots": [],
   "stores": {
     "steam": "2569820"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "MvAaKAOv7eM"
   },
   "play_now": {},
   "physical_stores": {},

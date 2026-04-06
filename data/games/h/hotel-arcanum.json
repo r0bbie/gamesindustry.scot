@@ -1,0 +1,54 @@
+{
+  "id": "hotel-arcanum",
+  "title": "Hotel Arcanum",
+  "slug": "hotel-arcanum",
+  "short_description": "A narrative deduction game about the transgenerational trauma of a three-generation family.",
+  "description": "Hotel Arcanum is a narrative deduction game about the transgenerational trauma of a three-generation family.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "chimera-tales"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [
+      {
+        "name": "UK Games Fund",
+        "url": "https://ukgamesfund.com/funded-project/hotel-arcanum/"
+      }
+    ],
+    "contributed_by": []
+  },
+  "genres": [
+    "narrative",
+    "deduction"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.chimeratales.com/portfolio/project-one-f5w4d-3rntc",
+    "itch": "chimera-tales.itch.io/hotel-arcanum"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "DyhcZmcT-LQ"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "Tranzfuser Accelerator Programme",
+      "year": 2020,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/hotel-arcanum/cover.webp"
+}
