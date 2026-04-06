@@ -23,10 +23,10 @@
     "pc"
   ],
   "screenshots": [],
+  "press_kit_url": "https://lowtek.games/lowtekpresskit/playhead/Playhead.html",
   "stores": {
     "steam": "1894700",
-    "itch": "lowtekgames/playhead-demo",
-    "press_kit": "https://lowtek.games/lowtekpresskit/playhead/Playhead.html"
+    "itch": "lowtekgames/playhead-demo"
   },
   "video": {
     "type": "youtube",

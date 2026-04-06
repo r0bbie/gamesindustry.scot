@@ -26,11 +26,11 @@
     "android"
   ],
   "screenshots": [],
+  "press_kit_url": "https://lowtek.games/lowtekpresskit/AFamiliarFairytale/AFamiliarFairytale.html",
   "stores": {
     "steam": "929570",
     "google_play": "https://play.google.com/store/apps/details?id=com.Lowtek.AFamiliarFairytale",
-    "itch": "lowtekgames/a-familiar-fairytale-dyslexic-text-based-adventure",
-    "press_kit": "https://lowtek.games/lowtekpresskit/AFamiliarFairytale/AFamiliarFairytale.html"
+    "itch": "lowtekgames/a-familiar-fairytale-dyslexic-text-based-adventure"
   },
   "video": {
     "type": "youtube",
