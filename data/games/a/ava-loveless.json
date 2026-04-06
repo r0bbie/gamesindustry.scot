@@ -7,15 +7,21 @@
   "status": "in_development",
   "release_date": "2026-04-22",
   "companies": {
-    "developer": ["empty-exposure"],
+    "developer": [
+      "empty-exposure"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["visual-novel"],
-  "platforms": ["pc"],
+  "genres": [
+    "visual-novel"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "steam": "4513900"
@@ -31,5 +37,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ava-loveless/cover.webp"
 }
