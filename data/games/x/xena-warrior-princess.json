@@ -1,0 +1,22 @@
+{
+  "id": "xena-warrior-princess",
+  "title": "Xena: Warrior Princess",
+  "slug": "xena-warrior-princess",
+  "status": "released",
+  "release_date": "2007-10-02",
+  "short_description": "A 3D action-platform game based on the hit TV series — fight through Ares' enchanted citadel to rescue Gabrielle.",
+  "description": "Xena: Warrior Princess is a 3D action-platform game based on the TV series of the same name. Ares, the God of War has captured Xena's friend Gabrielle in an attempt to convince her to come back at his side. Gabrielle is chained up in a dungeon that slowly fills with water. Xena now has to fight her way through the enchanted citadel of Ares.",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ]
+  },
+  "platforms": [
+    "ps2"
+  ],
+  "database_links": {
+    "wikipedia": "Xena:_Warrior_Princess_(video_game)",
+    "mobygames": "97447/xena-warrior-princess/"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/xena-warrior-princess/cover.webp"
+}

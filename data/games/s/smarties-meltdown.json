@@ -1,0 +1,27 @@
+{
+  "id": "smarties-meltdown",
+  "title": "Smarties: Meltdown",
+  "slug": "smarties-meltdown",
+  "status": "released",
+  "release_date": "2006-03-17",
+  "short_description": "A colourful action puzzle game starring the iconic Smarties brand, built around colour-matching and meltdown-stopping mayhem.",
+  "description": "Smarties: Meltdown is a family-friendly action puzzle game themed around the iconic confectionery brand. Players must sort and match Smarties by colour to prevent a meltdown, working through a variety of increasingly hectic stages. Bright and accessible, the game was designed to appeal to younger audiences.",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ],
+    "publishers": [
+      {
+        "name": "Koch Media",
+        "url": "https://www.kochmedia.com"
+      }
+    ]
+  },
+  "platforms": [
+    "ps2"
+  ],
+  "database_links": {
+    "wikipedia": "Smarties:_Meltdown"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/smarties-meltdown/cover.webp"
+}

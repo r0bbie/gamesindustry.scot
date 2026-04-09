@@ -1,0 +1,28 @@
+{
+  "id": "dodge-racing-charger-vs-challenger",
+  "title": "Dodge Racing: Charger vs Challenger",
+  "slug": "dodge-racing-charger-vs-challenger",
+  "status": "released",
+  "release_date": "2009-10-13",
+  "short_description": "A head-to-head battle between two of the greatest American muscle cars — Dodge Charger vs Dodge Challenger.",
+  "description": "Dodge Racing: Charger vs. Challenger pits two of the most classic American vehicles in a Battle Royale to determine which one is the greatest muscle car of all time. Burn rubber and peel out in your Dodge Charger or Dodge Challenger, pushing these bad boys to the limits to win Championship Points for your team. It's a head-to-head battle to the finish, but only the strongest will be #1!",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ],
+    "publishers": [
+      {
+        "name": "Zoo Games"
+      }
+    ]
+  },
+  "platforms": [
+    "wii",
+    "ds"
+  ],
+  "video": {
+    "type": "youtube",
+    "id": "y3gTIs_QJJ0"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/dodge-racing-charger-vs-challenger/cover.webp"
+}

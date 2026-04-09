@@ -1,0 +1,29 @@
+{
+  "id": "chrysler-classic-racing",
+  "title": "Chrysler Classic Racing",
+  "slug": "chrysler-classic-racing",
+  "status": "released",
+  "release_date": "2008-11-18",
+  "short_description": "A racing game featuring a collection of iconic Chrysler vehicles spanning decades of American automotive history.",
+  "description": "Chrysler Classic Racing lets players get behind the wheel of legendary Chrysler vehicles across a range of tracks and game modes. From vintage muscle cars to modern performance machines, the game celebrates the heritage of one of America's most storied automotive brands.",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ],
+    "publishers": [
+      {
+        "name": "Zoo Entertainment",
+        "url": "https://www.zoo.com"
+      }
+    ]
+  },
+  "platforms": [
+    "wii",
+    "ds"
+  ],
+  "database_links": {
+    "mobygames": "87310/chrysler-classic-racing/",
+    "wikipedia": "Chrysler_Classic_Racing"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/chrysler-classic-racing/cover.webp"
+}

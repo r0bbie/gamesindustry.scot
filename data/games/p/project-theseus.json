@@ -1,0 +1,16 @@
+{
+  "id": "project-theseus",
+  "title": "Project: Theseus",
+  "slug": "project-theseus",
+  "status": "prototype",
+  "release_date": "2026-01-28",
+  "short_description": "A roguelite beat-'em-up adventure set across the scrap-lands of a junk-powered frontier.",
+  "description": "Project: Theseus is a roguelite beat-'em-up adventure set across the scrap-lands of a junk-powered frontier. It's up to you to venture out and kick some bot-butt.",
+  "companies": {
+    "developer": ["extra-mile-studios"]
+  },
+  "platforms": ["browser"],
+  "play_now": {
+    "itch": "extramile.itch.io/theseus"
+  }
+}

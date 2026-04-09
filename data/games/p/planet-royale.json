@@ -1,0 +1,27 @@
+{
+  "id": "planet-royale",
+  "title": "Planet Royale",
+  "slug": "planet-royale",
+  "status": "in_development",
+  "short_description": "Compete in the galaxy's most watched game show — battle royale on a planet being destroyed by a giant laser.",
+  "description": "Compete in the galaxy's most watched game show! Battle Royal on a planet that is being destroyed by a giant laser; each round players are eliminated as the world itself is destroyed and the escape pods become more scarce. Be the last person standing in a battle of wits, weapons and brute force.",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ]
+  },
+  "platforms": [
+    "pc"
+  ],
+  "stores": {
+    "steam": "2850720"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "bjaTA-hOVFc"
+  },
+  "database_links": {
+    "backloggd": "planet-royale"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/planet-royale/cover.webp"
+}

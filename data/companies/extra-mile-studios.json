@@ -1,0 +1,52 @@
+{
+  "id": "extra-mile-studios",
+  "name": "Extra Mile Studios",
+  "slug": "extra-mile-studios",
+  "categories": [
+    "developer",
+    "service_provider"
+  ],
+  "status": "active",
+  "founded": 2004,
+  "previously_known_as": ["EM Studios"],
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "website": "http://www.emstudios.co.uk/",
+  "logo": null,
+  "highlighted": false,
+  "parent_entity": {
+    "name": "Reforged Studios"
+  },
+  "company_size": "11-50",
+  "short_description": "Veteran co-development and art outsource studio providing dedicated art & code resources to studios and publishers worldwide for over 20 years.",
+  "about": "Extra Mile Studios is a veteran co-development and art outsource studio specialising in providing dedicated art & code resources to studios and publishers around the world.\n\nBased in Glasgow, Scotland, our client-first approach has ensured we have remained one of the UK's most trusted names in co-development for over 20 years.\n\nExtra Mile Studios is part of the Reforged Studios group.",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/extra-mile-studios",
+    "crunchbase": "extra-mile-studios",
+    "itch": "extramile",
+    "youtube": "@extramilestudios1558"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Extra Miles Studios Limited",
+      "companies_house_number": "SC263923"
+    }
+  ],
+  "use_tooling": [],
+  "key_people": [
+    {
+      "name": "Bobby Farmer",
+      "title": "Development Director"
+    }
+  ],
+  "employee_stats": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "Reforged Studios Kickstarts Growth Plans With The Acquisition Of Ground Shatter & Extra Mile Studios",
+      "publication": "Scottish Games Network",
+      "date": "2024-08-15",
+      "url": "https://scottishgames.net/2024/08/15/reforged-studios-launches-with-first-two-studio-acquisitions/"
+    }
+  ]
+}

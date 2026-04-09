@@ -1,0 +1,34 @@
+{
+  "id": "shred-it",
+  "title": "Shred It!",
+  "slug": "shred-it",
+  "status": "released",
+  "release_date": "2014-09-24",
+  "short_description": "Tear down an ever-changing paper-craft mountain, dodging hazards and chasing high scores in this side-scrolling snowboard runner.",
+  "description": "Tear your way down an ever-changing and dynamic paper-craft terrain, carefully avoiding environmental and wildlife hazards that could end your perfect run in a heartbeat! Compete for the ultimate high-score against your friends and the worldwide Shred It! community.",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ]
+  },
+  "platforms": [
+    "ios",
+    "android",
+    "windows-phone",
+    "xbox-one",
+    "ps4"
+  ],
+  "stores": {
+    "website": "https://shreditgame.com",
+    "psn": "https://store.playstation.com/en-gb/product/EP0803-CUSA06939_00-100000000SHREDIT",
+    "xbox": "https://www.xbox.com/en-gb/games/store/Shred-It/BPQ6PCKS8KPX"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "xqjy2-UdzNM"
+  },
+  "links": {
+    "twitter": "shreditgame"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/shred-it/cover.webp"
+}

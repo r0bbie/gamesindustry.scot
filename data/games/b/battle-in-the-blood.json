@@ -1,0 +1,34 @@
+{
+  "id": "battle-in-the-blood",
+  "title": "Battle in the Blood",
+  "slug": "battle-in-the-blood",
+  "status": "released",
+  "release_date": "2017-12-01",
+  "short_description": "A puzzle and turn-based combat mobile game in which players battle HIV and co-infections across 90 levels.",
+  "description": "Puzzle and turn-based combat mobile game. Players journey across 90 levels battling the HIV virus and his army of co-infections. Along the way, they encounter 8 short stories. Each story follows the events leading up to a character's decision to get an HIV test and concludes with a glimpse into their life after a positive diagnosis. A twist in the 8th story allows the player to choose how the story will end.\n\nThe game was launched on the Google Play and App Store on the 1st of December 2017 to coincide with World AIDS Day.",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ],
+    "publishers": [
+      {
+        "name": "ETCH / Liverpool School of Tropical Medicine",
+        "url": "https://etch.lstmed.ac.uk"
+      }
+    ]
+  },
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stores": {
+    "website": "https://etch.lstmed.ac.uk/games/battle-in-the-blood-bitb",
+    "play_store": "com.emstudios.get",
+    "app_store": "id1303572397"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "w_GhvJjQCTo"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/battle-in-the-blood/cover.webp"
+}

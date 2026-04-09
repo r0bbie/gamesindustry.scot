@@ -1,0 +1,16 @@
+{
+  "id": "five-star-soccer",
+  "title": "5 Star Soccer",
+  "slug": "five-star-soccer",
+  "status": "prototype",
+  "release_date": "2025-07",
+  "short_description": "A retro football-themed roguelite deckbuilder with turn-based 5-a-side strategy action.",
+  "description": "5 Star Soccer is a retro football themed Roguelite Deckbuilder. Players progress along a series of matches taking on increasingly more challenging opponents in 5-a-side turn based strategy action.\n\nBattle your way along the tower mode, upgrade your players with items purchased at the shop, take on tougher opponents!",
+  "companies": {
+    "developer": ["extra-mile-studios"]
+  },
+  "platforms": ["browser"],
+  "play_now": {
+    "itch": "extramile.itch.io/5-star"
+  }
+}

@@ -182,6 +182,13 @@ const games = defineCollection({
     awards: z.array(awardSchema).optional().default([]),
     news: z.array(newsSchema).optional().default([]),
     is_student_game: z.boolean().optional().default(false),
+    tech: z
+      .object({
+        game_engine: z.string().optional(),
+        sound_engine: z.string().optional(),
+        misc: z.array(z.string()).optional().default([]),
+      })
+      .optional(),
   }),
 });
 

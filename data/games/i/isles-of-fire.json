@@ -1,0 +1,27 @@
+{
+  "id": "isles-of-fire",
+  "title": "Isles of Fire",
+  "slug": "isles-of-fire",
+  "status": "released",
+  "release_date": "2020-09-04",
+  "short_description": "A 'Build and Battle' game taking lane battlers to a new epic level.",
+  "description": "Isles of Fire is a 'Build and Battle' game that looks great and plays even better - taking 'lane battlers' to a new epic level!",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ]
+  },
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stores": {
+    "play_store": "com.emstudios.mmk",
+    "app_store": "id1086969218"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "vz-dOTl6Ay0"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/isles-of-fire/cover.webp"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "lassie",
+  "title": "Lassie",
+  "slug": "lassie",
+  "status": "released",
+  "release_date": "2007-10-12",
+  "short_description": "A thrilling adventure starring the world's most famous dog, following on from the acclaimed movie.",
+  "description": "Your chance to take part in a thrilling adventure as the most famous dog in the world! Lassie returns in this fun action game following on from the acclaimed movie.",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ]
+  },
+  "platforms": [
+    "ps2"
+  ],
+  "database_links": {
+    "mobygames": "176194/lassie/"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/lassie/cover.webp"
+}

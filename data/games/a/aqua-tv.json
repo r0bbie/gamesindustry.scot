@@ -1,0 +1,39 @@
+{
+  "id": "aqua-tv",
+  "title": "Aqua TV",
+  "slug": "aqua-tv",
+  "status": "released",
+  "release_date": "2016-09-23",
+  "short_description": "A stunning, fully customisable virtual aquarium — choose your tank, decor, and fish to create the aquarium you want.",
+  "description": "The Ultimate Digital Aquarium\n\nAqua TV is a stunning, fully customisable, virtual aquarium.\n\nChoose a tank then change the floor, walls, decoration – and of course fish – to make the aquarium YOU want!",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ]
+  },
+  "platforms": [
+    "pc",
+    "xbox-one",
+    "wii-u",
+    "ps4",
+    "switch",
+    "ios",
+    "android"
+  ],
+  "stores": {
+    "website": "http://aqua-tv.co.uk/",
+    "steam": "3003550"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "pP5ekHtjVEA"
+  },
+  "database_links": {
+    "mobygames": "85927/aqua-tv/"
+  },
+  "tech": {
+    "game_engine": "Unity",
+    "sound_engine": "FMOD"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/aqua-tv/cover.webp"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ooo-ascension",
+  "title": "oOo: Ascension",
+  "slug": "ooo-ascension",
+  "status": "released",
+  "release_date": "2018-05-25",
+  "short_description": "Glide through 90 uniquely challenging levels in this award-nominated indie speedrunner — a test of skill, reflexes and patience.",
+  "description": "Glide your way through 90 uniquely challenging levels, racing against the clock in a test of skill, reflexes and patience in this award nominated Indie Speedrunner.",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ]
+  },
+  "platforms": [
+    "pc",
+    "switch",
+    "xbox-one"
+  ],
+  "stores": {
+    "steam": "905330",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/ooo-ascension-switch/",
+    "xbox": "https://www.xbox.com/en-gb/games/store/ooo-ascension/9p5sl4ldlmg3"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "Re3K6g5_gH8"
+  },
+  "critic_ids": {
+    "metacritic": "ooo-ascension"
+  },
+  "database_links": {
+    "gamefaqs": "pc/247240-ooo-ascension"
+  },
+  "awards": [
+    {
+      "name": "BAFTA Scotland Awards — Best Game",
+      "year": 2018,
+      "status": "nominated"
+    },
+    {
+      "name": "TIGA Awards — Best Game by a Small Studio",
+      "year": 2018,
+      "status": "nominated"
+    }
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/ooo-ascension/cover.webp"
+}

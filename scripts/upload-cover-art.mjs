@@ -3,11 +3,16 @@
  * Uploads cover art for a game to Cloudflare R2, optimises it to WebP, and
  * updates the game's JSON file with the resulting public URL.
  *
- * Usage:
+ * Usage (standard):
  *   node scripts/upload-cover-art.mjs <game-slug> <path-to-image>
+ *
+ * Usage (shorthand — run from the folder containing the image):
+ *   node scripts/upload-cover-art.mjs grand-theft-auto-v.jpg
+ *   Strips the extension to derive the slug, looks for the file in cwd.
  *
  * Example:
  *   node scripts/upload-cover-art.mjs red-dead-redemption-2 ~/Downloads/rdr2.jpg
+ *   node scripts/upload-cover-art.mjs grand-theft-auto-v.jpg
  *
  * Required environment variables (add to .env):
  *   R2_ACCOUNT_ID       — Cloudflare account ID
@@ -27,7 +32,7 @@
 
 import { readFile, writeFile } from "fs/promises";
 import { existsSync } from "fs";
-import { join, dirname, resolve } from "path";
+import { join, dirname, resolve, basename } from "path";
 import { fileURLToPath } from "url";
 import sharp from "sharp";
 import { S3Client, PutObjectCommand, HeadObjectCommand } from "@aws-sdk/client-s3";
@@ -147,11 +152,33 @@ async function updateGameJson(filePath, publicUrl) {
 }
 
 async function main() {
-  const [, , slug, imagePath] = process.argv;
+  const [, , arg1, arg2] = process.argv;
+
+  // Shorthand: single argument that looks like a filename/path (has an extension)
+  // Works with bare filenames or absolute/relative paths, e.g.:
+  //   node scripts/upload-cover-art.mjs grand-theft-auto-v.jpg
+  //   npm run upload-cover -- /Users/robbie/covers_temp/grand-theft-auto-v.jpg
+  const isShorthand = arg1 && !arg2 && /\.\w+$/.test(arg1);
+
+  let slug, imagePath;
+
+  if (isShorthand) {
+    // Derive slug from the basename, stripping the extension
+    slug = basename(arg1).replace(/\.[^.]+$/, "");
+    // Resolve relative to cwd; absolute paths pass through unchanged
+    imagePath = resolve(process.cwd(), arg1);
+  } else {
+    slug = arg1;
+    imagePath = arg2;
+  }
 
   if (!slug || !imagePath) {
-    console.error("Usage: node scripts/upload-cover-art.mjs <game-slug> <path-to-image>");
-    console.error("Example: node scripts/upload-cover-art.mjs red-dead-redemption-2 ~/Downloads/rdr2.jpg");
+    console.error("Usage:");
+    console.error("  node scripts/upload-cover-art.mjs <game-slug> <path-to-image>");
+    console.error("  node scripts/upload-cover-art.mjs <filename.jpg>   (run from folder containing the file)");
+    console.error("Example:");
+    console.error("  node scripts/upload-cover-art.mjs red-dead-redemption-2 ~/Downloads/rdr2.jpg");
+    console.error("  node scripts/upload-cover-art.mjs grand-theft-auto-v.jpg");
     process.exit(1);
   }
 
@@ -165,8 +192,8 @@ async function main() {
     process.exit(1);
   }
 
-  // Expand ~ in path
-  const resolvedImagePath = resolve(imagePath.replace(/^~/, process.env.HOME || "~"));
+  // Expand ~ in path (only relevant for standard mode)
+  const resolvedImagePath = isShorthand ? imagePath : resolve(imagePath.replace(/^~/, process.env.HOME || "~"));
 
   if (!existsSync(resolvedImagePath)) {
     console.error(`Image file not found: ${resolvedImagePath}`);

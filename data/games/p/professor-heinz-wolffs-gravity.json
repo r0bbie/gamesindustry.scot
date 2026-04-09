@@ -1,0 +1,31 @@
+{
+  "id": "professor-heinz-wolffs-gravity",
+  "title": "Professor Heinz Wolff's Gravity",
+  "slug": "professor-heinz-wolffs-gravity",
+  "status": "released",
+  "release_date": "2008-11-28",
+  "short_description": "A physics-based puzzle game inspired by the TV scientist, challenging players to use the laws of gravity to solve increasingly inventive contraptions.",
+  "description": "Professor Heinz Wolff's Gravity is a physics puzzle game based on the popular British TV personality and scientist. Players must use their understanding of gravity and physics to position objects so that a ball reaches its target. Featuring over 100 puzzles across multiple environments, the game combines education with entertainment in a series of increasingly devious challenges.",
+  "companies": {
+    "developer": [
+      "extra-mile-studios"
+    ],
+    "publishers": [
+      {
+        "name": "Deep Silver",
+        "url": "https://www.deepsilver.com"
+      }
+    ]
+  },
+  "platforms": [
+    "ds",
+    "wii",
+    "pc",
+    "ios",
+    "android"
+  ],
+  "database_links": {
+    "wikipedia": "Professor_Heinz_Wolff%27s_Gravity"
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/professor-heinz-wolffs-gravity/cover.webp"
+}
