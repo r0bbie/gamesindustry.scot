@@ -2,7 +2,9 @@
   "id": "aetheric-games",
   "name": "Aetheric Games",
   "slug": "aetheric-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
@@ -18,7 +20,10 @@
     "discord": "https://aetheric-games.com/discord/"
   },
   "key_people": [
-    { "name": "Nick Bell", "title": "Developer" }
+    {
+      "name": "Nick Bell",
+      "title": "Developer"
+    }
   ],
   "use_tooling": [],
   "employee_stats": {},

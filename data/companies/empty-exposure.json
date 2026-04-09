@@ -2,7 +2,9 @@
   "id": "empty-exposure",
   "name": "Empty Exposure",
   "slug": "empty-exposure",
-  "category": "solo_developer",
+  "categories": [
+    "solo_developer"
+  ],
   "status": "active",
   "location": null,
   "region": null,

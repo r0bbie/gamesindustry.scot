@@ -2,7 +2,9 @@
   "id": "arboreta-games",
   "name": "Arboreta Games",
   "slug": "arboreta-games",
-  "category": "solo_developer",
+  "categories": [
+    "solo_developer"
+  ],
   "status": "active",
   "founded": 2021,
   "location": "West Dunbartonshire",

@@ -2,7 +2,9 @@
   "id": "stormplay",
   "name": "Stormplay",
   "slug": "stormplay",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": null,
   "region": null,

@@ -2,7 +2,9 @@
   "id": "sad-owl-studios",
   "name": "Sad Owl Studios",
   "slug": "sad-owl-studios",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": null,
   "region": null,
@@ -13,7 +15,10 @@
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [
-    { "name": "Matt Stark", "title": "Founder" }
+    {
+      "name": "Matt Stark",
+      "title": "Founder"
+    }
   ],
   "awards": [],
   "news": []

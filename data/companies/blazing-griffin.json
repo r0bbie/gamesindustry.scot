@@ -2,7 +2,9 @@
   "id": "blazing-griffin",
   "name": "Blazing Griffin",
   "slug": "blazing-griffin",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2011,
   "location": "Glasgow",
@@ -32,8 +34,14 @@
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [
-    { "name": "Justin Alae-Carew", "title": "Co-Head of Games" },
-    { "name": "Neil McPhillips", "title": "Co-Head of Games" }
+    {
+      "name": "Justin Alae-Carew",
+      "title": "Co-Head of Games"
+    },
+    {
+      "name": "Neil McPhillips",
+      "title": "Co-Head of Games"
+    }
   ],
   "awards": [],
   "news": []

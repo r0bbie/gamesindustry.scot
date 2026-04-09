@@ -2,13 +2,21 @@
   "id": "rockstar-north",
   "name": "Rockstar North",
   "slug": "rockstar-north",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 1988,
-  "previously_known_as": ["DMA Design", "Rockstar Studios"],
+  "previously_known_as": [
+    "DMA Design",
+    "Rockstar Studios"
+  ],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "coordinates": { "lat": 55.9486, "lng": -3.1761 },
+  "coordinates": {
+    "lat": 55.9486,
+    "lng": -3.1761
+  },
   "short_description": "Creators of Grand Theft Auto and Lemmings — one of the world's most acclaimed and commercially successful game studios.",
   "about": "Rockstar North (legally Rockstar Games UK Limited) is a British video game development studio based in Edinburgh, Scotland, and a wholly owned studio of Rockstar Games. The studio traces its roots to DMA Design, founded in 1988 in Dundee by David Jones during his studies at the Dundee Institute of Technology. The company first gained global recognition with the release of Lemmings in 1991, which sold over 20 million copies across 21 platforms.\n\nAfter years of projects with Nintendo and BMG Interactive — during which DMA Design began developing what would become Grand Theft Auto — the studio was acquired by Gremlin Interactive in 1997, then by Take-Two Interactive in 1999. Under Take-Two's ownership the studio worked closely with the newly formed Rockstar Games publishing label, relocating its operations to Edinburgh. In March 2002 DMA Design was integrated into Rockstar Games as Rockstar Studios, and renamed Rockstar North in May of the same year.\n\nUnder the Rockstar North banner, the studio produced Grand Theft Auto III (2001), Vice City (2002), San Andreas (2004), GTA IV (2008), and GTA V (2013) — the latter becoming the second-best-selling game of all time with over 200 million copies sold and an estimated $6 billion in revenue. The studio occupies Barclay House on Holyrood Road in Edinburgh, which it purchased outright in 2021.",
   "website": "https://www.rockstarnorth.com",
@@ -47,21 +55,68 @@
     "full_time": 650
   },
   "key_people": [
-    { "name": "Andrew Semple", "title": "Studio Director" },
-    { "name": "David Jones", "title": "Founder (DMA Design)" },
-    { "name": "Mike Dailly", "title": "Co-founder, Lead Programmer (DMA Design)" },
-    { "name": "Leslie Benzies", "title": "Former President" },
-    { "name": "Aaron Garbut", "title": "Former Art Director" }
+    {
+      "name": "Andrew Semple",
+      "title": "Studio Director"
+    },
+    {
+      "name": "David Jones",
+      "title": "Founder (DMA Design)"
+    },
+    {
+      "name": "Mike Dailly",
+      "title": "Co-founder, Lead Programmer (DMA Design)"
+    },
+    {
+      "name": "Leslie Benzies",
+      "title": "Former President"
+    },
+    {
+      "name": "Aaron Garbut",
+      "title": "Former Art Director"
+    }
   ],
   "awards": [
-    { "name": "BAFTA Best Game", "year": 2014, "status": "won" },
-    { "name": "Game Developers Choice Game of the Year", "year": 2014, "status": "won" },
-    { "name": "VGX Game of the Year", "year": 2013, "status": "won" },
-    { "name": "Spike Video Game Awards Game of the Year", "year": 2008, "status": "won" },
-    { "name": "Golden Joystick Award Game of the Year", "year": 2005, "status": "won" },
-    { "name": "Spike Video Game Awards Game of the Year", "year": 2004, "status": "won" },
-    { "name": "Develop Industry Excellence Award Best In-House Studio", "year": 2003, "status": "won" },
-    { "name": "Develop Industry Excellence Award Creativity", "year": 2003, "status": "won" }
+    {
+      "name": "BAFTA Best Game",
+      "year": 2014,
+      "status": "won"
+    },
+    {
+      "name": "Game Developers Choice Game of the Year",
+      "year": 2014,
+      "status": "won"
+    },
+    {
+      "name": "VGX Game of the Year",
+      "year": 2013,
+      "status": "won"
+    },
+    {
+      "name": "Spike Video Game Awards Game of the Year",
+      "year": 2008,
+      "status": "won"
+    },
+    {
+      "name": "Golden Joystick Award Game of the Year",
+      "year": 2005,
+      "status": "won"
+    },
+    {
+      "name": "Spike Video Game Awards Game of the Year",
+      "year": 2004,
+      "status": "won"
+    },
+    {
+      "name": "Develop Industry Excellence Award Best In-House Studio",
+      "year": 2003,
+      "status": "won"
+    },
+    {
+      "name": "Develop Industry Excellence Award Creativity",
+      "year": 2003,
+      "status": "won"
+    }
   ],
   "news": []
 }

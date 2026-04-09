@@ -2,7 +2,9 @@
   "id": "eclectic-synthesis",
   "name": "Eclectic Synthesis",
   "slug": "eclectic-synthesis",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": null,
   "region": null,

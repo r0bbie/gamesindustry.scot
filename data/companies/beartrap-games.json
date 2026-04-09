@@ -2,7 +2,9 @@
   "id": "beartrap-games",
   "name": "Beartrap Games",
   "slug": "beartrap-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

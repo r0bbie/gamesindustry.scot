@@ -2,13 +2,18 @@
   "id": "speech-graphics",
   "name": "Speech Graphics",
   "slug": "speech-graphics",
-  "category": "tooling",
+  "categories": [
+    "tooling"
+  ],
   "status": "active",
   "founded": null,
   "previously_known_as": [],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "coordinates": { "lat": 55.9533, "lng": -3.1883 },
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Automated facial animation technology driven by speech audio.",
   "about": "Speech Graphics is an Edinburgh-based technology company specialising in automated facial animation. Their AI-driven technology generates realistic facial animation directly from speech audio, enabling game developers and filmmakers to create believable character performances at scale.",
   "website": "https://www.speech-graphics.com",

@@ -2,7 +2,9 @@
   "id": "aphelio",
   "name": "Aphelio",
   "slug": "aphelio",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

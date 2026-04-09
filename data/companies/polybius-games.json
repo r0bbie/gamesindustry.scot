@@ -2,7 +2,9 @@
   "id": "polybius-games",
   "name": "Polybius Games",
   "slug": "polybius-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "East Kilbride",
   "region": "glasgow-strathclyde",

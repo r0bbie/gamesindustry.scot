@@ -2,7 +2,9 @@
   "id": "socks-off-studio",
   "name": "Socks Off Studio",
   "slug": "socks-off-studio",
-  "category": "solo_developer",
+  "categories": [
+    "solo_developer"
+  ],
   "status": "active",
   "location": "West Lothian",
   "region": "edinburgh-lothian",

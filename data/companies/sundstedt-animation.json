@@ -2,7 +2,9 @@
   "id": "sundstedt-animation",
   "name": "Sundstedt Animation",
   "slug": "sundstedt-animation",
-  "category": "service_provider",
+  "categories": [
+    "service_provider"
+  ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

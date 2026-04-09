@@ -2,7 +2,9 @@
   "id": "hexwar",
   "name": "Hexwar",
   "slug": "hexwar",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Fortrose",
   "region": "highlands-islands",

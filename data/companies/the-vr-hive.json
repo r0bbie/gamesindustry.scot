@@ -2,7 +2,9 @@
   "id": "the-vr-hive",
   "name": "The VR Hive",
   "slug": "the-vr-hive",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

@@ -2,7 +2,9 @@
   "id": "grumpy-pizza",
   "name": "Grumpy Pizza",
   "slug": "grumpy-pizza",
-  "category": "solo_developer",
+  "categories": [
+    "solo_developer"
+  ],
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
@@ -16,7 +18,10 @@
   "contact_email": "ewan@grumpypizza.games",
   "short_description": "Grumpy Pizza is the studio name for solo indie developer Ewan McKenzie, working on debut title \"Go Kart Island\".",
   "key_people": [
-    { "name": "Ewan McKenzie", "title": "Developer" }
+    {
+      "name": "Ewan McKenzie",
+      "title": "Developer"
+    }
   ],
   "use_tooling": [],
   "employee_stats": {},

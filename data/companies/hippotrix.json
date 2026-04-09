@@ -2,7 +2,9 @@
   "id": "hippotrix",
   "name": "Hippotrix",
   "slug": "hippotrix",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "East Lothian",
   "region": "edinburgh-lothian",

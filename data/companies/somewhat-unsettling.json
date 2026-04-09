@@ -2,7 +2,9 @@
   "id": "somewhat-unsettling",
   "name": "Somewhat Unsettling",
   "slug": "somewhat-unsettling",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
@@ -28,9 +30,18 @@
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [
-    { "name": "Alexander Tarvet", "title": "Developer" },
-    { "name": "Andrew Lindsay", "title": "Developer" },
-    { "name": "Arran Tarvet", "title": "Sound Designer" }
+    {
+      "name": "Alexander Tarvet",
+      "title": "Developer"
+    },
+    {
+      "name": "Andrew Lindsay",
+      "title": "Developer"
+    },
+    {
+      "name": "Arran Tarvet",
+      "title": "Sound Designer"
+    }
   ],
   "awards": [],
   "news": []

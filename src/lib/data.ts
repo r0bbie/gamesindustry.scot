@@ -6,6 +6,7 @@ import path from "node:path";
 
 export type Company = CollectionEntry<"companies">["data"];
 export type Game = CollectionEntry<"games">["data"];
+export type Tool = CollectionEntry<"tools">["data"];
 export type Freelancer = CollectionEntry<"freelancers">["data"];
 export type Job = CollectionEntry<"jobs">["data"];
 export type Event = CollectionEntry<"events">["data"];
@@ -361,4 +362,37 @@ export async function getStats(): Promise<{
     schools: schools.length,
     upcomingEvents: events.filter((e) => new Date(e.date_start) >= now).length,
   };
+}
+
+let _toolsCache: Tool[] | null = null;
+
+export async function getAllTools(): Promise<Tool[]> {
+  if (_toolsCache) return _toolsCache;
+  const entries = await getCollection("tools");
+  _toolsCache = entries.map((e) => e.data);
+  return _toolsCache;
+}
+
+export async function getToolBySlug(slug: string): Promise<Tool | null> {
+  const tools = await getAllTools();
+  return tools.find((t) => t.slug === slug) ?? null;
+}
+
+export async function getToolsForCompany(companyId: string): Promise<Tool[]> {
+  const tools = await getAllTools();
+  return tools.filter((t) => t.company_id === companyId);
+}
+
+export async function resolveToolIds(
+  ids: string[],
+  context?: string
+): Promise<Array<{ id: string; tool: Tool | null }>> {
+  const tools = await getAllTools();
+  return ids.map((id) => {
+    const tool = tools.find((t) => t.id === id) ?? null;
+    if (!tool) {
+      console.warn(`[DATA WARNING] Tool "${id}" not found${context ? ` (referenced from ${context})` : ""}`);
+    }
+    return { id, tool };
+  });
 }

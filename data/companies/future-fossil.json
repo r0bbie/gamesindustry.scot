@@ -2,7 +2,9 @@
   "id": "future-fossil",
   "name": "Future Fossil",
   "slug": "future-fossil",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

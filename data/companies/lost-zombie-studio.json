@@ -2,7 +2,9 @@
   "id": "lost-zombie-studio",
   "name": "Lost Zombie Studio",
   "slug": "lost-zombie-studio",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

@@ -2,8 +2,12 @@
   "id": "vis-entertainment",
   "name": "VIS Entertainment",
   "slug": "vis-entertainment",
-  "previously_known_as": ["VIS Interactive"],
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "previously_known_as": [
+    "VIS Interactive"
+  ],
   "status": "defunct",
   "founded": 1996,
   "location": "Edinburgh",
@@ -17,7 +21,10 @@
     "wikipedia": "VIS_Entertainment"
   },
   "key_people": [
-    { "name": "Chris van der Kuyl", "title": "President and CEO" }
+    {
+      "name": "Chris van der Kuyl",
+      "title": "President and CEO"
+    }
   ],
   "use_tooling": [],
   "employee_stats": {},

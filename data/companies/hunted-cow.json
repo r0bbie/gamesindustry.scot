@@ -2,7 +2,9 @@
   "id": "hunted-cow",
   "name": "Hunted Cow",
   "slug": "hunted-cow",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Elgin",
   "region": "highlands-islands",

@@ -2,7 +2,9 @@
   "id": "deuxality",
   "name": "DeuXality",
   "slug": "deuxality",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Inverness",
   "region": "highlands-islands",

@@ -2,7 +2,9 @@
   "id": "em-studios",
   "name": "EM Studios",
   "slug": "em-studios",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

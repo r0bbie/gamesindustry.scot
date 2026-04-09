@@ -2,13 +2,18 @@
   "id": "ludometrics",
   "name": "Ludometrics",
   "slug": "ludometrics",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "founded": 2010,
   "previously_known_as": [],
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
-  "coordinates": { "lat": 55.8642, "lng": -4.2518 },
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "short_description": "Short games for people who don't have much spare time.",
   "about": "Ludometrics was a Glasgow-based studio making small, focused games for console, PC, and mobile — including work co-developed with partners such as Denki on browser titles.",
   "website": "http://ludometrics.com/",

@@ -2,7 +2,9 @@
   "id": "obskewer-games",
   "name": "ObSkewer Games",
   "slug": "obskewer-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

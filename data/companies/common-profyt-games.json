@@ -2,7 +2,9 @@
   "id": "common-profyt-games",
   "name": "Common Profyt Games",
   "slug": "common-profyt-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Aberdeen",
   "region": "aberdeen-grampian",

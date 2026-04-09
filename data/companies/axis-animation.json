@@ -2,7 +2,9 @@
   "id": "axis-animation",
   "name": "Axis Animation",
   "slug": "axis-animation",
-  "category": "service_provider",
+  "categories": [
+    "service_provider"
+  ],
   "status": "defunct",
   "founded": 2000,
   "location": "Glasgow",

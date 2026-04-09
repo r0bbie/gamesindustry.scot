@@ -2,7 +2,9 @@
   "id": "dynamo-games",
   "name": "Dynamo Games",
   "slug": "dynamo-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

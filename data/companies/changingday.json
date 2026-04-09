@@ -2,13 +2,18 @@
   "id": "changingday",
   "name": "Changingday",
   "slug": "changingday",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "founded": 2020,
   "previously_known_as": [],
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
-  "coordinates": { "lat": 55.8642, "lng": -4.2518 },
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "short_description": "Former Glasgow VR studio, known for the autism-friendly adventure BLINNK and the Vacuum of Space.",
   "about": "Changingday was a Glasgow-based VR game studio creating accessible, narrative-led experiences. Its best-known title is BLINNK and the Vacuum of Space, a slapstick adventure built with accessibility and neurodiverse players in mind — released on Steam, Meta Quest, and PlayStation VR2.",
   "website": "https://changingday.com",

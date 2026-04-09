@@ -1,0 +1,15 @@
+{
+  "id": "castle-cairn",
+  "title": "Castle Cairn",
+  "slug": "castle-cairn",
+  "status": "in_development",
+  "short_description": "Delve into a haunted Scottish ruin, where ancient folklore and shifting memories blur, and horrors lurk in every shadow.",
+  "companies": {
+    "developer": ["wee-tattie-studios"]
+  },
+  "platforms": ["pc"],
+  "stores": {
+    "website": "https://weetattiestudios.com/castle-cairn-clone/",
+    "steam": "3844980"
+  }
+}

@@ -2,7 +2,9 @@
   "id": "mental-universe",
   "name": "Mental Universe",
   "slug": "mental-universe",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

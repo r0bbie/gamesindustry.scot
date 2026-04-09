@@ -2,13 +2,18 @@
   "id": "yaldi-games",
   "name": "Yaldi Games",
   "slug": "yaldi-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2020,
   "previously_known_as": [],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "coordinates": { "lat": 55.9533, "lng": -3.1883 },
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Edinburgh indie studio designing games that entertain, empower, and connect players",
   "about": "Yaldi Game's mission is to design games that not only entertain but also empower players to explore new ideas, develop new skills, and connect with others in a positive and enriching way.",
   "website": "https://www.yaldigames.com",
@@ -18,7 +23,10 @@
   "company_size": "2-10",
   "employee_count": null,
   "legal_entities": [
-    { "uk_registered_name": "Yaldi Games Ltd", "companies_house_number": "SC652007" }
+    {
+      "uk_registered_name": "Yaldi Games Ltd",
+      "companies_house_number": "SC652007"
+    }
   ],
   "links": {
     "discord": "sR7zhJMFsk",
@@ -26,9 +34,14 @@
     "linkedin": "yaldigames"
   },
   "key_people": [
-    { "name": "Elena Höge", "title": "Founder & CEO" }
+    {
+      "name": "Elena Höge",
+      "title": "Founder & CEO"
+    }
   ],
-  "use_tooling": ["buildstash"],
+  "use_tooling": [
+    "buildstash"
+  ],
   "employee_stats": {},
   "awards": [],
   "news": []

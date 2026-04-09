@@ -2,7 +2,9 @@
   "id": "yomego",
   "name": "Yomego",
   "slug": "yomego",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

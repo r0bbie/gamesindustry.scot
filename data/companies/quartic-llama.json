@@ -2,7 +2,9 @@
   "id": "quartic-llama",
   "name": "Quartic Llama",
   "slug": "quartic-llama",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

@@ -2,7 +2,9 @@
   "id": "deep-pixel",
   "name": "Deep Pixel",
   "slug": "deep-pixel",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

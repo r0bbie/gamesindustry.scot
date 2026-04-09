@@ -2,7 +2,9 @@
   "id": "ingot-games",
   "name": "Ingot Games",
   "slug": "ingot-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

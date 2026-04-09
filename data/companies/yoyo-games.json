@@ -2,7 +2,9 @@
   "id": "yoyo-games",
   "name": "YoYo Games",
   "slug": "yoyo-games",
-  "category": "tooling",
+  "categories": [
+    "tooling"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

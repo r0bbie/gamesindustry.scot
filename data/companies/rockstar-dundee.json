@@ -2,8 +2,12 @@
   "id": "rockstar-dundee",
   "name": "Rockstar Dundee",
   "slug": "rockstar-dundee",
-  "previously_known_as": ["Ruffian Games"],
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "previously_known_as": [
+    "Ruffian Games"
+  ],
   "status": "active",
   "founded": 2009,
   "location": "Dundee",
@@ -21,8 +25,14 @@
     "twitter": "RockstarDundee"
   },
   "key_people": [
-    { "name": "Gary Liddon", "title": "Co-founder" },
-    { "name": "Billy Thomson", "title": "Co-founder" }
+    {
+      "name": "Gary Liddon",
+      "title": "Co-founder"
+    },
+    {
+      "name": "Billy Thomson",
+      "title": "Co-founder"
+    }
   ],
   "use_tooling": [],
   "employee_stats": {},

@@ -2,7 +2,9 @@
   "id": "late-panda",
   "name": "Late Panda",
   "slug": "late-panda",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

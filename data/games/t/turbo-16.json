@@ -7,15 +7,21 @@
   "status": "in_development",
   "release_date": "2026",
   "companies": {
-    "developer": ["socks-off-studio"],
+    "developer": [
+      "socks-off-studio"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["racing"],
-  "platforms": ["pc"],
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "steam": "4022050",
@@ -32,5 +38,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/turbo-16/cover.webp"
 }

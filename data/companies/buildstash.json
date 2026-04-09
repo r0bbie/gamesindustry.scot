@@ -2,15 +2,20 @@
   "id": "buildstash",
   "name": "Buildstash",
   "slug": "buildstash",
-  "category": "tooling",
+  "categories": [
+    "tooling"
+  ],
   "status": "active",
   "founded": 2024,
   "previously_known_as": [],
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
-  "coordinates": { "lat": 55.8642, "lng": -4.2518 },
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "short_description": "Software binary management — organise and share playable builds across your team, QA, and collaborators.",
-  "about": "Buildstash is a software binary management platform built for game developers. It makes it easy to organise and share playable builds for any platform across your team, QA testers, external collaborators, and partners — without the friction of manual file sharing. Buildstash is the primary supporter of the Scottish Games Industry directory.",
+  "about": "Buildstash is a software binary management platform built for game developers. It makes it easy to organise and share playable builds for any platform across your team, QA testers, external collaborators, and partners — without the friction of manual file sharing.",
   "website": "https://buildstash.com",
   "logo": null,
   "highlighted": true,

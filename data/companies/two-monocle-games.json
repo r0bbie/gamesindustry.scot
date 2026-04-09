@@ -2,7 +2,9 @@
   "id": "two-monocle-games",
   "name": "Two Monocle Games",
   "slug": "two-monocle-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

@@ -2,7 +2,9 @@
   "id": "simulspace",
   "name": "Simulspace",
   "slug": "simulspace",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

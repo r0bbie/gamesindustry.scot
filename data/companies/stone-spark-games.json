@@ -2,7 +2,9 @@
   "id": "stone-spark-games",
   "name": "Stone-Spark Games",
   "slug": "stone-spark-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

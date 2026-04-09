@@ -2,7 +2,9 @@
   "id": "claymore-games",
   "name": "Claymore Games",
   "slug": "claymore-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

@@ -2,13 +2,18 @@
   "id": "amicable-animal",
   "name": "Amicable Animal",
   "slug": "amicable-animal",
-  "category": "solo_developer",
+  "categories": [
+    "solo_developer"
+  ],
   "status": "active",
   "founded": null,
   "previously_known_as": [],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "coordinates": { "lat": 55.9533, "lng": -3.1883 },
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Solo developer known for minimalist puzzle design and SOLAS 128.",
   "about": "Amicable Animal is a solo game development practice based in Edinburgh, combining old-school mechanics with minimalist, modern design — including the BAFTA Scotland–winning puzzle game SOLAS 128, plus experiments with hardware alt-controllers and audio.",
   "website": "https://www.amicableanimal.com/",

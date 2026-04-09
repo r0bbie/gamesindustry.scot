@@ -2,7 +2,9 @@
   "id": "kitsune-game-studios",
   "name": "Kitsune Game Studios",
   "slug": "kitsune-game-studios",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

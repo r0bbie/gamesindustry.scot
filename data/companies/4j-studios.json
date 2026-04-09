@@ -2,7 +2,9 @@
   "id": "4j-studios",
   "name": "4J Studios",
   "slug": "4j-studios",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2005,
   "location": "Dundee",
@@ -18,10 +20,22 @@
     "discord": "nhkdhD6zR7"
   },
   "key_people": [
-    { "name": "Chris van der Kuyl", "title": "Founder and Chairman" },
-    { "name": "Paddy Burns", "title": "Founder and CEO" },
-    { "name": "Richard Reavy", "title": "CTO" },
-    { "name": "Frank Arnot", "title": "Founder" }
+    {
+      "name": "Chris van der Kuyl",
+      "title": "Founder and Chairman"
+    },
+    {
+      "name": "Paddy Burns",
+      "title": "Founder and CEO"
+    },
+    {
+      "name": "Richard Reavy",
+      "title": "CTO"
+    },
+    {
+      "name": "Frank Arnot",
+      "title": "Founder"
+    }
   ],
   "use_tooling": [],
   "employee_stats": {},

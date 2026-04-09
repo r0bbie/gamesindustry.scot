@@ -9,7 +9,7 @@ interface Company {
   id: string;
   name: string;
   slug: string;
-  category: string;
+  categories: string[];
   status: string;
   founded?: number | null;
   location?: string;
@@ -85,7 +85,7 @@ export default function CompanyListView({ companies, gameCountMap = {} }: Props)
   const filtered = useMemo(() => {
     let result = companies.filter((c) => {
       if (!includeDefunct && c.status === "defunct") return false;
-      if (selectedCategories.size > 0 && !selectedCategories.has(c.category)) return false;
+      if (selectedCategories.size > 0 && !c.categories.some((cat) => selectedCategories.has(cat))) return false;
       if (selectedRegions.size > 0 && (!c.region || !selectedRegions.has(c.region))) return false;
       if (search) {
         const q = search.toLowerCase();
@@ -305,7 +305,7 @@ export default function CompanyListView({ companies, gameCountMap = {} }: Props)
 
               <div className="mt-auto pt-3">
                 <span className="inline-flex rounded-full bg-muted px-2 py-0.5 text-[10px] font-medium text-muted-foreground">
-                  {getCategoryName(company.category)}
+                  {company.categories.map((cat) => getCategoryName(cat)).join(" · ")}
                 </span>
               </div>
             </a>

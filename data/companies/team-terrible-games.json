@@ -2,7 +2,9 @@
   "id": "team-terrible-games",
   "name": "Team Terrible Games",
   "slug": "team-terrible-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

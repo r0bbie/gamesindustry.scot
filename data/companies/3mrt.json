@@ -2,7 +2,9 @@
   "id": "3mrt",
   "name": "3MRT",
   "slug": "3mrt",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

@@ -2,7 +2,9 @@
   "id": "obscure-moon",
   "name": "Obscure Moon",
   "slug": "obscure-moon",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

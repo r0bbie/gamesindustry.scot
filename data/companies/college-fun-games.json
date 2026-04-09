@@ -2,7 +2,9 @@
   "id": "college-fun-games",
   "name": "College Fun Games",
   "slug": "college-fun-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": null,
   "region": null,

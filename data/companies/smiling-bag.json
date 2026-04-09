@@ -2,7 +2,9 @@
   "id": "smiling-bag",
   "name": "Smiling Bag",
   "slug": "smiling-bag",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

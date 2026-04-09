@@ -2,7 +2,9 @@
   "id": "veemee",
   "name": "VEEMEE",
   "slug": "veemee",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

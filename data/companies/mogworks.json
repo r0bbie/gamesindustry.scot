@@ -2,7 +2,9 @@
   "id": "mogworks",
   "name": "Mogworks",
   "slug": "mogworks",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Livingston",
   "region": "edinburgh-lothian",

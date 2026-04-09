@@ -1,0 +1,22 @@
+{
+  "id": "buildstash",
+  "name": "Buildstash",
+  "slug": "buildstash",
+  "company_id": "buildstash",
+  "status": "active",
+  "short_description": "Store, manage, and share your playable game builds",
+  "features": [
+    "Upload local and cloud builds",
+    "Integrations with CI/CD",
+    "Store and organize all your past builds",
+    "Share builds with your team, testers, etc",
+    "Integrated mobile ad-hoc distribution",
+    "QA sign-off flow"
+  ],
+  "video": {
+    "type": "youtube",
+    "id": "t4Fr6M_vIIc"
+  },
+  "integrations": ["Unity Build Automation", "GitHub & Actions", "Jenkins", "GitLab CI"],
+  "website": "https://www.buildstash.com"
+}

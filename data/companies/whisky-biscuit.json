@@ -2,7 +2,9 @@
   "id": "whisky-biscuit",
   "name": "Whisky Biscuit",
   "slug": "whisky-biscuit",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Elgin",
   "region": "highlands-islands",

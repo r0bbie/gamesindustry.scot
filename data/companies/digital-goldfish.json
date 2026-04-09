@@ -2,7 +2,9 @@
   "id": "digital-goldfish",
   "name": "Digital Goldfish",
   "slug": "digital-goldfish",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

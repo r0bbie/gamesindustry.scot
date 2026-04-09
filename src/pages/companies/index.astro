@@ -10,7 +10,7 @@ const activeCompanies = companies.filter((c) => c.status === "active");
 const categorySections = COMPANY_CATEGORIES.map((cat) => ({
   ...cat,
   companies: shuffleArray(
-    activeCompanies.filter((c) => c.category === cat.id)
+    activeCompanies.filter((c) => c.categories.includes(cat.id))
   ).slice(0, 4),
 })).filter((cat) => cat.companies.length > 0);
 ---

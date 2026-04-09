@@ -2,7 +2,9 @@
   "id": "noise-me-up",
   "name": "Noise Me Up",
   "slug": "noise-me-up",
-  "category": "service_provider",
+  "categories": [
+    "service_provider"
+  ],
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

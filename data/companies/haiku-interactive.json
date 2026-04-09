@@ -2,7 +2,9 @@
   "id": "haiku-interactive",
   "name": "Haiku Interactive",
   "slug": "haiku-interactive",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

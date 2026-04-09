@@ -2,7 +2,9 @@
   "id": "stand-out-games",
   "name": "Stand Out Games",
   "slug": "stand-out-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

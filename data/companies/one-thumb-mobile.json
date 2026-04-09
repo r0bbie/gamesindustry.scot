@@ -2,7 +2,9 @@
   "id": "one-thumb-mobile",
   "name": "One Thumb Mobile",
   "slug": "one-thumb-mobile",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

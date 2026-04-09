@@ -2,7 +2,9 @@
   "id": "etherplay",
   "name": "Etherplay",
   "slug": "etherplay",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

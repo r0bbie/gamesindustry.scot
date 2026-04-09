@@ -2,7 +2,9 @@
   "id": "realtime-worlds",
   "name": "Realtime Worlds",
   "slug": "realtime-worlds",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "founded": 2000,
   "location": "Dundee",
@@ -16,7 +18,10 @@
     "wikipedia": "Realtime_Worlds"
   },
   "key_people": [
-    { "name": "Dave Jones", "title": "Founder and CEO" }
+    {
+      "name": "Dave Jones",
+      "title": "Founder and CEO"
+    }
   ],
   "use_tooling": [],
   "employee_stats": {},

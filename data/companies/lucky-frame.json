@@ -2,7 +2,9 @@
   "id": "lucky-frame",
   "name": "Lucky Frame",
   "slug": "lucky-frame",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "founded": 2008,
   "location": "Edinburgh",
@@ -19,9 +21,18 @@
     "itch": "lucky-frame"
   },
   "key_people": [
-    { "name": "Yann Seznec", "title": "Founder and Director" },
-    { "name": "Jonathan Brodsky", "title": "Chief Technical Officer" },
-    { "name": "Sean McIlroy", "title": "Lead Artist & Designer" }
+    {
+      "name": "Yann Seznec",
+      "title": "Founder and Director"
+    },
+    {
+      "name": "Jonathan Brodsky",
+      "title": "Chief Technical Officer"
+    },
+    {
+      "name": "Sean McIlroy",
+      "title": "Lead Artist & Designer"
+    }
   ],
   "use_tooling": [],
   "employee_stats": {},

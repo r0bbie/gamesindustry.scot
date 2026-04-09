@@ -2,7 +2,9 @@
   "id": "twitch-gaming",
   "name": "Twitch",
   "slug": "twitch-gaming",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

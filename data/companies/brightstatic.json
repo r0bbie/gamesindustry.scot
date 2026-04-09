@@ -2,7 +2,9 @@
   "id": "brightstatic",
   "name": "BrightStatic",
   "slug": "brightstatic",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

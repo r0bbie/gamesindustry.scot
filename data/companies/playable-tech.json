@@ -2,7 +2,9 @@
   "id": "playable-tech",
   "name": "Playable Tech",
   "slug": "playable-tech",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": null,
   "region": null,

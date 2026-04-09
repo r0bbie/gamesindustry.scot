@@ -2,7 +2,9 @@
   "id": "runrev",
   "name": "RunRev",
   "slug": "runrev",
-  "category": "tooling",
+  "categories": [
+    "tooling"
+  ],
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

@@ -2,7 +2,9 @@
   "id": "production-attic",
   "name": "Production Attic",
   "slug": "production-attic",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": null,
   "region": null,

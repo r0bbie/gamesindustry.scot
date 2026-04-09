@@ -2,7 +2,9 @@
   "id": "two-tailed-fox",
   "name": "Two Tailed Fox",
   "slug": "two-tailed-fox",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

@@ -2,7 +2,9 @@
   "id": "chimera-tales",
   "name": "Chimera Tales",
   "slug": "chimera-tales",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2020,
   "location": "Glasgow",
@@ -19,8 +21,14 @@
   "short_description": "Glasgow indie duo making narrative games with backgrounds spanning participatory art, theatre, and VR.",
   "about": "Chimera Tales was founded in Glasgow in 2020 by Máté Tóth Ridovics and Thomas Salgarella, two Glasgow Caledonian University graduates who took very different routes into games. Máté spent seven years as a media artist and project leader with Hungarian theatre company Krétakör, working across Budapest, Paris, Prague and Tokyo before switching to games. Thomas left Italy in 2016 to pursue game design, spending time as a freelancer on VR projects — one of which was showcased at EGX 2018 — before graduating and winning the Tranzfuser competition. The two met at GCU and founded Chimera Tales the same year they graduated, bringing that blend of artistic storytelling and hands-on design sensibility to everything they make.",
   "key_people": [
-    { "name": "Máté Tóth Ridovics", "title": "Co-Founder, Creative Director & 2D Artist" },
-    { "name": "Thomas Salgarella", "title": "Co-Founder, Producer & Game Designer" }
+    {
+      "name": "Máté Tóth Ridovics",
+      "title": "Co-Founder, Creative Director & 2D Artist"
+    },
+    {
+      "name": "Thomas Salgarella",
+      "title": "Co-Founder, Producer & Game Designer"
+    }
   ],
   "use_tooling": [],
   "employee_stats": {},

@@ -2,7 +2,9 @@
   "id": "bigmouth-audio",
   "name": "BigMouth Audio",
   "slug": "bigmouth-audio",
-  "category": "service_provider",
+  "categories": [
+    "service_provider"
+  ],
   "status": "active",
   "founded": 2012,
   "location": "Glasgow",

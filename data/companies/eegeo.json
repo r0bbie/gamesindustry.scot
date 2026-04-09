@@ -2,7 +2,9 @@
   "id": "eegeo",
   "name": "eeGeo",
   "slug": "eegeo",
-  "category": "tooling",
+  "categories": [
+    "tooling"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

@@ -2,7 +2,9 @@
   "id": "dave-sapien",
   "name": "Dave Sapien",
   "slug": "dave-sapien",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

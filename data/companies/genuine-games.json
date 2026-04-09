@@ -2,7 +2,9 @@
   "id": "genuine-games",
   "name": "Genuine Games",
   "slug": "genuine-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Auchterarder",
   "region": "stirling-central",

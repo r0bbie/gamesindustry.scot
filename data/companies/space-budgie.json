@@ -2,13 +2,18 @@
   "id": "space-budgie",
   "name": "Space Budgie",
   "slug": "space-budgie",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "founded": null,
   "previously_known_as": [],
   "location": "Dundee",
   "region": "dundee-tayside",
-  "coordinates": { "lat": 56.462, "lng": -2.9707 },
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "short_description": "Former Dundee indie studio behind Glitchspace, 9.03m, and jam experiments.",
   "about": "Space Budgie was an independent game development studio in Dundee, known for titles including Glitchspace and the contemplative 9.03m, as well as smaller experiments such as Konformity and Light in the Night.",
   "website": "https://spacebudgie.gumroad.com/",

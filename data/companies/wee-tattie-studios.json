@@ -1,0 +1,24 @@
+{
+  "id": "wee-tattie-studios",
+  "name": "Wee Tattie Studios",
+  "slug": "wee-tattie-studios",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "website": "https://weetattiestudios.com",
+  "highlighted": false,
+  "short_description": "An incubator studio designed to uplift aspiring developers, providing accessible opportunities to work on games in a safe and supportive environment.",
+  "about": "Wee Tattie Studios is an incubator studio designed to uplift aspiring developers, providing accessible opportunities to work on games in a safe and supportive environment.",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/wee-tattie-studios/",
+    "twitter": "WeeTattieStudio",
+    "twitch": "weetattiestudios",
+    "youtube": "@WeeTattieStudios"
+  },
+  "use_tooling": [],
+  "tech_stack": [],
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

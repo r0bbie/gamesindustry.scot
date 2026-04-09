@@ -2,7 +2,9 @@
   "id": "biome-collective",
   "name": "Biome Collective",
   "slug": "biome-collective",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2015,
   "location": "Dundee",

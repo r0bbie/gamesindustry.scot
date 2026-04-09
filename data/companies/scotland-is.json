@@ -2,7 +2,9 @@
   "id": "scotland-is",
   "name": "Scotland IS",
   "slug": "scotland-is",
-  "category": "supporting_org",
+  "categories": [
+    "supporting_org"
+  ],
   "status": "active",
   "location": "Linlithgow",
   "region": "stirling-central",

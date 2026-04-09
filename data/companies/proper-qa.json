@@ -2,13 +2,18 @@
   "id": "proper-qa",
   "name": "Proper QA",
   "slug": "proper-qa",
-  "category": "tooling",
+  "categories": [
+    "tooling"
+  ],
   "status": "active",
   "founded": null,
   "previously_known_as": [],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "coordinates": { "lat": 55.9533, "lng": -3.1883 },
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Professional QA services for game developers.",
   "about": "Proper QA is an Edinburgh-based quality assurance studio providing professional testing services to game developers. They offer expert QA to help studios ship polished, reliable experiences across all platforms.",
   "website": "https://www.properqa.com",

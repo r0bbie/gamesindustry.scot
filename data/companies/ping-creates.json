@@ -2,7 +2,9 @@
   "id": "ping-creates",
   "name": "Ping Creates",
   "slug": "ping-creates",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": null,
   "region": null,

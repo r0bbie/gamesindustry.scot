@@ -2,7 +2,9 @@
   "id": "intelligent-earth",
   "name": "Intelligent Earth",
   "slug": "intelligent-earth",
-  "category": "tooling",
+  "categories": [
+    "tooling"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

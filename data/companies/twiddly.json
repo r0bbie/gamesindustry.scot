@@ -2,7 +2,9 @@
   "id": "twiddly",
   "name": "Twiddly",
   "slug": "twiddly",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

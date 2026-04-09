@@ -2,7 +2,9 @@
   "id": "jabuga",
   "name": "Jabuga",
   "slug": "jabuga",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": null,
   "region": null,

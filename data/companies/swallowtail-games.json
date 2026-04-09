@@ -2,7 +2,9 @@
   "id": "swallowtail-games",
   "name": "Swallowtail Games",
   "slug": "swallowtail-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

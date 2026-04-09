@@ -2,7 +2,9 @@
   "id": "hyper-luminal-games",
   "name": "Hyper Luminal Games",
   "slug": "hyper-luminal-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2014,
   "location": "Dundee",
@@ -25,9 +27,18 @@
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [
-    { "name": "Stuart Martin", "title": "Chief Executive Officer & Co-Founder" },
-    { "name": "Rob Madden", "title": "Creative Director & Co-founder" },
-    { "name": "Sean Tracey", "title": "Chairman" }
+    {
+      "name": "Stuart Martin",
+      "title": "Chief Executive Officer & Co-Founder"
+    },
+    {
+      "name": "Rob Madden",
+      "title": "Creative Director & Co-founder"
+    },
+    {
+      "name": "Sean Tracey",
+      "title": "Chairman"
+    }
   ],
   "awards": [],
   "news": [

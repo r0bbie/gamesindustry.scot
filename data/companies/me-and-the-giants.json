@@ -2,7 +2,9 @@
   "id": "me-and-the-giants",
   "name": "Me & The Giants",
   "slug": "me-and-the-giants",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

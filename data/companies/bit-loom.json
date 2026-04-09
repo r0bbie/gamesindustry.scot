@@ -2,7 +2,9 @@
   "id": "bit-loom",
   "name": "Bit Loom",
   "slug": "bit-loom",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2017,
   "location": "Dundee",

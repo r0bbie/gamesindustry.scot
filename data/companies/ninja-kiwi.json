@@ -2,7 +2,9 @@
   "id": "ninja-kiwi",
   "name": "Ninja Kiwi",
   "slug": "ninja-kiwi",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

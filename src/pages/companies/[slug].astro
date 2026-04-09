@@ -8,10 +8,13 @@ import {
   getNewsForCompany,
   safeGetCompany,
   resolveCompanyIds,
+  resolveToolIds,
+  getToolsForCompany,
   matchesCompanyRef,
 } from "@/lib/data";
 import {
   getCategoryName,
+  getCategorySingularName,
   getRegionName,
   buildSocialUrl,
   getCompanySizeLabel,
@@ -44,7 +47,7 @@ if (!company) return Astro.redirect("/404");
 
 const games = await getGamesForCompany(company.id);
 const jobs = await getJobsForCompany(company.id);
-const category = company.category;
+const categories = company.categories;
 
 // Resolve parent entity
 let parentCompany: Awaited<ReturnType<typeof safeGetCompany>> = null;
@@ -55,18 +58,16 @@ if (company.parent_entity?.company_id) {
   );
 }
 
-// Resolve use_tooling
-const toolingRefs = await resolveCompanyIds(
+// Resolve use_tooling → tool records
+const toolingRefs = await resolveToolIds(
   company.use_tooling,
   `company-${company.id}`
 );
 
-// For tooling companies: find who uses this tool
-const allCompanies = await getAllCompanies();
-const usedByCompanies =
-  category === "tooling"
-    ? allCompanies.filter((c) => c.use_tooling.includes(company.id))
-    : [];
+// Tools this company makes (shown in "Tools" tab for tooling companies)
+const companyTools = categories.includes("tooling")
+  ? await getToolsForCompany(company.id)
+  : [];
 
 // Games grouped by relationship
 const devGames = games.filter((g) =>
@@ -110,38 +111,42 @@ const hasTeamData = company.key_people.length > 0 || hasEmployeeStats;
 const tabs: Tab[] = [{ id: "overview", label: "Overview" }];
 
 const nonPrototypeGames = games.filter((g) => g.status !== "prototype");
+const hasCategory = (...cats: string[]) => cats.some((c) => categories.includes(c));
+
 const showGamesTab =
-  ["developer", "solo_developer", "service_provider", "publisher", "supporting_org"].includes(
-    category
-  ) && (nonPrototypeGames.length > 0 || prototypeGames.length > 0);
+  hasCategory("developer", "solo_developer", "service_provider", "publisher", "supporting_org") &&
+  (nonPrototypeGames.length > 0 || prototypeGames.length > 0);
 if (showGamesTab) tabs.push({ id: "games", label: "Games" });
 
-if (category === "tooling") tabs.push({ id: "used-by", label: "Used By" });
+const showToolsTab =
+  (categories.includes("tooling") && companyTools.length > 0) ||
+  company.use_tooling.length > 0 ||
+  company.tech_stack.length > 0;
+// Tooling companies get the tab right after Games; everyone else gets it last
+if (showToolsTab && categories.includes("tooling")) tabs.push({ id: "tools", label: "Tools" });
 
 const showJobsTab =
-  ["developer", "solo_developer", "tooling", "service_provider", "publisher", "games_media"].includes(
-    category
-  ) && jobs.length > 0;
+  hasCategory("developer", "solo_developer", "tooling", "service_provider", "publisher", "games_media") &&
+  jobs.length > 0;
 if (showJobsTab) tabs.push({ id: "jobs", label: "Jobs" });
 
 const showTeamTab =
-  ["developer", "solo_developer", "tooling", "service_provider", "publisher", "games_media"].includes(
-    category
-  ) && hasTeamData;
+  hasCategory("developer", "solo_developer", "tooling", "service_provider", "publisher", "games_media") &&
+  hasTeamData;
 if (showTeamTab) tabs.push({ id: "team", label: "Team" });
 
 const showAwardsTab =
-  ["developer", "solo_developer", "service_provider"].includes(category) &&
+  hasCategory("developer", "solo_developer", "service_provider") &&
   company.awards.length > 0;
 if (showAwardsTab) tabs.push({ id: "awards", label: "Awards" });
 
 const companyNews = await getNewsForCompany(company.id);
 
 const showNewsTab =
-  ["developer", "solo_developer", "tooling", "service_provider", "games_media"].includes(
-    category
-  ) && companyNews.length > 0;
+  hasCategory("developer", "solo_developer", "tooling", "service_provider", "games_media") &&
+  companyNews.length > 0;
 if (showNewsTab) tabs.push({ id: "news", label: "News" });
+if (showToolsTab && !categories.includes("tooling")) tabs.push({ id: "tools", label: "Tools" });
 
 // Social links
 function formatPlatformName(platform: string): string {
@@ -241,7 +246,9 @@ const recentNews = companyNews.slice(0, 5);
               <h1 class="text-3xl font-bold tracking-tight">
                 {company.name}
               </h1>
-              <Badge variant="secondary">{getCategoryName(category)}</Badge>
+              {categories.map((cat) => (
+                <Badge variant="secondary">{getCategorySingularName(cat)}</Badge>
+              ))}
               {
                 company.status === "defunct" && (
                   <Badge variant="outline">Defunct</Badge>
@@ -655,29 +662,6 @@ const recentNews = companyNews.slice(0, 5);
             }
           </div>
 
-          {
-            toolingRefs.length > 0 && (
-              <div class="mt-4 rounded-xl border border-border bg-card p-5">
-                <h3 class="mb-3 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-                  Tools Used
-                </h3>
-                <div class="flex flex-wrap gap-1.5">
-                  {toolingRefs.map(({ id, company: toolCompany }) =>
-                    toolCompany ? (
-                      <a
-                        href={`/companies/${toolCompany.slug}`}
-                        class="inline-flex items-center rounded-md border border-border px-2 py-1 text-xs font-medium transition-colors hover:bg-accent"
-                      >
-                        {toolCompany.name}
-                      </a>
-                    ) : (
-                      <BrokenLink id={id} type="company" />
-                    )
-                  )}
-                </div>
-              </div>
-            )
-          }
         </aside>
       </div>
     </section>
@@ -688,7 +672,7 @@ const recentNews = companyNews.slice(0, 5);
         <section id="games" data-tab-panel="games" class="hidden">
           <h2 class="mb-6 text-2xl font-semibold">Games</h2>
 
-          {(category === "developer" || category === "solo_developer") && (
+          {hasCategory("developer", "solo_developer") && (
             <div class="space-y-8">
               {inDevGames.length > 0 && (
                 <div>
@@ -874,7 +858,7 @@ const recentNews = companyNews.slice(0, 5);
             </div>
           )}
 
-          {category === "service_provider" && (
+          {hasCategory("service_provider") && (
             <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
               {serviceGames.map((game) => (
                 <a
@@ -910,7 +894,7 @@ const recentNews = companyNews.slice(0, 5);
             </div>
           )}
 
-          {category === "publisher" && (
+          {hasCategory("publisher") && (
             <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
               {publishedGames.map((game) => (
                 <a
@@ -946,7 +930,7 @@ const recentNews = companyNews.slice(0, 5);
             </div>
           )}
 
-          {category === "supporting_org" && (
+          {hasCategory("supporting_org") && (
             <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
               {supportedGames.map((game) => (
                 <a
@@ -978,50 +962,77 @@ const recentNews = companyNews.slice(0, 5);
       )
     }
 
-    <!-- Used By Section (Tooling only) -->
+    <!-- Tools Tab -->
     {
-      category === "tooling" && (
-        <section id="used-by" data-tab-panel="used-by" class="hidden">
-          <h2 class="mb-6 text-2xl font-semibold">Used By</h2>
-          {usedByCompanies.length > 0 ? (
-            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {usedByCompanies.map((c) => (
-                <a
-                  href={`/companies/${c.slug}`}
-                  class="group flex items-center gap-3 rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
-                >
-                  <div class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${c.logo_bg === "light" ? "bg-white" : c.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
-                    {(c.icon ?? c.logo) ? (
-                      <img
-                        src={c.icon ?? c.logo!}
-                        alt=""
-                        class={c.logo_bg ? "h-full w-full rounded-lg object-contain" : "h-7 w-7 object-contain"}
-                      />
-                    ) : (
-                      <span class="text-sm font-bold text-muted-foreground">
-                        {c.name.charAt(0)}
-                      </span>
+      showToolsTab && (
+        <section id="tools" data-tab-panel="tools" class="hidden space-y-10">
+
+          {/* Tools Developed — only when this company makes tools */}
+          {categories.includes("tooling") && companyTools.length > 0 && (
+            <div>
+              <h2 class="mb-4 text-xl font-semibold">Tools Developed</h2>
+              <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {companyTools.map((tool) => (
+                  <a
+                    href={`/tools/${tool.slug}`}
+                    class="group rounded-xl border border-border bg-card p-5 transition-colors hover:border-primary/30"
+                  >
+                    <h3 class="font-semibold group-hover:text-primary">{tool.name}</h3>
+                    {tool.short_description && (
+                      <p class="mt-1 text-sm text-muted-foreground line-clamp-2">{tool.short_description}</p>
                     )}
-                  </div>
-                  <div>
-                    <h4 class="text-sm font-medium group-hover:text-primary">
-                      {c.name}
-                    </h4>
-                    {c.location && (
-                      <p class="text-xs text-muted-foreground">{c.location}</p>
-                    )}
-                  </div>
-                </a>
-              ))}
+                  </a>
+                ))}
+              </div>
             </div>
-          ) : (
-            <p class="text-sm text-muted-foreground">
-              No companies currently listed as using this tool.
-            </p>
           )}
+
+          {/* Tools Used — links to tool pages in our directory */}
+          {toolingRefs.length > 0 && (
+            <div>
+              <h2 class="mb-4 text-xl font-semibold">
+                Tools Used <span title="Scottish tool">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span>
+              </h2>
+              <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {toolingRefs.map(({ id, tool }) =>
+                  tool ? (
+                    <a
+                      href={`/tools/${tool.slug}`}
+                      class="group rounded-xl border border-border bg-card p-5 transition-colors hover:border-primary/30"
+                    >
+                      <h3 class="font-semibold group-hover:text-primary">{tool.name}</h3>
+                      {tool.short_description && (
+                        <p class="mt-1 text-sm text-muted-foreground line-clamp-2">{tool.short_description}</p>
+                      )}
+                    </a>
+                  ) : (
+                    <div class="rounded-xl border border-dashed border-border bg-card/50 p-5">
+                      <BrokenLink id={id} type="tool" />
+                    </div>
+                  )
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Tech Stack — plain list of technologies */}
+          {company.tech_stack.length > 0 && (
+            <div>
+              <h2 class="mb-4 text-xl font-semibold">Tech Stack</h2>
+              <div class="flex flex-wrap gap-2">
+                {company.tech_stack.map((tech) => (
+                  <span class="rounded-lg border border-border bg-card px-3 py-1.5 text-sm font-medium">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
         </section>
       )
     }
+
 
     <!-- Jobs Section -->
     {

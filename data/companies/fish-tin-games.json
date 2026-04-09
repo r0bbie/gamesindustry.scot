@@ -2,7 +2,9 @@
   "id": "fish-tin-games",
   "name": "Fish Tin Games",
   "slug": "fish-tin-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2020,
   "location": "Dundee",

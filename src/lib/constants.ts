@@ -87,6 +87,20 @@ export function getCategoryName(id: string): string {
   return COMPANY_CATEGORIES.find((c) => c.id === id)?.name ?? id;
 }
 
+export const COMPANY_CATEGORIES_SINGULAR: Record<string, string> = {
+  developer: "Development Studio",
+  solo_developer: "Solo Developer",
+  tooling: "Tech & Tooling",
+  service_provider: "Service Provider",
+  publisher: "Publisher",
+  supporting_org: "Supporting Organisation",
+  games_media: "Games Media",
+};
+
+export function getCategorySingularName(id: string): string {
+  return COMPANY_CATEGORIES_SINGULAR[id] ?? id;
+}
+
 export function getDisciplineName(id: string): string {
   return DISCIPLINES.find((d) => d.id === id)?.name ?? id;
 }

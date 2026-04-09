@@ -2,7 +2,9 @@
   "id": "rivet-games",
   "name": "Rivet Games",
   "slug": "rivet-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Stirling",
   "region": "stirling-central",

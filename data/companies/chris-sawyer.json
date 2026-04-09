@@ -2,7 +2,9 @@
   "id": "chris-sawyer",
   "name": "Chris Sawyer",
   "slug": "chris-sawyer",
-  "category": "solo_developer",
+  "categories": [
+    "solo_developer"
+  ],
   "status": "active",
   "founded": null,
   "previously_known_as": [],

@@ -2,7 +2,9 @@
   "id": "too-dee-studios",
   "name": "Too Dee Studios",
   "slug": "too-dee-studios",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

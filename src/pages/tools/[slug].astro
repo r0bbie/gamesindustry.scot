@@ -1,0 +1,169 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getAllTools, getAllCompanies, getToolBySlug, getCompanyBySlug } from "@/lib/data";
+
+export async function getStaticPaths() {
+  const tools = await getAllTools();
+  return tools.map((t) => ({ params: { slug: t.slug } }));
+}
+
+const { slug } = Astro.params;
+const tool = await getToolBySlug(slug!);
+if (!tool) return Astro.redirect("/404");
+
+const maker = tool.company_id ? await getCompanyBySlug(tool.company_id) : null;
+
+const allCompanies = await getAllCompanies();
+const usedByCompanies = allCompanies.filter((c) => c.use_tooling.includes(tool.id));
+---
+
+<BaseLayout title={tool.name} description={tool.short_description ?? undefined}>
+  <!-- Hero -->
+  <section class="border-b border-border bg-card">
+    <div class="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          {maker && (
+            <a
+              href={`/companies/${maker.slug}`}
+              class="mb-2 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+              {maker.name}
+            </a>
+          )}
+          <h1 class="text-3xl font-bold tracking-tight">{tool.name}</h1>
+          {tool.short_description && (
+            <p class="mt-2 max-w-2xl text-muted-foreground">{tool.short_description}</p>
+          )}
+        </div>
+        {tool.website && (
+          <a
+            href={tool.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex h-9 shrink-0 items-center justify-center gap-2 rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+          >
+            Try it out
+            <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8 space-y-10">
+    {tool.description && (
+      <section>
+        <h2 class="mb-3 text-xl font-semibold">About</h2>
+        <p class="whitespace-pre-line leading-relaxed text-muted-foreground">{tool.description}</p>
+      </section>
+    )}
+
+    {tool.features.length > 0 && (
+      <section>
+        <h2 class="mb-3 text-xl font-semibold">Features</h2>
+        <ul class="space-y-2">
+          {tool.features.map((feature) => (
+            <li class="flex items-start gap-2 text-sm text-muted-foreground">
+              <svg class="mt-0.5 h-4 w-4 shrink-0 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              {feature}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {tool.video && (
+      <section>
+        <h2 class="mb-3 text-xl font-semibold">Video</h2>
+        <div class="aspect-video overflow-hidden rounded-xl border border-border">
+          <iframe
+            src={`https://www.youtube.com/embed/${tool.video.id}`}
+            title={tool.name}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="h-full w-full"
+          />
+        </div>
+      </section>
+    )}
+
+    {tool.screenshots.length > 0 && (
+      <section>
+        <h2 class="mb-3 text-xl font-semibold">Screenshots</h2>
+        <div class="grid gap-3 sm:grid-cols-2">
+          {tool.screenshots.slice(0, 5).map((src) => (
+            <img
+              src={src}
+              alt=""
+              class="rounded-lg border border-border object-cover w-full"
+              loading="lazy"
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    {tool.integrations.length > 0 && (
+      <section>
+        <h2 class="mb-3 text-xl font-semibold">Integrations</h2>
+        <div class="flex flex-wrap gap-2">
+          {tool.integrations.map((integration) => (
+            <span class="rounded-lg border border-border bg-card px-3 py-1.5 text-sm font-medium">
+              {integration}
+            </span>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {maker && (
+      <section>
+        <h2 class="mb-3 text-xl font-semibold">Made By</h2>
+        <a
+          href={`/companies/${maker.slug}`}
+          class="group inline-flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30"
+        >
+          <div class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${maker.logo_bg === "light" ? "bg-white" : maker.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
+            {(maker.icon ?? maker.logo) ? (
+              <img src={maker.icon ?? maker.logo!} alt="" class="h-8 w-8 object-contain" />
+            ) : (
+              <span class="text-sm font-bold text-muted-foreground">{maker.name.charAt(0)}</span>
+            )}
+          </div>
+          <div>
+            <p class="font-medium group-hover:text-primary">{maker.name}</p>
+            {maker.location && <p class="text-xs text-muted-foreground">{maker.location}</p>}
+          </div>
+        </a>
+      </section>
+    )}
+
+    {usedByCompanies.length > 0 && (
+      <section>
+        <h2 class="mb-3 text-xl font-semibold">Used By</h2>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {usedByCompanies.map((c) => (
+            <a
+              href={`/companies/${c.slug}`}
+              class="group flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30"
+            >
+              <div class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${c.logo_bg === "light" ? "bg-white" : c.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
+                {(c.icon ?? c.logo) ? (
+                  <img src={c.icon ?? c.logo!} alt="" class={c.logo_bg ? "h-full w-full rounded-lg object-contain" : "h-7 w-7 object-contain"} />
+                ) : (
+                  <span class="text-sm font-bold text-muted-foreground">{c.name.charAt(0)}</span>
+                )}
+              </div>
+              <div>
+                <p class="font-medium group-hover:text-primary">{c.name}</p>
+                {c.location && <p class="text-xs text-muted-foreground">{c.location}</p>}
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</BaseLayout>

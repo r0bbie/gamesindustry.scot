@@ -2,7 +2,9 @@
   "id": "amoeba-lab",
   "name": "Amoeba Lab",
   "slug": "amoeba-lab",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

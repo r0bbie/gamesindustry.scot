@@ -2,7 +2,9 @@
   "id": "keelworks",
   "name": "Keelworks",
   "slug": "keelworks",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

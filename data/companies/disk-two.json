@@ -2,7 +2,9 @@
   "id": "disk-two",
   "name": "Disk Two",
   "slug": "disk-two",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": null,
   "region": null,

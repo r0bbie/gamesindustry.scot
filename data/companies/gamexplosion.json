@@ -2,7 +2,9 @@
   "id": "gamexplosion",
   "name": "GameXPlosion",
   "slug": "gamexplosion",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Greenock",
   "region": "glasgow-strathclyde",

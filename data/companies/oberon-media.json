@@ -2,7 +2,9 @@
   "id": "oberon-media",
   "name": "Oberon Media",
   "slug": "oberon-media",
-  "category": "publisher",
+  "categories": [
+    "publisher"
+  ],
   "status": "defunct",
   "location": "Dunfermline",
   "region": "fife",

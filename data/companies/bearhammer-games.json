@@ -2,13 +2,18 @@
   "id": "bearhammer-games",
   "name": "BearHammer Games",
   "slug": "bearhammer-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2018,
   "previously_known_as": [],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "coordinates": { "lat": 55.9533, "lng": -3.1883 },
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Independent VR games development studio.",
   "about": "BearHammer Games is an independent VR games development studio with team members in Scotland and internationally, known for VR titles including Venture's Gauntlet and BearHammer.",
   "website": "https://bearhammergames.com",
@@ -18,7 +23,10 @@
   "company_size": "2-10",
   "employee_count": null,
   "legal_entities": [
-    { "uk_registered_name": "BearHammer Games Ltd", "companies_house_number": "SC616982" }
+    {
+      "uk_registered_name": "BearHammer Games Ltd",
+      "companies_house_number": "SC616982"
+    }
   ],
   "links": {
     "linkedin": "bearhammer-games-ltd",

@@ -2,7 +2,9 @@
   "id": "team-junkfish",
   "name": "Team Junkfish",
   "slug": "team-junkfish",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

@@ -2,7 +2,9 @@
   "id": "outplay-entertainment",
   "name": "Outplay Entertainment",
   "slug": "outplay-entertainment",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

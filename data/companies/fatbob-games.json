@@ -2,7 +2,9 @@
   "id": "fatbob-games",
   "name": "FatBob Games",
   "slug": "fatbob-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

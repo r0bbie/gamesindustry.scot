@@ -2,7 +2,9 @@
   "id": "zapcoder",
   "name": "ZapCoder",
   "slug": "zapcoder",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

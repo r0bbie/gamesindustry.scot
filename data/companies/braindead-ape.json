@@ -2,7 +2,9 @@
   "id": "braindead-ape",
   "name": "Braindead Ape",
   "slug": "braindead-ape",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

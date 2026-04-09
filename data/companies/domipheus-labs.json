@@ -2,7 +2,9 @@
   "id": "domipheus-labs",
   "name": "Domipheus Labs",
   "slug": "domipheus-labs",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

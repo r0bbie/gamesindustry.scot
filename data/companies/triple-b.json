@@ -2,7 +2,9 @@
   "id": "triple-b",
   "name": "Triple B",
   "slug": "triple-b",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

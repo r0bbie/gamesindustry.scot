@@ -2,7 +2,9 @@
   "id": "yellow-crow-games",
   "name": "Yellow Crow Games",
   "slug": "yellow-crow-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

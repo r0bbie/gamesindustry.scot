@@ -2,7 +2,9 @@
   "id": "robot-overlord-games",
   "name": "Robot Overlord Games",
   "slug": "robot-overlord-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

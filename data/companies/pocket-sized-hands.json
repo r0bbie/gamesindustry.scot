@@ -2,7 +2,9 @@
   "id": "pocket-sized-hands",
   "name": "Pocket Sized Hands",
   "slug": "pocket-sized-hands",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2017,
   "location": "Dundee",

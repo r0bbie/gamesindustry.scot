@@ -2,13 +2,18 @@
   "id": "story-mechanics",
   "name": "The Story Mechanics",
   "slug": "story-mechanics",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "founded": null,
   "previously_known_as": [],
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
-  "coordinates": { "lat": 55.8642, "lng": -4.2518 },
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "short_description": "Former multiplatform and gaming division of Tern TV, focused on digital storytelling and narrative-led interactive experiences.",
   "about": "The Story Mechanics was the multiplatform and gaming division of Scottish indie production company Tern TV, with a focus on digital storytelling and the creation of narrative-led interactive experiences. The division was known for adapting classic literature into interactive form, including The 39 Steps (2013), a ground-breaking interactive novel based on John Buchan's novel.",
   "website": "https://storymechanics.wordpress.com",
@@ -25,7 +30,10 @@
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [
-    { "name": "Simon Meek", "title": "Founder & Creative Director" }
+    {
+      "name": "Simon Meek",
+      "title": "Founder & Creative Director"
+    }
   ],
   "awards": [],
   "news": []

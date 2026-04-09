@@ -2,7 +2,9 @@
   "id": "disney-research-edinburgh",
   "name": "Disney Research Edinburgh",
   "slug": "disney-research-edinburgh",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

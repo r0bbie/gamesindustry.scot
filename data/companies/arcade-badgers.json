@@ -2,7 +2,9 @@
   "id": "arcade-badgers",
   "name": "Arcade Badgers",
   "slug": "arcade-badgers",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2013,
   "location": "Dundee",
@@ -15,7 +17,10 @@
   "about": "Dundee development duo, making games accessible and fun.",
   "contact_email": "contact@arcadebadgers.co.uk",
   "legal_entities": [
-    { "uk_registered_name": "Arcade Badgers Limited", "companies_house_number": "SC448825" }
+    {
+      "uk_registered_name": "Arcade Badgers Limited",
+      "companies_house_number": "SC448825"
+    }
   ],
   "links": {
     "itch": "arcadebadgers",

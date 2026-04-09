@@ -1,0 +1,23 @@
+{
+  "id": "dislectek",
+  "name": "DiSLECTEK",
+  "slug": "dislectek",
+  "company_id": "lowtek-games",
+  "status": "active",
+  "short_description": "A Unity asset that allows developers to quickly and easily add assistive, dyslexia-focused text-to-speech to their game.",
+  "features": [
+    "Windows and Mac support",
+    "Easy to implement",
+    "Small bundle size",
+    "Allows dyslexic users to read text in-game aloud",
+    "Supports user-installed voices"
+  ],
+  "video": {
+    "type": "youtube",
+    "id": "ecTohP9JXqo"
+  },
+  "integrations": [
+    "Unity"
+  ],
+  "website": "https://assetstore.unity.com/packages/tools/integration/dislectek-192133"
+}

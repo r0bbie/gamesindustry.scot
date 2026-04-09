@@ -2,7 +2,9 @@
   "id": "physmo",
   "name": "Physmo",
   "slug": "physmo",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

@@ -2,7 +2,9 @@
   "id": "neon-hive",
   "name": "Neon Hive",
   "slug": "neon-hive",
-  "category": "service_provider",
+  "categories": [
+    "service_provider"
+  ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

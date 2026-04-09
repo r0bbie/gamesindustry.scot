@@ -2,7 +2,9 @@
   "id": "cobra-mobile",
   "name": "Cobra Mobile",
   "slug": "cobra-mobile",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

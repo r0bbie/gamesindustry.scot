@@ -2,7 +2,9 @@
   "id": "tiger-games",
   "name": "Tiger Games",
   "slug": "tiger-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

@@ -2,7 +2,9 @@
   "id": "firebrand-studios",
   "name": "Firebrand Studios",
   "slug": "firebrand-studios",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

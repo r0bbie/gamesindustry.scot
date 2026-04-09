@@ -2,7 +2,9 @@
   "id": "black-company-studios",
   "name": "Black Company Studios",
   "slug": "black-company-studios",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",

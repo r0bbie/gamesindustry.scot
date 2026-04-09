@@ -2,7 +2,9 @@
   "id": "dreamwalker-games",
   "name": "Dreamwalker Games",
   "slug": "dreamwalker-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Elgin",
   "region": "highlands-islands",

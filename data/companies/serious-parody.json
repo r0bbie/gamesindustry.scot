@@ -2,7 +2,9 @@
   "id": "serious-parody",
   "name": "Serious Parody",
   "slug": "serious-parody",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

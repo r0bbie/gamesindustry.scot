@@ -2,7 +2,9 @@
   "id": "siege-games",
   "name": "Siege Games",
   "slug": "siege-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

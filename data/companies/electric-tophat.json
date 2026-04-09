@@ -2,7 +2,9 @@
   "id": "electric-tophat",
   "name": "Electric Tophat",
   "slug": "electric-tophat",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

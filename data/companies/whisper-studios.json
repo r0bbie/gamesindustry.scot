@@ -2,7 +2,9 @@
   "id": "whisper-studios",
   "name": "Whisper Studios",
   "slug": "whisper-studios",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

@@ -2,7 +2,9 @@
   "id": "stormcloud-games",
   "name": "Stormcloud Games",
   "slug": "stormcloud-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

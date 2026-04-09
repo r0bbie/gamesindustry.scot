@@ -2,7 +2,9 @@
   "id": "weeworld",
   "name": "WeeWorld",
   "slug": "weeworld",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

@@ -58,7 +58,7 @@ const companies = defineCollection({
     id: z.string(),
     name: z.string(),
     slug: z.string(),
-    category: z.enum([
+    categories: z.array(z.enum([
       "developer",
       "solo_developer",
       "tooling",
@@ -66,7 +66,7 @@ const companies = defineCollection({
       "publisher",
       "supporting_org",
       "games_media",
-    ]),
+    ])).min(1),
     status: z.enum(["active", "defunct"]).default("active"),
     founded: z.number().optional().nullable(),
     previously_known_as: z.array(z.string()).optional().default([]),
@@ -105,6 +105,7 @@ const companies = defineCollection({
       .optional()
       .default([]),
     use_tooling: z.array(z.string()).optional().default([]),
+    tech_stack: z.array(z.string()).optional().default([]),
     employee_stats: z
       .object({
         full_time: z.number().optional(),
@@ -369,9 +370,35 @@ const newsArticles = defineCollection({
   }),
 });
 
+const tools = defineCollection({
+  loader: glob({ pattern: "**/*.json", base: "./data/tools" }),
+  schema: z.object({
+    id: z.string(),
+    name: z.string(),
+    slug: z.string(),
+    company_id: z.string().optional(),
+    status: z.enum(["active", "discontinued"]).default("active"),
+    short_description: z.string().optional().nullable(),
+    description: z.string().optional().nullable(),
+    features: z.array(z.string()).optional().default([]),
+    screenshots: z.array(z.string()).optional().default([]),
+    video: z
+      .object({
+        type: z.enum(["youtube"]),
+        id: z.string(),
+      })
+      .optional()
+      .nullable(),
+    integrations: z.array(z.string()).optional().default([]),
+    website: z.string().optional().nullable(),
+    logo: z.string().optional().nullable(),
+  }),
+});
+
 export const collections = {
   companies,
   games,
+  tools,
   freelancers,
   jobs,
   events,

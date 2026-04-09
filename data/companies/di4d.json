@@ -2,7 +2,9 @@
   "id": "di4d",
   "name": "DI4D",
   "slug": "di4d",
-  "category": "tooling",
+  "categories": [
+    "tooling"
+  ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",

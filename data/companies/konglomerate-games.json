@@ -2,13 +2,18 @@
   "id": "konglomerate-games",
   "name": "Konglomerate Games",
   "slug": "konglomerate-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2019,
   "previously_known_as": [],
   "location": "Dundee",
   "region": "dundee-tayside",
-  "coordinates": { "lat": 56.462, "lng": -2.9707 },
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "short_description": "Dundee studio developing serious games for healthcare, education, and social impact.",
   "about": "Konglomerate Games is a video games studio based in Dundee, Scotland, founded in 2019. The company specialises in serious games that combine entertainment with applications in healthcare, education, and social impact — including collaborations on physiotherapy, clinical training, and city policy projects.",
   "website": "https://konglomerate.games",

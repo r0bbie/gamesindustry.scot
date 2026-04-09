@@ -2,7 +2,9 @@
   "id": "astrodreamer-studio",
   "name": "Astrodreamer Studio",
   "slug": "astrodreamer-studio",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "founded": 2021,
   "location": "Dundee",
@@ -13,7 +15,10 @@
   "short_description": "Dundee studio crafting narrative-rich games with fun interactivity.",
   "about": "Astrodreamer is a creative and enthusiastic Scottish team born out of the lockdown ready to make a name for ourselves on an industry-wide scale. We craft games that are narrative rich with fun interactivity and leave the player wanting more.",
   "legal_entities": [
-    { "uk_registered_name": "Astrodreamer Studio Ltd", "companies_house_number": "SC687802" }
+    {
+      "uk_registered_name": "Astrodreamer Studio Ltd",
+      "companies_house_number": "SC687802"
+    }
   ],
   "links": {
     "linkedin": "astrodreamer-studio",

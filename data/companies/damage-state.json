@@ -2,7 +2,9 @@
   "id": "damage-state",
   "name": "Damage State",
   "slug": "damage-state",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothians",

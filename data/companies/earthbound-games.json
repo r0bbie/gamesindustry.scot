@@ -2,7 +2,9 @@
   "id": "earthbound-games",
   "name": "Earthbound Games",
   "slug": "earthbound-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",

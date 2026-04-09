@@ -24,7 +24,7 @@ interface MapCompany {
   id: string;
   name: string;
   slug: string;
-  category: string;
+  categories: string[];
   location?: string;
   coordinates: { lat: number; lng: number };
 }
@@ -65,7 +65,7 @@ export default function MapView({ companies }: MapViewProps) {
         `<div style="min-width:150px">
           <strong><a href="/companies/${company.slug}">${company.name}</a></strong>
           ${company.location ? `<br/>${company.location}` : ""}
-          <br/><span style="font-size:11px;color:#666">${CATEGORY_LABELS[company.category] ?? company.category}</span>
+          <br/><span style="font-size:11px;color:#666">${company.categories.map(c => CATEGORY_LABELS[c] ?? c).join(' · ')}</span>
         </div>`
       );
     }

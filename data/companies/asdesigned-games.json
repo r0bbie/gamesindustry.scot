@@ -2,7 +2,9 @@
   "id": "asdesigned-games",
   "name": "AsDesigned Games",
   "slug": "asdesigned-games",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",

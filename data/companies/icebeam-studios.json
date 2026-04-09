@@ -2,7 +2,9 @@
   "id": "icebeam-studios",
   "name": "Icebeam Studios",
   "slug": "icebeam-studios",
-  "category": "developer",
+  "categories": [
+    "developer"
+  ],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",
