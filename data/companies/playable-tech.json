@@ -6,15 +6,23 @@
     "developer"
   ],
   "status": "active",
-  "location": null,
-  "region": null,
-  "website": null,
+  "founded": 2020,
+  "previously_known_as": [],
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "website": "https://playable.tech/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "parent_entity": null,
+  "company_size": null,
+  "short_description": "Playable Technology is a skilled group of creatives and developers, founded as a studio in 2020, continuing the work begun 15 years earlier as the core development team and founders of Skoogmusic.",
+  "about": "Playable Technology is a skilled group of creatives and developers, founded as a studio in 2020, continuing the work begun 15 years earlier as the core development team and founders of Skoogmusic.",
+  "links": {
+    "linkedin": "playable-tech"
+  },
   "use_tooling": [],
-  "employee_stats": {},
   "key_people": [],
+  "employee_stats": {},
   "awards": [],
   "news": []
 }

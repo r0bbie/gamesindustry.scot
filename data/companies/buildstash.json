@@ -10,6 +10,7 @@
   "previously_known_as": [],
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "additional_locations": ["New York"],
   "coordinates": {
     "lat": 55.8642,
     "lng": -4.2518

@@ -110,6 +110,16 @@ export function computeNextOccurrence(
 ): Date {
   const today = new Date(from.getFullYear(), from.getMonth(), from.getDate());
 
+  if (recurrence.frequency === "weekly" && recurrence.start_date) {
+    const ref = parseDate(recurrence.start_date);
+    if (ref >= today) return ref;
+    // Walk forward in 7-day steps from ref until we find a date >= today
+    const diffDays = Math.ceil((today.getTime() - ref.getTime()) / 86_400_000);
+    const steps = Math.ceil(diffDays / 7);
+    const next = new Date(ref.getTime() + steps * 7 * 86_400_000);
+    return next;
+  }
+
   if (recurrence.frequency === "biweekly" && recurrence.start_date && recurrence.day) {
     const ref = parseDate(recurrence.start_date);
     if (ref >= today) return ref;

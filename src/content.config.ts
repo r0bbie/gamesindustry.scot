@@ -72,6 +72,7 @@ const companies = defineCollection({
     previously_known_as: z.array(z.string()).optional().default([]),
     location: z.string().optional().nullable(),
     region: z.string().optional().nullable(),
+    additional_locations: z.array(z.string()).optional().default([]),
     coordinates: coordinatesSchema,
     short_description: z.string().optional().nullable(),
     about: z.string().optional().nullable(),
@@ -197,15 +198,26 @@ const freelancers = defineCollection({
   schema: z.object({
     id: z.string(),
     name: z.string(),
+    trading_name: z.string().optional(),
     slug: z.string(),
     discipline: z.string(),
     bio: z.string().optional(),
     short_bio: z.string().optional(),
     photo: z.string().optional(),
     website: z.string().optional(),
+    email: z.string().optional(),
     location: z.string().optional(),
     region: z.string().optional(),
     links: linksSchema,
+    testimonials: z
+      .array(
+        z.object({
+          quote: z.string(),
+          attribution: z.string(),
+        })
+      )
+      .optional()
+      .default([]),
   }),
 });
 

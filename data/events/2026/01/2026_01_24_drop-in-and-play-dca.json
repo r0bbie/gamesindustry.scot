@@ -1,0 +1,18 @@
+{
+  "id": "2026_01_24_drop-in-and-play-dca",
+  "name": "Drop in and Play at DCA",
+  "slug": "2026-01-24-drop-in-and-play-dca",
+  "date_start": "2026-01-24",
+  "time": "12:30–15:30",
+  "location": "Dundee Contemporary Arts, Dundee",
+  "is_online": false,
+  "is_scottish": true,
+  "recurring": false,
+  "description": "Join us on Sat 24 January between 12:30 - 15:30 to try these exciting new games and meet the developers behind them. This event is free, drop-in, and suitable for gamers of all experience levels aged 10+.\n\nThis year's showcase will include games from this year's DunDev teams. DunDev is a residential programme which offers four early-stage game studios accommodation, office space and prize money to develop their studio and game. This programme is delivered by the UK Games Talent and Finance Community Interest Company, and funded by the UK Government.",
+  "short_description": "Free drop-in event at Dundee Contemporary Arts — try new games and meet the developers behind them.",
+  "website": "https://www.dca.org.uk/news/games-announced-for-drop-in-and-play-january-2026/",
+  "icon": "",
+  "image": "",
+  "tags": ["showcase"],
+  "highlighted": false
+}

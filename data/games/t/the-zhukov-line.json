@@ -7,15 +7,21 @@
   "status": "released",
   "release_date": "2024-02-16",
   "companies": {
-    "developer": ["fish-tin-games"],
+    "developer": [
+      "fish-tin-games"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["horror"],
-  "platforms": ["pc"],
+  "genres": [
+    "horror"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "steam": "2744260"
@@ -31,5 +37,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-zhukov-line/cover.webp"
 }

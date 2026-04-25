@@ -1,0 +1,29 @@
+{
+  "id": "sojourn-interactive",
+  "name": "Sojourn Interactive",
+  "slug": "sojourn-interactive",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": null,
+  "previously_known_as": ["Jabuga"],
+  "location": "Alloa",
+  "region": "central-scotland",
+  "website": "https://sojourn-interactive.com/",
+  "logo": null,
+  "highlighted": false,
+  "parent_entity": null,
+  "company_size": null,
+  "short_description": "Indie game developer based in Central Scotland.",
+  "links": {
+    "twitter": "sojourn_I",
+    "bluesky": "sojourninteractive.bsky.social",
+    "youtube": "@sojourn_interactive"
+  },
+  "use_tooling": [],
+  "key_people": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": []
+}

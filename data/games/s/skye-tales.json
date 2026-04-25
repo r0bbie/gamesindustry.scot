@@ -3,30 +3,75 @@
   "title": "Skye Tales",
   "slug": "skye-tales",
   "status": "released",
-  "release_date": "2022",
+  "release_date": "2023-05-26",
+  "short_description": "Team up with Skye the friendly dragon, in a magical, mindful game full of gentle adventures. Make fuzzy friends, solve playful puzzles, and above all just enjoy exploring the sights, sounds, and sensations of an enchanting, relaxing new world.",
   "companies": {
-    "developer": ["puny-astronaut"],
+    "developer": [
+      "puny-astronaut"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["adventure"],
-  "platforms": ["pc", "ps4", "ps5", "switch"],
+  "genres": [
+    "adventure"
+  ],
+  "platforms": [
+    "pc",
+    "ps4",
+    "switch"
+  ],
+  "video": {
+    "type": "youtube",
+    "id": "zih3dm8XVeI"
+  },
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "website": "https://www.skyetales.com/",
+    "steam": "2138300",
+    "epic": "skye-tales-02bf5b",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Skye-Tales-2383443.html",
+    "psn": "https://store.playstation.com/en-gb/product/EP3332-CUSA37206_00-6785812410900243"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
   "critic_ids": {},
-  "database_links": {},
+  "database_links": {
+    "mobygames": "203922/skye-tales/"
+  },
   "awards": [
-    { "name": "Scottish Games Awards - Art and Animation", "year": 2023, "status": "won" },
-    { "name": "Scottish Games Awards - Audio", "year": 2023, "status": "nominated" },
-    { "name": "Scottish Games Awards - Best Large-Budget Game", "year": 2023, "status": "nominated" },
-    { "name": "Scottish Games Awards - Spirit of Scotland", "year": 2023, "status": "won" }
+    {
+      "name": "Scottish Games Awards - Art and Animation",
+      "year": 2023,
+      "status": "won"
+    },
+    {
+      "name": "Scottish Games Awards - Audio",
+      "year": 2023,
+      "status": "nominated"
+    },
+    {
+      "name": "Scottish Games Awards - Best Large-Budget Game",
+      "year": 2023,
+      "status": "nominated"
+    },
+    {
+      "name": "Scottish Games Awards - Spirit of Scotland",
+      "year": 2023,
+      "status": "won"
+    }
   ],
-  "news": [],
-  "is_student_game": false
+  "news": [
+    {
+      "title": "Skye Tales Review - cosy game launches on PlayStation and Steam - how to buy",
+      "publication": "The Scotsman",
+      "date": "2023-08-17",
+      "url": "https://www.scotsman.com/read-this/skye-tales-launches-on-playstation-4259402"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/skye-tales/cover.webp"
 }

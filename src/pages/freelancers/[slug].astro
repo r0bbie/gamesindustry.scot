@@ -3,6 +3,7 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getAllFreelancers } from "@/lib/data";
 import { getDisciplineName, buildSocialUrl, GITHUB_REPO } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
+import ObfuscatedEmail from "@/components/ObfuscatedEmail.astro";
 
 export async function getStaticPaths() {
   const freelancers = await getAllFreelancers();
@@ -95,6 +96,9 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/freelancers/${
       </div>
       <div>
         <h1 class="text-3xl font-bold tracking-tight">{freelancer.name}</h1>
+        {freelancer.trading_name && (
+          <p class="mt-0.5 text-base text-muted-foreground">{freelancer.trading_name}</p>
+        )}
         <div class="mt-2 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
           <Badge variant="secondary">{getDisciplineName(freelancer.discipline)}</Badge>
           {
@@ -109,16 +113,24 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/freelancers/${
     </div>
 
     {
-      freelancer.website && (
-        <div class="mb-6">
-          <a
-            href={freelancer.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex h-10 w-full items-center justify-center rounded-md bg-primary text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 sm:w-auto sm:px-8"
-          >
-            Visit Website
-          </a>
+      (freelancer.website || freelancer.email) && (
+        <div class="mb-6 flex flex-wrap gap-3">
+          {freelancer.website && (
+            <a
+              href={freelancer.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+            >
+              Visit Website
+            </a>
+          )}
+          {freelancer.email && (
+            <ObfuscatedEmail
+              email={freelancer.email}
+              class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+            />
+          )}
         </div>
       )
     }
@@ -147,6 +159,24 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/freelancers/${
           <p class="whitespace-pre-line leading-relaxed text-muted-foreground">
             {freelancer.bio}
           </p>
+        </div>
+      )
+    }
+
+    {
+      freelancer.testimonials && freelancer.testimonials.length > 0 && (
+        <div class="mb-8">
+          <h2 class="mb-4 text-xl font-semibold">Testimonials</h2>
+          <div class="space-y-4">
+            {freelancer.testimonials.map(({ quote, attribution }) => (
+              <blockquote class="rounded-lg border border-border bg-muted/40 px-6 py-5">
+                <p class="leading-relaxed text-muted-foreground before:content-['"'] after:content-['"']">
+                  {quote}
+                </p>
+                <footer class="mt-3 text-sm font-medium">— {attribution}</footer>
+              </blockquote>
+            ))}
+          </div>
         </div>
       )
     }

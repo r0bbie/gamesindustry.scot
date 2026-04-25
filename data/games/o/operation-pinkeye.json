@@ -5,7 +5,9 @@
   "status": "released",
   "release_date": "2023",
   "companies": {
-    "developer": ["stormplay"],
+    "developer": [
+      "stormplay"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
@@ -22,8 +24,13 @@
   "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "Scottish Games Awards - Best Small-Budget Game", "year": 2023, "status": "nominated" }
+    {
+      "name": "Scottish Games Awards - Best Small-Budget Game",
+      "year": 2023,
+      "status": "nominated"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/operation-pinkeye/cover.webp"
 }

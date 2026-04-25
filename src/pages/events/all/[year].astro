@@ -96,56 +96,78 @@ const addEventUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-e
     </div>
 
     <!-- Year navigation -->
-    <div class="mb-8 flex items-center justify-between gap-4">
-      <div class="flex items-center gap-1">
-        {prevYear ? (
-          <a
-            href={`/events/all/${prevYear}`}
-            class="inline-flex h-9 items-center gap-1.5 rounded-md border border-input bg-background px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-          >
-            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-            {prevYear}
-          </a>
-        ) : (
-          <span class="inline-flex h-9 cursor-not-allowed items-center gap-1.5 rounded-md border border-input bg-background px-3 text-sm font-medium opacity-40">
-            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-            &lsaquo;
-          </span>
-        )}
-      </div>
+    {(() => {
+      // Show a window of up to 5 years centred on the selected year
+      const WINDOW = 2;
+      const idx = availableYears.indexOf(year);
+      const start = Math.max(0, idx - WINDOW);
+      const end = Math.min(availableYears.length - 1, idx + WINDOW);
+      const windowYears = availableYears.slice(start, end + 1);
+      const showEllipsisLeft = start > 0;
+      const showEllipsisRight = end < availableYears.length - 1;
+      return (
+        <div class="mb-8 flex items-center justify-center gap-1 flex-wrap">
+          {prevYear ? (
+            <a
+              href={`/events/all/${prevYear}`}
+              class="inline-flex h-9 items-center gap-1 rounded-md border border-input bg-background px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+              aria-label={`Previous year: ${prevYear}`}
+            >
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </a>
+          ) : (
+            <span class="inline-flex h-9 cursor-not-allowed items-center rounded-md border border-input bg-background px-3 text-sm font-medium opacity-40">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </span>
+          )}
 
-      <div class="flex items-center gap-2">
-        {availableYears.map((y) => (
-          <a
-            href={`/events/all/${y}`}
-            class={`inline-flex h-9 min-w-[4rem] items-center justify-center rounded-md px-3 text-sm font-semibold transition-colors ${
-              y === year
-                ? "bg-primary text-primary-foreground shadow"
-                : "border border-input bg-background hover:bg-accent hover:text-accent-foreground"
-            }`}
-          >
-            {y}
-          </a>
-        ))}
-      </div>
+          {showEllipsisLeft && (
+            <>
+              <a href={`/events/all/${availableYears[0]}`} class="inline-flex h-9 min-w-[4rem] items-center justify-center rounded-md border border-input bg-background px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground">
+                {availableYears[0]}
+              </a>
+              <span class="px-1 text-muted-foreground text-sm">…</span>
+            </>
+          )}
 
-      <div class="flex items-center gap-1">
-        {nextYear ? (
-          <a
-            href={`/events/all/${nextYear}`}
-            class="inline-flex h-9 items-center gap-1.5 rounded-md border border-input bg-background px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-          >
-            {nextYear}
-            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-          </a>
-        ) : (
-          <span class="inline-flex h-9 cursor-not-allowed items-center gap-1.5 rounded-md border border-input bg-background px-3 text-sm font-medium opacity-40">
-            &rsaquo;
-            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-          </span>
-        )}
-      </div>
-    </div>
+          {windowYears.map((y) => (
+            <a
+              href={`/events/all/${y}`}
+              class={`inline-flex h-9 min-w-[4rem] items-center justify-center rounded-md px-3 text-sm font-semibold transition-colors ${
+                y === year
+                  ? "bg-primary text-primary-foreground shadow"
+                  : "border border-input bg-background hover:bg-accent hover:text-accent-foreground"
+              }`}
+            >
+              {y}
+            </a>
+          ))}
+
+          {showEllipsisRight && (
+            <>
+              <span class="px-1 text-muted-foreground text-sm">…</span>
+              <a href={`/events/all/${availableYears.at(-1)}`} class="inline-flex h-9 min-w-[4rem] items-center justify-center rounded-md border border-input bg-background px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground">
+                {availableYears.at(-1)}
+              </a>
+            </>
+          )}
+
+          {nextYear ? (
+            <a
+              href={`/events/all/${nextYear}`}
+              class="inline-flex h-9 items-center gap-1 rounded-md border border-input bg-background px-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+              aria-label={`Next year: ${nextYear}`}
+            >
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+          ) : (
+            <span class="inline-flex h-9 cursor-not-allowed items-center rounded-md border border-input bg-background px-3 text-sm font-medium opacity-40">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </span>
+          )}
+        </div>
+      );
+    })()}
 
     <EventListView client:load events={yearEvents} gameReleases={yearGames} />
   </div>

@@ -7,15 +7,27 @@
   "status": "released",
   "release_date": "2023-12-04",
   "companies": {
-    "developer": ["ice-beam"],
+    "developer": [
+      "ice-beam"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["racing", "multiplayer"],
-  "platforms": ["pc", "switch", "ps4", "ps5", "xbox-one", "xbox-series-xs"],
+  "genres": [
+    "racing",
+    "multiplayer"
+  ],
+  "platforms": [
+    "pc",
+    "switch",
+    "ps4",
+    "ps5",
+    "xbox-one",
+    "xbox-series-xs"
+  ],
   "screenshots": [],
   "stores": {
     "steam": "1445790",
@@ -34,5 +46,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/make-way/cover.webp"
 }

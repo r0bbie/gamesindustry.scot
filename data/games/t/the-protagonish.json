@@ -7,15 +7,22 @@
   "status": "released",
   "release_date": "2024-10-24",
   "companies": {
-    "developer": ["college-fun-games"],
+    "developer": [
+      "college-fun-games"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["point-and-click", "adventure"],
-  "platforms": ["pc"],
+  "genres": [
+    "point-and-click",
+    "adventure"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "steam": "2994780",
@@ -32,5 +39,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-protagonish/cover.webp"
 }

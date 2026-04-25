@@ -74,6 +74,19 @@ function nthWeekdayOfMonth(year: number, month: number, dayName: string, n: numb
 }
 
 function getRecurringDaysForMonth(rule: RecurrenceRule, year: number, month: number): number[] {
+  if (rule.frequency === "weekly" && rule.start_date) {
+    const ref = new Date(rule.start_date + "T00:00:00");
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const results: number[] = [];
+    for (let d = 1; d <= daysInMonth; d++) {
+      const date = new Date(year, month, d);
+      if (date >= ref) {
+        const diffDays = Math.round((date.getTime() - ref.getTime()) / 86_400_000);
+        if (diffDays % 7 === 0) results.push(d);
+      }
+    }
+    return results;
+  }
   if (rule.frequency === "biweekly" && rule.start_date && rule.day) {
     const dow = DAY_NAMES.indexOf(rule.day.toLowerCase());
     if (dow === -1) return [];

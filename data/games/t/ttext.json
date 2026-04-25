@@ -7,7 +7,9 @@
   "status": "released",
   "release_date": "2021",
   "companies": {
-    "developer": ["somewhat-unsettling"],
+    "developer": [
+      "somewhat-unsettling"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
@@ -26,8 +28,13 @@
   "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "Abertay Alt Controller Jam", "year": 2023, "status": "participated" }
+    {
+      "name": "Abertay Alt Controller Jam",
+      "year": 2023,
+      "status": "participated"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ttext/cover.webp"
 }

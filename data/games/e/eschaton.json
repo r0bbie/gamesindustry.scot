@@ -3,27 +3,33 @@
   "title": "Eschaton",
   "slug": "eschaton",
   "status": "released",
-  "release_date": "2023",
+  "release_date": "2022-11-03",
+  "short_description": "Eschaton is a short, experimental, surreal first-person exploration game. Explore the 'aftermath' of a cult ritual in the grounds of a manor in the remote and picturesque Scottish Highlands.",
   "companies": {
-    "developer": ["jabuga"],
-    "publishers": [],
-    "service_companies": [],
-    "used_tooling": [],
-    "supported_by": [],
-    "contributed_by": []
+    "developer": [
+      "sojourn-interactive"
+    ]
   },
-  "genres": [],
-  "platforms": [],
-  "screenshots": [],
-  "stores": {},
-  "play_now": {},
-  "physical_stores": {},
-  "critic_ratings": {},
-  "critic_ids": {},
-  "database_links": {},
+  "platforms": ["pc"],
+  "stores": {
+    "steam": "1951940",
+    "itch": "jabuga/eschaton"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "zdls9eP7N2I"
+  },
+  "database_links": {
+    "backloggd": "eschaton"
+  },
   "awards": [
-    { "name": "Scottish Games Awards - Audio", "year": 2023, "status": "won" }
+    {
+      "name": "Scottish Games Awards — Audio",
+      "year": 2023,
+      "status": "won"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/eschaton/cover.webp"
 }

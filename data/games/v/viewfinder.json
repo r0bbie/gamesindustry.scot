@@ -5,25 +5,57 @@
   "status": "released",
   "release_date": "2023-07-18",
   "companies": {
-    "developer": ["sad-owl-studios"],
-    "publishers": [{ "name": "Thunderful", "url": "https://thunderfulgames.com/" }],
+    "developer": [
+      "sad-owl-studios"
+    ],
+    "publishers": [
+      {
+        "name": "Thunderful",
+        "url": "https://thunderfulgames.com/"
+      }
+    ],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["puzzle"],
-  "platforms": ["pc", "ps5"],
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "ps5",
+    "xbox-series-xs",
+    "switch",
+    "ps4"
+  ],
+  "short_description": "Viewfinder is a puzzle game where you can reshape the world around you by taking photos with an instant camera.",
+  "video": {
+    "type": "youtube",
+    "id": "crteKROYkHM"
+  },
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "steam": "1382070",
+    "psn": "https://www.playstation.com/en-gb/games/viewfinder/",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/viewfinder-switch/",
+    "gog": "viewfinder",
+    "xbox": "https://www.xbox.com/en-us/games/store/viewfinder/9njcvsssx3r9",
+    "epic": "viewfinder-61691c"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
   "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "Scottish Games Awards - Technical Achievement", "year": 2023, "status": "won" }
+    {
+      "name": "Scottish Games Awards - Technical Achievement",
+      "year": 2023,
+      "status": "won"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/viewfinder/cover.webp"
 }

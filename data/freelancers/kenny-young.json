@@ -1,0 +1,25 @@
+{
+  "id": "kenny-young",
+  "name": "Kenny Young",
+  "trading_name": "AudBod",
+  "slug": "kenny-young",
+  "discipline": "audio",
+  "bio": "A 6x academy (BAFTA, AIAS) nominated composer, sound designer, audio director and music supervisor, Kenny Young is an interactive audio veteran with a track record in helping to create world-class video game IP. From the hand-made soundscapes and soundtracks of Media Molecule's LittleBigPlanet and Tearaway franchises, to the digitally-infused, infectious pop of Sony Japan Studio's Astro Bot games, Kenny consistently manifests unique audio experiences that fit like a glove.",
+  "short_bio": "6x BAFTA/AIAS nominated composer, sound designer and audio director — creator of audio for LittleBigPlanet, Tearaway and Astro Bot.",
+  "photo": "",
+  "website": "",
+  "email": "kenny@audbod.com",
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "links": {
+    "linkedin": "kcmyoung",
+    "twitter": "kcmyoung",
+    "bluesky": "kcmyoung.bsky.social"
+  },
+  "testimonials": [
+    {
+      "quote": "There are perfectionists in this world, and then there is Kenny who takes it to another level – I mean wow! I've had the privilege to work with Kenny for many years and his wonderful ability to always combine originality with tradition, slickness with charm, is unique to him. Everything he touches, with both absolute devotion and meticulous execution, turns in to Kenny gold.",
+      "attribution": "Kareem Ettouney, Co-Founder & Art Director, Media Molecule"
+    }
+  ]
+}

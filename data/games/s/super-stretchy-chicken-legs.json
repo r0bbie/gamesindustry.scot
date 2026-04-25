@@ -3,9 +3,12 @@
   "title": "Super Stretchy Chicken Legs",
   "slug": "super-stretchy-chicken-legs",
   "status": "released",
-  "release_date": "2023",
+  "release_date": "2023-04-07",
+  "short_description": "It's got a chicken! She's got stretchy legs! It's Super Stretchy Chicken Legs! Help Chicken escape the horrors of the Nibz Chicken Bitz factory in this swipe 'n' stretch puzzle-platformer for iOS and Android.",
   "companies": {
-    "developer": ["ping-creates"],
+    "developer": [
+      "ping-creates"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
@@ -13,17 +16,33 @@
     "contributed_by": []
   },
   "genres": [],
-  "platforms": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "website": "https://superstretchychickenlegs.com/",
+    "app_store": "id1630758994",
+    "play_store": "com.pingcreates.SuperStretchyChickenLegs"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "Nr6IpRaP1aU"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
   "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "Scottish Games Awards - Art and Animation", "year": 2023, "status": "nominated" }
+    {
+      "name": "Scottish Games Awards - Art and Animation",
+      "year": 2023,
+      "status": "nominated"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/super-stretchy-chicken-legs/cover.webp"
 }

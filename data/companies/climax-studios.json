@@ -1,0 +1,42 @@
+{
+  "id": "climax-studios",
+  "name": "Climax Studios",
+  "slug": "climax-studios",
+  "categories": [
+    "service_provider",
+    "developer"
+  ],
+  "status": "active",
+  "founded": null,
+  "previously_known_as": [],
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "additional_locations": ["London", "Portsmouth", "Liverpool"],
+  "website": "https://www.climaxstudios.com",
+  "logo": null,
+  "highlighted": false,
+  "parent_entity": {
+    "name": "Keywords Studios",
+    "url": "https://www.keywordsstudios.com"
+  },
+  "company_size": null,
+  "short_description": "Climax Studios works with the world's top developers on the headline games that define our industry.",
+  "about": "Climax Studios works with the world's top developers on the headline games that define our industry.\n\nCreative, art, tech solutions, full game development: whatever our clients and collaborators need, they know we can deliver.\n\nIn August 2024, Climax opened a new studio in Edinburgh, adding to their existing offices in London, Portsmouth, and Liverpool.",
+  "links": {
+    "linkedin": "climax",
+    "twitter": "climaxstudios",
+    "youtube": "@ClimaxStudios"
+  },
+  "use_tooling": [],
+  "key_people": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "Climax opens new studio in Scotland",
+      "publication": "GamesIndustry.biz",
+      "date": "2024-08-19",
+      "url": "https://www.gamesindustry.biz/climax-opens-new-studio-in-scotland"
+    }
+  ]
+}

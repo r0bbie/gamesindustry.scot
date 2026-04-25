@@ -1,11 +1,14 @@
 {
   "id": "beat-blocks",
-  "title": "Beat Blocks",
+  "title": "BeatBlocks",
   "slug": "beat-blocks",
   "status": "released",
   "release_date": "2023",
+  "short_description": "BeatBlocks is a fun music-making app for iPhone and iPad that lets you build music in the real world using LEGO and other construction bricks.",
   "companies": {
-    "developer": ["playable-tech"],
+    "developer": [
+      "playable-tech"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
@@ -13,17 +16,31 @@
     "contributed_by": []
   },
   "genres": [],
-  "platforms": [],
+  "platforms": [
+    "ios"
+  ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "website": "https://playable.tech/beatblocks-overview",
+    "app_store": "id1558175877"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "oXQaikEsJgA"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
   "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "Scottish Games Awards - Pure Quality", "year": 2023, "status": "nominated" }
+    {
+      "name": "Scottish Games Awards - Pure Quality",
+      "year": 2023,
+      "status": "nominated"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/beat-blocks/cover.webp"
 }

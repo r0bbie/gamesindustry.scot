@@ -551,6 +551,16 @@ const recentNews = companyNews.slice(0, 5);
                 )
               }
               {
+                company.additional_locations.length > 0 && (
+                  <div>
+                    <dt class="text-xs text-muted-foreground">Other locations</dt>
+                    <dd class="text-sm font-medium">
+                      {company.additional_locations.join(", ")}
+                    </dd>
+                  </div>
+                )
+              }
+              {
                 company.parent_entity && (
                   <div>
                     <dt class="text-xs text-muted-foreground">

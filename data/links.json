@@ -6,7 +6,8 @@
         { "name": "Scottish Games Network", "url": "https://scottishgames.net", "description": "Community network for Scottish game developers" },
         { "name": "Scottish Game Developers Association", "url": "https://sgda.co.uk", "description": "Trade body representing Scottish game development studios" },
         { "name": "TIGA", "url": "https://tiga.org", "description": "The trade association representing the UK games industry" },
-        { "name": "UKIE", "url": "https://ukie.org.uk", "description": "The trade association for the UK interactive entertainment industry" }
+        { "name": "UKIE", "url": "https://ukie.org.uk", "description": "The trade association for the UK interactive entertainment industry" },
+        { "name": "IWGB Game Workers Union", "url": "https://www.gameworkers.co.uk", "description": "Largest union for video game workers in the UK" }
       ]
     },
     {
@@ -20,11 +21,12 @@
     {
       "title": "Social Groups",
       "links": [
+        { "name": "EdIndies", "url": "https://edindi.es", "description": "Inclusive group of game devs meeting for co-working, playtesting, and chat." },
         { "name": "Edinburgh Video-Gamers", "url": "https://www.meetup.com/edinburgh-local-video-gamers/", "description": "Group for video gamers primarily in Scotland and Edinburgh." },
-        { "name": "Scottish Gaymers", "url": "https://www.facebook.com/groups/scottishgaymers/", "description": "Scottish Gaymers is an inclusive group for LGBT gamers and allies in Scotland." },
         { "name": "Game Dev Edinburgh", "url": "https://bsky.app/profile/gamedeved.bsky.social", "description": "Social meet-up for Edinburgh game devs of any age, stage and discipline." },
-        { "name": "Videogames Glasgow", "url": "https://www.meetup.com/videogames-glasgow/", "description": "Monthly meetup for Game Developers, Game Critics and Journalists." },
-        { "name": "Indie Game Squad", "url": "https://www.indiegamesquad.co.uk/", "description": "Elgin-based collective, organising meetups and game jams." }
+        { "name": "Indie Game Squad", "url": "https://www.indiegamesquad.co.uk/", "description": "Elgin-based collective, organising meetups and game jams." },
+        { "name": "Scottish Gaymers", "url": "https://www.facebook.com/groups/scottishgaymers/", "description": "Scottish Gaymers is an inclusive group for LGBT gamers and allies in Scotland." },
+        { "name": "Videogames Glasgow", "url": "https://www.meetup.com/videogames-glasgow/", "description": "Monthly meetup for Game Developers, Game Critics and Journalists." }
       ]
     },
     {

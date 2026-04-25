@@ -6,15 +6,27 @@
     "developer"
   ],
   "status": "active",
+  "founded": 2016,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "https://www.punyastronaut.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "11-50",
+  "links": {
+    "twitter": "skyetalesgame",
+    "linkedin": "puny-astronaut"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Skye Tales Review - cosy game launches on PlayStation and Steam - how to buy",
+      "publication": "The Scotsman",
+      "date": "2023-08-17",
+      "url": "https://www.scotsman.com/read-this/skye-tales-launches-on-playstation-4259402"
+    }
+  ]
 }

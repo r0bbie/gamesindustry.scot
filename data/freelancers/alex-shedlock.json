@@ -1,0 +1,41 @@
+{
+  "id": "alex-shedlock",
+  "name": "Alex Shedlock",
+  "slug": "alex-shedlock",
+  "discipline": "writer",
+  "photo": "",
+  "website": "https://shedlock.xyz/",
+  "links": {
+    "linkedin": "alex-shedlock-ab70ab79"
+  },
+  "testimonials": [
+    {
+      "quote": "Alex was awesome to work with during the production of The Solus Project. He was a big help with detailing out the story and voice acting, along with press and community assistance. His reliability, consistency, and communication skills were top notch and he was a pleasure to work with. I can definitely recommend him.",
+      "attribution": "Sjoerd \"Hourences\" De Jong – Director, Teotl Studios (The Solus Project)"
+    },
+    {
+      "quote": "It's clear Alex cares about the quality of his work and he wants to see the projects he's part of succeed. He is very pleasant to work with, reliable and understanding, and always stays professional. He works fast and consistently delivers writing of very good quality that is engaging, original and manages to not only stay consistent with the preexisting lore, but also enrich it.",
+      "attribution": "Berenika Gotujuch – Lead Writer, Robot Gentleman (60 Parsecs!)"
+    },
+    {
+      "quote": "Alex is a skilled and disciplined writer who has a firm grip on the intricacies of game development. He always delivered his work on time and at high quality, expertly adapting to the narrative style and tone of the project. In addition, Alex is friendly, highly communicative and open-minded, all of which makes him a perfect partner for any creative endeavor.",
+      "attribution": "Radek Smektala – Lead Game Designer, Robot Gentleman (60 Parsecs!)"
+    },
+    {
+      "quote": "Alex is a passionate and responsible writer. VR games are a particularly new segment of the gaming industry and have their constraints in terms of storytelling and structuring. It takes a patient and dedicated writer like Alex to surmount those limitations and work with a studio to craft complementary storylines.",
+      "attribution": "Edi Torres – Creative Visualiser, Swagsoft (Sairento VR)"
+    },
+    {
+      "quote": "Working with Alex has been a smooth and enjoyable process, despite all the constraints, cuts and changes the script required. He had the patience to deal with us and the skills to make Aragami's plot a thing mortals could understand.",
+      "attribution": "Álvaro Muñoz Vargas – Co-founder, Lince Works Ltd (Aragami)"
+    },
+    {
+      "quote": "Alex's work on Espire 1: VR Operative quickly expanded beyond narrative and high level concepting. He drew upon his acute awareness of VR interactions to influence the game's low level gameplay mechanic and encounter design. Having worked on some of VR's most successful indie titles, Alex made an invaluable contribution to the Espire prototype's pitch materials, forecasts and development strategy.",
+      "attribution": "Michael Wentworth-Bell – Owner/director (Espire VR)"
+    },
+    {
+      "quote": "Alex was a breeze to work with, and was able to adapt himself to my specific workflows for my project without any hassle. Not only did he deliver on time, but he delivered quality work with updates on request within reason. I would recommend Alex for any of your future projects.",
+      "attribution": "Jacob Janerka – Owner/director (Paradigm)"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "farewell-north",
+  "title": "Farewell North",
+  "slug": "farewell-north",
+  "status": "released",
+  "release_date": "2024-08-16",
+  "short_description": "Play as a border collie and restore color to your human's world in an atmospheric journey through the northern isles of Scotland. Explore land and sea, uncover hidden paths, herd animals and free wildlife to bring color back to her world, while revealing an emotional story about saying farewell.",
+  "press_kit_url": "https://www.mooneyestudios.com/press/farewellnorth",
+  "companies": {
+    "developer": ["kyle-banks"],
+    "publishers": [
+      {
+        "name": "Mooneye Studios",
+        "url": "https://www.mooneyestudios.com/"
+      }
+    ]
+  },
+  "platforms": ["pc", "switch", "xbox-series-xs", "ps5"],
+  "stores": {
+    "website": "https://farewell-north.com",
+    "steam": "1432850",
+    "gog": "farewell_north",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/farewell-north-switch/",
+    "xbox": "https://www.xbox.com/en-gb/games/store/farewell-north/9ngqqb1z9v75",
+    "psn": "https://store.playstation.com/en-gb/concept/10012510"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "5RAca1trKmI"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "OUT NOW: Farewell North - Uncover a Unique Story About Saying Farewell",
+      "publication": "Scottish Games Network",
+      "date": "2024-08-21",
+      "url": "https://scottishgames.net/2024/08/21/out-now-farewell-north-pc-switch-xbox/"
+    }
+  ]
+}

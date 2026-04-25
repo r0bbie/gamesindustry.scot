@@ -1,0 +1,19 @@
+{
+  "id": "2026_04_16_glasgow-games-soapbox",
+  "name": "Glasgow Games Soapbox",
+  "slug": "2026-04-16-glasgow-games-soapbox",
+  "date_start": "2026-04-16",
+  "time": "17:30–20:30",
+  "location": "Reid Lecture Theatre, Reid Building, Glasgow School of Art, Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "recurring": false,
+  "organiser_name": "Videogames Glasgow",
+  "description": "An evening of talks about games and game development.",
+  "short_description": "An evening of talks about games and game development.",
+  "website": "https://www.meetup.com/videogames-glasgow/events/313497883/",
+  "icon": "",
+  "image": "https://secure.meetupstatic.com/photos/event/9/1/highres_523560145.webp?w=1080",
+  "tags": ["talk"],
+  "highlighted": false
+}

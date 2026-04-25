@@ -1,0 +1,24 @@
+{
+  "id": "edindies-gamedev-coworking",
+  "name": "EdIndies - Gamedev Co-working",
+  "slug": "edindies-gamedev-coworking",
+  "time": "13:00–16:00",
+  "location": "Levels Cafe, 9C Holyrood Road, Edinburgh",
+  "is_online": false,
+  "is_scottish": true,
+  "recurring": true,
+  "recurrence": {
+    "frequency": "weekly",
+    "start_date": "2026-04-18",
+    "day": "saturday",
+    "description": "Every Saturday from 1pm"
+  },
+  "organiser_name": "EdIndies",
+  "description": "We're an inclusive group of game developers in Edinburgh, meeting up for co-working, playtesting and chat.\n\nWe meet every Saturday from 1pm in the Levels Cafe, 9C Holyrood Road, everyone welcome, just bring yourself and something to work on, experience optional.",
+  "short_description": "Inclusive group of Edinburgh game devs meeting every Saturday for co-working, playtesting and chat.",
+  "website": "https://edindi.es",
+  "icon": "",
+  "image": "",
+  "tags": ["social"],
+  "highlighted": false
+}

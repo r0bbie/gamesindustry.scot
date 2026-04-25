@@ -56,6 +56,7 @@ export const DISCIPLINES = [
   { id: "qa", name: "QA" },
   { id: "production", name: "Production" },
   { id: "marketing_community", name: "Marketing & Community" },
+  { id: "operations", name: "Operations" },
 ] as const;
 
 export const EVENT_TAGS = [
