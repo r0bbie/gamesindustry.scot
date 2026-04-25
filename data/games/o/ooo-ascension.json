@@ -19,7 +19,7 @@
   "stores": {
     "steam": "905330",
     "nintendo_eshop": "https://www.nintendo.com/us/store/products/ooo-ascension-switch/",
-    "xbox": "https://www.xbox.com/en-gb/games/store/ooo-ascension/9p5sl4ldlmg3"
+    "xbox": "ooo-ascension/9p5sl4ldlmg3"
   },
   "video": {
     "type": "youtube",

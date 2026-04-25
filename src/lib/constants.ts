@@ -106,6 +106,15 @@ export function getDisciplineName(id: string): string {
   return DISCIPLINES.find((d) => d.id === id)?.name ?? id;
 }
 
+/** Strip /en-gb/ style locale prefix from Xbox store paths. */
+function stripXboxLocalePath(pathname: string): string {
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts.length > 0 && /^[a-z]{2}(-[a-z]{2})?$/i.test(parts[0])) {
+    parts.shift();
+  }
+  return "/" + parts.join("/");
+}
+
 export function buildStoreUrl(store: string, id: string): string {
   const urls: Record<string, (id: string) => string> = {
     steam: (id) => `https://store.steampowered.com/app/${id}`,
@@ -128,10 +137,22 @@ export function buildStoreUrl(store: string, id: string): string {
       id.startsWith("http")
         ? id
         : `https://store-global.picoxr.com/global/detail/1/${id}`,
-    xbox: (id) =>
-      id.startsWith("http")
-        ? id
-        : `https://www.xbox.com/en-GB/games/store/${id}`,
+    xbox: (id) => {
+      if (id.startsWith("http")) {
+        try {
+          const u = new URL(id);
+          const path = stripXboxLocalePath(u.pathname);
+          return `https://www.xbox.com${path}`;
+        } catch {
+          return id;
+        }
+      }
+      // Non-store paths (e.g. games/minecraft) — id includes leading "games/"
+      if (id.startsWith("games/")) {
+        return `https://www.xbox.com/${id}`;
+      }
+      return `https://www.xbox.com/games/store/${id}`;
+    },
     nintendo_eshop: (id) =>
       id.startsWith("http")
         ? id

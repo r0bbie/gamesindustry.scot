@@ -40,7 +40,7 @@
     "psn": "https://www.playstation.com/en-gb/games/viewfinder/",
     "nintendo_eshop": "https://www.nintendo.com/us/store/products/viewfinder-switch/",
     "gog": "viewfinder",
-    "xbox": "https://www.xbox.com/en-us/games/store/viewfinder/9njcvsssx3r9",
+    "xbox": "viewfinder/9njcvsssx3r9",
     "epic": "viewfinder-61691c"
   },
   "play_now": {},

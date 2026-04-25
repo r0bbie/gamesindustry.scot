@@ -39,7 +39,7 @@
   "stores": {
     "website": "https://4jstudios.com/minecraft/",
     "psn": "https://www.playstation.com/en-gb/games/minecraft/",
-    "xbox": "https://www.xbox.com/en-GB/games/minecraft"
+    "xbox": "games/minecraft"
   },
   "video": {
     "type": "youtube",
