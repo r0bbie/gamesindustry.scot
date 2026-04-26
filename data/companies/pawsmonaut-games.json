@@ -1,0 +1,39 @@
+{
+  "id": "pawsmonaut-games",
+  "name": "Pawsmonaut Games",
+  "slug": "pawsmonaut-games",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "founded": 2023,
+  "previously_known_as": [],
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "website": "https://www.pawsmonaut.games/",
+  "logo": null,
+  "highlighted": false,
+  "parent_entity": null,
+  "company_size": null,
+  "short_description": "Scottish solo-indie studio creating deep experiences without micro-transactions, battle passes or predatory monetisation.",
+  "about": "Pawsmonaut Games is a proud Scottish solo-independent game development studio, founded in 2023 to create deep, compelling experiences without micro-transactions, battle passes or predatory monetisation.",
+  "contact_email": "hello@pawsmonaut.games",
+  "links": {
+    "twitter": "Beacon_Dev",
+    "youtube": "@pawsmonautgames",
+    "linkedin": "pawsmonaut-games",
+    "discord": "https://discord.com/invite/shd7zPGR"
+  },
+  "use_tooling": [],
+  "key_people": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "OUT NOW: Pawsmonaut Games Launches AETHUS",
+      "publication": "Scottish Games Network",
+      "date": "2026-03-16",
+      "url": "https://scottishgames.net/2026/03/16/out-now-aethus-from-pawsmonaut-games/"
+    }
+  ]
+}

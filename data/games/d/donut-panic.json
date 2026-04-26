@@ -1,0 +1,35 @@
+{
+  "id": "donut-panic",
+  "title": "Donut Panic",
+  "slug": "donut-panic",
+  "status": "in_development",
+  "release_date": "2026",
+  "short_description": "An anomaly horror game with a cooking sim twist — take orders, serve donuts, and run when the hallucinations hit.",
+  "description": "Order up! DONUT PANIC is an anomaly horror game with a cooking sim twist. Take customer orders. Prepare and serve up delicious donuts. But when the hallucinations appear, run for your life. Your panic room is there for a reason...",
+  "companies": {
+    "developer": [
+      "kyle-banks"
+    ]
+  },
+  "platforms": [
+    "pc"
+  ],
+  "stores": {
+    "steam": "3910750"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "8huukS6iaTA"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "Order Up: Farewell North Creator Kyle Banks Returns with Anomaly Horror 'Donut Panic'",
+      "publication": "Scottish Games Network",
+      "date": "2026-03-19",
+      "url": "https://scottishgames.net/2026/03/19/donut-panic-kyle-banks-announces-new-game/"
+    }
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/donut-panic/cover.webp"
+}

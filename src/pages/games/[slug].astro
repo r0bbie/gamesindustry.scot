@@ -13,6 +13,7 @@ import {
   buildPlayUrl,
   buildCriticUrl,
   buildDatabaseUrl,
+  getAwardStatusLabel,
   GITHUB_REPO,
 } from "@/lib/constants";
 import PlatformIcons from "@/components/games/PlatformIcons.astro";
@@ -522,7 +523,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                         : "border-border bg-muted text-muted-foreground",
                     ]}
                   >
-                    {award.status === "won" ? "Won" : award.status === "nominated" ? "Nominated" : award.status === "shortlisted" ? "Shortlisted" : award.status === "participated" ? "Participated" : "Selected"}
+                    {getAwardStatusLabel(award.status)}
                   </span>
                 </div>
               ))}
@@ -552,7 +553,7 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
                           : "border-border bg-muted text-muted-foreground",
                       ]}
                     >
-                      {award.status === "won" ? "Won" : award.status === "nominated" ? "Nominated" : award.status === "shortlisted" ? "Shortlisted" : award.status === "participated" ? "Participated" : "Selected"}
+                      {getAwardStatusLabel(award.status)}
                     </span>
                   </div>
                 ))}

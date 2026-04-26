@@ -19,6 +19,7 @@ import {
   buildSocialUrl,
   getCompanySizeLabel,
   getCompanySizeEntry,
+  getAwardStatusLabel,
   GITHUB_REPO,
 } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
@@ -1233,7 +1234,7 @@ const recentNews = companyNews.slice(0, 5);
                 <Badge
                   variant={award.status === "won" ? "default" : "secondary"}
                 >
-                  {award.status === "won" ? "Won" : "Nominated"}
+                  {getAwardStatusLabel(award.status)}
                 </Badge>
               </div>
             ))}

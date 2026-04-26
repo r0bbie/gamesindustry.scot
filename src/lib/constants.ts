@@ -106,6 +106,24 @@ export function getDisciplineName(id: string): string {
   return DISCIPLINES.find((d) => d.id === id)?.name ?? id;
 }
 
+/** Human-readable label for game / company award `status` values. */
+export function getAwardStatusLabel(status: string): string {
+  switch (status) {
+    case "won":
+      return "Won";
+    case "nominated":
+      return "Nominated";
+    case "shortlisted":
+      return "Shortlisted";
+    case "participated":
+      return "Participated";
+    case "selected":
+      return "Selected";
+    default:
+      return status;
+  }
+}
+
 /** Strip /en-gb/ style locale prefix from Xbox store paths. */
 function stripXboxLocalePath(pathname: string): string {
   const parts = pathname.split("/").filter(Boolean);

@@ -1,0 +1,36 @@
+{
+  "id": "aethus",
+  "title": "AETHUS",
+  "slug": "aethus",
+  "status": "released",
+  "release_date": "2026-03-06",
+  "short_description": "Top-down sci-fi survival-crafter: mine a vast underground world, expand your surface outpost, and follow a story that always gives you a reason to dig deeper.",
+  "description": "Explore a vast underground world to mine and craft hundreds of items while building up your modular Outpost on the surface, to prospect for gems, refine resources and farm hydroponic crops in this top-down sci-fi survival-crafter where the story always provides a reason to dig deeper.",
+  "press_kit_url": "https://www.pawsmonaut.games/press/product/",
+  "companies": {
+    "developer": [
+      "pawsmonaut-games"
+    ]
+  },
+  "platforms": [
+    "pc"
+  ],
+  "stores": {
+    "steam": "2541530"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "OkjRrIMM3bA"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "OUT NOW: Pawsmonaut Games Launches AETHUS",
+      "publication": "Scottish Games Network",
+      "date": "2026-03-16",
+      "url": "https://scottishgames.net/2026/03/16/out-now-aethus-from-pawsmonaut-games/"
+    }
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/aethus/cover.webp"
+}

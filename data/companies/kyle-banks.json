@@ -15,8 +15,8 @@
   "highlighted": false,
   "parent_entity": null,
   "company_size": null,
-  "short_description": "Edinburgh-based game developer behind Farewell North.",
-  "about": "Edinburgh-based game developer behind Farewell North.",
+  "short_description": "Edinburgh-based game developer behind Farewell North and Donut Panic.",
+  "about": "Edinburgh-based game developer behind Farewell North and Donut Panic.",
   "contact_email": "kyle@kwbanks.com",
   "links": {
     "twitter": "kylewbanks",
@@ -33,5 +33,12 @@
       "status": "participated"
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "Order Up: Farewell North Creator Kyle Banks Returns with Anomaly Horror 'Donut Panic'",
+      "publication": "Scottish Games Network",
+      "date": "2026-03-19",
+      "url": "https://scottishgames.net/2026/03/19/donut-panic-kyle-banks-announces-new-game/"
+    }
+  ]
 }
