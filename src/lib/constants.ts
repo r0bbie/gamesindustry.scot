@@ -182,8 +182,12 @@ export function buildStoreUrl(store: string, id: string): string {
           ? `https://${id}`
           : `https://${id}.itch.io`,
     green_man_gaming: (id) => `https://www.greenmangaming.com/games/${id}`,
-    app_store: (id) => `https://apps.apple.com/app/${id}`,
-    play_store: (id) => `https://play.google.com/store/apps/details?id=${id}`,
+    app_store: (id) =>
+      id.startsWith("http") ? id : `https://apps.apple.com/app/${id}`,
+    play_store: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://play.google.com/store/apps/details?id=${id.split("&")[0]}`,
     amazon_appstore: (id) => `https://www.amazon.com/dp/${id}`,
     samsung_galaxy: (id) => `https://galaxystore.samsung.com/detail/${id}`,
     indiegala: (id) => `https://www.indiegala.com/store/product/${id}`,
@@ -206,6 +210,7 @@ export function buildPlayUrl(platform: string, id: string): string {
     armor_games: (id) => `https://armorgames.com/play/${id}`,
     web: (id) => id,
     website: (id) => id,
+    viverse: (id) => id.startsWith("http") ? id : `https://www.viverse.com/${id}`,
   };
   return urls[platform]?.(id) ?? `#unknown-platform-${platform}`;
 }

@@ -7,14 +7,40 @@
   "status": "released",
   "release_date": "1999-11-04",
   "companies": {
-    "developer": ["vis-entertainment"],
-    "publishers": [{ "name": "Interplay Entertainment", "url": "https://en.wikipedia.org/wiki/Interplay_Entertainment" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "vis-entertainment"
+    ],
+    "publishers": [
+      {
+        "name": "Interplay Entertainment",
+        "url": "https://en.wikipedia.org/wiki/Interplay_Entertainment"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["platformer", "action-adventure"],
-  "platforms": ["n64", "pc"],
-  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "Earthworm_Jim_3D", "mobygames": "earthworm-jim-3d" },
-  "awards": [], "news": [], "is_student_game": false
+  "genres": [
+    "platformer",
+    "action-adventure"
+  ],
+  "platforms": [
+    "n64",
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Earthworm_Jim_3D",
+    "mobygames": "earthworm-jim-3d"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/earthworm-jim-3d/cover.webp"
 }

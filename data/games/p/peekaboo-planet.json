@@ -1,0 +1,31 @@
+{
+  "id": "peekaboo-planet",
+  "title": "Peekaboo Planet",
+  "slug": "peekaboo-planet",
+  "status": "released",
+  "release_date": "2015-07-14",
+  "short_description": "A colourful, tranquil planet of hidden creatures for children to discover — then take the fun outdoors.",
+  "description": "Explore a colourful, tranquil planet full of all kinds of creatures just waiting to be discovered: a grumpy badger who just wants to be left alone to read; a high-kicking fox hiding by the hen-house; a curled-up hedgehog ready to spring from a pile of fallen leaves; and a whole menagerie more. Encourage your children to find the hidden beasts, then why not go and explore the real world on your doorstep!",
+  "companies": {
+    "developer": [
+      "ping-creates"
+    ]
+  },
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stores": {
+    "website": "https://peekabooplanet.com",
+    "app_store": "id925669838",
+    "play_store": "com.pingcreates.PeekabooPlanet"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "96jQiBgqEv0"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "cover_image": "https://media.gamesindustry.scot/games/peekaboo-planet/cover.webp"
+}

@@ -3,9 +3,16 @@
   "title": "RADtv",
   "slug": "radtv",
   "status": "released",
-  "release_date": "2019",
+  "release_date": "2019-08-02",
+  "short_description": "Shoot, eat, throw, slice, feed, hit, catch and more in RADtv, a hot-seat multiplayer VR party game.",
+  "description": "Shoot, eat, throw, slice, feed, hit, catch and more in RADtv, a hot-seat multiplayer VR party game. Get sweaty with your friends as you vie to come top of the leaderboard!",
   "companies": {
-    "developer": [{ "name": "Ruffian Games", "company_id": "rockstar-dundee" }],
+    "developer": [
+      {
+        "name": "Ruffian Games",
+        "company_id": "rockstar-dundee"
+      }
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
@@ -13,9 +20,17 @@
     "contributed_by": []
   },
   "genres": [],
-  "platforms": ["pc"],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "steam": "649240"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "qyF3hkahZm4"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
@@ -23,5 +38,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/radtv/cover.webp"
 }

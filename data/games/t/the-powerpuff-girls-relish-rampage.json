@@ -7,14 +7,39 @@
   "status": "released",
   "release_date": "2002-11-25",
   "companies": {
-    "developer": ["vis-entertainment"],
-    "publishers": [{ "name": "BAM! Entertainment", "url": "https://en.wikipedia.org/wiki/BAM!_Entertainment" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "vis-entertainment"
+    ],
+    "publishers": [
+      {
+        "name": "BAM! Entertainment",
+        "url": "https://en.wikipedia.org/wiki/BAM!_Entertainment"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["action-adventure"],
-  "platforms": ["ps2", "gamecube"],
-  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "The_Powerpuff_Girls:_Relish_Rampage", "mobygames": "the-powerpuff-girls-relish-rampage" },
-  "awards": [], "news": [], "is_student_game": false
+  "genres": [
+    "action-adventure"
+  ],
+  "platforms": [
+    "ps2",
+    "gamecube"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "The_Powerpuff_Girls:_Relish_Rampage",
+    "mobygames": "the-powerpuff-girls-relish-rampage"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-powerpuff-girls-relish-rampage/cover.webp"
 }

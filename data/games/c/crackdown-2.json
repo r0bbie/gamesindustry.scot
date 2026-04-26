@@ -7,19 +7,42 @@
   "release_date": "2010-07-06",
   "status": "released",
   "companies": {
-    "developer": [{ "name": "Ruffian Games", "company_id": "rockstar-dundee" }],
-    "publishers": [{ "name": "Microsoft Studios", "url": "https://www.xbox.com/" }],
+    "developer": [
+      {
+        "name": "Ruffian Games",
+        "company_id": "rockstar-dundee"
+      }
+    ],
+    "publishers": [
+      {
+        "name": "Microsoft Studios",
+        "url": "https://www.xbox.com/"
+      }
+    ],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["action", "open-world"],
-  "platforms": ["xbox-360"],
+  "genres": [
+    "action",
+    "open-world"
+  ],
+  "platforms": [
+    "xbox-360"
+  ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "xbox": "crackdown-2/c0mkh58nbhrg"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "jU70Kz2_mFU"
+  },
   "play_now": {},
-  "physical_stores": {},
+  "physical_stores": {
+    "amazon_uk": "B002BRZ8BQ"
+  },
   "critic_ratings": {
     "metacritic": 70
   },
@@ -33,5 +56,6 @@
   },
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/crackdown-2/cover.webp"
 }

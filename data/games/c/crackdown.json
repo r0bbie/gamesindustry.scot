@@ -17,7 +17,13 @@
   "genres": ["action", "open-world"],
   "platforms": ["xbox-360"],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "xbox": "crackdown/C3VNJHHD7MM4/0001"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "zST2Gb1ciCE"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {

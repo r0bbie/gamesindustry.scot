@@ -7,14 +7,39 @@
   "status": "released",
   "release_date": "1998-10-15",
   "companies": {
-    "developer": ["vis-entertainment"],
-    "publishers": [{ "name": "Hasbro Interactive", "url": "https://en.wikipedia.org/wiki/Hasbro_Interactive" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "vis-entertainment"
+    ],
+    "publishers": [
+      {
+        "name": "Hasbro Interactive",
+        "url": "https://en.wikipedia.org/wiki/Hasbro_Interactive"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["action", "arcade"],
-  "platforms": ["pc"],
-  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "H.E.D.Z.", "mobygames": "hedz-head-extreme-destruction-zone" },
-  "awards": [], "news": [], "is_student_game": false
+  "genres": [
+    "action",
+    "arcade"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "H.E.D.Z.",
+    "mobygames": "hedz-head-extreme-destruction-zone"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/hedz/cover.webp"
 }

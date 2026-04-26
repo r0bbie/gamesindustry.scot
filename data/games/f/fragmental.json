@@ -3,19 +3,37 @@
   "title": "Fragmental",
   "slug": "fragmental",
   "status": "released",
-  "release_date": "2017",
+  "release_date": "2017-12-20",
+  "short_description": "An intense couch-play multiplayer twin-stick shooter with some of the fastest and most frantic gameplay around.",
+  "description": "An intense couch-play multiplayer twin-stick shooter with some of the fastest and most frantic gameplay around. It's a single screen, explosive arcade blast of fun where the weapons and levels are deadly and the rivalry is fierce.",
   "companies": {
-    "developer": [{ "name": "Ruffian Games", "company_id": "rockstar-dundee" }],
+    "developer": [
+      {
+        "name": "Ruffian Games",
+        "company_id": "rockstar-dundee"
+      }
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["action", "arcade"],
-  "platforms": ["pc"],
+  "genres": [
+    "action",
+    "arcade"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "steam": "424040"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "1weJ1kFTcws"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
@@ -23,5 +41,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fragmental/cover.webp"
 }

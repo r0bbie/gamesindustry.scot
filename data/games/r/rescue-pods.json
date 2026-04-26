@@ -1,0 +1,26 @@
+{
+  "id": "rescue-pods",
+  "title": "Rescue Pods",
+  "slug": "rescue-pods",
+  "status": "prototype",
+  "release_date": "2001",
+  "short_description": "Classic web game from Ping Creates — pilot rescue pods at rescuepods.co.uk.",
+  "companies": {
+    "developer": [
+      "ping-creates"
+    ]
+  },
+  "platforms": [
+    "browser"
+  ],
+  "stores": {
+    "website": "https://pingcreates.com/work-detail/rescue-pods/"
+  },
+  "play_now": {
+    "web": "https://rescuepods.co.uk/"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "cover_image": "https://media.gamesindustry.scot/games/rescue-pods/cover.webp"
+}

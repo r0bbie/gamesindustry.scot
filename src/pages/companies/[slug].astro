@@ -20,6 +20,7 @@ import {
   getCompanySizeLabel,
   getCompanySizeEntry,
   getAwardStatusLabel,
+  getDisciplineName,
   GITHUB_REPO,
 } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
@@ -1056,7 +1057,7 @@ const recentNews = companyNews.slice(0, 5);
                 <div>
                   <h3 class="font-medium">{job.title}</h3>
                   <div class="mt-1 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-muted-foreground">
-                    <span>{job.discipline}</span>
+                    <span>{getDisciplineName(job.discipline)}</span>
                     <span>&middot;</span>
                     <span class="capitalize">{job.type}</span>
                     {job.work_mode && (
