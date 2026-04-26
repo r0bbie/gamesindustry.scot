@@ -1,0 +1,28 @@
+{
+  "id": "bite-size-games",
+  "name": "Bite Size Games",
+  "slug": "bite-size-games",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "previously_known_as": [],
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "short_description": "Studio brand and publishing label of Outplay Entertainment for casual mobile games and original IP.",
+  "about": "Bite Size Games is a subsidiary of Outplay Entertainment. Outplay uses the Bite Size Games brand alongside its main Outplay label for casual mobile titles and related IP, including games developed in partnership with publishers and licensors.",
+  "website": "https://www.outplay.com",
+  "contact_email": "info@outplay.com",
+  "logo": "/images/companies/bite-size-games/full_logo.png",
+  "highlighted": false,
+  "parent_entity": {
+    "name": "Outplay Entertainment",
+    "company_id": "outplay-entertainment"
+  },
+  "links": {},
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

@@ -2,6 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import {
   getAllCompanies,
+  getChildCompanies,
   getCompanyBySlug,
   getGamesForCompany,
   getJobsForCompany,
@@ -60,6 +61,8 @@ if (company.parent_entity?.company_id) {
     `company-${company.id}`
   );
 }
+
+const childCompanies = await getChildCompanies(company.id);
 
 // Resolve use_tooling → tool records
 const toolingRefs = await resolveToolIds(
@@ -588,6 +591,29 @@ const recentNews = companyNews.slice(0, 5);
                       ) : (
                         company.parent_entity.name
                       )}
+                    </dd>
+                  </div>
+                )
+              }
+              {
+                childCompanies.length > 0 && (
+                  <div>
+                    <dt class="text-xs text-muted-foreground">
+                      Subsidiaries
+                    </dt>
+                    <dd class="text-sm font-medium">
+                      <ul class="m-0 list-none space-y-1.5 p-0">
+                        {childCompanies.map((child) => (
+                          <li>
+                            <a
+                              href={`/companies/${child.slug}`}
+                              class="text-primary hover:underline"
+                            >
+                              {child.name}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
                     </dd>
                   </div>
                 )

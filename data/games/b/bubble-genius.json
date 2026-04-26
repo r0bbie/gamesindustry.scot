@@ -1,0 +1,47 @@
+{
+  "id": "bubble-genius",
+  "title": "Bubble Genius",
+  "slug": "bubble-genius",
+  "status": "released",
+  "release_date": "2015-11-11",
+  "short_description": "Help inventor Penny and robot Gizmo save their town from evil scientist Vee — pop bubbles and free the fuzzy Furbbles!",
+  "description": "Help Penny, an inquisitive inventor, and her loveable robot Gizmo, as they fight to save their town from the evil scientist Vee and her wicked schemes! Using creative contraptions, pop to the top and burst bubbles to free the fuzzy Furbbles! What are you waiting for? It's time to get poppin'!",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.outplay.com/games/bubble-genius/",
+    "app_store": "id1029913337",
+    "play_store": "com.outplayentertainment.bubblegenius",
+    "amazon_appstore": "B018XOZV5I"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "9Sc6jk_ZtdI"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bubble-genius/cover.webp"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "mystery-match-village",
+  "title": "Mystery Match Village",
+  "slug": "mystery-match-village",
+  "status": "released",
+  "release_date": "2021-05-18",
+  "short_description": "Play as a 1930s detective: catch criminals, restore the English village of Kingsfall, and solve match-3 puzzles and hidden object challenges.",
+  "description": "Jump into the role of a 1930s detective as you catch criminals and restore the beautiful English village of Kingsfall to its former glory, uncovering clues in charming yet challenging match-3 puzzles and hidden object challenges!",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.outplay.com/games/mystery-match-village/",
+    "app_store": "id1509700806",
+    "play_store": "com.outplayentertainment.mmv"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "ZOixK1F14-s"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/mystery-match-village/cover.webp"
+}

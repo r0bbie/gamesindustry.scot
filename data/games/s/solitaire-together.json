@@ -1,0 +1,43 @@
+{
+  "id": "solitaire-together",
+  "title": "Solitaire Together",
+  "slug": "solitaire-together",
+  "status": "released",
+  "release_date": "2022-02-08",
+  "short_description": "Klondike solitaire with a social twist, playable on Facebook Instant Games.",
+  "description": "Solitaire Together is Outplay Entertainment's socially led solitaire game on Facebook Instant Games — rapid rounds of classic Klondike solitaire with friends.",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {
+    "facebook": "https://www.facebook.com/gaming/play/199863718958442"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "CjcPYoOvSJo"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/solitaire-together/cover.webp"
+}

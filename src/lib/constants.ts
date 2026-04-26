@@ -210,6 +210,8 @@ export function buildPlayUrl(platform: string, id: string): string {
     armor_games: (id) => `https://armorgames.com/play/${id}`,
     web: (id) => id,
     website: (id) => id,
+    /** Facebook Instant Games / full `facebook.com/gaming/play/...` URL */
+    facebook: (id) => id,
     viverse: (id) => id.startsWith("http") ? id : `https://www.viverse.com/${id}`,
   };
   return urls[platform]?.(id) ?? `#unknown-platform-${platform}`;
@@ -250,6 +252,8 @@ export function buildDatabaseUrl(db: string, id: string): string {
       id.startsWith("http")
         ? id
         : `https://en.wikipedia.org/wiki/${id}`,
+    facebook: (id) =>
+      id.startsWith("http") ? id : `https://www.facebook.com/${id}`,
   };
   return urls[db]?.(id) ?? `#unknown-db-${db}`;
 }

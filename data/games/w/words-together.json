@@ -1,0 +1,43 @@
+{
+  "id": "words-together",
+  "title": "Words Together",
+  "slug": "words-together",
+  "status": "released",
+  "release_date": "2022-04-20",
+  "short_description": "A social word game on Facebook Instant Games with no download required.",
+  "description": "Words Together is Outplay Entertainment's social word game on Facebook Instant Games, playable in the browser with no downloads required.",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {
+    "facebook": "https://www.facebook.com/gaming/play/2643596425948770"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "Ormh7N0tdlc"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/words-together/cover.webp"
+}

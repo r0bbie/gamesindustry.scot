@@ -1,10 +1,10 @@
 {
-  "id": "booty-quest-match-3-jewels",
-  "title": "Booty Quest: Match 3 Jewels!",
-  "slug": "booty-quest-match-3-jewels",
+  "id": "hellfighters",
+  "title": "Hellfighters",
+  "slug": "hellfighters",
   "status": "released",
-  "release_date": "2012-09-10",
-  "short_description": "Match 3 or more jewels as fast as you can in just 60 seconds.",
+  "release_date": "2025-12-04",
+  "short_description": "Mobile action from Outplay Entertainment — fight to survive in a sci-fi alien onslaught.",
   "companies": {
     "developer": [
       "outplay-entertainment"
@@ -15,16 +15,21 @@
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": [],
+  "genres": [
+    "action"
+  ],
   "platforms": [
     "ios",
     "android"
   ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "app_store": "id6670434065",
+    "play_store": "com.outplayentertainment.aliensurvivor"
+  },
   "video": {
     "type": "youtube",
-    "id": "nUkWUxXhSfY"
+    "id": "l5uNWmaBYMY"
   },
   "play_now": {},
   "physical_stores": {},
@@ -34,5 +39,5 @@
   "awards": [],
   "news": [],
   "is_student_game": false,
-  "cover_image": "https://media.gamesindustry.scot/games/booty-quest-match-3-jewels/cover.webp"
+  "cover_image": "https://media.gamesindustry.scot/games/hellfighters/cover.webp"
 }

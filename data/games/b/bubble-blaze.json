@@ -1,0 +1,45 @@
+{
+  "id": "bubble-blaze",
+  "title": "Bubble Blaze",
+  "slug": "bubble-blaze",
+  "status": "released",
+  "release_date": "2013-05-06",
+  "short_description": "Bubble Blaze is the thrilling bubble-popper game with millions of players worldwide.",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.outplay.com/games/bubble-blaze/",
+    "app_store": "id560462487",
+    "play_store": "com.outplayentertainment.bubbleblaze"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "QTIKywwP7yI"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "bubble-blaze",
+    "facebook": "https://www.facebook.com/BubbleBlaze/"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bubble-blaze/cover.webp"
+}

@@ -11,6 +11,8 @@
   "region": "dundee-tayside",
   "website": "http://www.biomecollective.com/",
   "logo": null,
+  "icon": "/images/companies/biome-collective/icon.png",
+  "logo_bg": "dark",
   "highlighted": false,
   "company_size": "2-10",
   "contact_email": "info@biomecollective.com",

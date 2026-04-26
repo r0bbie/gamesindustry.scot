@@ -10,7 +10,7 @@
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "https://www.chunk.co.uk",
-  "logo": null,
+  "logo": "/images/companies/chunk-games/full_logo.png",
   "highlighted": false,
   "company_size": "2-10",
   "contact_email": "hello@chunk.co.uk",
@@ -29,12 +29,5 @@
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": [
-    {
-      "title": "Introducing CHUNK Games",
-      "publication": "Scottish Games Network",
-      "date": "2010-12-13",
-      "url": "https://scottishgames.net/2010/12/13/introducing-chunk-games/"
-    }
-  ]
+  "news": []
 }

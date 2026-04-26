@@ -1,0 +1,46 @@
+{
+  "id": "zen-words",
+  "title": "Zen Words",
+  "slug": "zen-words",
+  "status": "released",
+  "release_date": "2018-04-10",
+  "short_description": "Unwind from the grind, find your focus, and stretch your vocabulary with this collection of joyful puzzles.",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {
+    "play_store": "com.outplayentertainment.zenwords"
+  },
+  "play_now": {
+    "facebook": "https://www.facebook.com/gaming/play/2006170892961584"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "gJY1y2X1CK0"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/zen-words/cover.webp"
+}

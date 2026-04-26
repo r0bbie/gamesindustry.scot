@@ -1,0 +1,44 @@
+{
+  "id": "smash-quest",
+  "title": "Smash Quest",
+  "slug": "smash-quest",
+  "status": "released",
+  "release_date": "2025-06-30",
+  "short_description": "A physics-based fantasy battler with puzzle-solving, strategy, and roguelike elements — slingshot heroes into battle on the web.",
+  "description": "Smash Quest is a physics-based fantasy battler that combines puzzle-solving, strategy, and roguelike elements. Lead a team of unique heroes, each with their own abilities, and slingshot them into battle to crush waves of evil minions, collect loot, and gain experience. Only the sharpest minds will survive long enough to explore deeper regions, and claim the ultimate prize.",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "strategy",
+    "roguelike"
+  ],
+  "platforms": [
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {
+    "crazygames": "smash-quest"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "LxB8I5aZ--Y"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/smash-quest/cover.webp"
+}

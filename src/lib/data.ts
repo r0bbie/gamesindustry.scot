@@ -222,6 +222,14 @@ export async function getCompanyBySlug(slug: string): Promise<Company | null> {
   return companies.find((c) => c.slug === slug) ?? null;
 }
 
+/** Directory companies with `parent_entity.company_id` pointing at this company (subsidiaries). */
+export async function getChildCompanies(parentCompanyId: string): Promise<Company[]> {
+  const companies = await getAllCompanies();
+  return companies
+    .filter((c) => c.parent_entity?.company_id === parentCompanyId)
+    .sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
+}
+
 export async function getGameBySlug(slug: string): Promise<Game | null> {
   const games = await getAllGames();
   return games.find((g) => g.slug === slug) ?? null;
