@@ -1,0 +1,44 @@
+{
+  "id": "cobi-golf-shots",
+  "title": "Cobi Golf Shots",
+  "slug": "cobi-golf-shots",
+  "status": "released",
+  "release_date": "2018-12-04",
+  "short_description": "Golf shot challenges from Cobra Mobile on iOS.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports",
+    "casual"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "tt3BwlggaEs"
+  },
+  "stores": {
+    "app_store": "id1337644441"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/236297-cobi-golf-shots"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cobi-golf-shots/cover.webp"
+}

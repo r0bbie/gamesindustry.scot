@@ -1,0 +1,46 @@
+{
+  "id": "numba",
+  "title": "Numba",
+  "slug": "numba",
+  "status": "released",
+  "release_date": "2013-03-23",
+  "short_description": "Create Numba chains in this match-style mental workout with three modes.",
+  "description": "An exciting, all-new gaming experience which is fun, challenging and will help you increase your overall mental fitness! Create Numba chains in various sequences. Sound easy? Get ready for some great fun and absorbing gameplay through 3 testing game modes as you strive to become the ultimate Numba Champion",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "0AzrpXffkoA"
+  },
+  "stores": {
+    "steam": "301700",
+    "app_store": "id318176575"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/numba/cover.webp"
+}

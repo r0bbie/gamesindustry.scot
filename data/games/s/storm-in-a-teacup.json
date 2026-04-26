@@ -1,0 +1,48 @@
+{
+  "id": "storm-in-a-teacup",
+  "title": "Storm in a Teacup",
+  "slug": "storm-in-a-teacup",
+  "status": "released",
+  "release_date": "2012-01-19",
+  "short_description": "Cobra Mobile's platform adventure: guide Storm through a dreamlike world in a teacup.",
+  "description": "Take Storm on a wonderful adventure in his magical teacup. Storm's brother Cloud has created an amazing dream-like world for you to explore!",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer",
+    "adventure"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ISkNewuPK6E"
+  },
+  "stores": {
+    "steam": "104020",
+    "app_store": "id420390379",
+    "play_store": "com.cobramobile.storminateacup",
+    "amazon_appstore": "B07F6ZNG9L"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/storm-in-a-teacup/cover.webp"
+}

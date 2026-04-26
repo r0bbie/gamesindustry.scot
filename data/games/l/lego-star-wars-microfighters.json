@@ -1,0 +1,53 @@
+{
+  "id": "lego-star-wars-microfighters",
+  "title": "LEGO Star Wars: Microfighters",
+  "slug": "lego-star-wars-microfighters",
+  "status": "released",
+  "release_date": "2014-01-30",
+  "short_description": "Top-down LEGO Star Wars shoot 'em up co-developed by Cobra Mobile and Traveller's Tales.",
+  "description": "Take your LEGO Star Wars Microfighters into the digital world in 18 levels on Endor, Yavin, Hoth and Geonosis. Play as six different Microfighters of iconic Star Wars ships as you battle through enemies, collect studs and upgrade your Microfighters. This version is a shoot 'em up, played from a top-down view.",
+  "companies": {
+    "developer": [
+      "cobra-mobile",
+      {
+        "name": "Traveller's Tales",
+        "url": "https://www.ttgames.com/"
+      }
+    ],
+    "publishers": [
+      {
+        "name": "LucasArts",
+        "url": "https://en.wikipedia.org/wiki/LucasArts"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "shooter",
+    "arcade"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "tvltfJ6BzkE"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "lego-star-wars-microfighters--1"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/lego-star-wars-microfighters/cover.webp"
+}

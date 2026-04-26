@@ -1,0 +1,42 @@
+{
+  "id": "lets-go-run-around",
+  "title": "Let's Go Run Around",
+  "slug": "lets-go-run-around",
+  "status": "released",
+  "release_date": "2016-06-01",
+  "short_description": "Run, jump and play like never before.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "arcade"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "8R-nH0OHrVc"
+  },
+  "stores": {
+    "app_store": "id1093756237"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/lets-go-run-around/cover.webp"
+}

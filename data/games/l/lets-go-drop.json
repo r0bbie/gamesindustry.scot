@@ -1,0 +1,40 @@
+{
+  "id": "lets-go-drop",
+  "title": "Let's Go Drop",
+  "slug": "lets-go-drop",
+  "status": "released",
+  "release_date": "2018",
+  "short_description": "How far can you fall?",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "arcade"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "app_store": "id1435130668",
+    "play_store": "com.cobramobile.letsgodrop"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/lets-go-drop/cover.webp"
+}

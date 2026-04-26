@@ -1,0 +1,45 @@
+{
+  "id": "five-star-wrestling",
+  "title": "5 Star Wrestling",
+  "slug": "five-star-wrestling",
+  "status": "released",
+  "release_date": "2015-03-17",
+  "short_description": "A wrestling game from Serious Parody featuring nearly 200 moves per wrestler.",
+  "description": "5 Star Wrestling from Serious Parody is a wrestling game that features nearly 200 moves per wrestler.",
+  "companies": {
+    "developer": [
+      "serious-parody"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports"
+  ],
+  "platforms": [
+    "ps3",
+    "ps4"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "8dKA4auDmds"
+  },
+  "stores": {
+    "psn": "https://store.playstation.com/en-gb/concept/217857"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "5-star-wrestling"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/five-star-wrestling/cover.webp"
+}

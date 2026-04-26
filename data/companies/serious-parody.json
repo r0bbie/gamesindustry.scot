@@ -6,12 +6,26 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2010,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://www.wrestlingmanagement.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "11-50",
+  "short_description": "Dundee developer Serious Parody Ltd released wrestling titles including Wrestling Manager (iOS) and 5 Star Wrestling (PlayStation).",
+  "about": "Serious Parody Ltd was a developer based in Dundee. They released wrestling games including Wrestling Manager for iOS and 5 Star Wrestling for PlayStation 3 and PlayStation 4.",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Serious Parody Ltd",
+      "companies_house_number": "03876945"
+    }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/serious-parody",
+    "youtube": "https://www.youtube.com/@TheSeriousParody",
+    "twitter": "Serious_Parody"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

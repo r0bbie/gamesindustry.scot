@@ -1,0 +1,41 @@
+{
+  "id": "sensible-soccer-skillz",
+  "title": "Sensible Soccer Skillz",
+  "slug": "sensible-soccer-skillz",
+  "status": "released",
+  "release_date": "2006-06-06",
+  "short_description": "J2ME football challenges and mini-games from Cobra Mobile and Codemasters, in the Sensible Soccer tradition.",
+  "description": "Mobile Java title of the Sensible Soccer series developed in 2006 by Cobra Mobile and published by Codemasters. Sensible Soccer Skillz brings the intuitive fun of the original 2D football game to your phone in a series of challenges and mini games. Practice useful skills such as penalty-taking, free kicks and volleying in a game that retains the look, feel and sense of fun of its famous predecessor.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [
+      {
+        "name": "Codemasters",
+        "url": "https://www.ea.com/ea-studios/codemasters"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports"
+  ],
+  "platforms": [
+    "java-me"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/sensible-soccer-skillz/cover.webp"
+}

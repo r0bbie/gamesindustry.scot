@@ -1,0 +1,43 @@
+{
+  "id": "football-agent",
+  "title": "Football Agent",
+  "slug": "football-agent",
+  "status": "released",
+  "release_date": "2010-06-04",
+  "short_description": "Buy and sell players over 200 weeks — turn two million into fortunes in this simple, addictive football trading sim.",
+  "description": "Football Agent is incredibly simple yet totally addictive. You start with 2 million to spend on buying and selling players over 200 weeks. How fast can you make your millions?",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation",
+    "sports"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "NaawIxh1AyE"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/602174-football-agent-2010"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/football-agent/cover.webp"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "binary-pumpkin",
+  "name": "Binary Pumpkin",
+  "slug": "binary-pumpkin",
+  "categories": [
+    "developer"
+  ],
+  "status": "defunct",
+  "founded": 2011,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://www.binarypumpkin.com",
+  "logo": null,
+  "highlighted": false,
+  "company_size": "2-10",
+  "short_description": "Defunct Dundee mobile studio (founded 2011) behind Pumpkin Bingo, Valentine's Bingo, and Grow!!",
+  "about": "Binary Pumpkin was a Dundee-based game developer founded in 2011, typically in the 2–10 person range. The studio published mobile games for iOS and Android, including seasonal bingo titles and the puzzle game Grow!!. The company is no longer active.",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/binary-pumpkin"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

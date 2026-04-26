@@ -1,0 +1,49 @@
+{
+  "id": "doctor-who-the-mazes-of-time",
+  "title": "Doctor Who: The Mazes of Time",
+  "slug": "doctor-who-the-mazes-of-time",
+  "status": "released",
+  "release_date": "2010-12-15",
+  "short_description": "BBC-licensed Doctor Who adventure from Tag Games for iOS and Android.",
+  "companies": {
+    "developer": [
+      "tag-games"
+    ],
+    "publishers": [
+      {
+        "name": "BBC Worldwide",
+        "url": "https://www.bbc.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure",
+    "puzzle"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "WrpCCGi0x1Q"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "59088/doctor-who-the-mazes-of-time",
+    "wikipedia": "Doctor_Who:_The_Mazes_of_Time"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/doctor-who-the-mazes-of-time/cover.webp"
+}

@@ -9,7 +9,14 @@ const events = await getAllEvents();
 const schools = await getAllSchools();
 
 const searchIndex = [
-  ...companies.map(c => ({ title: c.name, description: c.short_description ?? "", url: `/companies/${c.slug}`, type: "Company" })),
+  ...companies.map((c) => ({
+    title: c.name,
+    description: c.short_description ?? "",
+    /** Included in fallback matching so former names (e.g. Digital Bridges → I-Play) are searchable. */
+    formerNames: (c.previously_known_as ?? []).join(" "),
+    url: `/companies/${c.slug}`,
+    type: "Company",
+  })),
   ...games.map(g => ({ title: g.title, description: g.short_description ?? "", url: `/games/${g.slug}`, type: "Game" })),
   ...freelancers.map(f => ({ title: f.name, description: f.short_bio ?? f.discipline, url: `/freelancers/${f.slug}`, type: "Freelancer" })),
   ...events.map(e => ({ title: e.name, description: e.short_description ?? "", url: `/events/${e.slug}`, type: "Event" })),
@@ -57,9 +64,11 @@ const searchIndex = [
           results.innerHTML = "";
           if (!q) return;
           var matches = searchIndex.filter(function (item) {
+            var former = item.formerNames ? item.formerNames.toLowerCase() : "";
             return (
               item.title.toLowerCase().includes(q) ||
               item.description.toLowerCase().includes(q) ||
+              former.includes(q) ||
               item.type.toLowerCase().includes(q)
             );
           }).slice(0, 20);

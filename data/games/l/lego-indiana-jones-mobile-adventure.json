@@ -1,0 +1,49 @@
+{
+  "id": "lego-indiana-jones-mobile-adventure",
+  "title": "LEGO Indiana Jones: Mobile Adventure",
+  "slug": "lego-indiana-jones-mobile-adventure",
+  "status": "released",
+  "release_date": "2008",
+  "short_description": "Side-scrolling LEGO Indiana Jones platformer for Java mobile phones (2008).",
+  "description": "LEGO Indiana Jones Mobile Adventure is a side-scrolling platformer based on the LEGO Indiana Jones toys. Released for mobile phones in 2008, the game adapted the first three Indiana Jones movies.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [
+      {
+        "name": "THQ Wireless",
+        "url": "https://en.wikipedia.org/wiki/THQ"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer",
+    "adventure"
+  ],
+  "platforms": [
+    "java-me"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "CyR5bShcX10"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "lego-indiana-jones-mobile-adventure",
+    "mobygames": "161972/lego-indiana-jones-mobile-adventure"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/lego-indiana-jones-mobile-adventure/cover.webp"
+}

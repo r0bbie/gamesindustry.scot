@@ -1,0 +1,43 @@
+{
+  "id": "towers-of-everland",
+  "title": "Towers of Everland",
+  "slug": "towers-of-everland",
+  "status": "released",
+  "release_date": "2020-05-22",
+  "short_description": "First-person dungeon crawler from Cobra Mobile for iPhone, iPad, Mac, and Apple TV (Apple Arcade / App Store).",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "rpg",
+    "adventure"
+  ],
+  "platforms": [
+    "ios",
+    "macos"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "65R15qNfnzU"
+  },
+  "stores": {
+    "app_store": "id6449450574"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/towers-of-everland/cover.webp"
+}

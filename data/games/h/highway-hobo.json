@@ -1,0 +1,37 @@
+{
+  "id": "highway-hobo",
+  "title": "Highway Hobo",
+  "slug": "highway-hobo",
+  "status": "released",
+  "release_date": "2012-03-07",
+  "short_description": "Android title from Braindead Ape.",
+  "companies": {
+    "developer": [
+      "braindead-ape"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual"
+  ],
+  "platforms": [
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "play_store": "com.braindeadape.HighwayHobo"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/highway-hobo/cover.webp"
+}

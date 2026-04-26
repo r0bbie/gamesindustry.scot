@@ -1,0 +1,48 @@
+{
+  "id": "reds-kingdom",
+  "title": "Red's Kingdom",
+  "slug": "reds-kingdom",
+  "status": "released",
+  "release_date": "2017-01-19",
+  "short_description": "Adventure puzzler starring Red the squirrel — from Cobra Mobile on mobile and PC.",
+  "description": "Help lead Red on a journey across the land in search of his missing nuts, overcoming obstacles and unlocking abilities in this charmingly epic isometric puzzle adventure!",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "adventure"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "JQsXy8wnL6I"
+  },
+  "stores": {
+    "steam": "541240",
+    "app_store": "id1156436919",
+    "play_store": "com.cobramobile.redskingdom",
+    "amazon_appstore": "B07C31YMQK"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/reds-kingdom/cover.webp"
+}

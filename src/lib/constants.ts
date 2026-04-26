@@ -189,6 +189,11 @@ export function buildStoreUrl(store: string, id: string): string {
         ? id
         : `https://play.google.com/store/apps/details?id=${id.split("&")[0]}`,
     amazon_appstore: (id) => `https://www.amazon.com/dp/${id}`,
+    /** Roku Channel Store — `id` is the channel details path segment from the store URL. */
+    roku: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://channelstore.roku.com/en-gb/details/${id}`,
     samsung_galaxy: (id) => `https://galaxystore.samsung.com/detail/${id}`,
     indiegala: (id) => `https://www.indiegala.com/store/product/${id}`,
     game_jolt: (id) => `https://gamejolt.com/games/${id}`,
@@ -287,6 +292,8 @@ export function buildSocialUrl(platform: string, handle: string): string {
     instagram: (h) => `https://www.instagram.com/${h}`,
     itch: (h) => h.startsWith("http") ? h : `https://${h}.itch.io`,
     wikipedia: (h) => h.startsWith("http") ? h : `https://en.wikipedia.org/wiki/${h}`,
+    facebook: (h) =>
+      h.startsWith("http") ? h : `https://www.facebook.com/${h}`,
   };
   return urls[platform]?.(handle) ?? `#unknown-${platform}`;
 }

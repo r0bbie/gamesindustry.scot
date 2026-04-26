@@ -1,0 +1,41 @@
+{
+  "id": "plum-crazy",
+  "title": "Plum Crazy",
+  "slug": "plum-crazy",
+  "status": "released",
+  "release_date": "2011-08-15",
+  "short_description": "iOS title from Claymore Games.",
+  "companies": {
+    "developer": [
+      "claymore-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "uQgFdi2Ja8I"
+  },
+  "stores": {
+    "app_store": "id427813815"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/plum-crazy/cover.webp"
+}

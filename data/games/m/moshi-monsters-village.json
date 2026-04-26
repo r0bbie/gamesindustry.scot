@@ -1,0 +1,48 @@
+{
+  "id": "moshi-monsters-village",
+  "title": "Moshi Monsters Village",
+  "slug": "moshi-monsters-village",
+  "status": "released",
+  "release_date": "2013-12-18",
+  "short_description": "Build and grow a Moshi village on mobile — from Tag Games, published by Mind Candy.",
+  "companies": {
+    "developer": [
+      "tag-games"
+    ],
+    "publishers": [
+      {
+        "name": "Mind Candy",
+        "url": "https://www.mindcandy.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "simulation"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "nUXhe_rGZAU"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "moshi-monsters-village"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/moshi-monsters-village/cover.webp"
+}

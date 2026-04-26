@@ -1,0 +1,46 @@
+{
+  "id": "ibomber-2",
+  "title": "iBomber 2",
+  "slug": "ibomber-2",
+  "status": "released",
+  "release_date": "2010-05-10",
+  "short_description": "Sequel bombing run over North Africa and Europe, 1943–1944.",
+  "description": "iBomber 2, the awesome sequel to the Smash Hit #1 game, played by million's of people. iBomber 2 is an amazing, arcade styled bombing game based in North Africa and Europe between 1943 and 1944. You play a heroic bomber pilot searching out key enemy targets to destroy!",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "action"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "u5yV06HadL0"
+  },
+  "stores": {
+    "app_store": "id369875275"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "rawg": "ibomber-2"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ibomber-2/cover.webp"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "valentines-bingo",
+  "title": "Valentine's Bingo",
+  "slug": "valentines-bingo",
+  "status": "released",
+  "release_date": "2013-02-13",
+  "short_description": "Seasonal Valentine's bingo from Binary Pumpkin for iOS and Android.",
+  "companies": {
+    "developer": [
+      "binary-pumpkin"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "play_store": "com.binarypumpkin.bingo.valentines",
+    "amazon_appstore": "B00C2PLDA2"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/valentines-bingo/cover.webp"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cobi-hoops-2",
+  "title": "Cobi Hoops 2",
+  "slug": "cobi-hoops-2",
+  "status": "released",
+  "release_date": "2017-12-01",
+  "short_description": "Arcade basketball from Cobra Mobile — swipe shooting on iOS and Android.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports",
+    "arcade"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "5cF2hNW3mXU"
+  },
+  "stores": {
+    "app_store": "id1264620108",
+    "play_store": "com.cobra.cobihoops2"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cobi-hoops-2/cover.webp"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dam-buster",
+  "title": "Dam Buster",
+  "slug": "dam-buster",
+  "status": "released",
+  "release_date": "2009-06-05",
+  "short_description": "Cobra Mobile iOS title — dam-busting action.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "action"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "TvZMvzTdj54"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "https://www.metacritic.com/game/dam-buster/"
+  },
+  "database_links": {
+    "gamefaqs": "iphone/960758-dam-buster"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/dam-buster/cover.webp"
+}

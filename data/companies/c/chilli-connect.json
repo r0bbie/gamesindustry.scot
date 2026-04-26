@@ -1,0 +1,32 @@
+{
+  "id": "chilli-connect",
+  "name": "Chilli Connect",
+  "slug": "chilli-connect",
+  "categories": ["tooling"],
+  "status": "defunct",
+  "founded": 2016,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://www.chilliconnect.com",
+  "logo": null,
+  "highlighted": false,
+  "parent_entity": {
+    "name": "Unity",
+    "url": "https://unity.com"
+  },
+  "short_description": "Dundee live-ops and connected games platform (from Tag Games), acquired by Unity in 2019.",
+  "about": "Originally envisioned by Dundee game development studio Tag Games as a means to deliver the features required for their F2P and live service games, ChilliConnect was spun out in 2015 to provide an ‘all in one’ connected gaming solution for all game developers and publishers.\n\nChilli Connect was acquired by Unity in 2019.",
+  "links": {
+    "crunchbase": "chilliconnect"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [
+    {
+      "name": "Paul Farley",
+      "title": "CEO & Co-founder"
+    }
+  ],
+  "awards": [],
+  "news": []
+}

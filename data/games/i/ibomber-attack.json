@@ -1,0 +1,45 @@
+{
+  "id": "ibomber-attack",
+  "title": "iBomber Attack",
+  "slug": "ibomber-attack",
+  "status": "released",
+  "release_date": "2012-11-01",
+  "short_description": "Tank combat across Europe — the iBomber series goes on the attack.",
+  "description": "The legendary iBomber series returns but this time it's time to ATTACK! Jump into your tank and get ready to blast your way around Europe and defeat the enemy in this visceral tour of destruction",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "arcade"
+  ],
+  "platforms": [
+    "ios",
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "qod_5pOgvqg"
+  },
+  "stores": {
+    "steam": "218660",
+    "app_store": "id538751326"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ibomber-attack/cover.webp"
+}

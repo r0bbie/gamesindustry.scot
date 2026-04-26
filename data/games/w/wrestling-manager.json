@@ -1,0 +1,41 @@
+{
+  "id": "wrestling-manager",
+  "title": "Wrestling Manager",
+  "slug": "wrestling-manager",
+  "status": "released",
+  "release_date": "2011-12-21",
+  "short_description": "Serious Parody’s wrestling management game for iOS.",
+  "companies": {
+    "developer": [
+      "serious-parody"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "GFTpijCP230"
+  },
+  "stores": {
+    "app_store": "id465946596"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wrestling-manager/cover.webp"
+}

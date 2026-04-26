@@ -1,0 +1,46 @@
+{
+  "id": "lets-go-rocket",
+  "title": "Let's Go Rocket",
+  "slug": "lets-go-rocket",
+  "status": "released",
+  "release_date": "2015-05-14",
+  "short_description": "Touch to launch and boost your rocket — dodge obstacles and fly as far as you can.",
+  "description": "Touch to launch and boost your rocket, avoid the obstacles and see how far you can fly!",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "arcade"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "fVjLdoOAvqA"
+  },
+  "stores": {
+    "app_store": "id974628899"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "rawg": "lets-go-rocket"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/lets-go-rocket/cover.webp"
+}

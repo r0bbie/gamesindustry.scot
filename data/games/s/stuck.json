@@ -1,0 +1,38 @@
+{
+  "id": "stuck",
+  "title": "Stuck",
+  "slug": "stuck",
+  "status": "released",
+  "release_date": "2010-10-13",
+  "short_description": "Cobra Mobile labyrinth puzzle for iPhone and iPod touch — free earlier explorers by reaching the heart of the maze.",
+  "description": "Welcome to Stuck!, a fantastic puzzle game for your iPhone and iPod Touch. Previous brave puzzlers have become part of the labyrinth's architecture and can only be freed when someone has solved the final puzzle at the heart of the labyrinth.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/610729-stuck"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/stuck/cover.webp"
+}

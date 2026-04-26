@@ -149,7 +149,15 @@ if (showAwardsTab) tabs.push({ id: "awards", label: "Awards" });
 const companyNews = await getNewsForCompany(company.id);
 
 const showNewsTab =
-  hasCategory("developer", "solo_developer", "tooling", "service_provider", "games_media") &&
+  hasCategory(
+    "developer",
+    "solo_developer",
+    "tooling",
+    "service_provider",
+    "publisher",
+    "supporting_org",
+    "games_media",
+  ) &&
   companyNews.length > 0;
 if (showNewsTab) tabs.push({ id: "news", label: "News" });
 if (showToolsTab && !categories.includes("tooling")) tabs.push({ id: "tools", label: "Tools" });

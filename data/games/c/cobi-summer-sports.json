@@ -1,0 +1,42 @@
+{
+  "id": "cobi-summer-sports",
+  "title": "Cobi Summer Sports",
+  "slug": "cobi-summer-sports",
+  "status": "released",
+  "release_date": "2017-07-27",
+  "short_description": "Summer sports mini-games from Cobra Mobile on iOS.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports",
+    "casual"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ZuwwwDUGS28"
+  },
+  "stores": {
+    "app_store": "id1242888734"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cobi-summer-sports/cover.webp"
+}

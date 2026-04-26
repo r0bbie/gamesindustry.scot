@@ -1,0 +1,46 @@
+{
+  "id": "ibomber",
+  "title": "iBomber",
+  "slug": "ibomber",
+  "status": "released",
+  "release_date": "2009-05-25",
+  "short_description": "Arcade bombing action in the Pacific, 1943 — the original iBomber.",
+  "description": "Played by million's of people. iBomber is an amazing, arcade styled bombing game based in the Pacific Ocean in 1943.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "action"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "RHILMFsn6kk"
+  },
+  "stores": {
+    "app_store": "id316774112"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "rawg": "ibomber"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ibomber/cover.webp"
+}

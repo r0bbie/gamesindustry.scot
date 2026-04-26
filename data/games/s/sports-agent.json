@@ -1,0 +1,41 @@
+{
+  "id": "sports-agent",
+  "title": "Sports Agent",
+  "slug": "sports-agent",
+  "status": "released",
+  "release_date": "2010-07-25",
+  "short_description": "iOS follow-up to Football Agent — trading and management spin on the online hit, built for iPhone, iPad, and iPod touch.",
+  "description": "An all new take on the Smash Hit online game Football Agent, exclusive to iPhone, iPhone 4G, iPad and iPod Touch.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation",
+    "sports"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "sports-agent"
+  },
+  "database_links": {
+    "gamefaqs": "iphone/603525-sports-agent"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/sports-agent/cover.webp"
+}

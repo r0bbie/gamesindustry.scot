@@ -1,0 +1,47 @@
+{
+  "id": "ibomber-defense-pacific",
+  "title": "iBomber Defense Pacific",
+  "slug": "ibomber-defense-pacific",
+  "status": "released",
+  "release_date": "2012-03-01",
+  "short_description": "Tower defense across the Pacific rim in the iBomber series.",
+  "description": "iBomber moves to the Pacific as you fight a whole new enemy across the Pacific rim to regain freedom.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "tower-defense"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "_a954rK6B0g"
+  },
+  "stores": {
+    "steam": "206690",
+    "app_store": "id498249308",
+    "amazon_appstore": "B07G5CKGC4"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ibomber-defense-pacific/cover.webp"
+}

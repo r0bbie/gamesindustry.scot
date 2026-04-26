@@ -1,0 +1,45 @@
+{
+  "id": "danger-derby",
+  "title": "Danger Derby",
+  "slug": "danger-derby",
+  "status": "released",
+  "release_date": "2010-09-01",
+  "short_description": "Cobra Mobile combat racing on iOS, Android, and Roku.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "arcade"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "roku"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "kMe4m0Y8Dp0"
+  },
+  "stores": {
+    "amazon_appstore": "B00M87WHFE",
+    "roku": "9aebf29414e21c2c029a96b522ed125f:c9ca6bebb96b29a767a130beaec3b863"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/danger-derby/cover.webp"
+}

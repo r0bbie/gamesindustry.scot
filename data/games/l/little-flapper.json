@@ -1,0 +1,44 @@
+{
+  "id": "little-flapper",
+  "title": "Little Flapper",
+  "slug": "little-flapper",
+  "status": "released",
+  "release_date": "2014-08-14",
+  "short_description": "Cobra Mobile casual flier on iOS, Android, and Roku.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "arcade"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "roku"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Z7ja7rIt3qA"
+  },
+  "stores": {
+    "amazon_appstore": "B00MHNZODG"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/little-flapper/cover.webp"
+}

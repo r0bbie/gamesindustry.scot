@@ -1,0 +1,40 @@
+{
+  "id": "low-grav-racer",
+  "title": "Low Grav Racer",
+  "slug": "low-grav-racer",
+  "status": "released",
+  "release_date": "2008-12",
+  "short_description": "Cobra Mobile iOS racer in a low-gravity setting (2008).",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "arcade"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "JZ7aS51s60k"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/low-grav-racer/cover.webp"
+}

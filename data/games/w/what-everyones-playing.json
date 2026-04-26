@@ -1,0 +1,44 @@
+{
+  "id": "what-everyones-playing",
+  "title": "What Everyone's Playing",
+  "slug": "what-everyones-playing",
+  "status": "released",
+  "release_date": "2024-07-25",
+  "short_description": "Cobra Mobile's party guessing game for iOS and Android.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "party",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "H3GJ_uQfoMk"
+  },
+  "stores": {
+    "app_store": "id6478008410",
+    "play_store": "com.cobra.wep"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/what-everyones-playing/cover.webp"
+}

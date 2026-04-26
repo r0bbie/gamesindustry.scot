@@ -1,0 +1,46 @@
+{
+  "id": "neoarcade",
+  "title": "NeoArcade",
+  "slug": "neoarcade",
+  "status": "released",
+  "release_date": "2016-01-27",
+  "short_description": "Claymore Games' retro-inspired iOS compilation — details at neoarcade.co.uk.",
+  "companies": {
+    "developer": [
+      "claymore-games"
+    ],
+    "publishers": [
+      {
+        "name": "Crescent Moon Games",
+        "url": "https://www.crescentmoongames.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "oyEOf9jiyxM"
+  },
+  "stores": {
+    "website": "https://www.neoarcade.co.uk/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/neoarcade/cover.webp"
+}

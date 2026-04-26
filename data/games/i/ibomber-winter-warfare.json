@@ -1,0 +1,46 @@
+{
+  "id": "ibomber-winter-warfare",
+  "title": "iBomber Winter Warfare",
+  "slug": "ibomber-winter-warfare",
+  "status": "released",
+  "release_date": "2015-10-08",
+  "short_description": "Fly Junkers JU88 and Tupolev TU-2 over the British Isles and Eastern/Baltic fronts in the next iBomber chapter.",
+  "description": "iBomber Winter Warfare, the next stunning chapter of iBomber.\n\nFor the first time fly combat missions over the British Isles and the vast Eastern/Baltic Fronts.\n\nPilot the legendary Junkers JU88 and Tupolev TU-2 combat bombers as you undertake the most dangerous Search & Destroy missions to date.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "action"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "0zk0I9SdwrI"
+  },
+  "stores": {
+    "app_store": "id1031501737"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "rawg": "ibomber-winter-warfare"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ibomber-winter-warfare/cover.webp"
+}

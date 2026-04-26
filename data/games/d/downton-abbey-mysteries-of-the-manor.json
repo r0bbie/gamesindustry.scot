@@ -1,0 +1,48 @@
+{
+  "id": "downton-abbey-mysteries-of-the-manor",
+  "title": "Downton Abbey: Mysteries of the Manor",
+  "slug": "downton-abbey-mysteries-of-the-manor",
+  "status": "released",
+  "release_date": "2015-09-08",
+  "short_description": "Downton Abbey mystery adventure from Tag Games for iOS and Android, published by Activision.",
+  "companies": {
+    "developer": [
+      "tag-games"
+    ],
+    "publishers": [
+      {
+        "name": "Activision",
+        "url": "https://www.activision.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure",
+    "puzzle"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "MsbQViIbi5o"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "79812/downton-abbey-mysteries-of-the-manor"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/downton-abbey-mysteries-of-the-manor/cover.webp"
+}

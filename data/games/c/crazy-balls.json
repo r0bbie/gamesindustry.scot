@@ -1,0 +1,36 @@
+{
+  "id": "crazy-balls",
+  "title": "Crazy Balls",
+  "slug": "crazy-balls",
+  "status": "released",
+  "release_date": "2009",
+  "short_description": "J2ME puzzle game from Cobra Mobile — steer balls through labyrinth-style levels.",
+  "description": "Crazy Balls is a puzzle game where the player has to navigate a number of balls through labyrinth-like levels.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "java-me"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/crazy-balls/cover.webp"
+}

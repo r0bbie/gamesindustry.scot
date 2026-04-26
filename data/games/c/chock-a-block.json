@@ -1,0 +1,44 @@
+{
+  "id": "chock-a-block",
+  "title": "Chock A Block",
+  "slug": "chock-a-block",
+  "status": "released",
+  "release_date": "2013-05-30",
+  "short_description": "A sliding block, colour-matching puzzle for iOS with five modes from relaxed to frenzied.",
+  "description": "CAB is a sliding block, colour matching puzzle game with 5 different playing modes, ranging from relaxed to frenzied, encompassing all play styles.",
+  "companies": {
+    "developer": [
+      "claymore-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "htVDdZ_xAW4"
+  },
+  "stores": {
+    "app_store": "id517582297"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "https://www.metacritic.com/game/chock-a-block/"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/chock-a-block/cover.webp"
+}

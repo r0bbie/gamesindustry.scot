@@ -1,0 +1,44 @@
+{
+  "id": "swag-runner",
+  "title": "Swag Runner",
+  "slug": "swag-runner",
+  "status": "released",
+  "release_date": "2014-08-14",
+  "short_description": "Cobra Mobile runner on iOS, Android, and Roku.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "roku"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "7uAb09-R8Ko"
+  },
+  "stores": {
+    "amazon_appstore": "B00MHNXQIQ"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/swag-runner/cover.webp"
+}

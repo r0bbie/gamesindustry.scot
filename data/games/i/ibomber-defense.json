@@ -1,0 +1,46 @@
+{
+  "id": "ibomber-defense",
+  "title": "iBomber Defense",
+  "slug": "ibomber-defense",
+  "status": "released",
+  "release_date": "2011-05-26",
+  "short_description": "Tower defense meets iBomber action and strategy worldwide.",
+  "description": "iBomber Defense combines classic tower defense gameplay with intense action and strategy. Keep enemies at bay all over the world using a variety of weapons and tactics, from rattling Machine guns, explosive cannons and awesome anti-aircraft artillery!",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "tower-defense"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "LzOM-HLjBNk"
+  },
+  "stores": {
+    "steam": "104000",
+    "app_store": "id400459168"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ibomber-defense/cover.webp"
+}

@@ -5,13 +5,28 @@
   "categories": [
     "developer"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2005,
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "http://www.cobramobile.com/",
+  "website": "https://www.cobramobile.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "11-50",
+  "short_description": "Dundee mobile developer Cobra Mobile Limited (2005–2025).",
+  "about": "Cobra Mobile was a Dundee-based game developer founded in 2005. The company traded as Cobra Mobile Limited and closed in 2025 after around 20 years in business.",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Cobra Mobile Limited",
+      "companies_house_number": "SC282881"
+    }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/cobramobile",
+    "instagram": "cobramobile",
+    "youtube": "https://www.youtube.com/@cobramobile",
+    "itch": "cobra-mobile"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

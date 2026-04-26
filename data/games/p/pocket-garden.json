@@ -1,0 +1,44 @@
+{
+  "id": "pocket-garden",
+  "title": "Pocket Garden",
+  "slug": "pocket-garden",
+  "status": "released",
+  "release_date": "2014-01-16",
+  "short_description": "Cobra Mobile gardening game on iOS and Android.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "simulation"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ObSj9T6SdQo"
+  },
+  "stores": {
+    "app_store": "id703327872",
+    "amazon_appstore": "B00IYOKHA2"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/pocket-garden/cover.webp"
+}

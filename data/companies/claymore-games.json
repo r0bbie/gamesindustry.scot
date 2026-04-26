@@ -6,12 +6,23 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2005,
+  "previously_known_as": [
+    "Dinky Dino Games"
+  ],
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://www.claymoregames.co.uk/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "employee_count": 2,
+  "short_description": "Glasgow two-person studio Claymore Games founded in 2005.",
+  "about": "Claymore Games was a Glasgow-based independent developer — a two-person studio founded in 2005.",
+  "links": {
+    "youtube": "https://www.youtube.com/@claymoregames",
+    "linkedin": "https://www.linkedin.com/company/claymore-games/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -1,0 +1,42 @@
+{
+  "id": "fore",
+  "title": "Fore",
+  "slug": "fore",
+  "status": "released",
+  "release_date": "2009-11-03",
+  "short_description": "Cobra Mobile iOS title — Fore.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "arcade"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "mNqAapG01S8"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/979016-fore-by-cobra-mobile"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fore/cover.webp"
+}

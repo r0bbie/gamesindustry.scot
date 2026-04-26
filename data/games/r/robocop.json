@@ -1,0 +1,41 @@
+{
+  "id": "robocop",
+  "title": "RoboCop",
+  "slug": "robocop",
+  "status": "released",
+  "release_date": "2004-10",
+  "short_description": "2004 J2ME mobile action game from I-Play (Digital Bridges).",
+  "companies": {
+    "developer": [
+      "i-play"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action"
+  ],
+  "platforms": [
+    "java-me"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ew2JReZr-Cc"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "70311/robocop"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/robocop/cover.webp"
+}

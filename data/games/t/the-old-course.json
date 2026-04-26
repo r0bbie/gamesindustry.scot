@@ -1,0 +1,39 @@
+{
+  "id": "the-old-course",
+  "title": "The Old Course",
+  "slug": "the-old-course",
+  "status": "released",
+  "release_date": "2010-07-02",
+  "short_description": "Official St Andrews Links golf sim for iOS — top-down touch-and-swipe play on the Home of Golf.",
+  "description": "St Andrews Links presents The Old Course, an official licensed product from The Home of Golf.\n\nWith unique top down touch-and-swipe controls, beautiful graphics and addictive game-play, The Old Course is easily played and enjoyed by anyone. The game of Golf has never looked or played better!",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation",
+    "sports"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/603040-the-old-course"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-old-course/cover.webp"
+}

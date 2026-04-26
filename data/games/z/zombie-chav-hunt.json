@@ -1,0 +1,43 @@
+{
+  "id": "zombie-chav-hunt",
+  "title": "Zombie Chav Hunt",
+  "slug": "zombie-chav-hunt",
+  "status": "released",
+  "release_date": "2009-01-16",
+  "short_description": "Chav World… the day after tomorrow — Cobra Mobile iOS action.",
+  "description": "Chav World... the day after tomorrow...",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "arcade"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "QtLtSEbUosM"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/962327-zombie-chav-hunt"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/zombie-chav-hunt/cover.webp"
+}

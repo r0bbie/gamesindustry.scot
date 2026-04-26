@@ -1,0 +1,52 @@
+{
+  "id": "angry-birds-action",
+  "title": "Angry Birds: Action!",
+  "slug": "angry-birds-action",
+  "status": "released",
+  "release_date": "2016-04-28",
+  "short_description": "3D Angry Birds pinball-style tie-in to The Angry Birds Movie — slingshot the flock through movie-inspired tables (iOS & Android).",
+  "description": "Angry Birds: Action! is the first full 3D entry into the Angry Birds franchise. Also the first game set in The Angry Birds: Movie universe, it features gameplay inspired by pinball games and air hockey. Players need to launch Angry Birds characters in pinball-like tables using the familiar slingshot mechanics. They then ping around the 3D environments trying to save the eggs for the pigs.",
+  "companies": {
+    "developer": ["tag-games"],
+    "publishers": [
+      {
+        "name": "Rovio Entertainment",
+        "url": "https://www.rovio.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "action",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "88T6lek6I3E"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 75
+  },
+  "critic_ids": {
+    "metacritic": "angry-birds-action"
+  },
+  "database_links": {
+    "mobygames": "79813/angry-birds-action"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/angry-birds-action/cover.webp"
+}

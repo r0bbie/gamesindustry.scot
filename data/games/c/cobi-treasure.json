@@ -1,0 +1,45 @@
+{
+  "id": "cobi-treasure",
+  "title": "Cobi Treasure",
+  "slug": "cobi-treasure",
+  "status": "released",
+  "release_date": "2013-12-02",
+  "short_description": "Help Sally the seahorse match ocean treasures before they sink (Deluxe on Steam).",
+  "description": "Help Sally the seahorse collect and match ocean treasures before they fall to the seabed. Match the falling ocean gems and play through three exciting and absorbing game modes in the perfect blend of relaxation and Match 3 fun!",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "mhrRrgDAwZ0"
+  },
+  "stores": {
+    "steam": "301690"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "rawg": "cobi-treasure-deluxe"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cobi-treasure/cover.webp"
+}

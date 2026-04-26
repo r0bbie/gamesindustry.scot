@@ -1,0 +1,39 @@
+{
+  "id": "pumpkin-bingo",
+  "title": "Pumpkin Bingo",
+  "slug": "pumpkin-bingo",
+  "status": "released",
+  "release_date": "2013-02-15",
+  "short_description": "Mobile bingo from Binary Pumpkin for iOS and Android.",
+  "companies": {
+    "developer": [
+      "binary-pumpkin"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "app_store": "id561689066",
+    "amazon_appstore": "B00BCYGPRA"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/pumpkin-bingo/cover.webp"
+}

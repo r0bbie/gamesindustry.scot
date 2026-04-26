@@ -1,0 +1,53 @@
+{
+  "id": "pocket-mortys",
+  "title": "Pocket Mortys",
+  "slug": "pocket-mortys",
+  "status": "released",
+  "release_date": "2016-01-13",
+  "short_description": "Rick and Morty Pokémon-style RPG — collect and battle Mortys across the multiverse (iOS & Android).",
+  "description": "A Pokémon-style game based on the brilliant Adult Swim show 'Rick and Morty'. Join Ricks throughout the multiverse as they get swept up in the latest craze: Morty training! There are over 70 bizarre Mortys to recruit and train out there, including Mustache Morty, Wizard Morty, Cronenberg Morty and more. Assemble a dream team, then challenge rival Ricks by forcing your grandsons to battle each other. Command, combine and level up your Mortys to prove that you're the greatest Morty trainer of all space and time!",
+  "companies": {
+    "developer": [
+      "tag-games",
+      {
+        "name": "Big Pixel Studios"
+      },
+      "pocket-sized-hands"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "rpg",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "N7a1Nd_0d1U"
+  },
+  "stores": {
+    "website": "https://www.tag-games.com/pocket-mortys",
+    "app_store": "id992640880",
+    "play_store": "com.turner.pocketmortys"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Pocket_Mortys",
+    "backloggd": "pocket-mortys"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/pocket-mortys/cover.webp"
+}

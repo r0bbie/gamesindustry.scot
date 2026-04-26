@@ -1,0 +1,45 @@
+{
+  "id": "ballarina",
+  "title": "Ballarina",
+  "slug": "ballarina",
+  "status": "released",
+  "release_date": "2016-11-09",
+  "short_description": "Mobile game from Tag Games tied to Nickelodeon’s Game Shakers (iOS & Android).",
+  "companies": {
+    "developer": [
+      "tag-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "arcade"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "vBRESS7GAA8"
+  },
+  "stores": {
+    "app_store": "id1161947306"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "81662/ballarina"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ballarina/cover.webp"
+}

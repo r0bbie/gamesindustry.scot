@@ -1,0 +1,41 @@
+{
+  "id": "cobi-darts",
+  "title": "Cobi Darts",
+  "slug": "cobi-darts",
+  "status": "released",
+  "release_date": "2017-05-24",
+  "short_description": "Darts from Cobra Mobile on iOS.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports",
+    "casual"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "stores": {
+    "app_store": "id1226357872"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/211198-cobi-darts",
+    "rawg": "cobi-darts"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cobi-darts/cover.webp"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "powerslide-penguin",
+  "title": "PowerSlide Penguin",
+  "slug": "powerslide-penguin",
+  "status": "released",
+  "release_date": "2011-06-23",
+  "short_description": "Cobra Mobile iOS sliding penguin arcade game.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "casual"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "eQnON6GjGsQ"
+  },
+  "stores": {
+    "app_store": "id422036947"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/634915-powerslide-penguin"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/powerslide-penguin/cover.webp"
+}

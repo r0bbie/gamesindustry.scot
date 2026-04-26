@@ -1,0 +1,44 @@
+{
+  "id": "cobi-arrows",
+  "title": "Cobi Arrows",
+  "slug": "cobi-arrows",
+  "status": "released",
+  "release_date": "2017-12-04",
+  "short_description": "Arrow-puzzle action from Cobra Mobile on iOS.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "arcade"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "FzGONJHTRZQ"
+  },
+  "stores": {
+    "app_store": "id1217381869"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/208919-cobi-arrows"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cobi-arrows/cover.webp"
+}

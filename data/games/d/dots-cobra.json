@@ -1,0 +1,43 @@
+{
+  "id": "dots-cobra",
+  "title": "Dots",
+  "slug": "dots-cobra",
+  "status": "released",
+  "release_date": "2009-09-25",
+  "short_description": "Dual-character puzzle adventure — forty levels across four time zones (Cobra Mobile, iOS).",
+  "description": "Dots is a puzzle adventure game, where you control two characters on screen at once. Using a straightforward and intuitive 'touch and drag' mechanic, you guide your onscreen characters through forty increasingly difficult levels, over four distinct Time Zones.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "adventure"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "4ujcwJzTeOo"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "gamefaqs": "iphone/976366-dots"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/dots-cobra/cover.webp"
+}

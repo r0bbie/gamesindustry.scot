@@ -1,0 +1,42 @@
+{
+  "id": "2-fast-2-furious",
+  "title": "2 Fast 2 Furious",
+  "slug": "2-fast-2-furious",
+  "status": "released",
+  "release_date": "2004",
+  "short_description": "J2ME mobile racing tie-in to the 2003 film, from I-Play (Digital Bridges).",
+  "description": "2 Fast 2 Furious is a mobile racing game based on the 2003 film.",
+  "companies": {
+    "developer": [
+      "i-play"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "java-me"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ONifxeUHngs"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "138690/2-fast-2-furious"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/2-fast-2-furious/cover.webp"
+}

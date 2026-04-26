@@ -1,0 +1,43 @@
+{
+  "id": "low-grav-racer-2",
+  "title": "Low Grav Racer 2",
+  "slug": "low-grav-racer-2",
+  "status": "released",
+  "release_date": "2009-12-08",
+  "short_description": "Eighteen planet and space-system tracks from the Dante Nebula to the Arkonian Rift — Cobra Mobile on iOS.",
+  "description": "In Low Grav Racer 2 you race across 18 planet and space system based tracks from the Dante Nebula to the Arkonian Rift.",
+  "companies": {
+    "developer": [
+      "cobra-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "arcade"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "LjHPJb0n2vo"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "rawg": "low-grav-racer-2"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/low-grav-racer-2/cover.webp"
+}

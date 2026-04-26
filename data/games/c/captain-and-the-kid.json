@@ -1,0 +1,32 @@
+{
+  "id": "captain-and-the-kid",
+  "title": "Captain and the Kid",
+  "slug": "captain-and-the-kid",
+  "status": "prototype",
+  "release_date": "2022-08-02",
+  "short_description": "Cobra Mobile prototype / experiment.",
+  "companies": {
+    "developer": ["cobra-mobile"],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "dCclWbHnKTI"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

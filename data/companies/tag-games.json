@@ -2,16 +2,31 @@
   "id": "tag-games",
   "name": "Tag Games",
   "slug": "tag-games",
-  "categories": [
-    "developer"
-  ],
+  "categories": ["developer"],
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "http://www.tag-games.com/",
+  "website": "https://www.tag-games.com",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Dundee free-to-play mobile studio — 60+ published titles; acquired by Scopely in 2023.",
+  "about": "One of Europe's leading game development studios and specialists in free-to-play mobile, with over 60 published titles. Acquired by Scopely in 2023.",
+  "parent_entity": {
+    "name": "Scopely",
+    "url": "https://www.scopely.com"
+  },
+  "contact_email": "contact@tag-games.com",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Tag Games Limited",
+      "companies_house_number": "SC300618"
+    }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/tag-games",
+    "crunchbase": "tag-games",
+    "facebook": "https://www.facebook.com/TagGamesStudio"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
