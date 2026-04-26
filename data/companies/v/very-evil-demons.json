@@ -1,0 +1,33 @@
+{
+  "id": "very-evil-demons",
+  "name": "Very Evil Demons",
+  "slug": "very-evil-demons",
+  "categories": [
+    "developer",
+    "service_provider"
+  ],
+  "status": "active",
+  "founded": 2024,
+  "previously_known_as": [],
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "short_description": "Independent worker-owned game development studio based in Dundee",
+  "about": "Very Evil Demons is an independent worker-owned game development studio based in Dundee.",
+  "website": "https://veryevildemons.com",
+  "logo": null,
+  "highlighted": false,
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/veryevildemons",
+    "bluesky": "veryevildemons.com",
+    "mastodon": "https://mastodon.gamedev.place/@veryevildemons",
+    "instagram": "veryevildemons",
+    "twitter": "veryevildemons",
+    "itch": "https://veryevildemons.itch.io",
+    "youtube": "https://www.youtube.com/@VeryEvilDemons"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

@@ -6,6 +6,10 @@
   "release_date": "2006-03-17",
   "short_description": "A colourful action puzzle game starring the iconic Smarties brand, built around colour-matching and meltdown-stopping mayhem.",
   "description": "Smarties: Meltdown is a family-friendly action puzzle game themed around the iconic confectionery brand. Players must sort and match Smarties by colour to prevent a meltdown, working through a variety of increasingly hectic stages. Bright and accessible, the game was designed to appeal to younger audiences.",
+  "video": {
+    "type": "youtube",
+    "id": "etfCUCnDAeM"
+  },
   "companies": {
     "developer": [
       "extra-mile-studios"

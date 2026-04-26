@@ -1,0 +1,49 @@
+{
+  "id": "wolf-peak-the-case-of-ruth-choi",
+  "title": "Wolf Peak: The Case of Ruth Choi",
+  "slug": "wolf-peak-the-case-of-ruth-choi",
+  "status": "released",
+  "release_date": "2024-06-14",
+  "short_description": "A true-crime-style deduction game: in 1991 Ruth Choi was murdered, with six suspects and no solved case—watch evidence, find the killer, and the game only reveals the truth if you convict the right person.",
+  "description": "In 1991 Ruth Choi was murdered, it was whittled down to 6 suspects, but the case was never solved. Watch interviews, go through evidence and build your case. A game where you are never told who the killer is, unless you convict them. Use your own deductive skills to find out, who killed Ruth Choi.",
+  "companies": {
+    "developer": [
+      "cloud-colony-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "mystery"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Ihocha69kcQ"
+  },
+  "stores": {
+    "steam": "1529250"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "Coming Soon: Wolf Peak: The Case of Ruth Choi",
+      "publication": "Scottish Games Network",
+      "date": "2024-01-15",
+      "url": "https://scottishgames.net/2024/01/15/coming-soon-wolf-peak-the-case-of-ruth-choi/"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wolf-peak-the-case-of-ruth-choi/cover.webp"
+}

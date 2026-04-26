@@ -1,0 +1,38 @@
+{
+  "id": "cooking-mecha-iron-chef",
+  "title": "Cooking Mecha Iron Chef",
+  "slug": "cooking-mecha-iron-chef",
+  "status": "prototype",
+  "release_date": "2024-07-17",
+  "short_description": "Pilot cauldron mechs made from old war machines: gather giant vegetables, cook with the Plink-o-matic, and autoturret-feed soup to hungry villagers in the Caldera.",
+  "description": "Giant, delicious vegetables sprout from the fertile soil of the Caldera. So giant, in fact, that the people that inhabit the area repurpose long-dead military mechs into enormous cauldrons to cook them! Become a pilot of your very own cauldron mech - gather vegetables, prepare them and season them with the Plink-o-matic, and use the autoturret to fire delicious soup into the mouths of hungry villagers. Can you match their tastes and figure out the flavours of each of the 5 tasty vegetable types?",
+  "companies": {
+    "developer": [
+      "very-evil-demons"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action"
+  ],
+  "platforms": [
+    "pc",
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {
+    "itch": "https://veryevildemons.itch.io/cooking-mecha-iron-chef"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

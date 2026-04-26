@@ -1,0 +1,42 @@
+{
+  "id": "escape-the-cabin",
+  "title": "Escape: The Cabin",
+  "slug": "escape-the-cabin",
+  "status": "released",
+  "release_date": "2024-01-28",
+  "short_description": "A puzzle escape game: lost in the woods, you find a cabin—only for the door to lock behind you. Use spell books and occult tools to solve puzzles and get out before it's too late.",
+  "description": "After roaming around aimlessly lost in the forest for hours you stumble upon a seemingly quaint cabin. Feeling weary and in need of shelter, the warmth of the cabin is too inviting to resist. Upon entering you find that the door suddenly locks shut behind you! You notice spell books and other magical artifacts which point to dark magic.\n\nNow trapped you must solve an array of puzzles, using these tools of witchcraft, to find the key to escape! Will you find the way out?",
+  "companies": {
+    "developer": [
+      "cloud-colony-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "2hDkDMnYP5A"
+  },
+  "stores": {
+    "itch": "https://cloudcolonygames.itch.io/escape-the-cabin"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/escape-the-cabin/cover.webp"
+}

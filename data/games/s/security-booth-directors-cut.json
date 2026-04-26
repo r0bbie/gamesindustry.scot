@@ -1,0 +1,44 @@
+{
+  "id": "security-booth-directors-cut",
+  "title": "Security Booth: Director's Cut",
+  "slug": "security-booth-directors-cut",
+  "status": "released",
+  "release_date": "2022-08-19",
+  "short_description": "A first-person experience from a security guard's booth, extended in this Director’s Cut for PC and Xbox Series X|S.",
+  "companies": {
+    "developer": [
+      "cloud-colony-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation"
+  ],
+  "platforms": [
+    "pc",
+    "xbox-series-xs"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "TsyvQVb6QGY"
+  },
+  "stores": {
+    "steam": "1828690",
+    "xbox": "https://www.microsoft.com/store/productid/9phrc88nhpqb",
+    "itch": "https://kyle-horwood.itch.io/security-booth-directors-cut"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/security-booth-directors-cut/cover.webp"
+}

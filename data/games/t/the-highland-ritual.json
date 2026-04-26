@@ -1,0 +1,37 @@
+{
+  "id": "the-highland-ritual",
+  "title": "The Highland Ritual",
+  "slug": "the-highland-ritual",
+  "status": "in_development",
+  "short_description": "A PSX-style first-person horror game where a ritual hunt in the Scottish highlands unravels into something far darker when not all is as it seems.",
+  "description": "The Highland Ritual is a PSX Style First-Person horror game. A game where you go on a ritual hunt in the Scottish highlands, but not all is what it seems and soon enough, you're caught up in something dark and sinister.",
+  "companies": {
+    "developer": [
+      "cloud-colony-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "horror"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "3453240"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-highland-ritual/cover.webp"
+}

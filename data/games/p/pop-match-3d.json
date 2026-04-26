@@ -1,0 +1,47 @@
+{
+  "id": "pop-match-3d",
+  "title": "Pop Match 3D",
+  "slug": "pop-match-3d",
+  "status": "released",
+  "release_date": "2023-06-01",
+  "short_description": "A 3D object-matching puzzle game: find and clear matching sets in colourful scenes, with versions on iOS, Android, and the web.",
+  "companies": {
+    "developer": [
+      "bite-size-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "browser"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "NWfEmnPWexs"
+  },
+  "stores": {
+    "app_store": "https://apps.apple.com/gb/app/pop-match-3d/id6446033011",
+    "play_store": "com.outplayentertainment.findmatch"
+  },
+  "play_now": {
+    "crazygames": "pop-match-3d"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/pop-match-3d/cover.webp"
+}

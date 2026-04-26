@@ -1,0 +1,38 @@
+{
+  "id": "crystals-of-runewood",
+  "title": "Crystals of Runewood",
+  "slug": "crystals-of-runewood",
+  "status": "prototype",
+  "release_date": "2024-08-20",
+  "short_description": "A bite-sized scale model of an MMORPG chronicling the birth, growth, stagnation, death, and rebirth of an online game in the mid-2000s.",
+  "description": "Experience the birth, growth, stagnation, death, and rebirth of an online game in the mid-2000s in this bite-sized scale model of an MMORPG!",
+  "companies": {
+    "developer": [
+      "very-evil-demons"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation"
+  ],
+  "platforms": [
+    "pc",
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {
+    "itch": "https://veryevildemons.itch.io/crystals-of-runewood"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

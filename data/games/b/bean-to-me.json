@@ -1,0 +1,39 @@
+{
+  "id": "bean-to-me",
+  "title": "Bean To Me!",
+  "slug": "bean-to-me",
+  "status": "released",
+  "release_date": "2024-10-31",
+  "short_description": "A wild twist on Mancala: use strange magical beans, chain absurd synergies, battle friends, collect new beans, and build the ultimate bean loadout.",
+  "description": "Use strange and magical beans to bend the rules and chain together absurd synergies in a wild twist on the ancient game of Mancala. Battle your friends, collect new beans, and build the ultimate bean loadout!",
+  "companies": {
+    "developer": [
+      "very-evil-demons"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "multiplayer"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "3001670"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bean-to-me/cover.webp"
+}

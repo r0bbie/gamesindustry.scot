@@ -1,0 +1,59 @@
+{
+  "id": "shu",
+  "title": "Shu",
+  "slug": "shu",
+  "status": "released",
+  "release_date": "2016-10-04",
+  "short_description": "A stylish 2.5D platformer in a hand-drawn world: outrun the Storm with Shu and friends across exotic lands as you run, jump, and glide.",
+  "description": "Shu is a stylish 2.5D platformer set in a beautiful and engrossing world. Guide Shu and a cast of beautifully hand-drawn characters as they run, jump and glide their way across exotic lands, forever pursued by the monstrous and unrelenting Storm. CAN YOU OUTRUN THE END OF THE WORLD?",
+  "companies": {
+    "developer": [
+      "secret-lunch"
+    ],
+    "publishers": [
+      {
+        "name": "Coatsink",
+        "url": "https://coatsink.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer"
+  ],
+  "platforms": [
+    "pc",
+    "switch",
+    "ps4",
+    "ps-vita"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "MlJINbCE2Kg"
+  },
+  "stores": {
+    "website": "https://coatsink.com/games/shu",
+    "steam": "528720",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Shu-1327457.html"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "Introducing: Secret Lunch (and Shu)",
+      "publication": "Scottish Games Network",
+      "date": "2012-12-21",
+      "url": "https://scottishgames.net/2012/12/21/introducing-secret-lunch-and-shu/"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/shu/cover.webp"
+}

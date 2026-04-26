@@ -1,0 +1,42 @@
+{
+  "id": "springpong",
+  "title": "Springpong",
+  "slug": "springpong",
+  "status": "released",
+  "release_date": "2024-04-26",
+  "short_description": "A fast-paced, high-scoring game of super-powered competitive pinball with a cute claymation look—plant-themed teams, unique formations, and the Springpong World Cup.",
+  "description": "Springpong is a fast paced, high scoring, game of super-powered competitive pinball, with a cute claymation aesthetic. Pick your pins from a variety of plant themed teams, using their unique formations and super-powers to bury the competition in the Springpong World Cup.",
+  "companies": {
+    "developer": [
+      "very-evil-demons"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "IvcMHh9qA-A"
+  },
+  "stores": {
+    "itch": "https://veryevildemons.itch.io/springpong"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/springpong/cover.webp"
+}
