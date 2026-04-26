@@ -30,7 +30,7 @@
   "screenshots": [],
   "video": {
     "type": "youtube",
-    "id": "kFBDVEIOTQA"
+    "id": "QDqy0aSmu8E"
   },
   "stores": {
     "steam": "906100",
@@ -39,8 +39,12 @@
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {
-    "metacritic": 80,
-    "opencritic": 78
+    "metacritic": 75,
+    "opencritic": 76
+  },
+  "critic_ids": {
+    "metacritic": "observation",
+    "opencritic": "7625/observation"
   },
   "database_links": {
     "igdb": "observation",
@@ -48,14 +52,29 @@
   },
   "awards": [
     {
+      "name": "BAFTA Games Award — Best British Game",
+      "year": 2020,
+      "status": "won"
+    },
+    {
       "name": "BAFTA Best Debut Game",
       "year": 2020,
       "status": "nominated"
     },
     {
-      "name": "BAFTA Scotland — Game",
+      "name": "BAFTA Scotland — Best Game",
       "year": 2019,
       "status": "won"
+    },
+    {
+      "name": "SXSW Title Design Competition — Excellence in Title Design",
+      "year": 2020,
+      "status": "nominated"
+    },
+    {
+      "name": "Golden Joystick Award — Best Storytelling",
+      "year": 2019,
+      "status": "nominated"
     }
   ],
   "news": [],

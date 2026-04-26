@@ -3,27 +3,58 @@
   "title": "Scathe",
   "slug": "scathe",
   "status": "released",
-  "release_date": "2022",
+  "release_date": "2022-08-31",
+  "short_description": "Scathe is an intense, blood-soaked FPS where quick reflexes are the key to surviving bullet Hell. Rip through the labyrinth that stands between you and your ascension. Blast your way through the underworld's deadliest demons solo or with up to three comrades in drop-in/drop-out online co-op.",
   "companies": {
-    "developer": ["damage-state"],
-    "publishers": [],
+    "developer": [
+      "damage-state"
+    ],
+    "publishers": [
+      { "name": "Kwalee", "url": "https://kwalee.com/" }
+    ],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["shooter", "action"],
-  "platforms": ["pc", "ps4", "ps5", "xbox-one", "xbox-series-xs", "switch"],
+  "genres": [
+    "shooter",
+    "action"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "steam": "1154830",
+    "epic": "scathe-ca258f"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "2WvZRLefaUw"
+  },
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": {},
-  "critic_ids": {},
-  "database_links": {},
+  "critic_ratings": {
+    "metacritic": 61,
+    "opencritic": 62
+  },
+  "critic_ids": {
+    "metacritic": "scathe",
+    "opencritic": "13610"
+  },
+  "database_links": {
+    "mobygames": "190672/scathe",
+    "gamefaqs": "pc/273637-scathe"
+  },
   "awards": [
-    { "name": "Scottish Games Awards - Best Large-Budget Game", "year": 2023, "status": "nominated" }
+    {
+      "name": "Scottish Games Awards - Best Large-Budget Game",
+      "year": 2023,
+      "status": "nominated"
+    }
   ],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/scathe/cover.webp"
 }

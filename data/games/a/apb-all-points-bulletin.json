@@ -7,21 +7,44 @@
   "release_date": "2010-06-29",
   "status": "released",
   "companies": {
-    "developer": ["realtime-worlds"],
-    "publishers": ["realtime-worlds"],
+    "developer": [
+      "realtime-worlds"
+    ],
+    "publishers": [
+      "realtime-worlds"
+    ],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["action", "mmo", "shooter"],
-  "platforms": ["pc"],
+  "genres": [
+    "action",
+    "mmo",
+    "shooter"
+  ],
+  "platforms": [
+    "pc",
+    "xbox-one",
+    "ps4"
+  ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "website": "https://www.gamersfirst.com/apb/",
+    "steam": "113400"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "GTug7QJn3Gw"
+  },
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": {},
-  "critic_ids": {},
+  "critic_ratings": {
+    "metacritic": 58
+  },
+  "critic_ids": {
+    "metacritic": "apb"
+  },
   "database_links": {
     "wikipedia": "APB:_All_Points_Bulletin",
     "mobygames": "apb-all-points-bulletin",
@@ -29,5 +52,6 @@
   },
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/apb-all-points-bulletin/cover.webp"
 }

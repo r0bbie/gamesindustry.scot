@@ -7,7 +7,9 @@
   "status": "released",
   "release_date": "2026-03",
   "companies": {
-    "developer": ["somewhat-unsettling"],
+    "developer": [
+      "somewhat-unsettling"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
@@ -15,7 +17,9 @@
     "contributed_by": []
   },
   "genres": [],
-  "platforms": ["playdate"],
+  "platforms": [
+    "playdate"
+  ],
   "screenshots": [],
   "stores": {
     "itch": "somewhatunsettling.itch.io/tobias"
@@ -27,5 +31,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-memoirs-of-tobias-pose/cover.webp"
 }

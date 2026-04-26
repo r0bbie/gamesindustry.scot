@@ -19,6 +19,7 @@ import {
 import PlatformIcons from "@/components/games/PlatformIcons.astro";
 import StoreLinks from "@/components/games/StoreLinks.astro";
 import PhysicalStoreLinks from "@/components/games/PhysicalStoreLinks.astro";
+import GameCoverImage from "@/components/games/GameCoverImage";
 import { BrokenLink } from "@/components/ui/broken-link";
 import {
   formatReleaseDatePart,
@@ -133,15 +134,12 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
     <!-- Hero -->
     <div class="mb-10 grid gap-8 lg:grid-cols-[320px_1fr]">
       <!-- Cover -->
-      <div
-        class="flex aspect-[2/3] items-center justify-center overflow-hidden rounded-xl border border-border shadow-lg"
-        style={
-          game.cover_image
-            ? `background-image: url(${game.cover_image}); background-size: cover; background-position: center;`
-            : `background: ${getCoverGradient(game.title)};`
-        }
+      <div class="relative flex aspect-[2/3] items-center justify-center overflow-hidden rounded-xl border border-border shadow-lg"
+        style={!game.cover_image ? `background: ${getCoverGradient(game.title)};` : ""}
       >
-        {!game.cover_image && (
+        {game.cover_image ? (
+          <GameCoverImage client:load src={game.cover_image} alt={`${game.title} cover art`} forceFill={game.cover_fill} />
+        ) : (
           <span class="text-7xl font-bold text-white/60">{game.title.charAt(0)}</span>
         )}
       </div>

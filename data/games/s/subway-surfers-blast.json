@@ -1,0 +1,42 @@
+{
+  "id": "subway-surfers-blast",
+  "title": "Subway Surfers Blast",
+  "slug": "subway-surfers-blast",
+  "status": "released",
+  "release_date": "2023-04-24",
+  "short_description": "Team up with Jake, Yutani, Fresh or Tricky and blast your way through challenging puzzles. Discover hidden hangouts, decorate them and bring their stories to life. Join the crew, blast colourful cubes and unlock powerful effects.",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.outplay.com/games/subway-surfers-blast/",
+    "app_store": "id1632184105",
+    "play_store": "com.sybogames.subwaysurfers.blast"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "FEbKqftbNEc"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/subway-surfers-blast/cover.webp"
+}

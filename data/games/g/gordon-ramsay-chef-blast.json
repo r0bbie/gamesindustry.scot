@@ -1,0 +1,43 @@
+{
+  "id": "gordon-ramsay-chef-blast",
+  "title": "Gordon Ramsay: Chef Blast",
+  "slug": "gordon-ramsay-chef-blast",
+  "status": "released",
+  "release_date": "2021-01-14",
+  "short_description": "Slice, peel, and whisk your way through bitesize levels of fun foodie puzzles under the watchful eye of your chef mentor Gordon Ramsay! Turn a kitchen nightmare into a dream and build the ultimate cookbook filled with exclusive recipes.",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.outplay.com/games/chef-blast/",
+    "app_store": "id1515755905",
+    "play_store": "com.outplayentertainment.chefblast",
+    "amazon_appstore": "B09BDG8YQB"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "yJkDuPrIkPA"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/gordon-ramsay-chef-blast/cover.webp"
+}

@@ -7,15 +7,27 @@
   "release_date": "2007-02-20",
   "status": "released",
   "companies": {
-    "developer": ["realtime-worlds"],
-    "publishers": [{ "name": "Microsoft Game Studios", "url": "https://www.xbox.com/" }],
+    "developer": [
+      "realtime-worlds"
+    ],
+    "publishers": [
+      {
+        "name": "Microsoft Game Studios",
+        "url": "https://www.xbox.com/"
+      }
+    ],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["action", "open-world"],
-  "platforms": ["xbox-360"],
+  "genres": [
+    "action",
+    "open-world"
+  ],
+  "platforms": [
+    "xbox-360"
+  ],
   "screenshots": [],
   "stores": {
     "xbox": "crackdown/C3VNJHHD7MM4/0001"
@@ -39,5 +51,6 @@
   },
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/crackdown/cover.webp"
 }

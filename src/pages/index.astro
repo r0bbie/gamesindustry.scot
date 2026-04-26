@@ -30,7 +30,7 @@ const highlightedCompanies = shuffleArray(
 // New Releases: released games, most recently launched first, max 5
 // Uses start of release_period (not end) so ongoing titles don't float up
 const newReleases = allGames
-  .filter((g) => g.status === "released" && g.release_date && g.cover_image)
+  .filter((g) => g.status === "released" && g.cover_image && typeof g.release_date === "string" && g.release_date.split("-").length === 3)
   .sort(
     (a, b) =>
       getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),

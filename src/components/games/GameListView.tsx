@@ -5,6 +5,7 @@ import {
   formatGameReleaseLineDisplay,
   getFirstReleaseSortTimestamp,
 } from "@/lib/gameRelease";
+import GameCoverImage from "@/components/games/GameCoverImage";
 
 const PAGE_SIZE = 30;
 
@@ -19,6 +20,7 @@ export interface GameWithDeveloper {
   genres: string[];
   platforms: string[];
   cover_image?: string;
+  cover_fill?: boolean;
   developerName: string;
   critic_ratings: Record<string, number | string>;
   awards: Array<{ name: string; year: number; status: string }>;
@@ -54,7 +56,7 @@ const RATING_SOURCES: Record<string, { label: string; favicon: string }> = {
   },
   opencritic: {
     label: "OC",
-    favicon: "https://opencritic.com/favicon.ico",
+    favicon: "/images/icons/opencritic.svg",
   },
   criticdb: {
     label: "CDB",
@@ -85,6 +87,21 @@ function compareReleaseTimestamps(
   return a.title.localeCompare(b.title);
 }
 
+function RatingFavicon({ favicon, label }: { favicon: string; label: string }) {
+  const [failed, setFailed] = useState(false);
+  if (failed) return <span className="font-normal opacity-70">{label}</span>;
+  return (
+    <img
+      src={favicon}
+      alt={label}
+      width={10}
+      height={10}
+      className="h-2.5 w-2.5 shrink-0 rounded-[1px] opacity-90"
+      onError={() => setFailed(true)}
+    />
+  );
+}
+
 function RatingBadge({ ratings }: { ratings: Record<string, number | string> }) {
   const top = getTopRatingEntry(ratings);
   if (!top) return null;
@@ -102,13 +119,7 @@ function RatingBadge({ ratings }: { ratings: Record<string, number | string> }) 
       title={`${meta?.label ?? source}: ${score}`}
     >
       {meta ? (
-        <img
-          src={meta.favicon}
-          alt={meta.label}
-          width={10}
-          height={10}
-          className="h-2.5 w-2.5 shrink-0 rounded-[1px] opacity-90"
-        />
+        <RatingFavicon favicon={meta.favicon} label={meta.label} />
       ) : (
         <span className="font-normal opacity-70">{source.slice(0, 2).toUpperCase()}</span>
       )}
@@ -372,31 +383,30 @@ export default function GameListView({ games }: { games: GameWithDeveloper[] }) 
               {/* Cover */}
               <div
                 className="relative flex aspect-[2/3] items-center justify-center overflow-hidden rounded-t-xl"
-                style={
-                  game.cover_image
-                    ? { backgroundImage: `url(${game.cover_image})`, backgroundSize: "cover", backgroundPosition: "center" }
-                    : { background: getCoverGradient(game.title) }
-                }
+                style={!game.cover_image ? { background: getCoverGradient(game.title) } : undefined}
               >
-                {!game.cover_image && (
+                {game.cover_image ? (
+                  <GameCoverImage src={game.cover_image} forceFill={game.cover_fill} />
+                ) : (
                   <span className="text-5xl font-bold text-white/60 select-none">
                     {game.title.charAt(0)}
                   </span>
                 )}
+
                 {/* Status badge */}
                 {game.status === "in_development" && (
-                  <span className="absolute left-2 top-2 rounded-full bg-blue-500/90 px-2 py-0.5 text-[10px] font-semibold text-white backdrop-blur-sm">
+                  <span className="absolute left-2 top-2 z-20 rounded-full bg-blue-500/90 px-2 py-0.5 text-[10px] font-semibold text-white backdrop-blur-sm">
                     Upcoming
                   </span>
                 )}
                 {game.status === "cancelled" && (
-                  <span className="absolute left-2 top-2 rounded-full bg-zinc-700/90 px-2 py-0.5 text-[10px] font-semibold text-white backdrop-blur-sm">
+                  <span className="absolute left-2 top-2 z-20 rounded-full bg-zinc-700/90 px-2 py-0.5 text-[10px] font-semibold text-white backdrop-blur-sm">
                     Cancelled
                   </span>
                 )}
                 {/* Rating badge */}
                 {getMaxRating(game.critic_ratings) > 0 && (
-                  <span className="absolute right-2 top-2">
+                  <span className="absolute right-2 top-2 z-20">
                     <RatingBadge ratings={game.critic_ratings} />
                   </span>
                 )}

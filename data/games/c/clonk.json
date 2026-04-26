@@ -45,5 +45,6 @@
   "awards": [],
   "news": [],
   "is_student_game": false,
+  "cover_fill": true,
   "cover_image": "https://media.gamesindustry.scot/games/clonk/cover.webp"
 }

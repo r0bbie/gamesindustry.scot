@@ -1,0 +1,53 @@
+{
+  "id": "lub-vs-dub",
+  "title": "Lub vs Dub",
+  "slug": "lub-vs-dub",
+  "status": "released",
+  "release_date": "2013-07-30",
+  "short_description": "A 2 player game with a lot of hearts!",
+  "companies": {
+    "developer": [
+      "screen-burn"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "app_store": "id655342705",
+    "play_store": "com.nocode.lubvsdub"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "1n8AjBCwnUU"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 70
+  },
+  "critic_ids": {
+    "metacritic": "lub-vs-dub"
+  },
+  "database_links": {
+    "twitter": "lubvsdub"
+  },
+  "awards": [
+    {
+      "name": "Scottish Game Jam 2013",
+      "year": 2013,
+      "status": "won"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/lub-vs-dub/cover.webp"
+}

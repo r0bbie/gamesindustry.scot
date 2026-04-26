@@ -6,12 +6,23 @@
     "developer"
   ],
   "status": "active",
-  "location": "Edinburgh",
-  "region": "edinburgh-lothians",
-  "website": null,
+  "founded": 2019,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://damagestate.com",
+  "contact_email": "support@damagestate.com",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Damage State Ltd",
+      "companies_house_number": "SC635186"
+    }
+  ],
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "damagestate",
+    "youtube": "@damagestate"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

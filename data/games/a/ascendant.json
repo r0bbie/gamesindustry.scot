@@ -7,7 +7,9 @@
   "status": "released",
   "release_date": "2020",
   "companies": {
-    "developer": ["somewhat-unsettling"],
+    "developer": [
+      "somewhat-unsettling"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
@@ -15,7 +17,9 @@
     "contributed_by": []
   },
   "genres": [],
-  "platforms": ["pc"],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "video": {
     "type": "youtube",
@@ -31,5 +35,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ascendant/cover.webp"
 }

@@ -1,0 +1,39 @@
+{
+  "id": "rusty-hammer",
+  "title": "Rusty Hammer",
+  "slug": "rusty-hammer",
+  "status": "prototype",
+  "release_date": "2024-10-29",
+  "short_description": "A cosy blacksmith idle clicker about turning a fallen down place into a thriving forge.",
+  "companies": {
+    "developer": [
+      "ludus-pax-studios"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "pc",
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {
+    "itch": "ludus-pax-studio.itch.io/rusty-hammer"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "b7qjZ0uTRsc"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

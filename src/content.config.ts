@@ -183,6 +183,8 @@ const games = defineCollection({
     awards: z.array(awardSchema).optional().default([]),
     news: z.array(newsSchema).optional().default([]),
     is_student_game: z.boolean().optional().default(false),
+    /** Force cover image to always fill/zoom regardless of aspect ratio. */
+    cover_fill: z.boolean().optional().default(false),
     tech: z
       .object({
         game_engine: z.string().optional(),

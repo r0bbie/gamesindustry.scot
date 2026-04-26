@@ -1,0 +1,43 @@
+{
+  "id": "alien-creeps-td",
+  "title": "Alien Creeps TD",
+  "slug": "alien-creeps-td",
+  "status": "released",
+  "release_date": "2014-06-24",
+  "short_description": "Alien Creeps TD is a tower defense strategy game in which you have to protect the Earth from an alien invasion. You will be able to blow them up, to strike them down or to exterminate them with the help of your helicopter.",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.outplay.com/games/alien-creeps/",
+    "app_store": "id880017562",
+    "play_store": "com.outplayentertainment.aliencreeps",
+    "amazon_appstore": "B00NSN70EK"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "j6L8ajw_YRM"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/alien-creeps-td/cover.webp"
+}

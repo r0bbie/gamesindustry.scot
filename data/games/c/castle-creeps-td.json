@@ -1,0 +1,42 @@
+{
+  "id": "castle-creeps-td",
+  "title": "Castle Creeps TD",
+  "slug": "castle-creeps-td",
+  "status": "released",
+  "release_date": "2017-01-05",
+  "short_description": "Lead your troops to victory in the best fantasy mobile Tower Defense game! Fortify your defenses and save the kingdom from ferocious Warlords, colossal Ogres & savage Goblins! Change strategy on the fly in this non-stop action experience!",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.outplay.com/games/castle-creeps/",
+    "app_store": "id1115730443",
+    "play_store": "com.outplayentertainment.castlecreepstd"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "OnlhcMc_4zg"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/castle-creeps-td/cover.webp"
+}

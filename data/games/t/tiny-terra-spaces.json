@@ -1,0 +1,40 @@
+{
+  "id": "tiny-terra-spaces",
+  "title": "Tiny Terra Spaces",
+  "slug": "tiny-terra-spaces",
+  "status": "in_development",
+  "release_date": "2026-06-25",
+  "short_description": "Build your own cosy medieval island with historical inspired 3D buildings. Relax in Sandbox Mode or set sail in Island Hop Mode, shaping lively communities inspired by the beauty and history of Scotland.",
+  "companies": {
+    "developer": [
+      "ludus-pax-studios"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "3788070",
+    "itch": "ludus-pax-studio.itch.io/tiny-terra-spaces"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "MDUeG_lSYH0"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tiny-terra-spaces/cover.webp"
+}

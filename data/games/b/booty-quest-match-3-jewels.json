@@ -1,0 +1,38 @@
+{
+  "id": "booty-quest-match-3-jewels",
+  "title": "Booty Quest: Match 3 Jewels!",
+  "slug": "booty-quest-match-3-jewels",
+  "status": "released",
+  "release_date": "2012-08-30",
+  "short_description": "Match 3 or more jewels as fast as you can in just 60 seconds.",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "video": {
+    "type": "youtube",
+    "id": "nUkWUxXhSfY"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/booty-quest-match-3-jewels/cover.webp"
+}

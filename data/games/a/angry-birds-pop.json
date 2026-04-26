@@ -1,0 +1,43 @@
+{
+  "id": "angry-birds-pop",
+  "title": "Angry Birds POP!",
+  "slug": "angry-birds-pop",
+  "status": "released",
+  "release_date": "2015-03-12",
+  "short_description": "Join Stella, Red, Chuck, Bomb, and the rest of the Angry Birds flock in a bubble shooting adventure bursting with challenges!",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "browser",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "app_store": "id937718942",
+    "play_store": "com.rovio.ABstellapop",
+    "amazon_appstore": "B01701RAY0"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "Js6oeAjKPMM"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/angry-birds-pop/cover.webp"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "the-house-abandon",
+  "title": "The House Abandon",
+  "slug": "the-house-abandon",
+  "status": "prototype",
+  "release_date": "2016-08-30",
+  "short_description": "A tense short horror game played entirely through a text adventure terminal.",
+  "companies": {
+    "developer": [
+      "screen-burn"
+    ]
+  },
+  "platforms": [
+    "pc"
+  ],
+  "play_now": {
+    "itch": "jonnocode.itch.io/the-house-abandon"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "PYx-sSdCSz8"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "cover_image": "https://media.gamesindustry.scot/games/the-house-abandon/cover.webp"
+}

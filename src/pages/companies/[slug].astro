@@ -25,6 +25,7 @@ import {
 } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { BrokenLink } from "@/components/ui/broken-link";
+import GameCoverImage from "@/components/games/GameCoverImage";
 import ObfuscatedEmail from "@/components/ObfuscatedEmail.astro";
 import { buildObfuscatedMailtoAnchorHtml } from "@/lib/obfuscateEmail";
 import {
@@ -387,13 +388,9 @@ const recentNews = companyNews.slice(0, 5);
                           href={`/games/${game.slug}`}
                           class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
                         >
-                          <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                          <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
                             {game.cover_image ? (
-                              <img
-                                src={game.cover_image}
-                                alt=""
-                                class="h-full w-full rounded-md object-cover"
-                              />
+                              <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
                             ) : (
                               <span
                                 class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
@@ -426,13 +423,9 @@ const recentNews = companyNews.slice(0, 5);
                           href={`/games/${game.slug}`}
                           class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
                         >
-                          <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                          <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
                             {game.cover_image ? (
-                              <img
-                                src={game.cover_image}
-                                alt=""
-                                class="h-full w-full rounded-md object-cover"
-                              />
+                              <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
                             ) : (
                               <span
                                 class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
@@ -697,13 +690,9 @@ const recentNews = companyNews.slice(0, 5);
                         href={`/games/${game.slug}`}
                         class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
                       >
-                        <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                        <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
                           {game.cover_image ? (
-                            <img
-                              src={game.cover_image}
-                              alt=""
-                              class="h-full w-full rounded-md object-cover"
-                            />
+                            <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
                           ) : (
                             <span
                               class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
@@ -730,13 +719,9 @@ const recentNews = companyNews.slice(0, 5);
                         href={`/games/${game.slug}`}
                         class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
                       >
-                        <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                        <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
                           {game.cover_image ? (
-                            <img
-                              src={game.cover_image}
-                              alt=""
-                              class="h-full w-full rounded-md object-cover"
-                            />
+                            <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
                           ) : (
                             <span
                               class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
@@ -775,13 +760,9 @@ const recentNews = companyNews.slice(0, 5);
                         href={`/games/${game.slug}`}
                         class="group rounded-lg border border-border bg-card p-3 opacity-60 transition-colors hover:border-primary/30"
                       >
-                        <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                        <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
                           {game.cover_image ? (
-                            <img
-                              src={game.cover_image}
-                              alt=""
-                              class="h-full w-full rounded-md object-cover"
-                            />
+                            <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
                           ) : (
                             <span
                               class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
@@ -808,13 +789,9 @@ const recentNews = companyNews.slice(0, 5);
                         href={`/games/${game.slug}`}
                         class="group rounded-lg border border-dashed border-border bg-card/50 p-3 opacity-70 transition-colors hover:border-primary/30 hover:opacity-100"
                       >
-                        <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                        <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
                           {game.cover_image ? (
-                            <img
-                              src={game.cover_image}
-                              alt=""
-                              class="h-full w-full rounded-md object-cover"
-                            />
+                            <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
                           ) : (
                             <span
                               class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
@@ -846,13 +823,9 @@ const recentNews = companyNews.slice(0, 5);
                     href={`/games/${game.slug}`}
                     class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30 opacity-80 hover:opacity-100"
                   >
-                    <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                    <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
                       {game.cover_image ? (
-                        <img
-                          src={game.cover_image}
-                          alt=""
-                          class="h-full w-full rounded-md object-cover"
-                        />
+                          <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
                       ) : (
                         <span
                           class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
@@ -877,13 +850,9 @@ const recentNews = companyNews.slice(0, 5);
                   href={`/games/${game.slug}`}
                   class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
                 >
-                  <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                  <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
                     {game.cover_image ? (
-                      <img
-                        src={game.cover_image}
-                        alt=""
-                        class="h-full w-full rounded-md object-cover"
-                      />
+                          <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
                     ) : (
                       <span
                         class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
@@ -913,13 +882,9 @@ const recentNews = companyNews.slice(0, 5);
                   href={`/games/${game.slug}`}
                   class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
                 >
-                  <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                  <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
                     {game.cover_image ? (
-                      <img
-                        src={game.cover_image}
-                        alt=""
-                        class="h-full w-full rounded-md object-cover"
-                      />
+                          <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
                     ) : (
                       <span
                         class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
@@ -949,13 +914,9 @@ const recentNews = companyNews.slice(0, 5);
                   href={`/games/${game.slug}`}
                   class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
                 >
-                  <div class="mb-2 flex aspect-[2/3] items-center justify-center rounded-md bg-muted">
+                  <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
                     {game.cover_image ? (
-                      <img
-                        src={game.cover_image}
-                        alt=""
-                        class="h-full w-full rounded-md object-cover"
-                      />
+                          <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
                     ) : (
                       <span
                         class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"

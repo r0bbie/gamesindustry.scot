@@ -1,0 +1,42 @@
+{
+  "id": "nugget-tumble",
+  "title": "Nugget Tumble",
+  "slug": "nugget-tumble",
+  "status": "released",
+  "release_date": "2023-08-29",
+  "short_description": "It's a floppy, fumbly, tumble-'em-up that lets the player tilt their device to steer their hapless, boneless baby nugget through a series of saw-strewn mazes.",
+  "companies": {
+    "developer": [
+      "ping-creates"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://pingcreates.com/nugget-tumble-out-now/",
+    "app_store": "id6450069204",
+    "play_store": "com.pingcreates.SSCLNuggetsTumbler"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "qijQ33hMx20"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/nugget-tumble/cover.webp"
+}

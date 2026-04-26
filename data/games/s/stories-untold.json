@@ -11,7 +11,7 @@
       "screen-burn"
     ],
     "publishers": [
-      "devolver-digital"
+      { "name": "Devolver Digital", "url": "https://www.devolverdigital.com" }
     ],
     "service_companies": [],
     "used_tooling": [],
@@ -24,22 +24,31 @@
   ],
   "platforms": [
     "pc",
-    "switch"
+    "switch",
+    "ps4",
+    "xbox-one"
   ],
   "cover_image": "https://media.gamesindustry.scot/games/stories-untold/cover.webp",
   "screenshots": [],
   "video": {
     "type": "youtube",
-    "id": "TjSqMBsR4oo"
+    "id": "nQ5eUoG0mFM"
   },
   "stores": {
-    "steam": "558420"
+    "steam": "558420",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Stories-Untold-1708246.html",
+    "xbox": "Stories-Untold/9NS4Z73TM0K5",
+    "psn": "https://store.playstation.com/en-gb/product/EP3643-CUSA17338_00-STORIESUNTOLDEU0/"
   },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {
-    "metacritic": 77,
-    "opencritic": 76
+    "metacritic": 81,
+    "opencritic": 79
+  },
+  "critic_ids": {
+    "metacritic": "stories-untold",
+    "opencritic": "3997/stories-untold"
   },
   "database_links": {
     "igdb": "stories-untold",

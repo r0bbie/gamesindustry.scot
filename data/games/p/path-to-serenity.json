@@ -1,0 +1,40 @@
+{
+  "id": "path-to-serenity",
+  "title": "Path to Serenity",
+  "slug": "path-to-serenity",
+  "status": "released",
+  "release_date": "2025-06-16",
+  "short_description": "Guide Jim on a heartfelt journey to find peace and balance amidst life's struggles. In Path to Serenity, a cozy walking simulator, explore levels with interactive and soothing elements, accompanied by calming sounds. Walk alongside Jim as he begins a new path towards calm and serenity.",
+  "companies": {
+    "developer": [
+      "ludus-pax-studios"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "3265030",
+    "itch": "ludus-pax-studio.itch.io/path-to-serenity"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "TIBiXdbZQTA"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/path-to-serenity/cover.webp"
+}

@@ -7,15 +7,24 @@
   "status": "released",
   "release_date": "2018-08-21",
   "companies": {
-    "developer": ["ice-beam"],
+    "developer": [
+      "ice-beam"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["roguelike", "strategy"],
-  "platforms": ["pc", "ps4", "xbox-one"],
+  "genres": [
+    "roguelike",
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ps4",
+    "xbox-one"
+  ],
   "screenshots": [],
   "stores": {
     "steam": "750500",
@@ -33,5 +42,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/socketeer/cover.webp"
 }

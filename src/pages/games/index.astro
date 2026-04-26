@@ -3,6 +3,7 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getPublicGames, safeGetCompany } from "@/lib/data";
 import type { Game } from "@/lib/data";
 import type { GameWithDeveloper } from "@/components/games/GameListView";
+import GameCoverImage from "@/components/games/GameCoverImage";
 import { GITHUB_REPO } from "@/lib/constants";
 import {
   formatGameReleaseLineDisplay,
@@ -45,6 +46,7 @@ const gamesWithDevs: GameWithDeveloper[] = await Promise.all(
     genres: g.genres,
     platforms: g.platforms,
     cover_image: g.cover_image || undefined,
+    cover_fill: g.cover_fill,
     developerName: await resolveDeveloperName(g),
     critic_ratings: g.critic_ratings,
     awards: g.awards,
@@ -56,7 +58,7 @@ const releasedGames = gamesWithDevs.filter((g) => g.status === "released");
 const upcomingGames = gamesWithDevs.filter((g) => g.status === "in_development");
 
 const newReleases = [...releasedGames]
-  .filter((g) => g.cover_image)
+  .filter((g) => g.cover_image && typeof g.release_date === "string" && g.release_date.split("-").length === 3)
   .sort(
     (a, b) => getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
   )
@@ -180,14 +182,12 @@ const addGameUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-ga
               class="group rounded-xl border border-border bg-card text-card-foreground shadow transition-colors hover:border-primary/30 hover:shadow-md"
             >
               <div
-                class="relative flex aspect-[2/3] items-center justify-center rounded-t-xl"
-                style={
-                  game.cover_image
-                    ? `background-image: url(${game.cover_image}); background-size: cover; background-position: center;`
-                    : `background: ${getCoverGradient(game.title)};`
-                }
+                class="relative flex aspect-[2/3] items-center justify-center overflow-hidden rounded-t-xl"
+                style={!game.cover_image ? `background: ${getCoverGradient(game.title)};` : ""}
               >
-                {!game.cover_image && (
+                {game.cover_image ? (
+                  <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
+                ) : (
                   <span class="text-4xl font-bold text-white/80">
                     {game.title.charAt(0)}
                   </span>
@@ -197,14 +197,14 @@ const addGameUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new-ga
                   if (!score) return null;
                   const color = score >= 80 ? "bg-emerald-500/90 text-white" : score >= 60 ? "bg-amber-500/90 text-white" : "bg-red-500/90 text-white";
                   return (
-                    <span class={`absolute right-2 top-2 rounded px-1.5 py-0.5 text-[11px] font-bold tabular-nums backdrop-blur-sm ${color}`}>
+                    <span class={`absolute right-2 top-2 z-20 rounded px-1.5 py-0.5 text-[11px] font-bold tabular-nums backdrop-blur-sm ${color}`}>
                       {score}
                     </span>
                   );
                 })()}
                 {game.awards.length > 0 && (
                   <span
-                    class="absolute bottom-2 right-2 flex items-center gap-0.5 rounded bg-black/50 px-1.5 py-0.5 text-[11px] font-semibold text-amber-400 backdrop-blur-sm"
+                    class="absolute bottom-2 right-2 z-20 flex items-center gap-0.5 rounded bg-black/50 px-1.5 py-0.5 text-[11px] font-semibold text-amber-400 backdrop-blur-sm"
                     title={game.awards.length === 1 ? "1 industry award" : `${game.awards.length} industry awards`}
                   >
                     <svg class="h-3 w-3 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

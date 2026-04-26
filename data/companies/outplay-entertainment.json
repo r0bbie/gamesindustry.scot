@@ -6,12 +6,28 @@
     "developer"
   ],
   "status": "active",
+  "founded": 2010,
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "http://www.outplayentertainment.com/",
+  "short_description": "Outplay Entertainment is an award-winning game developer focused on building and operating high-quality mobile games in close partnership with leading publishers and IP holders.",
+  "about": "Outplay Entertainment is an award-winning game developer focused on building and operating high-quality mobile games in close partnership with leading publishers and IP holders.",
+  "website": "https://www.outplay.com",
+  "contact_email": "info@outplay.com",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "legal_entities": [
+    {
+      "uk_registered_name": "Outplay Entertainment Limited",
+      "companies_house_number": "SC386157"
+    }
+  ],
+  "links": {
+    "twitter": "outplayent",
+    "youtube": "https://www.youtube.com/user/OutplayEntertainment",
+    "linkedin": "https://www.linkedin.com/company/outplay-entertainment-ltd/",
+    "instagram": "outplayent",
+    "crunchbase": "outplay-entertainment"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -1,0 +1,33 @@
+{
+  "id": "ludus-pax-studios",
+  "name": "Ludus Pax Studios",
+  "slug": "ludus-pax-studios",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "founded": 2023,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "short_description": "Solo Glasgow-based developer with a mission to create fun, affordable, and meaningful gaming experiences.",
+  "about": "Solo Glasgow-based developer with a mission to create fun, affordable, and meaningful gaming experiences.",
+  "website": "https://luduspaxstudios.uk",
+  "logo": null,
+  "highlighted": false,
+  "company_size": "1",
+  "employee_count": 1,
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/ludus-pax-studios/",
+    "itch": "ludus-pax-studio.itch.io",
+    "instagram": "luduspaxstudio",
+    "twitter": "LudusPaxStudio",
+    "bluesky": "luduspaxstudios.bsky.social",
+    "discord": "https://discord.com/invite/gTcyg8mFfF",
+    "youtube": "https://www.youtube.com/@LudusPaxStudios"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

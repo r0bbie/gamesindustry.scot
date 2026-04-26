@@ -1,0 +1,41 @@
+{
+  "id": "rise-of-the-village-hero",
+  "title": "Rise of the Village Hero",
+  "slug": "rise-of-the-village-hero",
+  "status": "released",
+  "release_date": "2025-03-18",
+  "short_description": "Rise of the Village Hero is a love letter to classic RPGs, blending nostalgia with charm and humor. Explore diverse levels, tackle quirky and heartfelt quests, and trade witty banter with memorable NPCs. Collect, trade, and upgrade gear, slay monsters, and become the hero of Dobroja!",
+  "companies": {
+    "developer": [
+      "ludus-pax-studios"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "2737960",
+    "itch": "ludus-pax-studio.itch.io/rise-of-the-village-hero",
+    "humble": "rise-of-the-village-hero"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "REr3XgPLkos"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/rise-of-the-village-hero/cover.webp"
+}

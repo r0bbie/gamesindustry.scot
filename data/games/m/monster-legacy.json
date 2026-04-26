@@ -1,0 +1,40 @@
+{
+  "id": "monster-legacy",
+  "title": "Monster Legacy",
+  "slug": "monster-legacy",
+  "status": "released",
+  "release_date": "2014-03-20",
+  "short_description": "Monster Legacy was a free mobile role-playing game that's all about collecting, battling, and evolving your own team of monsters.",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "app_store": "id652151375"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "XXc2l2_ysUk"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/monster-legacy/cover.webp"
+}

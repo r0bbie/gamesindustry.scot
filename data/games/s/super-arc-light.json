@@ -1,0 +1,46 @@
+{
+  "id": "super-arc-light",
+  "title": "Super Arc Light",
+  "slug": "super-arc-light",
+  "status": "released",
+  "release_date": "2016-03-23",
+  "short_description": "Exhilarating mobile arcade shooter that combines elements of classic games with modern design.",
+  "companies": {
+    "developer": [
+      "screen-burn"
+    ],
+    "publishers": [
+      {
+        "id": "all-4-games",
+        "name": "All 4 Games"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "app_store": "id1075820557",
+    "play_store": "com.channel4.superarclight"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "sUlmYMWbZpo"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/super-arc-light/cover.webp"
+}
