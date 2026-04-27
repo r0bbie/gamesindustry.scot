@@ -7,14 +7,21 @@
   "release_date": "2012",
   "status": "released",
   "companies": {
-    "developer": ["denki"],
+    "developer": [
+      "denki"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
-  "genres": ["action", "adventure"],
-  "platforms": ["browser"],
+  "genres": [
+    "action",
+    "adventure"
+  ],
+  "platforms": [
+    "browser"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://denki.co.uk/games/archive/monster-force-5/"
@@ -26,5 +33,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/monster-force-5/cover.webp"
 }

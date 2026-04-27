@@ -5,6 +5,7 @@ import {
   formatGameReleaseLineDisplay,
   getFirstReleaseSortTimestamp,
 } from "@/lib/gameRelease";
+import { formatPlatformLabel, formatGenreLabel } from "@/lib/listFilterLabels";
 import GameCoverImage from "@/components/games/GameCoverImage";
 
 const PAGE_SIZE = 30;
@@ -266,8 +267,8 @@ export default function GameListView({ games }: { games: GameWithDeveloper[] }) 
     searchRef.current?.focus();
   }
 
-  const genreOptions = allGenres.map((g) => ({ id: g, name: g.charAt(0).toUpperCase() + g.slice(1) }));
-  const platformOptions = allPlatforms.map((p) => ({ id: p, name: p.charAt(0).toUpperCase() + p.slice(1) }));
+  const genreOptions = allGenres.map((g) => ({ id: g, name: formatGenreLabel(g) }));
+  const platformOptions = allPlatforms.map((p) => ({ id: p, name: formatPlatformLabel(p) }));
 
   const hasAnyFilter = selectedGenres.size > 0 || selectedPlatforms.size > 0 || hasAwards || statusFilter !== "all" || !!search;
 
@@ -279,12 +280,12 @@ export default function GameListView({ games }: { games: GameWithDeveloper[] }) 
     }] : []),
     ...[...selectedGenres].map((g) => ({
       key: `genre:${g}`,
-      label: g.charAt(0).toUpperCase() + g.slice(1),
+      label: formatGenreLabel(g),
       onRemove: () => setSelectedGenres((p) => toggle(p, g)),
     })),
     ...[...selectedPlatforms].map((p) => ({
       key: `platform:${p}`,
-      label: p.charAt(0).toUpperCase() + p.slice(1),
+      label: formatPlatformLabel(p),
       onRemove: () => setSelectedPlatforms((p2) => toggle(p2, p)),
     })),
     ...(hasAwards ? [{ key: "awards", label: "Award winners", onRemove: () => setHasAwards(false) }] : []),

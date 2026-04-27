@@ -7,14 +7,39 @@
   "status": "released",
   "release_date": "2005-09-02",
   "companies": {
-    "developer": ["vis-entertainment"],
-    "publishers": [{ "name": "Sony Computer Entertainment", "url": "https://en.wikipedia.org/wiki/Sony_Interactive_Entertainment" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "vis-entertainment"
+    ],
+    "publishers": [
+      {
+        "name": "Sony Computer Entertainment",
+        "url": "https://en.wikipedia.org/wiki/Sony_Interactive_Entertainment"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["action-adventure", "platformer"],
-  "platforms": ["ps2"],
-  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "Brave:_The_Search_for_Spirit_Dancer", "mobygames": "brave-the-search-for-spirit-dancer" },
-  "awards": [], "news": [], "is_student_game": false
+  "genres": [
+    "action-adventure",
+    "platformer"
+  ],
+  "platforms": [
+    "ps2"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Brave:_The_Search_for_Spirit_Dancer",
+    "mobygames": "brave-the-search-for-spirit-dancer"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/brave-the-search-for-spirit-dancer/cover.webp"
 }

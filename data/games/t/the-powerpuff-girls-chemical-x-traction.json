@@ -7,14 +7,39 @@
   "status": "released",
   "release_date": "2001-11-14",
   "companies": {
-    "developer": ["vis-entertainment"],
-    "publishers": [{ "name": "BAM! Entertainment", "url": "https://en.wikipedia.org/wiki/BAM!_Entertainment" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "vis-entertainment"
+    ],
+    "publishers": [
+      {
+        "name": "BAM! Entertainment",
+        "url": "https://en.wikipedia.org/wiki/BAM!_Entertainment"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["fighting"],
-  "platforms": ["ps1", "n64"],
-  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "The_Powerpuff_Girls:_Chemical_X-Traction", "mobygames": "the-powerpuff-girls-chemical-x-traction" },
-  "awards": [], "news": [], "is_student_game": false
+  "genres": [
+    "fighting"
+  ],
+  "platforms": [
+    "ps1",
+    "n64"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "The_Powerpuff_Girls:_Chemical_X-Traction",
+    "mobygames": "the-powerpuff-girls-chemical-x-traction"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-powerpuff-girls-chemical-x-traction/cover.webp"
 }

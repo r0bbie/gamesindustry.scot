@@ -7,14 +7,40 @@
   "status": "released",
   "release_date": "2002-10-22",
   "companies": {
-    "developer": ["vis-entertainment"],
-    "publishers": [{ "name": "NewKidCo", "url": "https://en.wikipedia.org/wiki/NewKidCo" }],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "developer": [
+      "vis-entertainment"
+    ],
+    "publishers": [
+      {
+        "name": "NewKidCo",
+        "url": "https://en.wikipedia.org/wiki/NewKidCo"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["fighting"],
-  "platforms": ["ps2", "gamecube", "xbox"],
-  "screenshots": [], "stores": {}, "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
-  "database_links": { "wikipedia": "Tom_and_Jerry_in_War_of_the_Whiskers", "mobygames": "tom-and-jerry-in-war-of-the-whiskers" },
-  "awards": [], "news": [], "is_student_game": false
+  "genres": [
+    "fighting"
+  ],
+  "platforms": [
+    "ps2",
+    "gamecube",
+    "xbox"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Tom_and_Jerry_in_War_of_the_Whiskers",
+    "mobygames": "tom-and-jerry-in-war-of-the-whiskers"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tom-and-jerry-in-war-of-the-whiskers/cover.webp"
 }

@@ -5,7 +5,7 @@
   "short_description": "Global Game Jam first-person game about light pollution and the night sky — from Space Budgie.",
   "description": "A first-person Global Game Jam 2014 entry about turning off town lights to reveal the stars, made for Oculus Rift on PC and Linux.",
   "release_date": "2014-01-24",
-  "status": "released",
+  "status": "prototype",
   "companies": {
     "developer": ["space-budgie"],
     "publishers": [],
@@ -16,7 +16,9 @@
   "genres": ["adventure"],
   "platforms": ["pc", "linux"],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "gumroad": "https://spacebudgie.gumroad.com"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},

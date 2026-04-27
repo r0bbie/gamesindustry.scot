@@ -7,15 +7,22 @@
   "status": "released",
   "release_date": "2013-07-13",
   "companies": {
-    "developer": ["arcade-badgers"],
+    "developer": [
+      "arcade-badgers"
+    ],
     "publishers": [],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": ["arcade", "puzzle"],
-  "platforms": ["browser"],
+  "genres": [
+    "arcade",
+    "puzzle"
+  ],
+  "platforms": [
+    "browser"
+  ],
   "screenshots": [],
   "stores": {
     "website": "https://www.arcadebadgers.co.uk/releases/germies/index.html",
@@ -28,5 +35,6 @@
   "database_links": {},
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/germies/cover.webp"
 }

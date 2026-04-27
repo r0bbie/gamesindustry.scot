@@ -125,35 +125,40 @@ export function FilterDropdown({
 
       {open && (
         <Panel align={align}>
-          {options.map((opt) => {
-            const checked = selected.has(opt.id);
-            return (
-              <button
-                key={opt.id}
-                type="button"
-                role="menuitemcheckbox"
-                aria-checked={checked}
-                onClick={() => onToggle(opt.id)}
-                className="flex w-full items-center gap-2.5 rounded-md px-2.5 py-1.5 text-left text-sm text-popover-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
-              >
-                <span
-                  className={[
-                    "flex h-4 w-4 shrink-0 items-center justify-center rounded border transition-colors",
-                    checked
-                      ? "border-primary bg-primary text-primary-foreground"
-                      : "border-input bg-background",
-                  ].join(" ")}
+          <div
+            className="max-h-[min(20rem,55dvh)] overflow-y-auto overscroll-y-contain pr-0.5 [-webkit-overflow-scrolling:touch] scroll-py-0.5"
+            data-filter-dropdown-list
+          >
+            {options.map((opt) => {
+              const checked = selected.has(opt.id);
+              return (
+                <button
+                  key={opt.id}
+                  type="button"
+                  role="menuitemcheckbox"
+                  aria-checked={checked}
+                  onClick={() => onToggle(opt.id)}
+                  className="flex w-full items-center gap-2.5 rounded-md px-2.5 py-1.5 text-left text-sm text-popover-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
                 >
-                  {checked && (
-                    <svg className="h-2.5 w-2.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M20 6 9 17l-5-5" />
-                    </svg>
-                  )}
-                </span>
-                <span className="flex-1 text-left">{opt.name}</span>
-              </button>
-            );
-          })}
+                  <span
+                    className={[
+                      "flex h-4 w-4 shrink-0 items-center justify-center rounded border transition-colors",
+                      checked
+                        ? "border-primary bg-primary text-primary-foreground"
+                        : "border-input bg-background",
+                    ].join(" ")}
+                  >
+                    {checked && (
+                      <svg className="h-2.5 w-2.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M20 6 9 17l-5-5" />
+                      </svg>
+                    )}
+                  </span>
+                  <span className="min-w-0 flex-1 text-left break-words">{opt.name}</span>
+                </button>
+              );
+            })}
+          </div>
         </Panel>
       )}
     </div>

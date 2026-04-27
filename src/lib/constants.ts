@@ -198,6 +198,8 @@ export function buildStoreUrl(store: string, id: string): string {
     indiegala: (id) => `https://www.indiegala.com/store/product/${id}`,
     game_jolt: (id) => `https://gamejolt.com/games/${id}`,
     gameclub: (id) => `https://gameclub.io/games/${id}`,
+    /** Gumroad — pass full `https://…gumroad.com/…` URL (subdomains are not a single path segment). */
+    gumroad: (id) => (id.startsWith("http") ? id : `https://gumroad.com/l/${id}`),
     website: (id) => id,
     tilt_five: (id) => id.startsWith("http") ? id : `https://www.tiltfive.com/games/${id}`,
   };
