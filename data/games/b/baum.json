@@ -1,0 +1,50 @@
+{
+  "id": "baum",
+  "title": "Baum",
+  "slug": "baum",
+  "status": "released",
+  "release_date": "2016-01-20",
+  "short_description": "A tactile puzzler in which you guide a droplet through the branches of a living tree, drawing paths in a hand-painted world.",
+  "companies": {
+    "developer": [
+      "a-fox-wot-i-drew"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "JdQsaaRDW5Q"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 68
+  },
+  "critic_ids": {
+    "metacritic": "baum"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "Beautiful new puzzler Baum is coming to the App Store next week",
+      "publication": "Pocket Gamer",
+      "date": "2016-01-15",
+      "url": "https://www.pocketgamer.com/baum/beautiful-new-puzzler-baum-is-coming-to-the-app-store-next-week/"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/baum/cover.webp"
+}

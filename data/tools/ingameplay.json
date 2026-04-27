@@ -1,0 +1,16 @@
+{
+  "id": "ingameplay",
+  "name": "InGamePlay",
+  "slug": "ingameplay",
+  "company_id": "adinmo",
+  "status": "active",
+  "short_description": "Immersive in-game ad SDK: clickable units, player-first design, and monetization for free-to-play developers and advertisers.",
+  "description": "InGamePlay 3.0 builds on AdInMo's stack, with clickable in-game ad units designed with the player experience at the forefront, driving better monetization for free-to-play developers and higher engagement for advertisers.",
+  "features": [
+    "Clickable in-game ad units",
+    "Player experience–led placements",
+    "Monetization for free-to-play developers",
+    "Higher engagement for brand advertisers"
+  ],
+  "website": "https://www.adinmo.com"
+}

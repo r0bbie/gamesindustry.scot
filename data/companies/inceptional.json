@@ -3,18 +3,32 @@
   "name": "Inceptional",
   "slug": "inceptional",
   "categories": [
-    "developer"
+    "solo_developer"
   ],
   "status": "defunct",
+  "founded": 2012,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "website": "http://www.inceptional.com/",
+  "short_description": "Solo development label for indie games and experiments, based in Edinburgh since 2012.",
+  "about": "Inceptional is a solo game development name based in Edinburgh, founded in 2012",
+  "website": "https://inceptionalnews.wordpress.com",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "itch": "https://inceptional.itch.io",
+    "youtube": "https://www.youtube.com/@inceptional",
+    "twitter": "iNCEPTIONALNEWS"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Inceptional – Officially Not A Film",
+      "publication": "Scottish Games Network",
+      "date": "2012-10-23",
+      "url": "https://scottishgames.net/2012/10/23/inceptional-officially-not-a-film/"
+    }
+  ]
 }

@@ -188,7 +188,14 @@ export function buildStoreUrl(store: string, id: string): string {
       id.startsWith("http")
         ? id
         : `https://play.google.com/store/apps/details?id=${id.split("&")[0]}`,
-    amazon_appstore: (id) => `https://www.amazon.com/dp/${id}`,
+    /** Amazon Appstore / Fire — ASIN; or full `https://www.amazon.…/dp/…` for regional listings. */
+    amazon_appstore: (id) =>
+      id.startsWith("http") ? id : `https://www.amazon.com/dp/${id}`,
+    /** Same as physical `amazon_uk` / `amazon_us` but allowed on game `stores` for book-style retail. */
+    amazon_uk: (id) =>
+      id.startsWith("http") ? id : `https://www.amazon.co.uk/dp/${id}`,
+    amazon_us: (id) =>
+      id.startsWith("http") ? id : `https://www.amazon.com/dp/${id}`,
     /** Roku Channel Store — `id` is the channel details path segment from the store URL. */
     roku: (id) =>
       id.startsWith("http")
@@ -268,12 +275,18 @@ export function buildDatabaseUrl(db: string, id: string): string {
 export function buildSocialUrl(platform: string, handle: string): string {
   const urls: Record<string, (h: string) => string> = {
     bluesky: (h) => `https://bsky.app/profile/${h}`,
-    twitter: (h) => `https://x.com/${h}`,
+    twitter: (h) =>
+      h.startsWith("http") ? h : `https://x.com/${h.replace(/^@/, "")}`,
     mastodon: (h) => h.startsWith("http") ? h : `https://${h}`,
     linkedin: (h) => h.startsWith("http") ? h : `https://www.linkedin.com/company/${h}`,
     steam: (h) => `https://store.steampowered.com/publisher/${h}`,
     twitch: (h) => `https://www.twitch.tv/${h}`,
-    crunchbase: (h) => `https://www.crunchbase.com/organization/${h}`,
+    crunchbase: (h) => {
+      if (h.startsWith("http")) return h;
+      // Avoid double `…/organization/organization/…` when data includes the path prefix.
+      if (h.startsWith("organization/")) return `https://www.crunchbase.com/${h}`;
+      return `https://www.crunchbase.com/organization/${h}`;
+    },
     discord: (h) => h.startsWith("http") ? h : `https://discord.gg/${h}`,
     youtube: (h) =>
       h.startsWith("http") ? h : `https://www.youtube.com/${h}`,

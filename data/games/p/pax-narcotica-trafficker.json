@@ -1,0 +1,41 @@
+{
+  "id": "pax-narcotica-trafficker",
+  "title": "Pax Narcotica: Trafficker",
+  "slug": "pax-narcotica-trafficker",
+  "status": "cancelled",
+  "short_description": "Cartel strategy game about smuggling networks, territory, and playing politics across the US drug trade.",
+  "description": "Become a cartel boss and take over the US drug trade. Build smuggling networks across the country and negotiate sales with crime groups. Recruit soldiers to protect your shipments and expand your territory. Bribe police and politicians to protect your interests and disrupt your rivals.",
+  "companies": {
+    "developer": [
+      "stone-spark-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "6wXN5lJ_xJE"
+  },
+  "stores": {
+    "steam": "1664610"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/pax-narcotica-trafficker/cover.webp"
+}

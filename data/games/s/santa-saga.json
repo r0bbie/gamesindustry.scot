@@ -1,0 +1,42 @@
+{
+  "id": "santa-saga",
+  "title": "Santa Saga",
+  "slug": "santa-saga",
+  "status": "released",
+  "release_date": "2013-12-01",
+  "short_description": "Cross-platform release from Inceptional with a WordPress hub page, Amazon Appstore presence, and trailer on YouTube.",
+  "companies": {
+    "developer": [
+      "inceptional"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "pc",
+    "android",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "O0faWNjdbHE"
+  },
+  "stores": {
+    "website": "https://inceptionalnews.wordpress.com/santa-saga/",
+    "amazon_appstore": "B0196TZ5YG"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/santa-saga/cover.webp"
+}

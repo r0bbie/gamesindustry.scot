@@ -1,0 +1,27 @@
+{
+  "id": "orthrus-studios",
+  "name": "Orthrus Studios",
+  "slug": "orthrus-studios",
+  "categories": [
+    "developer"
+  ],
+  "status": "defunct",
+  "founded": 2017,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "short_description": "Specialist in serious games and bespoke software development.",
+  "about": "Orthrus Studios is a specialist in Serious Games and bespoke Software development.",
+  "website": "https://www.orthrusstudios.com",
+  "logo": null,
+  "highlighted": false,
+  "company_size": "2-10",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/orthrus-studios",
+    "twitter": "OrthrusStudios"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

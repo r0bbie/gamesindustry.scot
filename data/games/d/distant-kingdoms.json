@@ -1,0 +1,43 @@
+{
+  "id": "distant-kingdoms",
+  "title": "Distant Kingdoms",
+  "slug": "distant-kingdoms",
+  "status": "released",
+  "release_date": "2021-05-05",
+  "short_description": "A fantasy city builder blending settlement management, social systems, exploration, and adventure as humans, dwarves, elves, and orcs forge a new life in the land of Ineron.",
+  "description": "A unique blend of City Building, Social Management, Exploration and Adventure gameplay, Distant Kingdoms brings a rich fantasy world to life. Help the Humans, Dwarves, Elves and Orcs of Talam, begin anew in the fabled land of Ineron.",
+  "companies": {
+    "developer": [
+      "orthrus-studios"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "city-builder"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "S2kTds_Ai2c"
+  },
+  "stores": {
+    "steam": "1090760"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/distant-kingdoms/cover.webp"
+}

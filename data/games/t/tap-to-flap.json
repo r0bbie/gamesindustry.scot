@@ -1,0 +1,38 @@
+{
+  "id": "tap-to-flap",
+  "title": "Tap to Flap",
+  "slug": "tap-to-flap",
+  "status": "released",
+  "release_date": "2014-02-24",
+  "short_description": "Guide Backoo the cockerel past prickly one-eyed cacti—tap to flap for score and medals.",
+  "description": "In this fun little App you have to Tap to Flap and guide Backoo the cockerel safely past the prickly one-eyed cacti to get the highest score and best medal possible.",
+  "companies": {
+    "developer": [
+      "inceptional"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android",
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "amazon_appstore": "B0196V1MNW"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tap-to-flap/cover.webp"
+}

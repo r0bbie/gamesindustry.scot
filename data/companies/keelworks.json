@@ -3,15 +3,22 @@
   "name": "Keelworks",
   "slug": "keelworks",
   "categories": [
-    "developer"
+    "developer",
+    "service_provider"
   ],
   "status": "active",
+  "founded": 2015,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "short_description": "KeelWorks is an indie development studio based in Edinburgh, Scotland, focused on video game development, as well as 3D animation, visual effects, and audio.",
+  "about": "KeelWorks is an indie development studio based in Edinburgh, Scotland, focused on video game development, as well as 3D animation, visual effects, and audio.",
   "website": "https://www.keelworks.co.uk/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/keelworks",
+    "youtube": "https://www.youtube.com/channel/UC3fBCB6qlhVN8b5_xVOTlbA"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

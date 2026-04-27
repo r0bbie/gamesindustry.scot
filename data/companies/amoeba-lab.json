@@ -3,15 +3,19 @@
   "name": "Amoeba Lab",
   "slug": "amoeba-lab",
   "categories": [
-    "developer"
+    "solo_developer"
   ],
   "status": "defunct",
+  "founded": 2011,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://www.amoebalab-games.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/amoeba-lab/",
+    "facebook": "https://www.facebook.com/people/Amoeba-Lab/100065382133189/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

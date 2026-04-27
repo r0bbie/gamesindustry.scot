@@ -1,0 +1,41 @@
+{
+  "id": "light-hero",
+  "title": "Light Hero",
+  "slug": "light-hero",
+  "status": "released",
+  "release_date": "2013-05-01",
+  "short_description": "Multi-platform action title from Inceptional, listed on the Amazon Appstore in major regions.",
+  "companies": {
+    "developer": [
+      "inceptional"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "pc",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "QazLcOA8xbw"
+  },
+  "stores": {
+    "amazon_appstore": "B0196RE6DE"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/light-hero/cover.webp"
+}

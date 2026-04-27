@@ -1,0 +1,38 @@
+{
+  "id": "cocaine-dealer",
+  "title": "Cocaine Dealer",
+  "slug": "cocaine-dealer",
+  "status": "released",
+  "release_date": "2021-12-08",
+  "short_description": "A clicker/management sim about running a product line: cut, pack, and move goods while you build a crew, expand, and stay clear of the law.",
+  "description": "A clicker/management drug dealing simulator. Get your product cut and wrapped quickly and out on the streets. Build your crew, expand your operation, and climb the supply chain. Stay ahead of the cops, keep your crew in line, or pay the price.",
+  "companies": {
+    "developer": [
+      "stone-spark-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1341300"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cocaine-dealer/cover.webp"
+}

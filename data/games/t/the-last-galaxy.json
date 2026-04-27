@@ -1,0 +1,39 @@
+{
+  "id": "the-last-galaxy",
+  "title": "The Last Galaxy",
+  "slug": "the-last-galaxy",
+  "status": "released",
+  "release_date": "2017-02-01",
+  "short_description": "A PC release from the Inceptional label on Itch, supported by a development video series on YouTube.",
+  "companies": {
+    "developer": [
+      "inceptional"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "pOH_eDX_WbQ"
+  },
+  "stores": {
+    "itch": "https://inceptional.itch.io/the-last-galaxy"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-last-galaxy/cover.webp"
+}

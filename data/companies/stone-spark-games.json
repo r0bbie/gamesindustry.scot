@@ -1,20 +1,32 @@
 {
   "id": "stone-spark-games",
-  "name": "Stone-Spark Games",
+  "name": "Stone Spark",
   "slug": "stone-spark-games",
   "categories": [
     "developer"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2017,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "website": "https://www.stone-spark.com/",
+  "short_description": "Edinburgh developer (founded 2017), known for provocative management sims on PC.",
+  "about": "Stone Spark was an Edinburgh-based game development studio, founded in 2017. The company is no longer active.",
+  "website": "http://stone-spark.com",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "StoneSparkGames"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Company Profile: Stone Spark",
+      "publication": "Scottish Games Network",
+      "date": "2020-07-27",
+      "url": "https://scottishgames.net/2020/07/27/company-profile-stone-spark/"
+    }
+  ]
 }

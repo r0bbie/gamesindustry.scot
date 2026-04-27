@@ -1,0 +1,52 @@
+{
+  "id": "cygni-all-guns-blazing",
+  "title": "CYGNI: All Guns Blazing",
+  "slug": "cygni-all-guns-blazing",
+  "status": "released",
+  "release_date": "2024-08-06",
+  "short_description": "An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes CYGNI the vanguard for the next generation of shoot-em ups.",
+  "companies": {
+    "developer": [
+      "keelworks"
+    ],
+    "publishers": [
+      {
+        "name": "Konami",
+        "url": "https://www.konami.com/en/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "shooter"
+  ],
+  "platforms": [
+    "pc",
+    "ps5",
+    "xbox-series-xs"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "XPWC3oQLfIE"
+  },
+  "stores": {
+    "website": "https://www.cygnigame.com",
+    "steam": "1248080",
+    "epic": "cygni-all-guns-blazing-98f872",
+    "psn": "https://store.playstation.com/en-gb/concept/10004231/",
+    "xbox": "https://www.xbox.com/en-GB/games/store/cygni-all-guns-blazing/9n148802g7tj"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cygni-all-guns-blazing/cover.webp"
+}

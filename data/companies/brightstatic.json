@@ -1,20 +1,29 @@
 {
   "id": "brightstatic",
-  "name": "BrightStatic",
+  "name": "Bright Static Media",
   "slug": "brightstatic",
   "categories": [
-    "developer"
+    "developer",
+    "service_provider"
   ],
   "status": "defunct",
+  "founded": 2011,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "short_description": "Dundee-based studio that made web and mobile games for brands.",
+  "about": "Bright Static Media was a Dundee-based developer that made web and mobile games for clients including LEGO, BEAR Nibbles, and others. Founded 2011, and active until 2014.",
   "website": "http://www.brightstatic.co.uk/",
   "logo": null,
   "highlighted": false,
   "links": {},
   "use_tooling": [],
   "employee_stats": {},
-  "key_people": [],
+  "key_people": [
+    {
+      "name": "Robbie Cargill",
+      "title": "Founder & Developer"
+    }
+  ],
   "awards": [],
   "news": []
 }

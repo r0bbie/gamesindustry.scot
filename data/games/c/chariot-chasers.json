@@ -1,0 +1,44 @@
+{
+  "id": "chariot-chasers",
+  "title": "Chariot Chasers",
+  "slug": "chariot-chasers",
+  "status": "prototype",
+  "release_date": "2018-07-01",
+  "short_description": "VR chariot chasers, co-developed with Pocket Sized Hands (Stand Out Games as lead).",
+  "description": "Chariot Chasers is a VR title led by Stand Out Games with Pocket Sized Hands as co-developer. See the project page for design notes and showreel context.",
+  "companies": {
+    "developer": [
+      "stand-out-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": [
+      "pocket-sized-hands"
+    ]
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "vr"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "5z7WOqW5WGo"
+  },
+  "stores": {
+    "website": "https://alanyeats.com/our-work/chariotchasers/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/chariot-chasers/cover.webp"
+}

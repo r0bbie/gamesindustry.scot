@@ -1,0 +1,41 @@
+{
+  "id": "smash-doors",
+  "title": "Smash Doors",
+  "slug": "smash-doors",
+  "status": "released",
+  "release_date": "2014-04-01",
+  "short_description": "Cross-platform title from Inceptional on mobile and PC, with an Amazon Appstore listing and development coverage on YouTube.",
+  "companies": {
+    "developer": [
+      "inceptional"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android",
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "2TkseMrApks"
+  },
+  "stores": {
+    "amazon_appstore": "B0196UPPTA"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/smash-doors/cover.webp"
+}

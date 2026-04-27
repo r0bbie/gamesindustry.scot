@@ -1,0 +1,30 @@
+{
+  "id": "hutch",
+  "name": "Hutch",
+  "slug": "hutch",
+  "categories": [
+    "developer",
+    "publisher"
+  ],
+  "status": "active",
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "additional_locations": [
+    "London",
+    "Mahone Bay, Canada"
+  ],
+  "short_description": "A London-based mobile game developer and publisher, with an office in Dundee.",
+  "about": "Hutch is a London-based mobile video game developer and publisher, with an office in Dundee.",
+  "website": "https://www.hutch.io",
+  "logo": "/images/companies/hutch/full_logo.png",
+  "logo_bg": "dark",
+  "highlighted": false,
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/hutch-games-ltd/"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

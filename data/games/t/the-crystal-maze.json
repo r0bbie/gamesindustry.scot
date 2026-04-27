@@ -1,0 +1,41 @@
+{
+  "id": "the-crystal-maze",
+  "title": "The Crystal Maze",
+  "slug": "the-crystal-maze",
+  "status": "released",
+  "release_date": "2010-02-19",
+  "short_description": "Mobile game based on the classic 1990s game show: twelve challenges across Physical, Mental, Skill, and Mystery, then the Dome finale.",
+  "description": "The hit 90's gameshow is back in this all new mobile version!\n\nVenture through 12 challenging games, each designed around 4 different categories: Physical, Mental, Skill and Mystery. Complete each game to collect a crystal to extend your time in the final Dome challenge, and win the game.",
+  "companies": {
+    "developer": [
+      "dynamo-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": [
+      "stand-out-games"
+    ]
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "play_store": "com.dynamogames.crystalmazev2"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-crystal-maze/cover.webp"
+}

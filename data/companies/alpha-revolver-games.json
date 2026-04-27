@@ -6,12 +6,20 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2013,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
-  "website": "http://www.alpharevolvergames.com/",
+  "website": "https://alpharevolvergames.wordpress.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "employee_count": 2,
+  "contact_email": "alpharevolvergames@hotmail.com",
+  "links": {
+    "twitter": "https://x.com/arevolvergames",
+    "youtube": "https://www.youtube.com/channel/UCHLjHtwPthJPHcXVeiO9X-g",
+    "facebook": "https://www.facebook.com/people/Alpha-Revolver-Games/100044632577255/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

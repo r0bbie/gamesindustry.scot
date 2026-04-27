@@ -1,0 +1,38 @@
+{
+  "id": "ilectronz",
+  "title": "iLectronz",
+  "slug": "ilectronz",
+  "status": "released",
+  "release_date": "2015-12-01",
+  "short_description": "Cross-platform title from Inceptional on mobile stores and a WordPress home page; Amazon Appstore and companion releases.",
+  "companies": {
+    "developer": [
+      "inceptional"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://inceptionalnews.wordpress.com/ilectronz/",
+    "amazon_appstore": "https://www.amazon.co.uk/dp/B0191ZDSHG"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ilectronz/cover.webp"
+}
