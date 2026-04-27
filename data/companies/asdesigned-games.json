@@ -6,12 +6,18 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2011,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://www.asdesignedgames.com/",
-  "logo": null,
+  "logo": "/images/companies/asdesigned-games/full_logo.jpg",
+  "logo_bg": "light",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/AsDesignedGames",
+    "youtube": "https://www.youtube.com/channel/UCNFA-8KQ0_cbc__fVV_AsMg",
+    "linkedin": "https://www.linkedin.com/company/-asdesigned-games/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

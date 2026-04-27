@@ -6,12 +6,16 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2003,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
   "website": "http://www.gamevial.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "facebook": "https://www.facebook.com/gamevial",
+    "youtube": "https://www.youtube.com/@GamevialGames"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

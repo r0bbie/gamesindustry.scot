@@ -1,0 +1,38 @@
+{
+  "id": "godsweeper",
+  "title": "Godsweeper",
+  "slug": "godsweeper",
+  "status": "released",
+  "release_date": "2013-11-20",
+  "companies": {
+    "developer": [
+      "asdesigned-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "browser"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Th8Tfg7itB0"
+  },
+  "stores": {},
+  "play_now": {
+    "web": "https://www.kongregate.com/en/games/dark_link001/godsweeper"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/godsweeper/cover.webp"
+}

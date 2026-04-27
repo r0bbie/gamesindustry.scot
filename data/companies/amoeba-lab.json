@@ -10,7 +10,8 @@
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://www.amoebalab-games.com/",
-  "logo": null,
+  "logo": "/images/companies/amoeba-lab/full_logo.png",
+  "logo_bg": "light",
   "highlighted": false,
   "links": {
     "linkedin": "https://www.linkedin.com/company/amoeba-lab/",

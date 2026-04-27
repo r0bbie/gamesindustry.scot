@@ -1,0 +1,39 @@
+{
+  "id": "impatient-squirrel",
+  "title": "Impatient Squirrel",
+  "slug": "impatient-squirrel",
+  "status": "released",
+  "release_date": "2015-01-01",
+  "companies": {
+    "developer": [
+      "asdesigned-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "UpuuV3dyBZQ"
+  },
+  "stores": {
+    "app_store": "https://apps.apple.com/us/app/impatient-squirrel/id944901392"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/impatient-squirrel/cover.webp"
+}
