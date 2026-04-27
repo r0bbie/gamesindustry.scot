@@ -1,0 +1,50 @@
+{
+  "id": "industria-2",
+  "title": "INDUSTRIA 2",
+  "slug": "industria-2",
+  "status": "in_development",
+  "release_date": "2026-04-29",
+  "short_description": "Narrative FPS about surviving a parallel boreal world ruled by a ravenous AI — coming from Headup.",
+  "description": "INDUSTRIA 2 is a narrative FPS adventure about a woman stranded in a parallel dimension. Explore, scavenge and fight your way through a mysterious boreal landscape consumed by an ever-hungry artificial intelligence to find a way home.",
+  "companies": {
+    "developer": [
+      "bleakmill"
+    ],
+    "publishers": [
+      {
+        "name": "Headup",
+        "url": "https://headupgames.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "shooter",
+    "adventure"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "DzuHn4yMIng"
+  },
+  "stores": {
+    "steam": "2154070",
+    "gog": "industria_2",
+    "epic": "industria-2-a1232a"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/industria-2/cover.webp"
+}

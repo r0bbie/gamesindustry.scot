@@ -2,7 +2,9 @@
   "id": "firestoke",
   "name": "Firestoke",
   "slug": "firestoke",
-  "categories": ["publisher"],
+  "categories": [
+    "publisher"
+  ],
   "status": "defunct",
   "founded": 2021,
   "location": "Edinburgh",
@@ -12,7 +14,7 @@
   "logo_bg": "dark",
   "highlighted": false,
   "company_size": "2-10",
-  "short_description": "Edinburgh indie PC and console publisher (2021–2025).",
+  "short_description": "Edinburgh indie PC and console publisher (2021–2025)",
   "about": "Firestoke was an Edinburgh-based full service publisher of indie PC and console games that spark joy. The company was established in 2021 and closed in 2025.",
   "links": {
     "linkedin": "https://www.linkedin.com/company/firestoke",

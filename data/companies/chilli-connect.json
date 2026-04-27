@@ -2,7 +2,9 @@
   "id": "chilli-connect",
   "name": "Chilli Connect",
   "slug": "chilli-connect",
-  "categories": ["tooling"],
+  "categories": [
+    "tooling"
+  ],
   "status": "defunct",
   "founded": 2016,
   "location": "Dundee",
@@ -15,7 +17,7 @@
     "name": "Unity",
     "url": "https://unity.com"
   },
-  "short_description": "Dundee live-ops and connected games platform (from Tag Games), acquired by Unity in 2019.",
+  "short_description": "Dundee live-ops and connected games platform (from Tag Games), acquired by Unity in 2019",
   "about": "Originally envisioned by Dundee game development studio Tag Games as a means to deliver the features required for their F2P and live service games, ChilliConnect was spun out in 2015 to provide an ‘all in one’ connected gaming solution for all game developers and publishers.\n\nChilli Connect was acquired by Unity in 2019.",
   "links": {
     "crunchbase": "chilliconnect"

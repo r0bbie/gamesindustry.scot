@@ -1,0 +1,27 @@
+{
+  "id": "carnyx-studios",
+  "name": "Carnyx Studios",
+  "slug": "carnyx-studios",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2025,
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "website": "https://carnyx-studios.com",
+  "logo": null,
+  "highlighted": false,
+  "short_description": "Scotland-based creative collective making indie games together and showcasing emerging talents",
+  "about": "Carnyx Studios is a creative community based in Scotland, built around collaboration and game development, with a mission to give a voice to emerging creatives by providing real opportunities to showcase their talents, gain experience, and connect with a supportive network through developing indie games together.",
+  "contact_email": "inquiry@carnyx-studios.com",
+  "links": {
+    "bluesky": "carnyx-studios.bsky.social",
+    "instagram": "https://www.instagram.com/carnyx_studios/"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "industria",
+  "title": "INDUSTRIA",
+  "slug": "industria",
+  "status": "released",
+  "release_date": "2021-09-30",
+  "short_description": "Atmospheric story FPS in Cold War East Berlin, hunting answers across a parallel dimension.",
+  "description": "Embark on a gripping journey in INDUSTRIA, an atmospheric FPS set in Cold War-era East Berlin. Unravel the secrets of a mysterious parallel dimension while searching for a missing colleague. Explore a haunting reality where the truth awaits. Discover the dark past that lies beyond.",
+  "companies": {
+    "developer": [
+      "bleakmill"
+    ],
+    "publishers": [
+      {
+        "name": "Headup",
+        "url": "https://headupgames.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "shooter",
+    "adventure"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "I7J8UQkCMyo"
+  },
+  "stores": {
+    "steam": "1172650",
+    "gog": "industria",
+    "epic": "industria"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/industria/cover.webp"
+}

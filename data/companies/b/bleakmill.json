@@ -1,0 +1,31 @@
+{
+  "id": "bleakmill",
+  "name": "Bleakmill",
+  "slug": "bleakmill",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2017,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "additional_locations": [
+    "Berlin"
+  ],
+  "website": "https://www.bleakmill.com/",
+  "logo": null,
+  "highlighted": false,
+  "short_description": "Glasgow and Berlin based indie dev creating narrative focused experiences since 2017",
+  "about": "Glasgow and Berlin based indie dev creating narrative focused experiences since 2017.",
+  "contact_email": "hello@bleakmill.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/bleakmillgames/",
+    "youtube": "https://www.youtube.com/channel/UCx6DjjSCNdGnRDELwwswPwQ",
+    "instagram": "https://www.instagram.com/bleakmillgames"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}
