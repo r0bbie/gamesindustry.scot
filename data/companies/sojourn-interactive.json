@@ -7,7 +7,9 @@
   ],
   "status": "active",
   "founded": null,
-  "previously_known_as": ["Jabuga"],
+  "previously_known_as": [
+    "Jabuga"
+  ],
   "location": "Alloa",
   "region": "central-scotland",
   "website": "https://sojourn-interactive.com/",
@@ -25,5 +27,6 @@
   "key_people": [],
   "employee_stats": {},
   "awards": [],
-  "news": []
+  "news": [],
+  "icon": "/images/companies/sojourn-interactive/icon.jpg"
 }

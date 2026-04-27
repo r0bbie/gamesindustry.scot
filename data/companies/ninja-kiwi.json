@@ -1,20 +1,34 @@
 {
   "id": "ninja-kiwi",
-  "name": "Ninja Kiwi",
+  "name": "Ninja Kiwi Europe",
   "slug": "ninja-kiwi",
   "categories": [
     "developer"
   ],
   "status": "active",
+  "founded": 2004,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "short_description": "Founded as Digital Goldfish, now Ninja Kiwi Europe, making casual mobile and web games",
+  "about": "Ninja Kiwi Europe, based in Dundee, began in 2004 as Digital Goldfish before becoming part of the Ninja Kiwi group. The studio is known for casual games on mobile, web, and console — especially the long-running Bloons series.",
   "website": "http://ninjakiwi.com/",
+  "icon": "/images/companies/ninja-kiwi/icon.webp",
   "logo": null,
   "highlighted": false,
+  "previously_known_as": [
+    "Digital Goldfish"
+  ],
   "links": {},
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Ninja Kiwi Acquires Scottish Development Studio Digital Goldfish",
+      "publication": "Scottish Games Network",
+      "date": "2012-11-01",
+      "url": "https://scottishgames.net/2012/11/01/ninja-kiwi-acquires-scottish-development-studio-digital-goldfish/"
+    }
+  ]
 }

@@ -1,0 +1,42 @@
+{
+  "id": "bloons-td-3",
+  "title": "Bloons TD 3",
+  "slug": "bloons-td-3",
+  "status": "released",
+  "release_date": "2008-09-02",
+  "short_description": "Third tower-defense entry in the Bloons series, with new towers and map items to stop the balloon waves.",
+  "description": "Bloons TD 3 is yet another installment in the series of tower defense games. As in the previous installments, the player must place towers around the track to pop each wave of balloons before they reach the end of the track. The towers include: dart-throwing monkeys, tack shooters, boomerang-throwing monkeys, freezing ice towers, cannons, and a rapid-fire Super Monkey. New to this installment is the \"spike-o-pult\" tower which launches giant spiked balls that can mow down a line of bloons, as well as a \"monkey beacon\" that improves the capabilities of towers within its range. Furthermore, in addition to the \"road spikes\" and \"glue\" items that can be placed on the track, the player can now place explosive pineapples to blow up balloons.",
+  "companies": {
+    "developer": [
+      "ninja-kiwi"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "tower-defense"
+  ],
+  "platforms": [
+    "browser",
+    "dsi",
+    "ps3",
+    "psp"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "113277/bloons-td-3"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bloons-td-3/cover.webp"
+}

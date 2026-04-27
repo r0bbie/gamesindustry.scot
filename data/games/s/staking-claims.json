@@ -1,0 +1,40 @@
+{
+  "id": "staking-claims",
+  "title": "Staking Claims",
+  "slug": "staking-claims",
+  "status": "released",
+  "release_date": "2014-04-01",
+  "short_description": "Strategy title playable on Kongregate and Amazon Appstore.",
+  "companies": {
+    "developer": [
+      "guerilla-tea"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "browser",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "amazon_appstore": "B00NOUBLCO"
+  },
+  "play_now": {
+    "web": "https://www.kongregate.com/en/games/guerillatea/staking-claims"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/staking-claims/cover.webp"
+}

@@ -17,12 +17,16 @@
   "short_description": "Edinburgh co-development and art outsource studio for AAA games.",
   "about": "Wardog Studios is an Edinburgh-based game development studio founded in 2019, providing co-development and art outsourcing for AAA titles — including hard-surface assets, vehicles, weapons, and props for major franchises.",
   "website": "https://www.wardog.co",
-  "logo": null,
+  "logo": "/images/companies/wardog-studios/full_logo.webp",
+  "logo_bg": "dark",
   "highlighted": false,
   "parent_entity": null,
   "company_size": null,
   "employee_count": null,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/WardogStudios",
+    "instagram": "https://www.instagram.com/wardog_studios"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

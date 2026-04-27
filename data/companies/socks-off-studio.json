@@ -9,11 +9,12 @@
   "location": "West Lothian",
   "region": "edinburgh-lothian",
   "website": null,
+  "icon": "/images/companies/socks-off-studio/icon.jpg",
   "logo": null,
   "highlighted": false,
   "company_size": "1",
   "links": {
-    "youtube": "SocksOffStudio",
+    "youtube": "https://www.youtube.com/@SocksOffStudio",
     "itch": "socksoffgames"
   },
   "short_description": "Solo indie developer and serious game design consultancy based in West Lothian, Scotland.",

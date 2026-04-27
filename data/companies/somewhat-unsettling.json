@@ -10,6 +10,7 @@
   "region": "edinburgh-lothian",
   "website": "https://www.somewhatunsettling.com/",
   "logo": null,
+  "logo_bg": "light",
   "highlighted": false,
   "short_description": "Micro game development studio making games across mobile, console, PC, and VR.",
   "company_size": "2-10",
@@ -44,5 +45,6 @@
     }
   ],
   "awards": [],
-  "news": []
+  "news": [],
+  "icon": "/images/companies/somewhat-unsettling/icon.jpg"
 }

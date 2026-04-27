@@ -14,6 +14,7 @@
   "region": "dundee-tayside",
   "website": " http://www.ruffiangames.com",
   "logo": null,
+  "logo_bg": "light",
   "highlighted": false,
   "short_description": "Dundee-based studio founded as Ruffian Games in 2009 by Realtime Worlds alumni, acquired by Rockstar Games and renamed Rockstar Dundee in 2020.",
   "parent_entity": {
@@ -37,5 +38,6 @@
   "use_tooling": [],
   "employee_stats": {},
   "awards": [],
-  "news": []
+  "news": [],
+  "icon": "/images/companies/rockstar-dundee/icon.png"
 }

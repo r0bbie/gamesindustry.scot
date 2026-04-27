@@ -133,6 +133,21 @@ function stripXboxLocalePath(pathname: string): string {
   return "/" + parts.join("/");
 }
 
+/**
+ * Amazon Appstore / Fire product page — `id` is the ASIN (e.g. `B00O8VDLC6`), or a legacy
+ * full `https://www.amazon.…/…/dp/ASIN` URL (ASIN is extracted, canonical form is .co.uk).
+ */
+function buildAmazonAppstoreUrl(id: string): string {
+  const trimmed = id.trim();
+  if (trimmed.startsWith("http")) {
+    const m = trimmed.match(/\/dp\/([A-Z0-9]{10})/i);
+    if (m) return `https://www.amazon.co.uk/dp/${m[1].toUpperCase()}`;
+    return trimmed;
+  }
+  const asin = (trimmed.split(/[?#]/)[0] ?? trimmed).toUpperCase();
+  return `https://www.amazon.co.uk/dp/${asin}`;
+}
+
 export function buildStoreUrl(store: string, id: string): string {
   const urls: Record<string, (id: string) => string> = {
     steam: (id) => `https://store.steampowered.com/app/${id}`,
@@ -188,9 +203,7 @@ export function buildStoreUrl(store: string, id: string): string {
       id.startsWith("http")
         ? id
         : `https://play.google.com/store/apps/details?id=${id.split("&")[0]}`,
-    /** Amazon Appstore / Fire — ASIN; or full `https://www.amazon.…/dp/…` for regional listings. */
-    amazon_appstore: (id) =>
-      id.startsWith("http") ? id : `https://www.amazon.com/dp/${id}`,
+    amazon_appstore: (id) => buildAmazonAppstoreUrl(id),
     /** Same as physical `amazon_uk` / `amazon_us` but allowed on game `stores` for book-style retail. */
     amazon_uk: (id) =>
       id.startsWith("http") ? id : `https://www.amazon.co.uk/dp/${id}`,
@@ -215,7 +228,8 @@ export function buildStoreUrl(store: string, id: string): string {
 
 export function buildPlayUrl(platform: string, id: string): string {
   const urls: Record<string, (id: string) => string> = {
-    itch: (id) => `https://${id}`,
+    itch: (id) =>
+      id.startsWith("http") ? id : `https://${id}`,
     poki: (id) => `https://poki.com/en/g/${id}`,
     crazygames: (id) => `https://www.crazygames.com/game/${id}`,
     addicting_games: (id) => `https://www.addictinggames.com/game/${id}`,
@@ -304,11 +318,16 @@ export function buildSocialUrl(platform: string, handle: string): string {
     sketchfab: (h) => `https://sketchfab.com/${h}`,
     soundcloud: (h) => `https://soundcloud.com/${h}`,
     bandcamp: (h) => `https://${h}.bandcamp.com`,
-    instagram: (h) => `https://www.instagram.com/${h}`,
+    instagram: (h) =>
+      h.startsWith("http")
+        ? h
+        : `https://www.instagram.com/${h.replace(/^@/, "")}`,
     itch: (h) => h.startsWith("http") ? h : `https://${h}.itch.io`,
     wikipedia: (h) => h.startsWith("http") ? h : `https://en.wikipedia.org/wiki/${h}`,
     facebook: (h) =>
       h.startsWith("http") ? h : `https://www.facebook.com/${h}`,
+    /** Direct URL in data (e.g. Lowtek press folder). */
+    press_kit: (h) => (h.startsWith("http") ? h : `https://${h}`),
   };
   return urls[platform]?.(handle) ?? `#unknown-${platform}`;
 }

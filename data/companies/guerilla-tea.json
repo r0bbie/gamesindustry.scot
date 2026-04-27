@@ -6,12 +6,20 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2011,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "short_description": "Dundee-based studio (2011–2018) that made mobile and online games and also took on consultancy work",
+  "about": "Guerilla Tea was a video game and applications studio in Dundee, Scotland, founded in June 2011 and defunct from 2018. It developed its own titles for mobile and online platforms — including casual games such as The Quest — and also supplied contracting, sub-contracting and consultancy to clients.\n\nThe company was built around a small core in-house team and drew on local talent to extend capacity when required, targeting multi-platform delivery across many handsets and languages.\n\nIn 2011 it won the Creative Loops \"Best Computer Game Concept\" award and was runner-up for \"Best use of Interactive media.\" In 2012 it was nominated in the \"New Talent\" category at the BAFTAs and won the \"Games on the Move\" category in the TIGA £100k contest.",
   "website": "http://www.guerillatea.com/",
-  "logo": null,
+  "logo": "/images/companies/guerilla-tea/full_logo.jpg",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/GuerillaTea",
+    "youtube": "https://www.youtube.com/@GuerillaTea",
+    "linkedin": "https://www.linkedin.com/company/guerilla-tea/",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guerilla_Tea"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

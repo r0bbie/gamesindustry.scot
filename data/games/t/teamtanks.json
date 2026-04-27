@@ -1,0 +1,40 @@
+{
+  "id": "teamtanks",
+  "title": "TeamTanks",
+  "slug": "teamtanks",
+  "status": "released",
+  "release_date": "2006",
+  "short_description": "Online 3D team tank battle for the browser with capture objectives, built in Adobe Shockwave.",
+  "description": "TeamTanks multiplayer tank game, the ultimate online 3D team tank battle action game. Team play tanks battle fun- drive, shoot & flip style your battle tank to tactical Armageddon Victory with a collection of devastating nextgen weapons. Instructions in-game: Pickup nextgen tank weapons and battle the enemy tanks, capture the light towers to win.\n\nBuilt in Adobe Shockwave.",
+  "companies": {
+    "developer": [
+      "gamevial"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "browser"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "1aEzVf99e_M"
+  },
+  "stores": {},
+  "play_now": {
+    "itch": "gamevial.itch.io/teamtanks"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/teamtanks/cover.webp"
+}

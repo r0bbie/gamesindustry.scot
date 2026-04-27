@@ -1,0 +1,48 @@
+{
+  "id": "bloons",
+  "title": "Bloons",
+  "slug": "bloons",
+  "status": "released",
+  "release_date": "2007-04-05",
+  "short_description": "Pop balloons with a dart-throwing cloud monkey: skill shots, power-ups, and physics puzzles across the series’ original game.",
+  "description": "In Bloons, the player assumes the role of a monkey sitting on a platform in the clouds attempting to pop as many balloons as possible. The player uses the touch screen of the iPhone or iPod Touch in order to aim the primate's throw and indicate its velocity; letting go of the touch screen throws the dart and physics takes its course. Each level has a minimum number of balloons that must be popped before progressing to the next level.\n\nIn addition to the standard balloons, various levels have special balloons, such as a balloon with extra darts, a tack-filled balloon which will pop all nearby balloons if it is burst, and balloons containing boomerangs (useful for tricky balloon-popping maneuvers). Different levels also have varying obstacles which must be overcome as part of the puzzle, such as blocks which might be destructible with a dart.",
+  "companies": {
+    "developer": [
+      "ninja-kiwi"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "android",
+    "browser",
+    "ios",
+    "java-me",
+    "ps3",
+    "wii"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "8TLobTGbC3Q"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "41325/bloons"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bloons/cover.webp"
+}

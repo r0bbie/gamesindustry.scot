@@ -46,6 +46,7 @@ const PLATFORM_NAMES: Record<string, string> = {
   switch: "Nintendo Switch",
   "tilt-five": "Tilt Five",
   vr: "VR",
+  "windows-phone": "Windows Phone",
   "wii-u": "Wii U",
   wii: "Wii",
   "xbox-360": "Xbox 360",

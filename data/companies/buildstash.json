@@ -18,6 +18,7 @@
   "short_description": "Software binary management — organise and share playable builds across your team, QA, and collaborators.",
   "about": "Buildstash is a software binary management platform built for game developers. It makes it easy to organise and share playable builds for any platform across your team, QA testers, external collaborators, and partners — without the friction of manual file sharing.",
   "website": "https://buildstash.com",
+  "icon": "/images/companies/buildstash/icon.png",
   "logo": null,
   "highlighted": true,
   "parent_entity": null,

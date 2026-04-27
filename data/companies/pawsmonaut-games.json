@@ -12,6 +12,7 @@
   "region": "edinburgh-lothian",
   "website": "https://www.pawsmonaut.games/",
   "logo": null,
+  "logo_bg": "light",
   "highlighted": false,
   "parent_entity": null,
   "company_size": null,
@@ -35,5 +36,6 @@
       "date": "2026-03-16",
       "url": "https://scottishgames.net/2026/03/16/out-now-aethus-from-pawsmonaut-games/"
     }
-  ]
+  ],
+  "icon": "/images/companies/pawsmonaut-games/icon.jpg"
 }

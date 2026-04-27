@@ -1,0 +1,45 @@
+{
+  "id": "bloons-td-4",
+  "title": "Bloons TD 4",
+  "slug": "bloons-td-4",
+  "status": "released",
+  "release_date": "2009-11-19",
+  "short_description": "Expanded tower-defense follow-up to Bloons TD 3, on web, iOS, DSi, and Android.",
+  "companies": {
+    "developer": [
+      "ninja-kiwi"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "tower-defense"
+  ],
+  "platforms": [
+    "android",
+    "browser",
+    "dsi",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "37Ho754hd0M"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "87406/bloons-td-4"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bloons-td-4/cover.webp"
+}

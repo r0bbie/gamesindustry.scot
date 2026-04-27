@@ -9,8 +9,10 @@
   "founded": 2003,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "short_description": "Gamevial made free-to-play 3D browser games",
+  "about": "Gamevial made free-to-play 3D browser games",
   "website": "http://www.gamevial.com/",
-  "logo": null,
+  "logo": "/images/companies/gamevial/full_logo.jpg",
   "highlighted": false,
   "links": {
     "facebook": "https://www.facebook.com/gamevial",

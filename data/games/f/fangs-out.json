@@ -1,0 +1,45 @@
+{
+  "id": "fangs-out",
+  "title": "Fangs Out!",
+  "slug": "fangs-out",
+  "status": "prototype",
+  "short_description": "Model helicopter dogfighting — experimental prototype.",
+  "description": "A model helicopter dogfighting title.",
+  "companies": {
+    "developer": [
+      "guerilla-tea"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ik1yp0TJRWg"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "TIGA £100k Games Contest",
+      "year": 2012,
+      "status": "participated"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fangs-out/cover.webp"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "array-puzzle",
+  "title": "Array",
+  "slug": "array-puzzle",
+  "status": "released",
+  "release_date": "2014",
+  "short_description": "Strategic logic puzzle: match tile patterns on square and hex grids — 198 levels.",
+  "description": "Array is a strategic logic puzzle. With each level, you're shown an arrangement of numbered tiles on a grid. Place tiles on the empty grid below to match the pattern shown. Placing a tile adjacent to another will increase the number shown on the existing tile. There's 99 square levels to solve, and 99 more demanding hex levels. Can you get through them all? - A truly challenging logic and memory test. - 198 levels in total. 99 Square and 99 Hex to solve. - An ambient experience to combat your impending frustration!",
+  "companies": {
+    "developer": [
+      "guerilla-tea"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "windows-phone",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "amazon_appstore": "B00NOT9CCG"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/array-puzzle/cover.webp"
+}

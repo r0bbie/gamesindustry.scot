@@ -18,6 +18,7 @@
   "about": "Space Budgie was an independent game development studio in Dundee, known for titles including Glitchspace and the contemplative 9.03m, as well as smaller experiments such as Konformity and Light in the Night.",
   "website": "https://spacebudgie.gumroad.com/",
   "logo": null,
+  "logo_bg": "dark",
   "highlighted": false,
   "parent_entity": null,
   "company_size": null,
@@ -27,5 +28,6 @@
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [],
+  "icon": "/images/companies/space-budgie/icon.png"
 }

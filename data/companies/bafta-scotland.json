@@ -9,10 +9,17 @@
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "short_description": "The Scottish arm of the British Academy of Film and Television Arts, celebrating and supporting the screen industries in Scotland.",
+  "about": "BAFTA Scotland is the Scottish branch of the British Academy of Film and Television Arts. Formed in 1986, the branch supports film, television and games talent in Scotland through year-round membership activity, awarding bursaries for new talent and holds an annual awards ceremony recognising the achievement by performers and production staff in Scottish film, television and video games.\n\nBAFTA Games Awards celebrate UK-wide games output, with BAFTA Scotland awarding a best-game annually.",
   "website": "http://www.bafta.org/scotland/",
+  "icon": "/images/companies/bafta-scotland/icon.jpg",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "contact_email": "infoscotland@bafta.org",
+  "links": {
+    "twitter": "https://x.com/BAFTAScotland",
+    "instagram": "https://www.instagram.com/baftascotland",
+    "youtube": "https://www.youtube.com/@bafta"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

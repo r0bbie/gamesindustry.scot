@@ -1,0 +1,43 @@
+{
+  "id": "sky-patrol",
+  "title": "Sky Patrol",
+  "slug": "sky-patrol",
+  "status": "released",
+  "release_date": "2015-01-08",
+  "short_description": "iOS action game where you defend allied convoys from above through hostile territory.",
+  "description": "Become the eye in the sky and protect the allied convoys making their way through enemy territory. In the heat of battle there will be dozens of hostiles and targets to take care of at once – let's just hope you can handle the SKY PATROL challenge!",
+  "companies": {
+    "developer": [
+      "beartrap-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "arcade"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "MK2x1EeFpTA"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "sky-patrol-2015"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/sky-patrol/cover.webp"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "i-play",
+  "name": "I-Play",
+  "slug": "i-play",
+  "categories": ["developer", "publisher"],
+  "status": "defunct",
+  "founded": 1998,
+  "previously_known_as": ["Digital Bridges"],
+  "location": "Dunfermline",
+  "region": "fife",
+  "website": "https://www.iplay.com",
+  "logo": "/images/companies/i-play/full_logo.png",
+  "logo_bg": "light",
+  "highlighted": false,
+  "short_description": "Dunfermline-based mobile games company",
+  "about": "Digital Bridges was founded in 1998 in Dunfermline, with the ambition of providing a set of new entertainment content channels for wireless device users. They soon developed and published mobile games as well through their wholly-owned subsidiary Wireless Games.\n\nIn 2001 the company announced the opening of its North American offices, located in New York City and in San Francisco, and later branded as I-Play.\n\nIn 2007, Oberon Media acquired the company, and integrated I-Play as a publishing division, re-launching the brand.",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Digital Bridges Limited",
+      "companies_house_number": "03555358"
+    }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/oberon-media/"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

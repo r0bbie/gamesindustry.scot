@@ -24,6 +24,8 @@ interface CompanyInfo {
   name: string;
   slug: string;
   logo?: string;
+  /** Square mark — takes priority over `logo` when set (match company page). */
+  icon?: string;
   logo_bg?: string;
   short_description?: string;
 }

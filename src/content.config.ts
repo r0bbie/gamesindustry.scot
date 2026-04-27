@@ -52,6 +52,22 @@ const linksSchema = z
   .optional()
   .default({});
 
+/** Amazon product id for `stores.amazon_appstore` (not a full URL; see `buildAmazonAppstoreUrl`). */
+const amazonAppstoreIdSchema = z
+  .record(z.string(), z.string())
+  .superRefine((stores, ctx) => {
+    const v = stores.amazon_appstore;
+    if (v === undefined) return;
+    if (!/^[A-Z0-9]{10}$/.test(v)) {
+      ctx.addIssue({
+        code: "custom",
+        message:
+          "amazon_appstore must be a 10-character ASIN (e.g. B00O8VDLC6), not a full URL or slug path",
+        path: ["amazon_appstore"],
+      });
+    }
+  });
+
 const companies = defineCollection({
   loader: glob({ pattern: "**/*.json", base: "./data/companies" }),
   schema: z.object({
@@ -168,7 +184,7 @@ const games = defineCollection({
         id: z.string(),
       })
       .optional(),
-    stores: z.record(z.string(), z.string()).optional().default({}),
+    stores: amazonAppstoreIdSchema.optional().default({}),
     play_now: z.record(z.string(), z.string()).optional().default({}),
     physical_stores: z.record(
       z.string(),
@@ -352,7 +368,7 @@ const studentGames = defineCollection({
         id: z.string(),
       })
       .optional(),
-    stores: z.record(z.string(), z.string()).optional().default({}),
+    stores: amazonAppstoreIdSchema.optional().default({}),
     play_now: z.record(z.string(), z.string()).optional().default({}),
     competitions: z
       .array(

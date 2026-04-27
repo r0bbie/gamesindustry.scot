@@ -18,5 +18,6 @@
     "id": "t4Fr6M_vIIc"
   },
   "integrations": ["Unity Build Automation", "GitHub & Actions", "Jenkins", "GitLab CI"],
-  "website": "https://www.buildstash.com"
+  "website": "https://www.buildstash.com",
+  "logo": "/images/companies/buildstash/icon.png"
 }

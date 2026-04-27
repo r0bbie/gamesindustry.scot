@@ -1,0 +1,45 @@
+{
+  "id": "incandescence",
+  "title": "Incandescence",
+  "slug": "incandescence",
+  "status": "released",
+  "release_date": "2014-10-15",
+  "short_description": "Mobile finger-drumming game: tap a mystical crystal with two, three or four fingers to raise the score.",
+  "description": "Incandescence is a unique mobile game with a finger drumming mechanic. Players drum on a mystical crystal object on the device screen, using either 2, 3 or 4 fingers, to increase a score.",
+  "companies": {
+    "developer": [
+      "guerilla-tea"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "music",
+    "puzzle"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "windows-phone"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "70uBZ3p2o00"
+  },
+  "stores": {
+    "amazon_appstore": "B00O8VDLC6"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/incandescence/cover.webp"
+}

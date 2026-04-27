@@ -11,9 +11,13 @@
   "previously_known_as": [],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "additional_locations": ["London", "Portsmouth", "Liverpool"],
+  "additional_locations": [
+    "London",
+    "Portsmouth",
+    "Liverpool"
+  ],
   "website": "https://www.climaxstudios.com",
-  "logo": null,
+  "logo": "/images/companies/climax-studios/icon.png",
   "highlighted": false,
   "parent_entity": {
     "name": "Keywords Studios",
