@@ -1,0 +1,45 @@
+{
+  "id": "bore-blasters",
+  "title": "BORE BLASTERS",
+  "slug": "bore-blasters",
+  "status": "released",
+  "release_date": "2024-03-08",
+  "short_description": "Drill-blasting mine crawler: gems, upgrades, and mysteries deep underground — on PC.",
+  "description": "Blast through rocks with your machine gun drill. Collect rare gems, ores and ancient artefacts, upgrade your ship and unlock new abilities. Uncover the mysteries of the deep and the dangers that lurk below.",
+  "companies": {
+    "developer": [
+      "8bitskull"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "press_kit_url": "https://presskit.boreblasters.com/",
+  "video": {
+    "type": "youtube",
+    "id": "_v5rjPOWa94"
+  },
+  "stores": {
+    "steam": "2398170"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "bore-blasters"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bore-blasters/cover.webp"
+}

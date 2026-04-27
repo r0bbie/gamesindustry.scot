@@ -1,0 +1,46 @@
+{
+  "id": "skull-horde",
+  "title": "Skull Horde",
+  "slug": "skull-horde",
+  "status": "released",
+  "release_date": "2026-04-10",
+  "short_description": "Auto-battler dungeon crawler: flying skull necromancer, loot, and skeleton armies in bone versus flesh.",
+  "description": "Skull Horde is an auto battler dungeon crawler where you play as a flying skull necromancer. Find powerful loot and create overpowered builds. Summon a horde of skeletons in a battle of bone versus flesh!",
+  "companies": {
+    "developer": [
+      "8bitskull"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "rpg"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "press_kit_url": "https://presskit.skullhorde.com",
+  "video": {
+    "type": "youtube",
+    "id": "alRtSKffqXw"
+  },
+  "stores": {
+    "steam": "3199360"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "skull-horde"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/skull-horde/cover.webp"
+}

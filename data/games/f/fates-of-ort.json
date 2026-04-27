@@ -1,0 +1,50 @@
+{
+  "id": "fates-of-ort",
+  "title": "Fates of Ort",
+  "slug": "fates-of-ort",
+  "status": "released",
+  "release_date": "2020-03-31",
+  "short_description": "Retro fantasy RPG where time stands still when you do — cast powerful spells at the cost of your own life.",
+  "description": "Fates of Ort is a retro fantasy RPG focused on strategic action, in a land where time is frozen when you stand still. Cast powerful spells - but beware, they will cost you your life.",
+  "companies": {
+    "developer": [
+      "8bitskull"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "rpg",
+    "action"
+  ],
+  "platforms": [
+    "pc",
+    "switch"
+  ],
+  "screenshots": [],
+  "press_kit_url": "https://fatesofort.com/presskit/sheet.php?p=Fates%20of%20Ort",
+  "video": {
+    "type": "youtube",
+    "id": "uKO6k-5_1W4"
+  },
+  "stores": {
+    "steam": "895480",
+    "gog": "fates_of_ort",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/fates-of-ort-switch/",
+    "itch": "https://8bitskull.itch.io/fates-of-ort"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "fates-of-ort"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fates-of-ort/cover.webp"
+}

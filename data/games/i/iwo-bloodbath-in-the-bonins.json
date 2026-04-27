@@ -12,7 +12,7 @@
     ],
     "publishers": [
       {
-        "name": "Hexwar",
+        "name": "HexWar",
         "company_id": "hexwar",
         "url": "https://pme.hexwar.com/"
       }

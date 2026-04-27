@@ -1,0 +1,33 @@
+{
+  "id": "8bitskull",
+  "name": "8BitSkull",
+  "slug": "8bitskull",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2017,
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "additional_locations": [
+    "Latvia"
+  ],
+  "website": "https://8bitskull.com",
+  "logo": null,
+  "highlighted": false,
+  "company_size": "2-10",
+  "short_description": "Indie team working between Scotland and Latvia",
+  "about": "8BitSkull is an indie game development team based between Scotland and Latvia.",
+  "contact_email": "alex@8bitskull.com",
+  "links": {
+    "twitter": "https://x.com/8BitSkull",
+    "discord": "https://discord.gg/KNQGm7e",
+    "youtube": "https://www.youtube.com/channel/UC9Pl2hVezb_8FI1ThV-GSzw",
+    "press_kit": "https://fatesofort.com/presskit/index.php"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

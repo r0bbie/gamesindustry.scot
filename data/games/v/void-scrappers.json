@@ -1,0 +1,49 @@
+{
+  "id": "void-scrappers",
+  "title": "Void Scrappers",
+  "slug": "void-scrappers",
+  "status": "released",
+  "release_date": "2022-10-21",
+  "short_description": "Shoot 'em up roguelite: scrap alien fleets, upgrade your ship, and unlock new characters and weapons between runs.",
+  "description": "Blast hordes of alien ships into junk. Collect the scrap to upgrade your ship into an unstoppable force of destruction. Unlock new characters and weapons and upgrade your stats between runs.",
+  "companies": {
+    "developer": [
+      "8bitskull"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "shooter"
+  ],
+  "platforms": [
+    "pc",
+    "switch"
+  ],
+  "screenshots": [],
+  "press_kit_url": "https://presskit.voidscrappers.com/",
+  "video": {
+    "type": "youtube",
+    "id": "Qq7i-Kb00WI"
+  },
+  "stores": {
+    "steam": "2005210",
+    "gog": "void_scrappers",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/void-scrappers-switch/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "void-scrappers"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/void-scrappers/cover.webp"
+}

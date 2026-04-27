@@ -1,9 +1,10 @@
 {
   "id": "hexwar",
-  "name": "Hexwar",
+  "name": "HexWar",
   "slug": "hexwar",
   "categories": [
-    "developer"
+    "developer",
+    "publisher"
   ],
   "status": "active",
   "location": "Fortrose",

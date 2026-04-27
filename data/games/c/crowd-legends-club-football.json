@@ -1,0 +1,44 @@
+{
+  "id": "crowd-legends-club-football",
+  "title": "Crowd Legends: Club Football",
+  "slug": "crowd-legends-club-football",
+  "status": "released",
+  "release_date": "2025-12-10",
+  "short_description": "Officially-licensed Scottish Professional Football League game for iPhone and Android mobile phones.",
+  "companies": {
+    "developer": [
+      "532-design"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Wo7SALJnyHg"
+  },
+  "stores": {
+    "website": "https://crowdlegends.com",
+    "app_store": "https://apps.apple.com/gb/app/crowd-legends-club-football/id6443449270",
+    "play_store": "https://play.google.com/store/apps/details?id=com.FiveThreeTwoDesign.Idolsfc"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/crowd-legends-club-football/cover.webp"
+}
