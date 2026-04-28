@@ -1,0 +1,68 @@
+{
+  "id": "brut-l",
+  "title": "Brut@l",
+  "slug": "brut-l",
+  "short_description": "ASCII-styled dungeon crawler — pick a hero and survive a procedural world built from letters.",
+  "description": "A modern re-imagining of the classic ASCII dungeon crawler. Choose your hero and descend into a procedurally generated world constructed entirely from ASCII letters. Can you survive?",
+  "status": "released",
+  "release_date": "2016-08-09",
+  "companies": {
+    "developer": [
+      "stormcloud-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "roguelike",
+    "dungeon-crawler"
+  ],
+  "platforms": [
+    "pc",
+    "ps4"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "8qH7i2mujok"
+  },
+  "stores": {
+    "steam": "489260",
+    "psn": "https://store.playstation.com/en-gb/product/EP0889-CUSA05394_00-BRUTALGAME000000/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 67
+  },
+  "critic_ids": {
+    "metacritic": "brutl"
+  },
+  "database_links": {
+    "backloggd": "brut-at-l"
+  },
+  "awards": [
+    {
+      "name": "BAFTA Scotland — Best Game Award",
+      "year": 2017,
+      "status": "nominated"
+    },
+    {
+      "name": "TIGA Awards — Game by a Small Studio",
+      "year": 2016,
+      "status": "nominated"
+    },
+    {
+      "name": "TIGA Awards — Visual Design",
+      "year": 2016,
+      "status": "nominated"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/brut-l/cover.webp"
+}

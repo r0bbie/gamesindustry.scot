@@ -1,0 +1,73 @@
+{
+  "id": "island-saver",
+  "title": "Island Saver",
+  "slug": "island-saver",
+  "short_description": "Clean plastic-strewn islands with your Trash Blaster and outsmart the Litterbugs — family-friendly eco action across PC, consoles, and mobile.",
+  "description": "A group of amazing islands need your help! Horrid plastic waste has washed up and you need to sort it out with your trusty Trash Blaster! But look out for the Litterbugs. They love mess and they're out to muck things up.",
+  "status": "released",
+  "release_date": "2020-05-12",
+  "companies": {
+    "developer": [
+      "stormcloud-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure",
+    "casual"
+  ],
+  "platforms": [
+    "pc",
+    "switch",
+    "ps4",
+    "xbox-one",
+    "android",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "rtKh5ABL4Jg"
+  },
+  "stores": {
+    "steam": "1210250",
+    "app_store": "https://apps.apple.com/gb/app/island-saver/id1524823445",
+    "play_store": "com.NatWest.IslandSaverByNatWest",
+    "psn": "https://store.playstation.com/en-gb/product/EP8168-CUSA18713_00-NWIS000000000001",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Island-Saver-1770865.html",
+    "xbox": "https://www.xbox.com/en-gb/games/store/Island-Saver/9NKJBN2RMQXB"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "island-saver"
+  },
+  "database_links": {},
+  "awards": [
+    {
+      "name": "Scottish Game Awards — Best Large-budget Game",
+      "year": 2022,
+      "status": "nominated"
+    },
+    {
+      "name": "TIGA Awards — Best Educational or Serious Game",
+      "year": 2020,
+      "status": "nominated"
+    }
+  ],
+  "news": [
+    {
+      "title": "Island Saver: 3 Million Downloads And Counting",
+      "publication": "Scottish Games Network",
+      "date": "2021-05-13",
+      "url": "https://scottishgames.net/2021/05/13/island-save-three-million-downloads/"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/island-saver/cover.webp"
+}

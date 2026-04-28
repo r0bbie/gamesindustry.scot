@@ -6,19 +6,30 @@
     "developer"
   ],
   "status": "active",
+  "founded": 2003,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "short_description": "Stormcloud Games is an award-winning games studio that creates licensed and original games for mobile, console and PC.",
+  "about": "Stormcloud Games is an award-winning games studio that creates licensed and original games for mobile, console and PC.",
   "website": "http://www.stormcloudgames.com/",
   "logo": "/images/companies/stormcloud-games/icon.jpg",
   "highlighted": false,
   "contact_email": "enquiries@stormcloudgames.com",
   "links": {
     "youtube": "https://www.youtube.com/user/StormcloudGames",
-    "twitter": "https://x.com/stormcloudgames"
+    "twitter": "https://x.com/stormcloudgames",
+    "linkedin": "https://www.linkedin.com/company/stormcloud-games-limited/"
   },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Island Saver: 3 Million Downloads And Counting",
+      "publication": "Scottish Games Network",
+      "date": "2021-05-13",
+      "url": "https://scottishgames.net/2021/05/13/island-save-three-million-downloads/"
+    }
+  ]
 }
