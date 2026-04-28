@@ -222,6 +222,11 @@ export function buildStoreUrl(store: string, id: string): string {
     gumroad: (id) => (id.startsWith("http") ? id : `https://gumroad.com/l/${id}`),
     website: (id) => id,
     tilt_five: (id) => id.startsWith("http") ? id : `https://www.tiltfive.com/games/${id}`,
+    /** Microsoft Store (Windows) — full `https://apps.microsoft.com/...` URL or product id (e.g. `9nvd056th5nm`). */
+    microsoft_store: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://apps.microsoft.com/detail/${id}`,
   };
   return urls[store]?.(id) ?? `#unknown-store-${store}`;
 }

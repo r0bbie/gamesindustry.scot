@@ -6,12 +6,21 @@
     "developer"
   ],
   "status": "active",
+  "founded": 2003,
   "location": "Elgin",
   "region": "highlands-islands",
   "website": "http://www.huntedcow.com/",
+  "icon": "/images/companies/hunted-cow/icon.jpg",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "11-50",
+  "short_description": "Elgin-based studio known for long-running MMO and strategy games including Warhammer: Chaos and Conquest",
+  "about": "Founded in 2003, Hunted Cow is a leading Scottish game studio known for ambitious, long-standing massively multiplayer and strategy titles. Over the years, the team has welcomed more than seven million players across its games on PC, Mac, and mobile. Among its releases is the highly rated Warhammer: Chaos and Conquest.",
+  "links": {
+    "youtube": "https://www.youtube.com/user/HuntedCowStudios",
+    "twitter": "https://x.com/huntedcow",
+    "linkedin": "https://www.linkedin.com/company/hunted-cow-studios-ltd-/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

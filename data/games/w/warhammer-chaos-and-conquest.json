@@ -1,0 +1,50 @@
+{
+  "id": "warhammer-chaos-and-conquest",
+  "title": "Warhammer: Chaos And Conquest",
+  "slug": "warhammer-chaos-and-conquest",
+  "short_description": "MMORPG and strategy in one: Chaos Champions clash in PVE and PVP, with persistent armies, live events, Warlords, and realm conquest.",
+  "description": "MMORPG and strategy gameplay in one. Living realms of Chaos Champions battle in PVE and PVP strategic combat. Persistent army management and constant live events. Collect Warlords, manage resources, and conquer your foes.",
+  "status": "released",
+  "release_date": "2019-11-18",
+  "companies": {
+    "developer": [
+      "hunted-cow"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "mmo"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "9zZpam4axxI"
+  },
+  "stores": {
+    "website": "https://www.chaosandconquest.com/",
+    "steam": "1144170",
+    "microsoft_store": "https://apps.microsoft.com/detail/9nvd056th5nm?hl=en-US&gl=US",
+    "app_store": "https://apps.apple.com/us/app/warhammer-chaos-conquest/id1406401152",
+    "epic": "warhammer-939868",
+    "play_store": "com.tiltingpoint.warhammer"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/warhammer-chaos-and-conquest/cover.webp"
+}
