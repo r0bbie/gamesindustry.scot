@@ -1,0 +1,22 @@
+{
+  "id": "peacock-dreams",
+  "name": "Peacock Dreams",
+  "slug": "peacock-dreams",
+  "categories": ["developer"],
+  "status": "defunct",
+  "founded": 2016,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://peacockdreamsblog.wordpress.com",
+  "highlighted": false,
+  "short_description": "Former student team; Moray Game Jam 2016 winner with Everything Is Peachy, later released on Steam via Hunted Cow.",
+  "about": "Having won the Moray Game Jam 2016 with \"Everything Is Peachy\", this student team later released the title to Steam.",
+  "links": {
+    "facebook": "https://www.facebook.com/peacockdreamsgames"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

@@ -100,6 +100,7 @@ const databaseLabels: Record<string, string> = {
   gamefaqs: "GameFAQs",
   wikipedia: "Wikipedia",
   facebook: "Facebook",
+  wiki: "Wiki",
 };
 
 const officialSiteUrl = game.stores.website ?? null;
@@ -323,11 +324,17 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
       </div>
     )}
 
-    {/* Full description */}
+    {/* Full description — blank-line (\n\n) separates paragraphs */}
     {game.description && (
       <section class="mb-10">
-        <div class="prose prose-neutral dark:prose-invert max-w-none rounded-xl border border-border bg-card p-6">
-          <p>{game.description}</p>
+        <div class="flex max-w-none flex-col gap-4 rounded-xl border border-border bg-card p-6 leading-relaxed text-foreground">
+          {game.description
+            .split(/\n\n+/)
+            .map((para) => para.trim())
+            .filter(Boolean)
+            .map((para) => (
+              <p>{para}</p>
+            ))}
         </div>
       </section>
     )}

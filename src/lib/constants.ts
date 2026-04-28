@@ -287,6 +287,8 @@ export function buildDatabaseUrl(db: string, id: string): string {
         : `https://en.wikipedia.org/wiki/${id}`,
     facebook: (id) =>
       id.startsWith("http") ? id : `https://www.facebook.com/${id}`,
+    /** Game wiki — pass full `https://…` URL when not a bundled database site slug. */
+    wiki: (id) => (id.startsWith("http") ? id : `https://${id}`),
   };
   return urls[db]?.(id) ?? `#unknown-db-${db}`;
 }

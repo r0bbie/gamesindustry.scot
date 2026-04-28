@@ -1,0 +1,48 @@
+{
+  "id": "star-vortex",
+  "title": "Star Vortex",
+  "slug": "star-vortex",
+  "short_description": "Sci-fi shooter: lone combat pilot against invaders — rebuild your ship, salvage ancient tech, and turn enemy weapons against them while humanity hangs by a thread.",
+  "description": "Humanity is being pushed to the brink of annihilation by invading forces. As one of the few remaining combat pilots, you must fight the enemies of humanity. Rebuild your ship, salvage ancient technology, and turn the enemy's weapons against them.",
+  "status": "released",
+  "release_date": "2025-07-28",
+  "companies": {
+    "developer": [
+      "zorg-games"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "shooter"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "r4VVnMdpEJM"
+  },
+  "stores": {
+    "steam": "2098160",
+    "epic": "star-vortex-a093bc"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "256018/star-vortex"
+  },
+  "press_kit_url": "https://impress.games/press-kit/zorg-games/star-vortex--1",
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/star-vortex/cover.webp"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "eldevin",
+  "title": "Eldevin",
+  "slug": "eldevin",
+  "short_description": "Award-winning indie story-driven free-to-play MMORPG: hundreds of realms, factions, quests, caves, and open plains as you defend the Eldevin Kingdom.",
+  "description": "Eldevin is the award winning indie story-driven Free to Play MMORPG (Massively Multiplayer Online Role Playing Game) from Hunted Cow Studios. Join thousands of other players and explore the mystical lands of Eldevin. Featuring more than 160 realms, each filled with unique creatures and characters for you to encounter. Explore vast open plains or descend underground into hidden caves and dungeons, making friends or foes of the various factions as you carry out your epic quest to defend Eldevin Kingdom.",
+  "status": "released",
+  "release_date": "2013-11-30",
+  "companies": {
+    "developer": [
+      "hunted-cow"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "mmo",
+    "rpg"
+  ],
+  "platforms": [
+    "pc",
+    "browser"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "zAsW0w04HwI"
+  },
+  "stores": {
+    "website": "https://www.eldevin.com/",
+    "steam": "298160"
+  },
+  "play_now": {
+    "web": "https://www.eldevin.com/play"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "106570/eldevin"
+  },
+  "awards": [],
+  "news": [
+    {
+      "title": "Hunted Cow's Eldevin - First Footage & Beta Opens For Registration",
+      "publication": "Scottish Games Network",
+      "date": "2013-02-04",
+      "url": "https://scottishgames.net/2013/02/04/hunted-cows-eldevin-first-footage-beta-opens-for-registration/"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/eldevin/cover.webp"
+}

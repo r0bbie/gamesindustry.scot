@@ -1,0 +1,49 @@
+{
+  "id": "fallen-sword",
+  "title": "Fallen Sword",
+  "slug": "fallen-sword",
+  "short_description": "Retro fantasy RPG/MMO legacy — explore Erildath’s realms with fifteen years of history; play in browser or on mobile from anywhere.",
+  "description": "Dive into fifteen years of history and join thousands of adventurers in the retro RPG world of Erildath. Whether you’re a veteran fan, a returning adventurer, or a new player with a taste for old-school fantasy, the vast realms of Fallen Sword are now available at your fingertips!",
+  "status": "released",
+  "release_date": "2006-11-10",
+  "companies": {
+    "developer": [
+      "hunted-cow"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "mmo",
+    "rpg"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "browser"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "uUDRezBqFM4"
+  },
+  "stores": {
+    "website": "https://www.fallensword.com/",
+    "app_store": "id1030555053",
+    "play_store": "com.huntedcow.fallensword"
+  },
+  "play_now": {
+    "web": "https://fallensword.com/"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fallen-sword/cover.webp"
+}

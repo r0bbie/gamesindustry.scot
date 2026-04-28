@@ -1,0 +1,58 @@
+{
+  "id": "godzilla-x-kong-titan-chasers",
+  "title": "Godzilla x Kong: Titan Chasers",
+  "slug": "godzilla-x-kong-titan-chasers",
+  "short_description": "4X MMO strategy among the Siren Islands — become a Titan Chaser, uncover mysteries, and square off with epic monsters alongside Godzilla and Kong.",
+  "description": "Discover the Siren Islands, an untamed territory filled with monsters. Become a Titan Chaser to unravel the mysteries surrounding the Titan this 4X MMO strategy game. Are you ready to face epic monsters and witness the fury of Godzilla and Kong?",
+  "status": "released",
+  "release_date": "2025-02-24",
+  "companies": {
+    "developer": [
+      "hunted-cow"
+    ],
+    "publishers": [
+      {
+        "name": "Tilting Point",
+        "url": "https://www.tiltingpoint.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "mmo"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "7DXgDs91C_o"
+  },
+  "stores": {
+    "website": "https://gxktitanchasers.com/",
+    "steam": "3670140",
+    "epic": "godzilla-x-kong-titan-chasers-a679ec",
+    "microsoft_store": "9nn5sngflnrg",
+    "app_store": "id1670938027",
+    "play_store": "com.tiltingpoint.monster"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "godzilla-x-kong-titan-chasers",
+    "rawg": "godzilla-x-kong-titan-chasers"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/godzilla-x-kong-titan-chasers/cover.webp"
+}

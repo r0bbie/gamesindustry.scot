@@ -1,0 +1,21 @@
+{
+  "id": "criss-cross-games",
+  "name": "Criss Cross Games",
+  "slug": "criss-cross-games",
+  "categories": ["developer"],
+  "status": "defunct",
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "http://www.crisscrossgames.com/",
+  "logo": null,
+  "highlighted": false,
+  "short_description": "Defunct Dundee studio; collaborated with Hunted Cow on indie PC and mobile releases including Crystal Reign and Infection: Humanity's Last Gasp.",
+  "links": {
+    "facebook": "https://www.facebook.com/CrissCrossGames"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "fallen-sword-ii",
+  "title": "Fallen Sword II",
+  "slug": "fallen-sword-ii",
+  "short_description": "Turn-based fantasy adventure rooted in retro RPG traditions — realms, dungeons, and destiny as Erildath’s Champion.",
+  "description": "Fallen Sword II is a turn-based fantasy adventure inspired by retro RPGs. Rise as Erildath's new Champion and journey through fantastical realms and perilous dungeons. Fight the darkness, break the cycle, and save the world.",
+  "status": "in_development",
+  "release_period": {
+    "start": "2026-01-01",
+    "end": null
+  },
+  "companies": {
+    "developer": [
+      "hunted-cow"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "rpg"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ghKLm0f2LXw"
+  },
+  "stores": {
+    "steam": "712370",
+    "app_store": "id6743554163"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fallen-sword-ii/cover.webp"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "gothador",
+  "title": "Gothador",
+  "slug": "gothador",
+  "short_description": "Classic browser MMORPG on a tiled world grid: explore in eight directions, chat, duel, trade, level stats, evolve into Vampire, Demon, Monk, or Angel, plus spells, skills, and a longstanding player community.",
+  "description": "Gothador is a web-based MMORPG where thousands play together online. You begin with your character in the centre of the game map, then step to neighbouring tiles to move across the grid. Once you enter a tile, new territory loads and the view snaps back around your character.\n\nBeyond roaming the world you can chat with other players, fight, trade, and grow stronger: earn experience and level up, then distribute points among stats such as Attack, Defence, and Hit Points. Deeper progression opens advanced paths such as Vampire, Monk, Demon, and Angel, plus extra skills and spells to shape how you fight and survive.\n\nThe player base is longstanding and approachable: worth dropping in if you fancy an old-school communal RPG.",
+  "status": "released",
+  "release_date": "2004",
+  "companies": {
+    "developer": [
+      "hunted-cow"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "mmo",
+    "rpg"
+  ],
+  "platforms": [
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.gothador.com/"
+  },
+  "play_now": {
+    "web": "https://www.gothador.com/"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "196589/gothador"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/gothador/cover.webp"
+}

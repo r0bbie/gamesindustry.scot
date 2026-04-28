@@ -1,0 +1,47 @@
+{
+  "id": "legacy",
+  "title": "Legacy",
+  "slug": "legacy",
+  "short_description": "Post-apocalyptic browser MMO RPG: gangs fight for dominance in wastelands or a vast hive city, collecting gear and unlocking abilities — play from browsers worldwide.",
+  "description": "Humanity is pushed to the brink of extinction in this post apocalyptic future. Living in what you believe to be the last remaining city join the fight against enemy gangs and help yours rise to dominance. Take the fight outside in to the wastelands or fight inside the massive hive city in which you live while collecting powerful items and training devastating abilities.\n\nLegacy is a free browser based multiplayer role-playing game that can be played from nearly any computer in the world. Play from your office, from school, from internet cafes or just from home. Interact with countless others around the world, level up and rise to power.",
+  "status": "released",
+  "release_date": "2005-05-31",
+  "companies": {
+    "developer": [
+      "zorg-games"
+    ],
+    "publishers": ["hunted-cow"],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "mmo",
+    "rpg"
+  ],
+  "platforms": [
+    "browser"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "xI4FYeaU4Gs"
+  },
+  "stores": {
+    "website": "https://legacy-game.net"
+  },
+  "play_now": {
+    "web": "https://legacy-game.net"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wiki": "https://wiki.legacy-game.net"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/legacy/cover.webp"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "crystal-reign",
+  "title": "Crystal Reign",
+  "slug": "crystal-reign",
+  "short_description": "Physics-heavy shooting blended with frantic arcade pacing — survive waves of magically powered robotic attackers.",
+  "description": "Crystal Reign combines physics-based shooting with fast-paced arcade gameplay in which you must fend off the armada of magically powered robots.",
+  "status": "released",
+  "release_date": "2014-05-08",
+  "companies": {
+    "developer": [
+      "criss-cross-games"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "shooter"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Q9WYg_RdVPc"
+  },
+  "stores": {
+    "app_store": "id666793459"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/crystal-reign/cover.webp"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "infection-humanitys-last-gasp",
+  "title": "Infection: Humanity's Last Gasp",
+  "slug": "infection-humanitys-last-gasp",
+  "short_description": "Against an evolving pandemic sim: simple mechanics in deep combos as you rush to eradicate a virus threatening humanity.",
+  "description": "Infection: Humanity's Last Gasp uses simple mechanics in a multitude of combinations to create engaging, deep gameplay as you try to eliminate an evolving virus that could spell the end of the human race.",
+  "status": "released",
+  "release_date": "2016-05-26",
+  "companies": {
+    "developer": [
+      "criss-cross-games"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "simulation"
+  ],
+  "platforms": [
+    "pc",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "wGQrP_GGxls"
+  },
+  "stores": {
+    "steam": "385950",
+    "app_store": "id992461816"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "infection-humanitys-last-gasp"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/infection-humanitys-last-gasp/cover.webp"
+}

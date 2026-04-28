@@ -1,0 +1,48 @@
+{
+  "id": "everything-is-peachy",
+  "title": "Everything Is Peachy",
+  "slug": "everything-is-peachy",
+  "short_description": "Fast roguelite resource-runner: peach-fuelled robot colony, branching routes toward a galactic showdown where… hopefully everything is peachy.",
+  "description": "Control a colony of peaceful, peach fueled robots in a fast-paced roguish resource gathering game, explore the galaxy as you choose your route to the center to face the ultimate showdown, and hopefully… everything will be peachy.",
+  "status": "released",
+  "release_date": "2016-08-25",
+  "companies": {
+    "developer": [
+      "peacock-dreams"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "roguelite",
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "UB8YY1Hfc5M"
+  },
+  "stores": {
+    "steam": "516040"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "106576/everything-is-peachy",
+    "backloggd": "everything-is-peachy"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/everything-is-peachy/cover.webp"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "hell",
+  "title": "Hell",
+  "slug": "hell",
+  "short_description": "Turn-based tactical skirmish strategy in mythical Gilrand: command the Order of Radiance or the Demons of Hell across varied battlefields, with cross‑platform multiplayer between PC and iOS.",
+  "description": "Hell is a turn-based tactical skirmish strategy game developed by award winning developer Hunted Cow in partnership with Slitherine. Set in the mythical fantasy land of Gilrand, you take control of either the ‘Order of Radiance’ or the ‘Demons of Hell’ and battle for supremacy across many different battlefields and environments.\n\nThe game features stunning visuals and is aimed at both PC and iOS release with cross platform multiplayer functionality. Each unit has been carefully designed to have a specific role in the battle, with various strengths and weaknesses determined from an array of unique abilities and traits.",
+  "status": "released",
+  "release_date": "2014-10-04",
+  "companies": {
+    "developer": [
+      "hunted-cow"
+    ],
+    "publishers": [
+      {
+        "name": "Slitherine",
+        "url": "https://slitherine.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "RjY38sETmzc"
+  },
+  "stores": {
+    "website": "https://www6.slitherine.com/game/hell",
+    "steam": "312420"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "83321/hell"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/hell/cover.webp"
+}

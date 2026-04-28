@@ -9,6 +9,8 @@ const PLATFORM_NAMES: Record<string, string> = {
   android: "Android",
   "atari-st": "Atari ST",
   browser: "Browser",
+  /** Legacy alias; canonical platform id is `browser`. */
+  web: "Browser",
   "commodore-64": "Commodore 64",
   ds: "Nintendo DS",
   dsi: "Nintendo DSi",

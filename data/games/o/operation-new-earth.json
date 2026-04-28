@@ -1,0 +1,49 @@
+{
+  "id": "operation-new-earth",
+  "title": "Operation: New Earth",
+  "slug": "operation-new-earth",
+  "short_description": "Sci-fi multiplayer strategy — command a military stronghold against an alien invasion: alliances, resource tech, unlock tree.",
+  "description": "Operation: New Earth is an intense sci-fi multiplayer strategy game in which you must command an advanced military facility to defend Earth from a hostile alien invasion. Create an alliance, gather resources, and unlock advanced technology to level up your stronghold!",
+  "status": "released",
+  "release_date": "2016-08-17",
+  "companies": {
+    "developer": [
+      "hunted-cow"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "0e_NbXUVHTk"
+  },
+  "stores": {
+    "steam": "528740",
+    "epic": "operation-new-earth-1d27c4",
+    "microsoft_store": "https://www.microsoft.com/en-gb/p/operation-new-earth/9pfvh1n42n63",
+    "app_store": "id1098898838",
+    "play_store": "com.wgcells.darkzone",
+    "amazon_appstore": "B01N7CR57S"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/operation-new-earth/cover.webp"
+}

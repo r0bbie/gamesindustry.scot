@@ -1,0 +1,22 @@
+{
+  "id": "zorg-games",
+  "name": "Zorg Games",
+  "slug": "zorg-games",
+  "categories": ["solo_developer"],
+  "status": "active",
+  "founded": 2005,
+  "location": "Elgin",
+  "region": "highlands-islands",
+  "website": "https://zorg.games",
+  "highlighted": false,
+  "short_description": "Label for solo indie-dev Wayne \"Zorg\" Robinson, also CTO at Hunted Cow Games",
+  "about": "Label for solo indie-dev Wayne \"Zorg\" Robinson, also CTO at Hunted Cow Games",
+  "links": {
+    "press_kit": "https://impress.games/press-kit/zorg-games"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

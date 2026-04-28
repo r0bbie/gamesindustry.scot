@@ -82,16 +82,25 @@ const devGames = games.filter((g) =>
 const serviceGames = games.filter((g) =>
   matchesCompanyRef(g.companies.service_companies, company.id)
 );
-const publishedGames = games.filter((g) =>
-  matchesCompanyRef(g.companies.publishers, company.id)
-);
 const supportedGames = games.filter((g) =>
   matchesCompanyRef(g.companies.supported_by, company.id)
 );
 
 const contributedGames = games.filter((g) =>
-  matchesCompanyRef(g.companies.contributed_by, company.id)
+  matchesCompanyRef(g.companies.contributed_by, company.id),
 );
+
+/** Published-only: credits where this company is publisher and not developer (avoids duplication with Released). */
+const publisherOnlyGames = games
+  .filter(
+    (g) =>
+      matchesCompanyRef(g.companies.publishers, company.id) &&
+      !matchesCompanyRef(g.companies.developer, company.id) &&
+      g.status !== "prototype",
+  )
+  .sort(
+    (a, b) => getFirstReleaseSortTimestamp(b) - getFirstReleaseSortTimestamp(a),
+  );
 
 const inDevGames = devGames.filter((g) => g.status === "in_development");
 const releasedGames = devGames
@@ -855,7 +864,7 @@ const recentNews = companyNews.slice(0, 5);
               <h3 class="mb-3 text-lg font-medium text-muted-foreground">
                 Contributed to
               </h3>
-              <p class="mb-3 text-sm text-muted-foreground">Games where {company.name} provided work-for-hire or co-development contributions.</p>
+              <p class="mb-3 text-sm text-muted-foreground">Games where {company.name} provided work-for-hire or co-development contributions</p>
               <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
                 {contributedGames.map((game) => (
                   <a
@@ -916,38 +925,6 @@ const recentNews = companyNews.slice(0, 5);
             </div>
           )}
 
-          {hasCategory("publisher") && (
-            <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-              {publishedGames.map((game) => (
-                <a
-                  href={`/games/${game.slug}`}
-                  class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
-                >
-                  <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
-                    {game.cover_image ? (
-                          <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
-                    ) : (
-                      <span
-                        class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
-                        style={`background: ${getCoverGradient(game.title)}`}
-                      >{game.title.charAt(0)}</span>
-                    )}
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <h4 class="text-sm font-medium group-hover:text-primary">
-                      {game.title}
-                    </h4>
-                    {game.status === "in_development" && (
-                      <Badge variant="secondary" className="text-[10px]">
-                        Upcoming
-                      </Badge>
-                    )}
-                  </div>
-                </a>
-              ))}
-            </div>
-          )}
-
           {hasCategory("supporting_org") && (
             <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
               {supportedGames.map((game) => (
@@ -970,6 +947,47 @@ const recentNews = companyNews.slice(0, 5);
                   </h4>
                 </a>
               ))}
+            </div>
+          )}
+
+          {publisherOnlyGames.length > 0 && (
+            <div class="mt-10">
+              <h3 class="mb-3 text-lg font-medium text-muted-foreground">
+                Published
+              </h3>
+              <p class="mb-3 max-w-prose text-sm text-muted-foreground">
+                Games {company.name} published developed by other studios
+              </p>
+              <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+                {publisherOnlyGames.map((game) => (
+                  <a
+                    href={`/games/${game.slug}`}
+                    class="group rounded-lg border border-border bg-card p-3 transition-colors hover:border-primary/30"
+                  >
+                    <div class="relative mb-2 flex aspect-[2/3] items-center justify-center overflow-hidden rounded-md bg-muted">
+                      {game.cover_image ? (
+                          <GameCoverImage client:load src={game.cover_image} forceFill={game.cover_fill} />
+                      ) : (
+                        <span
+                          class="flex h-full w-full items-center justify-center rounded-md text-4xl font-bold text-white/60 select-none"
+                          style={`background: ${getCoverGradient(game.title)}`}
+                        >{game.title.charAt(0)}</span>
+                      )}
+                    </div>
+                    <div class="flex items-start justify-between gap-2">
+                      <h4 class="text-sm font-medium group-hover:text-primary">
+                        {game.title}
+                      </h4>
+                      {game.status === "in_development" && (
+                        <Badge variant="secondary" className="text-[10px] shrink-0">
+                          Upcoming
+                        </Badge>
+                      )}
+                    </div>
+                    <p class="mt-0.5 text-xs text-muted-foreground">{formatGameReleaseLineDisplay(game)}</p>
+                  </a>
+                ))}
+              </div>
             </div>
           )}
         </section>

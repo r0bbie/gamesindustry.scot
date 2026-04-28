@@ -1,6 +1,30 @@
 ---
+import { __iconNode as lucideGlobeIconNode } from "lucide-react/icons/globe";
 import { getAllPlatforms } from "@/lib/data";
 import { simpleIconPath } from "@/lib/simpleIconPath";
+
+/** Serialise Lucide's icon node format to SVG inner markup (matches Lucide default stroke icons). */
+function lucideIconNodeMarkup(
+  nodes: ReadonlyArray<readonly [string, Record<string, unknown>]>,
+): string {
+  return nodes
+    .map(([tag, attrs]) => {
+      const parts: string[] = [];
+      for (const [k, v] of Object.entries(attrs)) {
+        if (k === "key") continue;
+        const name =
+          k === "strokeWidth"
+            ? "stroke-width"
+            : k.replace(/[A-Z]/g, (m) => `-${m.toLowerCase()}`);
+        parts.push(`${name}="${String(v).replace(/"/g, "&quot;")}"`);
+      }
+      return `<${tag} ${parts.join(" ")} />`;
+    })
+    .join("");
+}
+
+// Lucide globe (same geometry as <Globe /> from lucide-react)
+const browserGlobeInnerMarkup = lucideIconNodeMarkup(lucideGlobeIconNode);
 
 interface Props {
   platforms: string[];
@@ -87,7 +111,8 @@ function getIconInfo(id: string): IconInfo | null {
 
 {platforms.length > 0 && (
   <div class="flex flex-wrap gap-1">
-    {platforms.map((id) => {
+    {platforms.map((idRaw) => {
+      const id = idRaw === "web" ? "browser" : idRaw;
       const platform = platformMap.get(id);
       const iconInfo = getIconInfo(id);
       return (
@@ -96,9 +121,22 @@ function getIconInfo(id: string): IconInfo | null {
             "inline-flex items-center gap-1 rounded-md bg-secondary text-secondary-foreground font-medium",
             sizeClasses[size],
           ]}
-          title={platform?.description ?? id}
+          title={platform?.description ?? idRaw}
         >
-          {iconInfo ? (
+          {id === "browser" ? (
+            <svg
+              class={iconSizeClasses[size]}
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              set:html={browserGlobeInnerMarkup}
+            />
+          ) : iconInfo ? (
             <svg
               class={iconSizeClasses[size]}
               viewBox={iconInfo.viewBox}
@@ -124,7 +162,7 @@ function getIconInfo(id: string): IconInfo | null {
               <path d="M9 10v4" />
             </svg>
           )}
-          {platform?.name ?? id}
+          {platform?.name ?? idRaw}
         </span>
       );
     })}
