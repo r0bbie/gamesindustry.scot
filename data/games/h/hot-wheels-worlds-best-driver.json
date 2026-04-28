@@ -1,0 +1,53 @@
+{
+  "id": "hot-wheels-worlds-best-driver",
+  "title": "Hot Wheels: World's Best Driver",
+  "slug": "hot-wheels-worlds-best-driver",
+  "short_description": "Arcade racing with four teams — speed, stunts, drifting, or destruction — each with its own driving style.",
+  "description": "World's Best Driver is an arcade-style video game. Players can play as either the Green, Red, Blue, and Yellow Team. Each team possesses a different skill asset: Green Team focuses on speed, Red Team focuses on stunts, Blue Team on drifting, and Yellow Team on destruction.",
+  "status": "released",
+  "release_date": "2013-09-17",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Warner Bros. Interactive Entertainment",
+        "url": "https://www.wbgames.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "racing"
+  ],
+  "platforms": [
+    "ps3",
+    "xbox-360",
+    "wii-u",
+    "pc",
+    "3ds",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "uWv-SheW220"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Hot_Wheels%3A_World's_Best_Driver"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/hot-wheels-worlds-best-driver/cover.webp"
+}

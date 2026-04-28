@@ -1,0 +1,22 @@
+{
+  "id": "2026_05_06_big-telly-jam",
+  "name": "Big Telly Jam with Biome Collective and Arcadia",
+  "slug": "2026-05-06-big-telly-jam",
+  "date_start": "2026-05-06",
+  "time": "09:30\u201317:00",
+  "location": "Water\u2019s Edge, Dundee",
+  "is_online": false,
+  "is_scottish": true,
+  "recurring": false,
+  "company_id": "biome-collective",
+  "short_description": "One-day collaborative workshop for artists, game designers and creative technologists exploring creative technology, digital art and immersive experiences.",
+  "description": "Biome Collective and Arcadia are hosting Big Telly Jam on Wed 6 May \u2014 a one-day collaborative workshop designed for artists, game designers and creative technologists to explore creative technology, digital art and immersive experiences.",
+  "website": "https://events.humanitix.com/big-telly-jam",
+  "icon": "",
+  "image": "https://images.humanitix.com/i/99b4e50e-02f1-4328-8cc0-48afad093de4.png@responsive-2400.webp",
+  "tags": [
+    "workshop",
+    "game_jam"
+  ],
+  "highlighted": true
+}

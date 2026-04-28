@@ -1,0 +1,44 @@
+{
+  "id": "need-for-speed-undercover",
+  "title": "Need for Speed: Undercover",
+  "slug": "need-for-speed-undercover",
+  "short_description": "The Nintendo DS adaptation of NFS Undercover — handheld open-road cop-and-racer action from Firebrand.",
+  "description": "Nintendo DS port of Need for Speed Undercover.",
+  "status": "released",
+  "release_date": "2008-11-18",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Electronic Arts",
+        "url": "https://www.ea.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ds"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "need-for-speed-undercover--1",
+    "wikipedia": "Need_for_Speed:_Undercover"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/need-for-speed-undercover/cover.webp"
+}

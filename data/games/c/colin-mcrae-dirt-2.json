@@ -1,0 +1,44 @@
+{
+  "id": "colin-mcrae-dirt-2",
+  "title": "Colin McRae: Dirt 2",
+  "slug": "colin-mcrae-dirt-2",
+  "short_description": "DS-native DiRT 2 — world-tour rally and off-road racing with a 3D track editor and four-player local wireless.",
+  "description": "DS port of the console release. Dirt 2 is set to take off-road racing games on DS to a new level. Dirt 2 features exciting action-sports attitude and takes players on a stunning World Tour. Influenced by the big-event atmosphere rally is showcased in at events like the X-Games, this global tour takes players to some of the most diverse and exotic real-world locations and offers a sensational line up of officially licensed rally and off-road vehicles. Designed from the ground up exclusively for DS, Dirt 2 is tuned for portable play including a career mode, arcade mode and a range of quick-fire challenges. Dirt 2 also comes equipped with the latest evolution of the most powerful track editor on a handheld game system. Now for the first time in 3-D, players can create and share their own unique races. With 4 player head-to-head racing supported over local wireless connection, compete and create with Dirt 2 on DS.",
+  "status": "released",
+  "release_date": "2009-09-08",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Codemasters",
+        "url": "https://www.codemasters.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ds"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "colin-mcrae-dirt-2--1",
+    "wikipedia": "Colin_McRae:_Dirt_2"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/colin-mcrae-dirt-2/cover.webp"
+}

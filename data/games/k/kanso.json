@@ -1,0 +1,45 @@
+{
+  "id": "kanso",
+  "title": "Kanso",
+  "slug": "kanso",
+  "short_description": "Kanso, a beautiful and hyper relaxing line following game. Avoid obstacles while you trace around circular forms and find your moment of Zen.",
+  "status": "released",
+  "release_date": "2021-03-31",
+  "companies": {
+    "developer": [
+      "dave-sapien"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "android",
+    "ios"
+  ],
+  "video": {
+    "type": "youtube",
+    "id": "3RikWvWABFQ"
+  },
+  "screenshots": [],
+  "stores": {
+    "steam": "1454650",
+    "play_store": "https://play.google.com/store/apps/details?id=com.davesapien.kanso",
+    "app_store": "https://apps.apple.com/us/app/kanso-your-moment-of-zen/id1384257762"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/kanso/cover.webp"
+}

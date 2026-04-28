@@ -1,0 +1,47 @@
+{
+  "id": "ferrari-challenge-trofeo-pirelli",
+  "title": "Ferrari Challenge: Trofeo Pirelli",
+  "slug": "ferrari-challenge-trofeo-pirelli",
+  "short_description": "Licensed Ferrari circuit racing on Nintendo DS — the handheld version of the console release.",
+  "description": "Nintendo DS port of the console release developed by Eutechnyx.",
+  "status": "released",
+  "release_date": "2008-09-18",
+  "companies": {
+    "developer": [
+      {
+        "name": "Eutechnyx",
+        "url": "https://en.wikipedia.org/wiki/Eutechnyx"
+      }
+    ],
+    "publishers": [
+      {
+        "name": "System 3",
+        "url": "https://en.wikipedia.org/wiki/System_3_(company)"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ds"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "ferrari-challenge-trofeo-pirelli--1",
+    "wikipedia": "Ferrari_Challenge:_Trofeo_Pirelli"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ferrari-challenge-trofeo-pirelli/cover.webp"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "race-driver-grid",
+  "title": "Race Driver: Grid",
+  "slug": "race-driver-grid",
+  "short_description": "Nintendo DS adaptation of GRID — global circuits, drift and road racing, built for portable play by Firebrand.",
+  "description": "DS port of the console release. Grid will take players to beautifully realised and dramatic race locations over three continents to compete in an unprecedented variety of racing events. Packed with the most powerful race cars – new and classic, circuit and drift – players will compete to conquer the most prestigious official race tracks and championships and then go beyond to compete in challenging city-based competitions, through to road events and urban street races.",
+  "status": "released",
+  "release_date": "2008-08-05",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Codemasters",
+        "url": "https://www.codemasters.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ds"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.firebrandgames.com/racedrivergrid"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "race-driver-grid--1",
+    "wikipedia": "Race_Driver:_Grid"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/race-driver-grid/cover.webp"
+}

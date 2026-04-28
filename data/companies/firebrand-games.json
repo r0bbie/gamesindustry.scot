@@ -1,0 +1,32 @@
+{
+  "id": "firebrand-games",
+  "name": "Firebrand Games",
+  "slug": "firebrand-games",
+  "categories": [
+    "developer"
+  ],
+  "status": "defunct",
+  "founded": 2013,
+  "previously_known_as": [
+    "Firebrand Studios"
+  ],
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "additional_locations": [
+    "Merritt Island, Florida"
+  ],
+  "about": "Firebrand Games is an award winning independent game developer with studios in Glasgow (Scotland) and Merritt Island (Florida). Firebrand has worked on some of the industry's biggest racing game franchises, including several Need for Speed titles, Race Driver GRID, Trackmania, NASCAR, and Cars 2, all running on our proprietary cross-platform Octane technology.",
+  "website": "https://www.firebrandgames.com",
+  "logo": null,
+  "highlighted": false,
+  "links": {
+    "twitter": "https://x.com/firebrandgames",
+    "facebook": "https://www.facebook.com/FirebrandGames/",
+    "youtube": "https://www.youtube.com/@FirebrandGamesMedia"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

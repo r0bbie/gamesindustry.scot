@@ -286,6 +286,49 @@ export function buildDatabaseUrl(db: string, id: string): string {
   return urls[db]?.(id) ?? `#unknown-db-${db}`;
 }
 
+/**
+ * YouTube company/social links — supports full URLs, `/channel/…`, `/user/…`, `@handle`, or bare handle.
+ * Bare handles and legacy `https://www.youtube.com/MyChannel` (no @) resolve to `/@MyChannel` so they open the handle page, not search/shorts noise.
+ */
+export function buildYoutubeSocialUrl(h: string): string {
+  const t = h.trim();
+  if (t.startsWith("http")) {
+    try {
+      const u = new URL(t);
+      const host = u.hostname.replace(/^www\./, "");
+      if (host !== "youtube.com") return t;
+      const parts = u.pathname.split("/").filter(Boolean);
+      if (parts.length !== 1) return t;
+      const seg = decodeURIComponent(parts[0]!);
+      if (seg.startsWith("@")) return t;
+      const reserved = new Set([
+        "watch",
+        "shorts",
+        "playlist",
+        "feed",
+        "results",
+        "embed",
+        "live",
+        "account",
+        "channel",
+        "user",
+        "c",
+      ]);
+      if (reserved.has(seg)) return t;
+      return `https://www.youtube.com/@${seg}`;
+    } catch {
+      return t;
+    }
+  }
+  if (
+    /^(channel\/|user\/|c\/|playlist|watch|shorts)/i.test(t) ||
+    t.startsWith("@")
+  ) {
+    return `https://www.youtube.com/${t}`;
+  }
+  return `https://www.youtube.com/@${t.replace(/^@/, "")}`;
+}
+
 export function buildSocialUrl(platform: string, handle: string): string {
   const urls: Record<string, (h: string) => string> = {
     bluesky: (h) => `https://bsky.app/profile/${h}`,
@@ -302,8 +345,7 @@ export function buildSocialUrl(platform: string, handle: string): string {
       return `https://www.crunchbase.com/organization/${h}`;
     },
     discord: (h) => h.startsWith("http") ? h : `https://discord.gg/${h}`,
-    youtube: (h) =>
-      h.startsWith("http") ? h : `https://www.youtube.com/${h}`,
+    youtube: (h) => buildYoutubeSocialUrl(h),
     app_store: (h) => h.startsWith("http") ? h : `https://apps.apple.com/developer/${h}`,
     google_play: (h) => h.startsWith("http") ? h : `https://play.google.com/store/apps/developer?id=${h}`,
     github: (h) => `https://github.com/${h}`,

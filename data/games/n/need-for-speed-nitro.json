@@ -1,0 +1,45 @@
+{
+  "id": "need-for-speed-nitro",
+  "title": "Need for Speed: Nitro",
+  "slug": "need-for-speed-nitro",
+  "short_description": "Arcade-style NFS on Nintendo DS — licensed cars, upgrades, and street racing with bold style.",
+  "description": "Unleash your inner speed demon with Need for Speed Nitro for the Nintendo DS. This high-energy racing game delivers fast-paced, arcade-style action, letting you dominate the streets with style and speed. Choose from a wide selection of licensed cars from top manufacturers and customize them with an array of performance upgrades and visual modifications to create your ultimate racing machine.",
+  "status": "released",
+  "release_date": "2009-11-03",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Electronic Arts",
+        "url": "https://www.ea.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "arcade"
+  ],
+  "platforms": [
+    "ds"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "need-for-speed-nitro--1",
+    "wikipedia": "Need_for_Speed:_Nitro"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/need-for-speed-nitro/cover.webp"
+}

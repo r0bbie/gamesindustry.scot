@@ -1,0 +1,50 @@
+{
+  "id": "need-for-speed-the-run",
+  "title": "Need for Speed: The Run",
+  "slug": "need-for-speed-the-run",
+  "short_description": "Illicit cross-country racing from coast to coast — outrun rivals and the law through cities, mountains, and canyons.",
+  "description": "Need for Speed: The Run lures players into an underground world of illicit, high-stakes racing. The heat is on - and it isn't just the fuzz who are after you. Entering the race is just the beginning as you blow across borders, weave through dense urban traffic, rocket down icy mountain passes and navigate narrow canyons at breakneck speeds.",
+  "status": "released",
+  "release_date": "2011-11-15",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Electronic Arts",
+        "url": "https://www.ea.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "wii",
+    "3ds"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Ls036AJx0Uo"
+  },
+  "stores": {
+    "website": "https://www.firebrandgames.com/needforspeedrun"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Need_for_Speed:_The_Run"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/need-for-speed-the-run/cover.webp"
+}

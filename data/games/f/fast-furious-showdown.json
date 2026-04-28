@@ -1,0 +1,52 @@
+{
+  "id": "fast-furious-showdown",
+  "title": "Fast & Furious: Showdown",
+  "slug": "fast-furious-showdown",
+  "short_description": "Team up with the Fast & Furious crew to take down a dangerous international gang in this licensed action-racing tie-in.",
+  "description": "Strap in and get ready for a thrill ride as you team up to take down a dangerous international gang that can only be stopped by the members of the Fast & Furious™ crew.",
+  "status": "released",
+  "release_date": "2013-05-21",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Activision",
+        "url": "https://www.activision.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "action"
+  ],
+  "platforms": [
+    "pc",
+    "3ds",
+    "wii-u",
+    "ps3",
+    "xbox-360"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "IFHyxQwiBsQ"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Fast_%26_Furious:_Showdown"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fast-furious-showdown/cover.webp"
+}

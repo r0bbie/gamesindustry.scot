@@ -1,0 +1,47 @@
+{
+  "id": "trackmania-build-to-race",
+  "title": "TrackMania: Build to Race",
+  "slug": "trackmania-build-to-race",
+  "short_description": "Wii TrackMania with a full in-game track editor — six environments, six car styles, and stunts from loop-the-loops to rally.",
+  "description": "TrackMania: Build to Race is a racing game with a comprehensive track editor built into the game. This means the player can easily create new tracks by combining blocks of track pieces. Besides the normal straight and curved tracks there are also jumps, loopings, accelerators etc. to create custom racing challenges. This Wii version of the long-running PC racing series includes six background environments (stadium, coast, island, desert, snow and rally), each with a different car model (respectively the racing car, coupe, sports car, normal car, pickup and mini car).",
+  "status": "released",
+  "release_date": "2010-10-24",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Focus Home Interactive",
+        "url": "https://www.focus-entmt.com/"
+      },
+      {
+        "name": "City Interactive",
+        "url": "https://en.wikipedia.org/wiki/City_Interactive"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "wii"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "trackmania-build-to-race"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/trackmania-build-to-race/cover.webp"
+}

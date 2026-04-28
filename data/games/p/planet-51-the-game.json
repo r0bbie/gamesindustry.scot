@@ -1,0 +1,46 @@
+{
+  "id": "planet-51-the-game",
+  "title": "Planet 51: The Game",
+  "slug": "planet-51-the-game",
+  "short_description": "Nintendo DS version of the licensed tie-in — action driving with light sandbox play in an alien town.",
+  "description": "Nintendo DS port of Planet 51: The Game. Action driving game, with some sandbox play, that can be described as Grand Theft Auto for kids.",
+  "status": "released",
+  "release_date": "2009-11-17",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Sega",
+        "url": "https://www.sega.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "driving",
+    "sandbox"
+  ],
+  "platforms": [
+    "ds"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "planet-51-the-game",
+    "wikipedia": "Planet_51:_The_Game"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/planet-51-the-game/cover.webp"
+}

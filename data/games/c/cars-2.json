@@ -1,0 +1,47 @@
+{
+  "id": "cars-2",
+  "title": "Cars 2: The Video Game",
+  "slug": "cars-2",
+  "short_description": "Handheld versions of the Disney•Pixar tie-in — race as favourite characters in exotic locations around the globe.",
+  "description": "Inspired by the Disney•Pixar animated film, Cars 2: The Video Game lets players jump into the Cars 2 universe with some of their favorite Cars personalities in exotic locations around the globe. Port for handheld platforms.",
+  "status": "released",
+  "release_date": "2011-06-21",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Disney Interactive Studios",
+        "url": "https://www.disney.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "psp",
+    "ds",
+    "3ds"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.firebrandgames.com/cars2"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "cars-2--2"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cars-2/cover.webp"
+}

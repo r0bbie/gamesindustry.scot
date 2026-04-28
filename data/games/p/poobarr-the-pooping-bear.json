@@ -1,0 +1,38 @@
+{
+  "id": "poobarr-the-pooping-bear",
+  "title": "PooBarr: The Pooping Bear",
+  "slug": "poobarr-the-pooping-bear",
+  "short_description": "PooBarr the pooping bear is an interactive children's book about diet, digestion, and playful exploration.",
+  "status": "released",
+  "release_date": "2013-06-18",
+  "companies": {
+    "developer": [
+      "dave-sapien"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "educational"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stores": {
+    "play_store": "https://play.google.com/store/apps/details?id=com.davesapien.PooBarThePoopingBear",
+    "app_store": "https://apps.apple.com/gb/app/poobarr-the-pooping-bear/id650755340"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/poobarr-the-pooping-bear/cover.webp"
+}

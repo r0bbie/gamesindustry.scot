@@ -1,0 +1,44 @@
+{
+  "id": "cartoon-network-racing",
+  "title": "Cartoon Network Racing",
+  "slug": "cartoon-network-racing",
+  "short_description": "Licensed kart-style racing on Nintendo DS starring Cartoon Network characters — handheld port of the console release.",
+  "description": "Nintendo DS port of the game",
+  "status": "released",
+  "release_date": "2006-11-28",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "The Game Factory",
+        "url": "https://en.wikipedia.org/wiki/The_Game_Factory"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ds"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "cartoon-network-racing",
+    "wikipedia": "Cartoon_Network_Racing"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/cartoon-network-racing/cover.webp"
+}

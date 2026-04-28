@@ -1,0 +1,49 @@
+{
+  "id": "hot-wheels-track-attack",
+  "title": "Hot Wheels: Track Attack",
+  "slug": "hot-wheels-track-attack",
+  "short_description": "Race Hot Wheels cars on stunt-heavy tracks, win upgrades, and outrun rivals and bad guys.",
+  "description": "Hot Wheels: Track Attack lets you race your awesome Hot Wheels car on a track with over-the-top stunts. Win upgrades and avoid bad guys to smoke the competition",
+  "status": "released",
+  "release_date": "2010-11-23",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "THQ",
+        "url": "https://en.wikipedia.org/wiki/THQ"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "racing"
+  ],
+  "platforms": [
+    "wii",
+    "ds"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "CoRSBTGsZkU"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "Hot_Wheels:_Track_Attack"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/hot-wheels-track-attack/cover.webp"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "nascar-unleashed",
+  "title": "NASCAR Unleashed",
+  "slug": "nascar-unleashed",
+  "short_description": "Arcade NASCAR racing on real-world roads and city streets, with star drivers and famous venues.",
+  "description": "NASCAR Unleashed is an arcade-style racing game that puts superstar drivers on real-world roads, with races run in famous venues such as Daytona, Martinsville, and Chicagoland -- and out in the surrounding city streets, as well. Behind the wheel as Kyle Busch, Dale Earnhardt Jr., Jeff Gordon, or one of a dozen others, players take the power and speed of NASCAR for an off-track joyride.",
+  "status": "released",
+  "release_date": "2011-11-01",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Activision",
+        "url": "https://www.activision.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "racing"
+  ],
+  "platforms": [
+    "3ds",
+    "ps3",
+    "xbox-360",
+    "wii"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "yXp_2gGmmTk"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "nascar-unleashed"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/nascar-unleashed/cover.webp"
+}

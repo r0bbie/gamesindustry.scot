@@ -3,15 +3,21 @@
   "name": "Dave Sapien",
   "slug": "dave-sapien",
   "categories": [
-    "developer"
+    "solo_developer"
   ],
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
-  "website": "http://www.davesapien.com/",
+  "website": "http://www.davesapien.com",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Solo game dev and artist",
+  "about": "Solo game dev and artist",
+  "links": {
+    "bluesky": "davesapien.bsky.social",
+    "twitter": "https://x.com/DaveSapien",
+    "youtube": "https://www.youtube.com/@davesapien"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

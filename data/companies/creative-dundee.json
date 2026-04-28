@@ -1,0 +1,27 @@
+{
+  "id": "creative-dundee",
+  "name": "Creative Dundee",
+  "slug": "creative-dundee",
+  "categories": [
+    "supporting_org"
+  ],
+  "status": "active",
+  "founded": 2008,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://creativedundee.com",
+  "logo": null,
+  "highlighted": false,
+  "short_description": "Strengthening Dundee\u2019s creative community through connections, support and opportunities",
+  "about": "Strengthening Dundee\u2019s creative community through connections, support and opportunities",
+  "links": {
+    "bluesky": "creativedundee.bsky.social",
+    "linkedin": "https://www.linkedin.com/company/creative-dundee/",
+    "instagram": "https://www.instagram.com/creative_dundee/"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

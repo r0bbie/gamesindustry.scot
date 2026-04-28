@@ -1,0 +1,48 @@
+{
+  "id": "trackmania-turbo-build-to-race",
+  "title": "TrackMania Turbo: Build to Race",
+  "slug": "trackmania-turbo-build-to-race",
+  "short_description": "Firebrand’s Nintendo DS follow-up to TrackMania DS — build and race on wild circuits, with separate EU and US publishers.",
+  "description": "TrackMania Turbo is a racing video game developed by Firebrand Games. The successor to TrackMania DS, it was released on September 24, 2010 in Europe by Focus Home Interactive, and on April 19, 2011 in the US by City Interactive. It was released at the same time as TrackMania: Build to Race (known as TrackMania in Europe) for the Wii. It received generally favorable reviews from critics.",
+  "status": "released",
+  "release_date": "2010-09-24",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Focus Home Interactive",
+        "url": "https://www.focus-entmt.com/"
+      },
+      {
+        "name": "City Interactive",
+        "url": "https://en.wikipedia.org/wiki/City_Interactive"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ds"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "trackmania-turbo-build-to-race",
+    "wikipedia": "TrackMania_Turbo_(2010_video_game)"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/trackmania-turbo-build-to-race/cover.webp"
+}

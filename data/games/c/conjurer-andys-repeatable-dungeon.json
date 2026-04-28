@@ -1,0 +1,47 @@
+{
+  "id": "conjurer-andys-repeatable-dungeon",
+  "title": "Conjurer Andy's Repeatable Dungeon",
+  "slug": "conjurer-andys-repeatable-dungeon",
+  "short_description": "A card-based roguelike with fast-paced, easy-to-learn gameplay and quirky heroes questing through Andy's dungeon — how much loot can you bring back without perishing?",
+  "description": "C.A.R.D is a card-based Roguelike with fast paced, easy to learn gameplay featuring an ensemble cast of quirky and humorous heroes to join your questing adventures deep into Andy's dungeon. With push your luck mechanics, the real question is…How much loot can you bring back without perishing!",
+  "status": "released",
+  "release_date": "2020-09-07",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "roguelike",
+    "card"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "switch"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "De4SWUZrtrA"
+  },
+  "stores": {
+    "steam": "1357190",
+    "app_store": "https://apps.apple.com/us/app/c-a-r-d/id1524041884",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Conjurer-Andy-s-Repeatable-Dungeon-1794746.html"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/conjurer-andys-repeatable-dungeon/cover.webp"
+}

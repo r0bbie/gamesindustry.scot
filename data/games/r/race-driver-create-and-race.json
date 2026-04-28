@@ -1,0 +1,48 @@
+{
+  "id": "race-driver-create-and-race",
+  "title": "Race Driver: Create & Race",
+  "slug": "race-driver-create-and-race",
+  "short_description": "Codemasters' TOCA-style racing on DS with a standout track editor — design circuits and race them on the go.",
+  "description": "Codemasters' racing sim comes to the DS for the first time. Create & Race's unique selling point is the ability to custom-build your own race tracks",
+  "status": "released",
+  "release_date": "2007-10",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "Codemasters",
+        "url": "https://www.codemasters.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ds"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "VLVvAmsfd3g"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "race-driver-create-and-race",
+    "wikipedia": "https://en.wikipedia.org/wiki/Race_Driver:_Create_%26_Race"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/race-driver-create-and-race/cover.webp"
+}

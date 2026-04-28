@@ -1,0 +1,49 @@
+{
+  "id": "solar-flux",
+  "title": "Solar Flux",
+  "slug": "solar-flux",
+  "short_description": "Travel across the Universe saving dying suns from extinction in this unique space puzzle game.",
+  "description": "Travel across the Universe saving dying suns from extinction in this unique space puzzle game.",
+  "status": "released",
+  "release_date": "2013-10-24",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "pc",
+    "switch",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "1XNxezrYb84"
+  },
+  "stores": {
+    "website": "https://www.firebrandgames.com/solarfluxgame",
+    "steam": "251910",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/solar-flux-switch/",
+    "app_store": "https://apps.apple.com/app/solar-flux-hd/id640255855?ls=1",
+    "play_store": "com.firebrandgames.solarflux.gplay"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/solar-flux/cover.webp"
+}

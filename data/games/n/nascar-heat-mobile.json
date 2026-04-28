@@ -1,0 +1,45 @@
+{
+  "id": "nascar-heat-mobile",
+  "title": "NASCAR Heat Mobile",
+  "slug": "nascar-heat-mobile",
+  "short_description": "The first authentic mobile NASCAR racing game — 200mph stock car action plus build your own NASCAR empire in the Fan Zone.",
+  "description": "NASCAR Heat Mobile is the first authentic mobile NASCAR racing game. NASCAR Heat Mobile exclusively combines the adrenaline of 200MPH stock car racing with the ability to build your own NASCAR empire in the Fan Zone.",
+  "status": "released",
+  "release_date": "2017-04",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "8f86i1Ghx-U"
+  },
+  "stores": {
+    "website": "https://www.firebrandgames.com/nascarheatmobile",
+    "app_store": "https://apps.apple.com/us/app/nascar-heat-mobile/id1180650155",
+    "play_store": "com.dmi.nascarheat"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/nascar-heat-mobile/cover.webp"
+}

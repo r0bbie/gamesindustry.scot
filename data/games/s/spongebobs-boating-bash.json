@@ -1,0 +1,47 @@
+{
+  "id": "spongebobs-boating-bash",
+  "title": "SpongeBob's Boating Bash",
+  "slug": "spongebobs-boating-bash",
+  "short_description": "Nintendo DS version of the Wii party racer — extra unlocks, tweaked roster, and DSi-exclusive features.",
+  "description": "The handheld version of the Wii game with the same name. Differences include Squidward Tentacles being unlockable, Mrs. Puff not being playable, and Mermaid Man and Barnacle Boy being fully playable. There are even exclusive features for when the game is played on the Nintendo DSi. Port of the Wii release.",
+  "status": "released",
+  "release_date": "2010-03-02",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [
+      {
+        "name": "THQ",
+        "url": "https://en.wikipedia.org/wiki/THQ"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "party"
+  ],
+  "platforms": [
+    "ds"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.firebrandgames.com/spongebobboatingbash"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "spongebobs-boating-bash",
+    "wikipedia": "https://en.wikipedia.org/wiki/SpongeBob%27s_Boating_Bash"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/spongebobs-boating-bash/cover.webp"
+}

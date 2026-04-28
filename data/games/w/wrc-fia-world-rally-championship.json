@@ -1,0 +1,44 @@
+{
+  "id": "wrc-fia-world-rally-championship",
+  "title": "WRC: FIA World Rally Championship",
+  "slug": "wrc-fia-world-rally-championship",
+  "short_description": "The official WRC game for mobile and handheld — test your skills in the world's toughest motorsport with the championship's top drivers.",
+  "description": "WRC The Official Game, the standard for off-road racing games, is finally available on smartphones and tablets.\n\nTest your skills and nerves in the most difficult motor sport in the world, playing as the best drivers in the world rally championship.",
+  "status": "released",
+  "release_date": "2014-12-04",
+  "companies": {
+    "developer": [
+      "firebrand-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "android",
+    "ios",
+    "3ds"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "RwwQw9AVhVY"
+  },
+  "stores": {
+    "website": "https://www.firebrandgames.com/wrctheofficialgame"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wrc-fia-world-rally-championship/cover.webp"
+}

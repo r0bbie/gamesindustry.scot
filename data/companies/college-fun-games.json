@@ -6,14 +6,17 @@
     "developer"
   ],
   "status": "active",
-  "location": null,
-  "region": null,
+  "founded": 2024,
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
   "website": "https://collegefun.games",
   "logo": null,
   "highlighted": false,
+  "short_description": "Edinburgh-based indie making hand-crafted and accessible point-and-click games full of fun and heart",
+  "about": "Edinburgh-based indie making hand-crafted and accessible point-and-click games full of fun and heart",
   "links": {
     "mastodon": "https://mastodon.gamedev.place/@collegefungames",
-    "youtube": "College-Fun-Games",
+    "youtube": "@College-Fun-Games",
     "itch": "collegefungames"
   },
   "key_people": [],
