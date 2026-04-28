@@ -1,0 +1,48 @@
+{
+  "id": "the-baby-in-yellow",
+  "title": "The Baby in Yellow",
+  "slug": "the-baby-in-yellow",
+  "short_description": "Babysitting horror — feed the baby, read bedtime stories, and try not to lose yourself in his dreams (PC, iOS, Android).",
+  "description": "You've got a new babysitting job, and things are taking a turn for the weird. Feed him, read him a bedtime story, and try not to fall into his dreams. How long can you stay in control?",
+  "status": "released",
+  "release_date": "2023-05-26",
+  "companies": {
+    "developer": [
+      "team-terrible"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "horror",
+    "adventure",
+    "casual"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "CCveqwondjw"
+  },
+  "stores": {
+    "steam": "2291340",
+    "app_store": "https://apps.apple.com/us/app/the-baby-in-yellow/id1570525877",
+    "play_store": "com.TeamTerrible.BabyInYellow"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-baby-in-yellow/cover.webp"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mayas-dream",
+  "title": "Maya's Dream",
+  "slug": "mayas-dream",
+  "short_description": "Puzzle through a stranger's memories in a story-led journey about how our recollections connect us.",
+  "description": "Solve the puzzle of her memory and bring a lost chapter of her life, back to life. Immerse yourself in her story and unravel the mystery of a stranger's recollections. As you piece together her memories, you'll discover how they connect us all, in a captivating and emotional journey.",
+  "status": "prototype",
+  "release_date": "2025-05-01",
+  "companies": {
+    "developer": [
+      "vismaya"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "E4YLRum3qgk"
+  },
+  "stores": {
+    "itch": "vismaya.itch.io/mayas-dream"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "mayas-dream"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/mayas-dream/cover.webp"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "vismaya",
+  "name": "Vismaya",
+  "slug": "vismaya",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "founded": 2010,
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "short_description": "Edinburgh solo dev and filmmaker",
+  "about": "Game and film projects from solo developer Krish Shrikumar. Creating video games that leave a lasting positive impact on this world.",
+  "website": "https://www.vismaya.co.uk/",
+  "logo": null,
+  "highlighted": false,
+  "contact_email": "hello@vismaya.co.uk",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/vismaya-productions/",
+    "twitter": "https://x.com/krishshrikumar",
+    "itch": "https://vismaya.itch.io/",
+    "youtube": "https://www.youtube.com/@vismaya9069"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [
+    {
+      "name": "Krish Shrikumar",
+      "title": "Solo developer"
+    }
+  ],
+  "awards": [],
+  "news": []
+}

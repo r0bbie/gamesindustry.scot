@@ -1,0 +1,44 @@
+{
+  "id": "inward",
+  "title": "Inward",
+  "slug": "inward",
+  "short_description": "Build a personal sanctuary through mindfulness and journaling — a gentle journey of self-discovery on PC.",
+  "description": "Create a beautiful sanctuary and nurture your mental well-being through mindfulness and journaling practices. Embark on an inner journey of self-discovery and create a sanctuary that reflects your journey.",
+  "status": "released",
+  "release_date": "2023-02-02",
+  "companies": {
+    "developer": [
+      "vismaya"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation",
+    "casual"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "AXzv7BviFrc"
+  },
+  "stores": {
+    "steam": "1545430",
+    "itch": "vismaya.itch.io/inward"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/inward/cover.webp"
+}

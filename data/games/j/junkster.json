@@ -1,0 +1,45 @@
+{
+  "id": "junkster",
+  "title": "Junkster",
+  "slug": "junkster",
+  "short_description": "3D action-platforming on a junkyard world — bot UM-13 builds and wrenches his way back to orbit after a crash landing.",
+  "description": "Junkster is a 3D action platformer with an awesome building mechanic. Plucky, little construction bot, UM-13 has crash-landed on a dangerous junkyard planet. Armed only with his trusty robo-wrench, Um must repair his ship and recover his lost cargo of precious human artifacts.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "stormcloud-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer",
+    "action"
+  ],
+  "platforms": [
+    "pc",
+    "switch-2",
+    "ps5",
+    "xbox-series-xs"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "28qPfc0JW5k"
+  },
+  "stores": {
+    "steam": "1675860"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/junkster/cover.webp"
+}

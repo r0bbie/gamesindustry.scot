@@ -1,0 +1,41 @@
+{
+  "id": "battleminer",
+  "title": "Battleminer",
+  "slug": "battleminer",
+  "short_description": "Survive an ant-ruled world — gather resources, craft gear, and rescue survivors on Nintendo 3DS.",
+  "description": "In a world taken over by Ants, the player must find resources and craft items in order to rescue the Survivors.",
+  "status": "released",
+  "release_date": "2014-11-20",
+  "companies": {
+    "developer": [
+      "wobbly-tooth"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "adventure"
+  ],
+  "platforms": [
+    "3ds"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "daPbYtRuaUw"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/battleminer/cover.webp"
+}

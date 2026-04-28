@@ -1,0 +1,25 @@
+{
+  "id": "wobbly-tooth",
+  "name": "Wobbly Tooth",
+  "slug": "wobbly-tooth",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "location": "Lossiemouth",
+  "region": "aberdeen-grampian",
+  "short_description": "Solo developer releasing console and PC games from Lossiemouth, including Battleminer Giants and Vampire Slayer.",
+  "website": "https://www.wobbly-tooth.com",
+  "logo": "/images/companies/wobbly-tooth/icon.png",
+  "logo_bg": "light",
+  "highlighted": false,
+  "links": {
+    "twitter": "https://x.com/wobblytoothltd",
+    "youtube": "https://www.youtube.com/@wobblytoothgames"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

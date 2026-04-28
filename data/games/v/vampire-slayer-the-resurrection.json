@@ -1,0 +1,49 @@
+{
+  "id": "vampire-slayer-the-resurrection",
+  "title": "Vampire Slayer: The Resurrection",
+  "slug": "vampire-slayer-the-resurrection",
+  "short_description": "Fast-paced multiplayer team game — Vampires vs Slayers on PC, Switch and PS4.",
+  "description": "Vampire Slayer is a fast paced multiplayer team game featuring two completely different teams, Vampires and Slayers.",
+  "status": "released",
+  "release_date": "2023-01-02",
+  "companies": {
+    "developer": [
+      "wobbly-tooth"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "multiplayer"
+  ],
+  "platforms": [
+    "pc",
+    "switch",
+    "ps4"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "rh0Xw1gLTm8"
+  },
+  "stores": {
+    "steam": "2188960",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Vampire-Slayer-The-Resurrection-2318764.html",
+    "psn": "https://store.playstation.com/en-gb/product/EP3644-CUSA40340_00-0000000000000000"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "vampire-slayer-the-resurrection"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/vampire-slayer-the-resurrection/cover.webp"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "unusual-undertaking",
+  "name": "Unusual Undertaking",
+  "slug": "unusual-undertaking",
+  "categories": [
+    "developer",
+    "service_provider"
+  ],
+  "status": "active",
+  "founded": 2021,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "short_description": "Exists to build games and experiences that humans love.",
+  "about": "Exists to build games and experiences that humans love.",
+  "website": "https://unusualundertaking.com/",
+  "logo": "/images/companies/unusual-undertaking/icon.jpg",
+  "highlighted": false,
+  "contact_email": "email@unusualundertaking.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/unusual-undertaking/"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "ice-station-z",
+  "title": "Ice Station Z",
+  "slug": "ice-station-z",
+  "short_description": "Survive alone on an Arctic island after a strange virus spreads — open-ended exploration and resource scavenging.",
+  "description": "After a strange virus spreads across an Arctic island you are left alone to survive.",
+  "status": "released",
+  "release_date": "2016-11-03",
+  "companies": {
+    "developer": [
+      "wobbly-tooth"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "survival",
+    "adventure",
+    "action"
+  ],
+  "platforms": [
+    "pc",
+    "3ds",
+    "ps4",
+    "switch"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "DVFfcqbeVbc"
+  },
+  "stores": {
+    "steam": "1795180",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Ice-Station-Z-2073527.html",
+    "psn": "https://store.playstation.com/en-gb/product/EP3644-CUSA31095_00-7678537441631414"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "ice-station-z"
+  },
+  "database_links": {
+    "backloggd": "ice-station-z"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ice-station-z/cover.webp"
+}

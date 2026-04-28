@@ -1,0 +1,43 @@
+{
+  "id": "toy-stunt-bike",
+  "title": "Toy Stunt Bike",
+  "slug": "toy-stunt-bike",
+  "short_description": "3D micro motorbike trials on Nintendo 3DS — tight courses and stunt action.",
+  "description": "Toy Stunt Bike is a 3D, action-packed, micro-sized motorbike trials game.",
+  "status": "released",
+  "release_date": "2014-06-26",
+  "companies": {
+    "developer": [
+      "wobbly-tooth"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "arcade"
+  ],
+  "platforms": [
+    "3ds"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "C5-TD7K1sp0"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "toy-stunt-bike"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/toy-stunt-bike/cover.webp"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "tiny-ring",
+  "title": "Tiny Ring",
+  "slug": "tiny-ring",
+  "short_description": "Minimalist iOS reflex challenge — a small ring, a big test of speed and nerve from Twiddly Studio.",
+  "description": "It may be small, but it is perfectly formed! Twiddly Studio are proud to bring you the ultimate test of speed and nerve - Tiny Ring!",
+  "status": "released",
+  "release_date": "2015-05-01",
+  "companies": {
+    "developer": [
+      "twiddly"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "casual"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "mWsf-rghqhM"
+  },
+  "stores": {
+    "website": "http://www.twiddly.co.uk/tinyring.html",
+    "app_store": "https://apps.apple.com/app/apple-store/id964247263"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tiny-ring/cover.webp"
+}

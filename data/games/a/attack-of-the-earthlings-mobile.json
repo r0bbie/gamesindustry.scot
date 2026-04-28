@@ -1,0 +1,48 @@
+{
+  "id": "attack-of-the-earthlings-mobile",
+  "title": "Attack of the Earthlings Mobile",
+  "slug": "attack-of-the-earthlings-mobile",
+  "short_description": "Turn-based wave defence on mobile — lead the Swarmers against Galactoil’s invasion of your world.",
+  "description": "Attack of the Earthlings, the humorous alien strategy game for PC and Consoles, is being reimagined for the mobile platform and has landed on mobiles everywhere. Command the Swarmers, a highly adaptable and dangerous alien species, against the comically unethical Galactoil Corporation that have invaded your planet for its resources. Survive against the human invaders for as long as possible to prevent the annihilation of your species in this turn-based wave defence.",
+  "status": "released",
+  "release_date": "2023-09-26",
+  "companies": {
+    "developer": [
+      "team-junkfish"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "96MT8Q9bChY"
+  },
+  "stores": {
+    "website": "https://www.teamjunkfish.com/games/attack-of-the-earthlings-mobile",
+    "app_store": "https://apps.apple.com/gb/app/attack-of-the-earthlings/id1509660532",
+    "play_store": "com.junkfish.attackoftheearthlings"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "attack-of-the-earthlings-mobile"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/attack-of-the-earthlings-mobile/cover.webp"
+}

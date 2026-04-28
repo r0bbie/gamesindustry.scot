@@ -1,0 +1,46 @@
+{
+  "id": "playne-the-meditation-game",
+  "title": "PLAYNE : The Meditation Game",
+  "slug": "playne-the-meditation-game",
+  "short_description": "Grow an island and build a daily mindfulness habit — relaxation and mental wellbeing through meditation.",
+  "description": "Grow a beautiful island as you build a daily habit of mindfulness and meditation. Experience relaxation and learn ways to care for your mental wellbeing.",
+  "status": "released",
+  "release_date": "2020-05-01",
+  "companies": {
+    "developer": [
+      "vismaya"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation",
+    "casual"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "P4JCE1oKjGs"
+  },
+  "stores": {
+    "steam": "865540",
+    "itch": "vismaya.itch.io/playne",
+    "humble": "playne-the-meditation-game",
+    "website": "https://www.vismaya.co.uk/playne"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/playne-the-meditation-game/cover.webp"
+}

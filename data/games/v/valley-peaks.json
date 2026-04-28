@@ -1,0 +1,52 @@
+{
+  "id": "valley-peaks",
+  "title": "Valley Peaks",
+  "slug": "valley-peaks",
+  "short_description": "Cozy first-person climbing platformer — puzzle each mountain, plant radio towers for the valley’s frogs, and explore froggy peaks on PC and Switch.",
+  "description": "Embark on a cozy climbing adventure in Valley Peaks, a ribbiting first-person platformer where each mountain is like a puzzle. Install Radio Towers at the top of every ridge to connect the froggy inhabitants to the wider world, venture further into the Valley, conquer peaks and unravel mysteries!",
+  "status": "released",
+  "release_date": "2024-07-24",
+  "companies": {
+    "developer": [
+      "tub-club"
+    ],
+    "publishers": [
+      {
+        "name": "Those Awesome Guys",
+        "url": "https://thoseawesomeguys.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer",
+    "adventure",
+    "casual"
+  ],
+  "platforms": [
+    "pc",
+    "switch"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "aRkK7NlULNU"
+  },
+  "stores": {
+    "steam": "2107550",
+    "itch": "https://tubclub.itch.io/valley-peaks",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Valley-Peaks-2557083.html"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/valley-peaks/cover.webp"
+}

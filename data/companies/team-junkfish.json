@@ -6,12 +6,20 @@
     "developer"
   ],
   "status": "active",
+  "founded": 2013,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "company_size": "11-50",
+  "short_description": "Dundee independent studio behind Monstrum and Attack of the Earthlings, building distinctive games across PC, VR, and AR.",
+  "about": "Junkfish is an independent game development studio in Dundee, Scotland, making original, high-quality games for a global audience. Its first release, Monstrum, launched on Steam in January 2015 and became a horror favourite, with nominations for Best Debut Game at TIGA and Best Game at BAFTA Scotland. Attack of the Earthlings followed in February 2018 and earned strong praise from players.\n\nThe team spans many genres and platforms — including VR, AR, and PC — combining varied specialisms to ship innovative experiences.",
   "website": "http://www.teamjunkfish.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/junkfish/",
+    "twitter": "https://x.com/TeamJunkfish",
+    "bluesky": "did:plc:whenussax5d6upm4xach4ouw"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -1,0 +1,27 @@
+{
+  "id": "tub-club",
+  "name": "Tub Club",
+  "slug": "tub-club",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2022,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "short_description": "Glasgow-based indie behind Valley Peaks",
+  "about": "Glasgow-based indie behind Valley Peaks",
+  "website": "https://tubclub.itch.io",
+  "logo": "/images/companies/tub-club/icon.jpg",
+  "highlighted": false,
+  "links": {
+    "youtube": "https://www.youtube.com/@tubclubgames",
+    "twitter": "https://x.com/TubClub_",
+    "itch": "https://tubclub.itch.io"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bootleg-steamer",
+  "title": "Bootleg Steamer",
+  "slug": "bootleg-steamer",
+  "short_description": "Roguelike captain sim in Prohibition America — weather, Coast Guard, mob deals, and your own bad luck.",
+  "description": "In this rogue-like game, you embark on your journey as a captain during the tumultuous American Prohibition. Overcome challenges like inclement weather, relentless Coast Guard pursuit, shrewd Mafia dealings, and your own financial pitfalls, all while ensuring your path to wealth remains unhindered.",
+  "status": "released",
+  "release_date": "2024-04-25",
+  "companies": {
+    "developer": [
+      "team-junkfish"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "roguelike",
+    "simulation",
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "gIVYiik9Oqc"
+  },
+  "stores": {
+    "website": "https://www.teamjunkfish.com/games/bootleg-steamer",
+    "steam": "2492410"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bootleg-steamer/cover.webp"
+}

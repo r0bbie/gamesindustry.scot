@@ -3,7 +3,8 @@
   "name": "Fish Tin Games",
   "slug": "fish-tin-games",
   "categories": [
-    "developer"
+    "developer",
+    "service_provider"
   ],
   "status": "active",
   "founded": 2020,

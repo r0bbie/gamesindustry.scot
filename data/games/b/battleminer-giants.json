@@ -1,0 +1,49 @@
+{
+  "id": "battleminer-giants",
+  "title": "Battleminer Giants",
+  "slug": "battleminer-giants",
+  "short_description": "Blocky action from Wobbly Tooth — out on Switch, Xbox Series X|S, PS4 and PS5.",
+  "status": "released",
+  "release_date": "2024-11-07",
+  "companies": {
+    "developer": [
+      "wobbly-tooth"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "adventure"
+  ],
+  "platforms": [
+    "switch",
+    "xbox-series-xs",
+    "ps4",
+    "ps5"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "LQaNQeVvVuQ"
+  },
+  "stores": {
+    "xbox": "battleminer-giants/9NL7Z9SX6BZB",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Battleminer-Giants-2691201.html",
+    "psn": "https://store.playstation.com/en-us/product/UP3789-CUSA45402_00-0000000000000000"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "battleminer-giants"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/battleminer-giants/cover.webp"
+}

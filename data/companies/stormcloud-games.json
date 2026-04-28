@@ -9,9 +9,13 @@
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://www.stormcloudgames.com/",
-  "logo": null,
+  "logo": "/images/companies/stormcloud-games/icon.jpg",
   "highlighted": false,
-  "links": {},
+  "contact_email": "enquiries@stormcloudgames.com",
+  "links": {
+    "youtube": "https://www.youtube.com/user/StormcloudGames",
+    "twitter": "https://x.com/stormcloudgames"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

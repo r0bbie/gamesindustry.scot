@@ -1,0 +1,47 @@
+{
+  "id": "toy-stunt-bike-tiptops-trials",
+  "title": "Toy Stunt Bike: Tiptop's Trials",
+  "slug": "toy-stunt-bike-tiptops-trials",
+  "short_description": "Guide chimp rider Tiptop across thirty-six household stunt tracks on Switch and PS4 — 60fps trials with online leaderboards.",
+  "description": "Toy Stunt Bike is a 3D, action-packed, micro-sized motorbike trials game. Guide Tiptop the chimpanzee across thirty-six tracks set in a variety of household locations. Leap over toasters, make massive jumps onto garden chairs, use laptops as ramps and perform crazy stunts. Silky smooth 60fps gameplay in every mode. Thirty-six tracks to race + secrets. Compete worldwide with online leaderboards. Spectacular bike stunts and crashes. Ideal for handheld, short burst play. Stunning soundtrack by Waterflame.",
+  "status": "released",
+  "release_date": "2018-08-23",
+  "companies": {
+    "developer": [
+      "wobbly-tooth"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "arcade"
+  ],
+  "platforms": [
+    "switch",
+    "ps4"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "UOhVp7QoksM"
+  },
+  "stores": {
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Toy-Stunt-Bike-Tiptop-s-Trials-1425376.html",
+    "psn": "https://store.playstation.com/en-gb/product/EP3644-CUSA13496_00-0000000000000000/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "toy-stunt-bike-tiptops-trials"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/toy-stunt-bike-tiptops-trials/cover.webp"
+}

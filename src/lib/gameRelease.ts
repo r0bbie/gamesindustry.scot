@@ -129,3 +129,52 @@ export function formatGameReleaseLineDisplay(game: {
   }
   return formatReleaseDatePart(game.release_date, game.status);
 }
+
+export type StoreHeadingGameFields = {
+  status: string;
+  release_date?: string;
+  release_period?: { start: string; end?: string | null };
+};
+
+/**
+ * Use "Wishlist" (vs "Buy") above store links when the title is not yet out for purchase
+ * as of `asOf`: no release date / window yet, or the scheduled release is still in the future.
+ * Cancelled games keep the "Buy" label when stores are listed.
+ */
+export function useWishlistStoreHeading(game: StoreHeadingGameFields, asOf: Date): boolean {
+  if (game.status === "cancelled") {
+    return false;
+  }
+
+  const t = asOf.getTime();
+
+  if (game.release_period) {
+    const startTs = parseGameDateToEndTimestamp(game.release_period.start);
+    const end = game.release_period.end;
+
+    if (!isReleasePeriodOngoing(end) && typeof end === "string") {
+      const endTs = parseGameDateToEndTimestamp(end);
+      if (startTs > t) {
+        return true;
+      }
+      if (endTs < t) {
+        return false;
+      }
+      return false;
+    }
+
+    return startTs > t;
+  }
+
+  if (game.status === "released") {
+    if (!game.release_date) {
+      return false;
+    }
+    return parseGameDateToEndTimestamp(game.release_date) > t;
+  }
+
+  if (!game.release_date) {
+    return true;
+  }
+  return parseGameDateToEndTimestamp(game.release_date) > t;
+}

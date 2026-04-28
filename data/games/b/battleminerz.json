@@ -1,0 +1,42 @@
+{
+  "id": "battleminerz",
+  "title": "Battleminerz",
+  "slug": "battleminerz",
+  "short_description": "3DS crafting and survival follow-up — solo and multiplayer modes, online play, customisation, and exploration.",
+  "description": "It features: Single player Adventure, Creative and Horde Mode. Multiplayer Adventure, Creative and Battle mode. Internet with anybody, friends only or Local Play. Internet Game Chat and messages. Character customisation and texture packs. New tools, items and weapons to craft. Grow crops, ride animals, explore, build and survive! Become a Miner, Farmer or Adventurer. It's up to you!",
+  "status": "released",
+  "release_date": "2017-12-21",
+  "companies": {
+    "developer": [
+      "wobbly-tooth"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "adventure",
+    "multiplayer"
+  ],
+  "platforms": [
+    "3ds"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "lzdcT3Wf4Rc"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/battleminerz/cover.webp"
+}

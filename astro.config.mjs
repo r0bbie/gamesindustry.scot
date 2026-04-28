@@ -7,6 +7,7 @@ export default defineConfig({
   output: 'static',
   redirects: {
     '/companies/no-code': '/companies/screen-burn',
+    '/companies/team-terrible-games': '/companies/team-terrible',
   },
   integrations: [react()],
   vite: {

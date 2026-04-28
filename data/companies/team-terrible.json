@@ -1,0 +1,33 @@
+{
+  "id": "team-terrible",
+  "name": "Team Terrible",
+  "slug": "team-terrible",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2020,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "previously_known_as": [
+    "Team Terrible Games"
+  ],
+  "company_size": "2-10",
+  "short_description": "Dundee-based indie behind \"The Baby In Yellow\"",
+  "about": "Dundee-based indie behind \"The Baby In Yellow\"",
+  "website": "https://teamterriblegames.com/",
+  "logo": "/images/companies/team-terrible/icon.jpg",
+  "highlighted": false,
+  "links": {
+    "youtube": "https://www.youtube.com/@teamterriblegames",
+    "twitter": "https://x.com/teamterribledev",
+    "instagram": "https://www.instagram.com/teamterriblegames/",
+    "twitch": "https://www.twitch.tv/teamterriblegames",
+    "linkedin": "https://www.linkedin.com/company/team-terrible/"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

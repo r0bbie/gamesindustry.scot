@@ -1,17 +1,28 @@
 {
   "id": "twiddly",
-  "name": "Twiddly",
+  "name": "Twiddly Studio",
   "slug": "twiddly",
   "categories": [
     "developer"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2011,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "previously_known_as": [
+    "Twiddly"
+  ],
+  "short_description": "Indie team dedicated to innovative minimalist gaming",
+  "about": "Indie team dedicated to innovative minimalist gaming",
   "website": "http://www.twiddly.co.uk/",
-  "logo": null,
+  "logo": "/images/companies/twiddly/icon.jpg",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/TwiddlyStudio",
+    "facebook": "https://www.facebook.com/twiddly/",
+    "linkedin": "https://www.linkedin.com/company/twiddly-studio",
+    "youtube": "https://www.youtube.com/@TwiddlyUK"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -1,12 +1,31 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { getAllCompanies, getPublicGames, getAllFreelancers, getAllEvents, getAllSchools } from "@/lib/data";
+import {
+  getAllCompanies,
+  getPublicGames,
+  getAllFreelancers,
+  getAllEvents,
+  getAllSchools,
+  getAllTeams,
+  getAllStudentGames,
+} from "@/lib/data";
 
 const companies = await getAllCompanies();
 const games = await getPublicGames();
 const freelancers = await getAllFreelancers();
 const events = await getAllEvents();
 const schools = await getAllSchools();
+const teams = await getAllTeams();
+const studentGames = await getAllStudentGames();
+
+const schoolNameById = new Map(schools.map((s) => [s.id, s.name]));
+
+function clipText(text: string | undefined, max: number): string {
+  if (!text) return "";
+  const oneLine = text.replace(/\s+/g, " ").trim();
+  if (oneLine.length <= max) return oneLine;
+  return `${oneLine.slice(0, max - 1).trimEnd()}…`;
+}
 
 const searchIndex = [
   ...companies.map((c) => ({
@@ -21,6 +40,27 @@ const searchIndex = [
   ...freelancers.map(f => ({ title: f.name, description: f.short_bio ?? f.discipline, url: `/freelancers/${f.slug}`, type: "Freelancer" })),
   ...events.map(e => ({ title: e.name, description: e.short_description ?? "", url: `/events/${e.slug}`, type: "Event" })),
   ...schools.map(s => ({ title: s.name, description: s.about?.slice(0, 120) ?? "", url: `/education/schools/${s.slug}`, type: "School" })),
+  ...teams.map((t) => {
+    const school = schoolNameById.get(t.school_id) ?? "";
+    const parts = [t.short_description ? clipText(t.short_description, 140) : "", school].filter(Boolean);
+    return {
+      title: t.name,
+      description: parts.join(" · "),
+      url: `/education/teams/${t.slug}`,
+      type: "Student team",
+    };
+  }),
+  ...studentGames.map((g) => {
+    const school = schoolNameById.get(g.school_id) ?? "";
+    const desc = g.description ? clipText(g.description, 140) : "";
+    const parts = [desc, school ? `Student game · ${school}` : "Student game"].filter(Boolean);
+    return {
+      title: g.title,
+      description: parts.join(" · "),
+      url: `/education/games/${g.slug}`,
+      type: "Student game",
+    };
+  }),
 ];
 ---
 
@@ -34,7 +74,7 @@ const searchIndex = [
       <input
         id="fallback-input"
         type="text"
-        placeholder="Search companies, games, people, events..."
+        placeholder="Search companies, games, student teams, schools, events..."
         class="w-full rounded-lg border border-input bg-background px-4 py-3 text-base outline-none ring-ring focus:ring-2"
         autofocus
       />

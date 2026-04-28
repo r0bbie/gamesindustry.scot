@@ -1,0 +1,46 @@
+{
+  "id": "monstrum-2",
+  "title": "Monstrum 2",
+  "slug": "monstrum-2",
+  "short_description": "Multiplayer horror in a procedural sea fortress — survivors flee as other players hunt them as monsters.",
+  "description": "Monstrum II pits players against terrifying monsters that are controlled by other players in a procedurally generated horror labyrinth. The survivors must escape the grotesque experiment taking place onboard the decaying 1970s era sea fortress, all the time whilst evading the horrors within.",
+  "status": "released",
+  "release_date": "2022-09-06",
+  "companies": {
+    "developer": [
+      "team-junkfish"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "horror",
+    "multiplayer",
+    "survival"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "djBCAB-oJBo"
+  },
+  "stores": {
+    "steam": "1093170"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "monstrum-2"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/monstrum-2/cover.webp"
+}

@@ -61,9 +61,19 @@ function getVideoEmbedUrl(video: { type: string; id: string }): string {
   if (video.type === "peertube") return video.id;
   return "";
 }
+
+const gameDescClip = game.description
+  ? game.description.replace(/\s+/g, " ").trim().slice(0, 155)
+  : "";
+const pageDescription = [
+  gameDescClip,
+  school ? `Student game · ${school.name}` : "Student game",
+]
+  .filter(Boolean)
+  .join(" — ");
 ---
 
-<BaseLayout title={game.title}>
+<BaseLayout title={game.title} description={pageDescription}>
   <!-- Header -->
   <section class="border-b border-border bg-card">
     <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">

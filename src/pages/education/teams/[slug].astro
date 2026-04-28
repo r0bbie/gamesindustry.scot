@@ -63,9 +63,19 @@ const itchLink = (team.links as Record<string, string> | undefined)?.itch
   ? buildSocialUrl("itch", (team.links as Record<string, string>).itch)
   : null;
 const primaryLink = (team as any).website ?? itchLink;
+
+const teamDescClip = team.short_description
+  ? team.short_description.replace(/\s+/g, " ").trim().slice(0, 155)
+  : "";
+const pageDescription = [
+  teamDescClip,
+  school ? `Student team · ${school.name}` : "Student team",
+]
+  .filter(Boolean)
+  .join(" — ");
 ---
 
-<BaseLayout title={team.name}>
+<BaseLayout title={team.name} description={pageDescription}>
   <!-- Header -->
   <section class="border-b border-border bg-card">
     <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">

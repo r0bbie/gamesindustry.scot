@@ -1,0 +1,50 @@
+{
+  "id": "the-casebook-of-arkady-smith",
+  "title": "The Casebook of Arkady Smith",
+  "slug": "the-casebook-of-arkady-smith",
+  "short_description": "Open-world investigation in a futuristic city — third-person adventure as famed detective Arkady Smith.",
+  "description": "An open world investigation game set in a futuristic city. Take on the role of Arkady Smith, the famous investigator in this third person adventure game.",
+  "status": "released",
+  "release_date": "2020-03-25",
+  "companies": {
+    "developer": [
+      "wobbly-tooth"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure",
+    "open-world",
+    "mystery"
+  ],
+  "platforms": [
+    "pc",
+    "ps4",
+    "switch"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "p42TNXtNYPo"
+  },
+  "stores": {
+    "steam": "1260840",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/The-Casebook-of-Arkady-Smith-1762231.html",
+    "psn": "https://store.playstation.com/en-gb/concept/10000250"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "the-casebook-of-arkady-smith"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-casebook-of-arkady-smith/cover.webp"
+}

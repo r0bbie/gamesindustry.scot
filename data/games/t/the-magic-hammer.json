@@ -1,0 +1,41 @@
+{
+  "id": "the-magic-hammer",
+  "title": "The Magic Hammer",
+  "slug": "the-magic-hammer",
+  "short_description": "Open-world action RPG on Nintendo 3DS — adventure with your Hammer.",
+  "description": "The Magic Hammer is an open-world action RPG where you embark on an epic adventure with your Hammer!",
+  "status": "released",
+  "release_date": "2015-10-15",
+  "companies": {
+    "developer": [
+      "wobbly-tooth"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "rpg"
+  ],
+  "platforms": [
+    "3ds"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "bvLw7vtEIF8"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-magic-hammer/cover.webp"
+}

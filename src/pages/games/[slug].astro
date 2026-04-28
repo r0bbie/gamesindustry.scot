@@ -24,6 +24,7 @@ import { BrokenLink } from "@/components/ui/broken-link";
 import {
   formatReleaseDatePart,
   formatGameReleaseLineDisplay,
+  useWishlistStoreHeading,
 } from "@/lib/gameRelease";
 
 export async function getStaticPaths() {
@@ -107,6 +108,15 @@ const storeEntries = Object.entries(game.stores).filter(([k]) => k !== "website"
 const buyStores = Object.fromEntries(storeEntries) as Record<string, string>;
 const playNowEntries = Object.entries(game.play_now);
 const physicalEntries = Object.entries(game.physical_stores);
+
+const storeHeadingFields = {
+  status: game.status,
+  release_date: game.release_date,
+  release_period: game.release_period,
+};
+const storeBuyLabel = useWishlistStoreHeading(storeHeadingFields, new Date())
+  ? "Wishlist"
+  : "Buy";
 // Merge live cached scores (from prebuild fetch) over static JSON values
 const liveCriticScores = (criticScoreCache as Record<string, Record<string, number>>)[game.id] ?? {};
 const ratingMap = { ...game.critic_ratings, ...liveCriticScores };
@@ -289,7 +299,12 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
       <div class="mb-10 flex flex-wrap gap-6">
         {storeEntries.length > 0 && (
           <div>
-            <p class="mb-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">Buy</p>
+            <p
+              id="store-buy-label"
+              class="mb-2 text-xs font-medium uppercase tracking-wider text-muted-foreground"
+            >
+              {storeBuyLabel}
+            </p>
             <StoreLinks stores={buyStores} type="buy" />
           </div>
         )}
@@ -801,4 +816,15 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
       </p>
     </div>
   </div>
+
+  <script define:vars={{ storeHeadingFields }}>
+    import { useWishlistStoreHeading } from "../../lib/gameRelease";
+
+    const el = document.getElementById("store-buy-label");
+    if (el) {
+      el.textContent = useWishlistStoreHeading(storeHeadingFields, new Date())
+        ? "Wishlist"
+        : "Buy";
+    }
+  </script>
 </BaseLayout>
