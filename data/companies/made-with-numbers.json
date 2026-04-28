@@ -1,0 +1,34 @@
+{
+  "id": "made-with-numbers",
+  "name": "Made With Numbers",
+  "slug": "made-with-numbers",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2010,
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "short_description": "Indie developer based in Edinburgh working on The Exomachinist",
+  "about": "Indie developer based in Edinburgh working on The Exomachinist",
+  "website": "http://www.madewithnumbers.com",
+  "logo": null,
+  "highlighted": false,
+  "links": {
+    "twitter": "https://x.com/MadeWithNumbers",
+    "youtube": "https://www.youtube.com/user/MadeWithNumbers",
+    "facebook": "https://www.facebook.com/MadeWithNumbers/"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": [
+    {
+      "title": "OUT NOW – Gem Zap – From Made With Numbers",
+      "publication": "Scottish Games Network",
+      "date": "2014-01-30",
+      "url": "https://scottishgames.net/2014/01/30/out-now-gem-zap-from-made-with-numbers/"
+    }
+  ]
+}

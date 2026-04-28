@@ -1,0 +1,51 @@
+{
+  "id": "gem-zap",
+  "title": "Gem Zap",
+  "slug": "gem-zap",
+  "short_description": "Puzzle-action gem-matching from Made With Numbers on iOS and Android.",
+  "status": "released",
+  "release_date": "2014-01",
+  "companies": {
+    "developer": [
+      "made-with-numbers"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "arcade"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "N9yazCUsM0M"
+  },
+  "stores": {
+    "app_store": "https://itunes.apple.com/gb/app/gem-zap/id780456900",
+    "amazon_appstore": "B00ID56I9G"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "OUT NOW – Gem Zap – From Made With Numbers",
+      "publication": "Scottish Games Network",
+      "date": "2014-01-30",
+      "url": "https://scottishgames.net/2014/01/30/out-now-gem-zap-from-made-with-numbers/"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/gem-zap/cover.webp"
+}

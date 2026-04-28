@@ -1,0 +1,47 @@
+{
+  "id": "strange-sickness",
+  "title": "Strange Sickness",
+  "slug": "strange-sickness",
+  "short_description": "A fictional story based on Aberdeen's real medieval records.",
+  "description": "A fictional story based on Aberdeen's real medieval records",
+  "status": "released",
+  "release_date": "2021-11-23",
+  "companies": {
+    "developer": [
+      "common-profyt-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "narrative",
+    "adventure"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://strangesickness.com",
+    "itch": "https://common-profyt-games.itch.io/strange-sickness"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "Strange Sickness: Play With The Plague in Medieval Aberdeen",
+      "publication": "Scottish Games Network",
+      "date": "2020-11-27",
+      "url": "https://scottishgames.net/2020/11/27/strange-sickness-play-with-the-plague-in-medieval-aberdeen/"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/strange-sickness/cover.webp"
+}

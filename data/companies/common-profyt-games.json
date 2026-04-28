@@ -8,13 +8,27 @@
   "status": "active",
   "location": "Aberdeen",
   "region": "aberdeen-grampian",
-  "website": "https://commonprofytgames.com/",
-  "logo": null,
+  "short_description": "Aberdeen developer, making games built on academic historical research.",
+  "about": "Aberdeen developer, making games built on academic historical research.",
+  "website": "https://commonprofytgames.com",
+  "logo": "/images/companies/common-profyt-games/full_logo.jpg",
+  "logo_bg": "light",
   "highlighted": false,
-  "links": {},
+  "contact_email": "hello@commonprofytgames.com",
+  "links": {
+    "twitter": "https://x.com/medievalabdn",
+    "itch": "https://common-profyt-games.itch.io/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Strange Sickness: Play With The Plague in Medieval Aberdeen",
+      "publication": "Scottish Games Network",
+      "date": "2020-11-27",
+      "url": "https://scottishgames.net/2020/11/27/strange-sickness-play-with-the-plague-in-medieval-aberdeen/"
+    }
+  ]
 }

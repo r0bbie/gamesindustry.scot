@@ -1,0 +1,26 @@
+{
+  "id": "vk-games",
+  "name": "vK Games",
+  "slug": "vk-games",
+  "categories": [
+    "developer"
+  ],
+  "status": "defunct",
+  "founded": 2020,
+  "location": "Aberdeen",
+  "region": "aberdeen-grampian",
+  "short_description": "Independent game development studio based in the north east of Scotland",
+  "about": "Independent game development studio based in the north east of Scotland",
+  "website": "https://vkgames.studio/",
+  "logo": null,
+  "highlighted": false,
+  "links": {
+    "twitter": "https://x.com/vkgamesltd",
+    "linkedin": "https://www.linkedin.com/company/vkgamesltd"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

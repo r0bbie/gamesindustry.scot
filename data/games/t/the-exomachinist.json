@@ -1,0 +1,38 @@
+{
+  "id": "the-exomachinist",
+  "title": "The Exomachinist",
+  "slug": "the-exomachinist",
+  "short_description": "Action/strategy on an alien world — pilot a ship, command four units, craft upgrades, and fight the Exomachinist.",
+  "description": "In this action/strategy game you control a spaceship and a team of 4 units. Explore a strange alien world, build new weapons & upgrades and fight the forces of the Exomachinist.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "made-with-numbers"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1653740"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-exomachinist/cover.webp"
+}

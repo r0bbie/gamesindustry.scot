@@ -1,0 +1,40 @@
+{
+  "id": "sky-without-sun-target",
+  "title": "Sky Without Sun: Target",
+  "slug": "sky-without-sun-target",
+  "short_description": "Mobile title from Edinburgh’s Made With Numbers — available on iOS and Android.",
+  "status": "released",
+  "release_date": "2012-10-29",
+  "companies": {
+    "developer": [
+      "made-with-numbers"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ey6YQxmpldg"
+  },
+  "stores": {
+    "amazon_appstore": "B009WMWIP2"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/sky-without-sun-target/cover.webp"
+}

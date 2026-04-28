@@ -1,0 +1,43 @@
+{
+  "id": "pandainia-panda-pick-up",
+  "title": "Pandainia: Panda Pick-Up",
+  "slug": "pandainia-panda-pick-up",
+  "short_description": "Mobile game from the former Aberdeen studio vK Games — pick-up and panda-themed fun on iOS and Android.",
+  "status": "released",
+  "release_date": "2020-10-07",
+  "companies": {
+    "developer": [
+      "vk-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Hfg3Mwy8P58"
+  },
+  "stores": {
+    "app_store": "https://apps.apple.com/us/app/pandainia-panda-pick-up/id1503372896",
+    "play_store": "https://play.google.com/store/apps/details?id=com.vKGamesLtd.Pandamonium"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/pandainia-panda-pick-up/cover.webp"
+}

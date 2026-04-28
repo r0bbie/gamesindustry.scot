@@ -13,7 +13,8 @@
     "Berlin"
   ],
   "website": "https://www.bleakmill.com/",
-  "logo": null,
+  "logo": "/images/companies/bleakmill/full_logo.png",
+  "logo_bg": "light",
   "highlighted": false,
   "short_description": "Glasgow and Berlin based indie dev creating narrative focused experiences since 2017",
   "about": "Glasgow and Berlin based indie dev creating narrative focused experiences since 2017.",
