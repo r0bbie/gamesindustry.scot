@@ -1,0 +1,34 @@
+{
+  "id": "hairy-heart-games",
+  "name": "Hairy Heart Games",
+  "slug": "hairy-heart-games",
+  "categories": [
+    "developer",
+    "service_provider"
+  ],
+  "status": "active",
+  "founded": 2011,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
+  "website": "https://www.hairyheart.games",
+  "logo": "/images/companies/hairy-heart-games/full_logo.jpg",
+  "logo_bg": "light",
+  "company_size": "2-10",
+  "highlighted": false,
+  "short_description": "Glasgow-based micro indie developing original games, as well as co-development, work-for-hire and consulting on games, VR and other interactive apps.",
+  "about": "Hairy Heart Games is a Glasgow-based micro indie developing original games, as well as co-development, work-for-hire and consulting on games, VR and other interactive apps.",
+  "links": {
+    "twitter": "https://x.com/hairyheartgames",
+    "youtube": "https://www.youtube.com/@hairyheartgames",
+    "instagram": "https://www.instagram.com/hairyheartstudio"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

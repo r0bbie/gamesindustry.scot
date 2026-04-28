@@ -1,0 +1,46 @@
+{
+  "id": "yucatan",
+  "title": "Yucatan",
+  "slug": "yucatan",
+  "short_description": "Fast arcade racing with powerups, a storyline, and an interconnected world of tracks that keeps the pressure on.",
+  "description": "Yucatan is a fast-paced arcade-style racing game built around challenging the player and not letting up. It features powerups, a storyline, a continuous world and an interconnected web of tracks.",
+  "status": "released",
+  "release_date": "2019-09-01",
+  "companies": {
+    "developer": [
+      "hairy-heart-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "arcade"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "OPREpaBXFOw"
+  },
+  "stores": {
+    "website": "http://deathpedal.hairyheart.games",
+    "steam": "930220",
+    "itch": "https://joebain.itch.io/yucatan",
+    "game_jolt": "yucatan/329365"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/yucatan/cover.webp"
+}

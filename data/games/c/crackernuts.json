@@ -1,0 +1,44 @@
+{
+  "id": "crackernuts",
+  "title": "Crackernuts",
+  "slug": "crackernuts",
+  "short_description": "Narrative game about a goat-headed girl and her sister, a no-bodied head, on a quest to find themselves and lift a curse of darkness from their village.",
+  "description": "Crackernuts is a narrative game about a goat-headed girl and her sister, a no-bodied head. They are on a quest to find themselves and rescue their village from a curse of darkness.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "hairy-heart-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "narrative",
+    "adventure"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "XCqoqaDVA5o"
+  },
+  "stores": {
+    "steam": "2825750"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "crackernuts"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/crackernuts/cover.webp"
+}

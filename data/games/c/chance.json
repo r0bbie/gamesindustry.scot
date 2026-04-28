@@ -1,0 +1,43 @@
+{
+  "id": "chance",
+  "title": "Chance",
+  "slug": "chance",
+  "short_description": "Property-trading deckbuilder: a strange, dusty board game of land grabs, unfair Chance cards, and strategies sharp enough for an antitrust suit.",
+  "description": "The property-trading deckbuilder. Chance is strange, dusty board game where you steal land from the bourgeoisie, bankrupt the proletariat, break the rules with unfair chance cards, and discover strategies worthy of an antitrust lawsuit.",
+  "status": "in_development",
+  "release_date": "2026",
+  "companies": {
+    "developer": [
+      "hairy-heart-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "deckbuilder"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "cLnvn4wXsEM"
+  },
+  "stores": {
+    "steam": "4293810"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/chance/cover.webp"
+}

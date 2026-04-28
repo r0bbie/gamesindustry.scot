@@ -1,0 +1,45 @@
+{
+  "id": "rallyallyally",
+  "title": "Rallyallyally",
+  "slug": "rallyallyally",
+  "short_description": "Chaotic multiplayer racing where you roll your own road to the finish line.",
+  "description": "Control the race by rolling your road to the finish line in this chaotic multiplayer racing game!",
+  "status": "released",
+  "release_date": "2023-12-20",
+  "companies": {
+    "developer": [
+      "hairy-heart-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing",
+    "multiplayer"
+  ],
+  "platforms": [
+    "pc",
+    "switch"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "kIGWigu8mAw"
+  },
+  "stores": {
+    "steam": "1830540",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/rallyallyally-switch/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/rallyallyally/cover.webp"
+}
