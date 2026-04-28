@@ -6,12 +6,25 @@
     "developer"
   ],
   "status": "active",
+  "founded": 2019,
   "location": "Stirling",
   "region": "stirling-central",
   "website": "https://www.rivet-games.com/",
-  "logo": null,
+  "short_description": "Scottish games studio specialising in simulation games",
+  "about": "Scottish games studio specialising in simulation games",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Rivet Games Limited",
+      "companies_house_number": "SC605121"
+    }
+  ],
+  "logo": "/images/companies/rivet-games/full_logo.png",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/rivetgame/",
+    "twitter": "https://x.com/RivetGames/",
+    "facebook": "https://www.facebook.com/RivetGame"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

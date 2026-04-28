@@ -1,0 +1,47 @@
+{
+  "id": "kick-bastards",
+  "title": "Kick Bastards",
+  "slug": "kick-bastards",
+  "short_description": "High-speed parkour and kicking through hellish gauntlets — push for absurd velocity and fight back with your feet.",
+  "description": "GO FAST, KICK ASS! Kick Bastards combines high-speed parkour with intense kicking action. Race faster and faster, perform daring moves, and push your limits in pursuit of unrivalled speed. The armies of Hell are coming; fight back and become a kicking legend!",
+  "status": "released",
+  "release_date": "2024-01-05",
+  "companies": {
+    "developer": [
+      "something-something-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "platformer"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "press_kit_url": "https://www.ssgames.co.uk/press-kick-bastards",
+  "video": {
+    "type": "youtube",
+    "id": "PV4cz1S0THg"
+  },
+  "stores": {
+    "steam": "1737400",
+    "website": "https://www.ssgames.co.uk/kickbastards"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "kick-bastards"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/kick-bastards/cover.webp"
+}

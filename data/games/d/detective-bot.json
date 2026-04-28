@@ -1,0 +1,46 @@
+{
+  "id": "detective-bot",
+  "title": "Detective Bot",
+  "slug": "detective-bot",
+  "short_description": "Comedy mystery adventure — help a keen robot crack cases as mundane as Jeff’s missing toy boat.",
+  "description": "Detective Bot is primed and ready to solve the world's hardest mysteries like where did Jeff leave his toy boat? Honestly it has been missing for about a week now and he starting to get really upset. I saw him crying in the break room, it's pretty bad.",
+  "status": "released",
+  "release_date": "2020-05-26",
+  "companies": {
+    "developer": [
+      "something-something-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure",
+    "comedy",
+    "puzzle"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ZxOFmkFupE0"
+  },
+  "stores": {
+    "steam": "1110340"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "detective-bot"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/detective-bot/cover.webp"
+}

@@ -6,12 +6,20 @@
     "developer"
   ],
   "status": "active",
-  "location": null,
-  "region": null,
-  "website": null,
+  "founded": 2022,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "short_description": "Sad Owl Studios is a small Scottish Game Studio incorporated in 2021 to build worlds that create a sense of wonder.",
+  "about": "Sad Owl Studios is a small Scottish Game Studio incorporated in 2021 to build worlds that create a sense of wonder. Their debut title, Viewfinder, is a multi-award winning game about reshaping reality with found objects and a camera.",
+  "website": "https://www.sos.games",
+  "icon": "/images/companies/sad-owl-studios/icon.jpg",
   "logo": null,
+  "logo_bg": "light",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/sadowlstudios",
+    "linkedin": "https://www.linkedin.com/company/sos-games/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [

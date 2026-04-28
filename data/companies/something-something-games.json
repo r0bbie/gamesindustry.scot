@@ -1,0 +1,30 @@
+{
+  "id": "something-something-games",
+  "name": "Something Something Games",
+  "slug": "something-something-games",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2018,
+  "company_size": "2-10",
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "short_description": "Edinburgh duo Jamie and Ian Wilson — a Scottish studio chasing fresh design challenges with playful, characterful games since 2016.",
+  "about": "Something Something Games is a Scottish studio in Edinburgh, founded in 2018 and led by brothers Jamie and Ian Wilson. Working as a pair since 2016, they focus on design problems that haven’t been done to death, and their projects reflect the humour and curiosity they bring to making games.",
+  "website": "https://www.ssgames.co.uk/",
+  "logo": "/images/companies/something-something-games/full_logo.webp",
+  "highlighted": false,
+  "links": {
+    "youtube": "https://www.youtube.com/channel/UCR10qoyZRmP1NxZEecdQw6Q",
+    "bluesky": "officialwils.bsky.social",
+    "linkedin": "https://www.linkedin.com/company/something-something-games/",
+    "itch": "https://ssgames.itch.io/",
+    "press_kit": "https://www.ssgames.co.uk/press-ssg"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

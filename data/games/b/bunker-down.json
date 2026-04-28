@@ -1,0 +1,44 @@
+{
+  "id": "bunker-down",
+  "title": "Bunker Down",
+  "slug": "bunker-down",
+  "short_description": "Post-apocalyptic bunker management — recruit survivors, balance the group, and plan to rebuild after the fallout.",
+  "description": "The world is over. Can you manage to rebuild? The nuclear apocalypse has finally happened leaving you in charge of a bunker. Accept or reject characters from your bunker to assemble the best group in order to rebuild when you finally resurface.",
+  "status": "released",
+  "release_date": "2021-02-27",
+  "companies": {
+    "developer": [
+      "something-something-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation",
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "pCGCYDf1P3k"
+  },
+  "stores": {
+    "steam": "1548660",
+    "itch": "ssgames.itch.io/bunker-down"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bunker-down/cover.webp"
+}
