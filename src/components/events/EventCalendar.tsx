@@ -160,6 +160,8 @@ export default function EventCalendar({ events, gameReleases }: Props) {
     const map = new Map<number, GameRelease[]>();
     for (const game of gameReleases) {
       if (!game.release_date) continue;
+      // Only pin to a calendar day when the release is a full date (not year-only / year-month).
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(game.release_date)) continue;
       const rd = parseDate(game.release_date);
       if (rd.getFullYear() === year && rd.getMonth() === month) {
         const list = map.get(rd.getDate()) || [];

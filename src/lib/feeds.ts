@@ -41,7 +41,15 @@ export function icsDate(dateStr: string): string {
 /** Format an RFC-822 date (for RSS pubDate) */
 export function rssDate(dateStr: string): string {
   try {
-    return new Date(dateStr).toUTCString();
+    let normalized = dateStr;
+    if (/^\d{4}-\d{2}$/.test(dateStr)) {
+      normalized = `${dateStr}-01`;
+    } else if (/^\d{4}$/.test(dateStr)) {
+      normalized = `${dateStr}-01-01`;
+    }
+    const d = new Date(normalized);
+    if (Number.isNaN(d.getTime())) return new Date().toUTCString();
+    return d.toUTCString();
   } catch {
     return new Date().toUTCString();
   }

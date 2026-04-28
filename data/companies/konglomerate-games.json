@@ -20,9 +20,13 @@
   "logo": null,
   "highlighted": false,
   "parent_entity": null,
-  "company_size": null,
+  "company_size": "2-10",
   "employee_count": null,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/KonglomerateG",
+    "linkedin": "https://www.linkedin.com/company/konglomerate-games",
+    "youtube": "https://www.youtube.com/@konglomerategames3080"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

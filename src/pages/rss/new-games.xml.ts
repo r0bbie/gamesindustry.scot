@@ -1,6 +1,9 @@
 import type { APIRoute } from "astro";
 import { getPublicGames, safeGetCompany } from "@/lib/data";
-import { getFirstReleaseSortTimestamp } from "@/lib/gameRelease";
+import {
+  getFirstReleaseSortTimestamp,
+  formatReleaseDatePart,
+} from "@/lib/gameRelease";
 import { SITE_URL, SITE_TITLE, buildRssFeed } from "@/lib/feeds";
 
 export const GET: APIRoute = async () => {
@@ -20,11 +23,10 @@ export const GET: APIRoute = async () => {
       const dev = devId ? await safeGetCompany(devId, `rss:${g.slug}`) : null;
       const devName = dev?.name ?? "Unknown Developer";
 
-      const releaseDate = new Date(g.release_date!).toLocaleDateString("en-GB", {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-      });
+      const releaseDate = formatReleaseDatePart(
+        g.release_date!,
+        g.status,
+      );
 
       const desc = [
         g.short_description ?? g.description ?? "",

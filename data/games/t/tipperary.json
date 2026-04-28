@@ -1,0 +1,51 @@
+{
+  "id": "tipperary",
+  "title": "Tipperary",
+  "slug": "tipperary",
+  "short_description": "Android AR experience exploring 1940s Lochee, Dundee — the Tipperary neighbourhood between Marshal Street and Athol Street.",
+  "description": "Get the sense of what it was like to live, work and socialise in 1941 in an area of Dundee known locally as Tipperary. Tipperary was a collection of approximately 20 houses in the area of Lochee between Marshal Street and Athol Street.",
+  "status": "released",
+  "release_date": "2022-04",
+  "companies": {
+    "developer": [
+      "konglomerate-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "ar",
+    "educational"
+  ],
+  "platforms": [
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ffR-CrPvNYE"
+  },
+  "stores": {
+    "website": "https://konglomerate.games/projects/tipperary1/",
+    "play_store": "com.KonglomerateGames.Tipperary"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "Dundee augmented reality game allows users to explore 1940s Lochee",
+      "publication": "The Courier",
+      "date": "2022-04-08",
+      "url": "https://www.thecourier.co.uk/fp/news/dundee/3182429/lochee-tipperary-game/"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tipperary/cover.webp"
+}

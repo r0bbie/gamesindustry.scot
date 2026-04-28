@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import type { EventData, GameRelease } from "./EventCalendar";
 import { FilterDropdown, FilterChip, FilterToggle, SortDropdown, ResultCount } from "@/components/ui/FilterToolbar";
+import { formatReleaseDatePart } from "@/lib/gameRelease";
 
 const EVENT_TAGS = [
   { id: "game_jam", name: "Game Jam" },
@@ -299,8 +300,17 @@ function EventRow({ event }: { event: EventData }) {
 
 function GameRow({ game }: { game: GameRelease }) {
   const dateStr = game.release_date
-    ? new Date(game.release_date).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })
+    ? formatReleaseDatePart(game.release_date, game.status)
     : "TBA";
+  const dateShort =
+    game.release_date && /^\d{4}-\d{2}-\d{2}$/.test(game.release_date)
+      ? new Date(game.release_date).toLocaleDateString("en-GB", {
+          day: "numeric",
+          month: "short",
+        })
+      : game.release_date
+        ? formatReleaseDatePart(game.release_date, game.status)
+        : "TBA";
 
   return (
     <a
@@ -309,9 +319,7 @@ function GameRow({ game }: { game: GameRelease }) {
     >
       <div className="hidden w-20 shrink-0 pt-0.5 text-right sm:block">
         <span className="text-sm font-medium tabular-nums text-muted-foreground">
-          {game.release_date
-            ? new Date(game.release_date).toLocaleDateString("en-GB", { day: "numeric", month: "short" })
-            : "TBA"}
+          {dateShort}
         </span>
       </div>
       <div className="min-w-0 flex-1">

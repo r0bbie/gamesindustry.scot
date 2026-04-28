@@ -70,8 +70,10 @@ export const GET: APIRoute = async () => {
     lines.push("END:VEVENT");
   }
 
-  // Add game releases as all-day events
-  const gamesWithDates = games.filter((g) => g.release_date);
+  // Add game releases as all-day events (full YYYY-MM-DD only — avoid inventing a day for year/month precision).
+  const gamesWithDates = games.filter(
+    (g) => g.release_date && /^\d{4}-\d{2}-\d{2}$/.test(g.release_date),
+  );
   for (const g of gamesWithDates) {
     const devId = g.companies.developer[0];
     const dev = devId ? await safeGetCompany(devId, `ics:${g.slug}`) : null;
