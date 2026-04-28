@@ -1,0 +1,44 @@
+{
+  "id": "tank-battle-blitzkrieg",
+  "title": "Tank Battle: Blitzkrieg",
+  "slug": "tank-battle-blitzkrieg",
+  "short_description": "‘Tank Battle: Blitzkrieg!’ recreates the first battles of World War II",
+  "description": "‘Tank Battle: Blitzkrieg!’ recreates the first battles of World War II. On 1st September 1939 the German army marched into Poland, two weeks later the Soviets also invaded and the Polish army was crushed by 6th October. Over the coming months the Germans expanded their grip on Europe with further invasions of Denmark and Norway.",
+  "status": "released",
+  "release_date": "2016-12-07",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "540150",
+    "app_store": "id1015000630",
+    "play_store": "com.hexwar.tankbattleblitzkrieg"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tank-battle-blitzkrieg/cover.webp"
+}

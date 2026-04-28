@@ -1,0 +1,44 @@
+{
+  "id": "hold-the-line-the-american-revolution",
+  "title": "Hold the Line: The American Revolution",
+  "slug": "hold-the-line-the-american-revolution",
+  "short_description": "Hold the Line covers battles fought during the American Revolution",
+  "description": "Hold the Line covers battles fought during the American Revolution. This game is a careful conversion of the board game of the same name developed by Worthington Publishing. Jump in and take command of the American or British forces during this pivotal moment in the history of nations!",
+  "status": "released",
+  "release_date": "2017-08-18",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "657500",
+    "app_store": "id1269588517",
+    "play_store": "com.hexwar.holdtheline"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/hold-the-line-the-american-revolution/cover.webp"
+}

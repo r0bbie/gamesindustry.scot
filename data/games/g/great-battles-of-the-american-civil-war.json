@@ -1,0 +1,44 @@
+{
+  "id": "great-battles-of-the-american-civil-war",
+  "title": "Great Battles of the American Civil War",
+  "slug": "great-battles-of-the-american-civil-war",
+  "short_description": "Great Battles of the American Civil War is based on the ‘Great Battles of the American Civil War’ board games, which started with the classic game ‘Terrible Swift Sword’",
+  "description": "Great Battles of the American Civil War is based on the ‘Great Battles of the American Civil War’ board games, which started with the classic game ‘Terrible Swift Sword’. This game recreates the significant battles of the American Civil War.",
+  "status": "released",
+  "release_date": "2019-10-24",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1025550",
+    "app_store": "id1209543828",
+    "play_store": "com.hexwar.gbotacw"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/great-battles-of-the-american-civil-war/cover.webp"
+}

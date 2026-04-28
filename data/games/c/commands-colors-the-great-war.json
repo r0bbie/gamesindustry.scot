@@ -1,0 +1,44 @@
+{
+  "id": "commands-colors-the-great-war",
+  "title": "Commands & Colors: The Great War",
+  "slug": "commands-colors-the-great-war",
+  "short_description": "The Great War allow players to portray important engagements throughout WWI history",
+  "description": "The Great War allow players to portray important engagements throughout WWI history. The battles focus on the historical deployment of forces and important terrain features of trench fighting in scale with the game system.",
+  "status": "released",
+  "release_date": "2017-01-19",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "449460",
+    "app_store": "id1004606061",
+    "play_store": "com.hexwar.thegreatwar"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/commands-colors-the-great-war/cover.webp"
+}

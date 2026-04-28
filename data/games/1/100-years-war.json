@@ -1,0 +1,44 @@
+{
+  "id": "100-years-war",
+  "title": "100 Years' War",
+  "slug": "100-years-war",
+  "short_description": "Fight the various battles of the 100 Years' War throughout the Medieval ages",
+  "description": "Fight the various battles of the 100 Years' War throughout the Medieval ages.",
+  "status": "released",
+  "release_date": "2019-08-09",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1025530",
+    "app_store": "id1038016364",
+    "play_store": "com.hexwar.onehundredyearswar"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/100-years-war/cover.webp"
+}

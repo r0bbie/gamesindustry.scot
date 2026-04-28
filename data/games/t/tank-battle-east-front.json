@@ -1,0 +1,44 @@
+{
+  "id": "tank-battle-east-front",
+  "title": "Tank Battle: East Front",
+  "slug": "tank-battle-east-front",
+  "short_description": "Use hex based tactical combat to dominate foes on the Russian front of the Second World War",
+  "description": "Use hex based tactical combat to dominate foes on the Russian front of the Second World War. Fight as the Germans or the Soviets in a series of ever more complex missions.",
+  "status": "released",
+  "release_date": "2017-03-31",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "613120",
+    "app_store": "id1054398609",
+    "play_store": "com.hexwar.tankbattleeastfront"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tank-battle-east-front/cover.webp"
+}

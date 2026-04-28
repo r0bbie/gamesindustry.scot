@@ -1,0 +1,42 @@
+{
+  "id": "assault-on-arnhem",
+  "title": "Assault on Arnhem",
+  "slug": "assault-on-arnhem",
+  "short_description": "Assault on Arnhem is an operational level wargame for between one and four players, based on the famous Operation Market Garden campaign in September 1944",
+  "description": "Assault on Arnhem is an operational level wargame for between one and four players, based on the famous Operation Market Garden campaign in September 1944.",
+  "status": "released",
+  "release_date": "2016-03-11",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "450290",
+    "app_store": "id1040809311"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/assault-on-arnhem/cover.webp"
+}

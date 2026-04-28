@@ -1,0 +1,44 @@
+{
+  "id": "napoleon-in-russia",
+  "title": "Napoleon in Russia",
+  "slug": "napoleon-in-russia",
+  "short_description": "Napoleons Invasion of Russia began on 24 June 1812 when the Grande Armée crossed the Neman River to engage and attempt to defeat the Russian army",
+  "description": "Napoleons Invasion of Russia began on 24 June 1812 when the Grande Armée crossed the Neman River to engage and attempt to defeat the Russian army.",
+  "status": "released",
+  "release_date": "2020-02-05",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1185960",
+    "app_store": "id969868134",
+    "play_store": "com.hexwar.napoleoninrussia"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/napoleon-in-russia/cover.webp"
+}

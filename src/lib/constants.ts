@@ -343,7 +343,10 @@ export function buildSocialUrl(platform: string, handle: string): string {
       h.startsWith("http") ? h : `https://x.com/${h.replace(/^@/, "")}`,
     mastodon: (h) => h.startsWith("http") ? h : `https://${h}`,
     linkedin: (h) => h.startsWith("http") ? h : `https://www.linkedin.com/company/${h}`,
-    steam: (h) => `https://store.steampowered.com/publisher/${h}`,
+    steam: (h) =>
+      h.startsWith("http")
+        ? h
+        : `https://store.steampowered.com/publisher/${h}`,
     twitch: (h) => `https://www.twitch.tv/${h}`,
     crunchbase: (h) => {
       if (h.startsWith("http")) return h;

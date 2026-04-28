@@ -1,0 +1,44 @@
+{
+  "id": "tank-battle-pacific",
+  "title": "Tank Battle: Pacific",
+  "slug": "tank-battle-pacific",
+  "short_description": "Capture the experience of being a tank commander in the Pacific Theatre in World War Two",
+  "description": "Capture the experience of being a tank commander in the Pacific Theatre in World War Two. Fight battles between Japan, France, China, Russia, British Commonwealth and The United States of America. The game has a wide range of features from the tank battles of Northern Manchuria to the battlefields of Burma and the landings on the Pacific...",
+  "status": "released",
+  "release_date": "2017-07-27",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "665310",
+    "app_store": "id1065838550",
+    "play_store": "com.hexwar.tankbattlepacific"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tank-battle-pacific/cover.webp"
+}

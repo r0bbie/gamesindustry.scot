@@ -1,0 +1,44 @@
+{
+  "id": "civil-war-1863",
+  "title": "Civil War: 1863",
+  "slug": "civil-war-1863",
+  "short_description": "Relive iconic battles of the American Civil War",
+  "description": "Relive iconic battles of the American Civil War. Take command of both the Union and Confederate forces in this exciting turn-based strategy game.",
+  "status": "released",
+  "release_date": "2016-06-21",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "436270",
+    "app_store": "id514588332",
+    "play_store": "com.hexwar.civilwar1863"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/civil-war-1863/cover.webp"
+}

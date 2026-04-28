@@ -1,0 +1,44 @@
+{
+  "id": "tank-battle-north-africa",
+  "title": "Tank Battle: North Africa",
+  "slug": "tank-battle-north-africa",
+  "short_description": "Take command as the British Commonwealth and U.S. forces fight the Germans in the North African theatre and lead your battalion to victory in challenging tactical battles",
+  "description": "Take command as the British Commonwealth and U.S. forces fight the Germans in the North African theatre and lead your battalion to victory in challenging tactical battles.",
+  "status": "released",
+  "release_date": "2016-07-12",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "465750",
+    "app_store": "id575597501",
+    "play_store": "com.hexwar.tankbattlenorthafrica"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tank-battle-north-africa/cover.webp"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "civil-war-1862",
+  "title": "Civil War: 1862",
+  "slug": "civil-war-1862",
+  "short_description": "Relive iconic battles of the American Civil War",
+  "description": "Relive iconic battles of the American Civil War. Take command of both the Union and Confederate forces in this exciting turn-based strategy game.",
+  "status": "released",
+  "release_date": "2016-10-06",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "532890",
+    "app_store": "id672341220",
+    "play_store": "com.hexwar.civilwar1862"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/civil-war-1862/cover.webp"
+}

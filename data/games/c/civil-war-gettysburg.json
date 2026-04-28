@@ -1,0 +1,44 @@
+{
+  "id": "civil-war-gettysburg",
+  "title": "Civil War: Gettysburg",
+  "slug": "civil-war-gettysburg",
+  "short_description": "The Battle of Gettysburg was fought from 1st to 3rd July 1863, in Pennsylvania",
+  "description": "The Battle of Gettysburg was fought from 1st to 3rd July 1863, in Pennsylvania. The battle resulted the largest number of casualties in any battle of the entire war, and was the turning point of the American Civil War. Over three days General George Meade’s Army of the Potomac defeated the Confederate army of General Robert E.",
+  "status": "released",
+  "release_date": "2017-08-25",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "665440",
+    "app_store": "id909337833",
+    "play_store": "com.hexwar.acwgettysburg"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/civil-war-gettysburg/cover.webp"
+}

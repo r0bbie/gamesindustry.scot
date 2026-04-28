@@ -1,0 +1,44 @@
+{
+  "id": "russian-front",
+  "title": "Russian Front",
+  "slug": "russian-front",
+  "short_description": "Experience grand strategy across the entire theatre of the Eastern Front",
+  "description": "Experience grand strategy across the entire theatre of the Eastern Front; the military conflict that many consider to be the iconic attacker/defender scenario. Command massive armies in this fully 3D turn-based simulation of one of the largest military campaigns in history, playable as both Germans and Russians.",
+  "status": "released",
+  "release_date": "2015-07-23",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "385960",
+    "app_store": "id667593471",
+    "play_store": "com.hexwar.russianfront"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/russian-front/cover.webp"
+}

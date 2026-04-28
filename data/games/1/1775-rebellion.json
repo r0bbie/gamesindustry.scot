@@ -1,0 +1,44 @@
+{
+  "id": "1775-rebellion",
+  "title": "1775: Rebellion",
+  "slug": "1775-rebellion",
+  "short_description": "Command the armies of the British Redcoats, English Loyalists, German Hessians, American Regulars, Patriots, French Regulars and Native Americans to decide the fate of the Americas",
+  "description": "Command the armies of the British Redcoats, English Loyalists, German Hessians, American Regulars, Patriots, French Regulars and Native Americans to decide the fate of the Americas!",
+  "status": "released",
+  "release_date": "2016-09-29",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "422610",
+    "app_store": "id1004604650",
+    "play_store": "com.hexwar.rebellion1775"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/1775-rebellion/cover.webp"
+}

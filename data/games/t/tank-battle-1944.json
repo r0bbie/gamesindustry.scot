@@ -1,0 +1,44 @@
+{
+  "id": "tank-battle-1944",
+  "title": "Tank Battle: 1944",
+  "slug": "tank-battle-1944",
+  "short_description": "Instantly get involved in the action by joining the Allied invasion of Europe during the Second World War",
+  "description": "Instantly get involved in the action by joining the Allied invasion of Europe during the Second World War. Take command of an American battle group during WW2 in this turn based strategy wargame and help liberate Europe from the evil Axis power-base!",
+  "status": "released",
+  "release_date": "2016-03-01",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "396320",
+    "app_store": "id491005687",
+    "play_store": "com.hexwar.tankbattle1944"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tank-battle-1944/cover.webp"
+}

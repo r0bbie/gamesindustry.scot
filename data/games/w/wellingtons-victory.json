@@ -1,0 +1,44 @@
+{
+  "id": "wellingtons-victory",
+  "title": "Wellington's Victory",
+  "slug": "wellingtons-victory",
+  "short_description": "At dawn on June 18th, the torrential rain which had soaked the Belgium countryside the previous day began tapering off",
+  "description": "At dawn on June 18th, the torrential rain which had soaked the Belgium countryside the previous day began tapering off.",
+  "status": "released",
+  "release_date": "2019-08-21",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "388000",
+    "app_store": "id998957006",
+    "play_store": "com.hexwar.wellingtonsvictory"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wellingtons-victory/cover.webp"
+}

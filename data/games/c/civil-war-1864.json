@@ -1,0 +1,44 @@
+{
+  "id": "civil-war-1864",
+  "title": "Civil War: 1864",
+  "slug": "civil-war-1864",
+  "short_description": "Civil War: 1864 is the latest addition to our Civil War strategy series, bringing you the ferocious battles from 1864",
+  "description": "Civil War: 1864 is the latest addition to our Civil War strategy series, bringing you the ferocious battles from 1864. Experience the American Civil War like never before with with over 40 missions; including 20 detailed historical battles.",
+  "status": "released",
+  "release_date": "2017-10-06",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "699860",
+    "app_store": "id993182720",
+    "play_store": "com.hexwar.civilwar1864"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/civil-war-1864/cover.webp"
+}

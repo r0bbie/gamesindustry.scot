@@ -1,0 +1,44 @@
+{
+  "id": "battles-of-the-ancient-world",
+  "title": "Battles of the Ancient World",
+  "slug": "battles-of-the-ancient-world",
+  "short_description": "The ‘Battles of the Ancient World’ game system is a tactical simulation of some of the greatest and most important battles from 1457 B.C. to 378 A.D",
+  "description": "The ‘Battles of the Ancient World’ game system is a tactical simulation of some of the greatest and most important battles from 1457 B.C. to 378 A.D.. Each scenario features one of these great battles and players may play as either side. The game has been designed to ensure maximum playability and historical accuracy, in that order.",
+  "status": "released",
+  "release_date": "2017-09-15",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "385940",
+    "app_store": "id987969501",
+    "play_store": "com.hexwar.battlesoftheancientworld"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/battles-of-the-ancient-world/cover.webp"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wars-and-battles-october-war",
+  "title": "Wars and Battles: October War",
+  "slug": "wars-and-battles-october-war",
+  "short_description": "Wars and Battles: October War is a platform of turn-based wargames that simulate historical battles and campaigns over several centuries and continents",
+  "description": "Wars and Battles: October War is a platform of turn-based wargames that simulate historical battles and campaigns over several centuries and continents.",
+  "status": "released",
+  "release_date": "2018-11-28",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "738590"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wars-and-battles-october-war/cover.webp"
+}

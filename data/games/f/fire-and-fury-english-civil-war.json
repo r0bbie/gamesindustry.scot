@@ -1,0 +1,44 @@
+{
+  "id": "fire-and-fury-english-civil-war",
+  "title": "Fire and Fury: English Civil War",
+  "slug": "fire-and-fury-english-civil-war",
+  "short_description": "Fight the various battles of the English Civil War between the Parliamentarians and the Royalists",
+  "description": "Fight the various battles of the English Civil War between the Parliamentarians and the Royalists.",
+  "status": "released",
+  "release_date": "2018-12-19",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "715270",
+    "app_store": "id1080369552",
+    "play_store": "com.hexwar.fireandfuryecw"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fire-and-fury-english-civil-war/cover.webp"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "medieval-battle-europe",
+  "title": "Medieval Battle: Europe",
+  "slug": "medieval-battle-europe",
+  "short_description": "Fight various battles across Europe throughout the medieval ages",
+  "description": "Fight various battles across Europe throughout the medieval ages.",
+  "status": "released",
+  "release_date": "2018-11-14",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "699850",
+    "app_store": "id969868120",
+    "play_store": "com.hexwar.medievalbattleseurope"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/medieval-battle-europe/cover.webp"
+}

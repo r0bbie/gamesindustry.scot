@@ -1,0 +1,44 @@
+{
+  "id": "peninsular-war-battles",
+  "title": "Peninsular War Battles",
+  "slug": "peninsular-war-battles",
+  "short_description": "Peninsular War Battles places you at the forefront of Napoleon’s campaign to conquer Portugal and Spain",
+  "description": "Peninsular War Battles places you at the forefront of Napoleon’s campaign to conquer Portugal and Spain. Play is possible as the British, French or Spanish across 5 campaigns with a total of 40 missions.",
+  "status": "released",
+  "release_date": "2017-09-01",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "675950",
+    "app_store": "id997026804",
+    "play_store": "com.hexwar.peninsularwar"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/peninsular-war-battles/cover.webp"
+}

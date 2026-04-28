@@ -1,0 +1,44 @@
+{
+  "id": "1812-the-invasion-of-canada",
+  "title": "1812: The Invasion of Canada",
+  "slug": "1812-the-invasion-of-canada",
+  "short_description": "1812 features fast, intuitive and fun gameplay that involves teamwork and strategic planning in a historic and educational setting",
+  "description": "1812 features fast, intuitive and fun gameplay that involves teamwork and strategic planning in a historic and educational setting. This is THE GAME for people who want an enjoyable and manageable introduction to historic/conflict based games.",
+  "status": "released",
+  "release_date": "2017-08-04",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "555370",
+    "app_store": "id1196270941",
+    "play_store": "com.hexwar.canada1812"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/1812-the-invasion-of-canada/cover.webp"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ancient-battle-rome",
+  "title": "Ancient Battle: Rome",
+  "slug": "ancient-battle-rome",
+  "short_description": "Designed from the ground up Ancient Battle: Rome gives a unique wargaming experience",
+  "description": "Designed from the ground up Ancient Battle: Rome gives a unique wargaming experience. Use Roman legionaries, elephants, catapults, heavy and light cavalry, archers, slingers, fanatics and many other unit types to engage in classic battles.",
+  "status": "released",
+  "release_date": "2017-08-15",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "363840",
+    "app_store": "id614410957",
+    "play_store": "com.hexwar.ancientbattlerome"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ancient-battle-rome/cover.webp"
+}

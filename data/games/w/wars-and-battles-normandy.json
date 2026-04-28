@@ -1,0 +1,40 @@
+{
+  "id": "wars-and-battles-normandy",
+  "title": "Wars and Battles: Normandy",
+  "slug": "wars-and-battles-normandy",
+  "short_description": "Wars and Battles: Normandy is a turn-based wargame that simulates historical battles and campaigns around the battle for Normandy in June and July 1944",
+  "description": "Wars and Battles: Normandy is a turn-based wargame that simulates historical battles and campaigns around the battle for Normandy in June and July 1944.",
+  "status": "released",
+  "release_date": "2018-02-09",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "738580"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wars-and-battles-normandy/cover.webp"
+}

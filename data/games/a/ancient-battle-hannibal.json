@@ -1,0 +1,44 @@
+{
+  "id": "ancient-battle-hannibal",
+  "title": "Ancient Battle: Hannibal",
+  "slug": "ancient-battle-hannibal",
+  "short_description": "Ancient Battle: Hannibal is the newest edition to the Ancient Battles series",
+  "description": "Ancient Battle: Hannibal is the newest edition to the Ancient Battles series. Experience the magnificence of the Punic Wars!",
+  "status": "released",
+  "release_date": "2018-12-07",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "715280",
+    "app_store": "id906400663",
+    "play_store": "com.hexwar.ancientbattlehannibal"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ancient-battle-hannibal/cover.webp"
+}

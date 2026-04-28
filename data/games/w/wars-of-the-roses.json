@@ -1,0 +1,44 @@
+{
+  "id": "wars-of-the-roses",
+  "title": "Wars of the Roses",
+  "slug": "wars-of-the-roses",
+  "short_description": "Fight the various battles of the Wars of the Roses throughout the Medieval ages",
+  "description": "Fight the various battles of the Wars of the Roses throughout the Medieval ages. Each campaign is themed around fights between the Lancaster and Yorkist houses during various different periods of the countries rule",
+  "status": "released",
+  "release_date": "2019-11-27",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "1185950",
+    "app_store": "id969868386",
+    "play_store": "com.hexwar.warsoftheroses"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wars-of-the-roses/cover.webp"
+}

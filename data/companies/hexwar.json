@@ -2,17 +2,22 @@
   "id": "hexwar",
   "name": "HexWar",
   "slug": "hexwar",
-  "categories": [
-    "developer",
-    "publisher"
-  ],
+  "categories": ["developer", "publisher"],
   "status": "active",
+  "founded": 2002,
   "location": "Fortrose",
   "region": "highlands-islands",
   "website": "http://www.hexwar.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "11-50",
+  "short_description": "Next generation wargaming tools and games for professional military education",
+  "about": "Next generation wargaming tools and games for professional military education",
+  "contact_email": "pme@hexwar.com",
+  "links": {
+    "steam": "https://store.steampowered.com/curator/10872784",
+    "linkedin": "https://www.linkedin.com/company/hexwar-pme/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
