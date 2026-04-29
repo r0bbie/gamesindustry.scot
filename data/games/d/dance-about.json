@@ -1,0 +1,44 @@
+{
+  "id": "dance-about",
+  "title": "Dance About",
+  "slug": "dance-about",
+  "short_description": "Choreography app spun out of Curious Seed’s Chalk About — draw evolving backdrops while two dancers perform underneath Kim Moore’s soundscape",
+  "description": "Charming, choreography app based on Curious Seed’s internationally acclaimed dance performance for children, Chalk About. Featuring dance artists Christine Devaney and Hendrik Lebon and a modern soundscape from Kim Moore. The app’s cutting edge technology means users can draw and redesign the background while the dancers perform your favourite moves.",
+  "status": "released",
+  "release_date": "2016-02-11",
+  "companies": {
+    "developer": [
+      "hippotrix"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "educational"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "vimeo",
+    "id": "154235417"
+  },
+  "stores": {
+    "website": "https://www.hippotrix.com/our-apps/danceabout/",
+    "app_store": "https://apps.apple.com/gb/app/dance-about/id1043619647"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/dance-about/cover.webp"
+}

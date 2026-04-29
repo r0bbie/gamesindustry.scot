@@ -1,0 +1,47 @@
+{
+  "id": "fingerband",
+  "title": "Fingerband",
+  "slug": "fingerband",
+  "short_description": "Finger-hero catapult puzzler: stretch rubber bands across the screen to sling office supplies at prying eyes trying to ruin the cake",
+  "description": "You are the Fingerband! A band of finger heroes tasked with defending the desserts from the Prying Eyes. Place a pair of fingers and stretch a rubber band between to create a catapult. Use your catapults to fight the ocular seers with paper hornets, thumbtacks and markers. Whatever you do, do not let them embed in the cake!",
+  "status": "released",
+  "release_date": "2023-10-04",
+  "companies": {
+    "developer": [
+      "haiku-interactive"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "press_kit_url": "https://fingerbandgame.com/press/fingerband/index.html",
+  "video": {
+    "type": "youtube",
+    "id": "oS3LGuXqBio"
+  },
+  "stores": {
+    "website": "https://www.fingerbandgame.com/",
+    "app_store": "https://apps.apple.com/us/app/fingerband/id6467751855",
+    "play_store": "https://play.google.com/store/apps/details?id=com.haikuinteractive.game.fingerband"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fingerband/cover.webp"
+}

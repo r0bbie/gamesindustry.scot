@@ -6,12 +6,20 @@
     "developer"
   ],
   "status": "active",
+  "founded": 2009,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
   "website": "http://haikuinteractive.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Edinburgh indie; former XBLIG Xbox 360 releases (Crate Expectations, AvaGlide, Space Police on Superhighway 9, AvaGlide 2); now sole trader building Dwerg Saga",
+  "about": "Haiku Interactive is an indie developer based in Edinburgh. Previously producing titles for the XBLIG marketplace on the Xbox 360, with titles released including Crate Expectations, AvaGlide, Space Police on Superhighway 9 and AvaGlide 2. Originally a partnership, now a sole trader, building Dwerg Saga.",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/haiku-interactive",
+    "twitter": "https://x.com/haikuinteractiv",
+    "itch": "https://haikuinteractive.itch.io",
+    "youtube": "https://www.youtube.com/@haikuinteractivelimited9728"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

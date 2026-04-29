@@ -6,12 +6,18 @@
     "developer"
   ],
   "status": "active",
+  "founded": 2020,
   "location": "Greenock",
   "region": "glasgow-strathclyde",
   "website": "https://www.gamexplosion.com/",
+  "contact_email": "admin@gamexplosion.com",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "facebook": "https://www.facebook.com/gamexplosionltd",
+    "instagram": "https://www.instagram.com/gamexplosionltd",
+    "youtube": "https://www.youtube.com/@gamexplosionltd"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

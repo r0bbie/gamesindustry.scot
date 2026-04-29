@@ -1,0 +1,46 @@
+{
+  "id": "ultimate-supremacy",
+  "title": "Ultimate Supremacy",
+  "slug": "ultimate-supremacy",
+  "short_description": "Futuristic RPG game based on a post-apocalyptic world",
+  "description": "Futuristic RPG game based on a post-apocalyptic world",
+  "status": "released",
+  "release_date": "2021-07",
+  "companies": {
+    "developer": [
+      "gamexplosion"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "rpg"
+  ],
+  "platforms": [
+    "browser",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "f2V1i_m1ylE"
+  },
+  "stores": {
+    "website": "https://ultimatesupremacy.co.uk",
+    "app_store": "https://apps.apple.com/us/app/ultimate-supremacy/id1567597907",
+    "play_store": "https://play.google.com/store/apps/details?id=com.GameXPlosion.UltimateSupremacy"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ultimate-supremacy/cover.webp"
+}

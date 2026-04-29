@@ -8,10 +8,13 @@
   "status": "active",
   "location": null,
   "region": null,
-  "website": null,
+  "website": "https://www.redrampant.scot/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "contact_email": "contact@redrampant.scot",
+  "links": {
+    "instagram": "https://www.instagram.com/redrampant"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

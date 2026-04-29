@@ -180,7 +180,7 @@ const games = defineCollection({
     screenshots: z.array(z.string()).optional().default([]),
     video: z
       .object({
-        type: z.enum(["youtube", "peertube"]),
+        type: z.enum(["youtube", "peertube", "vimeo"]),
         id: z.string(),
       })
       .optional(),
@@ -364,7 +364,7 @@ const studentGames = defineCollection({
     screenshots: z.array(z.string()).optional().default([]),
     video: z
       .object({
-        type: z.enum(["youtube", "peertube"]),
+        type: z.enum(["youtube", "peertube", "vimeo"]),
         id: z.string(),
       })
       .optional(),

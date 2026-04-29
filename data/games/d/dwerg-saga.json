@@ -1,0 +1,42 @@
+{
+  "id": "dwerg-saga",
+  "title": "Dwerg Saga",
+  "slug": "dwerg-saga",
+  "short_description": "Colony storyteller in the spirit of Dwarf Fortress: guide Dwergs settling the wilds, with relationships, ambition, and fortress drama built to be approachable",
+  "description": "Welcome to Dwerg Saga and a world of deep storytelling. Guide your clan of Dwergs as they establish a new home in the untamed wilderness. Watch as they forge friendships, sing tales of their forefathers, suffer the pangs of unrequited love, take up arms and seek adventure wherever you take them.\n\nInspired by Dwarf Fortress, Dwerg Saga aims to create dramatic and believable stories from the interactions between Dwergs, their environment and what they build. Dwerg Saga is being designed with usability as a key feature so it's easy to pick up and play.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "haiku-interactive"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "simulation"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "sje-5R673Os"
+  },
+  "stores": {
+    "itch": "https://haikuinteractive.itch.io/dwerg-saga"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/dwerg-saga/cover.webp"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "axiom-soccer",
+  "title": "Axiom Soccer",
+  "slug": "axiom-soccer",
+  "short_description": "Tactical vehicular soccer—fast arena driving meets ball-focused shooting mechanics in tiered multiplayer seasons playable solo or in teams chasing division titles",
+  "description": "Axiom Soccer is a high speed evolution of vehicular soccer combining fast-paced driving with tactical shooting mechanics for a new soccer experience. Inspired by real world ball games, go it alone or team up with friends and blast through divisions to pursue Axiom Soccer championship glory.",
+  "status": "released",
+  "release_date": "2019-04-11",
+  "companies": {
+    "developer": [
+      "earthbound-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "multiplayer",
+    "sports"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "nYofVQhHX2I"
+  },
+  "stores": {
+    "steam": "903730"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "axiom-soccer"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/axiom-soccer/cover.webp"
+}

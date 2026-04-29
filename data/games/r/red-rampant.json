@@ -2,8 +2,10 @@
   "id": "red-rampant",
   "title": "Red Rampant",
   "slug": "red-rampant",
+  "short_description": "Medieval Scottish action-adventure where revisiting remembered playthroughs lets you rewind mistakes and wield hindsight to reshape the story",
+  "description": "Red Rampant is a narrative-driven action-adventure game set in Medieval Scotland. With the ability to travel back in time through their memories of previous gameplay and begin again, players use knowledge gained from past mistakes and hindsight of future events to change the course of history.",
   "status": "released",
-  "release_date": "2023",
+  "release_date": "2024-07",
   "companies": {
     "developer": [
       "eclectic-synthesis"
@@ -14,10 +16,22 @@
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": [],
-  "platforms": [],
+  "genres": [
+    "adventure",
+    "action"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
-  "stores": {},
+  "video": {
+    "type": "youtube",
+    "id": "Z8NfhR1clkk"
+  },
+  "stores": {
+    "website": "https://www.redrampant.scot/",
+    "steam": "2843520"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},
