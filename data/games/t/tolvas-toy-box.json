@@ -1,0 +1,43 @@
+{
+  "id": "tolvas-toy-box",
+  "title": "Tolva's Toy Box",
+  "slug": "tolvas-toy-box",
+  "short_description": "An action-packed world full of challenges, slapstick, adventure and emotion, for pre-schoolers and school starters.",
+  "status": "released",
+  "release_date": "2013-11-05",
+  "companies": {
+    "developer": [
+      "me-and-the-giants"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "educational"
+  ],
+  "platforms": [
+    "ios",
+    "windows-phone"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "vimeo",
+    "id": "78264972"
+  },
+  "stores": {
+    "website": "http://www.tolvaandting.com/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tolvas-toy-box/cover.webp"
+}

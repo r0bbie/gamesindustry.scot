@@ -5,13 +5,17 @@
   "categories": [
     "developer"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2013,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://www.latepanda.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/late-panda-limited",
+    "medium": "https://medium.com/@LatePanda"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

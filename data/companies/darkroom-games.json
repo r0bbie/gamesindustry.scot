@@ -1,0 +1,26 @@
+{
+  "id": "darkroom-games",
+  "name": "Darkroom Games",
+  "slug": "darkroom-games",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "founded": 2018,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://darkroom.games",
+  "logo": null,
+  "highlighted": false,
+  "short_description": "Dundee solo-dev behind \"The Cone Game\"",
+  "links": {
+    "itch": "https://darkroomgames.itch.io",
+    "github": "DarkroomGames",
+    "twitter": "https://x.com/darkroom_games"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

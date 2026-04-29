@@ -1,0 +1,43 @@
+{
+  "id": "lineable",
+  "title": "Lineable",
+  "slug": "lineable",
+  "short_description": "Lineable is a new type of puzzle game that rewards speed and strategy.",
+  "description": "Lineable is a new type of puzzle game that rewards speed and strategy.\n\nTrace out connected lines on 3 or more tiles to make a match. The bigger the match the bigger the score!",
+  "status": "released",
+  "release_date": "2013-06-20",
+  "companies": {
+    "developer": [
+      "physmo"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "HIJyywBzt7w"
+  },
+  "stores": {
+    "website": "https://www.physmo.com/?page_id=37",
+    "app_store": "https://apps.apple.com/gb/app/lineable/id591405084"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/lineable/cover.webp"
+}

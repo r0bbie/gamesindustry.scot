@@ -1,0 +1,43 @@
+{
+  "id": "the-cone-game",
+  "title": "The Cone Game",
+  "slug": "the-cone-game",
+  "short_description": "Persistent online cone-stacking atop the Duke of Wellington in Glasgow — every cone is placed by another player.",
+  "description": "The Cone Game is a persistent online world - every cone that is placed updates in real-time worldwide. That's right - every cone you see has been placed by another player and it's your job to reach them!\n\nYou play as one of the many cones that have been placed atop the head of the Duke of Wellington's statue in Glasgow, Scotland - Now it's your chance to prove you're the very best one!",
+  "status": "released",
+  "release_date": "2020-04-12",
+  "companies": {
+    "developer": [
+      "darkroom-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "multiplayer"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "nl9B_Tm_gW8"
+  },
+  "stores": {
+    "itch": "https://darkroomgames.itch.io/cone-game"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-cone-game/cover.webp"
+}

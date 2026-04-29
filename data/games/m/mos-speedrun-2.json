@@ -1,0 +1,50 @@
+{
+  "id": "mos-speedrun-2",
+  "title": "Mos Speedrun 2",
+  "slug": "mos-speedrun-2",
+  "short_description": "Mos is back, in her biggest and most exciting adventure ever! Wall-jump to victory through 30 mysterious, action packed levels!",
+  "description": "Mos is back, in her biggest and most exciting adventure ever! Wall-jump to victory through 30 mysterious, action packed levels!",
+  "status": "released",
+  "release_date": "2015-09-03",
+  "companies": {
+    "developer": [
+      "physmo"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer"
+  ],
+  "platforms": [
+    "pc",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "_tonwpYtVjg"
+  },
+  "press_kit_url": "http://www.mosspeedrun.com/press.html",
+  "stores": {
+    "website": "http://www.mosspeedrun.com/",
+    "app_store": "https://apps.apple.com/gb/app/mos-speedrun-2/id835098788",
+    "steam": "333290"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 81
+  },
+  "critic_ids": {
+    "metacritic": "mos-speedrun-2"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/mos-speedrun-2/cover.webp"
+}

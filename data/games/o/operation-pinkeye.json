@@ -2,8 +2,10 @@
   "id": "operation-pinkeye",
   "title": "Operation: Pinkeye",
   "slug": "operation-pinkeye",
+  "short_description": "Experience the thrilling action of an arcade shooter with the freedom and exploration of a console shooter in this intense new adventure from Scotland!",
+  "description": "Experience the thrilling action of an arcade shooter with the freedom and exploration of a console shooter in this intense new adventure from Scotland!\n\nIt's up to Scotland's top secret agent, Ken Maxwell, to thwart an English invasion plot in this alternate history world where the United Kingdom never formed!",
   "status": "released",
-  "release_date": "2023",
+  "release_date": "2022-11-02",
   "companies": {
     "developer": [
       "stormplay"
@@ -14,10 +16,25 @@
     "supported_by": [],
     "contributed_by": []
   },
-  "genres": [],
-  "platforms": [],
+  "genres": [
+    "action",
+    "shooter"
+  ],
+  "platforms": [
+    "pc",
+    "android"
+  ],
   "screenshots": [],
-  "stores": {},
+  "video": {
+    "type": "youtube",
+    "id": "Ywg6W_62M3o"
+  },
+  "stores": {
+    "steam": "1619820",
+    "website": "https://stormplay.scot/games/pinkeye/",
+    "itch": "https://stormplay.itch.io/operation-pinkeye",
+    "game_jolt": "operation-pinkeye/490161"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},

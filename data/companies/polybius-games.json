@@ -6,12 +6,26 @@
     "developer"
   ],
   "status": "active",
+  "founded": 2008,
   "location": "East Kilbride",
   "region": "glasgow-strathclyde",
-  "website": "http://www.superspycamp.com/",
+  "website": "https://www.polybiusgames.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Polybius Games Limited",
+      "companies_house_number": "SC346372"
+    }
+  ],
+  "short_description": "East Kilbride studio running an augmented reality mobile platform for personalised, location-specific games, white labelled for brands—they released Spy Quest.",
+  "about": "Polybius Games are an East Kilbride based development company, behind an augmented reality mobile app platform targeting the creation of personalised, location specific games worldwide. The software platform can be white labelled for multiple brands. They previously released \"Spy Quest\".",
+  "contact_email": "enquiries@polybiusgames.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/polybius-games-limited",
+    "twitter": "https://x.com/polybiusgames"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

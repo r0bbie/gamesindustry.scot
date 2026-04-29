@@ -1,0 +1,42 @@
+{
+  "id": "operation-followthrough",
+  "title": "Operation: Followthrough",
+  "slug": "operation-followthrough",
+  "short_description": "In St. Louis, the capital of East Fireland, a Scottish-owned island off the coast of the United Kingdom of Brazil and La Plata, there have been reported problems with the sewage system. Manholes are exploding and people are reporting \"monsters\" coming out to attack!",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "stormplay"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "shooter"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "GhuH39QS2wM"
+  },
+  "stores": {
+    "steam": "3720530",
+    "itch": "https://stormplay.itch.io/operation-followthrough"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/operation-followthrough/cover.webp"
+}

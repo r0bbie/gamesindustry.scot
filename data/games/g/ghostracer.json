@@ -1,0 +1,43 @@
+{
+  "id": "ghostracer",
+  "title": "GhostRacer",
+  "slug": "ghostracer",
+  "short_description": "Use your skill to show your friends who is the fastest racer! GhostRacer is a top-down racing game where you can compete with the ghosts of other players from around the world.",
+  "description": "Use your skill to show your friends who is the fastest racer! GhostRacer is a top-down racing game where you can compete with the ghosts of other players from around the world. Can you master the 12 challenging tracks well enough to beat your friends? See if you can race your way to the top of the scoreboards!",
+  "status": "released",
+  "release_date": "2013-02-06",
+  "companies": {
+    "developer": [
+      "physmo"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "yLgMq5d7LTg"
+  },
+  "stores": {
+    "website": "https://www.physmo.com/?page_id=42",
+    "app_store": "https://itunes.apple.com/gb/app/ghost-racer/id510996442?mt=8"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ghostracer/cover.webp"
+}

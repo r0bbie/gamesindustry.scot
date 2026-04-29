@@ -5,12 +5,19 @@
   "categories": [
     "developer"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2011,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://www.obskewer.co.uk/",
   "logo": null,
   "highlighted": false,
+  "legal_entities": [
+    {
+      "uk_registered_name": "ObSkewer Games Limited",
+      "companies_house_number": "SC395207"
+    }
+  ],
   "links": {},
   "use_tooling": [],
   "employee_stats": {},

@@ -1,0 +1,31 @@
+{
+  "id": "rumble-pack-games",
+  "name": "Rumble Pack Games",
+  "slug": "rumble-pack-games",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "defunct",
+  "founded": 2018,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://www.rumblepackgames.com/",
+  "logo": null,
+  "highlighted": false,
+  "legal_entities": [
+    {
+      "uk_registered_name": "Rumble Pack Games Limited",
+      "companies_house_number": "SC588376"
+    }
+  ],
+  "links": {
+    "facebook": "https://www.facebook.com/rumbleallday/",
+    "twitter": "https://x.com/rumblepackftw",
+    "youtube": "https://www.youtube.com/@rumblepackgames6440"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

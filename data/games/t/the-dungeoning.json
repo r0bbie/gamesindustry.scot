@@ -1,0 +1,44 @@
+{
+  "id": "the-dungeoning",
+  "title": "The Dungeoning",
+  "slug": "the-dungeoning",
+  "short_description": "The Dungeoning is a difficult action platformer with character levelling, set in a procedurally generated dungeon.",
+  "description": "The Dungeoning is a difficult action platformer with character levelling, set in a procedurally generated dungeon. Kill enemies, level up using experience and master varied weapons and magic. Collect gold to spend with traders and buy better weapons. Try NG+ and beyond for an extra challenge.",
+  "status": "released",
+  "release_date": "2014-04-24",
+  "companies": {
+    "developer": [
+      "physmo"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer",
+    "action"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "TRIpR0CSftY"
+  },
+  "stores": {
+    "website": "https://www.physmo.com/?p=183",
+    "steam": "295870"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-dungeoning/cover.webp"
+}

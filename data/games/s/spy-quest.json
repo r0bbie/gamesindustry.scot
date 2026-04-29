@@ -1,0 +1,41 @@
+{
+  "id": "spy-quest",
+  "title": "Spy Quest",
+  "slug": "spy-quest",
+  "short_description": "Spy Quest is an online interactive gaming and book concept that uses cutting edge, converging technology such as Augmented Reality, iBeacon and mobile apps to bring the digital and physical world together.",
+  "status": "released",
+  "release_date": "2009",
+  "companies": {
+    "developer": [
+      "polybius-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "CUHxPdQ2odQ"
+  },
+  "stores": {
+    "app_store": "https://apps.apple.com/gb/app/spy-quest/id934084637"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/spy-quest/cover.webp"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mos-speedrun",
+  "title": "Mos Speedrun",
+  "slug": "mos-speedrun",
+  "short_description": "Jump, dodge and race Mos through 25 glorious stages of fast paced retro platforming action.",
+  "description": "Jump, dodge and race Mos through 25 glorious stages of fast paced retro platforming action! With exceptionally clever level design, gorgeous pixellated graphics and solid platform dynamics you'll want to keep playing and playing.",
+  "status": "released",
+  "release_date": "2011-04-07",
+  "companies": {
+    "developer": [
+      "physmo"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "lybV_uGK7Xk"
+  },
+  "stores": {
+    "app_store": "https://apps.apple.com/gb/app/mos-speedrun/id419215811"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {
+    "metacritic": 77
+  },
+  "critic_ids": {
+    "metacritic": "mos-speedrun"
+  },
+  "database_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Mos_Speedrun"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/mos-speedrun/cover.webp"
+}

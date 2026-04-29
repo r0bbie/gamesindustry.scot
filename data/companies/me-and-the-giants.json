@@ -5,13 +5,18 @@
   "categories": [
     "developer"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2008,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://www.meandthegiants.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Glasgow-based studio specialising in exciting digital toys for carers and young children to share.",
+  "about": "Me and the Giants were a Glasgow-based game studio specialising in exciting, digital toys, designed to be shared between carers and young children. With a passion for education and the potential of new technology to revolutionise learning.",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/me-and-the-giants-ltd"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
