@@ -5,13 +5,24 @@
   "categories": [
     "developer"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2022,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "https://www.twotailedfox.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Dundee indie who published \"Space War Battle Cadet DX\" after participating in Dare Academy 2022",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Two Tailed Fox Limited",
+      "companies_house_number": "SC747183"
+    }
+  ],
+  "links": {
+    "youtube": "https://www.youtube.com/channel/UC3RQqGkIUfGNwM7Q6DI9_VA",
+    "twitter": "https://x.com/TwoTailedDevs"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

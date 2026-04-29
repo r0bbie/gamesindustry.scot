@@ -46,6 +46,18 @@ export function getCompanySizeEntry(id: string) {
   return COMPANY_SIZES.find((s) => s.id === id) ?? null;
 }
 
+/** Matches `defunct` for default list filtering (hidden until “Include defunct”). */
+export function isCompanyNonActiveStatus(status: string): boolean {
+  return status === "defunct" || status === "inactive";
+}
+
+/** Hero badge, list pill, and Details sidebar: inactive → “Inactive”, defunct → “Defunct”. */
+export function getCompanyStatusDisplayLabel(status: string): string {
+  if (status === "inactive") return "Inactive";
+  if (status === "defunct") return "Defunct";
+  return "Active";
+}
+
 export const DISCIPLINES = [
   { id: "programmer", name: "Programming" },
   { id: "designer", name: "Design" },

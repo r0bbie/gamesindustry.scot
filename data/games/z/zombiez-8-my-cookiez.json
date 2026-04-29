@@ -1,0 +1,41 @@
+{
+  "id": "zombiez-8-my-cookiez",
+  "title": "Zombiez 8 My Cookiez",
+  "slug": "zombiez-8-my-cookiez",
+  "short_description": "Xbox 360 title from Triple B Games.",
+  "status": "released",
+  "release_date": "2010-12-20",
+  "companies": {
+    "developer": [
+      "triple-b"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade"
+  ],
+  "platforms": [
+    "xbox-360"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "hwAGM40QT5Y"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "74860/zombiez-8-my-cookiez"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/zombiez-8-my-cookiez/cover.webp"
+}

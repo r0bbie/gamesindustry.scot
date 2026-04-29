@@ -1,0 +1,42 @@
+{
+  "id": "wushi",
+  "title": "Wushi",
+  "slug": "wushi",
+  "short_description": "A one-button platformer: auto-run left to right, jump to stay on platforms, with automatic double-jump saves.",
+  "description": "Wushi is a one-button game. The player controlled character automatically moves from left to right and the player can press a button to jump. The goal is to survive as long as possible without falling off the platforms. After scarcely missing the edge of a platform, the character automatically saves himself with a double jump (which can't be initiated by the player).",
+  "status": "released",
+  "release_date": "2012-07-13",
+  "companies": {
+    "developer": [
+      "triple-b"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer"
+  ],
+  "platforms": [
+    "xbox-360"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "G-0DCcqeKTU"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "75533/wushi"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wushi/cover.webp"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "world-soccer",
+  "title": "World Soccer",
+  "slug": "world-soccer",
+  "short_description": "Whether you call it soccer, football, fitba, calcio or Fußball you'll love this match 3/soccer mash-up.",
+  "status": "released",
+  "release_date": "2014-05-16",
+  "companies": {
+    "developer": [
+      "triple-b"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "sports"
+  ],
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "AdiNnfjvRbs"
+  },
+  "stores": {
+    "amazon_appstore": "B00KPGRPKM",
+    "play_store": "https://play.google.com/store/apps/details?id=com.triplebgames.match3wc"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/world-soccer/cover.webp"
+}

@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useRef } from "react";
-import { COMPANY_CATEGORIES, REGIONS, getRegionName } from "@/lib/constants";
+import { COMPANY_CATEGORIES, REGIONS, getRegionName, isCompanyNonActiveStatus, getCompanyStatusDisplayLabel } from "@/lib/constants";
 import { FilterDropdown, FilterChip, FilterToggle, SortDropdown, ResultCount } from "@/components/ui/FilterToolbar";
 import Pagination from "@/components/ui/Pagination";
 
@@ -45,6 +45,17 @@ function toggle(set: Set<string>, id: string): Set<string> {
   return next;
 }
 
+/** Categories filter uses OR semantics: company counts if any of its tags overlaps the selection.
+ * Selecting "developer" also includes companies tagged solely as solo_developer (solo dev studios). */
+function companyMatchesCategoryFilters(companyCategories: string[], selected: Set<string>): boolean {
+  if (selected.size === 0) return true;
+  return companyCategories.some((cat) => {
+    if (selected.has(cat)) return true;
+    if (selected.has("developer") && cat === "solo_developer") return true;
+    return false;
+  });
+}
+
 function readUrlParams() {
   if (typeof window === "undefined") return new URLSearchParams();
   return new URLSearchParams(window.location.search);
@@ -78,14 +89,15 @@ export default function CompanyListView({ companies, gameCountMap = {} }: Props)
   const isFirstRender = useRef(true);
 
   const totalVisible = useMemo(
-    () => companies.filter((c) => includeDefunct || c.status !== "defunct").length,
+    () =>
+      companies.filter((c) => includeDefunct || !isCompanyNonActiveStatus(c.status)).length,
     [companies, includeDefunct]
   );
 
   const filtered = useMemo(() => {
     let result = companies.filter((c) => {
-      if (!includeDefunct && c.status === "defunct") return false;
-      if (selectedCategories.size > 0 && !c.categories.some((cat) => selectedCategories.has(cat))) return false;
+      if (!includeDefunct && isCompanyNonActiveStatus(c.status)) return false;
+      if (selectedCategories.size > 0 && !companyMatchesCategoryFilters(c.categories, selectedCategories)) return false;
       if (selectedRegions.size > 0 && (!c.region || !selectedRegions.has(c.region))) return false;
       if (search) {
         const q = search.toLowerCase();
@@ -276,9 +288,9 @@ export default function CompanyListView({ companies, gameCountMap = {} }: Props)
                   )}
                 </div>
                 <div className="flex flex-wrap justify-end gap-1">
-                  {company.status === "defunct" && (
+                  {isCompanyNonActiveStatus(company.status) && (
                     <span className="rounded-full border border-border px-2 py-0.5 text-[10px] font-medium text-muted-foreground">
-                      Defunct
+                      {getCompanyStatusDisplayLabel(company.status)}
                     </span>
                   )}
                 </div>

@@ -83,7 +83,7 @@ const companies = defineCollection({
       "supporting_org",
       "games_media",
     ])).min(1),
-    status: z.enum(["active", "defunct"]).default("active"),
+    status: z.enum(["active", "defunct", "inactive"]).default("active"),
     founded: z.number().optional().nullable(),
     previously_known_as: z.array(z.string()).optional().default([]),
     location: z.string().optional().nullable(),

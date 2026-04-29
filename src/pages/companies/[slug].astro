@@ -20,6 +20,8 @@ import {
   buildSocialUrl,
   getCompanySizeLabel,
   getCompanySizeEntry,
+  getCompanyStatusDisplayLabel,
+  isCompanyNonActiveStatus,
   getAwardStatusLabel,
   getDisciplineName,
   GITHUB_REPO,
@@ -275,8 +277,8 @@ const recentNews = companyNews.slice(0, 5);
                 <Badge variant="secondary">{getCategorySingularName(cat)}</Badge>
               ))}
               {
-                company.status === "defunct" && (
-                  <Badge variant="outline">Defunct</Badge>
+                isCompanyNonActiveStatus(company.status) && (
+                  <Badge variant="outline">{getCompanyStatusDisplayLabel(company.status)}</Badge>
                 )
               }
             </div>
@@ -531,8 +533,8 @@ const recentNews = companyNews.slice(0, 5);
             <dl class="space-y-3">
               <div>
                 <dt class="text-xs text-muted-foreground">Status</dt>
-                <dd class="text-sm font-medium capitalize">
-                  {company.status}
+                <dd class="text-sm font-medium">
+                  {getCompanyStatusDisplayLabel(company.status)}
                 </dd>
               </div>
               {

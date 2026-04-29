@@ -1,0 +1,42 @@
+{
+  "id": "fitba",
+  "title": "Fitba",
+  "slug": "fitba",
+  "short_description": "Twin-stick football with online play: separate passing and movement, create teams, and take them online.",
+  "description": "TripleBGames presents Fitba, a football game that's not afraid to take risks. Twin stick gameplay gives total control by separating passing and movement for the first time. Create and customise your own teams, take them online and challenge your mates. Tired of the same old annual re-hashed football games? Give Fitba a go. Nae Arms, Nae Legs, Nae Worries!",
+  "status": "released",
+  "release_date": "2009-02-23",
+  "companies": {
+    "developer": [
+      "triple-b"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports"
+  ],
+  "platforms": [
+    "xbox-360"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "bgmrc1umHDI"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "187977/fitba"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fitba/cover.webp"
+}

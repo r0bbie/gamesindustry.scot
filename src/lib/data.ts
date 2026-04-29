@@ -373,7 +373,7 @@ export async function getStats(): Promise<{
   const now = new Date();
 
   return {
-    companies: companies.filter((c) => c.status !== "defunct").length,
+    companies: companies.filter((c) => c.status === "active").length,
     games: games.filter((g) => g.status !== "cancelled").length,
     freelancers: freelancers.length,
     jobs: jobs.filter((j) => j.active).length,

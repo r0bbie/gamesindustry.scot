@@ -5,13 +5,25 @@
   "categories": [
     "developer"
   ],
-  "status": "active",
-  "location": "Glasgow",
+  "status": "defunct",
+  "founded": 2021,
+  "location": "Paisley",
   "region": "glasgow-strathclyde",
   "website": "https://www.thevrhive.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Virtual reality studio building soft skills training apps",
+  "legal_entities": [
+    {
+      "uk_registered_name": "The VR Hive Limited",
+      "companies_house_number": "SC704575"
+    }
+  ],
+  "links": {
+    "itch": "https://thevrhive.itch.io/",
+    "twitter": "https://x.com/thevrhive",
+    "linkedin": "https://www.linkedin.com/company/the-vr-hive"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

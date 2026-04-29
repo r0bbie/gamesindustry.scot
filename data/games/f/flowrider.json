@@ -1,0 +1,37 @@
+{
+  "id": "flowrider",
+  "title": "Flowrider",
+  "slug": "flowrider",
+  "short_description": "Xbox 360 release from Triple B Games.",
+  "status": "released",
+  "release_date": "2011-08-16",
+  "companies": {
+    "developer": [
+      "triple-b"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "xbox-360"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ZqYQ2xBvwsg"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/flowrider/cover.webp"
+}

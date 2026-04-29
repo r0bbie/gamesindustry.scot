@@ -1,17 +1,23 @@
 {
   "id": "triple-b",
-  "name": "Triple B",
+  "name": "Triple B Games",
   "slug": "triple-b",
   "categories": [
-    "developer"
+    "solo_developer"
   ],
-  "status": "active",
+  "status": "inactive",
+  "founded": 2010,
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "http://www.triplebgames.com/",
+  "website": "https://www.triplebgames.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Indie developer fronted by Jonathan \"Fritz\" Ackerley",
+  "links": {
+    "twitter": "https://x.com/triplebgames",
+    "youtube": "https://www.youtube.com/@triplebgames",
+    "facebook": "https://www.facebook.com/TripleBGames"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

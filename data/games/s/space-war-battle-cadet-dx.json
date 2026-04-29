@@ -1,0 +1,43 @@
+{
+  "id": "space-war-battle-cadet-dx",
+  "title": "Space War Battle Cadet DX",
+  "slug": "space-war-battle-cadet-dx",
+  "short_description": "Match colours to defeat enemies in this arcade-style Android release.",
+  "status": "released",
+  "release_date": "2022-10",
+  "companies": {
+    "developer": [
+      "two-tailed-fox"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "action"
+  ],
+  "platforms": [
+    "android"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "dYHnT1JfzeY"
+  },
+  "stores": {
+    "play_store": "https://play.google.com/store/apps/details?id=com.TwoTailedFox.SWBCDX",
+    "itch": "https://jannmjoen.itch.io/swbc-3d-demo"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/space-war-battle-cadet-dx/cover.webp"
+}
