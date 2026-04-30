@@ -54,6 +54,8 @@ This builds the static site to `dist/` and runs Pagefind to generate the search 
 - **Code**: Licensed under the [GNU Affero General Public License v3.0](LICENSE) (AGPLv3)
 - **Data**: Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](LICENSE-DATA) (CC BY-NC-SA 4.0)
 
+Any game promotional art or company logos are copyright of their respective companies.
+
 ## Built and supported by
 
 [Buildstash](https://buildstash.com) — Store, share, and manage all your playable builds.
