@@ -1,0 +1,27 @@
+{
+  "id": "whisper-games",
+  "name": "Whisper Games",
+  "slug": "whisper-games",
+  "categories": [
+    "developer"
+  ],
+  "status": "defunct",
+  "founded": 2009,
+  "previously_known_as": [
+    "Whisper Studios"
+  ],
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "website": "https://web.archive.org/web/20120121112135/http://www.whispergamestudios.com/",
+  "logo": "/images/companies/whisper-games/full_logo.png",
+  "logo_bg": "light",
+  "highlighted": false,
+  "links": {
+    "twitter": "https://x.com/WhisperGames"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

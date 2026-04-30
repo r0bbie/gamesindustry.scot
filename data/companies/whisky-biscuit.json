@@ -6,12 +6,16 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2010,
   "location": "Elgin",
   "region": "highlands-islands",
-  "website": "http://whiskybiscuit.co.uk/",
-  "logo": null,
+  "website": "https://web.archive.org/web/20130330065932/http://whiskybiscuit.co.uk/",
+  "logo": "/images/companies/whisky-biscuit/full_logo.webp",
+  "logo_bg": "light",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "youtube": "https://www.youtube.com/@WhiskyBiscuitGames"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

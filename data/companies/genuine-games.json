@@ -6,12 +6,19 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 1998,
   "location": "Auchterarder",
   "region": "stirling-central",
-  "website": "http://www.genuinegames.co.uk/",
-  "logo": null,
+  "website": "https://web.archive.org/web/20171218183007/http://www.genuinegames.co.uk/",
+  "logo": "/images/companies/genuine-games/full_logo.webp",
   "highlighted": false,
   "links": {},
+  "additional_links": [
+    {
+      "label": "MobyGames",
+      "url": "https://www.mobygames.com/company/17549/genuine-games-ltd/"
+    }
+  ],
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

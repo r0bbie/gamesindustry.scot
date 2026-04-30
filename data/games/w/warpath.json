@@ -1,0 +1,43 @@
+{
+  "id": "warpath",
+  "title": "WarPath",
+  "slug": "warpath",
+  "short_description": "Turn-based tank tactics for iPad — pass-and-play for up to four or solo vs AI",
+  "description": "The tactical turn-based tank game for iPad. Plan moves, position turrets and plant mines to stop enemy tanks in their tracks. For 1-4 players. Players can share one iPad in pass-and-play mode, bringing them all together like a board game, or play alone to test their wits against the AI.",
+  "release_date": "2011-03-31",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "whisky-biscuit"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "BtwVj3vf16M"
+  },
+  "stores": {
+    "website": "https://web.archive.org/web/20130330065221/http://whiskybiscuit.co.uk/games/warpath/",
+    "app_store": "id423223448"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/warpath/cover.webp"
+}

@@ -11,14 +11,14 @@
   "region": "edinburgh-lothian",
   "short_description": "Developer of a range of software products aimed at helping learners retain information in their long term memory",
   "about": "3MRT was a developer of a range of software products aimed at helping learners retain information in their long term memory.",
-  "website": "http://www.3mrt.com/",
+  "website": "https://web.archive.org/web/20110129020806/http://3mrt.com/",
   "legal_entities": [
     {
       "uk_registered_name": "3MRT Limited",
       "companies_house_number": "SC231846"
     }
   ],
-  "logo": null,
+  "logo": "/images/companies/3mrt/full_logo.gif",
   "highlighted": false,
   "links": {},
   "use_tooling": [],

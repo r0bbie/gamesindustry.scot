@@ -8,10 +8,14 @@
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "http://www.hiddenarmada.com/",
-  "logo": null,
+  "website": "https://web.archive.org/web/20180213010342/http://www.hiddenarmada.com/",
+  "logo": "/images/companies/hidden-armada/full_logo.png",
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "short_description": "Hidden Armada were an independent studio in Dundee",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/hidden-armada"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

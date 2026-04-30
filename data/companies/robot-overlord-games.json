@@ -6,12 +6,15 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2011,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
-  "website": "http://robotoverlord.co.uk/",
-  "logo": null,
+  "website": "https://web.archive.org/web/20150713062904/http://robotoverlord.co.uk/",
+  "logo": "/images/companies/robot-overlord-games/full_logo.png",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/RO_Games"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

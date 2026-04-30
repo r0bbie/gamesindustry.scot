@@ -6,12 +6,17 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2013,
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "http://futurefossilstudios.com/",
-  "logo": null,
+  "website": "https://web.archive.org/web/20180314124950/http://futurefossilstudios.com/",
+  "logo": "/images/companies/future-fossil/full_logo.svg",
+  "logo_bg": "dark",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "youtube": "https://www.youtube.com/user/FutureFossilStudios",
+    "twitter": "https://x.com/_futurefossil_"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

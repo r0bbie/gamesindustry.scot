@@ -6,12 +6,17 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2015,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
-  "website": "http://www.veemee.com/",
+  "website": "https://web.archive.org/web/20180620122820/http://www.veemee.com/",
+  "icon": "/images/companies/veemee/icon.jpg",
   "logo": null,
+  "logo_bg": "light",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/veemee"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
