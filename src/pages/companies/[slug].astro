@@ -250,9 +250,16 @@ const recentGames = [...devGames]
   )
   .slice(0, 3);
 const recentNews = companyNews.slice(0, 5);
+
+// Pagefind result excerpt — short_description if set, otherwise the
+// company's primary category as a graceful fallback.
+const searchSummary =
+  (company.short_description ?? "").trim() ||
+  getCategorySingularName(categories[0] ?? "");
 ---
 
 <BaseLayout title={company.name}>
+  <span data-pagefind-meta="summary" hidden>{searchSummary}</span>
   <!-- Hero -->
   <section class="border-b border-border bg-card">
     <div

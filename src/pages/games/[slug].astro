@@ -136,12 +136,25 @@ const hasNews = gameNews.length > 0;
 const hasScreenshots = game.screenshots.length > 0;
 
 const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.slug.charAt(0)}/${game.slug}.json`;
+
+// Pagefind result excerpt — short_description if set, otherwise a concise
+// "<Status> · <Developer>" fallback (e.g. "Released · Denki").
+const searchSummary = (() => {
+  const desc = (game.short_description ?? "").trim();
+  if (desc) return desc;
+  const parts = [
+    statusLabels[game.status],
+    primaryDev?.name,
+  ].filter(Boolean);
+  return parts.join(" · ") || "Game from Scotland";
+})();
 ---
 
 <BaseLayout
   title={game.title}
   description={game.short_description ?? `${game.title} — a game made in Scotland.`}
 >
+  <span data-pagefind-meta="summary" hidden>{searchSummary}</span>
   <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
     <!-- Hero -->
     <div class="mb-10 grid gap-8 lg:grid-cols-[320px_1fr]">

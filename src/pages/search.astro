@@ -195,6 +195,16 @@ const searchIndex = [
               element: "#search",
               showSubResults: true,
               autofocus: true,
+              // Replace Pagefind's auto-generated excerpt (which can read
+              // like "Games Industry Denki Development Studio. Dundee Dundee
+              // studio behind…") with our hand-crafted summary meta when the
+              // page provides one.
+              processResult: function (result) {
+                if (result && result.meta && result.meta.summary) {
+                  result.excerpt = result.meta.summary;
+                }
+                return result;
+              },
             });
             startThumbObserver();
           } catch (e) {
