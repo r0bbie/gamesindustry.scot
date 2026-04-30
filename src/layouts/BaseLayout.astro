@@ -65,7 +65,9 @@ const canonicalURL = new URL(Astro.url.pathname, SITE_URL);
   </head>
   <body style="font-family: 'Inter', system-ui, sans-serif;">
     <Navbar />
-    <main class="min-h-screen">
+    {/* data-pagefind-body scopes search indexing to page content so the
+        navbar logo/footer aren't picked up as fallback result thumbnails. */}
+    <main class="min-h-screen" data-pagefind-body>
       <slot />
     </main>
     <Footer />

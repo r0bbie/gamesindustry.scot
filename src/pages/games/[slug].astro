@@ -150,7 +150,19 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/games/${game.s
         style={!game.cover_image ? `background: ${getCoverGradient(game.title)};` : ""}
       >
         {game.cover_image ? (
-          <GameCoverImage client:load src={game.cover_image} alt={`${game.title} cover art`} forceFill={game.cover_fill} />
+          <>
+            {/* Hidden static <img> tells Pagefind the canonical cover for
+                search-result thumbnails. The visible cover is a React island
+                so Pagefind's image heuristic might miss it. */}
+            <img
+              src={game.cover_image}
+              alt={`${game.title} cover art`}
+              data-pagefind-meta="image[src], image_alt[alt]"
+              aria-hidden="true"
+              hidden
+            />
+            <GameCoverImage client:load src={game.cover_image} alt={`${game.title} cover art`} forceFill={game.cover_fill} />
+          </>
         ) : (
           <span class="text-7xl font-bold text-white/60">{game.title.charAt(0)}</span>
         )}

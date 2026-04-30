@@ -154,6 +154,36 @@ const searchIndex = [
         });
       }
 
+      // Pagefind UI renders the result thumb as a plain <div> — wrap its
+      // contents in an <a> pointing to the same URL as the result title so
+      // clicking the image navigates too. Uses display:contents so the link
+      // is invisible to layout.
+      function linkifyThumbs(root) {
+        var results = root.querySelectorAll(".pagefind-ui__result");
+        for (var i = 0; i < results.length; i++) {
+          var result = results[i];
+          var thumb = result.querySelector(".pagefind-ui__result-thumb");
+          var titleLink = result.querySelector(".pagefind-ui__result-link");
+          if (!thumb || !titleLink || thumb.dataset.linkified) continue;
+          if (thumb.classList.contains("pagefind-ui__loading")) continue;
+          thumb.dataset.linkified = "1";
+          var a = document.createElement("a");
+          a.href = titleLink.getAttribute("href");
+          a.style.display = "contents";
+          while (thumb.firstChild) a.appendChild(thumb.firstChild);
+          thumb.appendChild(a);
+        }
+      }
+
+      function startThumbObserver() {
+        var searchEl = document.getElementById("search");
+        if (!searchEl) return;
+        var observer = new MutationObserver(function () {
+          linkifyThumbs(searchEl);
+        });
+        observer.observe(searchEl, { childList: true, subtree: true });
+      }
+
       import("/pagefind/pagefind-ui.js")
         .then(function (module) {
           try {
@@ -166,6 +196,7 @@ const searchIndex = [
               showSubResults: true,
               autofocus: true,
             });
+            startThumbObserver();
           } catch (e) {
             showFallback();
           }
