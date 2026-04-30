@@ -23,8 +23,17 @@ body:
         - QA
         - Production
         - Marketing & Community
+        - Operations
     validations:
       required: true
+  - type: textarea
+    id: additional_disciplines
+    attributes:
+      label: Additional disciplines (optional)
+      description: >-
+        Extra areas you work in besides your main discipline above. Comma-separated, using the
+        same names (e.g. Production, Writer, QA).
+      placeholder: e.g. Production, Marketing & Community
   - type: input
     id: location
     attributes:

@@ -38,6 +38,7 @@ function formatPlatformName(platform: string): string {
     soundcloud: "SoundCloud",
     bandcamp: "Bandcamp",
     youtube: "YouTube",
+    vimeo: "Vimeo",
     instagram: "Instagram",
     mastodon: "Mastodon",
   };
@@ -63,6 +64,7 @@ const SOCIAL_ORDER = [
   "soundcloud",
   "bandcamp",
   "youtube",
+  "vimeo",
   "instagram",
 ];
 
@@ -102,6 +104,11 @@ const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/freelancers/${
         )}
         <div class="mt-2 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
           <Badge variant="secondary">{getDisciplineName(freelancer.discipline)}</Badge>
+          {
+            (freelancer.additional_disciplines ?? []).map((id) => (
+              <Badge variant="secondary">{getDisciplineName(id)}</Badge>
+            ))
+          }
           {
             freelancer.location && (
               <span class="text-sm text-muted-foreground">

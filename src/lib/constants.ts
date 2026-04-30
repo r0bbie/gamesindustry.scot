@@ -372,6 +372,8 @@ export function buildSocialUrl(platform: string, handle: string): string {
     },
     discord: (h) => h.startsWith("http") ? h : `https://discord.gg/${h}`,
     youtube: (h) => buildYoutubeSocialUrl(h),
+    vimeo: (h) =>
+      h.startsWith("http") ? h : `https://vimeo.com/${h.replace(/^\//, "")}`,
     app_store: (h) => h.startsWith("http") ? h : `https://apps.apple.com/developer/${h}`,
     google_play: (h) => h.startsWith("http") ? h : `https://play.google.com/store/apps/developer?id=${h}`,
     github: (h) => `https://github.com/${h}`,

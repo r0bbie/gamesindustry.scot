@@ -229,6 +229,7 @@ const freelancers = defineCollection({
     trading_name: z.string().optional(),
     slug: z.string(),
     discipline: z.string(),
+    additional_disciplines: z.array(z.string()).optional().default([]),
     bio: z.string().optional(),
     short_bio: z.string().optional(),
     photo: z.string().optional(),

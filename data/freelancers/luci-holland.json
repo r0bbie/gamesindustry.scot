@@ -1,0 +1,57 @@
+{
+  "id": "luci-holland",
+  "name": "Luci Holland",
+  "slug": "luci-holland",
+  "discipline": "audio",
+  "bio": "Luci Holland is an award-winning Scottish composer and sound artist who composes and produces music and audiovisual art for film, games and concert.",
+  "short_bio": "Award-winning Scottish composer and sound artist for film, games and concert.",
+  "photo": "",
+  "website": "https://luciholland.com/",
+  "links": {
+    "twitter": "https://x.com/LuciHolland",
+    "soundcloud": "luci-holland",
+    "bandcamp": "luciholland"
+  },
+  "testimonials": [
+    {
+      "quote": "Just listened to the final version and wanted to say it's fantastic! Feels really fun and unique, it's come out amazingly! Thanks for all your hard work putting this together. We just wanted to say we are really happy with the finished product here!",
+      "attribution": "Bearhammer Games"
+    },
+    {
+      "quote": "Luci is wonderful to work with. She is an extremely talented composer and worked diligently with us to establish a main theme for our game Venture's Gauntlet. She has a wide knowledge of music, a great pool of collaborators, and an amazing talent for creating addictive & polished music.",
+      "attribution": "Brian"
+    },
+    {
+      "quote": "Collaborating with Luci is always a pleasure and a guarantee for meeting deadlines and obtaining great quality. And having fun during the process, as Luci is very friendly, open-minded, smart, sensitive, multi-skilled, curious and hard-working creative. It was a privilege and fun to work with her.",
+      "attribution": "Robert"
+    },
+    {
+      "quote": "Luci's ability to take on and filter a myriad of creative opinion and then produce such cohesive, beautiful output is a wonder.",
+      "attribution": "James"
+    },
+    {
+      "quote": "Outside of her brilliant creative talent, Luci is professional, organised, great with communication and very efficient! She was a pleasure to work with collaboratively and instantly understood the concept of our Spectral Ballroom project, bringing a lot of conceptual depth and professionalism to the show. I would highly recommend working with her collaboratively.",
+      "attribution": "Florence"
+    },
+    {
+      "quote": "Luci is a gem of a human being who is highly creative and talented as a composer, producer, and performer. Anyone would be lucky to collaborate with her in any capacity as it will only elevate the project immensely 🙂",
+      "attribution": "Jacob"
+    },
+    {
+      "quote": "Luci seemlessly slipped into a role of musical mentor, sample creator, and sound guru which was a huge help in crafting how CRT7 sounded in it's first prototype, a sound which persists through its versions towards release. It was an absolute pleasure to work with her, and I hope to again in future!",
+      "attribution": "Amicable Animal"
+    },
+    {
+      "quote": "Luci is a joy to work with. She takes my dumb, uneducated descriptions and always manages to deliver something that hits the mark. She's great at offering suggestions, and guiding me through her thought processes so I always feel super-confident about what she's going to attempt. And, to top it all off, the final delivery is always perfect.",
+      "attribution": "Andrew"
+    },
+    {
+      "quote": "The song appealed to the sense of solitude and wonder of a new world that we were aiming for. Luci has a wide array of reference knowledge in soundtracks, in particular music used for games. She knew the right questions to ask when you have an idea but have trouble expressing it.",
+      "attribution": "Adam Rose, Grim & Perilous Studios"
+    },
+    {
+      "quote": "Luci composed soundtracks for two of mine and Iina's animations and the result blew us away. She is a really great composer and super talented. She is also able to compose amazing tracks in a really short time. Besides that she is a great person to work with!",
+      "attribution": "Sindy"
+    }
+  ]
+}

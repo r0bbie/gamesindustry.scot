@@ -1,0 +1,32 @@
+{
+  "id": "robbie-cargill",
+  "name": "Robbie Cargill",
+  "slug": "robbie-cargill",
+  "discipline": "programmer",
+  "additional_disciplines": [
+    "production"
+  ],
+  "bio": "Unity development specialist with 15+ years experience, across cross-platform projects and award-winning releases.\n\nThough over a decade working across XR technologies, Robbie also has extensive experience across mobile, desktop, console, and web applications.\n\nCan help with:\n\n- Unity development projects, broadly!\n- XR projects (across VR, mobile AR and wearables) and immersive platforms\n- Cross-platform projects: whether mobile, console, desktop, etc\n- Support with engineering management and production\n- ArchVis projects, BIM, digital twins, etc\n- Build pipelines and DevOps\n\nReach out if you have an interesting project to work on!",
+  "short_bio": "Unity development specialist with 15+ years experience, across cross-platform, XR, award-winning releases.",
+  "photo": "",
+  "website": "https://r0bbie.com",
+  "email": "freelance@robbiecargill.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/robbiecargill/",
+    "bluesky": "r0bbie.com"
+  },
+  "testimonials": [
+    {
+      "quote": "Robbie has been an exceptional asset to the InsideOut team. During a critical period when we were grappling with tight deadlines and a significant backlog, his contribution was immediate and impactful. Demonstrating remarkable adaptability, Robbie quickly became an integral part of our team, showcasing exemplary communication skills that allowed him to assimilate and contribute effectively in no time. His technical expertise was evident from the start, complemented by a natural leadership ability that inspired those around him.\n\nRobbie played a pivotal role in enhancing our project, contributing essential code that has become the backbone of our codebase. His work has not only propelled us forward at a crucial time but has also laid a solid foundation for future development. Robbie's blend of technical acumen and leadership has made him a valued member of the InsideOut team, and his contributions will be felt long after his tenure.",
+      "attribution": "Fraser Campbell, CTO, InsideOut"
+    },
+    {
+      "quote": "Developing a VR game for autistic players demands considerable flexibility and a willingness to adapt to a particular set of challenges, all of which Robbie demonstrated at every stage. He was able to communicate this to the team, and empower them to contribute to the quality of the game. He brought out the best from each team member.\n\nHis knowledge of the gaming industry, and technical and creative challenges involved, was invaluable and was pivotal in developing the core concept into a playable and engaging game.\n\nRobbie's personable, reliable, and positive personality together with his excellent work ethic would be ideal for any project, and we would highly recommend him.",
+      "attribution": "Alison Lang, CEO, Changingday"
+    },
+    {
+      "quote": "We hired Robbie to create an automated build system for our Unity projects.\n\nAn excellent engagement all round! Robbie is thoughtful, articulate, strongly engaged and generally great at what he does.\n\nUsually if I asked for something, he'd already thought about it :)\n\nNo slouch on documentation and keen to give workable alternatives, and chat around the options when it comes to implementation.\n\nWould absolutely hire him again",
+      "attribution": "Scott Lamb, Technical Director, Saltwater Games"
+    }
+  ]
+}

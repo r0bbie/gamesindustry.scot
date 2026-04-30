@@ -12,6 +12,7 @@ const serialized = freelancers.map((f) => ({
   name: f.name,
   slug: f.slug,
   discipline: f.discipline,
+  additional_disciplines: f.additional_disciplines ?? [],
   short_bio: f.short_bio ?? null,
   photo: f.photo ?? null,
   location: f.location ?? null,

@@ -11,9 +11,19 @@ interface Freelancer {
   name: string;
   slug: string;
   discipline: string;
+  additional_disciplines?: string[];
   short_bio?: string | null;
   photo?: string | null;
   location?: string | null;
+}
+
+function freelancerMatchesDiscipline(f: Freelancer, selected: Set<string>): boolean {
+  if (selected.size === 0) return true;
+  if (selected.has(f.discipline)) return true;
+  for (const d of f.additional_disciplines ?? []) {
+    if (selected.has(d)) return true;
+  }
+  return false;
 }
 
 interface Props {
@@ -52,16 +62,27 @@ export default function FreelancerListView({ freelancers }: Props) {
   const shuffled = useMemo(() => shuffle(freelancers), [freelancers]);
 
   const activeDisciplines = useMemo(() => {
-    const ids = new Set(freelancers.map((f) => f.discipline));
+    const ids = new Set<string>();
+    for (const f of freelancers) {
+      ids.add(f.discipline);
+      for (const d of f.additional_disciplines ?? []) ids.add(d);
+    }
     return DISCIPLINES.filter((d) => ids.has(d.id));
   }, [freelancers]);
 
   const filtered = useMemo(() => {
     return shuffled.filter((f) => {
-      if (selectedDisciplines.size > 0 && !selectedDisciplines.has(f.discipline)) return false;
+      if (!freelancerMatchesDiscipline(f, selectedDisciplines)) return false;
       if (search) {
         const q = search.toLowerCase();
-        const haystack = [f.name, f.short_bio ?? "", getDisciplineName(f.discipline)].join(" ").toLowerCase();
+        const haystack = [
+          f.name,
+          f.short_bio ?? "",
+          getDisciplineName(f.discipline),
+          ...(f.additional_disciplines ?? []).map((d) => getDisciplineName(d)),
+        ]
+          .join(" ")
+          .toLowerCase();
         if (!haystack.includes(q)) return false;
       }
       return true;
@@ -172,9 +193,16 @@ export default function FreelancerListView({ freelancers }: Props) {
                   )}
                 </div>
               </div>
-              <Badge variant="secondary" className="mb-2 text-[10px]">
-                {getDisciplineName(f.discipline)}
-              </Badge>
+              <div className="mb-2 flex flex-wrap gap-1.5">
+                <Badge variant="secondary" className="text-[10px]">
+                  {getDisciplineName(f.discipline)}
+                </Badge>
+                {f.additional_disciplines?.map((d) => (
+                  <Badge key={d} variant="secondary" className="text-[10px]">
+                    {getDisciplineName(d)}
+                  </Badge>
+                ))}
+              </div>
               {f.short_bio && (
                 <p className="line-clamp-2 text-sm text-muted-foreground">{f.short_bio}</p>
               )}
