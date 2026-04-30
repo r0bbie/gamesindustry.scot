@@ -52,6 +52,16 @@ const canonicalURL = new URL(Astro.url.pathname, SITE_URL);
         }
       })();
     </script>
+
+    {/* Umami — privacy-friendly analytics. Loaded only in production builds. */}
+    {import.meta.env.PROD && (
+      <script
+        is:inline
+        defer
+        src="https://cloud.umami.is/script.js"
+        data-website-id="5f4af6ec-04ae-4893-8993-77aaab407e49"
+      />
+    )}
   </head>
   <body style="font-family: 'Inter', system-ui, sans-serif;">
     <Navbar />
