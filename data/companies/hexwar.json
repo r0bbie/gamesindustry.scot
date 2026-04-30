@@ -2,11 +2,18 @@
   "id": "hexwar",
   "name": "HexWar",
   "slug": "hexwar",
-  "categories": ["developer", "publisher"],
+  "categories": [
+    "developer",
+    "publisher"
+  ],
   "status": "active",
   "founded": 2002,
   "location": "Fortrose",
   "region": "highlands-islands",
+  "coordinates": {
+    "lat": 57.5826,
+    "lng": -4.133
+  },
   "website": "http://www.hexwar.com/",
   "icon": "/images/companies/hexwar/icon.jpg",
   "logo": "/images/companies/hexwar/full_logo.png",

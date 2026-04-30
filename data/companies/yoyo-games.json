@@ -10,6 +10,10 @@
   "founded": 2007,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "company_size": "11-50",
   "website": "https://gamemaker.io",
   "logo": null,

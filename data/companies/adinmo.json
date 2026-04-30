@@ -9,6 +9,10 @@
   "founded": 2017,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "https://www.adinmo.com",
   "icon": "/images/companies/adinmo/icon.jpg",
   "logo": null,

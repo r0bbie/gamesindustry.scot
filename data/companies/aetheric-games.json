@@ -8,6 +8,10 @@
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "https://aetheric-games.com",
   "logo": "/images/companies/aetheric-games/full_logo.webp",
   "highlighted": false,

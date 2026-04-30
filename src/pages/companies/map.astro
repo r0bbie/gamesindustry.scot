@@ -12,6 +12,7 @@ const companiesWithCoords = companies
     name: c.name,
     slug: c.slug,
     categories: c.categories,
+    status: c.status,
     location: c.location,
     coordinates: c.coordinates!,
   }));
@@ -25,9 +26,7 @@ const companiesWithCoords = companies
         Explore Scottish games industry companies on the map.
       </p>
     </div>
-    <div class="isolate overflow-hidden rounded-xl border border-border">
-      <MapView client:only="react" companies={companiesWithCoords} />
-    </div>
+    <MapView client:only="react" companies={companiesWithCoords} />
     <div class="mt-4">
       <a
         href="/companies/list"

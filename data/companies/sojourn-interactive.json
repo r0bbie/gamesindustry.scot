@@ -12,6 +12,10 @@
   ],
   "location": "Alloa",
   "region": "central-scotland",
+  "coordinates": {
+    "lat": 56.1167,
+    "lng": -3.7886
+  },
   "website": "https://sojourn-interactive.com/",
   "logo": null,
   "highlighted": false,

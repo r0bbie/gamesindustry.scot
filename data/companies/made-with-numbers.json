@@ -9,6 +9,10 @@
   "founded": 2010,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Indie developer based in Edinburgh working on The Exomachinist",
   "about": "Indie developer based in Edinburgh working on The Exomachinist",
   "website": "http://www.madewithnumbers.com",

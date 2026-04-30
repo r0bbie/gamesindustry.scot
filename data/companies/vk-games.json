@@ -9,6 +9,10 @@
   "founded": 2020,
   "location": "Aberdeen",
   "region": "aberdeen-grampian",
+  "coordinates": {
+    "lat": 57.1497,
+    "lng": -2.0943
+  },
   "short_description": "Independent game development studio based in the north east of Scotland",
   "about": "Independent game development studio based in the north east of Scotland",
   "website": "https://vkgames.studio/",

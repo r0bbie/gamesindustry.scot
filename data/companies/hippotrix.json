@@ -9,6 +9,10 @@
   "founded": 2013,
   "location": "East Lothian",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9595,
+    "lng": -2.7741
+  },
   "website": "http://www.hippotrix.com/",
   "logo": "/images/companies/hippotrix/full_logo.png",
   "highlighted": false,

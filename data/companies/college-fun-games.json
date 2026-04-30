@@ -9,6 +9,10 @@
   "founded": 2024,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "https://collegefun.games",
   "logo": "/images/companies/college-fun-games/full_logo.png",
   "highlighted": false,

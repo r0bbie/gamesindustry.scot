@@ -9,6 +9,10 @@
   "founded": 2009,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "http://disneyresearch.com/",
   "logo": "/images/companies/disney-research-edinburgh/full_logo.webp",
   "logo_bg": "light",

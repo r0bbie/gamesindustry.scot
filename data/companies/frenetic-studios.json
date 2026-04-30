@@ -9,6 +9,10 @@
   "founded": 2012,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "https://web.archive.org/web/20160109213852/https://freneticstudio.com/",
   "logo": null,
   "icon": "/images/companies/frenetic-studios/icon.png",

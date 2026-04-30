@@ -10,6 +10,10 @@
   "founded": 2005,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "https://blackcompanystudios.co.uk",
   "logo": "/images/companies/black-company-studios/full_logo.png",
   "highlighted": false,

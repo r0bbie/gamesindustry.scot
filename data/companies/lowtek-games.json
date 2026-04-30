@@ -10,6 +10,10 @@
   "founded": 2019,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://lowtek.games",
   "logo": "/images/companies/lowtek-games/full_logo.gif",
   "highlighted": true,

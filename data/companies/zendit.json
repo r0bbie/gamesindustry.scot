@@ -8,6 +8,10 @@
   "status": "defunct",
   "location": "Dunfermline",
   "region": "fife",
+  "coordinates": {
+    "lat": 56.0719,
+    "lng": -3.4523
+  },
   "website": "https://web.archive.org/web/20120516183637/http://www.zendit.com/",
   "logo": "/images/companies/zendit/full_logo.png",
   "logo_bg": "light",

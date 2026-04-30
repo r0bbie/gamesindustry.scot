@@ -9,6 +9,10 @@
   "founded": 2021,
   "location": "West Dunbartonshire",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.9434,
+    "lng": -4.5664
+  },
   "website": "https://www.arboretagames.com/",
   "icon": "/images/companies/arboreta-games/icon.jpg",
   "logo": null,

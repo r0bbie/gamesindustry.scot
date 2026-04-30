@@ -9,6 +9,10 @@
   "founded": 2020,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "previously_known_as": [
     "Team Terrible Games"
   ],

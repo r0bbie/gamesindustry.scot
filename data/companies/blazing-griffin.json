@@ -9,6 +9,10 @@
   "founded": 2011,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "http://www.blazinggriffin.com/",
   "icon": "/images/companies/blazing-griffin/icon.png",
   "logo": null,

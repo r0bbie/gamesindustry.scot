@@ -9,6 +9,10 @@
   "founded": 2011,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "previously_known_as": [
     "Twiddly"
   ],

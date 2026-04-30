@@ -8,6 +8,10 @@
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "http://realitycouncil.com/",
   "logo": "/images/companies/reality-council/full_logo.png",
   "highlighted": false,

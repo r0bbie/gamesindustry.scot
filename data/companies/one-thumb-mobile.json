@@ -9,6 +9,10 @@
   "founded": 2006,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "http://www.onethumbmobile.com/",
   "logo": "/images/companies/one-thumb-mobile/full_logo.jpg",
   "highlighted": false,

@@ -8,6 +8,10 @@
   "status": "defunct",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "http://www.ingotgames.com/",
   "logo": null,
   "highlighted": false,

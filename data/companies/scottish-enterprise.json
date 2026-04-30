@@ -8,6 +8,10 @@
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "https://www.scottish-enterprise.com/",
   "logo": "/images/companies/scottish-enterprise/icon.jpg",
   "highlighted": false,

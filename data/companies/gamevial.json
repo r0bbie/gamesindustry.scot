@@ -9,6 +9,10 @@
   "founded": 2003,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Gamevial made free-to-play 3D browser games",
   "about": "Gamevial made free-to-play 3D browser games",
   "website": "http://www.gamevial.com/",

@@ -8,6 +8,10 @@
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "http://www.creativeclyde.com/",
   "logo": "/images/companies/creative-clyde/full_logo.jpg",
   "highlighted": false,

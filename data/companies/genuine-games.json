@@ -9,6 +9,10 @@
   "founded": 1998,
   "location": "Auchterarder",
   "region": "stirling-central",
+  "coordinates": {
+    "lat": 56.294,
+    "lng": -3.709
+  },
   "website": "https://web.archive.org/web/20171218183007/http://www.genuinegames.co.uk/",
   "logo": "/images/companies/genuine-games/full_logo.webp",
   "highlighted": false,

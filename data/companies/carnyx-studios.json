@@ -9,6 +9,10 @@
   "founded": 2025,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "https://carnyx-studios.com",
   "icon": "/images/companies/carnyx-studios/icon.webp",
   "logo": null,

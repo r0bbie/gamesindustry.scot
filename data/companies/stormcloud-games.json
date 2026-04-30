@@ -9,6 +9,10 @@
   "founded": 2003,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "short_description": "Stormcloud Games is an award-winning games studio that creates licensed and original games for mobile, console and PC.",
   "about": "Stormcloud Games is an award-winning games studio that creates licensed and original games for mobile, console and PC.",
   "website": "http://www.stormcloudgames.com/",

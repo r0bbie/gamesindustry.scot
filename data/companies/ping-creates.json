@@ -11,6 +11,10 @@
   "previously_known_as": [],
   "location": "Stirling",
   "region": "stirling-central",
+  "coordinates": {
+    "lat": 56.1165,
+    "lng": -3.9369
+  },
   "website": "https://pingcreates.com",
   "short_description": "Since 2010, Ping Creates has been connecting clients with audiences and customers through inspiring animation, dynamic websites, captivating games and innovative apps",
   "about": "Since 2010, Ping Creates has been connecting clients with audiences and customers through inspiring animation, dynamic websites, captivating games and innovative apps.",

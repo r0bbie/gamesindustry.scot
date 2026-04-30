@@ -12,6 +12,10 @@
   ],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "https://deltadna.com",
   "logo": "/images/companies/deltadna/full_logo.png",
   "highlighted": false,

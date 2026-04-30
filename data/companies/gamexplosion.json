@@ -9,6 +9,10 @@
   "founded": 2020,
   "location": "Greenock",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.9483,
+    "lng": -4.7611
+  },
   "website": "https://www.gamexplosion.com/",
   "contact_email": "admin@gamexplosion.com",
   "logo": "/images/companies/gamexplosion/full_logo.jpg",

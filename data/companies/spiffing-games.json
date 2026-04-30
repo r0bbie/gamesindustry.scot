@@ -9,6 +9,10 @@
   "founded": 2010,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://web.archive.org/web/20120301165543/http://www.spiffinggames.com/",
   "icon": "/images/companies/spiffing-games/icon.jpg",
   "logo": null,

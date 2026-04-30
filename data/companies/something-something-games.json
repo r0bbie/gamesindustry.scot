@@ -10,6 +10,10 @@
   "company_size": "2-10",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Edinburgh duo Jamie and Ian Wilson — a Scottish studio chasing fresh design challenges with playful, characterful games since 2016.",
   "about": "Something Something Games is a Scottish studio in Edinburgh, founded in 2018 and led by brothers Jamie and Ian Wilson. Working as a pair since 2016, they focus on design problems that haven’t been done to death, and their projects reflect the humour and curiosity they bring to making games.",
   "website": "https://www.ssgames.co.uk/",

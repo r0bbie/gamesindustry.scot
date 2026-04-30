@@ -8,6 +8,10 @@
   "status": "active",
   "location": "Aberdeen",
   "region": "aberdeen-grampian",
+  "coordinates": {
+    "lat": 57.1497,
+    "lng": -2.0943
+  },
   "short_description": "Aberdeen developer, making games built on academic historical research.",
   "about": "Aberdeen developer, making games built on academic historical research.",
   "website": "https://commonprofytgames.com",

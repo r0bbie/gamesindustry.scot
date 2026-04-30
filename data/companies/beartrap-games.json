@@ -9,6 +9,10 @@
   "founded": 2012,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "short_description": "Dundee game studio (from 2012) set up by four industry veterans, aimed at high-quality, multi-platform games",
   "about": "Beartrap Games was a game development studio in Dundee, Scotland, that launched in October 2012. It was set up by four directors with a combined 35+ years in the industry, with credits on well-known titles from earlier classics to major downloadable games.",
   "website": "http://www.beartrapgames.com/",

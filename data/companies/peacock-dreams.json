@@ -2,11 +2,17 @@
   "id": "peacock-dreams",
   "name": "Peacock Dreams",
   "slug": "peacock-dreams",
-  "categories": ["developer"],
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "founded": 2016,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://peacockdreamsblog.wordpress.com",
   "logo": "/images/companies/peacock-dreams/full_logo.png",
   "highlighted": false,

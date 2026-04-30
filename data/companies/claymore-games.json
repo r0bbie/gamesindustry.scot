@@ -12,6 +12,10 @@
   ],
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "http://www.claymoregames.co.uk/",
   "logo": "/images/companies/claymore-games/icon.jpg",
   "logo_bg": "light",

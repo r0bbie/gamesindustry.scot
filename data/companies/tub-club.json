@@ -9,6 +9,10 @@
   "founded": 2022,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "short_description": "Glasgow-based indie behind Valley Peaks",
   "about": "Glasgow-based indie behind Valley Peaks",
   "website": "https://tubclub.itch.io",

@@ -8,6 +8,10 @@
   "status": "active",
   "location": "West Lothian",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9054,
+    "lng": -3.552
+  },
   "website": null,
   "icon": "/images/companies/socks-off-studio/icon.jpg",
   "logo": null,

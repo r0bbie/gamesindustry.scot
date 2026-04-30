@@ -9,6 +9,10 @@
   "founded": 2005,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://www.cobramobile.com/",
   "logo": "/images/companies/cobra-mobile/full_logo.jpg",
   "highlighted": false,

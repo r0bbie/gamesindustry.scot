@@ -8,6 +8,10 @@
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "https://web.archive.org/web/20141220024008/https://flipwaretech.com/",
   "logo": "/images/companies/flipware/full_logo.png",
   "logo_bg": "dark",

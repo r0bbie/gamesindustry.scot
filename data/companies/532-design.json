@@ -9,6 +9,10 @@
   "founded": 2022,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://532design.com",
   "logo": "/images/companies/532-design/full_logo.png",
   "highlighted": false,

@@ -9,6 +9,10 @@
   "previously_known_as": [],
   "location": "Dunfermline",
   "region": "fife",
+  "coordinates": {
+    "lat": 56.0719,
+    "lng": -3.4523
+  },
   "short_description": "Cloud Colony Games is a development studio based in Dunfermline",
   "about": "Cloud Colony Games is a development studio based in Dunfermline.",
   "website": "https://www.cloudcolonygames.com",

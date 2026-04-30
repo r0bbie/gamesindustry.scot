@@ -8,6 +8,10 @@
   "status": "active",
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://icebeam.co.uk",
   "logo": "/images/companies/ice-beam/full_logo.jpg",
   "highlighted": false,

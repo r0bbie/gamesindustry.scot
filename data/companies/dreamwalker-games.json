@@ -9,6 +9,10 @@
   "founded": 2013,
   "location": "Elgin",
   "region": "highlands-islands",
+  "coordinates": {
+    "lat": 57.6498,
+    "lng": -3.3187
+  },
   "website": "http://www.dreamwalkergames.co.uk/",
   "logo": "/images/companies/dreamwalker-games/full_logo.png",
   "logo_bg": "dark",

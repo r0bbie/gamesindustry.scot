@@ -9,6 +9,10 @@
   "founded": 2000,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "http://www.axisanimation.com/",
   "icon": "/images/companies/axis-animation/icon.png",
   "logo": null,

@@ -9,6 +9,10 @@
   "founded": 2018,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "https://www.buildarocketboy.com/",
   "logo": null,
   "icon": "/images/companies/build-a-rocket-boy/icon.jpg",

@@ -9,6 +9,10 @@
   "founded": 2017,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Edinburgh developer (founded 2017), known for provocative management sims on PC",
   "about": "Stone Spark was an Edinburgh-based game development studio, founded in 2017. The company is no longer active.",
   "website": "http://stone-spark.com",

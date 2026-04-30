@@ -9,6 +9,10 @@
   "founded": 2022,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://web.archive.org/web/20250122020616/https://www.twotailedfox.com/",
   "logo": null,
   "icon": "/images/companies/two-tailed-fox/icon.jpg",

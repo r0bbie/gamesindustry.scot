@@ -9,6 +9,10 @@
   "founded": 2021,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "http://www.firestoke.games",
   "logo": "/images/companies/firestoke/full_logo.png",
   "logo_bg": "dark",

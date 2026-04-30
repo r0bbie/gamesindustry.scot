@@ -8,6 +8,10 @@
   "status": "active",
   "location": "Lossiemouth",
   "region": "aberdeen-grampian",
+  "coordinates": {
+    "lat": 57.7167,
+    "lng": -3.2833
+  },
   "short_description": "Solo developer releasing console and PC games from Lossiemouth, including Battleminer Giants and Vampire Slayer.",
   "website": "https://www.wobbly-tooth.com",
   "logo": "/images/companies/wobbly-tooth/icon.png",

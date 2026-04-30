@@ -9,6 +9,10 @@
   "founded": 2003,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Developer of a range of software products aimed at helping learners retain information in their long term memory",
   "about": "3MRT was a developer of a range of software products aimed at helping learners retain information in their long term memory.",
   "website": "https://web.archive.org/web/20110129020806/http://3mrt.com/",

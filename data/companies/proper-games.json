@@ -9,6 +9,10 @@
   "founded": 2006,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "http://www.proper-games.com/",
   "logo": "/images/companies/proper-games/full_logo.png",
   "highlighted": false,

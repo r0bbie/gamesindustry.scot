@@ -9,6 +9,10 @@
   "founded": 2010,
   "location": "Elgin",
   "region": "highlands-islands",
+  "coordinates": {
+    "lat": 57.6498,
+    "lng": -3.3187
+  },
   "website": "https://web.archive.org/web/20130330065932/http://whiskybiscuit.co.uk/",
   "logo": "/images/companies/whisky-biscuit/full_logo.webp",
   "logo_bg": "light",

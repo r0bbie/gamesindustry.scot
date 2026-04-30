@@ -12,6 +12,10 @@
   "founded": 1996,
   "location": "Edinburgh",
   "region": "edinburgh-lothians",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": null,
   "logo": null,
   "highlighted": false,

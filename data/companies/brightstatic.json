@@ -10,6 +10,10 @@
   "founded": 2011,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "short_description": "Dundee-based studio that made web and mobile games for brands",
   "about": "Bright Static Media was a Dundee-based developer that made web and mobile games for clients including LEGO, BEAR Nibbles, and others. Founded 2011, and active until 2014.",
   "website": "http://www.brightstatic.co.uk/",

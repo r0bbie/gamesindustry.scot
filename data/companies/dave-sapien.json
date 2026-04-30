@@ -8,6 +8,10 @@
   "status": "active",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "http://www.davesapien.com",
   "logo": "/images/companies/dave-sapien/full_logo.png",
   "logo_bg": "dark",

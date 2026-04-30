@@ -9,6 +9,10 @@
   "founded": 2021,
   "location": "Paisley",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8467,
+    "lng": -4.4239
+  },
   "website": "https://www.thevrhive.com/",
   "logo": null,
   "icon": "/images/companies/the-vr-hive/icon.jpg",

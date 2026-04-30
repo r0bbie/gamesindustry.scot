@@ -8,6 +8,10 @@
   "status": "active",
   "location": "Linlithgow",
   "region": "stirling-central",
+  "coordinates": {
+    "lat": 55.9762,
+    "lng": -3.6029
+  },
   "short_description": "Member organisation for Scotland's digital economy",
   "website": "https://www.scotlandis.com/",
   "logo": "/images/companies/scotland-is/full_logo.png",

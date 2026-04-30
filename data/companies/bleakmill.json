@@ -9,6 +9,10 @@
   "founded": 2017,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "additional_locations": [
     "Berlin"
   ],

@@ -9,6 +9,10 @@
   "founded": 2014,
   "location": "Livingston",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9013,
+    "lng": -3.5232
+  },
   "website": "http://www.mogworks.me.uk/",
   "logo": "/images/companies/mogworks/full_logo.jpg",
   "highlighted": false,

@@ -9,6 +9,10 @@
   "founded": 2017,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "short_description": "Specialist in serious games and bespoke software development",
   "about": "Orthrus Studios is a specialist in Serious Games and bespoke Software development.",
   "website": "https://www.orthrusstudios.com",

@@ -2,10 +2,16 @@
   "id": "criss-cross-games",
   "name": "Criss Cross Games",
   "slug": "criss-cross-games",
-  "categories": ["developer"],
+  "categories": [
+    "developer"
+  ],
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "http://www.crisscrossgames.com/",
   "logo": null,
   "icon": "/images/companies/criss-cross-games/icon.jpg",

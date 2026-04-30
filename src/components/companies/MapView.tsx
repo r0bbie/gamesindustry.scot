@@ -1,7 +1,12 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "leaflet.markercluster";
+import "leaflet.markercluster/dist/MarkerCluster.css";
+import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import { addScotlandOverlay } from "@/lib/maps";
+import { isCompanyNonActiveStatus } from "@/lib/constants";
+import { FilterToggle } from "@/components/ui/FilterToolbar";
 
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -25,6 +30,7 @@ interface MapCompany {
   name: string;
   slug: string;
   categories: string[];
+  status: string;
   location?: string;
   coordinates: { lat: number; lng: number };
 }
@@ -36,7 +42,19 @@ interface MapViewProps {
 export default function MapView({ companies }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
+  const clusterRef = useRef<any | null>(null);
 
+  const [includeDefunct, setIncludeDefunct] = useState(false);
+
+  const visibleCompanies = useMemo(
+    () =>
+      includeDefunct
+        ? companies
+        : companies.filter((c) => !isCompanyNonActiveStatus(c.status)),
+    [companies, includeDefunct],
+  );
+
+  // Mount map (once)
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
@@ -55,28 +73,62 @@ export default function MapView({ companies }: MapViewProps) {
 
     addScotlandOverlay(map, L);
 
-    for (const company of companies) {
-      const marker = L.marker([
-        company.coordinates.lat,
-        company.coordinates.lng,
-      ]).addTo(map);
-
-      marker.bindPopup(
-        `<div style="min-width:150px">
-          <strong><a href="/companies/${company.slug}">${company.name}</a></strong>
-          ${company.location ? `<br/>${company.location}` : ""}
-          <br/><span style="font-size:11px;color:#666">${company.categories.map(c => CATEGORY_LABELS[c] ?? c).join(' · ')}</span>
-        </div>`
-      );
-    }
+    // Cluster markers so cities with many studios (e.g. Dundee, Edinburgh,
+    // Glasgow) don't drop dozens of pins on the same point. Clicking a
+    // cluster zooms in; if studios share an exact coordinate, the remaining
+    // markers spiderfy into a fan so each is selectable.
+    const clusterGroup = (L as any).markerClusterGroup({
+      showCoverageOnHover: false,
+      spiderfyOnMaxZoom: true,
+      maxClusterRadius: 40,
+      disableClusteringAtZoom: 13,
+    });
+    clusterRef.current = clusterGroup;
+    map.addLayer(clusterGroup);
 
     return () => {
       map.remove();
       mapRef.current = null;
+      clusterRef.current = null;
     };
-  }, [companies]);
+  }, []);
+
+  // Repopulate markers whenever the visible set changes
+  useEffect(() => {
+    const cluster = clusterRef.current;
+    if (!cluster) return;
+    cluster.clearLayers();
+    for (const company of visibleCompanies) {
+      const marker = L.marker([
+        company.coordinates.lat,
+        company.coordinates.lng,
+      ]);
+      marker.bindPopup(
+        `<div style="min-width:150px">
+          <strong><a href="/companies/${company.slug}">${company.name}</a></strong>
+          ${company.location ? `<br/>${company.location}` : ""}
+          <br/><span style="font-size:11px;color:#666">${company.categories.map((c) => CATEGORY_LABELS[c] ?? c).join(" · ")}</span>
+        </div>`,
+      );
+      cluster.addLayer(marker);
+    }
+  }, [visibleCompanies]);
 
   return (
-    <div ref={containerRef} style={{ height: "600px", width: "100%" }} />
+    <div>
+      <div className="isolate overflow-hidden rounded-xl border border-border">
+        <div ref={containerRef} style={{ height: "600px", width: "100%" }} />
+      </div>
+      <div className="mt-3 flex flex-wrap items-center justify-end gap-3">
+        <p className="text-sm text-muted-foreground">
+          Showing {visibleCompanies.length} of {companies.length} companies
+        </p>
+        <FilterToggle
+          label="Include defunct"
+          active={includeDefunct}
+          onToggle={() => setIncludeDefunct((v) => !v)}
+        />
+      </div>
+    </div>
   );
 }

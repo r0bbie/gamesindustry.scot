@@ -9,6 +9,10 @@
   "founded": 2004,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://web.archive.org/web/20100828063218/https://dynamogames.com/",
   "logo": "/images/companies/dynamo-games/full_logo.png",
   "highlighted": false,

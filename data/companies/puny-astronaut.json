@@ -9,6 +9,10 @@
   "founded": 2016,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://www.punyastronaut.com/",
   "short_description": "Dundee studios with a goal to create exceptional, accessible, welcoming games. Released \"Skye Tales\" in 2023.",
   "about": "Dundee studios with a goal to create exceptional, accessible, welcoming games. Released \"Skye Tales\" in 2023.",

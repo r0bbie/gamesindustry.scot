@@ -9,6 +9,10 @@
   "founded": 2010,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "https://sumdog.com",
   "logo": "/images/companies/sumdog/full_logo.png",
   "highlighted": false,

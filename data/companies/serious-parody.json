@@ -9,6 +9,10 @@
   "founded": 2010,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "http://www.wrestlingmanagement.com/",
   "logo": "/images/companies/serious-parody/full_logo.jpg",
   "highlighted": false,

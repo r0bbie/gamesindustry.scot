@@ -9,6 +9,10 @@
   "founded": 2015,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": "https://www.ant-workshop.com/",
   "logo": null,
   "icon": "/images/companies/ant-workshop/icon.jpg",

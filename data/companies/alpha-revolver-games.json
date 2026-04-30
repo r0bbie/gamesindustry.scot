@@ -9,6 +9,10 @@
   "founded": 2013,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "https://alpharevolvergames.wordpress.com/",
   "icon": "/images/companies/alpha-revolver-games/icon.webp",
   "logo_bg": "light",

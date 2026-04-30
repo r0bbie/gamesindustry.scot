@@ -9,6 +9,10 @@
   "founded": 2013,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://web.archive.org/web/20180314124950/http://futurefossilstudios.com/",
   "logo": "/images/companies/future-fossil/full_logo.svg",
   "logo_bg": "dark",

@@ -10,6 +10,10 @@
   "founded": 2020,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://www.fishtingames.com",
   "logo": null,
   "highlighted": false,

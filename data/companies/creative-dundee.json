@@ -9,12 +9,16 @@
   "founded": 2008,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://creativedundee.com",
   "icon": "/images/companies/creative-dundee/icon.jpg",
   "logo": null,
   "highlighted": false,
-  "short_description": "Strengthening Dundee\u2019s creative community through connections, support and opportunities",
-  "about": "Strengthening Dundee\u2019s creative community through connections, support and opportunities",
+  "short_description": "Strengthening Dundee’s creative community through connections, support and opportunities",
+  "about": "Strengthening Dundee’s creative community through connections, support and opportunities",
   "links": {
     "bluesky": "creativedundee.bsky.social",
     "linkedin": "https://www.linkedin.com/company/creative-dundee/",

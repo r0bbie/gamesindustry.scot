@@ -9,6 +9,10 @@
   "founded": 2019,
   "location": "Stirling",
   "region": "stirling-central",
+  "coordinates": {
+    "lat": 56.1165,
+    "lng": -3.9369
+  },
   "website": "https://www.rivet-games.com/",
   "short_description": "Scottish games studio specialising in simulation games",
   "about": "Scottish games studio specialising in simulation games",

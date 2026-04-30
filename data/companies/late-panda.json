@@ -9,6 +9,10 @@
   "founded": 2013,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "http://www.latepanda.com/",
   "logo": null,
   "icon": "/images/companies/late-panda/icon.jpg",

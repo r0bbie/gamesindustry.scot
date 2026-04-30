@@ -9,6 +9,10 @@
   "founded": 2003,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "website": null,
   "logo": "/images/companies/outerlight/full_logo.png",
   "logo_bg": "light",

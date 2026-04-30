@@ -10,6 +10,10 @@
   "founded": 2021,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "short_description": "Exists to build games and experiences that humans love.",
   "about": "Exists to build games and experiences that humans love.",
   "website": "https://unusualundertaking.com/",

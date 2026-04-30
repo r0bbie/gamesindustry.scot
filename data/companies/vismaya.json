@@ -9,6 +9,10 @@
   "founded": 2010,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Edinburgh solo dev and filmmaker",
   "about": "Game and film projects from solo developer Krish Shrikumar. Creating video games that leave a lasting positive impact on this world.",
   "website": "https://www.vismaya.co.uk/",

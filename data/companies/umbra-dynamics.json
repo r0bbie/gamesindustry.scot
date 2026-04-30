@@ -1,0 +1,43 @@
+{
+  "id": "umbra-dynamics",
+  "name": "Umbra Dynamics",
+  "slug": "umbra-dynamics",
+  "categories": [
+    "developer",
+    "service_provider"
+  ],
+  "status": "active",
+  "founded": 2025,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "company_size": "2-10",
+  "short_description": "Giving classic games that have become difficult to find or play new life",
+  "about": "Umbra Dynamics exists to revive beloved IPs through innovative approaches - from faithful remasters to bold new interpretations. Preserving the soul of classic games while adding fresh twists, delivering authentic experiences that honor the original vision and captivate both nostalgic fans and new audiences.",
+  "website": "https://umbra-dynamics.com",
+  "logo": null,
+  "icon": "/images/companies/umbra-dynamics/icon.webp",
+  "logo_bg": "dark",
+  "highlighted": false,
+  "contact_email": "contact@umbra-dynamics.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/umbra-dynamics/",
+    "twitter": "https://x.com/UmbraDynamics",
+    "bluesky": "umbradynamics.bsky.social",
+    "instagram": "https://www.instagram.com/umbradynamics"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Umbra Dynamics Ltd",
+      "companies_house_number": "SC831342"
+    }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

@@ -10,6 +10,10 @@
   "founded": 2004,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "short_description": "Founded as Digital Goldfish, now Ninja Kiwi Europe, making casual mobile and web games",
   "about": "Ninja Kiwi Europe, based in Dundee, began in 2004 as Digital Goldfish before becoming part of the Ninja Kiwi group. The studio is known for casual games on mobile, web, and console — especially the long-running Bloons series.",
   "website": "http://ninjakiwi.com/",

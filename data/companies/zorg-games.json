@@ -2,11 +2,17 @@
   "id": "zorg-games",
   "name": "Zorg Games",
   "slug": "zorg-games",
-  "categories": ["solo_developer"],
+  "categories": [
+    "solo_developer"
+  ],
   "status": "active",
   "founded": 2005,
   "location": "Elgin",
   "region": "highlands-islands",
+  "coordinates": {
+    "lat": 57.6498,
+    "lng": -3.3187
+  },
   "website": "https://zorg.games",
   "logo": "/images/companies/zorg-games/full_logo.png",
   "highlighted": false,

@@ -9,6 +9,10 @@
   "founded": 2013,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "https://www.brilliantskies.co.uk/",
   "logo": null,
   "icon": "/images/companies/brilliant-skies/icon.png",

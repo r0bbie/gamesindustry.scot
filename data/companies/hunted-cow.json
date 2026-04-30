@@ -10,6 +10,10 @@
   "founded": 2003,
   "location": "Elgin",
   "region": "highlands-islands",
+  "coordinates": {
+    "lat": 57.6498,
+    "lng": -3.3187
+  },
   "website": "http://www.huntedcow.com/",
   "icon": "/images/companies/hunted-cow/icon.jpg",
   "logo": null,

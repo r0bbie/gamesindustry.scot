@@ -8,6 +8,10 @@
   "status": "defunct",
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": "https://web.archive.org/web/20130126194818/http://www.swallowtailgames.co.uk/",
   "logo": null,
   "highlighted": false,

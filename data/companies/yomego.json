@@ -8,6 +8,10 @@
   "status": "defunct",
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "https://web.archive.org/web/20140216235431/https://www.yomego.com/",
   "logo": "/images/companies/yomego/full_logo.gif",
   "highlighted": false,

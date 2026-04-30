@@ -9,6 +9,10 @@
   "founded": 2018,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "short_description": "Collaborative R&D programme for the Dundee videogames cluster (2018-2024); now defunct",
   "about": "From 2018-2024, InGAME pioneered Collaborative R&D in the videogame industry. Their purpose was to drive growth and innovation in the Dundee videogames cluster.",
   "website": "https://www.innovationforgames.com/",

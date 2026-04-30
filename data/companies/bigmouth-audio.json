@@ -9,6 +9,10 @@
   "founded": 2012,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "https://www.bigmouthaudio.com/",
   "icon": "/images/companies/bigmouth-audio/icon.jpg",
   "logo": null,

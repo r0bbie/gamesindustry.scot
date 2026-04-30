@@ -2,12 +2,21 @@
   "id": "i-play",
   "name": "I-Play",
   "slug": "i-play",
-  "categories": ["developer", "publisher"],
+  "categories": [
+    "developer",
+    "publisher"
+  ],
   "status": "defunct",
   "founded": 1998,
-  "previously_known_as": ["Digital Bridges"],
+  "previously_known_as": [
+    "Digital Bridges"
+  ],
   "location": "Dunfermline",
   "region": "fife",
+  "coordinates": {
+    "lat": 56.0719,
+    "lng": -3.4523
+  },
   "website": "https://www.iplay.com",
   "logo": "/images/companies/i-play/full_logo.png",
   "logo_bg": "light",

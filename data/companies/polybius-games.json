@@ -9,6 +9,10 @@
   "founded": 2008,
   "location": "East Kilbride",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.7644,
+    "lng": -4.1769
+  },
   "website": "https://www.polybiusgames.com/",
   "logo": "/images/companies/polybius-games/full_logo.png",
   "highlighted": false,

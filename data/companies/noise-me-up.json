@@ -8,6 +8,10 @@
   "status": "active",
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
   "short_description": "Award-winning audio specialists. Provide music, sound design, and voice over services.",
   "about": "Award-winning audio specialists offering music composition, sound design, and voice over services for games and interactive media.",
   "website": "http://www.noisemeup.com/",

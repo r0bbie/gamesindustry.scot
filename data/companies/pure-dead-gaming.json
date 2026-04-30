@@ -9,6 +9,10 @@
   "founded": 2018,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "short_description": "Scottish team covering indie games news and reviews across their website, YouTube, and podcast",
   "about": "Pure Dead Gaming is a Scottish games media outlet covering indie games news and reviews via their website, YouTube channel, and podcast.",
   "website": "https://puredeadgaming.com",

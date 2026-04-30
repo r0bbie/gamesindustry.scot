@@ -9,6 +9,10 @@
   "founded": 2015,
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "website": null,
   "logo": "/images/companies/reagent-games/full_logo.jpg",
   "highlighted": false,

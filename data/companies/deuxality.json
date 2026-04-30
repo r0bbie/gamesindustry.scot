@@ -9,6 +9,10 @@
   "founded": 2014,
   "location": "Inverness",
   "region": "highlands-islands",
+  "coordinates": {
+    "lat": 57.4778,
+    "lng": -4.2247
+  },
   "website": "http://www.deuxality.com",
   "logo": "/images/companies/deuxality/full_logo.jpg",
   "highlighted": false,

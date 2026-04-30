@@ -11,6 +11,10 @@
   "previously_known_as": [],
   "location": "Dundee",
   "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
   "short_description": "Independent worker-owned game development studio based in Dundee",
   "about": "Very Evil Demons is an independent worker-owned game development studio based in Dundee.",
   "website": "https://veryevildemons.com",

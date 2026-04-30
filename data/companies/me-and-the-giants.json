@@ -9,6 +9,10 @@
   "founded": 2008,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
   "website": "http://www.meandthegiants.com/",
   "logo": null,
   "icon": "/images/companies/me-and-the-giants/icon.png",
