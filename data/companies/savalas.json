@@ -6,12 +6,24 @@
     "service_provider"
   ],
   "status": "active",
+  "founded": 1998,
+  "previously_known_as": [],
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.86,
+    "lng": -4.251
+  },
+  "short_description": "Savalas Post is a multi-award-winning Post-Production facility based at Film City Glasgow in Glasgow.",
+  "about": "Savalas Post is a multi-award-winning post-production facility based at Film City Glasgow, serving film, TV, and games clients from Glasgow.",
   "website": "http://www.savalas.co.uk/",
+  "contact_email": "hello@savalas.co.uk",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "parent_entity": null,
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/savalas-ltd/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

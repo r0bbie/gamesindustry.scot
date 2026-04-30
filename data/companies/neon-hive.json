@@ -3,15 +3,27 @@
   "name": "Neon Hive",
   "slug": "neon-hive",
   "categories": [
-    "service_provider"
+    "service_provider",
+    "publisher"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2018,
+  "previously_known_as": [],
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.86,
+    "lng": -4.251
+  },
+  "short_description": "Indie games PR and marketing agency, with a publishing arm. Acquired by Cult Games.",
+  "about": "Neon Hive was a Glasgow indie games PR and marketing agency (from 2018), with publishing label NeonHive Games. Cult Games acquired the business.",
   "website": "https://www.neonhive.co.uk/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "parent_entity": null,
+  "links": {
+    "twitter": "https://x.com/neonhive"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
