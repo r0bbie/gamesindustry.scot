@@ -1,0 +1,41 @@
+{
+  "id": "wilderdark",
+  "title": "Wilderdark",
+  "slug": "wilderdark",
+  "short_description": "First-person survival horror on a hostile island stalked by ectoparasitic dinosaurs — gather evidence and craft tools to survive.",
+  "description": "Something dangerous is lurking in the wilderness. Wilderdark is a first-person survival horror game where you must navigate a strange island inhabited by ectoparasitic dinosaurs and organisms. You must remain vigilant to stealthily obtain evidence, samples, and craft tools to survive.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "team-junkfish"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "horror",
+    "survival",
+    "stealth"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "87V_uOzAM18"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wilderdark/cover.webp"
+}
