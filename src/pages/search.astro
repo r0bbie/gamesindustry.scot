@@ -202,6 +202,10 @@ const searchIndex = [
               processResult: function (result) {
                 if (result && result.meta && result.meta.summary) {
                   result.excerpt = result.meta.summary;
+                  // Pagefind UI auto-renders any non-standard meta fields as
+                  // a "Key: Value" row beneath the excerpt. Drop ours so it
+                  // doesn't duplicate the line we just put in `excerpt`.
+                  delete result.meta.summary;
                 }
                 return result;
               },
