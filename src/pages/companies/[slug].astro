@@ -293,7 +293,19 @@ const recentNews = companyNews.slice(0, 5);
             </div>
             {
               company.location && (
-                <p class="mt-1 text-muted-foreground">{company.location}</p>
+                <p class="mt-1 text-muted-foreground">
+                  {company.coordinates ? (
+                    <a
+                      href={`/companies/map?focus=${company.slug}`}
+                      class="hover:text-foreground hover:underline"
+                      title="Show on map"
+                    >
+                      {company.location}
+                    </a>
+                  ) : (
+                    company.location
+                  )}
+                </p>
               )
             }
             {
@@ -574,7 +586,17 @@ const recentNews = companyNews.slice(0, 5);
                   <div>
                     <dt class="text-xs text-muted-foreground">Location</dt>
                     <dd class="text-sm font-medium">
-                      {company.location}
+                      {company.coordinates ? (
+                        <a
+                          href={`/companies/map?focus=${company.slug}`}
+                          class="hover:underline"
+                          title="Show on map"
+                        >
+                          {company.location}
+                        </a>
+                      ) : (
+                        company.location
+                      )}
                       {company.region && (
                         <span class="text-muted-foreground">
                           {" "}

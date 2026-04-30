@@ -5,7 +5,7 @@ import "leaflet.markercluster";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import { addScotlandOverlay } from "@/lib/maps";
-import { isCompanyNonActiveStatus } from "@/lib/constants";
+import { getCategorySingularName, isCompanyNonActiveStatus } from "@/lib/constants";
 import { FilterToggle } from "@/components/ui/FilterToolbar";
 
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -15,15 +15,6 @@ L.Icon.Default.mergeOptions({
     "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
   shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
 });
-
-const CATEGORY_LABELS: Record<string, string> = {
-  developer: "Developer",
-  tooling: "Tooling",
-  service_provider: "Service Provider",
-  publisher: "Publisher",
-  supporting_org: "Supporting Organisation",
-  games_media: "Games Media",
-};
 
 interface MapCompany {
   id: string;
@@ -43,8 +34,20 @@ export default function MapView({ companies }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const clusterRef = useRef<any | null>(null);
+  const focusAppliedRef = useRef(false);
 
-  const [includeDefunct, setIncludeDefunct] = useState(false);
+  // Read ?focus=<slug> once on mount
+  const focusSlug = useMemo(() => {
+    if (typeof window === "undefined") return null;
+    return new URLSearchParams(window.location.search).get("focus");
+  }, []);
+
+  // If the focus target is non-active, default the toggle to on so its marker exists.
+  const [includeDefunct, setIncludeDefunct] = useState(() => {
+    if (!focusSlug) return false;
+    const target = companies.find((c) => c.slug === focusSlug);
+    return target ? isCompanyNonActiveStatus(target.status) : false;
+  });
 
   const visibleCompanies = useMemo(
     () =>
@@ -98,6 +101,7 @@ export default function MapView({ companies }: MapViewProps) {
     const cluster = clusterRef.current;
     if (!cluster) return;
     cluster.clearLayers();
+    let focusMarker: L.Marker | null = null;
     for (const company of visibleCompanies) {
       const marker = L.marker([
         company.coordinates.lat,
@@ -107,12 +111,23 @@ export default function MapView({ companies }: MapViewProps) {
         `<div style="min-width:150px">
           <strong><a href="/companies/${company.slug}">${company.name}</a></strong>
           ${company.location ? `<br/>${company.location}` : ""}
-          <br/><span style="font-size:11px;color:#666">${company.categories.map((c) => CATEGORY_LABELS[c] ?? c).join(" · ")}</span>
+          <br/><span style="font-size:11px;color:#666">${company.categories.map((c) => getCategorySingularName(c)).join(" · ")}</span>
         </div>`,
       );
       cluster.addLayer(marker);
+      if (focusSlug && company.slug === focusSlug) focusMarker = marker;
     }
-  }, [visibleCompanies]);
+
+    // If we arrived via ?focus=<slug>, zoom to that marker (spiderfying if
+    // it's clustered) and pop its tooltip. Apply once per page load so toggling
+    // the defunct filter later doesn't re-snap the view.
+    if (focusMarker && !focusAppliedRef.current) {
+      focusAppliedRef.current = true;
+      cluster.zoomToShowLayer(focusMarker, () => {
+        focusMarker?.openPopup();
+      });
+    }
+  }, [visibleCompanies, focusSlug]);
 
   return (
     <div>
