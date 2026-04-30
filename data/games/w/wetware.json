@@ -1,0 +1,47 @@
+{
+  "id": "wetware",
+  "title": "Wetware",
+  "slug": "wetware",
+  "short_description": "Hack an enemy drone to win a war while grappling with AI ethics and consciousness",
+  "description": "Explore the interplays between AI ethics and consciousness in the shoes of a researcher tasked to hack an enemy drone to win a war.",
+  "release_date": "2021-01-08",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "reality-council"
+    ],
+    "publishers": [
+      {
+        "name": "Brainfists"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sci-fi",
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Y6NoEFDXgxI"
+  },
+  "stores": {
+    "steam": "1337600"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wetware/cover.webp"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "the-ship-murder-party",
+  "title": "The Ship: Murder Party",
+  "slug": "the-ship-murder-party",
+  "short_description": "Multiplayer murder mystery on art deco cruise liners where every passenger has a target—and someone is hunting you",
+  "description": "The Ship is a unique multiplayer game. Set on a series of luxury, art deco cruise ships built by Mr X, this devilish game challenges you to kill or be killed. Once you're on board you're given the name of another passenger whom you must find and secretly murder.",
+  "release_date": "2006-07-11",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "outerlight"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "multiplayer",
+    "stealth"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "GI5TZku-hOg"
+  },
+  "stores": {
+    "steam": "2400"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Ship_(video_game)"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-ship-murder-party/cover.webp"
+}

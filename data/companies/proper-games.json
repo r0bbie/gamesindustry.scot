@@ -6,12 +6,18 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2006,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://www.proper-games.com/",
-  "logo": null,
+  "logo": "/images/companies/proper-games/full_logo.png",
   "highlighted": false,
-  "links": {},
+  "short_description": "Dundee developer behind titles including Flock!",
+  "about": "Founded in 2006, Proper Games was a Dundee game developer. The studio was defunct by 2020.",
+  "links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Proper_Games",
+    "linkedin": "https://www.linkedin.com/company/proper-games-ltd./"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -9,9 +9,12 @@
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://www.smilingbag.co.uk/",
-  "logo": null,
+  "logo": "/images/companies/smiling-bag/full_logo.png",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/SmilingBagGames",
+    "itch": "https://chicknstu.itch.io"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -6,12 +6,16 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2012,
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "http://tooeasygames.com/",
-  "logo": null,
+  "website": "https://web.archive.org/web/20141218095409/http://tooeasygames.com/",
+  "logo": "/images/companies/too-easy-games/full_logo.png",
+  "logo_bg": "light",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/tooeasygames"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

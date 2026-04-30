@@ -1,0 +1,46 @@
+{
+  "id": "congo-merc",
+  "title": "Congo Merc",
+  "slug": "congo-merc",
+  "short_description": "Command elite commandos in 1960s Congo breakneck advances against enemy-held objectives",
+  "description": "During the 1960s the newly independent Congo was the scene of constant warfare. Congo Merc puts you in the middle of that fighting with a task force of elite commandos. You conduct breakneck advances into the heart of enemy territory, seize critical objectives and, just as important, return to home base.",
+  "release_date": "2016-12-12",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "dreamwalker-games"
+    ],
+    "publishers": [
+      "hexwar"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "jiwjo7s6his"
+  },
+  "stores": {
+    "steam": "510550"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "mobygames": "129309/congo-merc"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/congo-merc/cover.webp"
+}

@@ -9,9 +9,11 @@
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://realitycouncil.com/",
-  "logo": null,
+  "logo": "/images/companies/reality-council/full_logo.png",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/reality-council/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -6,12 +6,15 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2012,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": null,
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/Siege_Games"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

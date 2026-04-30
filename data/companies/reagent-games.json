@@ -6,12 +6,15 @@
     "developer"
   ],
   "status": "defunct",
-  "location": "Edinburgh",
-  "region": "edinburgh-lothian",
+  "founded": 2015,
+  "location": "Dundee",
+  "region": "dundee-tayside",
   "website": null,
-  "logo": null,
+  "logo": "/images/companies/reagent-games/full_logo.jpg",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/OfficialReagent"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

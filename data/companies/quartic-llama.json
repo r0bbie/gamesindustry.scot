@@ -6,12 +6,20 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2012,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://quarticllama.com/",
+  "icon": "/images/companies/quartic-llama/icon.jpg",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Dundee independent game development studio making fun and innovative games",
+  "links": {
+    "facebook": "https://www.facebook.com/QuarticLlama/",
+    "youtube": "https://www.youtube.com/channel/UCST9q_bngdgEH-qUl6KOv2w",
+    "instagram": "https://www.instagram.com/quarticllama",
+    "twitter": "https://x.com/QuarticLlama"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

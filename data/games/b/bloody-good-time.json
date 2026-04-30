@@ -1,0 +1,47 @@
+{
+  "id": "bloody-good-time",
+  "title": "Bloody Good Time",
+  "slug": "bloody-good-time",
+  "short_description": "Reality-TV send-up where wannabe horror stars compete for Director X’s camera",
+  "description": "Welcome to Hollywood! The home of fame and fortune! That's what the flyer said anyway. The reality hasn't proven quite so fruitful. All you need is one shot, and you'll do whatever it takes to get it. Fortunately for you, the notorious Director X has arrived in town! This well known Horror movie producer always manages to astonish his audience with the realism of his scenes.",
+  "release_date": "2010-10-28",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "outerlight"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "multiplayer"
+  ],
+  "platforms": [
+    "pc",
+    "xbox-360"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "EDseppt_CGM"
+  },
+  "stores": {
+    "steam": "2450"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "bloody-good-time",
+    "wikipedia": "Bloody_Good_Time"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/bloody-good-time/cover.webp"
+}

@@ -6,12 +6,17 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2012,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://www.mentaluniverse.co.uk/",
+  "icon": "/images/companies/mental-universe/icon.jpg",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "links": {
+    "youtube": "https://www.youtube.com/user/TheMentalU"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

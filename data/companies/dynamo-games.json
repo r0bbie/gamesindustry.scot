@@ -6,12 +6,16 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2004,
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "http://www.dynamogames.com/",
-  "logo": null,
+  "website": "https://web.archive.org/web/20100828063218/https://dynamogames.com/",
+  "logo": "/images/companies/dynamo-games/full_logo.png",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/dynamogames",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dynamo_Games"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

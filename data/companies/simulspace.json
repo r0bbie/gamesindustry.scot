@@ -6,12 +6,19 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2014,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://simulspace.org/",
   "logo": null,
   "highlighted": false,
   "links": {},
+  "legal_entities": [
+    {
+      "uk_registered_name": "Simulspace Limited",
+      "companies_house_number": "SC476590"
+    }
+  ],
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

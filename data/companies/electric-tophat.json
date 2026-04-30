@@ -6,12 +6,22 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2008,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://electrictophat.com/",
+  "icon": "/images/companies/electric-tophat/icon.jpg",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "links": {
+    "youtube": "https://www.youtube.com/ElectricTopHat"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Electric Tophat Limited",
+      "companies_house_number": "SC352650"
+    }
+  ],
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -6,12 +6,23 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2013,
   "location": "Elgin",
   "region": "highlands-islands",
   "website": "http://www.dreamwalkergames.co.uk/",
-  "logo": null,
+  "logo": "/images/companies/dreamwalker-games/full_logo.png",
+  "logo_bg": "dark",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "facebook": "https://www.facebook.com/DreamWalkerGames/",
+    "youtube": "https://www.youtube.com/DreamWalkerGames"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Dreamwalker Games Limited",
+      "companies_house_number": "SC655640"
+    }
+  ],
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -6,12 +6,21 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2014,
   "location": "Livingston",
   "region": "edinburgh-lothian",
   "website": "http://www.mogworks.me.uk/",
-  "logo": null,
+  "logo": "/images/companies/mogworks/full_logo.jpg",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "facebook": "https://www.facebook.com/mogworks"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Mogworks-Studios Ltd",
+      "companies_house_number": "SC467515"
+    }
+  ],
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
