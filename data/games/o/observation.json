@@ -11,7 +11,10 @@
       "screen-burn"
     ],
     "publishers": [
-      "devolver-digital"
+      {
+        "name": "Devolver Digital",
+        "url": "https://www.devolverdigital.com/"
+      }
     ],
     "service_companies": [],
     "used_tooling": [],

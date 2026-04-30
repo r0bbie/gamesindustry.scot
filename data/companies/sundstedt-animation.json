@@ -6,12 +6,18 @@
     "service_provider"
   ],
   "status": "active",
+  "founded": 2004,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://sundstedt.se/",
-  "logo": null,
+  "logo": "/images/companies/sundstedt-animation/full_logo.jpg",
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "short_description": "Handcrafted 2D and 2.5D animation, explainers, and music videos",
+  "about": "Sundstedt Animation is a boutique studio specialising in handcrafted, bespoke 2D and 2.5D animations, explainer videos, music videos, and whiteboard animations.",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/sundstedt"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

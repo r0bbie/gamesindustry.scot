@@ -6,10 +6,12 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2009,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
   "website": "http://disneyresearch.com/",
-  "logo": null,
+  "logo": "/images/companies/disney-research-edinburgh/full_logo.webp",
+  "logo_bg": "light",
   "highlighted": false,
   "links": {},
   "use_tooling": [],

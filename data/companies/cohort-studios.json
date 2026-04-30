@@ -6,12 +6,16 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2006,
   "location": "Dundee",
   "region": "dundee-tayside",
   "website": "http://www.cohortstudios.com/",
-  "logo": null,
+  "logo": "/images/companies/cohort-studios/full_logo.jpg",
   "highlighted": false,
-  "links": {},
+  "short_description": "Dundee-based studio behind the Buzz! Junior series, closed in 2011",
+  "links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Cohort_Studios"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

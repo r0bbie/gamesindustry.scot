@@ -6,12 +6,16 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2012,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
   "website": "http://www.domipheus.com/",
-  "logo": null,
+  "logo": "/images/companies/domipheus-labs/full_logo.png",
+  "logo_bg": "light",
   "highlighted": false,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/DomipheusLabs"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

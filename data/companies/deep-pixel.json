@@ -6,10 +6,11 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2011,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://www.deeppixel.com/",
-  "logo": null,
+  "logo": "/images/companies/deep-pixel/full_logo.webp",
   "highlighted": false,
   "links": {},
   "use_tooling": [],

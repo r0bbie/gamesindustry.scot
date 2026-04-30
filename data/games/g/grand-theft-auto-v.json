@@ -11,7 +11,10 @@
       "rockstar-north"
     ],
     "publishers": [
-      "rockstar-games"
+      {
+        "name": "Rockstar Games",
+        "url": "https://www.rockstargames.com/"
+      }
     ],
     "service_companies": [],
     "used_tooling": [],

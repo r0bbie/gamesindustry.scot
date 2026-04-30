@@ -1,0 +1,45 @@
+{
+  "id": "gears-of-glory-apex-ace",
+  "title": "Gears of Glory: Apex Ace",
+  "slug": "gears-of-glory-apex-ace",
+  "short_description": "PC arcade flying-racing game from Domipheus Labs, released October 2012",
+  "description": "Arcade flyer / racer for Windows PC, developed by Edinburgh’s Domipheus Labs and released in October 2012.",
+  "release_date": "2012-10-03",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "domipheus-labs"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "arcade",
+    "racing"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Zxly2OGch-E"
+  },
+  "stores": {
+    "website": "https://gearsofglory.com/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "rawg": "gears-of-glory-apex-ace"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/gears-of-glory-apex-ace/cover.webp"
+}
