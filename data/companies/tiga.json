@@ -9,7 +9,7 @@
   "location": "London",
   "region": null,
   "website": "http://www.tiga.org/",
-  "logo": null,
+  "logo": "/images/companies/tiga/icon.jpg",
   "highlighted": false,
   "links": {},
   "use_tooling": [],

@@ -6,7 +6,7 @@
     "tooling"
   ],
   "status": "active",
-  "founded": null,
+  "founded": 2011,
   "previously_known_as": [],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
@@ -20,10 +20,11 @@
   "logo": null,
   "highlighted": false,
   "parent_entity": null,
-  "company_size": null,
+  "company_size": "2-10",
   "employee_count": null,
   "links": {
-    "linkedin": "proper-qa-ltd"
+    "linkedin": "proper-qa-ltd",
+    "twitter": "https://x.com/proper_qa"
   },
   "use_tooling": [],
   "employee_stats": {},

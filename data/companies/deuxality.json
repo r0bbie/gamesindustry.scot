@@ -5,13 +5,27 @@
   "categories": [
     "developer"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2014,
   "location": "Inverness",
   "region": "highlands-islands",
-  "website": null,
-  "logo": null,
+  "website": "http://www.deuxality.com",
+  "logo": "/images/companies/deuxality/full_logo.jpg",
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "short_description": "Inverness-based studio all about fun, connectivity, creativity and a new found respect for your own thumbs",
+  "about": "Inverness-based studio all about fun, connectivity, creativity and a new found respect for your own thumbs",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Deuxality Games Limited",
+      "companies_house_number": "SC499047"
+    }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/deuxality-games-ltd",
+    "facebook": "https://www.facebook.com/deuxality/",
+    "youtube": "https://www.youtube.com/@Deuxality"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -6,12 +6,24 @@
     "developer"
   ],
   "status": "defunct",
+  "founded": 2006,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": "http://www.onethumbmobile.com/",
-  "logo": null,
+  "logo": "/images/companies/one-thumb-mobile/full_logo.jpg",
   "highlighted": false,
-  "links": {},
+  "company_size": "11-50",
+  "short_description": "Indie mobile developer behind MMORPG \"Celtic Heroes\"",
+  "legal_entities": [
+    {
+      "uk_registered_name": "One Thumb Mobile Limited",
+      "companies_house_number": "05944365"
+    }
+  ],
+  "links": {
+    "youtube": "https://www.youtube.com/@onethumbmobile",
+    "linkedin": "https://www.linkedin.com/company/one-thumb-mobile"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

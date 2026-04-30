@@ -1,0 +1,14 @@
+{
+  "id": "weaponiser",
+  "name": "Weaponiser",
+  "slug": "weaponiser",
+  "company_id": "krotos-audio",
+  "status": "active",
+  "short_description": "Stun your audience with unique sound effects — create original SFX in seconds.",
+  "features": [],
+  "website": "https://www.krotosaudio.com/weaponiser/",
+  "video": {
+    "type": "youtube",
+    "id": "uWp7YvQ2Bi8"
+  }
+}

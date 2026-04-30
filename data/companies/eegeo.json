@@ -6,15 +6,39 @@
     "tooling"
   ],
   "status": "defunct",
+  "founded": 2015,
+  "previously_known_as": [],
   "location": "Dundee",
   "region": "dundee-tayside",
+  "additional_locations": [
+    "Los Angeles, USA"
+  ],
   "website": "http://www.mapply.com/",
   "logo": null,
   "highlighted": false,
-  "links": {},
+  "short_description": "Dundee-based 3D mapping platform with developer SDKs for platforms including Unity and Android. Rebranded as WRLD in 2017.",
+  "company_size": "51-100",
+  "employee_count": null,
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/wetopiaxyz",
+    "crunchbase": "https://www.crunchbase.com/organization/wrld"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Dundee firm eeGeo raises £3.4m to map world cities",
+      "publication": "The Scotsman",
+      "date": "2016-03-16",
+      "url": "https://www.scotsman.com/news/video-dundee-firm-eegeo-raises-aps34m-to-map-world-cities-1480395"
+    },
+    {
+      "title": "Hello WRLD – eeGeo Rebrands, Relocates To LA",
+      "publication": "Digit",
+      "date": "2017-06-05",
+      "url": "https://www.digit.fyi/eegeo-rebrands-relocates/"
+    }
+  ]
 }

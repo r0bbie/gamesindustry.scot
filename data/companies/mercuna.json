@@ -6,7 +6,7 @@
     "tooling"
   ],
   "status": "active",
-  "founded": null,
+  "founded": 2016,
   "previously_known_as": [],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
@@ -17,15 +17,25 @@
   "short_description": "Navigation middleware for games — pathfinding and movement AI for any genre",
   "about": "Mercuna is an Edinburgh-based middleware company specialising in navigation solutions for game developers. Their technology provides robust pathfinding and movement AI for characters and objects in 2D, 3D, and flying environments, used across a wide range of game genres and engines.",
   "website": "https://mercuna.com",
-  "logo": null,
+  "logo": "/images/companies/mercuna/full_logo.jpg",
   "highlighted": false,
   "parent_entity": null,
-  "company_size": null,
+  "company_size": "2-10",
   "employee_count": null,
-  "links": {},
+  "links": {
+    "twitter": "https://x.com/MercunaDev",
+    "linkedin": "https://www.linkedin.com/company/mercuna/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Mercuna: 3D Navigation Middleware for Game Developers",
+      "publication": "80.lv",
+      "date": "2020-04-06",
+      "url": "https://80.lv/articles/mercuna-3d-navigation-middleware-for-game-developers"
+    }
+  ]
 }

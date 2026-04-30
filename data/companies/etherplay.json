@@ -11,6 +11,7 @@
   "region": "dundee-tayside",
   "website": "https://etherplay.io/",
   "logo": null,
+  "icon": "/images/companies/etherplay/icon.jpg",
   "highlighted": false,
   "short_description": "Dundee studio making open source blockchain games",
   "about": "Etherplay is a Dundee game studio, founded in 2016, that publishes open-source work. It started with web games and now focuses on on-chain games—fully persistent, permissionless titles (sometimes called autonomous worlds).\n\nReleased or ongoing projects include Ethernal, Conquest.eth (a diplomacy game with value on-chain), and Stratagems. Earlier work included a browser-based skill-game platform under the Etherplay name, early Ethereum games in the browser, and on-chain experiments such as Tug of War and Ethernal (with Jia), including a Polygon testnet release.",

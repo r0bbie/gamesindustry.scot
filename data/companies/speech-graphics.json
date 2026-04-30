@@ -6,10 +6,15 @@
     "tooling"
   ],
   "status": "active",
-  "founded": null,
+  "founded": 2010,
   "previously_known_as": [],
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
+  "additional_locations": [
+    "Budapest",
+    "San Francisco",
+    "Singapore"
+  ],
   "coordinates": {
     "lat": 55.9533,
     "lng": -3.1883
@@ -17,14 +22,24 @@
   "short_description": "Automated facial animation technology driven by speech audio",
   "about": "Speech Graphics is an Edinburgh-based technology company specialising in automated facial animation. Their AI-driven technology generates realistic facial animation directly from speech audio, enabling game developers and filmmakers to create believable character performances at scale.",
   "website": "https://www.speech-graphics.com",
-  "logo": null,
+  "logo": "/images/companies/speech-graphics/full_logo.png",
+  "logo_bg": "dark",
   "highlighted": false,
   "parent_entity": null,
-  "company_size": null,
+  "company_size": "51-100",
   "employee_count": null,
   "links": {
-    "linkedin": "speech-graphics"
+    "linkedin": "speech-graphics",
+    "instagram": "https://www.instagram.com/speech_graphics",
+    "twitter": "https://x.com/speechgraphics",
+    "youtube": "https://www.youtube.com/@SpeechGraphics"
   },
+  "additional_links": [
+    {
+      "label": "MobyGames",
+      "url": "https://www.mobygames.com/company/25880/speech-graphics-ltd/"
+    }
+  ],
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

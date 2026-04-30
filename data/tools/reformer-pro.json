@@ -1,0 +1,14 @@
+{
+  "id": "reformer-pro",
+  "name": "Reformer Pro",
+  "slug": "reformer-pro",
+  "company_id": "krotos-audio",
+  "status": "active",
+  "short_description": "Perform your own Foley from within your DAW — realistic Foley without hours of tedious editing.",
+  "features": [],
+  "website": "https://www.krotosaudio.com/reformer-pro/",
+  "video": {
+    "type": "youtube",
+    "id": "N2duLgwJoGk"
+  }
+}

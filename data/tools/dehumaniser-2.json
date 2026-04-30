@@ -1,0 +1,14 @@
+{
+  "id": "dehumaniser-2",
+  "name": "Dehumaniser 2",
+  "slug": "dehumaniser-2",
+  "company_id": "krotos-audio",
+  "status": "active",
+  "short_description": "Perform complex vocal effects instantly.",
+  "features": [],
+  "website": "https://www.krotosaudio.com/dehumaniser2/",
+  "video": {
+    "type": "youtube",
+    "id": "CBsuYXosOhk"
+  }
+}

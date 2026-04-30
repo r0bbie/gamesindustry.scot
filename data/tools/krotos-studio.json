@@ -1,0 +1,17 @@
+{
+  "id": "krotos-studio",
+  "name": "Krotos Studio",
+  "slug": "krotos-studio",
+  "company_id": "krotos-audio",
+  "status": "active",
+  "short_description": "Design sound instantly — create and customise unique SFX; drag-and-drop into Premiere Pro or DaVinci Resolve, or use in your DAW for full creative control.",
+  "description": "Design sound instantly. Create and customise your own unique sound effects. Easily drag and drop your sounds into Premiere Pro or DaVinci Resolve — or use it inside your DAW for full creative control.",
+  "features": [],
+  "website": "https://krotos.studio",
+  "logo": "/images/companies/krotos-audio/krotos-studio-logo.png",
+  "logo_bg": "dark",
+  "video": {
+    "type": "youtube",
+    "id": "pqGwLYfCCoE"
+  }
+}

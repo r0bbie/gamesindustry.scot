@@ -1,0 +1,45 @@
+{
+  "id": "gamemaker",
+  "name": "GameMaker",
+  "slug": "gamemaker",
+  "company_id": "yoyo-games",
+  "status": "active",
+  "short_description": "Cross-platform 2D game engine and IDE from Dundee’s YoYo Games, with GameMaker Language (GML), visual scripting, and exports for desktop, web, mobile, and consoles.",
+  "description": "GameMaker is YoYo Games' flagship engine and IDE (from Dundee; part of Opera since 2021), born from Mark Overmars' late-1990s tool and honed for approachable 2D (and occasional 3D) games. Teams build with drag-and-drop GML Visual or code in GameMaker Language, then ship to desktop, web, mobile, and—with the right licence—major consoles.",
+  "features": [
+    "2D-first pipeline with strong support for sprites, tilemaps, and Spine-based skeletal animation",
+    "Two authoring modes: GML Visual (visual scripting) and full GameMaker Language (GML)",
+    "All-in-one IDE with editors for art assets, rooms, paths, shaders, and included files",
+    "Cross-platform export from a single project to desktop, web, and mobile targets",
+    "Console export for PlayStation, Xbox, and Nintendo platforms under commercial licences",
+    "Shader support (GLSL / HLSL) and standard library for drawing, audio, input, and data structures",
+    "Optional LLVM-based native compilation path for performance-critical GML on supported targets",
+    "HTML5 export that compiles GML to JavaScript with optimisations for release builds",
+    "Tight integration with Opera’s GX Games discoverability and free-to-play web distribution model"
+  ],
+  "video": {
+    "type": "youtube",
+    "id": "yQIc1qOgKRc"
+  },
+  "integrations": [
+    "Windows",
+    "macOS",
+    "Linux (Ubuntu)",
+    "HTML5",
+    "Android",
+    "iOS",
+    "Steam",
+    "Epic Games Store",
+    "Amazon Fire TV & Android TV",
+    "Universal Windows Platform (UWP)",
+    "PlayStation 4 & 5",
+    "Xbox One & Xbox Series X|S",
+    "Nintendo Switch",
+    "GX.games",
+    "Raspberry Pi (runtime)"
+  ],
+  "website": "https://gamemaker.io",
+  "logo": "/images/companies/yoyo-games/gamemaker-full_logo.png",
+  "logo_bg": "light"
+}
+

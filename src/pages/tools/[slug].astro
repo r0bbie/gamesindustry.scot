@@ -12,6 +12,8 @@ const tool = await getToolBySlug(slug!);
 if (!tool) return Astro.redirect("/404");
 
 const maker = tool.company_id ? await getCompanyBySlug(tool.company_id) : null;
+/** Made By tile mirrors company list cards; fall back to tool branding when the maker omits `logo_bg`. */
+const makerLogoBg = maker ? (maker.logo_bg ?? tool.logo_bg) : null;
 
 const allCompanies = await getAllCompanies();
 const usedByCompanies = allCompanies.filter((c) => c.use_tooling.includes(tool.id));
@@ -20,22 +22,35 @@ const usedByCompanies = allCompanies.filter((c) => c.use_tooling.includes(tool.i
 <BaseLayout title={tool.name} description={tool.short_description ?? undefined}>
   <!-- Hero -->
   <section class="border-b border-border bg-card">
-    <div class="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8">
-      <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-        <div>
-          {maker && (
-            <a
-              href={`/companies/${maker.slug}`}
-              class="mb-2 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
+    <div class="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+        <div class="flex items-start gap-4">
+          {tool.logo && (
+            <div
+              class={`flex h-16 w-16 shrink-0 items-center justify-center rounded-xl ${tool.logo_bg === "light" ? "bg-white" : tool.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}
             >
-              <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-              {maker.name}
-            </a>
+              <img
+                src={tool.logo}
+                alt={`${tool.name} logo`}
+                class={tool.logo_bg ? "h-full w-full rounded-xl object-contain" : "h-12 w-12 object-contain"}
+              />
+            </div>
           )}
-          <h1 class="text-3xl font-bold tracking-tight">{tool.name}</h1>
-          {tool.short_description && (
-            <p class="mt-2 max-w-2xl text-muted-foreground">{tool.short_description}</p>
-          )}
+          <div class="min-w-0">
+            {maker && (
+              <a
+                href={`/companies/${maker.slug}`}
+                class="mb-2 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                {maker.name}
+              </a>
+            )}
+            <h1 class="text-3xl font-bold tracking-tight">{tool.name}</h1>
+            {tool.short_description && (
+              <p class="mt-2 max-w-2xl text-muted-foreground">{tool.short_description}</p>
+            )}
+          </div>
         </div>
         {tool.website && (
           <a
@@ -125,9 +140,9 @@ const usedByCompanies = allCompanies.filter((c) => c.use_tooling.includes(tool.i
           href={`/companies/${maker.slug}`}
           class="group inline-flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30"
         >
-          <div class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${maker.logo_bg === "light" ? "bg-white" : maker.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
+          <div class={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${makerLogoBg === "light" ? "bg-white" : makerLogoBg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
             {(maker.icon ?? maker.logo) ? (
-              <img src={maker.icon ?? maker.logo!} alt="" class="h-8 w-8 object-contain" />
+              <img src={maker.icon ?? maker.logo!} alt="" class={makerLogoBg ? "h-full w-full rounded-lg object-contain" : "h-8 w-8 object-contain"} />
             ) : (
               <span class="text-sm font-bold text-muted-foreground">{maker.name.charAt(0)}</span>
             )}

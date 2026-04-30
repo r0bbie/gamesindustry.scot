@@ -1,0 +1,15 @@
+{
+  "id": "sgx",
+  "name": "SGX",
+  "slug": "sgx",
+  "company_id": "speech-graphics",
+  "status": "active",
+  "short_description": "Production audio-to-face facial animation — drive believable lipsync and expression straight from spoken audio.",
+  "description": "SGX is Speech Graphics’ production-ready audio-to-face solution: ingest speech tracks and synchronise expressive facial performances for games, cinematic pipelines, and real-time rigs without hand-keyframing dialogue.",
+  "features": [],
+  "website": "https://www.speech-graphics.com/sgx-production-audio-to-face-animation-software",
+  "video": {
+    "type": "youtube",
+    "id": "cp21VeuLuhQ"
+  }
+}

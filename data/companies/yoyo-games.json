@@ -3,15 +3,39 @@
   "name": "YoYo Games",
   "slug": "yoyo-games",
   "categories": [
-    "tooling"
+    "tooling",
+    "publisher"
   ],
   "status": "active",
+  "founded": 2007,
   "location": "Dundee",
   "region": "dundee-tayside",
-  "website": "http://www.yoyogames.com/",
+  "company_size": "11-50",
+  "website": "https://gamemaker.io",
   "logo": null,
+  "icon": "/images/companies/yoyo-games/icon.jpg",
   "highlighted": false,
-  "links": {},
+  "short_description": "Dundee software company developing the GameMaker cross-platform game engine.",
+  "about": "Dundee software company developing the GameMaker cross-platform game engine. Previously also behind the YoYo Games Sandbox, hosting over 100k games before it was closed in 2016. YoYo Games was acquired by Playtech in 2015, and since 2021 a subsidiary of Opera.",
+  "parent_entity": {
+    "name": "Opera",
+    "url": "https://www.opera.com"
+  },
+  "links": {
+    "wikipedia": "https://en.wikipedia.org/wiki/YoYo_Games",
+    "linkedin": "https://www.linkedin.com/company/gamemaker",
+    "twitter": "https://x.com/GameMakerEngine"
+  },
+  "additional_links": [
+    {
+      "label": "YoYo Games archive",
+      "url": "https://yygarchive.org"
+    },
+    {
+      "label": "GX Games",
+      "url": "https://gx.games"
+    }
+  ],
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -111,6 +111,16 @@ const companies = defineCollection({
     company_size: z.string().optional().nullable(),
     employee_count: z.number().optional().nullable(),
     links: linksSchema,
+    /** Display-name + full URL (e.g. product sites, archives)—shown with platform links on the company page. */
+    additional_links: z
+      .array(
+        z.object({
+          label: z.string(),
+          url: z.string().url(),
+        })
+      )
+      .optional()
+      .default([]),
     contact_email: z.string().optional().nullable(),
     legal_entities: z
       .array(
@@ -429,6 +439,7 @@ const tools = defineCollection({
     integrations: z.array(z.string()).optional().default([]),
     website: z.string().optional().nullable(),
     logo: z.string().optional().nullable(),
+    logo_bg: z.enum(["light", "dark"]).optional().nullable(),
   }),
 });
 

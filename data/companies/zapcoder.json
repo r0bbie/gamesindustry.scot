@@ -5,13 +5,22 @@
   "categories": [
     "developer"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2013,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
   "website": null,
-  "logo": null,
+  "logo": "/images/companies/zapcoder/full_logo.webp",
   "highlighted": false,
-  "links": {},
+  "legal_entities": [
+    {
+      "uk_registered_name": "ZapCoder Limited",
+      "companies_house_number": "SC449699"
+    }
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/zapcoder/"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

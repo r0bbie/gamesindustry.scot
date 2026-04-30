@@ -28,7 +28,8 @@
   "employee_count": null,
   "links": {
     "twitter": "buildstash",
-    "linkedin": "buildstash"
+    "linkedin": "buildstash",
+    "github": "Buildstash"
   },
   "use_tooling": [],
   "employee_stats": {},

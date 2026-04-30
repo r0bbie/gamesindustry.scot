@@ -2,16 +2,36 @@
   "id": "di4d",
   "name": "DI4D",
   "slug": "di4d",
+  "previously_known_as": [
+    "Dimensional Imaging"
+  ],
   "categories": [
     "tooling"
   ],
   "status": "active",
+  "founded": 2003,
   "location": "Glasgow",
   "region": "glasgow-strathclyde",
+  "additional_locations": [
+    "Los Angeles, USA"
+  ],
+  "company_size": "11-50",
   "website": "https://www.di4d.com/",
-  "logo": null,
+  "logo": "/images/companies/di4d/full_logo.png",
   "highlighted": false,
-  "links": {},
+  "short_description": "DI4D delivers performance-driven facial animation services for leading video games and blockbuster films, creating authentic digital doubles.",
+  "about": "DI4D delivers performance-driven facial animation services for leading video games and blockbuster films, creating authentic digital doubles. DI4D was acquired by Clear Angle Studios in February 2026.",
+  "legal_entities": [
+    {
+      "uk_registered_name": "Dimensional Imaging Limited",
+      "companies_house_number": "SC241791"
+    }
+  ],
+  "links": {
+    "youtube": "https://www.youtube.com/@DimensionalImaging",
+    "facebook": "https://www.facebook.com/DimensionalImaging/",
+    "linkedin": "https://www.linkedin.com/company/di4d"
+  },
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],

@@ -1,0 +1,14 @@
+{
+  "id": "igniter",
+  "name": "Igniter",
+  "slug": "igniter",
+  "company_id": "krotos-audio",
+  "status": "active",
+  "short_description": "Design vehicle sounds in seconds.",
+  "features": [],
+  "website": "https://www.krotosaudio.com/igniter/",
+  "video": {
+    "type": "youtube",
+    "id": "3beG832loc8"
+  }
+}

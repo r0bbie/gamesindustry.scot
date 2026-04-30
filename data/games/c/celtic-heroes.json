@@ -1,0 +1,47 @@
+{
+  "id": "celtic-heroes",
+  "title": "Celtic Heroes",
+  "slug": "celtic-heroes",
+  "short_description": "Are you looking for that classic MMORPG vibe? Whether you're a minmaxer strategizing every detail for maximum efficiency, a savvy fashion collector in search of the most stunning outfits, or even someone who enjoys the journey of casual leveling, Celtic Heroes opens its gates to you!",
+  "status": "released",
+  "release_date": "2011-06-16",
+  "companies": {
+    "developer": [
+      "one-thumb-mobile"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "mmo",
+    "rpg"
+  ],
+  "platforms": [
+    "ios",
+    "android",
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "9FeoWPKoTXo"
+  },
+  "stores": {
+    "website": "https://www.celtic-heroes.com/",
+    "play_store": "https://play.google.com/store/apps/details?id=com.onethumbmobile.celticheroes",
+    "app_store": "https://apps.apple.com/us/app/celtic-heroes-mobile-mmorpg/id431837446",
+    "steam": "2829820"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/celtic-heroes/cover.webp"
+}
