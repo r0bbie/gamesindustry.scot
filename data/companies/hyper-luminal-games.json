@@ -16,7 +16,7 @@
   "logo": "/images/companies/hyper-luminal-games/full_logo.svg",
   "icon": "/images/companies/hyper-luminal-games/icon.png",
   "logo_bg": "light",
-  "highlighted": false,
+  "highlighted": true,
   "links": {
     "twitter": "hyperluminaluk",
     "bluesky": "hyperluminalgames.com",

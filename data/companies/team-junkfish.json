@@ -15,7 +15,7 @@
   "website": "http://www.teamjunkfish.com/",
   "logo": null,
   "icon": "/images/companies/team-junkfish/icon.webp",
-  "highlighted": false,
+  "highlighted": true,
   "links": {
     "linkedin": "https://www.linkedin.com/company/junkfish/",
     "twitter": "https://x.com/TeamJunkfish",

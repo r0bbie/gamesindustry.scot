@@ -3,14 +3,16 @@ import type { Company } from "@/lib/data";
 
 interface Props {
   company: Company;
+  hidden?: boolean;
 }
 
-const { company } = Astro.props;
+const { company, hidden } = Astro.props;
 const iconBg = company.logo_bg === "light" ? "bg-white" : company.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted";
 ---
 
 <a
   href={`/companies/${company.slug}`}
+  hidden={hidden}
   class="group rounded-xl border border-border bg-card text-card-foreground shadow transition-colors hover:border-primary/30 hover:shadow-md"
 >
   <div class="flex flex-col p-5">

@@ -19,7 +19,7 @@
   "website": "https://www.kythera.ai",
   "logo": "/images/companies/kythera-ai/full_logo.webp",
   "logo_bg": "dark",
-  "highlighted": false,
+  "highlighted": true,
   "parent_entity": null,
   "company_size": null,
   "employee_count": null,

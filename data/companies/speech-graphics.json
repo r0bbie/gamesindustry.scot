@@ -24,7 +24,7 @@
   "website": "https://www.speech-graphics.com",
   "logo": "/images/companies/speech-graphics/full_logo.png",
   "logo_bg": "dark",
-  "highlighted": false,
+  "highlighted": true,
   "parent_entity": null,
   "company_size": "51-100",
   "employee_count": null,

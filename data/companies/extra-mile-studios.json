@@ -12,7 +12,7 @@
   "region": "glasgow-strathclyde",
   "website": "http://www.emstudios.co.uk/",
   "logo": "/images/companies/extra-mile-studios/full_logo.jpg",
-  "highlighted": false,
+  "highlighted": true,
   "parent_entity": {
     "name": "Reforged Studios"
   },

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import RandomPick from "@/components/RandomPick.astro";
 import { getAllCompanies, shuffleArray } from "@/lib/data";
 import { COMPANY_CATEGORIES, GITHUB_REPO } from "@/lib/constants";
 
@@ -7,12 +8,20 @@ const addCompanyUrl = `https://github.com/${GITHUB_REPO}/issues/new?template=new
 const companies = await getAllCompanies();
 const activeCompanies = companies.filter((c) => c.status === "active");
 
-const categorySections = COMPANY_CATEGORIES.map((cat) => ({
-  ...cat,
-  companies: shuffleArray(
-    activeCompanies.filter((c) => c.categories.includes(cat.id))
-  ).slice(0, 4),
-})).filter((cat) => cat.companies.length > 0);
+// For each category, ship a pool of up to POOL companies (highlighted first, then others)
+// and let RandomPick pick VISIBLE per visit on the client.
+const VISIBLE = 4;
+const POOL = 20;
+
+const categorySections = COMPANY_CATEGORIES.map((cat) => {
+  const matching = activeCompanies.filter((c) => c.categories.includes(cat.id));
+  const featured = shuffleArray(matching.filter((c) => c.highlighted));
+  const others = shuffleArray(matching.filter((c) => !c.highlighted));
+  return {
+    ...cat,
+    companies: [...featured, ...others].slice(0, POOL),
+  };
+}).filter((cat) => cat.companies.length > 0);
 ---
 
 <BaseLayout title="Companies">
@@ -64,10 +73,14 @@ const categorySections = COMPANY_CATEGORIES.map((cat) => ({
               View all {cat.name} &rarr;
             </a>
           </div>
-          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {cat.companies.map((company) => (
+          <RandomPick
+            show={VISIBLE}
+            class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4"
+          >
+            {cat.companies.map((company, i) => (
               <a
                 href={`/companies/${company.slug}`}
+                hidden={i >= VISIBLE}
                 class="group rounded-xl border border-border bg-card p-4 transition-colors hover:border-primary/30 hover:bg-accent/50"
               >
                 <div class={`mb-3 flex h-12 w-12 items-center justify-center rounded-lg ${company.logo_bg === "light" ? "bg-white" : company.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted"}`}>
@@ -98,7 +111,7 @@ const categorySections = COMPANY_CATEGORIES.map((cat) => ({
                 )}
               </a>
             ))}
-          </div>
+          </RandomPick>
         </section>
       ))
     }

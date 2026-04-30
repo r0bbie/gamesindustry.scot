@@ -15,7 +15,7 @@
   "website": "https://sgda.co.uk",
   "logo": "/images/companies/sgda/icon.png",
   "logo_bg": "light",
-  "highlighted": false,
+  "highlighted": true,
   "links": {
     "twitter": "https://x.com/scotgamedev",
     "linkedin": "https://uk.linkedin.com/company/scotgamedev"

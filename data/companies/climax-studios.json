@@ -18,7 +18,7 @@
   ],
   "website": "https://www.climaxstudios.com",
   "logo": "/images/companies/climax-studios/icon.png",
-  "highlighted": false,
+  "highlighted": true,
   "parent_entity": {
     "name": "Keywords Studios",
     "url": "https://www.keywordsstudios.com"

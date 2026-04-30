@@ -12,7 +12,7 @@
   "website": "https://www.adinmo.com",
   "icon": "/images/companies/adinmo/icon.jpg",
   "logo": null,
-  "highlighted": false,
+  "highlighted": true,
   "company_size": "2-10",
   "short_description": "AdInMo's InGamePlay monetization platform is built on a deep understanding of player behaviours and creates value from every immersive in-game ad experience",
   "legal_entities": [

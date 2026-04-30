@@ -18,7 +18,7 @@
   "about": "Krotos is an AI-assisted sound technology company. As sound becomes a core part of how stories are created and experienced, they build tools that make sound design faster, clearer, and more expressive.\n\nHaving introduced performance-based sound creation software used across film, TV and games, including global productions such as Game of Thrones, Avengers: Age of Ultron and Stranger Things. Today, their work spans AI-assisted workflows for Foley, sound effects, ambiences, vehicles, crowds and music textures, using real recorded samples to ensure natural, production-ready results.\n\nWith their Krotos Studio platform and video to sound technology, creators can analyse a clip and generate a synchronised, editable sound bed in seconds, then refine timing, intensity and creative direction with full control. These tools integrate directly into major DAWs and NLEs, helping professionals and editors work at production speed without compromising craft.",
   "website": "https://www.krotosaudio.com",
   "icon": "/images/companies/krotos-audio/icon.jpg",
-  "highlighted": false,
+  "highlighted": true,
   "parent_entity": null,
   "company_size": "11-50",
   "employee_count": null,

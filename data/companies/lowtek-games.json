@@ -12,7 +12,7 @@
   "region": "dundee-tayside",
   "website": "https://lowtek.games",
   "logo": "/images/companies/lowtek-games/full_logo.gif",
-  "highlighted": false,
+  "highlighted": true,
   "company_size": "1",
   "links": {
     "bluesky": "alastairlow.bsky.social",

@@ -18,7 +18,7 @@
   "about": "Mercuna is an Edinburgh-based middleware company specialising in navigation solutions for game developers. Their technology provides robust pathfinding and movement AI for characters and objects in 2D, 3D, and flying environments, used across a wide range of game genres and engines.",
   "website": "https://mercuna.com",
   "logo": "/images/companies/mercuna/full_logo.jpg",
-  "highlighted": false,
+  "highlighted": true,
   "parent_entity": null,
   "company_size": "2-10",
   "employee_count": null,

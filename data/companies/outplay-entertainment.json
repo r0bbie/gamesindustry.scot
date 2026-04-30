@@ -14,7 +14,7 @@
   "website": "https://www.outplay.com",
   "contact_email": "info@outplay.com",
   "logo": "/images/companies/outplay-entertainment/full_logo.webp",
-  "highlighted": false,
+  "highlighted": true,
   "legal_entities": [
     {
       "uk_registered_name": "Outplay Entertainment Limited",

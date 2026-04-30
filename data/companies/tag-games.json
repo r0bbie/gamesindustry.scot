@@ -11,7 +11,7 @@
   "website": "https://www.tag-games.com",
   "logo": "/images/companies/tag-games/full_logo.webp",
   "logo_bg": "dark",
-  "highlighted": false,
+  "highlighted": true,
   "short_description": "Dundee free-to-play mobile studio — 60+ published titles; acquired by Scopely in 2023",
   "about": "One of Europe's leading game development studios and specialists in free-to-play mobile, with over 60 published titles. Acquired by Scopely in 2023.",
   "parent_entity": {

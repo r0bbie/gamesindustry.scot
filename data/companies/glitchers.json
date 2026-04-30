@@ -21,7 +21,7 @@
   "website": "https://glitchers.com",
   "logo": "/images/companies/glitchers/full_logo.svg",
   "logo_bg": "dark",
-  "highlighted": false,
+  "highlighted": true,
   "parent_entity": null,
   "company_size": "2-10",
   "employee_count": null,

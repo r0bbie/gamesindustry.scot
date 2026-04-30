@@ -3,6 +3,7 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import CompanyCard from "@/components/home/CompanyCard.astro";
 import GameCard from "@/components/home/GameCard.astro";
 import EventCard from "@/components/home/EventCard.astro";
+import RandomPick from "@/components/RandomPick.astro";
 import RippleGrid from "@/components/ui/RippleGrid";
 import { BrokenLink } from "@/components/ui/broken-link";
 import { SITE_TITLE } from "@/lib/constants";
@@ -22,10 +23,12 @@ const allCompanies = await getAllCompanies();
 const allGames = await getPublicGames();
 const allEvents = await getAllEvents();
 
-// Studio Highlight: highlighted companies, shuffled, max 4
+// Studio Highlight: shuffled pool of up to 20 highlighted companies; client-side picks 4 per visit
+const STUDIO_HIGHLIGHT_VISIBLE = 4;
+const STUDIO_HIGHLIGHT_POOL = 20;
 const highlightedCompanies = shuffleArray(
   allCompanies.filter((c) => c.highlighted)
-).slice(0, 4);
+).slice(0, STUDIO_HIGHLIGHT_POOL);
 
 // New Releases: released games, most recently launched first, max 5
 // Uses start of release_period (not end) so ongoing titles don't float up
@@ -382,11 +385,14 @@ const sections = [
             View all &rarr;
           </a>
         </div>
-        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {highlightedCompanies.map((company) => (
-            <CompanyCard company={company} />
+        <RandomPick
+          show={STUDIO_HIGHLIGHT_VISIBLE}
+          class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4"
+        >
+          {highlightedCompanies.map((company, i) => (
+            <CompanyCard company={company} hidden={i >= STUDIO_HIGHLIGHT_VISIBLE} />
           ))}
-        </div>
+        </RandomPick>
       </div>
     </section>
   )}
