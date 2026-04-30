@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Utility pages — useful in-app, not useful in search results.
+Disallow: /search/
+Disallow: /links/
+Disallow: /companies/map/
+
+Sitemap: https://gamesindustry.scot/sitemap-index.xml

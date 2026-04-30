@@ -7,12 +7,61 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "@/lib/constants";
 interface Props {
   title: string;
   description?: string;
+  /** Absolute URL or root-relative path for the OG/Twitter card image. Defaults to /og-default.png. */
+  image?: string;
+  /** Alt text for the OG/Twitter card image. */
+  imageAlt?: string;
+  /** og:type. Use "article" for posts/news, "profile" for people. Defaults to "website". */
+  ogType?: "website" | "article" | "profile";
+  /** When true, emit a noindex robots meta tag. Use for utility/redirect pages. */
+  noindex?: boolean;
+  /** ISO 8601 date string. Emitted as article:published_time on article-type pages. */
+  publishedTime?: string;
+  /** Optional structured-data JSON-LD object (or array of objects) injected into <head>. */
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const { title, description } = Astro.props;
+const {
+  title,
+  description,
+  image,
+  imageAlt,
+  ogType = "website",
+  noindex = false,
+  publishedTime,
+  jsonLd,
+} = Astro.props;
+
 const fullTitle = title === SITE_TITLE ? title : `${title} | ${SITE_TITLE}`;
 const desc = description ?? SITE_DESCRIPTION;
 const canonicalURL = new URL(Astro.url.pathname, SITE_URL);
+
+/** Resolve an OG image URL against the site origin. Returns the default if blank. */
+function resolveImage(maybeUrl: string | undefined): string {
+  const fallback = `${SITE_URL}/og-default.png`;
+  if (!maybeUrl) return fallback;
+  if (/^https?:\/\//i.test(maybeUrl)) return maybeUrl;
+  try {
+    return new URL(maybeUrl, SITE_URL).toString();
+  } catch {
+    return fallback;
+  }
+}
+
+const resolvedImage = resolveImage(image);
+const resolvedImageAlt =
+  imageAlt ?? (image ? title : `${SITE_TITLE} — ${SITE_DESCRIPTION}`);
+
+// Sitewide WebSite structured data (search engines key off this for sitelinks).
+const websiteJsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_TITLE,
+  url: SITE_URL,
+  description: SITE_DESCRIPTION,
+};
+
+const extraJsonLd = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
 ---
 
 <html lang="en">
@@ -25,16 +74,28 @@ const canonicalURL = new URL(Astro.url.pathname, SITE_URL);
 
     <title>{fullTitle}</title>
     <meta name="description" content={desc} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={desc} />
     <meta property="og:site_name" content={SITE_TITLE} />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:image" content={resolvedImage} />
+    <meta property="og:image:alt" content={resolvedImageAlt} />
+    {publishedTime && <meta property="article:published_time" content={publishedTime} />}
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={resolvedImage} />
+    <meta name="twitter:image:alt" content={resolvedImageAlt} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(websiteJsonLd)} />
+    {extraJsonLd.map((entry) => (
+      <script type="application/ld+json" set:html={JSON.stringify(entry)} />
+    ))}
 
     <!-- RSS autodiscovery -->
     <link rel="alternate" type="application/rss+xml" title="Scottish Games Industry — Events" href="/rss/events.xml" />

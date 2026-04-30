@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getAllEvents, safeGetCompany, safeGetSchool } from "@/lib/data";
-import { EVENT_TAGS, GITHUB_REPO } from "@/lib/constants";
+import { EVENT_TAGS, GITHUB_REPO, SITE_URL } from "@/lib/constants";
 import { BrokenLink } from "@/components/ui/broken-link";
 
 export async function getStaticPaths() {
@@ -71,11 +71,53 @@ const editUrl = event.recurring
   : `https://github.com/${GITHUB_REPO}/edit/main/data/events/${event.slug}.json`;
 const gcalUrl = googleCalendarUrl(event);
 const displayLocation = event.is_online ? "Online" : (event.location ?? "TBC");
+
+// SEO metadata
+const ogImage = event.image
+  ? (event.image.startsWith("http") ? event.image : `${SITE_URL}${event.image}`)
+  : undefined;
+
+const seoDescription = event.short_description
+  ?? `${event.name} — an event for the Scottish games industry${event.date_start ? ` on ${formatDate(event.date_start)}` : ""}.`;
+
+// schema.org Event markup. Helps Google show this in events-related rich
+// results, including the date / location / organiser.
+const eventJsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  name: event.name,
+  url: `${SITE_URL}/events/${event.slug}`,
+  ...(event.date_start ? { startDate: event.date_start } : {}),
+  ...(event.date_end ? { endDate: event.date_end } : {}),
+  eventAttendanceMode: event.is_online
+    ? "https://schema.org/OnlineEventAttendanceMode"
+    : "https://schema.org/OfflineEventAttendanceMode",
+  ...(event.short_description ? { description: event.short_description } : {}),
+  ...(ogImage ? { image: ogImage } : {}),
+  ...(event.is_online
+    ? { location: { "@type": "VirtualLocation", url: event.url ?? `${SITE_URL}/events/${event.slug}` } }
+    : event.location
+      ? { location: { "@type": "Place", name: event.location, address: { "@type": "PostalAddress", addressLocality: event.location, addressCountry: "GB" } } }
+      : {}),
+  ...(company || school || event.organiser_name
+    ? {
+        organizer: {
+          "@type": "Organization",
+          name: company?.name ?? school?.name ?? event.organiser_name,
+          ...(company ? { url: `${SITE_URL}/companies/${company.slug}` } : {}),
+          ...(school ? { url: `${SITE_URL}/education/schools/${school.slug}` } : {}),
+        },
+      }
+    : {}),
+};
 ---
 
 <BaseLayout
   title={event.name}
-  description={event.short_description ?? `${event.name} — an event for the Scottish games industry.`}
+  description={seoDescription}
+  image={ogImage}
+  imageAlt={`${event.name} event image`}
+  jsonLd={eventJsonLd}
 >
   <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
     <!-- Breadcrumb -->

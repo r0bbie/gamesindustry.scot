@@ -10,6 +10,7 @@ import {
   getDisciplineName,
   buildSocialUrl,
   GITHUB_REPO,
+  SITE_URL,
 } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import TeamCard from "@/components/education/TeamCard.astro";
@@ -85,9 +86,43 @@ const distinctLevelGroups = [feCourses, undergradCourses, postgradCourses].filte
 );
 const hasMultipleGroups = distinctLevelGroups.length > 1;
 const iconBg = school.logo_bg === "light" ? "bg-white" : school.logo_bg === "dark" ? "bg-zinc-900" : "bg-muted";
+
+// SEO metadata
+const seoDescription = school.about?.trim()
+  ? school.about.replace(/\s+/g, " ").slice(0, 200)
+  : `${school.name} — games-related education in Scotland.`;
+const ogImagePath = school.icon ?? school.logo ?? null;
+const ogImage = ogImagePath
+  ? (ogImagePath.startsWith("http") ? ogImagePath : `${SITE_URL}${ogImagePath}`)
+  : undefined;
+
+const schoolJsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": school.institution_type === "university" ? "CollegeOrUniversity" : "EducationalOrganization",
+  name: school.name,
+  url: `${SITE_URL}/education/schools/${school.slug}`,
+  ...(ogImage ? { logo: ogImage, image: ogImage } : {}),
+  ...(school.about ? { description: school.about } : {}),
+  ...(school.website ? { sameAs: [school.website, ...socialLinks.map((l) => l.url)].filter(Boolean) } : {}),
+  ...(school.hq
+    ? {
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: school.hq,
+          addressCountry: "GB",
+        },
+      }
+    : {}),
+};
 ---
 
-<BaseLayout title={school.name}>
+<BaseLayout
+  title={school.name}
+  description={seoDescription}
+  image={ogImage}
+  imageAlt={`${school.name} logo`}
+  jsonLd={schoolJsonLd}
+>
   <!-- Header -->
   <section class="border-b border-border bg-card">
     <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">

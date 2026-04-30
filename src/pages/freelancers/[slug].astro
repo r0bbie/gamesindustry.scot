@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getAllFreelancers } from "@/lib/data";
-import { getDisciplineName, buildSocialUrl, GITHUB_REPO } from "@/lib/constants";
+import { getDisciplineName, buildSocialUrl, GITHUB_REPO, SITE_URL } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import ObfuscatedEmail from "@/components/ObfuscatedEmail.astro";
 import TestimonialsCarousel from "@/components/freelancers/TestimonialsCarousel.astro";
@@ -77,9 +77,51 @@ const socialLinks = SOCIAL_ORDER.filter(
 }));
 
 const editUrl = `https://github.com/${GITHUB_REPO}/edit/main/data/freelancers/${freelancer.id}.json`;
+
+// SEO metadata
+const disciplineLabels = [
+  getDisciplineName(freelancer.discipline),
+  ...(freelancer.additional_disciplines ?? []).map((d) => getDisciplineName(d)),
+];
+const seoDescription =
+  (freelancer.short_bio ?? "").trim() ||
+  `${freelancer.name} — freelance ${disciplineLabels.join(" / ")}${freelancer.location ? ` based in ${freelancer.location}` : ""}.`;
+
+const ogImage = freelancer.photo
+  ? (freelancer.photo.startsWith("http") ? freelancer.photo : `${SITE_URL}${freelancer.photo}`)
+  : undefined;
+
+// schema.org Person markup. Helps search engines understand this is a
+// person profile and surface them for skill/discipline queries.
+const personJsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: freelancer.name,
+  url: `${SITE_URL}/freelancers/${freelancer.slug}`,
+  jobTitle: disciplineLabels.join(", "),
+  ...(ogImage ? { image: ogImage } : {}),
+  ...(freelancer.short_bio ? { description: freelancer.short_bio } : {}),
+  ...(freelancer.website ? { sameAs: [freelancer.website, ...socialLinks.map((l) => l.url)].filter(Boolean) } : {}),
+  ...(freelancer.location
+    ? {
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: freelancer.location,
+          addressCountry: "GB",
+        },
+      }
+    : {}),
+};
 ---
 
-<BaseLayout title={freelancer.name}>
+<BaseLayout
+  title={freelancer.name}
+  description={seoDescription}
+  image={ogImage}
+  imageAlt={`${freelancer.name} — ${disciplineLabels[0]}`}
+  ogType="profile"
+  jsonLd={personJsonLd}
+>
   <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
     <div class="mb-8 flex flex-col items-center text-center sm:flex-row sm:items-start sm:text-left">
       <div class="mb-4 flex h-24 w-24 shrink-0 items-center justify-center rounded-full bg-muted sm:mb-0 sm:mr-6">

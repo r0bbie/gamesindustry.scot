@@ -15,6 +15,7 @@ import {
   buildDatabaseUrl,
   getAwardStatusLabel,
   GITHUB_REPO,
+  SITE_URL,
 } from "@/lib/constants";
 import PlatformIcons from "@/components/games/PlatformIcons.astro";
 import StoreLinks from "@/components/games/StoreLinks.astro";
@@ -148,11 +149,66 @@ const searchSummary = (() => {
   ].filter(Boolean);
   return parts.join(" · ") || "Game from Scotland";
 })();
+
+// SEO metadata
+const seoDescription = game.short_description?.trim()
+  || (primaryDev?.name
+    ? `${game.title} — ${statusLabels[game.status] ?? "a game"} by ${primaryDev.name}.`
+    : `${game.title} — a game made in Scotland.`);
+
+const ogImage = game.cover_image
+  ? (game.cover_image.startsWith("http") ? game.cover_image : `${SITE_URL}${game.cover_image}`)
+  : undefined;
+
+// schema.org VideoGame markup. Improves rich-result eligibility on Google
+// (genre, platform, developer, publisher, release date).
+const videoGameJsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  name: game.title,
+  url: `${SITE_URL}/games/${game.slug}`,
+  ...(ogImage ? { image: ogImage } : {}),
+  ...(game.short_description ? { description: game.short_description } : {}),
+  ...(game.genres?.length ? { genre: game.genres } : {}),
+  ...(game.platforms?.length ? { gamePlatform: game.platforms } : {}),
+  ...(game.release_date && /^\d{4}-\d{2}-\d{2}$/.test(game.release_date)
+    ? { datePublished: game.release_date }
+    : {}),
+  ...(developers.length
+    ? {
+        author: developers.map((d) => ({
+          "@type": "Organization",
+          name: d.company?.name ?? d.name,
+          ...(d.company?.slug
+            ? { url: `${SITE_URL}/companies/${d.company.slug}` }
+            : d.url
+              ? { url: d.url }
+              : {}),
+        })),
+      }
+    : {}),
+  ...(publishers.length
+    ? {
+        publisher: publishers.map((p) => ({
+          "@type": "Organization",
+          name: p.company?.name ?? p.name,
+          ...(p.company?.slug
+            ? { url: `${SITE_URL}/companies/${p.company.slug}` }
+            : p.url
+              ? { url: p.url }
+              : {}),
+        })),
+      }
+    : {}),
+};
 ---
 
 <BaseLayout
   title={game.title}
-  description={game.short_description ?? `${game.title} — a game made in Scotland.`}
+  description={seoDescription}
+  image={ogImage}
+  imageAlt={`${game.title} cover art`}
+  jsonLd={videoGameJsonLd}
 >
   <span data-pagefind-meta="summary" hidden>{searchSummary}</span>
   <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">

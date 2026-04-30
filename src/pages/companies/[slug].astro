@@ -25,6 +25,7 @@ import {
   getAwardStatusLabel,
   getDisciplineName,
   GITHUB_REPO,
+  SITE_URL,
 } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { BrokenLink } from "@/components/ui/broken-link";
@@ -256,9 +257,47 @@ const recentNews = companyNews.slice(0, 5);
 const searchSummary =
   (company.short_description ?? "").trim() ||
   getCategorySingularName(categories[0] ?? "");
+
+// SEO metadata
+const seoDescription =
+  (company.short_description ?? "").trim() ||
+  `${company.name} — ${getCategorySingularName(categories[0] ?? "")}${company.location ? ` based in ${company.location}` : ""}.`;
+
+const ogImagePath = company.icon ?? company.logo ?? null;
+const ogImage = ogImagePath
+  ? (ogImagePath.startsWith("http") ? ogImagePath : `${SITE_URL}${ogImagePath}`)
+  : undefined;
+
+// schema.org Organization markup. Helps Google build a knowledge panel
+// (logo, founded, location, social profiles) for the company.
+const organizationJsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: company.name,
+  url: `${SITE_URL}/companies/${company.slug}`,
+  ...(company.website ? { sameAs: [company.website, ...Object.values(company.links ?? {})].filter(Boolean) } : {}),
+  ...(ogImage ? { logo: ogImage, image: ogImage } : {}),
+  ...(company.short_description ? { description: company.short_description } : {}),
+  ...(company.founded ? { foundingDate: String(company.founded) } : {}),
+  ...(company.location
+    ? {
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: company.location,
+          addressCountry: "GB",
+        },
+      }
+    : {}),
+};
 ---
 
-<BaseLayout title={company.name}>
+<BaseLayout
+  title={company.name}
+  description={seoDescription}
+  image={ogImage}
+  imageAlt={`${company.name} logo`}
+  jsonLd={organizationJsonLd}
+>
   <span data-pagefind-meta="summary" hidden>{searchSummary}</span>
   <!-- Hero -->
   <section class="border-b border-border bg-card">
