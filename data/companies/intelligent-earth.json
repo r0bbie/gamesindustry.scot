@@ -6,10 +6,19 @@
     "tooling"
   ],
   "status": "defunct",
-  "location": "Dundee",
-  "region": "dundee-tayside",
+  "founded": 2000,
+  "previously_known_as": [],
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
+  "short_description": "Provided artificial intelligence software and hardware systems, including their HOLOS for games product.",
+  "about": "Founded in Edinburgh in 2000, Intelligent Earth supplied artificial intelligence software and hardware systems, including their HOLOS for games product.",
   "website": "http://www.intelligent-earth.com/",
-  "logo": null,
+  "logo": "/images/companies/intelligent-earth/full_logo.png",
+  "logo_bg": "light",
   "highlighted": false,
   "links": {},
   "use_tooling": [],
