@@ -1,0 +1,28 @@
+{
+  "id": "sgda",
+  "name": "Scottish Game Developers Association",
+  "slug": "sgda",
+  "categories": [
+    "supporting_org"
+  ],
+  "status": "active",
+  "founded": 2011,
+  "previously_known_as": [
+    "IGDA Scotland"
+  ],
+  "short_description": "Champions Scottish game development through events, shared knowledge, a collective industry voice, and pathways into the sector.",
+  "about": "The Scottish Game Developers Association champions Scottish game development through events, shared knowledge, a collective industry voice, and pathways into the sector.\n\nIt also runs the SGDA Games Accelerator and Games Talks Live events.",
+  "website": "https://sgda.co.uk",
+  "logo": "/images/companies/sgda/icon.png",
+  "logo_bg": "light",
+  "highlighted": false,
+  "links": {
+    "twitter": "https://x.com/scotgamedev",
+    "linkedin": "https://uk.linkedin.com/company/scotgamedev"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}
