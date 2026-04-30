@@ -5,16 +5,36 @@
   "categories": [
     "service_provider"
   ],
-  "status": "active",
+  "status": "defunct",
+  "founded": 2014,
   "location": "Edinburgh",
   "region": "edinburgh-lothian",
   "website": "http://www.solidaudioworks.com/",
-  "logo": null,
+  "logo": "/images/companies/solid-audioworks/full_logo.webp",
+  "logo_bg": "dark",
   "highlighted": false,
-  "links": {},
+  "company_size": "2-10",
+  "short_description": "Former Rockstar Grand Theft Auto audio duo; two-person game audio partnership founded 2014. Score, dialogue, sound design and implementation",
+  "about": "Craig Conner and Will Morton, former members of the audio team behind Rockstar Games' Grand Theft Auto franchise, are Solid Audioworks - an audio production partnership offering a combined 30 years of ground and sound-breaking expertise. Their talent, passion and insight in game audio content includes score, dialogue, sound design and implementation.",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/solid-audioworks"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Solid Audioworks Limited",
+      "companies_house_number": "SC484357"
+    }
+  ],
   "use_tooling": [],
   "employee_stats": {},
   "key_people": [],
   "awards": [],
-  "news": []
+  "news": [
+    {
+      "title": "Ex Rockstar Audio Staff Form Solid Audioworks",
+      "publication": "Scottish Games Network",
+      "date": "2014-10-03",
+      "url": "https://scottishgames.net/2014/10/03/ex-rockstar-audio-staff-form-solid-audioworks/"
+    }
+  ]
 }
