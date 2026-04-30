@@ -32,7 +32,11 @@ const {
   jsonLd,
 } = Astro.props;
 
-const fullTitle = title === SITE_TITLE ? title : `${title} | ${SITE_TITLE}`;
+// Skip the " | Scottish Games Industry" suffix when the page title already
+// leads with the site name (e.g. the homepage's descriptive title).
+const fullTitle = title === SITE_TITLE || title.startsWith(`${SITE_TITLE} `)
+  ? title
+  : `${title} | ${SITE_TITLE}`;
 const desc = description ?? SITE_DESCRIPTION;
 const canonicalURL = new URL(Astro.url.pathname, SITE_URL);
 
