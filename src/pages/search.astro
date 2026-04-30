@@ -90,6 +90,23 @@ const searchIndex = [
       link.onerror = function () {};
       document.head.appendChild(link);
 
+      // Map Pagefind UI's theme variables onto the site's existing tokens so
+      // it tracks the .dark class on <html>. Appended *after* the Pagefind
+      // stylesheet so our values win on the cascade — same-specificity rules
+      // are resolved by DOM order, not load order.
+      var themeStyle = document.createElement("style");
+      themeStyle.textContent = [
+        ":root {",
+        "  --pagefind-ui-primary: var(--primary);",
+        "  --pagefind-ui-text: var(--foreground);",
+        "  --pagefind-ui-background: var(--background);",
+        "  --pagefind-ui-border: var(--border);",
+        "  --pagefind-ui-tag: var(--muted);",
+        "  --pagefind-ui-border-radius: 0.5rem;",
+        "}",
+      ].join("\n");
+      document.head.appendChild(themeStyle);
+
       function showFallback() {
         var el = document.getElementById("search-loading");
         if (el) el.remove();
