@@ -1,5 +1,5 @@
 export const SITE_TITLE = "Scottish Games Industry";
-export const SITE_DESCRIPTION = "The comprehensive directory of the Scottish games industry. Discover game development studios, publishers, games, freelancers, jobs, events, and education.";
+export const SITE_DESCRIPTION = "The open directory of the Scottish games industry. Discover game development studios, publishers, games, freelancers, jobs, events, and education.";
 export const SITE_URL = "https://gamesindustry.scot";
 export const GITHUB_REPO = "r0bbie/gamesindustry.scot";
 export const GITHUB_URL = `https://github.com/${GITHUB_REPO}`;
