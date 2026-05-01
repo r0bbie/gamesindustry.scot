@@ -36,6 +36,7 @@ import { join, dirname, resolve, basename } from "path";
 import { fileURLToPath } from "url";
 import sharp from "sharp";
 import { S3Client, PutObjectCommand, HeadObjectCommand } from "@aws-sdk/client-s3";
+import { loadDotEnv } from "./load-dotenv.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -46,23 +47,6 @@ const PUBLIC_BASE_URL = "https://media.gamesindustry.scot";
 const MAX_WIDTH = 600;
 const MAX_HEIGHT = 900;
 const WEBP_QUALITY = 85;
-
-async function loadEnv() {
-  try {
-    const envFile = await readFile(join(ROOT, ".env"), "utf-8");
-    for (const line of envFile.split("\n")) {
-      const trimmed = line.trim();
-      if (!trimmed || trimmed.startsWith("#")) continue;
-      const eqIdx = trimmed.indexOf("=");
-      if (eqIdx === -1) continue;
-      const key = trimmed.slice(0, eqIdx).trim();
-      const val = trimmed.slice(eqIdx + 1).trim().replace(/^["']|["']$/g, "");
-      if (!process.env[key]) process.env[key] = val;
-    }
-  } catch {
-    // No .env file — env vars may be set directly in the shell
-  }
-}
 
 function findGameFile(slug) {
   const letter = slug.charAt(0).toLowerCase();
@@ -182,7 +166,7 @@ async function main() {
     process.exit(1);
   }
 
-  await loadEnv();
+  await loadDotEnv(ROOT);
 
   const { R2_ACCOUNT_ID, R2_BUCKET_NAME, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY } = process.env;
 

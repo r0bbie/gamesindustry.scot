@@ -19,6 +19,7 @@
 import { readdir, readFile, writeFile, mkdir } from "fs/promises";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import { loadDotEnv } from "./load-dotenv.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -26,30 +27,11 @@ const GAMES_DIR = join(ROOT, "data/games");
 const CACHE_DIR = join(ROOT, "data/cache");
 const CACHE_FILE = join(CACHE_DIR, "critic-scores.json");
 
-const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
 const OPENCRITIC_HOST = "opencritic-api.p.rapidapi.com";
 const DELAY_MS = 300;
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
-}
-
-async function loadEnv() {
-  // Load .env file manually (no external dependencies)
-  try {
-    const envFile = await readFile(join(ROOT, ".env"), "utf-8");
-    for (const line of envFile.split("\n")) {
-      const trimmed = line.trim();
-      if (!trimmed || trimmed.startsWith("#")) continue;
-      const eqIdx = trimmed.indexOf("=");
-      if (eqIdx === -1) continue;
-      const key = trimmed.slice(0, eqIdx).trim();
-      const val = trimmed.slice(eqIdx + 1).trim().replace(/^["']|["']$/g, "");
-      if (!process.env[key]) process.env[key] = val;
-    }
-  } catch {
-    // No .env file — that's fine in CI where env vars are set directly
-  }
 }
 
 async function walkDir(dir) {
@@ -90,7 +72,7 @@ async function fetchOpenCritic(opencriticId, apiKey) {
 }
 
 async function main() {
-  await loadEnv();
+  await loadDotEnv(ROOT);
 
   const apiKey = process.env.RAPIDAPI_KEY;
 
