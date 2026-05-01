@@ -188,11 +188,11 @@ const sections = [
   <!-- Section Nav -->
   <section class="relative -mt-8 pb-10 z-10">
     <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-      <nav class="flex items-stretch gap-1 rounded-2xl border border-border bg-card/80 backdrop-blur-sm p-1.5 shadow-lg">
+      <nav class="flex flex-wrap items-stretch gap-1 rounded-2xl border border-border bg-card/80 backdrop-blur-sm p-1.5 shadow-lg">
         {sections.map((s) => (
           <a
             href={s.href}
-            class="group flex flex-1 flex-col items-center gap-1 rounded-xl px-2 py-3 text-center transition-all hover:bg-accent"
+            class="group flex grow basis-[30%] flex-col items-center gap-1 rounded-xl px-2 py-3 text-center transition-all hover:bg-accent min-[500px]:flex-1 min-[500px]:basis-0"
           >
             <!-- Icon -->
             <span class="flex h-7 w-7 items-center justify-center rounded-md bg-muted/60 text-muted-foreground transition-colors group-hover:bg-primary/10 group-hover:text-primary">
@@ -239,7 +239,7 @@ const sections = [
             View all &rarr;
           </a>
         </div>
-        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5 [&>*:nth-child(n+5)]:hidden sm:[&>*:nth-child(n+5)]:block">
           {newReleases.map((game, i) => (
             <GameCard game={game} developerName={newReleaseDevelopers[i]} />
           ))}
@@ -389,7 +389,7 @@ const sections = [
         </div>
         <RandomPick
           show={STUDIO_HIGHLIGHT_VISIBLE}
-          class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4"
+          class="grid grid-cols-2 gap-4 lg:grid-cols-4"
         >
           {highlightedCompanies.map((company, i) => (
             <CompanyCard company={company} hidden={i >= STUDIO_HIGHLIGHT_VISIBLE} />
@@ -409,7 +409,7 @@ const sections = [
             View all &rarr;
           </a>
         </div>
-        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5 [&>*:nth-child(n+5)]:hidden sm:[&>*:nth-child(n+5)]:block">
           {upcomingGames.map((game, i) => (
             <GameCard game={game} developerName={upcomingDevelopers[i]} />
           ))}
