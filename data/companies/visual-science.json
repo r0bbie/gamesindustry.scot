@@ -1,0 +1,44 @@
+{
+  "id": "visual-science",
+  "name": "Visual Science",
+  "slug": "visual-science",
+  "categories": [
+    "developer"
+  ],
+  "previously_known_as": [
+    "Visual Sciences"
+  ],
+  "status": "defunct",
+  "founded": 1993,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "website": "https://web.archive.org/web/20060115031819/http://www.vissci.com/",
+  "logo": "/images/companies/visual-science/visual-science-logo.png",
+  "highlighted": false,
+  "short_description": "Dundee developer founded in 1993 by Russell Kay (ex-DMA Design), worked with EA on titles including F1 2000; entered administration and closed in February 2006",
+  "company_size": "101-250",
+  "links": {
+    "wikipedia": "Visual_Science_(game_company)",
+    "linkedin": "https://www.linkedin.com/company/visual-science"
+  },
+  "additional_links": [
+    {
+      "label": "MobyGames",
+      "url": "https://www.mobygames.com/company/2261/visual-sciences-ltd/"
+    }
+  ],
+  "key_people": [
+    {
+      "name": "Russell Kay",
+      "title": "Managing Director"
+    }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": []
+}

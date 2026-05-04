@@ -1,0 +1,50 @@
+{
+  "id": "lemmings-paintball",
+  "title": "Lemmings Paintball",
+  "slug": "lemmings-paintball",
+  "short_description": "An isometric Lemmings spin-off where you splatter enemies with paint from a gun, with puzzle elements across trap-filled levels.",
+  "description": "Unlike most of the other Lemmings games, it does not use a side-scrolling perspective but instead an isometric view of the levels. The gameplay is also very different from other Lemmings games, focusing on splattering enemies with paint from a gun. The levels contain various puzzles including moving platforms, lemming catapults, and trampolines. Objects available in the game include: Duplicator: Can be used to create additional lemmings up to the maximum amount of four. Can also replace lemmings killed in action. Switch: Can be used to open and close gates, lower platforms and so on. Gate: Gates block certain areas in a level. They can be opened using a switch or key. Keys can be found in exploding crates. Exploding crate: Contain a key or a catapult. Balloon: Can be used to transport a lemming through the air from one specific location to another.",
+  "release_date": "1996-05-31",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "visual-science"
+    ],
+    "publishers": [
+      {
+        "name": "Psygnosis",
+        "url": "https://en.wikipedia.org/wiki/Psygnosis"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "action"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/lemmings-paintball/cover.webp",
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "uHIiCnVvcPA"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "lemmings-paintball",
+    "mobygames": "lemmings-paintball",
+    "wikipedia": "Lemmings_Paintball"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

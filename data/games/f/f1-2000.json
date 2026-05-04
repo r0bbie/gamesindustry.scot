@@ -1,0 +1,49 @@
+{
+  "id": "f1-2000",
+  "title": "F1 2000",
+  "slug": "f1-2000",
+  "short_description": "Official FIA Formula One licence for the 2000 season on PlayStation, developed by Visual Science and published by EA Sports.",
+  "description": "F1 2000 allows you to take on the role of any of the 2000 FIA Formula One Championship drivers. All of the tracks used during the 2000 season are also included, even the US Grand Prix at Indianapolis. Championship, quick race, weekend and time trial are just some of the modes included in the game.",
+  "release_date": "2000-03-27",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "visual-science"
+    ],
+    "publishers": [
+      {
+        "name": "EA Sports",
+        "url": "https://en.wikipedia.org/wiki/EA_Sports"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ps1"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "eBIBfBnPwmI"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "f1-2000",
+    "mobygames": "f1-2000",
+    "wikipedia": "F1_2000_(video_game)"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/f1-2000/cover.webp"
+}

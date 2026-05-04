@@ -1,0 +1,49 @@
+{
+  "id": "formula-1-98",
+  "title": "Formula 1 98",
+  "slug": "formula-1-98",
+  "short_description": "PlayStation racing game based on the 1998 Formula One World Championship, developed by Visual Science and published by Psygnosis.",
+  "description": "Formula 1 98 is a racing game developed by Visual Science and published by Psygnosis for the PlayStation. It is the sequel to Formula 1 97 and follows the 1998 Formula One World Championship, with official circuits, teams, and drivers — the first Formula One series entry not also released for Windows.",
+  "release_date": "1998-10-30",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "visual-science"
+    ],
+    "publishers": [
+      {
+        "name": "Psygnosis",
+        "url": "https://en.wikipedia.org/wiki/Psygnosis"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "racing"
+  ],
+  "platforms": [
+    "ps1"
+  ],
+  "cover_image": "https://media.gamesindustry.scot/games/formula-1-98/cover.webp",
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "KvgtR99KUf4"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "formula-1-98",
+    "mobygames": "formula-1-98",
+    "wikipedia": "Formula_1_98"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

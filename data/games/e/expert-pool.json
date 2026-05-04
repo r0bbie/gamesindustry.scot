@@ -1,0 +1,49 @@
+{
+  "id": "expert-pool",
+  "title": "Expert Pool",
+  "slug": "expert-pool",
+  "short_description": "Windows billiards simulation from Visual Science and Psygnosis, with 3D graphics, LAN and internet multiplayer, and multiple pool venues.",
+  "description": "Expert Pool is a billiards simulation game that recreates the look, feel and atmosphere of a live pool game by combining 3D graphics, accurate physics, and real-time automated characters.",
+  "release_date": "1999-09-10",
+  "status": "released",
+  "companies": {
+    "developer": [
+      "visual-science"
+    ],
+    "publishers": [
+      {
+        "name": "Psygnosis",
+        "url": "https://en.wikipedia.org/wiki/Psygnosis"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "fhqLAKDQrzQ"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "expert-pool",
+    "mobygames": "7414/expert-pool",
+    "wikipedia": "Expert_Pool"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/expert-pool/cover.webp"
+}
