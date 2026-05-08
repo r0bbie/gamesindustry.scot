@@ -58,7 +58,7 @@ export async function getPublicGames(): Promise<Game[]> {
 
 export async function getAllFreelancers(): Promise<Freelancer[]> {
   const entries = await getCollection("freelancers");
-  return entries.map((e) => e.data);
+  return entries.map((e) => e.data).filter((f) => f.visible !== false);
 }
 
 export async function getAllJobs(): Promise<Job[]> {

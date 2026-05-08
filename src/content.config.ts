@@ -247,6 +247,7 @@ const freelancers = defineCollection({
       )
       .optional()
       .default([]),
+    visible: z.boolean().optional().default(true),
   }),
 });
 
