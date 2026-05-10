@@ -1,0 +1,16 @@
+{
+  "id": "theo-priestley",
+  "name": "Theo Priestley",
+  "slug": "theo-priestley",
+  "discipline": "writer",
+  "additional_disciplines": ["designer", "production"],
+  "bio": "I am a AAA and live-service experienced narrative designer, game writer, world builder, and lore wrangler – in essence, a Story Architect.\n\nI am also a screenwriter and a published author of non-fiction and speculative fiction.\n\nI've helped produce independent feature and short films, designed and written for tabletop and play-by-mail roleplaying games.\n\nSpecialties include narrative design, game writing, worldbuilding, screenwriting, tabletop RPG design, creative consulting, transmedia development, lore writing, branching dialogue, voice-over scripting and direction, story architecture, and storytelling.",
+  "short_bio": "AAA and live-service narrative designer, game writer and Story Architect — screenwriter and published author; film and tabletop RPG experience.",
+  "photo": "",
+  "website": "https://theopriestley.net",
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/theopriestley/"
+  }
+}
