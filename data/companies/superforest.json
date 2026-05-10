@@ -1,0 +1,31 @@
+{
+  "id": "superforest",
+  "name": "Superforest",
+  "slug": "superforest",
+  "categories": ["developer"],
+  "status": "active",
+  "founded": 2025,
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
+  "website": "https://superforest.org",
+  "logo": "/images/companies/superforest/full_logo.png",
+  "highlighted": false,
+  "company_size": "2-10",
+  "employee_count": 2,
+  "short_description": "A small Scottish studio exploring new worlds by making books & games to warm your soul",
+  "links": {
+    "bluesky": "superforest.org",
+    "instagram": "superforestltd",
+    "youtube": "https://www.youtube.com/@superforestinc",
+    "linkedin": "https://www.linkedin.com/company/superforestgames/"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}
