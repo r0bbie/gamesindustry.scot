@@ -1,0 +1,29 @@
+{
+  "id": "shouty-knot",
+  "name": "Shouty Knot",
+  "slug": "shouty-knot",
+  "categories": ["developer"],
+  "status": "active",
+  "founded": 2024,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "website": "https://www.shoutyknot.co.uk/",
+  "logo": "/images/companies/shouty-knot/full_logo.png",
+  "logo_bg": "dark",
+  "highlighted": false,
+  "company_size": "2-10",
+  "contact_email": "contact@shoutyknot.com",
+  "short_description": "Dundee indie working on their debut release Queen to Bee.",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/shouty-knot-games/"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

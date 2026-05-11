@@ -1,0 +1,28 @@
+{
+  "id": "fochram-arts",
+  "name": "Fochram Arts",
+  "slug": "fochram-arts",
+  "categories": ["developer"],
+  "status": "active",
+  "founded": 2025,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "website": "https://www.fochramarts.com/",
+  "logo": "/images/companies/fochram-arts/full_logo.png",
+  "logo_bg": "dark",
+  "highlighted": false,
+  "company_size": "2-10",
+  "short_description": "Indie studio building original IP for emerging platforms including WOWCube.",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/fochram-arts/"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

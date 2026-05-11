@@ -1,0 +1,31 @@
+{
+  "id": "jbsb-studios",
+  "name": "JBSB Studios",
+  "slug": "jbsb-studios",
+  "categories": ["developer"],
+  "status": "active",
+  "founded": 2024,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "website": "https://www.jbsbstudios.co.uk/",
+  "logo": "/images/companies/jbsb-studios/full_logo.png",
+  "logo_bg": "dark",
+  "highlighted": false,
+  "company_size": "2-10",
+  "short_description": "Small Dundee team committed to making engineering & science accessible through the power of gaming",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/jbsbstudios/",
+    "twitter": "RenewedTheGame",
+    "instagram": "renewedthegame",
+    "itch": "jbsb-studios"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

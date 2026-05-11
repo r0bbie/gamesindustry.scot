@@ -1,0 +1,43 @@
+{
+  "id": "queen-to-bee",
+  "title": "Queen to Bee",
+  "slug": "queen-to-bee",
+  "short_description": "A cozy resource management game where you play as the Queen Bee — build rooms, boost honey production, and care for your hive.",
+  "description": "A cozy resource management game where you play as the Queen Bee. Good decisions for your loyal subjects will go a long way, as well as taking the time to know each and every one! Build cute new rooms and boost your honey production for a healthy hive. Will you be the next Queen?",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "shouty-knot"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "simulation",
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Qxmzr_VFLO8"
+  },
+  "stores": {
+    "steam": "4426350"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/queen-to-bee/cover.webp"
+}

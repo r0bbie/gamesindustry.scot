@@ -1,0 +1,39 @@
+{
+  "id": "renewed-create-sustainable-power",
+  "title": "Renewed: Create Sustainable Power",
+  "slug": "renewed-create-sustainable-power",
+  "short_description": "A first-person tycoon sandbox simulator focused on renewable energy. Craft your turbines, unlock new tech, and transform the grid!",
+  "description": "A first-person tycoon sandbox simulator focused on renewable energy. Craft your turbines, unlock new tech, and transform the grid!",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "jbsb-studios"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation",
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://www.jbsbstudios.co.uk/renewable-energy-game",
+    "itch": "jbsb-studios.itch.io/renewed-create-sustainable-power"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/renewed-create-sustainable-power/cover.webp"
+}
