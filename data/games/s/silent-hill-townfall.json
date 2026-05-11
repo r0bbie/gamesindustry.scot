@@ -51,5 +51,6 @@
   },
   "awards": [],
   "news": [],
-  "is_student_game": false
+  "is_student_game": false,
+  "featured": true
 }

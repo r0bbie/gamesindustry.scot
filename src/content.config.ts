@@ -211,6 +211,8 @@ const games = defineCollection({
     is_student_game: z.boolean().optional().default(false),
     /** Force cover image to always fill/zoom regardless of aspect ratio. */
     cover_fill: z.boolean().optional().default(false),
+    /** When two upcoming games share the same date precision and value, featured ones sort first. */
+    featured: z.boolean().optional().default(false),
     tech: z
       .object({
         game_engine: z.string().optional(),

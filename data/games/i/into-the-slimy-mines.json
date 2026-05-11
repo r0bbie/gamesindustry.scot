@@ -40,5 +40,6 @@
   "awards": [],
   "news": [],
   "is_student_game": false,
+  "featured": true,
   "cover_image": "https://media.gamesindustry.scot/games/into-the-slimy-mines/cover.webp"
 }

@@ -68,15 +68,19 @@ export function upcomingSortKey(dateStr?: string | null): [number, number] {
   return [0, new Date(dateStr).getTime()]; // exact date
 }
 
-/** Compare two upcoming games by the precision-aware sort key. */
+/** Compare two upcoming games by the precision-aware sort key, with featured as tiebreaker. */
 export function compareUpcoming(
-  a: { release_date?: string },
-  b: { release_date?: string },
+  a: { release_date?: string; featured?: boolean },
+  b: { release_date?: string; featured?: boolean },
 ): number {
   const [ap, av] = upcomingSortKey(a.release_date);
   const [bp, bv] = upcomingSortKey(b.release_date);
   if (ap !== bp) return ap - bp;
-  return av - bv;
+  if (av !== bv) return av - bv;
+  // Same precision and value: featured games sort first
+  if (a.featured && !b.featured) return -1;
+  if (!a.featured && b.featured) return 1;
+  return 0;
 }
 
 /** Same rules as the game detail page for formatting a single date. */
