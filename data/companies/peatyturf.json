@@ -1,0 +1,36 @@
+{
+  "id": "peatyturf",
+  "name": "PeatyTurf",
+  "slug": "peatyturf",
+  "categories": ["developer"],
+  "status": "active",
+  "founded": 2022,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "website": "https://peatyturf.com/",
+  "logo": null,
+  "icon": "/images/companies/peatyturf/icon.jpg",
+  "highlighted": false,
+  "company_size": "2-10",
+  "contact_email": "info@peatyturf.com",
+  "short_description": "Indie team behind engineering parody game \"The Enjenir\"",
+  "links": {
+    "twitter": "TheEnjenir",
+    "linkedin": "https://www.linkedin.com/company/peatyturf/"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "PeatyTurf Ltd",
+      "companies_house_number": "SC753493"
+    }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

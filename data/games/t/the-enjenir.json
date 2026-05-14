@@ -1,0 +1,45 @@
+{
+  "id": "the-enjenir",
+  "title": "The Enjenir: The Engineering Physics Building Simulator",
+  "slug": "the-enjenir",
+  "short_description": "A gridless 3D sandbox physics building game with hilarious ragdoll third-person controls.",
+  "description": "Put your engineering and problem solving skills to the test in this sandbox physics building game! Enjoy the freedom of completely gridless 3D sandbox building combined with hilarious ragdoll third person controls, offering a truly unique and hilarious \"Enjeniring\" experience!",
+  "status": "released",
+  "release_date": "2023-12-18",
+  "companies": {
+    "developer": [
+      "peatyturf"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "simulation",
+    "casual"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "CIfNIySqsNg"
+  },
+  "stores": {
+    "steam": "1800940"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "the-enjenir"
+  },
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-enjenir/cover.webp"
+}
