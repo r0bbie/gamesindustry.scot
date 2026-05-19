@@ -1,0 +1,34 @@
+{
+  "id": "spectral-wrender",
+  "name": "Spectral Wrender",
+  "slug": "spectral-wrender",
+  "categories": ["developer"],
+  "status": "active",
+  "founded": 2022,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
+  "website": "https://www.spectralwrender.com",
+  "logo": null,
+  "icon": "/images/companies/spectral-wrender/icon.png",
+  "highlighted": false,
+  "contact_email": "hello@spectralwrender.com",
+  "short_description": "Science-driven company creating purpose-led interactive software and games at the intersection of technology, design, and life sciences",
+  "links": {
+    "crunchbase": "https://www.crunchbase.com/organization/spectral-wrender"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Spectral Wrender Ltd",
+      "companies_house_number": "SC732479"
+    }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}
