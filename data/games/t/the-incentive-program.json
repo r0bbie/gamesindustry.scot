@@ -1,0 +1,39 @@
+{
+  "id": "the-incentive-program",
+  "title": "The Incentive Program",
+  "slug": "the-incentive-program",
+  "short_description": "A strategic roguelike set in a surreal corporate nightmare — rig the odds, exploit the rules, and escape the program.",
+  "description": "A strategic roguelike set in a surreal corporate nightmare. You're paid to play, but you won't win. So rig the odds, exploit the rules, and escape the program.",
+  "status": "in_development",
+  "release_date": "2026",
+  "companies": {
+    "developer": [
+      "outplay-entertainment"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "roguelike",
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "4429290"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/the-incentive-program/cover.webp"
+}
