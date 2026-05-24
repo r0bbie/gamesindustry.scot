@@ -33,7 +33,8 @@
     "youtube": "@GLITCHers",
     "steam": "glitchers",
     "linkedin": "https://www.linkedin.com/company/glitchers",
-    "crunchbase": "glitche-rs"
+    "crunchbase": "glitche-rs",
+    "itch": "https://glitchers.itch.io"
   },
   "use_tooling": [
     "buildstash"

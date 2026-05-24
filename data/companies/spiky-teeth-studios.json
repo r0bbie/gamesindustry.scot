@@ -1,0 +1,41 @@
+{
+  "id": "spiky-teeth-studios",
+  "name": "Spiky Teeth Studios",
+  "slug": "spiky-teeth-studios",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2025,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "website": "https://spikyteethstudios.carrd.co",
+  "logo": null,
+  "icon": "/images/companies/spiky-teeth-studios/spiky-teeth-icon.jpg",
+  "highlighted": false,
+  "company_size": "2-10",
+  "short_description": "Indie studio beyond OVERCAT",
+  "about": "Dundee-based studio founded in 2025.",
+  "links": {
+    "twitter": "https://x.com/SPIKY_TEETH",
+    "linkedin": "https://www.linkedin.com/company/spikyteethstudios",
+    "bluesky": "spikyteethstudios.bsky.social",
+    "youtube": "https://www.youtube.com/@SPIKYTEETHSTUDIOS",
+    "instagram": "https://www.instagram.com/spikyteethstudios"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Spiky Teeth Studios Ltd",
+      "companies_house_number": "SC844234"
+    }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

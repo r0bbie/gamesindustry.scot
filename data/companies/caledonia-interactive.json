@@ -1,0 +1,35 @@
+{
+  "id": "caledonia-interactive",
+  "name": "Caledonia Interactive",
+  "slug": "caledonia-interactive",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "founded": 2017,
+  "location": "Black Isle",
+  "region": "highlands-islands",
+  "coordinates": {
+    "lat": 57.5882407,
+    "lng": -4.2543368
+  },
+  "website": "https://www.caledoniainteractive.com",
+  "logo": null,
+  "icon": "/images/companies/caledonia-interactive/caledonia-interactive-icon.jpg",
+  "highlighted": false,
+  "short_description": "Solo indie building games with Unreal Engine 5",
+  "about": "Solo indie building games with Unreal Engine 5",
+  "tech_stack": [
+    "Unreal Engine 5"
+  ],
+  "links": {
+    "twitter": "https://x.com/CaledoniaInt",
+    "bluesky": "caledoniaint.bsky.social",
+    "youtube": "https://www.youtube.com/@caledoniainteractive"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "blue-rider-interactive",
+  "name": "Blue Rider Interactive",
+  "slug": "blue-rider-interactive",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2023,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
+  "website": null,
+  "logo": "/images/companies/blue-rider-interactive/blue-rider-interactive-logo.png",
+  "icon": "/images/companies/blue-rider-interactive/blue-rider-interactive-logo.png",
+  "highlighted": false,
+  "company_size": "2-10",
+  "short_description": "Glasgow studio founded by Sean Wenham focused on creating dramatic third-person narrative experiences",
+  "about": "Glasgow studio founded by Sean Wenham in 2023. Focused on creating dramatic third-person narrative experiences within realistic, modern day settings.",
+  "links": {
+    "twitter": "https://x.com/SeanWenham1",
+    "press_kit": "https://impress.games/press-kit/blue-rider-interactive"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Blue Rider Interactive Ltd",
+      "companies_house_number": "SC748812"
+    }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [
+    {
+      "name": "Sean Wenham",
+      "title": "Founder"
+    }
+  ],
+  "awards": [],
+  "news": []
+}

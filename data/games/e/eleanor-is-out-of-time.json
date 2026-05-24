@@ -1,0 +1,42 @@
+{
+  "id": "eleanor-is-out-of-time",
+  "title": "Eleanor Is Out of Time",
+  "slug": "eleanor-is-out-of-time",
+  "short_description": "Jump through time in an instant with an unprecedented level of freedom in an open world. After crash landing in the distant past Eleanor must use her time travelling powers to piece together her broken ship, rescue her crew and navigate through alternate futures full of dangers.",
+  "description": "Jump through time in an instant with an unprecedented level of freedom in an open world. After crash landing in the distant past Eleanor must use her time travelling powers to piece together her broken ship, rescue her crew and navigate through alternate futures full of dangers.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "caledonia-interactive"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "adventure"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "JuzH1HLTlHo"
+  },
+  "stores": {
+    "steam": "3050970",
+    "epic": "eleanor-is-out-of-time-1c2ad5"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/eleanor-is-out-of-time/cover.webp"
+}

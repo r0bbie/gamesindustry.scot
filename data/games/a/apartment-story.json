@@ -1,0 +1,42 @@
+{
+  "id": "apartment-story",
+  "title": "Apartment Story",
+  "slug": "apartment-story",
+  "short_description": "A third-person thriller about three people and a gun in a single apartment. You play as 27 year old Arthur who must navigate escalating real-time narrative events whilst managing Sims-esq stats to stay strong for an inevitable showdown.",
+  "description": "A third-person thriller about three people and a gun in a single apartment. You play as 27 year old Arthur who must navigate escalating real-time narrative events whilst managing Sims-esq stats to stay strong for an inevitable showdown.",
+  "status": "released",
+  "release_date": "2024-09-26",
+  "companies": {
+    "developer": [
+      "blue-rider-interactive"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "thriller",
+    "narrative"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "press_kit_url": "https://impress.games/press-kit/blue-rider-interactive/apartment-story",
+  "video": {
+    "type": "youtube",
+    "id": "IIvlKPCmKEs"
+  },
+  "stores": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/apartment-story/cover.webp"
+}

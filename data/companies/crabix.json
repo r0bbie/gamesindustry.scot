@@ -1,0 +1,33 @@
+{
+  "id": "crabix",
+  "name": "Crabix",
+  "slug": "crabix",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2025,
+  "location": "Edinburgh",
+  "region": "edinburgh-lothian",
+  "coordinates": {
+    "lat": 55.9533,
+    "lng": -3.1883
+  },
+  "website": null,
+  "logo": null,
+  "icon": "/images/companies/crabix/crabix-icon.jpg",
+  "highlighted": false,
+  "company_size": "2-10",
+  "short_description": "Edinburgh studio working on Life Souls",
+  "about": "Edinburgh studio working on Life Souls",
+  "links": {
+    "linkedin": "https://www.linkedin.com/company/crabix",
+    "youtube": "https://www.youtube.com/@Crabix-ltd",
+    "twitter": "https://x.com/Crabix_ltd"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

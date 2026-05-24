@@ -1,0 +1,42 @@
+{
+  "id": "overcat",
+  "title": "OVERCAT",
+  "slug": "overcat",
+  "short_description": "OVERCAT is a 1v1 twin-stick fighting game, where competitive and casual players can finally have a fair fight!",
+  "description": "OVERCAT is a 1v1 twin-stick fighting game, where competitive and casual players can finally have a fair fight!",
+  "status": "released",
+  "release_date": "2026-03-12",
+  "companies": {
+    "developer": [
+      "spiky-teeth-studios"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "fighting"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "Zx3kJwLPQus"
+  },
+  "stores": {
+    "steam": "3954490"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/overcat/cover.webp"
+}

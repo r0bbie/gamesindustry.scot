@@ -1,0 +1,42 @@
+{
+  "id": "alastrius",
+  "title": "Alastrius",
+  "slug": "alastrius",
+  "short_description": "In this explosive on-the-rails shooter pilot powerful Star-Fighters and wage a vast interstellar war. Chart your own course across a galaxy of exotic sci-fi worlds as you carve a path to the Capital. Lay waste to hordes of enemy ships and bring down ruthless bosses. You are the Republics last hope!",
+  "description": "In this explosive on-the-rails shooter pilot powerful Star-Fighters and wage a vast interstellar war. Chart your own course across a galaxy of exotic sci-fi worlds as you carve a path to the Capital. Lay waste to hordes of enemy ships and bring down ruthless bosses. You are the Republics last hope!",
+  "status": "released",
+  "release_date": "2026-03-27",
+  "companies": {
+    "developer": [
+      "caledonia-interactive"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "shooter"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "-kSnsqODLrs"
+  },
+  "stores": {
+    "steam": "4177790"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/alastrius/cover.webp"
+}

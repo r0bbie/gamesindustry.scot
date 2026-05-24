@@ -1,0 +1,54 @@
+{
+  "id": "zoe-begone",
+  "title": "ZOE Begone!",
+  "slug": "zoe-begone",
+  "short_description": "A frenetic hand-drawn bullet hell shooter, blending run-and-gun mechanics with classic shmup action in looping arenas. Inspired by drawn-on-film animation of the 1930's - shoot, dash and pound your way through the Animator's creations.",
+  "description": "A frenetic hand-drawn bullet hell shooter, blending run-and-gun mechanics with classic shmup action in looping arenas. Inspired by drawn-on-film animation of the 1930's - shoot, dash and pound your way through the Animator's creations.",
+  "status": "released",
+  "release_date": "2025-09-17",
+  "companies": {
+    "developer": [
+      "retchy-games"
+    ],
+    "publishers": [
+      {
+        "name": "PM Studios",
+        "url": "https://www.pm-studios.com"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "shooter"
+  ],
+  "platforms": [
+    "pc",
+    "ps5",
+    "switch",
+    "xbox-series-xs"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "COVD9gDGlms"
+  },
+  "stores": {
+    "steam": "1266610",
+    "epic": "zoe-begone-3688c0",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/ZOE-Begone--2894309.html",
+    "psn": "https://store.playstation.com/en-gb/concept/10012728",
+    "xbox": "https://www.xbox.com/en-us/games/store/zoe-begone/9PG0H8B314XS"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/zoe-begone/cover.webp"
+}

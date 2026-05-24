@@ -1,0 +1,54 @@
+{
+  "id": "grave-gunner",
+  "title": "Grave Gunner",
+  "slug": "grave-gunner",
+  "short_description": "A fast-paced gothic arena FPS focusing on stellar game feel. Survive as a gunslinger against waves of monsters, utilising smooth and expressive movement, sliding, rocket jumping, and formidable duel handguns.",
+  "description": "A fast-paced gothic arena FPS focusing on stellar game feel. Survive as a gunslinger against waves of monsters, utilising smooth and expressive movement, sliding, rocket jumping, and formidable duel handguns.",
+  "status": "released",
+  "release_date": "2024-06-03",
+  "companies": {
+    "developer": [
+      "dire-quoll"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "fps",
+    "shooter"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "press_kit_url": "https://gravegunner.com/press-kit/",
+  "video": {
+    "type": "youtube",
+    "id": "plDJNJZtLrE"
+  },
+  "stores": {
+    "website": "https://gravegunner.com",
+    "steam": "2701900"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {
+    "backloggd": "grave-gunner"
+  },
+  "awards": [],
+  "news": [
+    {
+      "title": "OUT NOW: Grave Gunner – New From Dire Quoll",
+      "publication": "Scottish Games Network",
+      "date": "2024-07-30",
+      "url": "https://scottishgames.net/2024/07/30/out-now-grave-gunner-from-dire-quoll-on-steam/"
+    }
+  ],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/grave-gunner/cover.webp"
+}

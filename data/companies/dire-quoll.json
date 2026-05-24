@@ -1,0 +1,43 @@
+{
+  "id": "dire-quoll",
+  "name": "Dire Quoll",
+  "slug": "dire-quoll",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "founded": 2022,
+  "location": "Highlands",
+  "region": "highlands-islands",
+  "coordinates": {
+    "lat": 56.6469752,
+    "lng": -5.2724724
+  },
+  "website": "https://gravegunner.com",
+  "contact_email": "JDent@gravegunner.com",
+  "logo": null,
+  "icon": "/images/companies/dire-quoll/dire-quoll-icon.jpg",
+  "highlighted": false,
+  "short_description": "Highlands solo studio founded by Jonathan Dent, creators of Grave Gunner",
+  "about": "Dire Quoll is a solo developer based in the Scottish Highlands. Founded by Jonathan Dent in 2022, Dire Quoll's first commercial release is Grave Gunner.",
+  "links": {
+    "youtube": "https://www.youtube.com/@DireQuoll"
+  },
+  "key_people": [
+    {
+      "name": "Jonathan Dent",
+      "title": "Developer"
+    }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "awards": [],
+  "news": [
+    {
+      "title": "OUT NOW: Grave Gunner \u2013 New From Dire Quoll",
+      "publication": "Scottish Games Network",
+      "date": "2024-07-30",
+      "url": "https://scottishgames.net/2024/07/30/out-now-grave-gunner-from-dire-quoll-on-steam/"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "life-souls",
+  "title": "Life Souls",
+  "slug": "life-souls",
+  "short_description": "Life Souls is a cooperative roguelike for 1–6 players, featuring dynamic arena combat, free-form skill combinations, epic bosses, and permanent progression.",
+  "description": "Life Souls is a cooperative roguelike for 1–6 players, featuring dynamic arena combat, free-form skill combinations, epic bosses, and permanent progression.",
+  "status": "in_development",
+  "release_date": "2027",
+  "companies": {
+    "developer": [
+      "crabix"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "roguelike"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "3665310"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/life-souls/cover.webp"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "retchy-games",
+  "name": "Retchy Games",
+  "slug": "retchy-games",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "founded": 2008,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
+  "website": "http://retchy.com",
+  "contact_email": "info@retchy.com",
+  "logo": null,
+  "icon": "/images/companies/retchy-games/retchy-games-icon.jpg",
+  "highlighted": false,
+  "short_description": "Glasgow based solo animator and indie game dev",
+  "about": "Glasgow based solo animator and indie game dev",
+  "links": {
+    "twitter": "https://x.com/Retchy",
+    "youtube": "https://www.youtube.com/@Rrrretchy"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}
