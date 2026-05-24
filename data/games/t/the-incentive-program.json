@@ -35,5 +35,6 @@
   "awards": [],
   "news": [],
   "is_student_game": false,
-  "cover_image": "https://media.gamesindustry.scot/games/the-incentive-program/cover.webp"
+  "cover_image": "https://media.gamesindustry.scot/games/the-incentive-program/cover.webp",
+  "featured": true
 }
