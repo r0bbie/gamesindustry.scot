@@ -1,0 +1,42 @@
+{
+  "id": "fair-game",
+  "title": "Fair Game",
+  "slug": "fair-game",
+  "short_description": "A witchy tale told in Python. Made for Weans Game Jam 2025",
+  "description": "A witchy tale told in Python. Made for Weans Game Jam 2025",
+  "status": "prototype",
+  "release_date": "2025-08-31",
+  "companies": {
+    "developer": [
+      "mama"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "itch": "https://mama666.itch.io/fair-game"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "Weans Game Jam 2025",
+      "year": 2025,
+      "status": "participated"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/fair-game/cover.webp"
+}

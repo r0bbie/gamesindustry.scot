@@ -4,8 +4,8 @@
   "slug": "into-the-slimy-mines",
   "short_description": "A roguelike tower defense with a card twist — protect your mine and rescue your crew from a slime-infested moon.",
   "description": "A roguelike tower defense with a card twist! Protect your mine and rescue your crew after crash landing on a slime infested moon.",
-  "status": "in_development",
-  "release_date": "2026",
+  "status": "released",
+  "release_date": "2026-05-29",
   "companies": {
     "developer": [
       "ant-workshop"
@@ -22,11 +22,17 @@
     "deckbuilder"
   ],
   "platforms": [
-    "pc"
+    "pc",
+    "xbox-series-xs",
+    "ps5",
+    "switch"
   ],
   "screenshots": [],
   "stores": {
-    "steam": "3639440"
+    "steam": "3639440",
+    "xbox": "https://www.xbox.com/en-MY/games/store/into-the-slimy-mines/9NB75N9F10QG",
+    "psn": "https://store.playstation.com/en-gb/concept/10018784",
+    "nintendo_eshop": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Into-the-Slimy-Mines-3102618.html"
   },
   "video": {
     "type": "youtube",

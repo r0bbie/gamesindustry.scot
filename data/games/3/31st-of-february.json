@@ -1,0 +1,44 @@
+{
+  "id": "31st-of-february",
+  "title": "31st of February",
+  "slug": "31st-of-february",
+  "short_description": "A solo glitch-loop webzine + terminal-based rpg made for Pizza Jam",
+  "description": "A solo glitch-loop webzine + terminal-based rpg made for Pizza Jam",
+  "status": "prototype",
+  "release_date": "2026-03-22",
+  "companies": {
+    "developer": [
+      "mama"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "rpg"
+  ],
+  "platforms": [
+    "browser"
+  ],
+  "screenshots": [],
+  "stores": {
+    "itch": "https://mama666.itch.io/31st-of-february"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [
+    {
+      "name": "Pizza Jam 2026",
+      "year": 2026,
+      "status": "participated"
+    }
+  ],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/31st-of-february/cover.webp"
+}

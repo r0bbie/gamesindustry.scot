@@ -1,0 +1,39 @@
+{
+  "id": "ladeira-abaixo",
+  "title": "Ladeira Abaixo",
+  "slug": "ladeira-abaixo",
+  "short_description": "Go fast on your skateboard and compete in São Paulo's newest downhill competition in Ladeira Abaixo (Down the Hill?) to go as far as you can!",
+  "description": "Go fast on your skateboard and compete in São Paulo's newest downhill competition in Ladeira Abaixo (Down the Hill?) to go as far as you can!",
+  "status": "released",
+  "release_date": "2026-05-12",
+  "companies": {
+    "developer": [
+      "mama"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "sports"
+  ],
+  "platforms": [
+    "playdate"
+  ],
+  "screenshots": [],
+  "stores": {
+    "itch": "https://vfiaca.itch.io/ladeira-abaixo",
+    "playdate": "https://play.date/games/ladeira-abaixo/"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/ladeira-abaixo/cover.webp"
+}

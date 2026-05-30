@@ -7,12 +7,22 @@
   "status": "prototype",
   "release_date": "2026",
   "companies": {
-    "developer": ["amicable-animal"],
+    "developer": [
+      "amicable-animal"
+    ],
     "publishers": [],
-    "service_companies": [], "used_tooling": [], "supported_by": [], "contributed_by": []
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
   },
-  "genres": ["puzzle", "dungeon-crawler"],
-  "platforms": ["pc"],
+  "genres": [
+    "puzzle",
+    "dungeon-crawler"
+  ],
+  "platforms": [
+    "pc"
+  ],
   "screenshots": [],
   "stores": {
     "itch": "amicableanimal.itch.io/dissimulation"
@@ -21,11 +31,19 @@
     "type": "youtube",
     "id": "baP7SJvYJ-0"
   },
-  "play_now": {}, "physical_stores": {},
-  "critic_ratings": {}, "critic_ids": {},
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
   "database_links": {},
   "awards": [
-    { "name": "EdJam26 — Edinburgh Game Jam", "year": 2026, "status": "participated" }
+    {
+      "name": "EdJam26 — Edinburgh Game Jam",
+      "year": 2026,
+      "status": "participated"
+    }
   ],
-  "news": [], "is_student_game": false
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/dissimulation/cover.webp"
 }

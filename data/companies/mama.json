@@ -1,0 +1,31 @@
+{
+  "id": "mama",
+  "name": "mama",
+  "slug": "mama",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "founded": 2024,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
+  "website": null,
+  "logo": null,
+  "highlighted": false,
+  "short_description": "Solo developer building for Playdate, also provides game localization, translation and LQA/testing services",
+  "about": "Glasgow-based solo developer, also provides game localization, translation and LQA/testing services.",
+  "contact_email": "marcelo.terreiro@gmail.com",
+  "links": {
+    "github": "mama-cailleach",
+    "itch": "https://mama666.itch.io"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

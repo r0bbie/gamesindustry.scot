@@ -1,0 +1,38 @@
+{
+  "id": "slip-oot",
+  "title": "Slip Oot",
+  "slug": "slip-oot",
+  "short_description": "An abstract dungeon crawler, or something like that, for Playdate",
+  "description": "An abstract dungeon crawler, or something like that, for Playdate",
+  "status": "released",
+  "release_date": "2025-09-15",
+  "companies": {
+    "developer": [
+      "mama"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "roguelike"
+  ],
+  "platforms": [
+    "playdate"
+  ],
+  "screenshots": [],
+  "stores": {
+    "itch": "https://mama666.itch.io/slip-oot"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/slip-oot/cover.webp"
+}

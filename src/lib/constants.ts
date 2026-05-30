@@ -233,6 +233,11 @@ export function buildStoreUrl(store: string, id: string): string {
     /** Gumroad — pass full `https://…gumroad.com/…` URL (subdomains are not a single path segment). */
     gumroad: (id) => (id.startsWith("http") ? id : `https://gumroad.com/l/${id}`),
     website: (id) => id,
+    /** Playdate Catalog — full `https://play.date/games/…` URL or slug (e.g. `ladeira-abaixo`). */
+    playdate: (id) =>
+      id.startsWith("http")
+        ? id
+        : `https://play.date/games/${id.replace(/^\/+|\/+$/g, "")}/`,
     tilt_five: (id) => id.startsWith("http") ? id : `https://www.tiltfive.com/games/${id}`,
     /** Microsoft Store (Windows) — full `https://apps.microsoft.com/...` URL or product id (e.g. `9nvd056th5nm`). */
     microsoft_store: (id) =>

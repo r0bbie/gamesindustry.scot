@@ -1,0 +1,36 @@
+{
+  "id": "wee-tarot",
+  "title": "Wee Tarot",
+  "slug": "wee-tarot",
+  "short_description": "A Tarot Pull for the Curious Souls, the Skeptical Minds, and the Mildly Cursed",
+  "description": "A Tarot Pull for the Curious Souls, the Skeptical Minds, and the Mildly Cursed",
+  "status": "released",
+  "release_date": "2025-07-24",
+  "companies": {
+    "developer": [
+      "mama"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [],
+  "platforms": [
+    "playdate"
+  ],
+  "screenshots": [],
+  "stores": {
+    "itch": "https://mama666.itch.io/wee-tarot"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/wee-tarot/cover.webp"
+}
