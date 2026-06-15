@@ -1,0 +1,20 @@
+{
+  "id": "sgda-members-glasgow-drinks-july-2026",
+  "name": "SGDA Members Glasgow Drinks",
+  "slug": "sgda-members-glasgow-drinks-july-2026",
+  "date_start": "2026-07-03",
+  "location": "Glasgow, Scotland",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Scottish Game Developers Association",
+  "description": "SGDA Members Glasgow Drinks — join fellow SGDA members for drinks and networking in Glasgow.",
+  "short_description": "SGDA members drinks and networking in Glasgow.",
+  "website": "https://sgda.co.uk",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "social"
+  ],
+  "highlighted": false
+}

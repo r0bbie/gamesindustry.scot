@@ -1,0 +1,20 @@
+{
+  "id": "sgda-members-dundee-drinks-june-2026",
+  "name": "SGDA Members Dundee Drinks",
+  "slug": "sgda-members-dundee-drinks-june-2026",
+  "date_start": "2026-06-17",
+  "location": "Dundee, Scotland",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Scottish Game Developers Association",
+  "description": "SGDA Members Dundee Drinks — join fellow SGDA members for drinks and networking in Dundee.",
+  "short_description": "SGDA members drinks and networking in Dundee.",
+  "website": "https://sgda.co.uk",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "social"
+  ],
+  "highlighted": false
+}
