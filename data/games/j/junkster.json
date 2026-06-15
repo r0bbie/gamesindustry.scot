@@ -4,7 +4,8 @@
   "slug": "junkster",
   "short_description": "3D action-platforming on a junkyard world — bot UM-13 builds and wrenches his way back to orbit after a crash landing.",
   "description": "Junkster is a 3D action platformer with an awesome building mechanic. Plucky, little construction bot, UM-13 has crash-landed on a dangerous junkyard planet. Armed only with his trusty robo-wrench, Um must repair his ship and recover his lost cargo of precious human artifacts.",
-  "status": "in_development",
+  "status": "released",
+  "release_date": "2026-06-16",
   "companies": {
     "developer": [
       "stormcloud-games"
@@ -31,7 +32,11 @@
     "id": "28qPfc0JW5k"
   },
   "stores": {
-    "steam": "1675860"
+    "steam": "1675860",
+    "epic": "junkster-37d3df",
+    "xbox": "junkster/9NZPKBFF0CV9",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/junkster-switch-2",
+    "psn": "https://store.playstation.com/concept/10010682"
   },
   "play_now": {},
   "physical_stores": {},
