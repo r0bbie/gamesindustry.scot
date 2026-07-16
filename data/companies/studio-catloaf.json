@@ -1,0 +1,34 @@
+{
+  "id": "studio-catloaf",
+  "name": "Studio Catloaf",
+  "slug": "studio-catloaf",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "short_description": "Scottish indie studio developing Book of Abominations - a Lovecraftian inspired monster collecting RPG.",
+  "about": "Studio Catloaf are a Scottish indie studio based in Dundee, developing Book of Abominations - a Lovecraftian inspired monster collecting RPG.",
+  "logo": null,
+  "highlighted": false,
+  "links": {
+    "itch": "studio-catloaf.itch.io",
+    "linkedin": "https://www.linkedin.com/company/studiocatloaf"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "Studio Catloaf Limited",
+      "companies_house_number": "SC798176"
+    }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

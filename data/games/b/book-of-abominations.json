@@ -1,0 +1,42 @@
+{
+  "id": "book-of-abominations",
+  "title": "Book of Abominations",
+  "slug": "book-of-abominations",
+  "short_description": "A cosy Lovecraftian monster tamer that combines the cute with the grotesque — capture Eldritch horrors in snappy turn-based combat and unravel the secrets within the book.",
+  "description": "Book of Abominations is a cosy Lovecraftian monster tamer that combines the cute with the grotesque. Capture and battle Eldritch horrors in snappy turn based combat, explore a mysterious, moody yet vibrant world, and unravel the secrets within the book!",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "studio-catloaf"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "rpg",
+    "horror"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "ZL-ff5DM0so"
+  },
+  "stores": {
+    "steam": "3291120",
+    "itch": "studio-catloaf.itch.io/book-of-abominations"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}
