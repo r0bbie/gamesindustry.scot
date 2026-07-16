@@ -28,7 +28,9 @@
     "type": "youtube",
     "id": "87V_uOzAM18"
   },
-  "stores": {},
+  "stores": {
+    "steam": "2735850"
+  },
   "play_now": {},
   "physical_stores": {},
   "critic_ratings": {},

@@ -4,7 +4,8 @@
   "slug": "turbo-hatchback-time-attack",
   "short_description": "A physics-defying driving game where you jump, drift, flip and boost your way to the finish line in a turbo-powered hatchback.",
   "description": "Step into a turbo powered hatchback and jump, drift, flip and boost your way to the finish line without any regard for the laws of the road... or the laws of physics. It's time for a Turbo Hatchback Time Attack!",
-  "status": "in_development",
+  "status": "released",
+  "release_date": "2026-06-30",
   "companies": {
     "developer": [
       "grumpy-pizza"
