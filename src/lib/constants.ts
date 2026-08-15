@@ -1,8 +1,23 @@
 export const SITE_TITLE = "Scottish Games Industry";
-export const SITE_DESCRIPTION = "The open directory of the Scottish games industry. Discover game development studios, publishers, games, freelancers, jobs, events, and education.";
+export const SITE_DESCRIPTION = "The open directory of the Scottish games industry. Discover game development studios, publishers, games, freelancers, events, and education.";
 export const SITE_URL = "https://gamesindustry.scot";
+
 export const GITHUB_REPO = "r0bbie/gamesindustry.scot";
 export const GITHUB_URL = `https://github.com/${GITHUB_REPO}`;
+
+/**
+ * Sitewide section toggles. Turning one off hides the section from navigation,
+ * the homepage, company pages, and the sitemap, and makes its route redirect
+ * home — the data in `data/`, the page, and its components are all left intact
+ * so the section can be switched back on by flipping the flag.
+ *
+ * `jobs` also has copy to restore when re-enabled: SITE_DESCRIPTION above, the
+ * homepage <title> in src/pages/index.astro, the Footer brand blurb, and the
+ * "How are companies or games listed?" FAQ answer in src/pages/about.astro.
+ */
+export const FEATURES = {
+  jobs: false,
+} as const;
 
 export const REGIONS = [
   { id: "glasgow-strathclyde", name: "Glasgow & Strathclyde" },
@@ -407,12 +422,12 @@ export function buildSocialUrl(platform: string, handle: string): string {
   return urls[platform]?.(handle) ?? `#unknown-${platform}`;
 }
 
-export const NAV_ITEMS = [
+export const NAV_ITEMS: readonly { label: string; href: string }[] = [
   { label: "Companies", href: "/companies" },
   { label: "Games", href: "/games" },
   { label: "Freelancers", href: "/freelancers" },
-  { label: "Jobs", href: "/jobs" },
+  ...(FEATURES.jobs ? [{ label: "Jobs", href: "/jobs" }] : []),
   { label: "Events", href: "/events" },
   { label: "Education", href: "/education" },
   { label: "Links", href: "/links" },
-] as const;
+];

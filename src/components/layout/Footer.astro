@@ -1,5 +1,5 @@
 ---
-import { SITE_TITLE, GITHUB_URL } from "@/lib/constants";
+import { SITE_TITLE, GITHUB_URL, FEATURES } from "@/lib/constants";
 const isHomepage = Astro.url.pathname === "/";
 ---
 
@@ -14,7 +14,7 @@ const isHomepage = Astro.url.pathname === "/";
         </a>
         <p class="mt-3 text-sm text-muted-foreground">
           The open directory of Scotland's games industry — studios,
-          games, freelancers, jobs, events, and education.
+          games, freelancers, events, and education.
         </p>
       </div>
 
@@ -25,7 +25,9 @@ const isHomepage = Astro.url.pathname === "/";
             <li><a href="/companies" class="text-muted-foreground transition-colors hover:text-foreground">Companies</a></li>
             <li><a href="/games" class="text-muted-foreground transition-colors hover:text-foreground">Games</a></li>
             <li><a href="/freelancers" class="text-muted-foreground transition-colors hover:text-foreground">Freelancers</a></li>
-            <li><a href="/jobs" class="text-muted-foreground transition-colors hover:text-foreground">Jobs</a></li>
+            {FEATURES.jobs && (
+              <li><a href="/jobs" class="text-muted-foreground transition-colors hover:text-foreground">Jobs</a></li>
+            )}
             <li><a href="/events" class="text-muted-foreground transition-colors hover:text-foreground">Events</a></li>
           </ul>
           <ul class="space-y-2">

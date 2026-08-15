@@ -1,8 +1,10 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getActiveJobs, getAllCompanies } from "@/lib/data";
-import { GITHUB_REPO } from "@/lib/constants";
+import { GITHUB_REPO, FEATURES } from "@/lib/constants";
 import JobBoardView from "@/components/jobs/JobBoardView";
+
+if (!FEATURES.jobs) return Astro.redirect("/");
 
 const jobs = await getActiveJobs();
 const companies = await getAllCompanies();

@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import ObfuscatedEmail from "@/components/ObfuscatedEmail.astro";
-import { GITHUB_URL, GITHUB_REPO } from "@/lib/constants";
+import { GITHUB_URL, GITHUB_REPO, FEATURES } from "@/lib/constants";
 import { getAllCompanies, getPublicGames } from "@/lib/data";
 
 const companies = await getAllCompanies();
@@ -66,12 +66,14 @@ const activeCompanies = companies.filter((c) => c.status === "active");
             desc: "Discover games made in Scotland, from indie gems to internationally recognised titles.",
             href: "/games",
           },
-          {
-            icon: "briefcase",
-            title: "Job Board",
-            desc: "Find career opportunities across the Scottish game industry, or list a role you're hiring for.",
-            href: "/jobs",
-          },
+          ...(FEATURES.jobs
+            ? [{
+                icon: "briefcase",
+                title: "Job Board",
+                desc: "Find career opportunities across the Scottish game industry, or list a role you're hiring for.",
+                href: "/jobs",
+              }]
+            : []),
           {
             icon: "usercheck",
             title: "Freelancer Directory",
@@ -171,7 +173,7 @@ const activeCompanies = companies.filter((c) => c.status === "active");
           },
           {
             q: "How are companies or games listed?",
-            a: `All data on this site is community submitted and maintained. You can add or update companies, developers, games, freelancers, jobs, events, or schools — all via our <a href="https://github.com/r0bbie/gamesindustry.scot" target="_blank" rel="noopener noreferrer" class="text-foreground underline underline-offset-2 hover:text-primary">GitHub</a>.`,
+            a: `All data on this site is community submitted and maintained. You can add or update companies, developers, games, freelancers, events, or schools — all via our <a href="https://github.com/r0bbie/gamesindustry.scot" target="_blank" rel="noopener noreferrer" class="text-foreground underline underline-offset-2 hover:text-primary">GitHub</a>.`,
           },
           {
             q: "How can I add my company or game?",

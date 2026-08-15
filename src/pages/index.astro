@@ -6,7 +6,7 @@ import EventCard from "@/components/home/EventCard.astro";
 import RandomPick from "@/components/RandomPick.astro";
 import RippleGrid from "@/components/ui/RippleGrid";
 import { BrokenLink } from "@/components/ui/broken-link";
-import { SITE_TITLE } from "@/lib/constants";
+import { SITE_TITLE, FEATURES } from "@/lib/constants";
 import {
   getAllCompanies,
   getPublicGames,
@@ -137,14 +137,16 @@ const sections = [
   { label: "Companies",  href: "/companies",  icon: "building",   stat: stats.companies,     subLabel: "active" },
   { label: "Games",      href: "/games",      icon: "gamepad",    stat: stats.games,          subLabel: "releases" },
   { label: "Freelancers",href: "/freelancers",icon: "usercheck",  stat: stats.freelancers,    subLabel: "profiles" },
-  { label: "Jobs",       href: "/jobs",       icon: "briefcase",  stat: stats.jobs,           subLabel: "posted" },
+  ...(FEATURES.jobs
+    ? [{ label: "Jobs",   href: "/jobs",       icon: "briefcase",  stat: stats.jobs,           subLabel: "posted" }]
+    : []),
   { label: "Education",  href: "/education",  icon: "graduation", stat: stats.schools,        subLabel: "institutions" },
   { label: "Events",     href: "/events",     icon: "calendar",   stat: stats.upcomingEvents, subLabel: "upcoming" },
 ];
 ---
 
 <BaseLayout
-  title={`${SITE_TITLE} - Open directory of studios, games, freelancers, events, and jobs in Scotland`}
+  title={`${SITE_TITLE} - Open directory of studios, games, freelancers, and events in Scotland`}
 >
   <!-- Hero -->
   <section class="relative overflow-hidden py-24 sm:py-32">

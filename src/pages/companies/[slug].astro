@@ -26,6 +26,7 @@ import {
   getDisciplineName,
   GITHUB_REPO,
   SITE_URL,
+  FEATURES,
 } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { BrokenLink } from "@/components/ui/broken-link";
@@ -144,6 +145,7 @@ const showToolsTab =
 if (showToolsTab && categories.includes("tooling")) tabs.push({ id: "tools", label: "Tools" });
 
 const showJobsTab =
+  FEATURES.jobs &&
   hasCategory("developer", "solo_developer", "tooling", "service_provider", "publisher", "games_media") &&
   jobs.length > 0;
 if (showJobsTab) tabs.push({ id: "jobs", label: "Jobs" });

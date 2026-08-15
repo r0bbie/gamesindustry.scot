@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
+import { FEATURES } from './src/lib/constants.ts';
 
 export default defineConfig({
   site: 'https://gamesindustry.scot',
@@ -17,7 +18,8 @@ export default defineConfig({
       filter: (page) =>
         !page.includes('/search/') &&
         !page.includes('/links/') &&
-        !page.includes('/companies/map/'),
+        !page.includes('/companies/map/') &&
+        (FEATURES.jobs || !page.includes('/jobs/')),
     }),
   ],
   vite: {
