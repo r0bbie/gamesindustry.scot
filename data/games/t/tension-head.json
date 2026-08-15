@@ -1,0 +1,45 @@
+{
+  "id": "tension-head",
+  "title": "Tension Head",
+  "slug": "tension-head",
+  "short_description": "A merging roguelite where stacking shapes and chaining combos is the only thing holding back the walls closing in on you.",
+  "description": "Tension Head is a merging roguelite where every run is a fight against the walls closing in. Drop shapes into the arena and merge matching tiers to score — each merge pushes the walls back just enough to breathe, and chaining merges multiplies the score for longer streaks. Crowns earned between runs buy permanent upgrades that carry across every attempt, while per-run power-ups bring their own evolutions and synergies. Curses stack against you as you go, and an Ascension mode layers on ten escalating modifiers for players who have already beaten the game.",
+  "status": "released",
+  "release_date": "2026-07-09",
+  "companies": {
+    "developer": [
+      "mono-division"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "puzzle",
+    "roguelite"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "app_store": "id6759580212",
+    "play_store": "com.tensionhead.game"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "-QNkdGWv9pA"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/tension-head/cover.webp"
+}

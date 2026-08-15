@@ -1,0 +1,35 @@
+{
+  "id": "mono-division",
+  "name": "Mono Division",
+  "slug": "mono-division",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
+  "short_description": "Glasgow-based solo app and game developer",
+  "website": "https://www.monodivision.com/",
+  "logo": "/images/companies/mono-division/full_logo.png",
+  "logo_bg": "dark",
+  "highlighted": false,
+  "company_size": "1",
+  "links": {
+    "bluesky": "monodivision.bsky.social",
+    "youtube": "@MonoDivision"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [
+    {
+      "name": "Robert Lothian",
+      "title": "Developer"
+    }
+  ],
+  "awards": [],
+  "news": []
+}
