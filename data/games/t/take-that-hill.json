@@ -1,0 +1,51 @@
+{
+  "id": "take-that-hill",
+  "title": "Take That Hill",
+  "slug": "take-that-hill",
+  "short_description": "A hex-and-counter wargame primer that teaches the genre's core mechanics in a 20-minute platoon attack on a fortified hill.",
+  "description": "A hex-and-counter wargame primer. Learn the genre's core mechanics (IGO-UGO turns, dice-driven fire, morale and rally) in a 20-minute platoon attack on a fortified hill. Advanced rules for fire support and night attacks, plus a full Paratrooper Raid expansion.",
+  "status": "released",
+  "release_date": "2026-08-06",
+  "companies": {
+    "developer": [
+      "hexwar"
+    ],
+    "publishers": [
+      "hunted-cow"
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "strategy",
+    "simulation"
+  ],
+  "platforms": [
+    "pc",
+    "macos",
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "4530210",
+    "epic": "take-that-hill-3c579e",
+    "microsoft_store": "9P43T0N2X537",
+    "play_store": "com.huntedcow.takethathill"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "YQnoJJgzVRk"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "cover_image": "https://media.gamesindustry.scot/games/take-that-hill/cover.webp"
+}
