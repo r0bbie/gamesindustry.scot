@@ -1,0 +1,51 @@
+{
+  "id": "spike-candy-games",
+  "name": "Spike Candy Games",
+  "slug": "spike-candy-games",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2026,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "short_description": "Indie studio working on Floppy Cat Café.",
+  "website": "https://linktr.ee/SpikeCandyGames",
+  "logo": "/images/companies/spike-candy-games/full_logo.png",
+  "logo_bg": "light",
+  "highlighted": false,
+  "company_size": "2-10",
+  "employee_count": 4,
+  "links": {
+    "instagram": "spikecandygames",
+    "linkedin": "https://www.linkedin.com/company/spike-candy-games/",
+    "itch": "spikecandygames",
+    "discord": "PZjvrEj7j6"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [
+    {
+      "name": "Innes Aitken",
+      "title": "Production, Design & Code"
+    },
+    {
+      "name": "Andrew Mackay",
+      "title": "3D Art & Design"
+    },
+    {
+      "name": "Alika Arnott",
+      "title": "2D Art & UI"
+    },
+    {
+      "name": "Sam Lock",
+      "title": "Sound & QA"
+    }
+  ],
+  "awards": [],
+  "news": []
+}

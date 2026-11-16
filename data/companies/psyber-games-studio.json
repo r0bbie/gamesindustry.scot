@@ -1,0 +1,39 @@
+{
+  "id": "psyber-games-studio",
+  "name": "Psyber Games Studio",
+  "slug": "psyber-games-studio",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "founded": 2021,
+  "location": "Glasgow",
+  "region": "glasgow-strathclyde",
+  "coordinates": {
+    "lat": 55.8642,
+    "lng": -4.2518
+  },
+  "short_description": "Glasgow indie studio making atmospheric sci-fi, psychological horror and arcade games, including the mobile reaction game Twitch Out.",
+  "website": "https://psybergamesstudio.co.uk/",
+  "logo": null,
+  "icon": "/images/companies/psyber-games-studio/icon.jpg",
+  "logo_bg": "dark",
+  "highlighted": false,
+  "company_size": "1",
+  "contact_email": "psybergamesstudio@gmail.com",
+  "links": {
+    "twitter": "PsyberGamesStu",
+    "youtube": "@psybergames7327",
+    "discord": "SCrpA4Adpz"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [
+    {
+      "name": "James O'Callaghan",
+      "title": "Developer"
+    }
+  ],
+  "awards": [],
+  "news": []
+}

@@ -7,12 +7,15 @@
   "is_online": false,
   "is_scottish": true,
   "company_id": "",
-  "organiser_name": "",
-  "description": "",
-  "short_description": "",
-  "website": "",
+  "organiser_name": "Scottish Game Developers Association",
+  "description": "A mix of international speakers, discussions, demonstrations and networking opportunities for the Scottish games community, followed by an evening of games music from The GGs and a ceilidh.",
+  "short_description": "SGDA's annual conference for the Scottish games industry.",
+  "website": "https://sgda.co.uk/gamesday",
   "icon": "",
   "image": "",
-  "tags": [],
+  "tags": [
+    "conference",
+    "networking"
+  ],
   "highlighted": false
 }

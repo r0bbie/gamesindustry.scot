@@ -278,6 +278,9 @@ export function buildPlayUrl(platform: string, id: string): string {
     /** Facebook Instant Games / full `facebook.com/gaming/play/...` URL */
     facebook: (id) => id,
     viverse: (id) => id.startsWith("http") ? id : `https://www.viverse.com/${id}`,
+    /** Amazon Luna — full URL or `slug/ASIN` path from `luna.amazon.com/game/…`. */
+    amazon_luna: (id) =>
+      id.startsWith("http") ? id : `https://luna.amazon.com/game/${id}`,
   };
   return urls[platform]?.(id) ?? `#unknown-platform-${platform}`;
 }

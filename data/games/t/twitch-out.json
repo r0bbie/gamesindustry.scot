@@ -1,0 +1,41 @@
+{
+  "id": "twitch-out",
+  "title": "Twitch Out",
+  "slug": "twitch-out",
+  "short_description": "A fast-paced hybrid-casual reaction game: tap the light before it vanishes, faster and faster, until you hit the Twitch Point.",
+  "description": "Tap the light before it vanishes. Every successful tap makes the next light disappear faster, until you reach the Twitch Point, the limit of human reaction speed. Play single or double light modes, unlock 13 light colours, and climb the live leaderboards to claim or defend the Twitch King and Twitch Demon titles. Free-to-play on Google Play.",
+  "status": "released",
+  "release_date": "2026",
+  "companies": {
+    "developer": [
+      "psyber-games-studio"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "arcade"
+  ],
+  "platforms": [
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "play_store": "com.PsyberGamesStudio.TwitchOutU"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "tech": {
+    "game_engine": "Unity"
+  }
+}

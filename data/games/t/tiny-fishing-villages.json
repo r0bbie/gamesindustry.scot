@@ -1,0 +1,48 @@
+{
+  "id": "tiny-fishing-villages",
+  "title": "Tiny Fishing Villages",
+  "slug": "tiny-fishing-villages",
+  "short_description": "Build a cosy Scottish fishing village, manage a hardworking fleet, and grow a thriving coastal community inspired by real locations across Scotland.",
+  "description": "Build a cosy Scottish fishing village, manage a hardworking fleet, and grow a thriving coastal community inspired by real locations across Scotland.\n\nA relaxing village builder made solo as a tribute to Scotland's coastal communities, their heritage and traditions. Start with a handful of buildings and a small fishing fleet, send out boats, gather resources and expand your harbour. Built on the foundations of Tiny Terra Spaces.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "ludus-pax-studios"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [
+      "creative-scotland"
+    ],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "simulation",
+    "city-builder"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "press_kit_url": "https://luduspaxstudios.uk/index.php/home/tiny-fishing-villages-press-release/",
+  "screenshots": [],
+  "stores": {
+    "steam": "5072380"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "eDc2wz8jq8M"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "tech": {
+    "game_engine": "Unity"
+  }
+}

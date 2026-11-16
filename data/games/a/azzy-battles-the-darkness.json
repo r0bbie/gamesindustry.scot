@@ -1,0 +1,43 @@
+{
+  "id": "azzy-battles-the-darkness",
+  "title": "Azzy Battles the Darkness",
+  "slug": "azzy-battles-the-darkness",
+  "short_description": "Unleash elemental powers through your bionic arm in a story-driven 3D action-platformer inspired by the PS2 era.",
+  "description": "Unleash elemental powers through your bionic arm in a story-driven 3D action-platformer inspired by the PS2 era. Explore 5 sprawling elemental realms, master explosive mobility upgrades, battle chaotic bosses, and search for your missing father before the Darkness consumes everything.\n\nWhen his father vanishes and an ancient Darkness emerges, a young Felko named Azzy sets out across five elemental villages, meeting a fully voiced cast, collecting Dark Crystals to upgrade his bionic arm, and facing five Elemental Bosses that each demand a different strategy.",
+  "status": "in_development",
+  "release_date": "2027",
+  "companies": {
+    "developer": [
+      "celtic-dragon-studio"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "platformer",
+    "action-adventure"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "689370",
+    "itch": "celticdragonstudio.itch.io/azzybattlesthedarkness"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "evW1vTidomc"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

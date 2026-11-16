@@ -1,0 +1,42 @@
+{
+  "id": "nano-punk-mecht",
+  "title": "Nano Punk Mecht",
+  "slug": "nano-punk-mecht",
+  "short_description": "You are a young conscript extracted from a shelter and trained to pilot MECHTs in a future post-apocalyptic world of civil war and environmental collapse caused by an anomaly known as The Phage.",
+  "description": "You are a young conscript extracted from a shelter and trained to pilot MECHTs in a future post-apocalyptic world of civil war and environmental collapse caused by an anomaly known as The Phage.\n\nA sci-fi visual novel with three characters, giant mecha battles against an unknown enemy, and ethical choices that decide the fate of your comrades. Hand-drawn art blends Western and Eastern 90s/00s aesthetics, with an original soundtrack.",
+  "status": "released",
+  "release_date": "2026-09-10",
+  "companies": {
+    "developer": [
+      "empty-exposure"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "visual-novel",
+    "sci-fi"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "5147110"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "mtQIFLURZjI"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

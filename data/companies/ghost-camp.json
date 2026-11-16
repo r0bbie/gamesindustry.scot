@@ -1,0 +1,46 @@
+{
+  "id": "ghost-camp",
+  "name": "Ghost Camp",
+  "slug": "ghost-camp",
+  "categories": [
+    "developer"
+  ],
+  "status": "active",
+  "founded": 2025,
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "short_description": "Indie studio of Abertay graduates behind the social deduction party game Forest of Deceit.",
+  "about": "Ghost Camp is a seven-strong team of Abertay University graduates. Their debut, Forest of Deceit, began life as Tales of Treachery during the team's third year at Abertay and was developed further through the 2019 DARE Academy, before the team spent several years building it remotely in their spare time. It released on PC and consoles in 2026.",
+  "website": "https://ghost.camp/",
+  "logo": null,
+  "icon": "/images/companies/ghost-camp/icon.webp",
+  "logo_bg": "dark",
+  "highlighted": false,
+  "company_size": "2-10",
+  "links": {
+    "twitter": "teamGhostCamp",
+    "instagram": "teamGhostCamp",
+    "bluesky": "ghost.camp",
+    "youtube": "@teamGhostCamp"
+  },
+  "legal_entities": [
+    {
+      "uk_registered_name": "GHOST CAMP LTD",
+      "companies_house_number": "SC849146"
+    }
+  ],
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [
+    {
+      "name": "Thomas Mackinnon",
+      "title": "Co-creator"
+    }
+  ],
+  "awards": [],
+  "news": []
+}

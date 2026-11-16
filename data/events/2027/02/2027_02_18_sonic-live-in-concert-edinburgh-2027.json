@@ -1,0 +1,21 @@
+{
+  "id": "sonic-live-in-concert-edinburgh-2027",
+  "name": "Sonic Live in Concert",
+  "slug": "sonic-live-in-concert-edinburgh-2027",
+  "date_start": "2027-02-18",
+  "time": "19:30",
+  "location": "Usher Hall, Edinburgh",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "",
+  "description": "Celebrating 35 years of Sonic the Hedgehog, a live concert bringing music from across the series to the stage.",
+  "short_description": "Live concert celebrating 35 years of Sonic the Hedgehog music.",
+  "website": "https://www.ents24.com/edinburgh-events/usher-hall/sonic-live-in-concert/7490747",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "concert"
+  ],
+  "highlighted": false
+}

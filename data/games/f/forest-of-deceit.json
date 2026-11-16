@@ -1,0 +1,60 @@
+{
+  "id": "forest-of-deceit",
+  "title": "Forest of Deceit",
+  "slug": "forest-of-deceit",
+  "short_description": "Find the Traitors in Forest of Deceit, a social deduction Jackbox-esque game for 4-8 players.",
+  "description": "A STORM IS COMING. If you can’t build shelter in a matter of days your entire group will perish. But the forest is cursed, and is driving some of your friends mad - now they’re trying to get you all killed. Find the Traitors in Forest of Deceit, a social deduction Jackbox-esque game for 4-8 players.\n\nEach day the group explores the forest to gather resources for the shelter, while hidden Traitors try to sabotage the effort, all narrated by Sylvester McCoy. The game grew out of Tales of Treachery, a project the team made at Abertay University and developed through the 2019 DARE Academy.",
+  "status": "released",
+  "release_date": "2026-07-13",
+  "companies": {
+    "developer": [
+      "ghost-camp"
+    ],
+    "publishers": [
+      {
+        "name": "PolyCrunch Games",
+        "url": "https://polycrunch.games/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "party",
+    "social-deduction",
+    "multiplayer"
+  ],
+  "platforms": [
+    "pc",
+    "ps5",
+    "ps4",
+    "xbox-series-xs",
+    "xbox-one",
+    "switch"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "2388580",
+    "psn": "https://store.playstation.com/en-us/product/UP8193-PPSA34937_00-FORESTODECEITPS5",
+    "xbox": "https://www.xbox.com/en-US/games/store/forest-of-deceit/9P014W4NBS30",
+    "nintendo_eshop": "https://www.nintendo.com/us/store/products/forest-of-deceit-switch/",
+    "microsoft_store": "9p014w4nbs30"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "CuPIr0gKXQs"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false,
+  "tech": {
+    "game_engine": "Unity"
+  }
+}

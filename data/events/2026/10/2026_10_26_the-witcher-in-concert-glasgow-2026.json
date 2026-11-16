@@ -1,0 +1,21 @@
+{
+  "id": "the-witcher-in-concert-glasgow-2026",
+  "name": "The Witcher in Concert",
+  "slug": "the-witcher-in-concert-glasgow-2026",
+  "date_start": "2026-10-26",
+  "time": "19:30",
+  "location": "Glasgow Royal Concert Hall, Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "",
+  "description": "A live concert bringing the music and storytelling of The Witcher 3: Wild Hunt to the stage.",
+  "short_description": "Live concert of the music of The Witcher 3: Wild Hunt.",
+  "website": "https://www.glasgowlife.org.uk/event/1/the-witcher-in-concert",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "concert"
+  ],
+  "highlighted": false
+}

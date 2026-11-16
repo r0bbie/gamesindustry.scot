@@ -1,0 +1,46 @@
+{
+  "id": "endless-estate",
+  "title": "Endless Estate",
+  "slug": "endless-estate",
+  "short_description": "A spooky multiplayer game where you draft rooms to escape a haunted mansion.",
+  "description": "A spooky multiplayer game where you draft rooms to escape a haunted mansion.\n\nYou play as a girl scout delivering cookies who falls through a trapdoor into an endless mansion. Every door you open lets you choose which room is drafted on the other side, building a labyrinth that's different every run. Learn the patterns and rituals to summon or trap vampires, demons, fairies, ghosts, poltergeists and more on your way out, solo or in online and LAN co-op. Over 70 rooms, over 25 items, and you can tame cats.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "lowtek-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "horror",
+    "multiplayer",
+    "co-op",
+    "strategy"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "press_kit_url": "https://lowtek.games/lowtekpresskit/ENDLESSESTATE/EndlessEstate.html",
+  "screenshots": [],
+  "stores": {
+    "steam": "4928420"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "xnrGnKzcEWw"
+  },
+  "play_now": {
+    "viverse": "Rzo6Ckq"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

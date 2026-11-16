@@ -1,0 +1,22 @@
+{
+  "id": "playaway-for-a-day-2026",
+  "name": "PlayAway for a Day",
+  "slug": "playaway-for-a-day-2026",
+  "date_start": "2026-10-24",
+  "time": "10:00–16:45",
+  "location": "Out of the Blue Drill Hall, Edinburgh",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Tinderbox Collective",
+  "description": "A one-day conference and exhibition exploring the crossovers between creative technology and game design with the arts, education, community and wellbeing work.",
+  "short_description": "One-day conference and exhibition on creative tech, games, arts and community.",
+  "website": "https://tinderboxcollective.org/playaway26/",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "conference",
+    "showcase"
+  ],
+  "highlighted": false
+}

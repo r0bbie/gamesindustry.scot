@@ -2,8 +2,8 @@
   "id": "8-bit-monke",
   "title": "8-Bit Monke",
   "slug": "8-bit-monke",
-  "status": "in_development",
-  "release_date": "2026",
+  "status": "released",
+  "release_date": "2026-10-27",
   "short_description": "Pixel platformer starring Eke the Monke: fruit hunts, outfits, and leaderboards across ice, fire, ocean, and Japan-inspired forests.",
   "description": "Swing into action with Eke the Monke as he journeys through ice and fire, from ocean depths to the sacred forests of Japan.\n\nCollect Eke's favourite fruits, unlock crazy outfits, and climb your way up the 8-Bit Monke leaderboard in this pixelated platformer!",
   "companies": {
@@ -25,7 +25,10 @@
     "android"
   ],
   "screenshots": [],
-  "stores": {},
+  "stores": {
+    "app_store": "id6760197060",
+    "play_store": "com.Carnyx_Studios.EightBitMonke"
+  },
   "video": {
     "type": "youtube",
     "id": "g8W9dUr0vjk"

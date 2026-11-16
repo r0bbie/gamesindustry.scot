@@ -1,0 +1,21 @@
+{
+  "id": "sonic-live-in-concert-glasgow-2027",
+  "name": "Sonic Live in Concert",
+  "slug": "sonic-live-in-concert-glasgow-2027",
+  "date_start": "2027-02-17",
+  "time": "19:30",
+  "location": "Glasgow Royal Concert Hall, Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "",
+  "description": "Celebrating 35 years of Sonic the Hedgehog, a live concert bringing music from across the series to the stage.",
+  "short_description": "Live concert celebrating 35 years of Sonic the Hedgehog music.",
+  "website": "https://www.visitglasgow.com/events/sonic-live-in-concert-17022027-3031128",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "concert"
+  ],
+  "highlighted": false
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bloons-blitz",
+  "title": "Bloons Blitz",
+  "slug": "bloons-blitz",
+  "short_description": "A survivor-style roguelike road trip across the Bloons universe, battling waves of Bloons with one-handed controls.",
+  "description": "A road trip adventure across the Bloons universe. Fast-paced, survivor-style roguelike action pits you against relentless waves of Bloons using intuitive one-handed controls. Play as Bloons Heroes, each with their own signature weapon and playstyle, recruit Monkeys to join your team, and pick upgrades each run to build a versatile squad or go deep on a single path.",
+  "status": "released",
+  "release_date": "2026-09-30",
+  "companies": {
+    "developer": [
+      "ninja-kiwi"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "roguelike",
+    "casual"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "screenshots": [],
+  "stores": {
+    "website": "https://ninjakiwi.com/Games/Mobile/Bloons-Blitz.html",
+    "app_store": "id6741921686",
+    "play_store": "com.ninjakiwi.bloonsblitz"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "uxlyeEm2oZo"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

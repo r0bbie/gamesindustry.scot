@@ -1,0 +1,42 @@
+{
+  "id": "glenmara-still-life-artist",
+  "title": "Glenmara: Still Life Artist",
+  "slug": "glenmara-still-life-artist",
+  "short_description": "Get creative as a still life artist on the wee Scottish isle of Glenmara.",
+  "description": "Get creative as a still life artist on the wee Scottish isle of Glenmara. Arrange everyday objects into still life compositions to fulfil your fellow islanders' requests and learn their stories, with heaps of inspiring objects, unique backdrops and customisable painting styles. There are no timers or fail-states, so you can paint at your own pace.",
+  "status": "in_development",
+  "companies": {
+    "developer": [
+      "bit-loom"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "casual",
+    "simulation"
+  ],
+  "platforms": [
+    "pc",
+    "linux"
+  ],
+  "screenshots": [],
+  "stores": {
+    "steam": "4022800"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "vH9lqY9SO64"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

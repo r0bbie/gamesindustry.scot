@@ -1,0 +1,21 @@
+{
+  "id": "games-day-2027",
+  "name": "Games Day 2027",
+  "slug": "games-day-2027",
+  "date_start": "2027-06-10",
+  "location": "Edinburgh",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "Scottish Game Developers Association",
+  "description": "A mix of international speakers, discussions, showcases and networking opportunities for the Scottish games industry.",
+  "short_description": "SGDA's annual conference for the Scottish games industry.",
+  "website": "https://sgda.co.uk/gamesday",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "conference",
+    "networking"
+  ],
+  "highlighted": true
+}

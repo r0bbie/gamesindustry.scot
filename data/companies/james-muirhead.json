@@ -1,0 +1,37 @@
+{
+  "id": "james-muirhead",
+  "name": "James Muirhead",
+  "slug": "james-muirhead",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "location": "Fife",
+  "region": "fife",
+  "coordinates": {
+    "lat": 56.2082,
+    "lng": -3.1495
+  },
+  "short_description": "Solo developer behind Grease Trap '99, a PS1-style horror game voiced in Scottish Gaelic.",
+  "website": "https://www.muirhead.design",
+  "logo": null,
+  "icon": "/images/companies/james-muirhead/icon.svg",
+  "logo_bg": "dark",
+  "highlighted": false,
+  "company_size": "1",
+  "links": {
+    "steam": "https://store.steampowered.com/curator/45879101",
+    "linkedin": "https://uk.linkedin.com/in/james-muirhead"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [
+    {
+      "name": "James Muirhead",
+      "title": "Developer",
+      "linkedin": "https://uk.linkedin.com/in/james-muirhead"
+    }
+  ],
+  "awards": [],
+  "news": []
+}

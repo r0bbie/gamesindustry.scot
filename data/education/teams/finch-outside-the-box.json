@@ -1,0 +1,42 @@
+{
+  "id": "finch-outside-the-box",
+  "name": "Finch Outside the Box",
+  "slug": "finch-outside-the-box",
+  "school_id": "abertay-university",
+  "logo": "",
+  "short_description": "A nine-person student game development team formed at Abertay University. DARE Academy 2026 Winners and Audience Choice Award winners with Loose Juice — a co-op caravan treasure-hunting adventure.",
+  "links": {
+    "itch": "fotb",
+    "youtube": "@FinchOutsideTheBox",
+    "linkedin": "https://www.linkedin.com/company/finchoutsidethebox"
+  },
+  "members": [
+    {
+      "name": "Andrew Tidey"
+    },
+    {
+      "name": "Ava Imray"
+    },
+    {
+      "name": "Ellis Ingram"
+    },
+    {
+      "name": "Joshua Burt"
+    },
+    {
+      "name": "Paolo Sechi"
+    },
+    {
+      "name": "Rebecca Duncan"
+    },
+    {
+      "name": "Sean Li"
+    },
+    {
+      "name": "Thomas Jowsey"
+    },
+    {
+      "name": "Zo Motherwell"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "the-ggs-glasgow-dec-2026",
+  "name": "The GGs: Videogames Music Gig",
+  "slug": "the-ggs-glasgow-dec-2026",
+  "date_start": "2026-12-05",
+  "time": "19:30–22:00",
+  "location": "Room 2, 69 Nelson Mandela Place, Glasgow",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "The GGs",
+  "description": "The GGs bring their collection of live video game favourites and indie gems to Room 2 in Glasgow.",
+  "short_description": "Live band playing video game music favourites and indie gems.",
+  "website": "https://www.skiddle.com/whats-on/Glasgow/Room-2/The-GGs/42668411/",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "concert",
+    "live"
+  ],
+  "highlighted": false
+}

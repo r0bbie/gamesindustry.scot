@@ -1,0 +1,41 @@
+{
+  "id": "floppy-cat-cafe",
+  "title": "Floppy Cat Café",
+  "slug": "floppy-cat-cafe",
+  "short_description": "Chaotic cooking game about making coffee.",
+  "description": "Chaotic cooking game about making coffee. Play as our boy Bean, a floppy little cat with a big passion for serving coffee, if he doesn't spill his drink of course.",
+  "status": "prototype",
+  "companies": {
+    "developer": [
+      "spike-candy-games"
+    ],
+    "publishers": [],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "action",
+    "casual"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {
+    "itch": "spikecandygames.itch.io/floppy-cat-cafe"
+  },
+  "video": {
+    "type": "youtube",
+    "id": "fpxFsLAbP6k"
+  },
+  "play_now": {},
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {},
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

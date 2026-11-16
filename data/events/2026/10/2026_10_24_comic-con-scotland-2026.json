@@ -1,0 +1,21 @@
+{
+  "id": "comic-con-scotland-2026",
+  "name": "Comic Con Scotland 2026",
+  "slug": "comic-con-scotland-2026",
+  "date_start": "2026-10-24",
+  "date_end": "2026-10-25",
+  "location": "Royal Highland Centre, Ingliston, Edinburgh",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "",
+  "description": "One of Europe's largest pop culture conventions, attracting tens of thousands of fans to the Royal Highland Centre in Edinburgh.",
+  "short_description": "One of Europe's largest pop culture conventions.",
+  "website": "https://www.comicconventionscotland.co.uk/",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "expo"
+  ],
+  "highlighted": false
+}

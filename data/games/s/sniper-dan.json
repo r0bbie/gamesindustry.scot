@@ -2,28 +2,35 @@
   "id": "sniper-dan",
   "title": "Sniper Dan",
   "slug": "sniper-dan",
-  "short_description": "Upcoming from Denki — outrageously funny, family-friendly 3D Hidden Object game",
-  "description": "Sniper Dan is an outrageously funny, family-friendly 3D Hidden Object game with a big twist. Use a high-powered sniper rifle to solve low-stakes problems. Scope the scene, spot the problem, and shoot the solution. No violence. Just wholesome chaos and good intentions!\n\nUpcoming release from Denki, with Steam page listing a 2026 release window.",
+  "short_description": "A delightfully funny, family-friendly 3D Hidden Object game where you use a sniper rifle to solve hundreds of low-stakes jobs.",
+  "description": "Meet Dan. Dan has a sniper rifle. Don't panic, he's not here to harm anyone. Dan's a professional and his job is fixing things. From a distance. With pinpoint accuracy and good intentions.\n\nSniper Dan is a family-friendly 3D Hidden Object game with a big twist: figure out the problem from the clues, scope the scene to find it, then fix it with one perfectly aimed shot. Fix rusty taps, tame machines behaving badly and even stop a thieving pelican across over 160 jobs in six lively locations, from villages and farms to airports and cities.\n\nBetween contracts, upgrade your rifle, unlock costumes and collectables, decorate your office hub and grow your entirely legitimate troubleshooting business. There are 100+ secrets and 45 photo opportunities to discover, plus Time Attack, Ammo Hunt and Snapshot modes and Bowling, Tennis and Air Hockey minigames. No danger, no drama, zero violence.",
   "release_date": "2026-09-17",
-  "status": "in_development",
+  "status": "released",
   "companies": {
     "developer": [
       "denki"
     ],
-    "publishers": [],
+    "publishers": [
+      {
+        "name": "PQube",
+        "url": "https://www.pqube.co.uk/"
+      }
+    ],
     "service_companies": [],
     "used_tooling": [],
     "supported_by": []
   },
   "genres": [
-    "action"
+    "casual",
+    "puzzle"
   ],
   "platforms": [
     "pc"
   ],
   "screenshots": [],
   "stores": {
-    "steam": "2841650"
+    "steam": "2841650",
+    "itch": "denki.itch.io/sniperdan"
   },
   "play_now": {},
   "physical_stores": {},

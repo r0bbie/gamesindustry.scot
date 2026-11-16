@@ -1,0 +1,21 @@
+{
+  "id": "comics-and-games-being-human-2026",
+  "name": "Comics and Games",
+  "slug": "comics-and-games-being-human-2026",
+  "date_start": "2026-11-06",
+  "time": "18:00–20:00",
+  "location": "Water's Edge, Dundee",
+  "is_online": false,
+  "is_scottish": true,
+  "company_id": "",
+  "organiser_name": "University of Dundee & Abertay University",
+  "description": "An illustrated talk and Q&A exploring the links between comic books, graphic novels and video games, part of the Being Human Festival.",
+  "short_description": "Talk and Q&A on the links between comics and games.",
+  "website": "https://www.beinghumanfestival.org/events/comics-and-games",
+  "icon": "",
+  "image": "",
+  "tags": [
+    "talk"
+  ],
+  "highlighted": false
+}

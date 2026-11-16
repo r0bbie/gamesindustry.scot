@@ -26,6 +26,7 @@ const LOCATION_COORDS = {
   "East Lothian": { lat: 55.9595, lng: -2.7741 },
   Edinburgh: { lat: 55.9533, lng: -3.1883 },
   Elgin: { lat: 57.6498, lng: -3.3187 },
+  Fife: { lat: 56.2082, lng: -3.1495 },
   Fortrose: { lat: 57.5826, lng: -4.133 },
   Glasgow: { lat: 55.8642, lng: -4.2518 },
   Greenock: { lat: 55.9483, lng: -4.7611 },

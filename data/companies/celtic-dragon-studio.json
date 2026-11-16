@@ -1,0 +1,37 @@
+{
+  "id": "celtic-dragon-studio",
+  "name": "Celtic Dragon Studio",
+  "slug": "celtic-dragon-studio",
+  "categories": [
+    "solo_developer"
+  ],
+  "status": "active",
+  "location": "Dundee",
+  "region": "dundee-tayside",
+  "coordinates": {
+    "lat": 56.462,
+    "lng": -2.9707
+  },
+  "short_description": "Dundee-based solo developer making the PS2-inspired 3D action-platformer Azzy Battles the Darkness.",
+  "website": null,
+  "logo": null,
+  "icon": "/images/companies/celtic-dragon-studio/icon.webp",
+  "logo_bg": "dark",
+  "highlighted": false,
+  "company_size": "1",
+  "contact_email": "celticdragonstudio@gmail.com",
+  "links": {
+    "steam": "https://store.steampowered.com/curator/46064678",
+    "youtube": "channel/UC_dtTYayRp_dNAc5gMYUk3w",
+    "instagram": "celtic_dragon_studio",
+    "itch": "celticdragonstudio",
+    "twitter": "CelticDragon_",
+    "bluesky": "celticdragonstudio.bsky.social",
+    "linkedin": "https://www.linkedin.com/company/celtic-dragon-studio"
+  },
+  "use_tooling": [],
+  "employee_stats": {},
+  "key_people": [],
+  "awards": [],
+  "news": []
+}

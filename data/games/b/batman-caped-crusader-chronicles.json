@@ -1,0 +1,50 @@
+{
+  "id": "batman-caped-crusader-chronicles",
+  "title": "Batman: Caped Crusader - Chronicles",
+  "slug": "batman-caped-crusader-chronicles",
+  "short_description": "A co-op detective party game based on the animated series, played on Amazon Luna with phones as controllers.",
+  "description": "A cooperative detective game tied to the animated series Batman: Caped Crusader. Up to four players join a GCPD task force alongside Batman and Detective Montoya, working through 11 episodic cases in Gotham and uncovering clues through detective minigames. Exclusive to Amazon Luna and included with Prime, it streams to compatible devices with players using their smartphones as controllers. It launched alongside Season 2 of the series.",
+  "status": "released",
+  "release_date": "2026-07-31",
+  "companies": {
+    "developer": [
+      "blazing-griffin"
+    ],
+    "publishers": [
+      {
+        "name": "Amazon Games",
+        "url": "https://www.amazongames.com/"
+      }
+    ],
+    "service_companies": [],
+    "used_tooling": [],
+    "supported_by": [],
+    "contributed_by": []
+  },
+  "genres": [
+    "party",
+    "co-op",
+    "detective"
+  ],
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "stores": {},
+  "video": {
+    "type": "youtube",
+    "id": "30Pc2Ov4ZKg"
+  },
+  "play_now": {
+    "amazon_luna": "batman-caped-crusader-chronicles/B0H4Y4MWQ9"
+  },
+  "physical_stores": {},
+  "critic_ratings": {},
+  "critic_ids": {
+    "metacritic": "batman-caped-crusader-chronicles"
+  },
+  "database_links": {},
+  "awards": [],
+  "news": [],
+  "is_student_game": false
+}

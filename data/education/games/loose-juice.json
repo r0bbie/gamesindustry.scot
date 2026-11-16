@@ -1,0 +1,40 @@
+{
+  "id": "loose-juice",
+  "title": "Loose Juice",
+  "slug": "loose-juice",
+  "school_id": "abertay-university",
+  "team_id": "finch-outside-the-box",
+  "description": "Grab a friend and go on a treasure hunting adventure in Loose Juice!\n\nLoose Juice is a co-operative physics platformer where players steer a caravan together across a desert, overcoming obstacles and avoiding traps along the way. Good communication is key: trade your treasure for gear and upgrades, but drive carelessly and you'll damage your goods.\n\nWinner of DARE Academy 2026 and DARE Academy 2026 Audience Choice Award.",
+  "platforms": [
+    "pc"
+  ],
+  "screenshots": [],
+  "video": {
+    "type": "youtube",
+    "id": "LQc7RtQtRns"
+  },
+  "stores": {},
+  "play_now": {
+    "itch": "fotb.itch.io/loose-juice"
+  },
+  "news": [
+    {
+      "title": "Finch Outside the Box announced as winner of Abertay University’s DARE Academy 2026",
+      "publication": "Abertay University",
+      "date": "2026-09-08",
+      "url": "https://www.abertay.ac.uk/news/2026/finch-outside-the-box-announced-as-winner-of-abertay-university-s-dare-academy-2026/"
+    },
+    {
+      "title": "Next generation of game developers to showcase creations at DCA in September",
+      "publication": "Abertay University",
+      "date": "2026-08-24",
+      "url": "https://www.abertay.ac.uk/news/2026/next-generation-of-abertay-game-developers-to-showcase-latest-creations-at-dundee-contemporary-arts/"
+    }
+  ],
+  "competitions": [
+    {
+      "name": "DARE Academy 2026",
+      "result": "winner"
+    }
+  ]
+}
