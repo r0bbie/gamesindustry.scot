@@ -44,5 +44,6 @@
   "is_student_game": false,
   "tech": {
     "game_engine": "Unity"
-  }
+  },
+  "cover_image": "https://media.gamesindustry.scot/games/tiny-fishing-villages/cover.webp"
 }
