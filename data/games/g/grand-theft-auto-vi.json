@@ -2,10 +2,10 @@
   "id": "grand-theft-auto-vi",
   "title": "Grand Theft Auto VI",
   "slug": "grand-theft-auto-vi",
-  "short_description": "The highly anticipated next instalment in the Grand Theft Auto series.",
-  "description": "Grand Theft Auto VI is the upcoming entry in Rockstar Games' flagship open-world franchise. Set in the fictional state of Leonida, home to the neon-soaked Vice City, the game follows the story of Lucia and her partner in a sprawling criminal underworld. First revealed in December 2023, GTA VI represents the next generation of open-world gaming and is among the most anticipated titles in video game history.",
+  "short_description": "Rockstar North's return to Vice City, following Lucia Caminos and Jason Duval through the sun-soaked state of Leonida.",
+  "description": "Grand Theft Auto VI is the latest entry in Rockstar Games' landmark open-world series, led by Edinburgh's Rockstar North. Set in the state of Leonida, home to the neon-soaked streets of Vice City and the wider Florida-inspired wilderness around it, the game follows Lucia Caminos and her partner Jason Duval, a criminal couple drawn into the region's underworld after a heist goes wrong.\n\nFirst revealed in December 2023, when its debut trailer set YouTube records for the most-viewed video game trailer in 24 hours, GTA VI was among the most anticipated games in history, winning The Game Awards' Most Anticipated Game in both 2024 and 2025. It launched on PlayStation 5 and Xbox Series X|S on 19 November 2026 to near-universal acclaim, debuting with one of the highest Metacritic scores of all time.",
   "release_date": "2026-11-19",
-  "status": "in_development",
+  "status": "released",
   "companies": {
     "developer": [
       "rockstar-north"
@@ -18,7 +18,10 @@
     ],
     "service_companies": [],
     "used_tooling": [],
-    "supported_by": []
+    "supported_by": [],
+    "contributed_by": [
+      "rockstar-dundee"
+    ]
   },
   "genres": [
     "action",
@@ -35,14 +38,83 @@
     "type": "youtube",
     "id": "QdBZY2fkU-0"
   },
-  "stores": {},
+  "stores": {
+    "psn": "https://store.playstation.com/en-gb/product/EP1004-PPSA01547_00-GTAVISTANDARD001",
+    "xbox": "9P3H4968GRSM"
+  },
   "play_now": {},
   "physical_stores": {},
-  "critic_ratings": {},
-  "database_links": {
-    "igdb": "grand-theft-auto-vi"
+  "critic_ratings": {
+    "metacritic": 99,
+    "opencritic": 99
   },
-  "awards": [],
+  "critic_ids": {
+    "metacritic": "grand-theft-auto-vi",
+    "opencritic": "15398/grand-theft-auto-vi"
+  },
+  "database_links": {
+    "igdb": "grand-theft-auto-vi",
+    "backloggd": "grand-theft-auto-vi",
+    "opencritic": "15398/grand-theft-auto-vi",
+    "wikipedia": "Grand_Theft_Auto_VI"
+  },
+  "awards": [
+    {
+      "name": "The Game Awards - Game of the Year",
+      "year": 2026,
+      "status": "nominated"
+    },
+    {
+      "name": "The Game Awards - Best Game Direction",
+      "year": 2026,
+      "status": "nominated"
+    },
+    {
+      "name": "The Game Awards - Best Narrative",
+      "year": 2026,
+      "status": "nominated"
+    },
+    {
+      "name": "The Game Awards - Best Action/Adventure Game",
+      "year": 2026,
+      "status": "nominated"
+    },
+    {
+      "name": "The Game Awards - Best Score & Music",
+      "year": 2026,
+      "status": "nominated"
+    },
+    {
+      "name": "The Game Awards - Best Audio Design",
+      "year": 2026,
+      "status": "nominated"
+    },
+    {
+      "name": "The Game Awards - Most Anticipated Game",
+      "year": 2025,
+      "status": "won"
+    },
+    {
+      "name": "Golden Joystick Awards - Most Wanted Game",
+      "year": 2025,
+      "status": "won"
+    },
+    {
+      "name": "Golden Joystick Awards - Best Game Trailer",
+      "year": 2025,
+      "status": "won"
+    },
+    {
+      "name": "The Game Awards - Most Anticipated Game",
+      "year": 2024,
+      "status": "won"
+    },
+    {
+      "name": "Golden Joystick Awards - Most Wanted Game",
+      "year": 2024,
+      "status": "won"
+    }
+  ],
   "news": [],
   "is_student_game": false
 }

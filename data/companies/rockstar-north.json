@@ -47,7 +47,8 @@
   "contact_email": "",
   "legal_entities": [
     {
-      "uk_registered_name": "Rockstar Games UK Limited"
+      "uk_registered_name": "Rockstar Games UK Limited",
+      "companies_house_number": "03312220"
     }
   ],
   "use_tooling": [],
